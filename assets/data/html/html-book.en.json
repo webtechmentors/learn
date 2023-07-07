@@ -1,0 +1,1732 @@
+[
+  {
+    "category": "html",
+    "chid": 1,
+    "title": "Introduction to HTML",
+    "sections": [
+      {
+        "secid": 1,
+        "subtitle": "What is HTML?",
+        "paragraphs": [
+          {
+            "paraid": 1,
+            "text": "HTML stands for HyperText Markup Language. It is a standard markup language used to create web pages and web applications. HTML is used to describe the structure of content on a web page, such as headings, paragraphs, links, and images."
+          },
+          {
+            "paraid": 2,
+            "text": "HTML consists of a series of elements (tags) that are used to enclose content and provide information about the content. Each element has a specific purpose and meaning, and can be used to add structure, style, and interactivity to a web page."
+          },
+          {
+            "paraid": 3,
+            "text": "An HTML document is a text document saved with the extension \".html\" or \".htm\" that contains texts and HTML tags. When a web browser receives an HTML document, it reads the document and interprets the HTML tags to render the content on the page. By using HTML, web developers can create web pages that are semantically structured, accessible, and easy to maintain."
+          }
+        ]
+      },
+      {
+        "secid": 2,
+        "subtitle": "Why is HTML important for web development?",
+        "paragraphs": [
+          {
+            "paraid": 1,
+            "text": "HTML is the backbone of web development. It is essential for creating web pages and web applications that are both functional and visually appealing. Here are some reasons why HTML is important for web development:"
+          },
+          {
+            "paraid": 2,
+            "text": "<ol><li>Structure: HTML provides a way to structure content on a web page. By using HTML tags to enclose content, developers can create a hierarchy of content, with headings, paragraphs, and other elements arranged in a logical and meaningful way.</li><li>Accessibility: HTML is designed to be accessible to all users, including those with disabilities. By using semantic HTML tags and following accessibility guidelines, developers can create web pages that are easy to navigate and understand for users with disabilities.</li><li>Compatibility: HTML is a widely used and well-established standard, which means that it is supported by all modern web browsers. This makes it possible to create web pages that work consistently across different browsers and devices.</li><li>Interactivity: HTML provides a way to add interactivity to web pages through the use of forms, buttons, and other interactive elements. This allows developers to create web applications that can respond to user input and provide a dynamic user experience.</li><li>Search engine optimization (SEO): By using HTML tags and attributes to provide metadata and other information about a web page, developers can improve the search engine visibility and ranking of their website.</li></ol>"
+          },
+          {
+            "paraid": 3,
+            "text": "In summary, HTML is essential for web development because it provides a standardized way to structure and present content on the web, while also allowing for interactivity, accessibility, compatibility, and SEO."
+          }
+        ]
+      },
+      {
+        "secid": 3,
+        "subtitle": "Basic structure of an HTML document",
+        "paragraphs": [
+          {
+            "paraid": 1,
+            "text": "HTML documents are structured using HTML tags and elements. HTML tags are used to mark up content and provide information about the structure of the document. Here are some important elements of the HTML document structure:"
+          },
+          {
+            "paraid": 2,
+            "text": "<ol><li>Doctype Declaration: This is the first line of an HTML document and it informs the web browser which version of HTML is being used. It is not an HTML tag, but rather an instruction to the browser.</li><br/>Example: `<code>&lt;!DOCTYPE html&gt;</code>`</ol>"
+          },
+          {
+            "paraid": 3,
+            "text": "<ol start=\"2\"><li>HTML tag: The HTML tag is the root element of an HTML document. It tells the web browser that the document is an HTML document.</li><br/>Example: `<code>&lt;html&gt;</code>`...`<code>&lt;/html&gt;</code>`</ol>"
+          },
+          {
+            "paraid": 4,
+            "text": "<ol start=\"3\"><li>Head tag: The head tag contains information about the web page that is not displayed on the web page itself. This includes the title of the web page, any metadata, and links to CSS stylesheets and JavaScript files.</li><br/>Example:</ol>"
+          },
+          {
+            "paraid": 5,
+            "text": "",
+            "codeConfig": {
+              "codeid": "html_1_3_1",
+              "exampleid": "",
+              "codeOutput": false,
+              "exampleOutput": false,
+              "codeTitle": "HTML",
+              "exampleTitle": "",
+              "codeLangs": "xml",
+              "exampleLangs": "",
+              "codeSource": "",
+              "exampleSource": "",
+              "marginLeft": "2.5rem"
+            }
+          },
+          {
+            "paraid": 6,
+            "text": "<ol start=\"4\"><li>Body tag: The body tag contains the visible content of the web page, such as headings, paragraphs, images, and other HTML elements.</li><br/>Example:</ol>"
+          },
+          {
+            "paraid": 7,
+            "text": "",
+            "codeConfig": {
+              "codeid": "html_1_3_2",
+              "exampleid": "",
+              "codeOutput": true,
+              "exampleOutput": false,
+              "codeTitle": "HTML",
+              "exampleTitle": "",
+              "codeLangs": "xml",
+              "exampleLangs": "",
+              "codeSource": "",
+              "exampleSource": "",
+              "marginLeft": "2.5rem"
+            }
+          },
+          {
+            "paraid": 8,
+            "text": "<ol start=\"5\"><li>Tag attributes: HTML tags can have attributes that provide additional information about the tag or modify its behavior. Attributes are specified within the opening tag of an element.<br/><br/>Example:</li></ol>"
+          },
+          {
+            "paraid": 9,
+            "text": "",
+            "codeConfig": {
+              "codeid": "html_1_3_3",
+              "exampleid": "",
+              "codeOutput": true,
+              "exampleOutput": false,
+              "codeTitle": "HTML",
+              "exampleTitle": "",
+              "codeLangs": "xml",
+              "exampleLangs": "",
+              "codeSource": "",
+              "exampleSource": "",
+              "marginLeft": "2.5rem"
+            }
+          },
+          {
+            "paraid": 10,
+            "text": "<ol>In this example, the `<code>img</code>` tag has two attributes: `<code>src</code>` specifies the location of the image file, and `<code>alt</code>` provides alternative text for the image.</ol>"
+          },
+          {
+            "paraid": 11,
+            "text": "<ol start=\"6\"><li>Comments: HTML comments are used to add notes and explanations to an HTML document that are not displayed on the web page. Comments start with `<code>&lt;!--</code>` and end with `<code>--&gt;</code>`.<br/><br/>Example:</li></ol>"
+          },
+          {
+            "paraid": 12,
+            "text": "",
+            "codeConfig": {
+              "codeid": "html_1_3_4",
+              "exampleid": "",
+              "codeOutput": false,
+              "exampleOutput": false,
+              "codeTitle": "HTML",
+              "exampleTitle": "",
+              "codeLangs": "xml",
+              "exampleLangs": "",
+              "codeSource": "",
+              "exampleSource": "",
+              "marginLeft": "2.5rem"
+            }
+          },
+          {
+            "paraid": 13,
+            "text": "In summary, an HTML document has a basic structure that includes a doctype declaration, HTML tag, head tag, and body tag, tag attributes, and comments. By using these elements, developers can create well-structured web pages that are easy to read and maintain."
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "category": "html",
+    "chid": 2,
+    "title": "HTML Document Structure",
+    "sections": [
+      {
+        "secid": 1,
+        "subtitle": "HTML tags and elements",
+        "paragraphs": [
+          {
+            "paraid": 1,
+            "text": "HTML tags are used to mark up content in an HTML document. An HTML tag consists of the tag name enclosed in angle brackets, such as `<code>&lt;tagname&gt;</code>`. Some HTML tags have attributes that provide additional information about the tag or modify its behavior. An HTML element is defined by an opening tag, tag attributs, some content, and a closing tag.<br/><br/>Here are some important HTML tags:"
+          },
+          {
+            "paraid": 2,
+            "text": "<ol><li>`<code>&lt;html&gt;</code>`: The `<code>&lt;html&gt;</code>` tag is the outermost tag of an HTML document. It contains all the other tags and elements of the document.</li><li>`<code>&lt;head&gt;</code>`: The `<code>&lt;head&gt;</code>` tag contains information about the web page that is not displayed on the web page itself. This includes the title of the web page, any metadata, and links to CSS stylesheets and JavaScript files.</li><li>`<code>&lt;body&gt;</code>`: The `<code>&lt;body&gt;</code>` tag contains the visible content of the web page, such as headings, paragraphs, images, and other HTML elements.</li><li>`<code>&lt;h1&gt;</code>`, `<code>&lt;h2&gt;</code>`, `<code>&lt;h3&gt;</code>`, `<code>&lt;h4&gt;</code>`, `<code>&lt;h5&gt;</code>`, `<code>&lt;h6&gt;</code>`: The heading tags are used to indicate the importance and hierarchy of headings on a web page.</li><li>`<code>&lt;p&gt;</code>`: The `<code>&lt;p&gt;</code>` tag is used to enclose paragraphs of text.</li><li>`<code>&lt;a&gt;</code>`: The `<code>&lt;a&gt;</code>` tag is used to create links to other web pages or resources. It has an `<code>href</code>` attribute that specifies the URL of the link.</li><li>`<code>&lt;img&gt;</code>`: The `<code>&lt;img&gt;</code>` tag is used to insert images into a web page. It has attributes such as `<code>src</code>` that specifies the location of the image file, and `<code>alt</code>` that provides alternative text for the image.</li><li>`<code>&lt;ul&gt;</code>`, `<code>&lt;ol&gt;</code>`, `<code>&lt;li&gt;</code>`: These tags are used to create lists on a web page. `<code>&lt;ul&gt;</code>` creates an unordered list, `<code>&lt;ol&gt;</code>` creates an ordered list, and `<code>&lt;li&gt;</code>` creates a list item.</li><li>`<code>&lt;div&gt;</code>`, `<code>&lt;span&gt;</code>`: These tags are used to group and style other HTML elements. `<code>&lt;div&gt;</code>` is used to group a set of related elements together, while `<code>&lt;span&gt;</code>` is used to apply styles to specific parts of an element's content.</li></ol>"
+          },
+          {
+            "paraid": 3,
+            "text": "<ol>Here is an example:</ol>"
+          },
+          {
+            "paraid": 4,
+            "text": "",
+            "codeConfig": {
+              "codeid": "html_2_1_1",
+              "exampleid": "",
+              "codeOutput": true,
+              "exampleOutput": false,
+              "codeTitle": "HTML",
+              "exampleTitle": "",
+              "codeLangs": "xml",
+              "exampleLangs": "",
+              "codeSource": "",
+              "exampleSource": "",
+              "marginLeft": "2.5rem"
+            }
+          },
+          {
+            "paraid": 5,
+            "text": "In summary, HTML tags are used to mark up content in an HTML document. The most common HTML tags include `<code>&lt;html&gt;</code>`, `<code>&lt;head&gt;</code>`, `<code>&lt;body&gt;</code>`, `<code>&lt;h1&gt;</code>`-`<code>&lt;h6&gt;</code>`, `<code>&lt;p&gt;</code>`, `<code>&lt;a&gt;</code>`, `<code>&lt;img&gt;</code>`, `<code>&lt;ul&gt;</code>`, `<code>&lt;ol&gt;</code>`, `<code>&lt;li&gt;</code>`, `<code>&lt;div&gt;</code>`, and `<code>&lt;span&gt;</code>`. By using these tags and elements, developers can create well-structured and visually appealing web pages."
+          }
+        ]
+      },
+      {
+        "secid": 2,
+        "subtitle": "Doctype declaration",
+        "paragraphs": [
+          {
+            "paraid": 1,
+            "text": "The doctype declaration is an instruction to the web browser about the version of HTML that the web page is written in. It is placed at the very beginning of an HTML document, before the `<code>&lt;html&gt;</code>` tag."
+          },
+          {
+            "paraid": 2,
+            "text": "Here is an example of a doctype declaration for HTML5:"
+          },
+          {
+            "paraid": 3,
+            "text": "",
+            "codeConfig": {
+              "codeid": "html_2_2_1",
+              "exampleid": "",
+              "codeOutput": false,
+              "exampleOutput": false,
+              "codeTitle": "HTML",
+              "exampleTitle": "",
+              "codeLangs": "xml",
+              "exampleLangs": "",
+              "codeSource": "",
+              "exampleSource": "",
+              "marginLeft": "0"
+            }
+          },
+          {
+            "paraid": 4,
+            "text": "This declaration tells the web browser that the web page is written in HTML5."
+          },
+          {
+            "paraid": 5,
+            "text": "Prior to HTML5, there were several versions of HTML, including HTML 4.01, XHTML 1.0, and XHTML 1.1. Each version had its own doctype declaration."
+          },
+          {
+            "paraid": 6,
+            "text": "Here are some examples of doctype declarations for other versions of HTML:"
+          },
+          {
+            "paraid": 7,
+            "text": "HTML 4.01 Strict:"
+          },
+          {
+            "paraid": 8,
+            "text": "",
+            "codeConfig": {
+              "codeid": "html_2_2_2",
+              "exampleid": "",
+              "codeOutput": false,
+              "exampleOutput": false,
+              "codeTitle": "HTML",
+              "exampleTitle": "",
+              "codeLangs": "xml",
+              "exampleLangs": "",
+              "codeSource": "",
+              "exampleSource": "",
+              "marginLeft": "0"
+            }
+          },
+          {
+            "paraid": 9,
+            "text": "XHTML 1.0 Strict:"
+          },
+          {
+            "paraid": 10,
+            "text": "",
+            "codeConfig": {
+              "codeid": "html_2_2_3",
+              "exampleid": "",
+              "codeOutput": false,
+              "exampleOutput": false,
+              "codeTitle": "HTML",
+              "exampleTitle": "",
+              "codeLangs": "xml",
+              "exampleLangs": "",
+              "codeSource": "",
+              "exampleSource": "",
+              "marginLeft": "0"
+            }
+          },
+          {
+            "paraid": 11,
+            "text": "In summary, the doctype declaration is an instruction to the web browser about the version of HTML that the web page is written in. It is placed at the beginning of an HTML document and helps the web browser to correctly interpret the HTML code and display the web page as intended."
+          }
+        ]
+      },
+      {
+        "category": "html",
+        "secid": 3,
+        "subtitle": "Head and body section",
+        "paragraphs": [
+          {
+            "paraid": 1,
+            "text": "In an HTML document, the `<code>&lt;head&gt;</code>` section and `<code>&lt;body&gt;</code>` section have different roles and purposes."
+          },
+          {
+            "paraid": 2,
+            "text": "The `<code>&lt;head&gt;</code>` section of an HTML document contains information about the web page that is not displayed on the web page itself. This information includes the title of the web page, any metadata, and links to CSS stylesheets and JavaScript files."
+          },          
+          {
+            "paraid": 3,
+            "text": "Here are some common tags that can be included in the `<code>&lt;head&gt;</code>` section of an HTML document:"
+          },
+          {
+            "paraid": 4,
+            "text": "<ol><li>`<code>&lt;title&gt;</code>`: The `<code>&lt;title&gt;</code>` tag is used to define the title of the web page. The title is displayed in the browser's title bar or tab.</li><li>`<code>&lt;meta&gt;</code>`: The `<code>&lt;meta&gt;</code>` tag is used to specify metadata about the web page, such as the character encoding, description, and keywords.</li><li>`<code>&lt;link&gt;</code>`: The `<code>&lt;link&gt;</code>` tag is used to link to external resources, such as CSS stylesheets and JavaScript files.</li><li>`<code>&lt;style&gt;</code>`: The `<code>&lt;style&gt;</code>` tag is used to define CSS styles for the web page.</li><li>`<code>&lt;script&gt;</code>`: The `<code>&lt;script&gt;</code>` tag is used to include JavaScript code in the web page.</li></ol>"
+          },
+          {
+            "paraid": 5,
+            "text": "<ol>Here is an example of `<code>&lt;head&gt;</code>` section:</ol>"
+          },
+          {
+            "paraid": 6,
+            "text": "",
+            "codeConfig": {
+              "codeid": "html_2_3_1",
+              "exampleid": "",
+              "codeOutput": false,
+              "exampleOutput": false,
+              "codeTitle": "HTML",
+              "exampleTitle": "",
+              "codeLangs": "xml",
+              "exampleLangs": "",
+              "codeSource": "",
+              "exampleSource": "",
+              "marginLeft": "2.5rem"
+            }
+          },
+          {
+            "paraid": 7,
+            "text": "The `<code>&lt;body&gt;</code>` section of an HTML document contains the visible content of the web page, such as headings, paragraphs, images, and other HTML elements. This section is where the actual content of the web page is displayed."
+          },
+          {
+            "paraid": 8,
+            "text": "Here are some common HTML tags that can be included in the `<code>&lt;body&gt;</code>` section of an HTML document:"
+          },
+          {
+            "paraid": 9,
+            "text": "<ol><li>Headings (`<code>&lt;h1&gt;</code>`-`<code>&lt;h6&gt;</code>`): Headings are used to indicate the importance and hierarchy of headings on a web page.</li><li>Paragraphs (`<code>&lt;p&gt;</code>`): Paragraphs are used to enclose blocks of text.</li><li>Links (`<code>&lt;a&gt;</code>`): Links are used to create hyperlinks to other web pages or resources.</li><li>Images (`<code>&lt;img&gt;</code>`): Images are used to display graphics on a web page.</li><li>Lists (`<code>&lt;ul&gt;</code>`, `<code>&lt;ol&gt;</code>`, `<code>&lt;li&gt;</code>`): Lists are used to create ordered or unordered lists of items.</li></ol>"
+          },
+          {
+            "paraid": 10,
+            "text": "<ol>Here is an example of `<code>&lt;body&gt;</code>` section:</ol>"
+          },
+          {
+            "paraid": 11,
+            "text": "",
+            "codeConfig": {
+              "codeid": "html_2_3_2",
+              "exampleid": "",
+              "codeOutput": true,
+              "exampleOutput": false,
+              "codeTitle": "HTML",
+              "exampleTitle": "",
+              "codeLangs": "xml",
+              "exampleLangs": "",
+              "codeSource": "",
+              "exampleSource": "",
+              "marginLeft": "2.5rem"
+            }
+          },
+          {
+            "paraid": 12,
+            "text": "In summary, the `<code>&lt;head&gt;</code>` section of an HTML document contains information about the web page that is not displayed on the web page itself, while the `<code>&lt;body&gt;</code>` section contains the visible content of the web page. By using these sections, developers can create well-structured and visually appealing web pages."
+          }
+        ]
+      },
+      {
+        "secid": 4,
+        "subtitle": "Meta tags",
+        "paragraphs": [
+          {
+            "paraid": 1,
+            "text": "Meta tags in HTML are used to provide metadata about an HTML document. This metadata includes information about the web page that is not displayed on the page itself, such as the character encoding, keywords, and description. Here are some commonly used meta tags in HTML:"
+          },
+          {
+            "paraid": 2,
+            "text": "<ol><li>`<code>&lt;meta charset=\"UTF-8\"&gt;</code>`: This meta tag specifies the character encoding of the HTML document. UTF-8 is a widely used character encoding that can represent any character in the Unicode standard.</li><li>`<code>&lt;meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\"&gt;</code>`: This meta tag is used to control the viewport size of the web page. The width=device-width part sets the width of the viewport to the width of the device, while the initial-scale=1.0 part sets the initial zoom level to 100%.</li><li>`<code>&lt;meta name=\"keywords\" content=\"keyword1, keyword2, keyword3\"&gt;</code>`: This meta tag specifies a comma-separated list of keywords that are relevant to the web page. Search engines can use this information to help index the page.</li><li>`<code>&lt;meta name=\"description\" content=\"Description of the web page\"&gt;</code>`: This meta tag provides a description of the web page that can be used by search engines and social media platforms when displaying a summary of the page.</li><li>`<code>&lt;meta name=\"author\" content=\"Name of the author\"&gt;</code>`: This meta tag specifies the name of the author of the web page.</li><li>`<code>&lt;meta name=\"robots\" content=\"index, follow\"&gt;</code>`: This meta tag specifies how search engines should index the web page. The index value tells search engines to include the page in their index, while the follow value tells them to follow any links on the page.</li></ol>"
+          },          
+          {
+            "paraid": 3,
+            "text": "In summary, meta tags in HTML are used to provide metadata about an HTML document. They include information such as the character encoding, keywords, and description of the web page. By using meta tags, developers can provide more information to search engines and improve the visibility and accessibility of their web pages."
+          }
+        ]
+      },
+      {
+        "secid": 5,
+        "subtitle": "Tag attributes",
+        "paragraphs": [
+          {
+            "paraid": 1,
+            "text": "HTML tag attributes are used to provide additional information or instructions to HTML elements. They modify the behavior, appearance, or functionality of the elements. Here are some commonly used HTML tag attributes:"
+          },
+          {
+            "paraid": 2,
+            "text": "<ol><li>`<code>class</code>`: Specifies one or more CSS class names to apply styles or JavaScript functionality.<br/><br/>For example:</li></ol>"
+          },
+          {
+            "paraid": 3,
+            "text": "",
+            "codeConfig": {
+              "codeid": "html_2_5_1",
+              "exampleid": "",
+              "codeOutput": false,
+              "exampleOutput": false,
+              "codeTitle": "HTML",
+              "exampleTitle": "",
+              "codeLangs": "xml",
+              "exampleLangs": "",
+              "codeSource": "",
+              "exampleSource": "",
+              "marginLeft": "2.5rem"
+            }
+          },
+          {
+            "paraid": 4,
+            "text": "<ol start=\"2\"><li>`<code>id</code>`: Provides a unique identifier for an element, typically used for JavaScript manipulation or styling.<br/><br/>For example:</li></ol>"
+          },
+          {
+            "paraid": 5,
+            "text": "",
+            "codeConfig": {
+              "codeid": "html_2_5_2",
+              "exampleid": "",
+              "codeOutput": false,
+              "exampleOutput": false,
+              "codeTitle": "HTML",
+              "exampleTitle": "",
+              "codeLangs": "xml",
+              "exampleLangs": "",
+              "codeSource": "",
+              "exampleSource": "",
+              "marginLeft": "2.5rem"
+            }
+          },
+          {
+            "paraid": 6,
+            "text": "<ol start=\"3\"><li>`<code>style</code>`: Applies inline CSS styles to an element.<br/><br/>For example:</li></ol>"
+          },
+          {
+            "paraid": 7,
+            "text": "",
+            "codeConfig": {
+              "codeid": "html_2_5_3",
+              "exampleid": "",
+              "codeOutput": false,
+              "exampleOutput": false,
+              "codeTitle": "HTML",
+              "exampleTitle": "",
+              "codeLangs": "xml",
+              "exampleLangs": "",
+              "codeSource": "",
+              "exampleSource": "",
+              "marginLeft": "2.5rem"
+            }
+          },
+          {
+            "paraid": 8,
+            "text": "<ol start=\"4\"><li>`<code>src</code>`: Specifies the source URL of an external resource, such as an image or script.<br/><br/>For example:</li></ol>"
+          },
+          {
+            "paraid": 9,
+            "text": "",
+            "codeConfig": {
+              "codeid": "html_2_5_4",
+              "exampleid": "",
+              "codeOutput": false,
+              "exampleOutput": false,
+              "codeTitle": "HTML",
+              "exampleTitle": "",
+              "codeLangs": "xml",
+              "exampleLangs": "",
+              "codeSource": "",
+              "exampleSource": "",
+              "marginLeft": "2.5rem"
+            }
+          },
+          {
+            "paraid": 10,
+            "text": "<ol start=\"5\"><li>`<code>href</code>`: Specifies the URL of a linked resource, typically used with anchor (`<code>&lt;a&gt;</code>`) elements.<br/><br/>For example:</li></ol>"
+          },
+          {
+            "paraid": 11,
+            "text": "",
+            "codeConfig": {
+              "codeid": "html_2_5_5",
+              "exampleid": "",
+              "codeOutput": false,
+              "exampleOutput": false,
+              "codeTitle": "HTML",
+              "exampleTitle": "",
+              "codeLangs": "xml",
+              "exampleLangs": "",
+              "codeSource": "",
+              "exampleSource": "",
+              "marginLeft": "2.5rem"
+            }
+          },
+          {
+            "paraid": 12,
+            "text": "<ol start=\"6\"><li>`<code>alt</code>`: Provides alternative text for an image, to be displayed if the image cannot be loaded.<br/><br/>For example:</li></ol>"
+          },
+          {
+            "paraid": 13,
+            "text": "",
+            "codeConfig": {
+              "codeid": "html_2_5_6",
+              "exampleid": "",
+              "codeOutput": false,
+              "exampleOutput": false,
+              "codeTitle": "HTML",
+              "exampleTitle": "",
+              "codeLangs": "xml",
+              "exampleLangs": "",
+              "codeSource": "",
+              "exampleSource": "",
+              "marginLeft": "2.5rem"
+            }
+          },
+          {
+            "paraid": 14,
+            "text": "<ol start=\"7\"><li>`<code>width</code>` and `<code>height</code>`: Specifies the width and height of an element, such as an image or table cell.<br/><br/>For example:</li></ol>"
+          },
+          {
+            "paraid": 15,
+            "text": "",
+            "codeConfig": {
+              "codeid": "html_2_5_7",
+              "exampleid": "",
+              "codeOutput": false,
+              "exampleOutput": false,
+              "codeTitle": "HTML",
+              "exampleTitle": "",
+              "codeLangs": "xml",
+              "exampleLangs": "",
+              "codeSource": "",
+              "exampleSource": "",
+              "marginLeft": "2.5rem"
+            }
+          },
+          {
+            "paraid": 16,
+            "text": "<ol start=\"8\"><li>`<code>disabled</code>`: Disables an input, button, or other interactive element.<br/><br/>For example:</li></ol>"
+          },
+          {
+            "paraid": 17,
+            "text": "",
+            "codeConfig": {
+              "codeid": "html_2_5_8",
+              "exampleid": "",
+              "codeOutput": false,
+              "exampleOutput": false,
+              "codeTitle": "HTML",
+              "exampleTitle": "",
+              "codeLangs": "xml",
+              "exampleLangs": "",
+              "codeSource": "",
+              "exampleSource": "",
+              "marginLeft": "2.5rem"
+            }
+          },
+          {
+            "paraid": 18,
+            "text": "<ol start=\"9\"><li>`<code>required</code>`: Specifies that an input field must be filled out before submitting a form.<br/><br/>For example:</li></ol>"
+          },
+          {
+            "paraid": 19,
+            "text": "",
+            "codeConfig": {
+              "codeid": "html_2_5_7",
+              "exampleid": "",
+              "codeOutput": false,
+              "exampleOutput": false,
+              "codeTitle": "HTML",
+              "exampleTitle": "",
+              "codeLangs": "xml",
+              "exampleLangs": "",
+              "codeSource": "",
+              "exampleSource": "",
+              "marginLeft": "2.5rem"
+            }
+          },
+          {
+            "paraid": 20,
+            "text": "<ol start=\"10\"><li>`<code>placeholder</code>`: Provides a short hint or example value for an input field.<br/><br/>For example:</li></ol>"
+          },
+          {
+            "paraid": 21,
+            "text": "",
+            "codeConfig": {
+              "codeid": "html_2_5_10",
+              "exampleid": "",
+              "codeOutput": false,
+              "exampleOutput": false,
+              "codeTitle": "HTML",
+              "exampleTitle": "",
+              "codeLangs": "xml",
+              "exampleLangs": "",
+              "codeSource": "",
+              "exampleSource": "",
+              "marginLeft": "2.5rem"
+            }
+          },
+          {
+            "paraid": 22,
+            "text": "These are just a few examples of commonly used HTML tag attributes. Different HTML elements support different attributes, and you can explore the HTML specification or refer to documentation to find specific attributes for each element."
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "category": "html",
+    "chid": 3,
+    "title": "HTML Text Formatting",
+    "sections": [
+      {
+        "secid": 1,
+        "subtitle": "Headings",
+        "paragraphs": [
+          {
+            "paraid": 1,
+            "text": "In HTML, headings are used to provide structure and hierarchy to the content of a web page. Headings are indicated using the `<code>&lt;h1&gt;</code>` to `<code>&lt;h6&gt;</code>` tags, with `<code>&lt;h1&gt;</code>` being the most important and `<code>&lt;h6&gt;</code>` being the least important. Here is an overview of the different heading tags in HTML:"
+          },
+          {
+            "paraid": 2,
+            "text": "<ol><li>`<code>&lt;h1&gt;</code>`: This tag is used for the main heading of the page, usually the title of the article or the main topic.</li><li>`<code>&lt;h2&gt;</code>`: This tag is used for subheadings, usually for sections that are major topics within the main heading.</li><li>`<code>&lt;h3&gt;</code>` to `<code>&lt;h6&gt;</code>`: These tags are used for subheadings that are nested within larger sections. For example, `<code>&lt;h3&gt;</code>` might be used for subheadings within an `<code>&lt;h2&gt;</code>` section.</li></ol>"
+          },
+          {
+            "paraid": 4,
+            "text": "<ol>Following are examples of headings:</ol>"
+          },
+          {
+            "paraid": 5,
+            "text": "",
+            "codeConfig": {
+              "codeid": "html_3_1_1",
+              "exampleid": "",
+              "codeOutput": true,
+              "exampleOutput": false,
+              "codeTitle": "HTML",
+              "exampleTitle": "",
+              "codeLangs": "xml",
+              "exampleLangs": "",
+              "codeSource": "",
+              "exampleSource": "",
+              "marginLeft": "2.5rem"
+            }
+          },
+          {
+            "paraid": 3,
+            "text": "Headings are not only important for providing structure and hierarchy to the content of a web page, but they also provide semantic meaning to the content. Search engines and accessibility tools use heading tags to understand the structure of the page and to provide better navigation and usability for users."
+          },
+          {
+            "paraid": 4,
+            "text": "It's important to note that headings should be used appropriately and not simply for visual effects. The most important heading should always be `<code>&lt;h1&gt;</code>` and should be used only once per page. The other heading tags should be used to create a logical hierarchy of content on the page." 
+          },
+          {
+            "paraid": 5,
+            "text": "In summary, headings in HTML provide structure and hierarchy to the content of a web page. They are indicated using the `<code>&lt;h1&gt;</code>` to `<code>&lt;h6&gt;</code>` tags, with `<code>&lt;h1&gt;</code>` being the most important and `<code>&lt;h6&gt;</code>` being the least important. By using headings appropriately, developers can create semantically meaningful and accessible content on their web pages." 
+          }
+        ]
+      },
+      {
+        "secid": 2,
+        "subtitle": "Paragraphs",
+        "paragraphs": [
+          {
+            "paraid": 1,
+            "text": "In HTML, the `<code>&lt;p&gt;</code>` tag is used to indicate a paragraph of text. It is a block-level element that creates a new line both before and after the paragraph.<br/><br/>Here is an example of how to use the `<code>&lt;p&gt;</code>` tag:"
+          },
+          {
+            "paraid": 2,
+            "text": "",
+            "codeConfig": {
+              "codeid": "html_3_2_1",
+              "exampleid": "",
+              "codeOutput": true,
+              "exampleOutput": false,
+              "codeTitle": "HTML",
+              "exampleTitle": "",
+              "codeLangs": "xml",
+              "exampleLangs": "",
+              "codeSource": "",
+              "exampleSource": "",
+              "marginLeft": "0"
+            }
+          },          
+          {
+            "paraid": 3,
+            "text": "You can use as many `<code>&lt;p&gt;</code>` tags as you need to create multiple paragraphs of text.<br/><br/>For example:"
+          },
+          {
+            "paraid": 4,
+            "text": "",
+            "codeConfig": {
+              "codeid": "html_3_2_2",
+              "exampleid": "",
+              "codeOutput": true,
+              "exampleOutput": false,
+              "codeTitle": "HTML",
+              "exampleTitle": "",
+              "codeLangs": "xml",
+              "exampleLangs": "",
+              "codeSource": "",
+              "exampleSource": "",
+              "marginLeft": "0"
+            }
+          },
+          {
+            "paraid": 5,
+            "text": "By default, the text inside a `<code>&lt;p&gt;</code>` tag is displayed with a single blank line before and after it. However, you can use CSS to modify the spacing or styling of paragraphs if needed."
+          },          
+          {
+            "paraid": 6,
+            "text": "Paragraphs are an important element in HTML because they allow you to organize text into logical units. They are particularly useful for long-form content such as articles, blog posts, and other types of textual content. By using paragraphs to break up your content, you can make it easier to read and more visually appealing to users."
+          },
+          {
+            "paraid": 7,
+            "text": "In summary, the `<code>&lt;p&gt;</code>` tag in HTML is used to indicate a paragraph of text. It creates a new line before and after the paragraph and is particularly useful for long-form content such as articles and blog posts."
+          }
+        ]
+      },
+      {
+        "secid": 3,
+        "subtitle": "Text styles",
+        "paragraphs": [
+          {
+            "paraid": 1,
+            "text": "In HTML, there are several ways to format text to make it stand out or to emphasize certain parts of the content. Here are some of the most commonly used text formatting tags in HTML:"
+          },
+          {
+            "paraid": 2,
+            "text": "<ol><li>`<code>&lt;b&gt;</code>` and `<code>&lt;strong&gt;</code>`: These tags are used to make text bold. The `<code>&lt;b&gt;</code>` tag is a presentational tag, while the `<code>&lt;strong&gt;</code>` tag is a semantic tag that indicates that the text is important or should be emphasized.</li><li>`<code>&lt;i&gt;</code>` and `<code>&lt;em&gt;</code>`: These tags are used to make text italicized. The `<code>&lt;i&gt;</code>` tag is a presentational tag, while the `<code>&lt;em&gt;</code>` tag is a semantic tag that indicates that the text has emphasis.</li><li>`<code>&lt;sup&gt;</code>` and `<code>&lt;sub&gt;</code>`: These tags are used to create superscript and subscript text, respectively. Superscript text is raised above the baseline, while subscript text is lowered below the baseline.</li><li>`<code>&lt;mark&gt;</code>`: This tag is used to highlight text with a yellow background, indicating that it is important or relevant.</li><li>`<code>&lt;small&gt;</code>`: This tag is used to make text smaller.</li><li>`<code>&lt;code&gt;</code>`: This tag is used to display code snippets or other preformatted text in a monospace font.</li><li>`<code>&lt;blockquote&gt;</code>`: This tag is used to create a blockquote, indicating that the enclosed text is a quote from another source.</li><li>`<code>&lt;pre&gt;</code>`: This tag is used to display preformatted text, preserving any whitespace and line breaks.</li></ol>"
+          },
+          {
+            "paraid": 3,
+            "text": "",
+            "codeConfig": {
+              "codeid": "html_3_3_1",
+              "exampleid": "",
+              "codeOutput": true,
+              "exampleOutput": false,
+              "codeTitle": "HTML",
+              "exampleTitle": "",
+              "codeLangs": "xml",
+              "exampleLangs": "",
+              "codeSource": "",
+              "exampleSource": "",
+              "marginLeft": "2.5rem"
+            }
+          },
+          {
+            "paraid": 14,
+            "text": "In summary, HTML provides several text formatting tags that can be used to make text bold, italicized, underlined, strikethrough, superscript, subscript, highlighted, small, code-like, quoted or preformatted. By using these tags, developers can create more visually appealing and semantically meaningful content on their web pages."
+          }
+        ]
+      },
+      {
+        "secid": 4,
+        "subtitle": "Lists (ordered and unordered) ",
+        "paragraphs": [
+          {
+            "paraid": 1,
+            "text": "<ol><li>Unordered Lists</li></ol>"
+          },          
+          {
+            "paraid": 2,
+            "text": "<ol>An unordered list is a list of items that are not numbered or ordered in any particular way. To create an unordered list, you use the `<code>&lt;ul&gt;</code>` tag and wrap each item with the `<code>&lt;li&gt;</code>` tag.<br/><br/>For example:</ol>"
+          },          
+          {
+            "paraid": 3,
+            "text": "",
+            "codeConfig": {
+              "codeid": "html_3_4_1",
+              "exampleid": "",
+              "codeOutput": true,
+              "exampleOutput": false,
+              "codeTitle": "HTML",
+              "exampleTitle": "",
+              "codeLangs": "xml",
+              "exampleLangs": "",
+              "codeSource": "",
+              "exampleSource": "",
+              "marginLeft": "2.5rem"
+            }
+          },
+          {
+            "paraid": 4,
+            "text": "<ol>You can also add nested lists to an unordered list by adding another `<code>&lt;ul&gt;</code>` tag inside an `<code>&lt;li&gt;</code>` tag:</ol>"
+          },
+          {
+            "paraid": 5,
+            "text": "",
+            "codeConfig": {
+              "codeid": "html_3_4_2",
+              "exampleid": "",
+              "codeOutput": true,
+              "exampleOutput": false,
+              "codeTitle": "HTML",
+              "exampleTitle": "",
+              "codeLangs": "xml",
+              "exampleLangs": "",
+              "codeSource": "",
+              "exampleSource": "",
+              "marginLeft": "2.5rem"
+            }
+          },
+          {
+            "paraid": 6,
+            "text": "<ol start=\"2\"><li>Ordered Lists</li></ol>"
+          },
+          {
+            "paraid": 7,
+            "text": "<ol>An ordered list is a list of items that are numbered or ordered in a specific way. To create an ordered list, you use the `<code>&lt;ol&gt;</code>` tag and wrap each item with the `<code>&lt;li&gt;</code>` tag.</li><br/><br/>For example:</ol>"
+          },
+          {
+            "paraid": 8,
+            "text": "",
+            "codeConfig": {
+              "codeid": "html_3_4_3",
+              "exampleid": "",
+              "codeOutput": true,
+              "exampleOutput": false,
+              "codeTitle": "HTML",
+              "exampleTitle": "",
+              "codeLangs": "xml",
+              "exampleLangs": "",
+              "codeSource": "",
+              "exampleSource": "",
+              "marginLeft": "2.5rem"
+            }
+          },
+          {
+            "paraid": 9,
+            "text": "<ol>Like unordered lists, you can add nested lists to an ordered list:</ol>"
+          },
+          {
+            "paraid": 10,
+            "text": "",
+            "codeConfig": {
+              "codeid": "html_3_4_4",
+              "exampleid": "",
+              "codeOutput": true,
+              "exampleOutput": false,
+              "codeTitle": "HTML",
+              "exampleTitle": "",
+              "codeLangs": "xml",
+              "exampleLangs": "",
+              "codeSource": "",
+              "exampleSource": "",
+              "marginLeft": "2.5rem"
+            }
+          },
+          {
+            "paraid": 11,
+            "text": "In summary, HTML provides two types of lists: ordered and unordered. Both types of lists are useful for organizing content into items, such as steps in a recipe, or bullet points in a presentation. By using the `<code>&lt;ul&gt;</code>` and `<code>&lt;ol&gt;</code>` tags along with the `<code>&lt;li&gt;</code>` tag, you can create lists of items with various levels of nesting."
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "category": "html",
+    "chid": 4,
+    "title": "HTML Links and Images",
+    "sections": [
+      {
+        "secid": 1,
+        "subtitle": "Linking to other pages or other parts of the same page",
+        "paragraphs": [
+          {
+            "paraid": 1,
+            "text": "Linking to other pages in HTML is a fundamental aspect of web development. You can create links that navigate to other pages on the same website or to external websites. To link to another page in HTML, you use the `<code>&lt;a&gt;</code>` tag and set the `<code>href</code>` attribute to the URL of the page you want to link to."
+          },          
+          {
+            "paraid": 2,
+            "text": "<ol><li>Linking to an external website</li></ol>"
+          },          
+          {
+            "paraid":3, 
+            "text": "<ol>To link to an external website, you simply set the `<code>href</code>` attribute to the URL of the website.<br/><br/>For example:</ol>"
+          },
+          {
+            "paraid": 4,
+            "text": "",
+            "codeConfig": {
+              "codeid": "html_4_1_1",
+              "exampleid": "",
+              "codeOutput": false,
+              "exampleOutput": false,
+              "codeTitle": "HTML",
+              "exampleTitle": "",
+              "codeLangs": "xml",
+              "exampleLangs": "",
+              "codeSource": "",
+              "exampleSource": "",
+              "marginLeft": "2.5rem"
+            }
+          },
+          {
+            "paraid": 5,
+            "text": "<ol>This will create a hyperlink that says \"Click here to visit Example.com\" and when clicked, will take the user to the Example.com website.</ol>"
+          },
+          {
+            "paraid": 6,
+            "text": "<ol start=\"2\"><li>Linking to a page on the same website</li></ol>"
+          },
+          {
+            "paraid": 7,
+            "text": "<ol>To link to a page on the same website, you need to provide the relative path to the page. The relative path is the path to the file from the current page. For example, if you have a file called `<code>about.html</code>` in the same directory as the current page, you would use the following code to create a link to it:</ol>"
+          },
+          {
+            "paraid": 8,
+            "text": "",
+            "codeConfig": {
+              "codeid": "html_4_1_2",
+              "exampleid": "",
+              "codeOutput": false,
+              "exampleOutput": false,
+              "codeTitle": "HTML",
+              "exampleTitle": "",
+              "codeLangs": "xml",
+              "exampleLangs": "",
+              "codeSource": "",
+              "exampleSource": "",
+              "marginLeft": "2.5rem"
+            }
+          },
+          {
+            "paraid": 9,
+            "text": "<ol>This will create a hyperlink that says \"About Us\" and when clicked, will take the user to the `<code>about.html</code>` page in the same directory.</ol>"
+          },
+          {
+            "paraid": 10,
+            "text": "<ol>If the file you want to link to is in a different directory, you need to provide the relative path to that directory. For example, if you have a file called `<code>contact.html</code>` in a directory called `<code>pages</code>`, you would use the following code to create a link to it:</ol>"
+          },
+          {
+            "paraid": 11,
+            "text": "",
+            "codeConfig": {
+              "codeid": "html_4_1_3",
+              "exampleid": "",
+              "codeOutput": false,
+              "exampleOutput": false,
+              "codeTitle": "HTML",
+              "exampleTitle": "",
+              "codeLangs": "xml",
+              "exampleLangs": "",
+              "codeSource": "",
+              "exampleSource": "",
+              "marginLeft": "2.5rem"
+            }
+          },
+          {
+            "paraid": 12,
+            "text": "<ol>This will create a hyperlink that says \"Contact Us\" and when clicked, will take the user to the `<code>contact.html</code>` page in the `<code>pages</code>` directory.</ol>"
+          },
+          {
+            "paraid": 13,
+            "text": "<ol start=\"3\"><li>Navigate to different parts of the same web page</li></ol>"
+          },
+          {
+            "paraid": 14,
+            "text": "<ol>You can also create links that navigate to different parts of the same web page using anchor tags. To create an anchor tag, you use the <a> tag and set the href attribute to the ID of the element you want to navigate to.<br/><br/>For example:</ol>"
+          },
+          {
+            "paraid": 15,
+            "text": "",
+            "codeConfig": {
+              "codeid": "html_4_1_4",
+              "exampleid": "",
+              "codeOutput": false,
+              "exampleOutput": false,
+              "codeTitle": "HTML",
+              "exampleTitle": "",
+              "codeLangs": "xml",
+              "exampleLangs": "",
+              "codeSource": "",
+              "exampleSource": "",
+              "marginLeft": "2.5rem"
+            }
+          },
+          {
+            "paraid": 16,
+            "text": "In summary, linking to other pages in HTML involves using the `<code>&lt;a&gt;</code>` tag and the `<code>href</code>` attribute to specify the URL of the page you want to link to. You can link to external websites by using the full URL, or link to pages on the same website by using the relative path to the file."
+          }
+        ]
+      },
+      {
+        "secid": 2,
+        "subtitle": "Linking to external resources",
+        "paragraphs": [
+          {
+            "paraid": 1,
+            "text": "Linking to external resources in HTML is a way to add content that is hosted on another server or website to your own website. This can include linking to external stylesheets, JavaScript files, and images."
+          },          
+          {
+            "paraid": 2,
+            "text": "To link to an external resource in HTML, you use the `<code>&lt;link&gt;</code>` tag for stylesheets and the `<code>&lt;script&gt;</code>` tag for JavaScript files. For images, you use the `<code>&lt;img&gt;</code>` tag with the `<code>src</code>` attribute set to the URL of the image."
+          },          
+          {
+            "paraid": 3,
+            "text": "<ol><li>Linking to an external stylesheet</li></ol>"
+          },
+          {
+            "paraid": 4,
+            "text": "<ol>To link to an external stylesheet in HTML, you use the `<code>&lt;link&gt;</code>` tag with the href attribute set to the URL of the stylesheet.<br/><br/>Here is an example:</ol>"
+          },          
+          {
+            "paraid": 5,
+            "text": "",
+            "codeConfig": {
+              "codeid": "html_4_2_1",
+              "exampleid": "",
+              "codeOutput": false,
+              "exampleOutput": false,
+              "codeTitle": "HTML",
+              "exampleTitle": "",
+              "codeLangs": "xml",
+              "exampleLangs": "",
+              "codeSource": "",
+              "exampleSource": "",
+              "marginLeft": "2.5rem"
+            }
+          },          
+          {
+            "paraid": 6,
+            "text": "<ol>This code will link to an external stylesheet called `<code>styles.css</code>` hosted on `<code>www.example.com</code>`.</ol>"
+          },
+          {
+            "paraid": 7,
+            "text": "<ol start=\"2\"><li>Linking to an external JavaScript file</li><ol>"
+          },          
+          {
+            "paraid": 8,
+            "text": "<ol>To link to an external JavaScript file in HTML, you use the `<code>&lt;script&gt;</code>` tag with the `<code>src</code>` attribute set to the URL of the file.<br/><br/>Here is an example:</ol>"
+          },          
+          {
+            "paraid": 9,
+            "text": "",
+            "codeConfig": {
+              "codeid": "html_4_2_2",
+              "exampleid": "",
+              "codeOutput": false,
+              "exampleOutput": false,
+              "codeTitle": "HTML",
+              "exampleTitle": "",
+              "codeLangs": "xml",
+              "exampleLangs": "",
+              "codeSource": "",
+              "exampleSource": "",
+              "marginLeft": "2.5rem"
+            }
+          },
+          {
+            "paraid": 10,
+            "text": "<ol>This code will link to an external JavaScript file called `<code>script.js</code>` hosted on `<code>www.example.com</code>`.</ol>"
+          },
+          {
+            "paraid": 11,
+            "text": "<ol start=\"3\"><li>Linking to an external image, audio, and video</li></ol>"
+          },          
+          {
+            "paraid": 12,
+            "text": "<ol>To link to an external image, audio, and video on a webpage, you can use the `<code>&lt;img&gt;</code>`, `<code>&lt;audio&gt;</code>`, and `<code>&lt;video&gt;</code>` elements, respectively. The usage of the `<code>&lt;img&gt;</code>` element is described in the next section of this chapter, while the usage of the `<code>&lt;audio&gt;</code>` and `<code>&lt;video&gt;</code>` elements is covered in Chapter 7.</ol>"
+          },      
+          {
+            "paraid": 15,
+            "text": "In summary, linking to external resources in HTML involves using the appropriate tag (`<code>&lt;link&gt;</code>`, `<code>&lt;script&gt;</code>`, `<code>&lt;img&gt;</code>`, `<code>&lt;audio&gt;</code>`, or `<code>&lt;video&gt;</code>`) with the `<code>href</code>` or `<code>src</code>` attribute set to the URL of the external resource."
+          }
+        ]
+      },
+      {
+        "secid": 3,
+        "subtitle": "Adding images to a page",
+        "paragraphs": [
+          {
+            "paraid": 1,
+            "text": "To add images to a page of HTML, you can use the `<code>&lt;img&gt;</code>` tag with the `<code>src</code>` attribute set to the URL of the image file. The URL can point to an external website or the same website.<br/><br/>Here is an example:"
+          },          
+          {
+            "paraid": 2,
+            "text": "",
+            "codeConfig": {
+              "codeid": "html_4_3_1",
+              "exampleid": "",
+              "codeOutput": true,
+              "exampleOutput": false,
+              "codeTitle": "HTML",
+              "exampleTitle": "",
+              "codeLangs": "xml",
+              "exampleLangs": "",
+              "codeSource": "",
+              "exampleSource": "",
+              "marginLeft": "0"
+            }
+          },          
+          {
+            "paraid": 4,
+            "text": "The `<code>alt</code>` attribute is used to provide alternative text for the image, which is displayed if the image cannot be loaded for some reason. It is also used by screen readers to describe the image to users who are visually impaired."
+          },
+          {
+            "paraid": 5,
+            "text": "You can also set the width and height of the image using the `<code>width</code>` and `<code>height</code>` attributes, like this:"
+          },
+          {
+            "paraid": 6,
+            "text": "",
+            "codeConfig": {
+              "codeid": "html_4_3_2",
+              "exampleid": "",
+              "codeOutput": false,
+              "exampleOutput": false,
+              "codeTitle": "HTML",
+              "exampleTitle": "",
+              "codeLangs": "xml",
+              "exampleLangs": "",
+              "codeSource": "",
+              "exampleSource": "",
+              "marginLeft": "0"
+            }
+          },
+          {
+            "paraid": 7,
+            "text": "This will set the width of the image to `<code>500</code>` pixels and the height to `<code>300</code>` pixels. It's generally a good practice to specify the dimensions of the image to avoid layout issues and improve page loading speed."
+          },
+          {
+            "paraid": 8,
+            "text": "In summary, to add images to a page of HTML:"
+          },
+          {
+            "paraid": 9,
+            "text": "<ol><li>Use the `<code>&lt;img&gt;</code>` tag with the src attribute set to the URL of the image file.</li><li>Optionally, set the `<code>alt</code>`, `<code>width</code>`, and `<code>height</code>` attributes.</li></ol>"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "category": "html",
+    "chid": 5,
+    "title": "HTML Tables",
+    "sections": [
+      {
+        "secid": 1,
+        "subtitle": "Creating tables",
+        "paragraphs": [
+          {
+            "paraid": 1,
+            "text": "To create tables in HTML, you can use the `<code>&lt;table&gt;</code>` tag along with several other tags that define the structure of the table.<br/><br/>Here is an example of a basic HTML table:"
+          },          
+          {
+            "paraid": 2,
+            "text": "",
+            "codeConfig": {
+              "codeid": "html_5_1_1",
+              "exampleid": "",
+              "codeOutput": true,
+              "exampleOutput": false,
+              "codeTitle": "HTML",
+              "exampleTitle": "",
+              "codeLangs": "xml",
+              "exampleLangs": "",
+              "codeSource": "",
+              "exampleSource": "",
+              "marginLeft": "0"
+            }
+          },          
+          {
+            "paraid": 3,
+            "text": "In this example, we have a table with a header section (`<code>&lt;thead&gt;</code>`) and a body section (`<code>&lt;tbody&gt;</code>`). Within the header section, we define a single row (`<code>&lt;tr&gt;</code>`) with three columns (`<code>&lt;th&gt;</code>`) for our table headings. Within the body section, we define two rows, each with three columns (`<code>&lt;td&gt;</code>`) of data."
+          },
+          {
+            "paraid": 4,
+            "text": "Here are some of the common tags and attributes used in creating tables in HTML:"
+          },          
+          {
+            "paraid": 5,
+            "text": "<ol><li>`<code>&lt;table&gt;</code>`: This tag is used to define the table.</li><li>`<code>&lt;thead&gt;</code>`: This tag is used to define the table header section.</li><li>`<code>&lt;tbody&gt;</code>`: This tag is used to define the table body section.</li><li>`<code>&lt;tfoot&gt;</code>`: This tag is used to define the table footer section.</li><li>`<code>&lt;tr&gt;</code>`: This tag is used to define a row in the table.</li><li>`<code>&lt;th&gt;</code>`: This tag is used to define a header cell in the table.</li><li>`<code>&lt;td&gt;</code>`: This tag is used to define a data cell in the table.</li><li>`<code>colspan</code>`: This attribute is used to define the number of columns that a cell should span.</li><li>`<code>rowspan</code>`: This attribute is used to define the number of rows that a cell should span.</li></ol>"
+          },          
+          {
+            "paraid": 6,
+            "text": "By using these tags and attributes, you can create more complex tables with merged cells, styled headers and rows, and more."
+          }
+        ]
+      },
+      {
+        "secid": 2,
+        "subtitle": "Table headers",
+        "paragraphs": [
+          {
+            "paraid": 1,
+            "text": "In HTML, you can use the `<code>&lt;th&gt;</code>` tag to define table headers. The `<code>&lt;th&gt;</code>` tag is used to represent a header cell in a table, which usually contains a heading for a column or row."
+          },          
+          {
+            "paraid": 2,
+            "text": "In previous example, we have a table with three columns, each represented by a `<code>&lt;th&gt;</code>` tag in the header row. The `<code>&lt;th&gt;</code>` tags are used to indicate that these cells are header cells, and the text inside the tags is the header text."
+          },          
+          {
+            "paraid": 3,
+            "text": "It's worth noting that header cells have a different default styling than regular data cells. By default, they are bold and centered. You can also use CSS to style the header cells further, such as by changing the font size, color, or background color."
+          },          
+          {
+            "paraid": 4,
+            "text": "Using header cells is important for accessibility as well, as screen readers will use them to provide context for the table content to visually impaired users."
+          }
+        ]
+      },
+      {
+        "secid": 3,
+        "subtitle": "Table rows and columns",
+        "paragraphs": [
+          {
+            "paraid": 1,
+            "text": "In HTML, you can use the `<code>&lt;tr&gt;</code>` tag to define a table row and the `<code>&lt;td&gt;</code>` tag to define a table cell. By combining these tags, you can create a table with rows and columns."
+          },          
+          {
+            "paraid": 2,
+            "text": "In above example, we have a table with three rows and three columns. Each row is represented by a `<code>&lt;tr&gt;</code>` tag, and each cell in the row is represented by a `<code>&lt;td&gt;</code>` tag. The text inside the `<code>&lt;td&gt;</code>` tags is the content of each cell."
+          },          
+          {
+            "paraid": 3,
+            "text": "You can also use the `<code>&lt;th&gt;</code>` tag to define header cells in the first row of the table, as shown in the previous example. By default, table cells are left-aligned, and you can use CSS to change the alignment or other styling properties."
+          },          
+          {
+            "paraid": 4,
+            "text": "Tables are a useful tool for organizing data in a structured way on a web page. However, it's important to use them appropriately and not to overuse them, as tables can be difficult to read on small screens or for users with visual impairments."
+          }
+        ]
+      },
+      {
+        "secid": 4,
+        "subtitle": "Spanning rows and columns",
+        "paragraphs": [
+          {
+            "paraid": 1,
+            "text": "In HTML, you can use the `<code>rowspan</code>` and `<code>colspan</code>` attributes to span multiple rows or columns in a table cell."
+          },          
+          {
+            "paraid": 2,
+            "text": "The `<code>rowspan</code>` attribute specifies the number of rows a cell should span, while the `<code>colspan</code>` attribute specifies the number of columns a cell should span."
+          },          
+          {
+            "paraid": 3,
+            "text": "Here's an example of how to use `<code>rowspan</code>` and `<code>colspan</code>`:"
+          },
+          {
+            "paraid": 4,
+            "text": "",
+            "codeConfig": {
+              "codeid": "html_5_1_2",
+              "exampleid": "",
+              "codeOutput": true,
+              "exampleOutput": false,
+              "codeTitle": "HTML",
+              "exampleTitle": "",
+              "codeLangs": "xml",
+              "exampleLangs": "",
+              "codeSource": "",
+              "exampleSource": "",
+              "marginLeft": "0"
+            }
+          },          
+          {
+            "paraid": 5,
+            "text": "In this example, we have a table with three rows and three columns. The first cell in the first row uses `<code>colspan=\"2\"</code>` to span two rows. The second cell in the second row uses `<code>colspan=\"2\"</code>` to span two columns. The result is a table with a merged cell in the first column that spans two rows, and a merged cell in the second and third columns that spans two columns."
+          },          
+          {
+            "paraid": 6,
+            "text": "It's worth noting that spanning cells can make a table more difficult to read, especially for users with visual impairments who may rely on screen readers. Additionally, spanning cells can make it more difficult to style a table with CSS. Therefore, it's generally recommended to use spanning cells sparingly and only when necessary to convey the intended meaning of the data."
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "category": "html",
+    "chid": 6,
+    "title": "HTML Forms",
+    "sections": [
+      {
+        "secid": 1,
+        "subtitle": "Creating forms",
+        "paragraphs": [
+          {
+            "paraid": 1,
+            "text": "To create an HTML form, you need to use the `<code>&lt;form&gt;</code>` element. Here's an example of a basic form that allows users to enter their name and email:"
+          },          
+          {
+            "paraid": 2,
+            "text": "",
+            "codeConfig": {
+              "codeid": "html_6_1_1",
+              "exampleid": "",
+              "codeOutput": true,
+              "exampleOutput": false,
+              "codeTitle": "HTML",
+              "exampleTitle": "",
+              "codeLangs": "xml",
+              "exampleLangs": "",
+              "codeSource": "",
+              "exampleSource": "",
+              "marginLeft": "0"
+            }
+          },          
+          {
+            "paraid": 3,
+            "text": "In this example:"
+          },
+          {
+            "paraid": 4,
+            "text": "<ul><li>The `<code>&lt;form&gt;</code>` element defines the start of the form.</li><li>The `<code>action</code>` attribute specifies where the form data should be sent when the form is submitted. In this case, it's sent to the `<code>/submit-form</code>` endpoint.</li><li>The `<code>method</code>` attribute specifies the HTTP method to use when submitting the form. In this case, we're using the POST method.</li><li>The `<code>&lt;label&gt;</code>` elements are used to provide a text label for the input fields. The `<code>for</code>` attribute of the `<code>&lt;label&gt;</code>` element must match the `<code>id</code>` attribute of the corresponding input field.</li><li>The `<code>&lt;input&gt;</code>` elements define the input fields themselves. In this case, we're using two text input fields, one for the name and one for the email address. The `<code>type</code>` attribute specifies the type of input field (in this case, \"text\" and \"email\"). The `<code>id</code>` attribute provides a unique identifier for the input field, which can be used to associate it with a `<code>&lt;label&gt;</code>` element. The `<code>name</code>` attribute provides a name for the input field, which is used to identify it when the form is submitted.</li><li>The `<code>&lt;input&gt;</code>` element with the `<code>type=\"submit\"</code>` attribute creates a button that the user can click to submit the form.</li></ul>"
+          },          
+          {
+            "paraid": 5,
+            "text": "When the user submits the form, the data is sent to the server-side script specified in the `<code>action</code>` attribute. The server-side script can then process the form data and return a response to the user."
+          }
+        ]
+      },
+      {
+        "secid": 2,
+        "subtitle": "Form controls (text fields, radio buttons, checkboxes, etc.)",
+        "paragraphs": [
+          {
+            "paraid": 1,
+            "text": "HTML provides a variety of form controls that can be used to collect input from users. Here are some of the most commonly used form controls:"
+          },          
+          {
+            "paraid": 2,
+            "text": "<ul><li>Text fields: `<code>&lt;input type=\"text\"&gt;</code>` creates a single-line text input field, while `<code>&lt;textarea&gt;</code>` creates a multi-line text input field.</li><li>Radio buttons: `<code>&lt;input type=\"radio\"&gt;</code>` creates a set of radio buttons, where the user can select only one option from a group of options.</li><li>Checkboxes: `<code>&lt;input type=\"checkbox\"&gt;</code>` creates a checkbox that the user can select or deselect.</li><li>Select boxes: `<code>&lt;select&gt;</code>` creates a drop-down list of options, where the user can select one or more options.</li><li>File upload fields: `<code>&lt;input type=\"file\"&gt;</code>` creates a field that allows the user to select a file to upload.</li><li>Buttons: `<code>&lt;button&gt;</code>` creates a button that the user can click to perform an action, such as submitting a form or resetting form data.</li><ul>"
+          },          
+          {
+            "paraid": 3,
+            "text": "Each of these form controls has its own set of attributes and options that can be customized to suit your needs. For example, you can use the `<code>name</code>` attribute to give each form control a unique name, which can be used to identify it when the form is submitted. You can also use the `<code>value</code>` attribute to set the default value of a form control, and the `<code>required</code>` attribute to make a form control required, so that the user must provide a value before submitting the form."
+          }
+        ]
+      },
+      {
+        "secid": 3,
+        "subtitle": "Submitting a form",
+        "paragraphs": [
+          {
+            "paraid": 1,
+            "text": "To submit a form in HTML, you need to include a submit button in the form. In the example above, `<code>&lt;input type=\"submit\" value=\"Submit\"&gt;</code>` creates a button."
+          },          
+          {
+            "paraid": 2,
+            "text": "",
+            "codeid": "html_2_3_3_1"
+          },          
+          {
+            "paraid": 3,
+            "text": "In the example above, the form has an action attribute that specifies the URL of the script that will process the form data. The method attribute is set to \"POST\", which means that the form data will be sent in the HTTP request body."
+          },
+          {
+            "paraid": 4,
+            "text": "When the user clicks the submit button, the form data is sent to the URL specified in the action attribute. The form data is sent as key-value pairs, where the name attribute of each form control is the key, and the value attribute (if present) or the user-entered value is the value."
+          },          
+          {
+            "paraid": 5,
+            "text": "In the example above, the form data will be sent to \"submit-form\" endpoint when the user clicks the \"Submit\" button. The form data will include the \"name\" and \"email\" values entered by the user."
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "category": "html",
+    "chid": 7,
+    "title": "HTML5 and Other HTML Topics",
+    "sections": [
+      {
+        "secid": 1,
+        "subtitle": "HTML5 semantic tags",
+        "paragraphs": [
+          {
+            "paraid": 1,
+            "text": "HTML5 introduced a set of semantic tags that are designed to make the structure of a web page more meaningful and descriptive. Here are some of the most commonly used semantic tags in HTML5:"
+          },          
+          {
+            "paraid": 1,
+            "text": "<ul><li>`<code>&lt;header&gt;</code>`: Defines a header section for a document or section.</li><li>`<code>&lt;nav&gt;</code>`: Defines a navigation section for a document or section.</li><li>`<code>&lt;main&gt;</code>`: Defines the main content section of a document.</li><li>`<code>&lt;section&gt;</code>`: Defines a section of a document, such as a chapter or a group of related content.</li><li>`<code>&lt;article&gt;</code>`: Defines a self-contained article or piece of content that can be distributed independently of the rest of the page.</li><li>`<code>&lt;aside&gt;</code>`: Defines content that is related to the main content but not central to it, such as a sidebar or a callout box.</li><li>`<code>&lt;footer&gt;</code>`: Defines a footer section for a document or section.</li><li>`<code>&lt;figure&gt;</code>`: Defines a figure or illustration, along with a caption.</li><li>`<code>&lt;figcaption&gt;</code>`: Defines a caption for a `<code>&lt;figure&gt;</code>` element.</li><ul>"
+          },    
+          {
+            "paraid": 2,
+            "text": "<ul>Here is the example of a webpage using some semantic tags:</ul>"
+          },
+          {
+            "paraid": 2,
+            "text": "",
+            "codeConfig": {
+              "codeid": "html_7_1_1",
+              "exampleid": "",
+              "codeOutput": true,
+              "exampleOutput": false,
+              "codeTitle": "HTML",
+              "exampleTitle": "",
+              "codeLangs": "xml",
+              "exampleLangs": "",
+              "codeSource": "",
+              "exampleSource": "",
+              "marginLeft": "2.5rem"
+            }
+          },  
+          {
+            "paraid": 1,
+            "text": "By using these semantic tags, you can provide more information about the structure and meaning of your content, which can improve accessibility and search engine optimization, as well as make your code easier to read and maintain."
+          }
+        ]
+      },
+      {
+        "secid": 2,
+        "subtitle": "Audio and video elements",
+        "paragraphs": [
+          {
+            "paraid": 1,
+            "text": "HTML5 introduced the `<code>&lt;audio&gt;</code>` and `<code>&lt;video&gt;</code>` elements for embedding audio and video content directly in web pages. Here's how to use them:"
+          },          
+          {
+            "paraid": 1,
+            "text": "To add an `<code>&lt;audio&gt;</code>` file, you can use the `<code>&lt;audio&gt;</code>` element like this:"
+          },   
+          {
+            "paraid": 1,
+            "text": "",
+            "codeConfig": {
+              "codeid": "html_7_1_2",
+              "exampleid": "",
+              "codeOutput": false,
+              "exampleOutput": false,
+              "codeTitle": "HTML",
+              "exampleTitle": "",
+              "codeLangs": "xml",
+              "exampleLangs": "",
+              "codeSource": "",
+              "exampleSource": "",
+              "marginLeft": "0"
+            }
+          },       
+          {
+            "paraid": 1,
+            "text": "This will embed the audio file \"audio_file.mp3\" in the page and display standard audio `<code>controls</code>` (play, pause, volume, etc.). You can also add other attributes to the `<code>&lt;audio&gt;</code>` element, such as `<code>autoplay</code>`, `<code>loop</code>`, `<code>preload</code>`, and `<code>muted</code>`, to control the playback behavior."
+          },
+          {
+            "paraid": 1,
+            "text": "To add a video file, you can use the `<code>&lt;video&gt;</code>` element like this:"
+          },          
+          {
+            "paraid": 1,
+            "text": "",
+            "codeConfig": {
+              "codeid": "html_7_1_3",
+              "exampleid": "",
+              "codeOutput": false,
+              "exampleOutput": false,
+              "codeTitle": "HTML",
+              "exampleTitle": "",
+              "codeLangs": "xml",
+              "exampleLangs": "",
+              "codeSource": "",
+              "exampleSource": "",
+              "marginLeft": "0"
+            }
+          },
+          {
+            "paraid": 1,
+            "text": "This will embed the video file \"video_file.mp4\" in the page and display standard video `<code>controls</code>` (play, pause, volume, etc.). Like with the `<code>&lt;audio&gt;</code>` element, you can also add other attributes to the `<code>&lt;video&gt;</code>` element to control the playback behavior."
+          },          
+          {
+            "paraid": 1,
+            "text": "In addition to the `<code>src</code>` attribute, the `<code>&lt;audio&gt;</code>` and `<code>&lt;video&gt;</code>` elements can also contain multiple sources with `<code>&lt;source&gt;</code>`, each with its own `<code>src</code>`, `<code>type</code>`, and `<code>media</code>` attributes. This allows you to provide multiple formats of the same media file, so that the browser can choose the best one to use based on the user's device and browser."
+          },
+          {
+            "paraid": 2,
+            "text": "",
+            "codeid": ""
+          },
+          {
+            "paraid": 2,
+            "text": "",
+            "codeid": ""
+          },
+          {
+            "paraid": 1,
+            "text": "The `<code>&lt;audio&gt;</code>` and `<code>&lt;video&gt;</code>` elements also support JavaScript control through their DOM APIs. You can access the element using JavaScript and call methods like `<code>play()</code>`, `<code>pause()</code>`, or add event listeners to handle events such as `<code>play</code>`, `<code>pause</code>`, or `<code>ended</code>`."
+          },
+          {
+            "paraid": 2,
+            "text": "",
+            "codeid": ""
+          },
+          {
+            "paraid": 2,
+            "text": "",
+            "codeid": ""
+          },
+          {
+            "paraid": 1,
+            "text": "Overall, `<code>&lt;audio&gt;</code>` and `<code>&lt;video&gt;</code>` elements provide a simple and powerful way to embed multimedia content in your web pages, without requiring plugins or external players."
+          }
+        ]
+      },
+      {
+        "secid": 3,
+        "subtitle": "Canvas and SVG graphics",
+        "paragraphs": [
+          {
+            "paraid": 1,
+            "text": "HTML5 also introduced two new graphics elements: `<code>&lt;canvas&gt;</code>` and `<code>&lt;svg&gt;</code>`. Here's how to use them:"
+          },          
+          {
+            "paraid": 1,
+            "text": "<strong>Canvas:</strong>"
+          },
+          {
+            "paraid": 1,
+            "text": "The `<code>&lt;canvas&gt;</code>` element provides a way to draw graphics using JavaScript. To use it, you first create a canvas element in your HTML document, like this:"
+          },
+          {
+            "paraid": 1,
+            "text": "",
+            "codeConfig": {
+              "codeid": "html_7_2_1",
+              "exampleid": "",
+              "codeOutput": false,
+              "exampleOutput": false,
+              "codeTitle": "HTML",
+              "exampleTitle": "",
+              "codeLangs": "xml",
+              "exampleLangs": "",
+              "codeSource": "",
+              "exampleSource": "",
+              "marginLeft": "0"
+            }
+          },
+          {
+            "paraid": 1,
+            "text": "Then, in your JavaScript code, you can get a reference to the canvas element and use its `<code>getContext()</code>` method to get a drawing context. This context provides methods for drawing shapes, lines, text, and images on the canvas. Here's an example:"
+          },
+          {
+            "paraid": 1,
+            "text": "",
+            "codeConfig": {
+              "codeid": "html_7_2_2",
+              "exampleid": "html_7_2_3",
+              "codeOutput": true,
+              "exampleOutput": false,
+              "codeTitle": "HTML",
+              "exampleTitle": "HTML",
+              "codeLangs": "xml",
+              "exampleLangs": "xml",
+              "codeSource": "",
+              "exampleSource": "",
+              "marginLeft": "0"
+            }
+          },
+          {
+            "paraid": 1,
+            "text": "This code creates a red rectangle on the canvas, with a top-left corner at (50,50) and a size of 100x100 pixels."
+          },
+          {
+            "paraid": 1,
+            "text": "<strong>SVG:</strong>"
+          },
+          {
+            "paraid": 1,
+            "text": "The `<code>&lt;svg&gt;</code>` element provides a way to create scalable vector graphics (SVG) directly in your HTML document. SVG is an XML-based language for describing two-dimensional graphics, and is supported by all modern web browsers. To use it, you simply create an `<code>&lt;svg&gt;</code>` element in your HTML document and use its child elements to define the graphics you want to display. Here's an example:"
+          },
+          {
+            "paraid": 1,
+            "text": "",
+            "codeConfig": {
+              "codeid": "html_7_2_4",
+              "exampleid": "html_7_2_5",
+              "codeOutput": true,
+              "exampleOutput": false,
+              "codeTitle": "HTML",
+              "exampleTitle": "HTML",
+              "codeLangs": "xml",
+              "exampleLangs": "xml",
+              "codeSource": "",
+              "exampleSource": "",
+              "marginLeft": "0"
+            }
+          },
+          {
+            "paraid": 1,
+            "text": "This code creates a red rectangle, a blue circle, and a green text label on the SVG canvas, with a size of 500x500 pixels."
+          },
+          {
+            "paraid": 1,
+            "text": "Overall, the `<code>&lt;canvas&gt;</code>` and `<code>&lt;svg&gt;</code>` elements provide powerful ways to create graphics directly in your HTML document, using either JavaScript or SVG markup. They allow you to create interactive animations, games, data visualizations, and much more."
+          },
+
+          {
+            "paraid": 1,
+            "text": ""
+          }
+        ]
+      },
+      {
+        "secid": 4,
+        "subtitle": "Responsive design with HTML and CSS",
+        "paragraphs": [
+          {
+            "paraid": 1,
+            "text": "Responsive design is the practice of building websites that adapt to different screen sizes and devices, providing a seamless user experience across desktops, tablets, and smartphones. Here's how you can create responsive designs using HTML and CSS:"
+          },
+          {
+            "paraid": 1,
+            "text": "<ol><li>Use a flexible layout: Instead of using fixed widths for your page elements, use percentages or em units that adjust to the size of the screen. This way, your page will look good on screens of all sizes.</li><li>Use media queries: Media queries allow you to apply different styles to your page based on the size of the screen. For example, you can use a media query to change the font size of your text when the screen size is smaller than a certain width.</li><li>Use responsive images: To ensure that your images look good on all devices, you can use responsive images that adjust to the size of the screen. You can do this by setting the width and height of the image to a percentage, and using the `<code>max-width</code>` property to ensure that the image doesn't become larger than its container.</li><li>Use viewport meta tag: The viewport meta tag tells the browser how to scale the page to fit the device screen. You can use this tag to set the initial scale of the page and disable zooming, so that the page looks good on all devices.</li></ol>"
+          },
+          {
+            "paraid": 1,
+            "text": "Here's an example of how you can create a responsive layout using CSS flexbox:"
+          },
+          {
+            "paraid": 1,
+            "text": "",
+            "codeid": ""
+          },
+          {
+            "paraid": 1,
+            "text": "",
+            "codeid": ""
+          },
+          {
+            "paraid": 1,
+            "text": "In this example, we're using flexbox to create a layout with a header, navigation bar, main content area, and footer. The `<code>flex-direction</code>` property is used to arrange the elements in a column on larger screens and in a row on smaller screens, using a media query to adjust the layout at a maximum width of 768 pixels."
+          },
+          {
+            "paraid": 1,
+            "text": "Overall, responsive design is essential for providing a great user experience on all devices. By using flexible layouts, media queries, responsive images, and viewport meta tags, you can create websites that look great and work well on any screen size."
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "category": "html",
+    "chid": 8,
+    "title": "Best Practices and Tips for HTML Development",
+    "sections": [
+      {
+        "secid": 1,
+        "subtitle": "Significance of html5 semantic tages",
+        "paragraphs": [
+          {
+            "paraid": 1,
+            "text": "HTML5 introduced semantic tags to provide a more meaningful and structured way to describe the content and structure of a web page. These semantic tags carry significant benefits for both developers and users. Here are some key aspects of their significance:"
+          },          
+          {
+            "paraid": 1,
+            "text": "<ol><li>Improved Accessibility: Semantic tags help improve web accessibility by providing clearer cues to assistive technologies and search engines in understanding the content. This benefits users with disabilities who rely on screen readers or other assistive devices to navigate and understand web pages.</li><li>Search Engine Optimization (SEO): Semantic tags enable search engines to better understand the context and relevance of different sections of a web page. By using semantic tags such as `<code>&lt;header&gt;</code>`, `<code>&lt;nav&gt;</code>`, `<code>&lt;article&gt;</code>`, `<code>&lt;section&gt;</code>`, and `<code>&lt;footer&gt;</code>`, search engines can identify the important content and improve the page's visibility in search results.</li><li>Enhanced Structure and Readability: Semantic tags promote a logical structure within a web page, making it easier for developers to understand and maintain the codebase. By using tags like `<code>&lt;main&gt;</code>`, `<code>&lt;article&gt;</code>`, `<code>&lt;section&gt;</code>`, and `<code>&lt;aside&gt;</code>`, developers can clearly define the purpose of different parts of the page, leading to more maintainable and readable code.</li><li>Future Compatibility: Semantic tags provide a forward-looking approach to web development. By using semantic tags, developers ensure their code is compatible with future technologies and standards. New tools, frameworks, and devices can leverage the semantic structure of the content, enhancing their functionality and user experience.</li><li>Consistency and Standardization: Semantic tags contribute to the standardization of web page structure. Developers can use these tags consistently across different projects, making it easier for others to understand and collaborate on the codebase. This consistency leads to improved interoperability and better code quality.</li><li>CSS Styling and Layout: Semantic tags offer meaningful hooks for applying CSS styles and layouts. For example, using `<code>&lt;header&gt;</code>`, `<code>&lt;nav&gt;</code>`, and `<code>&lt;footer&gt;</code>` allows developers to target specific sections easily, making styling and layout adjustments more intuitive and efficient.</li></ol>"
+          },          
+          {
+            "paraid": 1,
+            "text": "Overall, the significance of HTML5 semantic tags lies in their ability to enhance accessibility, improve SEO, provide a logical structure, ensure future compatibility, promote standardization, and facilitate CSS styling and layout. By adopting semantic tags, developers can create more robust, accessible, and maintainable web pages."
+          }
+        ]
+      },
+      {
+        "secid": 2,
+        "subtitle": "Accessibility considerations",
+        "paragraphs": [
+          {
+            "paraid": 1,
+            "text": "Accessibility is an important consideration when designing and developing web pages. Here are some key HTML techniques and elements that can improve accessibility:"
+          },          
+          {
+            "paraid": 1,
+            "text": "<ol><li>Provide descriptive text for images using the `<code>alt</code>` attribute: The `<code>alt</code>` attribute provides a text alternative for images, which is important for people who use screen readers or have images disabled in their browsers.</li><li>Use semantic HTML: As I mentioned earlier, semantic HTML helps to provide meaning and structure to web pages, making them more accessible to people using assistive technologies.</li><li>Use appropriate markup for headings: Headings should be used to structure content and indicate hierarchy. This helps screen reader users navigate and understand the content more easily.</li><li>Use labels for form controls: Labels provide context for form controls, making it clear what information is required. They are especially important for people using screen readers.</li><li>Provide skip links: Skip links allow keyboard-only users to bypass navigation and go straight to the main content of a page. This can be especially helpful for people with motor disabilities.</li><li>Provide captions and transcripts for media: Captions and transcripts provide additional information for people who are deaf or hard of hearing, as well as those who prefer to read rather than listen.</li><li>Use high-contrast colors: High-contrast color schemes can help people with visual impairments better distinguish between different elements on a page.</li></ol>"
+          },          
+          {
+            "paraid": 1,
+            "text": "By incorporating these techniques into your HTML code, you can make your web pages more accessible to a wider range of users."
+          }
+        ]
+      },
+      {
+        "secid": 3,
+        "subtitle": "Cross-browser compatibility",
+        "paragraphs": [
+          {
+            "paraid": 1,
+            "text": "Cross-browser compatibility refers to the ability of a website to function and display consistently across different web browsers, such as Chrome, Firefox, Safari, and Internet Explorer. Here are some HTML techniques you can use to improve cross-browser compatibility:"
+          },          
+          {
+            "paraid": 1,
+            "text": "<ol><li>Use valid HTML: Valid HTML code is more likely to be interpreted consistently across different browsers. You can validate your HTML using a tool such as the W3C Markup Validation Service.</li><li>Use web standards: Web standards are guidelines for building web pages that are supported by all major web browsers. Following web standards can help ensure that your pages work consistently across different browsers.</li><li>Test in multiple browsers: To ensure cross-browser compatibility, you should test your website in multiple browsers, including both desktop and mobile browsers.</li><li>Use browser prefixes: Some HTML and CSS features may be supported by some browsers but not others. To ensure compatibility, you can use browser prefixes, such as -webkit-, -moz-, -ms-, and -o-, to specify which browsers a particular feature is intended for.</li><li>Use a CSS reset: Different browsers have different default styles, which can affect the way your website looks and behaves. Using a CSS reset can help to normalize these differences and ensure a consistent starting point for your styles.</li><li>Avoid browser-specific features: Some HTML and CSS features may be supported by only one or a few browsers. Avoiding these features can help ensure cross-browser compatibility.</li></ol>"
+          },          
+          {
+            "paraid": 1,
+            "text": "By using these techniques, you can help ensure that your website functions and displays consistently across different web browsers."
+          }
+        ]
+      },
+      {
+        "secid": 4,
+        "subtitle": "Code validation",
+        "paragraphs": [
+          {
+            "paraid": 1,
+            "text": "Code validation in HTML is the process of checking your HTML code for errors or syntax issues using a validation tool. The most commonly used validation tool is the W3C Markup Validation Service, which checks your HTML code against the HTML specification and alerts you to any errors or warnings."
+          },          
+          {
+            "paraid": 1,
+            "text": "Here are some reasons why you should validate your HTML code:"
+          },          
+          {
+            "paraid": 1,
+            "text": "<ol><li>Improve website accessibility: Valid HTML code is more accessible to people using assistive technologies, such as screen readers.</li><li>Ensure cross-browser compatibility: Valid HTML code is more likely to be interpreted consistently across different web browsers.</li><li>Improve website performance: Valid HTML code is typically cleaner and more efficient, which can improve website performance.</li><li>Facilitate website maintenance: Valid HTML code is easier to read and understand, which can make it easier to maintain your website over time.</li></ol>"
+          },
+          {
+            "paraid": 1,
+            "text": "To validate your HTML code using the W3C Markup Validation Service, follow these steps:"
+          },
+          {
+            "paraid": 1,
+            "text": "<ol><li>Go to <a href=\"https://validator.w3.org/\">the W3C Markup Validation Service website</a>.</li><li>Enter the URL or upload the HTML file that you want to validate.</li><li>Click the \"Check\" button to start the validation process.</li><li>Review the validation results, which will indicate any errors or warnings in your HTML code.</li><li>Make the necessary changes to your HTML code to fix any errors or warnings.</li><li>Repeat the validation process until your HTML code passes validation with no errors or warnings.</li></ol>"
+          },
+          {
+            "paraid": 1,
+            "text": "By validating your HTML code, you can help ensure that your website is accessible, compatible, and performant, and facilitate ongoing maintenance and development."
+          }
+        ]
+      }
+    ]
+  }
+]
