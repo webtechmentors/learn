@@ -258,7 +258,7 @@ export const html_4_3_1 =
   <body>
     <h1>Welcome to My Website!</h1>
     <p>Here's a picture:</p>
-    <img src="assets/images/webbook.png" alt="A cute cat">
+    <img src="assets/images/cute_cat.jpg" alt="A cute cat">
   </body>
 </html>`;
 
