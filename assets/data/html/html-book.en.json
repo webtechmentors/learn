@@ -401,13 +401,13 @@
             "text": "",
             "codeConfig": {
               "codeid": "html_2_5_1",
-              "exampleid": "",
+              "exampleid": "html_2_5_1_1",
               "codeOutput": false,
-              "exampleOutput": false,
+              "exampleOutput": true,
               "codeTitle": "HTML",
-              "exampleTitle": "",
+              "exampleTitle": "Example",
               "codeLangs": "xml",
-              "exampleLangs": "",
+              "exampleLangs": "xml",
               "codeSource": "",
               "exampleSource": "",
               "marginLeft": "2.5rem"
@@ -422,13 +422,13 @@
             "text": "",
             "codeConfig": {
               "codeid": "html_2_5_2",
-              "exampleid": "",
+              "exampleid": "html_2_5_2_1",
               "codeOutput": false,
               "exampleOutput": false,
               "codeTitle": "HTML",
-              "exampleTitle": "",
+              "exampleTitle": "Example",
               "codeLangs": "xml",
-              "exampleLangs": "",
+              "exampleLangs": "ts",
               "codeSource": "",
               "exampleSource": "",
               "marginLeft": "2.5rem"
@@ -444,7 +444,7 @@
             "codeConfig": {
               "codeid": "html_2_5_3",
               "exampleid": "",
-              "codeOutput": false,
+              "codeOutput": true,
               "exampleOutput": false,
               "codeTitle": "HTML",
               "exampleTitle": "",
@@ -465,7 +465,7 @@
             "codeConfig": {
               "codeid": "html_2_5_4",
               "exampleid": "",
-              "codeOutput": false,
+              "codeOutput": true,
               "exampleOutput": false,
               "codeTitle": "HTML",
               "exampleTitle": "",
@@ -486,7 +486,7 @@
             "codeConfig": {
               "codeid": "html_2_5_5",
               "exampleid": "",
-              "codeOutput": false,
+              "codeOutput": true,
               "exampleOutput": false,
               "codeTitle": "HTML",
               "exampleTitle": "",
@@ -507,7 +507,7 @@
             "codeConfig": {
               "codeid": "html_2_5_6",
               "exampleid": "",
-              "codeOutput": false,
+              "codeOutput": true,
               "exampleOutput": false,
               "codeTitle": "HTML",
               "exampleTitle": "",
@@ -528,7 +528,7 @@
             "codeConfig": {
               "codeid": "html_2_5_7",
               "exampleid": "",
-              "codeOutput": false,
+              "codeOutput": true,
               "exampleOutput": false,
               "codeTitle": "HTML",
               "exampleTitle": "",
@@ -549,7 +549,7 @@
             "codeConfig": {
               "codeid": "html_2_5_8",
               "exampleid": "",
-              "codeOutput": false,
+              "codeOutput": true,
               "exampleOutput": false,
               "codeTitle": "HTML",
               "exampleTitle": "",
@@ -568,14 +568,14 @@
             "paraid": 19,
             "text": "",
             "codeConfig": {
-              "codeid": "html_2_5_7",
-              "exampleid": "",
+              "codeid": "html_2_5_9",
+              "exampleid": "html_2_5_9_1",
               "codeOutput": false,
-              "exampleOutput": false,
+              "exampleOutput": true,
               "codeTitle": "HTML",
-              "exampleTitle": "",
+              "exampleTitle": "Example",
               "codeLangs": "xml",
-              "exampleLangs": "",
+              "exampleLangs": "xml",
               "codeSource": "",
               "exampleSource": "",
               "marginLeft": "2.5rem"
@@ -591,7 +591,7 @@
             "codeConfig": {
               "codeid": "html_2_5_10",
               "exampleid": "",
-              "codeOutput": false,
+              "codeOutput": true,
               "exampleOutput": false,
               "codeTitle": "HTML",
               "exampleTitle": "",
@@ -1321,7 +1321,7 @@
       },
       {
         "secid": 2,
-        "subtitle": "Form controls (text fields, radio buttons, checkboxes, etc.)",
+        "subtitle": "Form controls",
         "paragraphs": [
           {
             "paraid": 1,
@@ -1329,10 +1329,132 @@
           },          
           {
             "paraid": 2,
-            "text": "<ul><li>Text fields: `<code>&lt;input type=\"text\"&gt;</code>` creates a single-line text input field, while `<code>&lt;textarea&gt;</code>` creates a multi-line text input field.</li><li>Radio buttons: `<code>&lt;input type=\"radio\"&gt;</code>` creates a set of radio buttons, where the user can select only one option from a group of options.</li><li>Checkboxes: `<code>&lt;input type=\"checkbox\"&gt;</code>` creates a checkbox that the user can select or deselect.</li><li>Select boxes: `<code>&lt;select&gt;</code>` creates a drop-down list of options, where the user can select one or more options.</li><li>File upload fields: `<code>&lt;input type=\"file\"&gt;</code>` creates a field that allows the user to select a file to upload.</li><li>Buttons: `<code>&lt;button&gt;</code>` creates a button that the user can click to perform an action, such as submitting a form or resetting form data.</li><ul>"
-          },          
+            "text": "<ul><li>Text fields: `<code>&lt;input type=\"text\"&gt;</code>` creates a single-line text input field, while `<code>&lt;textarea&gt;</code>` creates a multi-line text input field.<br/><br/>For example:</li></ul>"
+          },
           {
             "paraid": 3,
+            "text": "",
+            "codeConfig": {
+              "codeid": "html_6_2_1",
+              "exampleid": "html_6_2_1_1",
+              "codeOutput": false,
+              "exampleOutput": true,
+              "codeTitle": "HTML",
+              "exampleTitle": "Example",
+              "codeLangs": "xml",
+              "exampleLangs": "xml",
+              "codeSource": "",
+              "exampleSource": "",
+              "marginLeft": "2.5rem"
+            }
+          },
+          {
+            "paraid": 4,
+            "text": "<ul><li>Radio buttons: `<code>&lt;input type=\"radio\"&gt;</code>` creates a set of radio buttons, where the user can select only one option from a group of options.<br/><br/>For example:</li><ul>"
+          },
+          {
+            "paraid": 5,
+            "text": "",
+            "codeConfig": {
+              "codeid": "html_6_2_2",
+              "exampleid": "html_6_2_2_1",
+              "codeOutput": false,
+              "exampleOutput": true,
+              "codeTitle": "HTML",
+              "exampleTitle": "Example",
+              "codeLangs": "xml",
+              "exampleLangs": "xml",
+              "codeSource": "",
+              "exampleSource": "",
+              "marginLeft": "2.5rem"
+            }
+          },
+          {
+            "paraid": 6,
+            "text": "<ul><li>Checkboxes: `<code>&lt;input type=\"checkbox\"&gt;</code>` creates a checkbox that the user can select or deselect.<br/><br/>For example:</li><ul>"
+          },
+          {
+            "paraid": 7,
+            "text": "",
+            "codeConfig": {
+              "codeid": "html_6_2_3",
+              "exampleid": "html_6_2_3_1",
+              "codeOutput": false,
+              "exampleOutput": true,
+              "codeTitle": "HTML",
+              "exampleTitle": "Example",
+              "codeLangs": "xml",
+              "exampleLangs": "xml",
+              "codeSource": "",
+              "exampleSource": "",
+              "marginLeft": "2.5rem"
+            }
+          },
+          {
+            "paraid": 8,
+            "text": "<ul><li>Dropdown list: `<code>&lt;select&gt;</code>` creates a dropdown list of options, where the user can select one or more options.<br/><br/>For example:</li><ul>"
+          },
+          {
+            "paraid": 9,
+            "text": "",
+            "codeConfig": {
+              "codeid": "html_6_2_4",
+              "exampleid": "html_6_2_4_1",
+              "codeOutput": false,
+              "exampleOutput": true,
+              "codeTitle": "HTML",
+              "exampleTitle": "Example",
+              "codeLangs": "xml",
+              "exampleLangs": "xml",
+              "codeSource": "",
+              "exampleSource": "",
+              "marginLeft": "2.5rem"
+            }
+          },
+          {
+            "paraid": 10,
+            "text": "<ul><li>File upload fields: `<code>&lt;input type=\"file\"&gt;</code>` creates a field that allows the user to select a file to upload.<br/><br/>For example:</li><ul>"
+          },
+          {
+            "paraid": 11,
+            "text": "",
+            "codeConfig": {
+              "codeid": "html_6_2_5",
+              "exampleid": "html_6_2_5_1",
+              "codeOutput": false,
+              "exampleOutput": true,
+              "codeTitle": "HTML",
+              "exampleTitle": "Example",
+              "codeLangs": "xml",
+              "exampleLangs": "xml",
+              "codeSource": "",
+              "exampleSource": "",
+              "marginLeft": "2.5rem"
+            }
+          },
+          {
+            "paraid": 12,
+            "text": "<ul><li>Buttons: `<code>&lt;button&gt;</code>` creates a button that the user can click to perform an action, such as submitting a form or resetting form data.<br/><br/>For example:</li><ul>"
+          },
+          {
+            "paraid": 13,
+            "text": "",
+            "codeConfig": {
+              "codeid": "html_6_2_6",
+              "exampleid": "html_6_2_6_1",
+              "codeOutput": false,
+              "exampleOutput": true,
+              "codeTitle": "HTML",
+              "exampleTitle": "Example",
+              "codeLangs": "xml",
+              "exampleLangs": "xml",
+              "codeSource": "",
+              "exampleSource": "",
+              "marginLeft": "2.5rem"
+            }
+          },       
+          {
+            "paraid": 14,
             "text": "Each of these form controls has its own set of attributes and options that can be customized to suit your needs. For example, you can use the `<code>name</code>` attribute to give each form control a unique name, which can be used to identify it when the form is submitted. You can also use the `<code>value</code>` attribute to set the default value of a form control, and the `<code>required</code>` attribute to make a form control required, so that the user must provide a value before submitting the form."
           }
         ]
@@ -1344,22 +1466,17 @@
           {
             "paraid": 1,
             "text": "To submit a form in HTML, you need to include a submit button in the form. In the example above, `<code>&lt;input type=\"submit\" value=\"Submit\"&gt;</code>` creates a button."
-          },          
+          },                
           {
             "paraid": 2,
-            "text": "",
-            "codeid": "html_2_3_3_1"
-          },          
-          {
-            "paraid": 3,
-            "text": "In the example above, the form has an action attribute that specifies the URL of the script that will process the form data. The method attribute is set to \"POST\", which means that the form data will be sent in the HTTP request body."
+            "text": "The form has an action attribute that specifies the URL of the script that will process the form data. The method attribute is set to \"POST\", which means that the form data will be sent in the HTTP request body."
           },
           {
-            "paraid": 4,
+            "paraid": 3,
             "text": "When the user clicks the submit button, the form data is sent to the URL specified in the action attribute. The form data is sent as key-value pairs, where the name attribute of each form control is the key, and the value attribute (if present) or the user-entered value is the value."
           },          
           {
-            "paraid": 5,
+            "paraid": 4,
             "text": "In the example above, the form data will be sent to \"submit-form\" endpoint when the user clicks the \"Submit\" button. The form data will include the \"name\" and \"email\" values entered by the user."
           }
         ]
@@ -1547,9 +1664,9 @@
               "exampleid": "html_7_2_3",
               "codeOutput": true,
               "exampleOutput": false,
-              "codeTitle": "HTML",
+              "codeTitle": "JS",
               "exampleTitle": "HTML",
-              "codeLangs": "xml",
+              "codeLangs": "ts",
               "exampleLangs": "xml",
               "codeSource": "",
               "exampleSource": "",

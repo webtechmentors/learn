@@ -116,29 +116,65 @@ export const html_2_3_2 =
 export const html_2_5_1 =
 `<div class="container"></div>`;
 
+export const html_2_5_1_1 =
+`<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>My Webpage</title>
+  <style>
+    .container {
+      width: 100px;
+      height: 50px;
+      border: solid 2px blue;
+    }
+  </style>
+</head>
+<body>
+  <div class="container"></div>
+</body>
+</html>`;
+
 export const html_2_5_2 =
 `<h1 id="heading"></h1>`;
 
+export const html_2_5_2_1 =
+`const elem = document.getElementById("heading");`;
+
 export const html_2_5_3 =
-`<p style="color: red;"></p>`;
+`<p style="color: red;">This is a paragraph.</p>`;
 
 export const html_2_5_4 =
-`<img src="image.jpg">`;
+`<img src="assets/images/cute_cat.jpg">`;
 
 export const html_2_5_5 =
-`<a href="https://www.example.com">www.example.com</a>`;
+`<a href="assets/webpages/hello.html">Click to load hello.html page</a>`;
 
 export const html_2_5_6 =
 `<img src="image.jpg" alt="Description of the image">`;
 
 export const html_2_5_7 =
-`<img src="image.jpg" width="300" height="200">`;
+`<img src="assets/images/cute_cat.jpg" width="300" height="200">`;
 
 export const html_2_5_8 =
 `<input type="text" disabled>`;
 
 export const html_2_5_9 =
 `<input type="text" required>`;
+
+export const html_2_5_9_1 =
+`<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>My Webpage</title>
+</head>
+<body>
+  <form action="">
+    <label for="companyName">Company Name:</label>
+    <input type="text" id="companyName" name="companyName" required>
+    <input type="submit">
+  </form>
+</body>
+</html>`;
 
 export const html_2_5_10 =
 `<input type="text" placeholder="Enter your name">`;
@@ -266,7 +302,7 @@ export const html_4_3_2 =
 `<img src="cat.jpg" alt="A cute cat" width="500" height="300">`;
 
 export const html_5_1_1 =
-`<table>
+`<table border="1">
   <thead>
     <tr>
       <th>Column 1</th>
@@ -321,6 +357,140 @@ export const html_6_1_1 =
   
   <input type="submit" value="Submit">
 </form>`;
+
+export const html_6_2_1 =
+`<input type="text">
+<textarea></textarea>`;
+
+export const html_6_2_1_1 =
+`<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>My Webpage</title>
+</head>
+<body>
+  <label>Single-line text input:</label>
+  <br/>
+  <input type="text" name="single-line">
+  <br/>
+  <label>Multi-line text input:</label>
+  <br/>
+  <textarea name="multi-line"></textarea>
+</body>
+</html>`;
+
+export const html_6_2_2 =
+`<input type="radio">`;
+
+export const html_6_2_2_1 =
+`<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>My Webpage</title>
+</head>
+<body>
+  <h2>Select your favorite programming language:</h2>
+  <label>
+    <input type="radio" name="programming-language" value="javascript">
+    JavaScript
+  </label>
+  <label>
+    <input type="radio" name="programming-language" value="python">
+    Python
+  </label>
+  <label>
+    <input type="radio" name="programming-language" value="java">
+    Java
+  </label>
+  <label>
+    <input type="radio" name="programming-language" value="csharp">
+    C#
+  </label>
+</body>
+</html>`;
+
+export const html_6_2_3 =
+`<input type="checkbox">`;
+
+export const html_6_2_3_1 =
+`<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>My Webpage</title>
+</head>
+<body>
+  <h2>Select your favorite fruits:</h2>
+  <label>
+    <input type="checkbox" name="fruit" value="apple">
+    Apple
+  </label>
+  <label>
+    <input type="checkbox" name="fruit" value="banana">
+    Banana
+  </label>
+  <label>
+    <input type="checkbox" name="fruit" value="orange">
+    Orange
+  </label>
+  <label>
+    <input type="checkbox" name="fruit" value="strawberry">
+    Strawberry
+  </label>
+</body>
+</html>`;
+
+export const html_6_2_4 =
+`<select>
+  <option>Item 1</option>
+  <option>Item 2</option>
+</select>`;
+
+export const html_6_2_4_1 =
+`<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>My Webpage</title>
+</head>
+<body>
+  <h2>Select your favorite color:</h2>
+  <select name="color">
+    <option value="red">Red</option>
+    <option value="blue">Blue</option>
+    <option value="green">Green</option>
+    <option value="yellow">Yellow</option>
+  </select>
+</body>
+</html>`;
+
+export const html_6_2_5 =
+`<input type="file">`;
+
+export const html_6_2_5_1 =
+`<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>My Webpage</title>
+</head>
+<body>
+  <h2>Select a file:</h2>
+  <input type="file" name="file-input">
+</body>
+</html>`;
+
+export const html_6_2_6 =
+`<button>Click</button>`;
+
+export const html_6_2_6_1 =
+`<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>My Webpage</title>
+</head>
+<body>
+  <h2>Click the button:</h2>
+  <button id="my-button" onclick="javascript:alert('Clicked')">Click Me</button>
+</body>
+</html>`;
 
 export const html_7_1_1 =
 `<!DOCTYPE html>
