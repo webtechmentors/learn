@@ -54,7 +54,7 @@
           },
           {
             "paraid": 2,
-            "text": "<ol><li>Selectors: Selectors target HTML elements to which the styles will be applied. Selectors can be based on element names, classes, IDs, attributes, or other criteria. For example:</li></ol>"
+            "text": "<ol><li>Selectors: Selectors target HTML elements to which the styles will be applied. Selectors can be based on element names, classes, IDs, attributes, or other criteria.<br/><br/>For example:</li></ol>"
           },
           {
             "paraid": 3,
@@ -62,7 +62,7 @@
           },
           {
             "paraid": 4,
-            "text": "<ol start=\"2\"><li>Declarations: Declarations define the specific styles or properties that should be applied to the selected elements. Declarations consist of a property and its corresponding value, separated by a colon. Multiple declarations are enclosed within curly braces. For example:</li></ol>"
+            "text": "<ol start=\"2\"><li>Declarations: Declarations define the specific styles or properties that should be applied to the selected elements. Declarations consist of a property and its corresponding value, separated by a colon. Multiple declarations are enclosed within curly braces.<br/><br/>For example:</li></ol>"
           },
           {
             "paraid": 5,
@@ -83,7 +83,7 @@
           },
           {
             "paraid": 6,
-            "text": "<ol start=\"3\"><li>Properties and Values: CSS provides a wide range of properties and values to control various aspects of element styling. Properties specify what aspect of an element to modify, such as `<code>color</code>`, `<code>font-size</code>`, `<code>margin</code>`, etc. Values determine the specific settings for a property, such as `<code>red</code>` for color, `<code>12px</code>` for font-size, or `<code>10px 20px</code>` for margin. For example:</li><ol>"
+            "text": "<ol start=\"3\"><li>Properties and Values: CSS provides a wide range of properties and values to control various aspects of element styling. Properties specify what aspect of an element to modify, such as `<code>color</code>`, `<code>font-size</code>`, `<code>margin</code>`, etc. Values determine the specific settings for a property, such as `<code>red</code>` for color, `<code>12px</code>` for font-size, or `<code>10px 20px</code>` for margin.<br/><br/>For example:</li><ol>"
           },
           {
             "paraid": 7,
@@ -104,7 +104,7 @@
           },
           {
             "paraid": 8,
-            "text": "<ol start=\"4\"><li>Comments: CSS allows for comments within the code to provide explanations or notes. Comments are enclosed within `<code>/*</code>` and `<code>*/</code>`. They are not interpreted by the browser and serve as documentation for developers. For example:</li></ol>"
+            "text": "<ol start=\"4\"><li>Comments: CSS allows for comments within the code to provide explanations or notes. Comments are enclosed within `<code>/*</code>` and `<code>*/</code>`. They are not interpreted by the browser and serve as documentation for developers.<br/><br/>For example:</li></ol>"
           },
           {
             "paraid": 9,
@@ -275,13 +275,13 @@
             "text": "",
             "codeConfig": {
               "codeid": "css_2_1_1",
-              "exampleid": "",
+              "exampleid": "css_2_1_1_1",
               "codeOutput": false,
-              "exampleOutput": false,
+              "exampleOutput": true,
               "codeTitle": "CSS",
-              "exampleTitle": "",
+              "exampleTitle": "Example",
               "codeLangs": "css",
-              "exampleLangs": "",
+              "exampleLangs": "xml",
               "codeSource": "",
               "exampleSource": "",
               "marginLeft": "0"
@@ -304,13 +304,13 @@
             "text": "",
             "codeConfig": {
               "codeid": "css_2_1_2",
-              "exampleid": "",
+              "exampleid": "css_2_1_2_1",
               "codeOutput": false,
-              "exampleOutput": false,
+              "exampleOutput": true,
               "codeTitle": "CSS",
-              "exampleTitle": "",
+              "exampleTitle": "Example",
               "codeLangs": "css",
-              "exampleLangs": "",
+              "exampleLangs": "xml",
               "codeSource": "",
               "exampleSource": "",
               "marginLeft": "2.5rem"
@@ -372,13 +372,13 @@
             "text": "",
             "codeConfig": {
               "codeid": "css_2_2_2",
-              "exampleid": "",
+              "exampleid": "css_2_2_2_1",
               "codeOutput": false,
-              "exampleOutput": false,
+              "exampleOutput": true,
               "codeTitle": "HTML",
-              "exampleTitle": "",
+              "exampleTitle": "Example",
               "codeLangs": "xml",
-              "exampleLangs": "",
+              "exampleLangs": "xml",
               "codeSource": "",
               "exampleSource": "",
               "marginLeft": "2.5rem"
@@ -393,13 +393,13 @@
             "text": "",
             "codeConfig": {
               "codeid": "css_2_2_3",
-              "exampleid": "",
+              "exampleid": "css_2_2_3_1",
               "codeOutput": false,
-              "exampleOutput": false,
+              "exampleOutput": true,
               "codeTitle": "CSS",
-              "exampleTitle": "",
+              "exampleTitle": "Example",
               "codeLangs": "css",
-              "exampleLangs": "",
+              "exampleLangs": "xml",
               "codeSource": "",
               "exampleSource": "",
               "marginLeft": "2.5rem"
@@ -414,13 +414,13 @@
             "text": "",
             "codeConfig": {
               "codeid": "css_2_2_4",
-              "exampleid": "",
+              "exampleid": "css_2_2_4_1",
               "codeOutput": false,
-              "exampleOutput": false,
+              "exampleOutput": true,
               "codeTitle": "HTML",
-              "exampleTitle": "",
+              "exampleTitle": "Example",
               "codeLangs": "xml",
-              "exampleLangs": "",
+              "exampleLangs": "xml",
               "codeSource": "",
               "exampleSource": "",
               "marginLeft": "2.5rem"
@@ -482,13 +482,13 @@
             "text": "",
             "codeConfig": {
               "codeid": "css_2_3_2",
-              "exampleid": "",
+              "exampleid": "css_2_3_2_1",
               "codeOutput": false,
-              "exampleOutput": false,
+              "exampleOutput": true,
               "codeTitle": "HTML",
-              "exampleTitle": "",
+              "exampleTitle": "Example",
               "codeLangs": "xml",
-              "exampleLangs": "",
+              "exampleLangs": "xml",
               "codeSource": "",
               "exampleSource": "",
               "marginLeft": "2.5rem"
@@ -503,13 +503,13 @@
             "text": "",
             "codeConfig": {
               "codeid": "css_2_3_3",
-              "exampleid": "",
+              "exampleid": "css_2_3_3_1",
               "codeOutput": false,
-              "exampleOutput": false,
+              "exampleOutput": true,
               "codeTitle": "CSS",
-              "exampleTitle": "",
+              "exampleTitle": "Example",
               "codeLangs": "css",
-              "exampleLangs": "",
+              "exampleLangs": "xml",
               "codeSource": "",
               "exampleSource": "",
               "marginLeft": "2.5rem"
@@ -559,13 +559,13 @@
             "text": "",
             "codeConfig": {
               "codeid": "css_2_4_2",
-              "exampleid": "",
+              "exampleid": "css_2_4_2_1",
               "codeOutput": false,
-              "exampleOutput": false,
+              "exampleOutput": true,
               "codeTitle": "CSS",
-              "exampleTitle": "",
+              "exampleTitle": "Example",
               "codeLangs": "css",
-              "exampleLangs": "",
+              "exampleLangs": "xml",
               "codeSource": "",
               "exampleSource": "",
               "marginLeft": "2.5rem"
@@ -584,13 +584,13 @@
             "text": "",
             "codeConfig": {
               "codeid": "css_2_4_3",
-              "exampleid": "",
+              "exampleid": "css_2_4_3_1",
               "codeOutput": false,
-              "exampleOutput": false,
+              "exampleOutput": true,
               "codeTitle": "CSS",
-              "exampleTitle": "",
+              "exampleTitle": "Example",
               "codeLangs": "css",
-              "exampleLangs": "",
+              "exampleLangs": "xml",
               "codeSource": "",
               "exampleSource": "",
               "marginLeft": "2.5rem"
@@ -609,13 +609,13 @@
             "text": "",
             "codeConfig": {
               "codeid": "css_2_4_4",
-              "exampleid": "",
+              "exampleid": "css_2_4_4_1",
               "codeOutput": false,
-              "exampleOutput": false,
+              "exampleOutput": true,
               "codeTitle": "CSS",
-              "exampleTitle": "",
+              "exampleTitle": "Example",
               "codeLangs": "css",
-              "exampleLangs": "",
+              "exampleLangs": "xml",
               "codeSource": "",
               "exampleSource": "",
               "marginLeft": "2.5rem"
@@ -634,13 +634,13 @@
             "text": "",
             "codeConfig": {
               "codeid": "css_2_4_5",
-              "exampleid": "",
+              "exampleid": "css_2_4_5_1",
               "codeOutput": false,
-              "exampleOutput": false,
+              "exampleOutput": true,
               "codeTitle": "CSS",
-              "exampleTitle": "",
+              "exampleTitle": "Example",
               "codeLangs": "css",
-              "exampleLangs": "",
+              "exampleLangs": "xml",
               "codeSource": "",
               "exampleSource": "",
               "marginLeft": "2.5rem"
@@ -681,13 +681,13 @@
             "text": "",
             "codeConfig": {
               "codeid": "css_2_5_1",
-              "exampleid": "",
+              "exampleid": "css_2_5_1_1",
               "codeOutput": false,
-              "exampleOutput": false,
+              "exampleOutput": true,
               "codeTitle": "CSS",
-              "exampleTitle": "",
+              "exampleTitle": "Example",
               "codeLangs": "css",
-              "exampleLangs": "",
+              "exampleLangs": "xml",
               "codeSource": "",
               "exampleSource": "",
               "marginLeft": "5rem"
@@ -710,13 +710,13 @@
             "text": "",
             "codeConfig": {
               "codeid": "css_2_5_2",
-              "exampleid": "",
+              "exampleid": "css_2_5_2_1",
               "codeOutput": false,
-              "exampleOutput": false,
+              "exampleOutput": true,
               "codeTitle": "CSS",
-              "exampleTitle": "",
+              "exampleTitle": "Example",
               "codeLangs": "css",
-              "exampleLangs": "",
+              "exampleLangs": "xml",
               "codeSource": "",
               "exampleSource": "",
               "marginLeft": "5rem"

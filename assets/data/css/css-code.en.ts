@@ -39,11 +39,49 @@ export const css_2_1_1 =
   /* CSS styles */
 }`;
 
+export const css_2_1_1_1 =
+`<!DOCTYPE html>
+<html>
+<head>
+  <title>CSS Element Selector Example</title>
+  <style>
+    /* CSS element selector for <p> tag */
+    p {
+      color: blue;
+      font-size: 16px;
+    }
+  </style>
+</head>
+<body>
+  <p>This is a paragraph.</p>
+  <p>This is another paragraph.</p>
+</body>
+</html>`;
+
 export const css_2_1_2 =
 `/* Selects only <p> elements with the class "highlight" */
 p.highlight {
   /* CSS styles */
 }`;
+
+export const css_2_1_2_1 =
+`<!DOCTYPE html>
+<html>
+<head>
+  <title>CSS Element Selector with Class Selector Example</title>
+  <style>
+    /* CSS element selector combined with class selector for <p> tag */
+    p.highlight {
+      color: red;
+      font-weight: bold;
+    }
+  </style>
+</head>
+<body>
+  <p>This is a regular paragraph.</p>
+  <p class="highlight">This is a highlighted paragraph.</p>
+</body>
+</html>`;
 
 export const css_2_2_1 =
 `.my-class {
@@ -54,14 +92,84 @@ export const css_2_2_2 =
 `<p class="my-class">This paragraph has the class "my-class".</p>
 <div class="my-class">This div also has the class "my-class".</div>`;
 
+export const css_2_2_2_1 =
+`<!DOCTYPE html>
+<html>
+<head>
+  <title>CSS Class Selector Example</title>
+  <style>
+    /* CSS class selector */
+    .my-class {
+      background-color: yellow;
+      font-weight: bold;
+    }
+  </style>
+</head>
+<body>
+  <p>This is a regular paragraph.</p>
+  <p class="my-class">This paragraph has the class "my-class".</p>
+  <div class="my-class">This div also has the class "my-class".</div>
+</body>
+</html>`;
+
 export const css_2_2_3 =
 `/* Selects only <p> elements with the class "my-class" inside a <div> with the class "container" */
 .container p.my-class {
   /* CSS styles */
 }`;
 
+export const css_2_2_3_1 =
+`<!DOCTYPE html>
+<html>
+<head>
+  <title>Combined CSS Selectors Example</title>
+  <style>
+    /* Combined CSS selectors */
+    .container p.my-class {
+      color: blue;
+      font-weight: bold;
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <p class="my-class">This paragraph is inside a container and has the "my-class" class applied to it.</p>
+    <p>This paragraph is inside a container but does not have the "my-class" class.</p>
+    <div>
+      <p class="my-class">This paragraph is nested inside another element but still has the "my-class" class.</p>
+    </div>
+  </div>
+</body>
+</html>`;
+
 export const css_2_2_4 =
 `<div class="class1 class2">This div has both "class1" and "class2" classes.</div>`;
+
+export const css_2_2_4_1 =
+`<!DOCTYPE html>
+<html>
+<head>
+  <title>Applying CSS Classes to a Div Example</title>
+  <style>
+    /* CSS rules for class1 */
+    .class1 {
+      background-color: yellow;
+      border: 1px solid black;
+    }
+
+    /* CSS rules for class2 */
+    .class2 {
+      color: blue;
+      font-weight: bold;
+    }
+  </style>
+</head>
+<body>
+  <div class="class1 class2">
+    This div element has both "class1" and "class2" applied to it.
+  </div>
+</body>
+</html>`;
 
 export const css_2_3_1 =
 `#my-id {
@@ -72,11 +180,59 @@ export const css_2_3_2 =
 `<h1 id="my-id">This heading has the ID "my-id".</h1>
 <div id="another-id">This div has the ID "another-id".</div>`;
 
+export const css_2_3_2_1 =
+`<!DOCTYPE html>
+<html>
+<head>
+  <title>CSS Example for HTML Elements</title>
+  <style>
+    /* CSS styling for the element with ID "my-id" */
+    #my-id {
+      color: blue;
+      font-size: 24px;
+      text-decoration: underline;
+    }
+
+    /* CSS styling for the element with ID "another-id" */
+    #another-id {
+      background-color: yellow;
+      padding: 10px;
+      border: 1px solid black;
+    }
+  </style>
+</head>
+<body>
+  <h1 id="my-id">This heading has the ID "my-id".</h1>
+  <div id="another-id">This div has the ID "another-id".</div>
+</body>
+</html>`;
+
 export const css_2_3_3 =
 `/* Selects only the <p> element with the ID "my-paragraph" inside a <div> with the class "container" */
 .container #my-paragraph {
   /* CSS styles */
 }`;
+
+export const css_2_3_3_1 =
+`<!DOCTYPE html>
+<html>
+<head>
+  <title>CSS Combined Selectors Example</title>
+  <style>
+    /* Combined CSS selectors */
+    .container #my-paragraph {
+      color: blue;
+      font-weight: bold;
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <p id="my-paragraph">This paragraph is inside a div with the class "container" and has the ID "my-paragraph".</p>
+    <p>This paragraph is inside a div with the class "container" but does not have the ID "my-paragraph".</p>
+  </div>
+</body>
+</html>`;
 
 export const css_2_4_1 =
 `[data-custom] {
@@ -88,20 +244,120 @@ export const css_2_4_2 =
   /* CSS styles */
 }`;
 
+export const css_2_4_2_1 =
+`<!DOCTYPE html>
+<html>
+<head>
+  <title>CSS Selector Example</title>
+  <style>
+    /* CSS selector for input[type="text"] */
+    input[type="text"] {
+      width: 200px;
+      padding: 10px;
+      border: 1px solid gray;
+      border-radius: 5px;
+    }
+  </style>
+</head>
+<body>
+  <form>
+    <label for="name">Name:</label>
+    <input type="text" id="name" name="name" placeholder="Enter your name">
+    <br/>
+    <label for="email">Email:</label>
+    <input type="text" id="email" name="email" placeholder="Enter your email address">
+    <br/>
+    <label for="phone">Phone:</label>
+    <input type="text" id="phone" name="phone" placeholder="Enter your phone number">
+  </form>
+</body>
+</html>`;
+
 export const css_2_4_3 =
 `a[href*="example.com"] {
   /* CSS styles */
 }`;
+
+export const css_2_4_3_1 =
+`<!DOCTYPE html>
+<html>
+<head>
+  <title>CSS Selector Example</title>
+  <style>
+    /* CSS selector for a[href*="example.com"] */
+    a[href*="example.com"] {
+      color: blue;
+      text-decoration: none;
+    }
+  </style>
+</head>
+<body>
+  <h2>Links:</h2>
+  <ul>
+    <li><a href="https://example.com">Example Domain</a></li>
+    <li><a href="https://www.example.com">Example.com</a></li>
+    <li><a href="https://subdomain.example.com">Subdomain Example</a></li>
+    <li><a href="https://otherwebsite.com">Other Website</a></li>
+  </ul>
+</body>
+</html>`;
 
 export const css_2_4_4 =
 `img[src^="images/"] {
   /* CSS styles */
 }`;
 
+export const css_2_4_4_1 =
+`<!DOCTYPE html>
+<html>
+<head>
+  <title>CSS Selector Example</title>
+  <style>
+    /* CSS selector for img[src^="images/"] */
+    img[src^="images/"] {
+      border: 2px solid red;
+      width: 200px;
+      height: 200px;
+    }
+  </style>
+</head>
+<body>
+  <h2>Images:</h2>
+  <img src="images/image1.jpg" alt="Image 1">
+  <img src="images/image2.jpg" alt="Image 2">
+  <img src="photos/photo1.jpg" alt="Photo 1">
+  <img src="images/image3.jpg" alt="Image 3">
+</body>
+</html>`;
+
 export const css_2_4_5 =
 `a[href$=".pdf"] {
   /* CSS styles */
 }`;
+
+export const css_2_4_5_1 =
+`<!DOCTYPE html>
+<html>
+<head>
+  <title>CSS Selector Example</title>
+  <style>
+    /* CSS selector for a[href$=".pdf"] */
+    a[href$=".pdf"] {
+      color: red;
+      font-weight: bold;
+    }
+  </style>
+</head>
+<body>
+  <h2>Links:</h2>
+  <ul>
+    <li><a href="https://example.com/document.pdf">PDF Document</a></li>
+    <li><a href="https://example.com/image.jpg">Image</a></li>
+    <li><a href="https://example.com/presentation.pptx">Presentation</a></li>
+    <li><a href="https://example.com/document.docx">Document</a></li>
+  </ul>
+</body>
+</html>`;
 
 export const css_2_5_1 =
 `a:hover {
@@ -112,16 +368,69 @@ li:first-child {
   /* CSS styles for the first child of <li> elements */
 }`;
 
+export const css_2_5_1_1 =
+`<!DOCTYPE html>
+<html>
+<head>
+  <title>CSS Selector Example</title>
+  <style>
+    /* CSS selector for a:hover */
+    a:hover {
+      color: red;
+      text-decoration: underline;
+    }
+
+    /* CSS selector for li:first-child */
+    li:first-child {
+      font-weight: bold;
+    }
+  </style>
+</head>
+<body>
+  <h2>Links:</h2>
+  <ul>
+    <li><a href="#">Link 1</a></li>
+    <li><a href="#">Link 2</a></li>
+    <li><a href="#">Link 3</a></li>
+  </ul>
+</body>
+</html>`;
+
 export const css_2_5_2 =
 `p::before {
   /* CSS styles for content inserted before <p> elements */
-  content: "Before";
+  content: "Prefix: ";
 }
 
 h1::first-letter {
   /* CSS styles for the first letter of <h1> elements */
-  font-size: 24px;
+  font-size: 2em;
 }`;
+
+export const css_2_5_2_1 =
+`<!DOCTYPE html>
+<html>
+<head>
+  <title>CSS Selector Example</title>
+  <style>
+    /* CSS selector for p::before */
+    p::before {
+      content: "Prefix: ";
+      font-weight: bold;
+    }
+
+    /* CSS selector for h1::first-letter */
+    h1::first-letter {
+      font-size: 2em;
+      color: red;
+    }
+  </style>
+</head>
+<body>
+  <h1>Heading 1</h1>
+  <p>This is a paragraph with some content.</p>
+</body>
+</html>`;
 
 export const css_3_2_1 =
 `margin: 10px; /* Sets a margin of 10 pixels for all sides */
