@@ -1114,13 +1114,13 @@
             "text": "",
             "codeConfig": {
               "codeid": "css_4_1_1",
-              "exampleid": "",
+              "exampleid": "css_4_1_1_1",
               "codeOutput": false,
-              "exampleOutput": false,
+              "exampleOutput": true,
               "codeTitle": "CSS",
-              "exampleTitle": "",
+              "exampleTitle": "Example",
               "codeLangs": "css",
-              "exampleLangs": "",
+              "exampleLangs": "xml",
               "codeSource": "",
               "exampleSource": "",
               "marginLeft": "5rem"
@@ -1139,13 +1139,13 @@
             "text": "",
             "codeConfig": {
               "codeid": "css_4_1_2",
-              "exampleid": "",
+              "exampleid": "css_4_1_2_1",
               "codeOutput": false,
-              "exampleOutput": false,
+              "exampleOutput": true,
               "codeTitle": "CSS",
-              "exampleTitle": "",
+              "exampleTitle": "Example",
               "codeLangs": "css",
-              "exampleLangs": "",
+              "exampleLangs": "xml",
               "codeSource": "",
               "exampleSource": "",
               "marginLeft": "5rem"
@@ -1164,13 +1164,13 @@
             "text": "",
             "codeConfig": {
               "codeid": "css_4_1_3",
-              "exampleid": "",
+              "exampleid": "css_4_1_3_1",
               "codeOutput": false,
-              "exampleOutput": false,
+              "exampleOutput": true,
               "codeTitle": "CSS",
-              "exampleTitle": "",
+              "exampleTitle": "Example",
               "codeLangs": "css",
-              "exampleLangs": "",
+              "exampleLangs": "xml",
               "codeSource": "",
               "exampleSource": "",
               "marginLeft": "5rem"
@@ -1189,13 +1189,13 @@
             "text": "",
             "codeConfig": {
               "codeid": "css_4_1_4",
-              "exampleid": "",
+              "exampleid": "css_4_1_4_1",
               "codeOutput": false,
-              "exampleOutput": false,
+              "exampleOutput": true,
               "codeTitle": "CSS",
-              "exampleTitle": "",
+              "exampleTitle": "Example",
               "codeLangs": "css",
-              "exampleLangs": "",
+              "exampleLangs": "xml",
               "codeSource": "",
               "exampleSource": "",
               "marginLeft": "5rem"
@@ -1237,7 +1237,7 @@
           },
           {
             "paraid": 7,
-            "text": "<ul><ul><li>Elements with a display value of `<code>inline-block</code>` generate an inline-level box but behave like a block-level element in terms of allowing width, height, padding, and margins.</li><li>They do not start on a new line and can have a width and height specified.</li><li>Examples of elements commonly set to \"inline-block\" are `<code>&lt;button&gt;</code>`, `<code>&lt;input&gt;</code>`, and `<code>&lt;select&gt;</code>`.</li></ul></ul>"
+            "text": "<ul><ul><li>Elements with a display value of `<code>inline-block</code>` generate an inline-level box but behave like a block-level element in terms of allowing width, height, padding, and margins.</li><li>They do not start on a new line and can have a width and height specified.</li><li>Examples of elements commonly set to \"inline-block\" are `<code>&lt;button&gt;</code>`, and `<code>&lt;input&gt;</code>`.</li></ul></ul>"
           },
           {
             "paraid": 8,

@@ -813,12 +813,58 @@ export const css_4_1_1 =
   left: 10px;
 }`;
 
+export const css_4_1_1_1 =
+`<!DOCTYPE html>
+<html>
+<head>
+  <style>
+    .box {
+      position: relative;
+      top: 20px;
+      left: 10px;
+      width: 200px;
+      background-color: lightblue;
+      padding: 10px;
+    }
+  </style>
+</head>
+<body>
+  <div class="box">
+    <h2>Relative Position Box</h2>
+    <p>This box is positioned using the CSS properties of position: relative, top: 20px, and left: 10px. It will be positioned 20 pixels from the top and 10 pixels from the left of its original position within the document flow.</p>
+  </div>
+</body>
+</html>`;
+
 export const css_4_1_2 =
 `.box {
   position: absolute;
   top: 50px;
   left: 100px;
 }`;
+
+export const css_4_1_2_1 =
+`<!DOCTYPE html>
+<html>
+<head>
+  <style>
+    .box {
+      position: absolute;
+      top: 50px;
+      left: 100px;
+      width: 200px;
+      background-color: lightblue;
+      padding: 10px;
+    }
+  </style>
+</head>
+<body>
+  <div class="box">
+    <h2>Absolute Position Box</h2>
+    <p>This box is positioned using the CSS properties of position: absolute, top: 50px, and left: 100px. It will be positioned 50 pixels from the top and 100 pixels from the left of its closest positioned ancestor or the document if there is no ancestor with a positioned property.</p>
+  </div>
+</body>
+</html>`;
 
 export const css_4_1_3 =
 `.box {
@@ -827,11 +873,66 @@ export const css_4_1_3 =
   right: 30px;
 }`;
 
+export const css_4_1_3_1 =
+`<!DOCTYPE html>
+<html>
+<head>
+  <style>
+    .box {
+      position: fixed;
+      top: 20px;
+      right: 30px;
+      width: 200px;
+      background-color: lightblue;
+      padding: 10px;
+    }
+  </style>
+</head>
+<body>
+  <div class="box">
+    <h2>Fixed Position Box</h2>
+    <p>This box is positioned using the CSS properties of position: fixed, top: 20px, and right: 30px. It will be fixed at a distance of 20 pixels from the top and 30 pixels from the right of the viewport.</p>
+  </div>
+</body>
+</html>`;
+
 export const css_4_1_4 =
 `.box {
   position: sticky;
   top: 10px;
 }`;
+
+export const css_4_1_4_1 =
+`<!DOCTYPE html>
+<html>
+<head>
+  <style>
+    .box {
+      position: sticky;
+      top: 10px;
+      width: 200px;
+      background-color: lightblue;
+      padding: 10px;
+    }
+
+    .content {
+      height: 800px;
+      background-color: lightgray;
+      padding: 20px;
+    }
+  </style>
+</head>
+<body>
+  <div class="box">
+    <h2>Sticky Box</h2>
+    <p>This box is positioned using the CSS properties of position: sticky and top: 10px. It will be sticky at a distance of 10 pixels from the top of its nearest ancestor scrollable container.</p>
+  </div>
+  <div class="content">
+    <h2>Scrollable Content</h2>
+    <p>This is a scrollable content container.</p>
+  </div>
+</body>
+</html>`;
 
 export const css_4_3_1 =
 `.image {
