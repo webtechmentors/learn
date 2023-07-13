@@ -437,11 +437,91 @@ export const css_3_2_1 =
 margin-top: 20px; /* Sets a margin of 20 pixels for the top side */
 margin: 10px 20px; /* Sets a margin of 10 pixels for top and bottom, 20 pixels for left and right */`;
 
+export const css_3_2_1_1 =
+`<!DOCTYPE html>
+<html>
+<head>
+  <style>
+    .class1 {
+      margin: 10px;
+      background-color: lightblue;
+      padding: 20px;
+    }
+    
+    .class2 {
+      margin-top: 20px;
+      background-color: lightgreen;
+      padding: 20px;
+    }
+    
+    .class3 {
+      margin: 10px 20px;
+      background-color: lightyellow;
+      padding: 20px;
+    }
+  </style>
+</head>
+<body>
+  <div class="class1">
+    <h2>Class 1</h2>
+    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+  </div>
+  <div class="class2">
+    <h2>Class 2</h2>
+    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+  </div>
+  <div class="class3">
+    <h2>Class 3</h2>
+    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+  </div>
+</body>
+</html>`;
+
 export const css_3_2_2 =
 `padding: 10px; /* Sets a padding of 10 pixels for all sides */
 padding-top: 20px; /* Sets a padding of 20 pixels for the top side */
 padding: 10px 20px; /* Sets a padding of 10 pixels for top and bottom, 20 pixels for left and right */
 `;
+
+export const css_3_2_2_1 =
+`<!DOCTYPE html>
+<html>
+<head>
+  <style>
+    .class1 {
+      padding: 10px;
+      background-color: lightblue;
+      margin: 20px;
+    }
+    
+    .class2 {
+      padding-top: 20px;
+      background-color: lightgreen;
+      margin: 20px;
+    }
+    
+    .class3 {
+      padding: 10px 20px;
+      background-color: lightyellow;
+      margin: 20px;
+    }
+  </style>
+</head>
+<body>
+  <div class="class1">
+    <h2>Class 1</h2>
+    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+  </div>
+  <div class="class2">
+    <h2>Class 2</h2>
+    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+  </div>
+  <div class="class3">
+    <h2>Class 3</h2>
+    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+  </div>
+</body>
+</html>`;
 
 export const css_3_2_3 =
 `border: 1px solid black; /* Sets a border with a 1-pixel width, solid style, and black color */
@@ -449,6 +529,52 @@ border-width: 2px; /* Sets the border width to 2 pixels */
 border-style: dashed; /* Sets the border style to dashed */
 border-color: red; /* Sets the border color to red */
 `;
+
+export const css_3_2_3_1 =
+`<!DOCTYPE html>
+<html>
+<head>
+  <style>
+    .class1 {
+      border: 1px solid black;
+      padding: 20px;
+    }
+    
+    .class2 {
+      border-width: 2px;
+      padding: 20px;
+    }
+    
+    .class3 {
+      border-style: dashed;
+      padding: 20px;
+    }
+    
+    .class4 {
+      border-color: red;
+      padding: 20px;
+    }
+  </style>
+</head>
+<body>
+  <div class="class1">
+    <h2>Class 1</h2>
+    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+  </div>
+  <div class="class2">
+    <h2>Class 2</h2>
+    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+  </div>
+  <div class="class3">
+    <h2>Class 3</h2>
+    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+  </div>
+  <div class="class4">
+    <h2>Class 4</h2>
+    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+  </div>
+</body>
+</html>`;
 
 export const css_3_3_1 =
 `.box {
@@ -458,12 +584,60 @@ export const css_3_3_1 =
   border: 2px solid black;
 }`;
 
+export const css_3_3_1_1 =
+`<!DOCTYPE html>
+<html>
+<head>
+  <style>
+    .box {
+      box-sizing: border-box;
+      width: 200px;
+      padding: 20px;
+      border: 2px solid black;
+      background-color: lightblue;
+    }
+  </style>
+</head>
+<body>
+  <div class="box">
+    <h2>Box Example</h2>
+    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+  </div>
+</body>
+</html>`;
+
 export const css_3_3_2 =
 `.box {
   width: 200px;
   height: 200px;
   overflow: scroll;
 }`;
+
+export const css_3_3_2_1 =
+`<!DOCTYPE html>
+<html>
+<head>
+  <style>
+    .box {
+      width: 200px;
+      height: 200px;
+      overflow: scroll;
+      background-color: lightblue;
+      padding: 20px;
+    }
+  </style>
+</head>
+<body>
+  <div class="box">
+    <h2>Scrollable Box Example</h2>
+    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris ultrices dolor eget velit vulputate auctor. Nam dignissim lacus ac dui rhoncus posuere.</p>
+    <p>Nulla facilisi. Duis varius tortor vel nunc pulvinar, a pharetra mauris finibus. Vivamus et ante vitae ipsum interdum mattis sed id erat.</p>
+    <p>Sed condimentum magna nec tortor efficitur, ac dignissim nulla iaculis. Suspendisse tristique luctus luctus. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; In mattis consectetur dapibus.</p>
+    <p>Sed quis purus vel nisl lacinia iaculis et non nisi. Proin rutrum commodo massa, nec laoreet sapien semper vel.</p>
+    <p>Donec vitae bibendum neque. Integer accumsan tincidunt tellus nec consectetur. Integer eget arcu lobortis, congue orci non, cursus urna. Donec ut mauris ac orci gravida efficitur.</p>
+  </div>
+</body>
+</html>`;
 
 export const css_3_4_1 =
 `.box {
@@ -474,11 +648,54 @@ export const css_3_4_1 =
   box-sizing: border-box;
 }`;
 
+export const css_3_4_1_1 =
+`<!DOCTYPE html>
+<html>
+<head>
+  <style>
+    .box {
+      width: 200px;
+      height: 150px;
+      padding: 10px;
+      border: 2px solid black;
+      box-sizing: border-box;
+      background-color: lightblue;
+    }
+  </style>
+</head>
+<body>
+  <div class="box">
+    <h2>Box Example</h2>
+    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+  </div>
+</body>
+</html>`;
+
 export const css_3_4_2 =
 `.box {
   margin: 10px;
   padding: 20px;
 }`;
+
+export const css_3_4_2_1 =
+`<!DOCTYPE html>
+<html>
+<head>
+  <style>
+    .box {
+      margin: 10px;
+      padding: 20px;
+      background-color: lightblue;
+    }
+  </style>
+</head>
+<body>
+  <div class="box">
+    <h2>Box Example</h2>
+    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+  </div>
+</body>
+</html>`;
 
 export const css_3_4_3 =
 `.column {
@@ -487,6 +704,46 @@ export const css_3_4_3 =
   box-sizing: border-box;
 }`;
 
+export const css_3_4_3_1 =
+`<!DOCTYPE html>
+<html>
+<head>
+  <style>
+    .column {
+      width: 33.33%;
+      padding: 10px;
+      box-sizing: border-box;
+      background-color: lightblue;
+      float: left;
+      box-sizing: border-box;
+    }
+    
+    /* Clearfix for the container */
+    .clearfix::after {
+      content: "";
+      display: table;
+      clear: both;
+    }
+  </style>
+</head>
+<body>
+  <div class="clearfix">
+    <div class="column">
+      <h2>Column 1</h2>
+      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+    </div>
+    <div class="column">
+      <h2>Column 2</h2>
+      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+    </div>
+    <div class="column">
+      <h2>Column 3</h2>
+      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+    </div>
+  </div>
+</body>
+</html>`;
+
 export const css_3_4_4 =
 `.container {
   width: 200px;
@@ -494,16 +751,60 @@ export const css_3_4_4 =
   overflow: scroll;
 }`;
 
+export const css_3_4_4_1 =
+`<!DOCTYPE html>
+<html>
+<head>
+  <style>
+    .container {
+      width: 200px;
+      height: 200px;
+      overflow: scroll;
+      background-color: lightblue;
+      padding: 20px;
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <h2>Scrollable Container Example</h2>
+    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris ultrices dolor eget velit vulputate auctor. Nam dignissim lacus ac dui rhoncus posuere.</p>
+    <p>Nulla facilisi. Duis varius tortor vel nunc pulvinar, a pharetra mauris finibus. Vivamus et ante vitae ipsum interdum mattis sed id erat.</p>
+    <p>Sed condimentum magna nec tortor efficitur, ac dignissim nulla iaculis. Suspendisse tristique luctus luctus. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; In mattis consectetur dapibus.</p>
+    <p>Sed quis purus vel nisl lacinia iaculis et non nisi. Proin rutrum commodo massa, nec laoreet sapien semper vel.</p>
+    <p>Donec vitae bibendum neque. Integer accumsan tincidunt tellus nec consectetur. Integer eget arcu lobortis, congue orci non, cursus urna. Donec ut mauris ac orci gravida efficitur.</p>
+  </div>
+</body>
+</html>`;
+
 export const css_3_4_5 =
 `.block-element {
   width: 300px;
   margin-left: auto;
   margin-right: auto;
-}
-
-.inline-element {
-  margin: auto;
 }`;
+
+export const css_3_4_5_1 =
+`<!DOCTYPE html>
+<html>
+<head>
+  <style>
+    .block-element {
+      width: 300px;
+      margin-left: auto;
+      margin-right: auto;
+      background-color: lightblue;
+      padding: 20px;
+    }
+  </style>
+</head>
+<body>
+  <div class="block-element">
+    <h2>Block Element</h2>
+    <p>This is a block-level element with a fixed width of 300px. It is horizontally centered using the margin-left and margin-right set to auto.</p>
+  </div>
+</body>
+</html>`;
 
 export const css_4_1_1 =
 `.box {
