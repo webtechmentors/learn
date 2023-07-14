@@ -1004,7 +1004,7 @@ export const css_4_4_2_1 =
 `<!DOCTYPE html>
 <html>
 <head>
-  <title>Grid Tracks' Example</title>
+  <title>Grid Track Example</title>
   <style>
     .container {
       display: grid;
@@ -1048,7 +1048,7 @@ export const css_4_4_3_1 =
 `<!DOCTYPE html>
 <html>
 <head>
-  <title>Grid Items' Example</title>
+  <title>Grid Item Example</title>
   <style>
     .container {
       display: grid;
@@ -1094,7 +1094,7 @@ export const css_4_4_4_1 =
 `<!DOCTYPE html>
 <html>
 <head>
-  <title>Grid Lines' Example</title>
+  <title>Grid Line Example</title>
   <style>
     .container {
       display: grid;
@@ -1133,7 +1133,7 @@ export const css_4_4_5_1 =
 `<!DOCTYPE html>
 <html>
 <head>
-  <title>Grid-gap Example</title>
+  <title>Grid Gap Example</title>
   <style>
     .container {
       display: grid;
@@ -1181,7 +1181,7 @@ export const css_4_5_2_1 =
 `<!DOCTYPE html>
 <html>
 <head>
-  <title>Flex items Example</title>
+  <title>Flex Item Example</title>
   <style>
     .container {
       display: flex;
@@ -1224,7 +1224,7 @@ export const css_4_5_3_1 =
 `<!DOCTYPE html>
 <html>
 <head>
-  <title>Flex-direction Example</title>
+  <title>Flex Direction Example</title>
   <style>
     .container {
       display: flex;
@@ -1262,7 +1262,7 @@ export const css_4_5_4_1 =
 `<!DOCTYPE html>
 <html>
 <head>
-  <title>Justify-content Example</title>
+  <title>Justify Content Example</title>
   <style>
     .container {
       display: flex;
@@ -1299,7 +1299,7 @@ export const css_4_5_5_1 =
 `<!DOCTYPE html>
 <html>
 <head>
-  <title>Align-items Example</title>
+  <title>Align Items Example</title>
   <style>
     .container {
       display: flex;
@@ -1336,7 +1336,7 @@ export const css_4_5_6_1 =
 `<!DOCTYPE html>
 <html>
 <head>
-  <title>Flex-wrap Example</title>
+  <title>Flex Wrap Example</title>
   <style>
     .container {
       display: flex;
@@ -1376,7 +1376,7 @@ export const css_5_1_1_1 =
 `<!DOCTYPE html>
 <html>
 <head>
-  <title>Font-family Example</title>
+  <title>Font Family Example</title>
   <style>
     body {
       font-family: Arial, sans-serif;
@@ -1398,7 +1398,7 @@ export const css_5_1_2_1 =
 `<!DOCTYPE html>
 <html>
 <head>
-  <title>Font-size Example</title>
+  <title>Font Size Example</title>
   <style>
     h1 {
       font-size: 32px;
@@ -1420,7 +1420,7 @@ export const css_5_1_3_1 =
 `<!DOCTYPE html>
 <html>
 <head>
-  <title>Font-weight Example</title>
+  <title>Font Weight Example</title>
   <style>
     p {
       font-weight: bold;
@@ -1444,7 +1444,7 @@ export const css_5_1_4_1 =
 `<!DOCTYPE html>
 <html>
 <head>
-  <title>Font-style Example</title>
+  <title>Font Style Example</title>
   <style>
     p {
       font-style: italic;
@@ -1467,7 +1467,7 @@ export const css_5_1_5_1 =
 `<!DOCTYPE html>
 <html>
 <head>
-  <title>Text-decoration Example</title>
+  <title>Text Decoration Example</title>
   <style>
     p {
       text-decoration: underline;
@@ -1490,7 +1490,7 @@ export const css_5_1_6_1 =
 `<!DOCTYPE html>
 <html>
 <head>
-  <title>Text-transform Example</title>
+  <title>Text Transform Example</title>
   <style>
     h2 {
       text-transform: uppercase;
@@ -1513,7 +1513,7 @@ export const css_5_1_7_1 =
 `<!DOCTYPE html>
 <html>
 <head>
-  <title>Text-align Example</title>  
+  <title>Text Align Example</title>  
   <style>
     .container {
       text-align: center;
@@ -1562,6 +1562,28 @@ p {
   font-size: 1.2rem; /* Relative to the root font size */
 }`;
 
+export const css_5_3_1_1 =
+`<!DOCTYPE html>
+<html>
+<head>
+  <title>Relative Unit Example</title>
+  <style>
+    h1 {
+      font-size: 3em;
+    }
+    
+    p {
+      font-size: 1.2rem;
+    }
+  </style>
+</head>
+<body>
+  <h1>Welcome to my Website</h1>
+  <p>This is an example paragraph with a font size relative to its parent element.</p>
+  <p>Another paragraph with a font size relative to the root font size.</p>
+</body>
+</html>`;
+
 export const css_5_3_2 =
 `h1 {
   font-size: 3em;
@@ -1579,10 +1601,55 @@ export const css_5_3_2 =
   }
 }`;
 
+export const css_5_3_2_1 =
+`<!DOCTYPE html>
+<html>
+<head>
+  <title>Media Query Example</title>
+  <style>
+    h1 {
+      font-size: 3em;
+    }
+    
+    @media (max-width: 768px) {
+      h1 {
+        font-size: 2em;
+      }
+    }
+    
+    @media (max-width: 480px) {
+      h1 {
+        font-size: 1.5em;
+      }
+    }
+  </style>
+</head>
+<body>
+  <h1>Welcome to my Website</h1>
+</body>
+</html>`;
+
 export const css_5_3_3 =
 `h1 {
   font-size: calc(2rem + 2vw);
 }`;
+
+export const css_5_3_3_1 =
+`<!DOCTYPE html>
+<html>
+<head>
+  <title>Fluid Typography Example</title>
+  <style>
+    h1 {
+      font-size: calc(2rem + 2vw);
+    }
+  </style>
+</head>
+<body>
+  <h1>Welcome to my Website</h1>
+  <p>This is an example paragraph.</p>
+</body>
+</html>`;
 
 export const css_5_3_4 =
 `p {
@@ -1590,6 +1657,26 @@ export const css_5_3_4 =
   line-height: 1.5;
   letter-spacing: 0.02em;
 }`;
+
+export const css_5_3_4_1 =
+`<!DOCTYPE html>
+<html>
+<head>
+  <title>Line Height and Letter Spacing Example</title>
+  <style>
+    p {
+      font-size: 1.2rem;
+      line-height: 1.5;
+      letter-spacing: 0.02em;
+    }
+  </style>
+</head>
+<body>
+  <h1>Welcome to my Website</h1>
+  <p>This is an example paragraph with custom font size, line height, and letter spacing.</p>
+  <p>Another paragraph with the same custom styles applied.</p>
+</body>
+</html>`;
 
 export const css_5_3_5 =
 `body {
@@ -1601,6 +1688,30 @@ export const css_5_3_5 =
     font-family: 'Open Sans', Arial, sans-serif;
   }
 }`;
+
+export const css_5_3_5_1 =
+`<!DOCTYPE html>
+<html>
+<head>
+  <title>Responsive Font Family Example</title>
+  <style>
+    body {
+      font-family: 'Roboto', Arial, sans-serif;
+    }
+    
+    @media (max-width: 768px) {
+      body {
+        font-family: 'Open Sans', Arial, sans-serif;
+      }
+    }
+  </style>
+</head>
+<body>
+  <h1>Welcome to my Website</h1>
+  <p>This is an example paragraph with a custom font family.</p>
+  <p>Another paragraph with a custom font family.</p>
+</body>
+</html>`;
 
 export const css_6_1_1 =
 `color: red;
