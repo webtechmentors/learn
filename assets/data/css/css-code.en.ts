@@ -1372,40 +1372,170 @@ export const css_5_1_1 =
   font-family: Arial, sans-serif;
 }`;
 
+export const css_5_1_1_1 =
+`<!DOCTYPE html>
+<html>
+<head>
+  <title>Font-family Example</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+    }
+  </style>
+</head>
+<body>
+  <h1>Welcome to my Website</h1>
+  <p>This is an example paragraph using the Arial font.</p>
+</body>
+</html>`;
+
 export const css_5_1_2 =
 `h1 {
-  font-size: 24px;
+  font-size: 32px;
 }`;
+
+export const css_5_1_2_1 =
+`<!DOCTYPE html>
+<html>
+<head>
+  <title>Font-size Example</title>
+  <style>
+    h1 {
+      font-size: 32px;
+    }
+  </style>
+</head>
+<body>
+  <h1>Welcome to my Website</h1>
+  <p>This is an example h1 tag with font size 32px.</p>
+</body>
+</html>`;
 
 export const css_5_1_3 =
 `p {
   font-weight: bold;
 }`;
 
+export const css_5_1_3_1 =
+`<!DOCTYPE html>
+<html>
+<head>
+  <title>Font-weight Example</title>
+  <style>
+    p {
+      font-weight: bold;
+    }
+  </style>
+</head>
+<body>
+  <h1>Welcome to my Website</h1>
+  <p>This is an example paragraph with bold font weight.</p>
+  <p>Another paragraph with bold font weight.</p>
+</body>
+</html>`;
+
 export const css_5_1_4 =
-`em {
+`p {
   font-style: italic;
 }
 `;
 
+export const css_5_1_4_1 =
+`<!DOCTYPE html>
+<html>
+<head>
+  <title>Font-style Example</title>
+  <style>
+    p {
+      font-style: italic;
+    }
+  </style>
+</head>
+<body>
+  <h1>Welcome to my Website</h1>
+  <p>This is an example paragraph with italic font style.</p>
+  <p>Another paragraph with italic font style.</p>
+</body>
+</html>`;
+
 export const css_5_1_5 =
-`a {
+`p {
   text-decoration: underline;
 }`;
+
+export const css_5_1_5_1 =
+`<!DOCTYPE html>
+<html>
+<head>
+  <title>Text-decoration Example</title>
+  <style>
+    p {
+      text-decoration: underline;
+    }
+  </style>
+</head>
+<body>
+  <h1>Welcome to my Website</h1>
+  <p>This is an example paragraph with underlined text.</p>
+  <p>Another paragraph with underlined text.</p>
+</body>
+</html>`;
 
 export const css_5_1_6 =
 `h2 {
   text-transform: uppercase;
 }`;
 
+export const css_5_1_6_1 =
+`<!DOCTYPE html>
+<html>
+<head>
+  <title>Text-transform Example</title>
+  <style>
+    h2 {
+      text-transform: uppercase;
+    }
+  </style>
+</head>
+<body>
+  <h1>Welcome to my Website</h1>
+  <h2>This is an example heading with uppercase text.</h2>
+  <h2>Another heading with uppercase text.</h2>
+</body>
+</html>`;
+
 export const css_5_1_7 =
-`p {
+`.container {
   text-align: center;
 }`;
 
+export const css_5_1_7_1 =
+`<!DOCTYPE html>
+<html>
+<head>
+  <title>Text-align Example</title>  
+  <style>
+    .container {
+      text-align: center;
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <h1>Welcome to my Website</h1>
+    <p>This is an example paragraph with centered text.</p>
+    <p>Another paragraph with centered text.</p>
+  </div>
+</body>
+</html>`;
+
 export const css_5_2_1 =
-`.container {
-  text-align: center;
+`@font-face {
+  font-family: 'MyCustomFont';
+  src: url('path/to/font.woff2') format('woff2'),
+       url('path/to/font.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
 }`;
 
 export const css_5_2_2 =
