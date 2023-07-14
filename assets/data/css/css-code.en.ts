@@ -935,16 +935,58 @@ export const css_4_1_4_1 =
 </html>`;
 
 export const css_4_3_1 =
-`.image {
+`img {
   float: right;
   width: 200px;
   height: 200px;
 }`;
 
+export const css_4_3_1_1 =
+`<!DOCTYPE html>
+<html>
+<head>
+  <style>
+    img {
+      float: right;
+      width: 200px;
+      height: 200px;
+      margin: 10px;
+    }
+  </style>
+</head>
+<body>
+  <img src="assets/images/cute_cat.jpg" alt="Example Image">
+  <p>This is an example of an image element. It has the CSS properties of float: right, width: 200px, height: 200px, and margin: 10px. As a result, the image is floated to the right side of the surrounding content with a width and height of 200 pixels each.</p>
+</body>
+</html>`;
+
 export const css_4_3_2 =
 `.content {
   clear: both;
 }`;
+
+export const css_4_3_2_1 =
+`<!DOCTYPE html>
+<html>
+<head>
+  <style>
+    .content {
+      clear: both;
+      padding: 20px;
+      background-color: lightblue;
+    }
+  </style>
+</head>
+<body>
+  <div style="float: left; width: 200px; height: 100px; background-color: lightgreen; margin: 10px;"></div>
+  <div style="float: right; width: 200px; height: 100px; background-color: lightpink; margin: 10px;"></div>
+  <div class="content">
+    <h2>Content with Clear Property</h2>
+    <p>This is an example of content inside a <code>&lt;div&gt;</code> element with the class "content". It has the CSS property <code>clear: both;</code> applied to it.</p>
+    <p>The clear property ensures that the content <em>clears</em> any floated elements that come before it.</p>
+  </div>
+  </body>
+</html>`;
 
 export const css_4_4_1 =
 `.container {
@@ -955,8 +997,40 @@ export const css_4_4_2 =
 `.container {
   display: grid;
   grid-template-rows: 100px 200px; /* Two rows with heights of 100px and 200px */
-  grid-template-columns: 1fr 2fr; /* Two columns with widths in a 1:2 ratio */
+  grid-template-columns: 1fr 2fr; /* Two columns with widths in a 1:2 ratio. The fr unit represents a fraction of the available space in the grid container */
 }`;
+
+export const css_4_4_2_1 =
+`<!DOCTYPE html>
+<html>
+<head>
+  <title>Grid Tracks' Example</title>
+  <style>
+    .container {
+      display: grid;
+      grid-template-rows: 100px 200px;
+      grid-template-columns: 1fr 2fr;
+      grid-gap: 10px;
+      padding: 20px;
+      background-color: lightblue;
+    }
+    
+    .item {
+      background-color: lightgreen;
+      padding: 10px;
+      text-align: center;
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <div class="item">Item 1</div>
+    <div class="item">Item 2</div>
+    <div class="item">Item 3</div>
+    <div class="item">Item 4</div>
+  </div>
+</body>
+</html>`;
 
 export const css_4_4_3 =
 `.container {
@@ -970,6 +1044,40 @@ export const css_4_4_3 =
   grid-column: 1 / 3; /* Position the item in the first and second columns */
 }`;
 
+export const css_4_4_3_1 =
+`<!DOCTYPE html>
+<html>
+<head>
+  <title>Grid Items' Example</title>
+  <style>
+    .container {
+      display: grid;
+      grid-template-rows: 100px 200px;
+      grid-template-columns: 1fr 2fr;
+      grid-gap: 10px;
+      padding: 20px;
+      background-color: lightblue;
+    }
+    
+    .item {
+      background-color: lightgreen;
+      padding: 10px;
+      text-align: center;
+      grid-row: 1 / 2;
+      grid-column: 1 / 3;
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <div class="item">Item 1</div>
+    <div class="item">Item 2</div>
+    <div class="item">Item 3</div>
+    <div class="item">Item 4</div>
+  </div>
+</body>
+</html>`;
+
 export const css_4_4_4 =
 `.container {
   display: grid;
@@ -982,6 +1090,37 @@ export const css_4_4_4 =
   grid-column: col1-start / col2-end; /* Position the item from the start of the first column to the end of the second column */
 }`;
 
+export const css_4_4_4_1 =
+`<!DOCTYPE html>
+<html>
+<head>
+  <title>Grid Lines' Example</title>
+  <style>
+    .container {
+      display: grid;
+      grid-template-rows: 100px 200px;
+      grid-template-columns: [col1-start] 1fr [col2-start] 2fr [col2-end];
+      grid-gap: 10px;
+      padding: 20px;
+      background-color: lightblue;
+    }
+    
+    .item {
+      background-color: lightgreen;
+      padding: 10px;
+      text-align: center;
+      grid-row: 1 / 3;
+      grid-column: col1-start / col2-end;
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <div class="item">Item 1</div>
+  </div>
+</body>
+</html>`;
+
 export const css_4_4_5 =
 `.container {
   display: grid;
@@ -989,6 +1128,38 @@ export const css_4_4_5 =
   grid-template-columns: 1fr 2fr;
   grid-gap: 10px; /* Sets the gap size to 10px */
 }`;
+
+export const css_4_4_5_1 =
+`<!DOCTYPE html>
+<html>
+<head>
+  <title>Grid-gap Example</title>
+  <style>
+    .container {
+      display: grid;
+      grid-template-rows: 100px 200px;
+      grid-template-columns: 1fr 2fr;
+      grid-gap: 10px;
+      padding: 20px;
+      background-color: lightblue;
+    }
+    
+    .item {
+      background-color: lightgreen;
+      padding: 10px;
+      text-align: center;
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <div class="item">Item 1</div>
+    <div class="item">Item 2</div>
+    <div class="item">Item 3</div>
+    <div class="item">Item 4</div>
+  </div>
+</body>
+</html>`;
 
 export const css_4_5_1 =
 `.container {
@@ -1006,11 +1177,80 @@ export const css_4_5_2 =
   flex-basis: 25%; /* Set the initial size of the item */
 }`;
 
+export const css_4_5_2_1 =
+`<!DOCTYPE html>
+<html>
+<head>
+  <title>Flex items Example</title>
+  <style>
+    .container {
+      display: flex;
+      flex-wrap: wrap; /* Enable wrapping of flex items to new lines if necessary */
+      justify-content: space-between; /* Distribute items evenly with space between them */
+      padding: 20px;
+      background-color: lightblue;
+    }
+    
+    .item {
+      flex-grow: 1;
+      flex-shrink: 0;
+      flex-basis: 25%;
+      background-color: lightgreen;
+      padding: 10px;
+      margin: 10px;
+      text-align: center;
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <div class="item">Item 1</div>
+    <div class="item">Item 2</div>
+    <div class="item">Item 3</div>
+    <div class="item">Item 4</div>
+    <div class="item">Item 5</div>
+    <div class="item">Item 6</div>
+  </div>
+</body>
+</html>`;
+
 export const css_4_5_3 =
 `.container {
   display: flex;
   flex-direction: column; /* Arrange items vertically */
 }`;
+
+export const css_4_5_3_1 =
+`<!DOCTYPE html>
+<html>
+<head>
+  <title>Flex-direction Example</title>
+  <style>
+    .container {
+      display: flex;
+      flex-direction: column;
+      align-items: center; /* Center items horizontally within the container */
+      padding: 20px;
+      background-color: lightblue;
+    }
+    
+    .item {
+      background-color: lightgreen;
+      padding: 10px;
+      margin: 10px;
+      text-align: center;
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <div class="item">Item 1</div>
+    <div class="item">Item 2</div>
+    <div class="item">Item 3</div>
+    <div class="item">Item 4</div>
+  </div>
+</body>
+</html>`;
 
 export const css_4_5_4 =
 `.container {
@@ -1018,17 +1258,114 @@ export const css_4_5_4 =
   justify-content: center; /* Center align items along the main axis */
 }`;
 
+export const css_4_5_4_1 =
+`<!DOCTYPE html>
+<html>
+<head>
+  <title>Justify-content Example</title>
+  <style>
+    .container {
+      display: flex;
+      justify-content: center;
+      height: 200px; /* Added height for visualization */
+      background-color: lightblue;
+    }
+    
+    .item {
+      background-color: lightgreen;
+      padding: 10px;
+      margin: 10px;
+      text-align: center;
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <div class="item">Item 1</div>
+    <div class="item">Item 2</div>
+    <div class="item">Item 3</div>
+    <div class="item">Item 4</div>
+  </div>
+</body>
+</html>`;
+
 export const css_4_5_5 =
 `.container {
   display: flex;
   align-items: center; /* Vertically center align items */
 }`;
 
+export const css_4_5_5_1 =
+`<!DOCTYPE html>
+<html>
+<head>
+  <title>Align-items Example</title>
+  <style>
+    .container {
+      display: flex;
+      align-items: center;
+      height: 200px; /* Added height for visualization */
+      background-color: lightblue;
+    }
+    
+    .item {
+      background-color: lightgreen;
+      padding: 10px;
+      margin: 10px;
+      text-align: center;
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <div class="item">Item 1</div>
+    <div class="item">Item 2</div>
+    <div class="item">Item 3</div>
+    <div class="item">Item 4</div>
+  </div>
+</body>
+</html>`;
+
 export const css_4_5_6 =
 `.container {
   display: flex;
   flex-wrap: wrap; /* Allow items to wrap onto multiple lines */
 }`;
+
+export const css_4_5_6_1 =
+`<!DOCTYPE html>
+<html>
+<head>
+  <title>Flex-wrap Example</title>
+  <style>
+    .container {
+      display: flex;
+      flex-wrap: wrap;
+      padding: 20px;
+      background-color: lightblue;
+    }
+    
+    .item {
+      flex: 0 0 200px; /* Set a fixed width for the flex items */
+      height: 150px; /* Set a fixed height for the flex items */
+      background-color: lightgreen;
+      padding: 10px;
+      margin: 10px;
+      text-align: center;
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <div class="item">Item 1</div>
+    <div class="item">Item 2</div>
+    <div class="item">Item 3</div>
+    <div class="item">Item 4</div>
+    <div class="item">Item 5</div>
+    <div class="item">Item 6</div>
+  </div>
+</body>
+</html>`;
 
 export const css_5_1_1 =
 `body {
