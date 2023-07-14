@@ -1,0 +1,418 @@
+[
+  {
+    "category": "ts",
+    "chid": 1,
+    "title": "Introduction to TypeScript",
+    "sections": [
+      {
+        "secid": 1,
+        "subtitle": "What is TypeScript?",
+        "paragraphs": [
+          {
+            "paraid": 1,
+            "text": ""
+          }
+        ]
+      },
+      {
+        "secid": 2,
+        "subtitle": "Benefits of Using TypeScript",
+        "paragraphs": [
+          {
+            "paraid": 1,
+            "text": ""
+          }
+        ]
+      },
+      {
+        "secid": 3,
+        "subtitle": "TypeScript vs JavaScript",
+        "paragraphs": [
+          {
+            "paraid": 1,
+            "text": ""
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "category": "ts",
+    "chid": 2,
+    "title": "Getting Started with TypeScript",
+    "sections": [
+      {
+        "secid": 1,
+        "subtitle": "Installing TypeScript",
+        "paragraphs": [
+          {
+            "paraid": 1,
+            "text": ""
+          }
+        ]
+      },
+      {
+        "secid": 2,
+        "subtitle": "Setting Up a TypeScript Project",
+        "paragraphs": [
+          {
+            "paraid": 1,
+            "text": ""
+          }
+        ]
+      },
+      {
+        "secid": 3,
+        "subtitle": "Configuring TypeScript Compiler",
+        "paragraphs": [
+          {
+            "paraid": 1,
+            "text": ""
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "category": "ts",
+    "chid": 3,
+    "title": "TypeScript Basics",
+    "sections": [
+      {
+        "secid": 1,
+        "subtitle": "Variables and Data Types",
+        "paragraphs": [
+          {
+            "paraid": 1,
+            "text": ""
+          }
+        ]
+      },
+      {
+        "secid": 2,
+        "subtitle": "Functions",
+        "paragraphs": [
+          {
+            "paraid": 1,
+            "text": ""
+          }
+        ]
+      },
+      {
+        "secid": 3,
+        "subtitle": "Interfaces",
+        "paragraphs": [
+          {
+            "paraid": 1,
+            "text": ""
+          }
+        ]
+      },
+      {
+        "secid": 4,
+        "subtitle": "Classes",
+        "paragraphs": [
+          {
+            "paraid": 1,
+            "text": ""
+          }
+        ]
+      },
+      {
+        "secid": 5,
+        "subtitle": "Modules and Namespaces",
+        "paragraphs": [
+          {
+            "paraid": 1,
+            "text": ""
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "category": "ts",
+    "chid": 4,
+    "title": "Advanced TypeScript Concepts",
+    "sections": [
+      {
+        "secid": 1,
+        "subtitle": "Generics",
+        "paragraphs": [
+          {
+            "paraid": 1,
+            "text": ""
+          }
+        ]
+      },
+      {
+        "secid": 2,
+        "subtitle": "Decorators",
+        "paragraphs": [
+          {
+            "paraid": 1,
+            "text": ""
+          }
+        ]
+      },
+      {
+        "secid": 3,
+        "subtitle": "Enums",
+        "paragraphs": [
+          {
+            "paraid": 1,
+            "text": ""
+          }
+        ]
+      },
+      {
+        "secid": 4,
+        "subtitle": "Type Inference",
+        "paragraphs": [
+          {
+            "paraid": 1,
+            "text": ""
+          }
+        ]
+      },
+      {
+        "secid": 5,
+        "subtitle": "Type Guards",
+        "paragraphs": [
+          {
+            "paraid": 1,
+            "text": ""
+          }
+        ]
+      },
+      {
+        "secid": 6,
+        "subtitle": "Intersection and Union Types",
+        "paragraphs": [
+          {
+            "paraid": 1,
+            "text": ""
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "category": "ts",
+    "chid": 5,
+    "title": "TypeScript Tooling and Development Workflow",
+    "sections": [
+      {
+        "secid": 1,
+        "subtitle": "Type Checking and Compilation",
+        "paragraphs": [
+          {
+            "paraid": 1,
+            "text": ""
+          }
+        ]
+      },
+      {
+        "secid": 2,
+        "subtitle": "Debugging TypeScript",
+        "paragraphs": [
+          {
+            "paraid": 1,
+            "text": ""
+          }
+        ]
+      },
+      {
+        "secid": 3,
+        "subtitle": "Testing TypeScript Code",
+        "paragraphs": [
+          {
+            "paraid": 1,
+            "text": ""
+          }
+        ]
+      },
+      {
+        "secid": 4,
+        "subtitle": "Integrating with Build Tools",
+        "paragraphs": [
+          {
+            "paraid": 1,
+            "text": ""
+          }
+        ]
+      },
+      {
+        "secid": 5,
+        "subtitle": "TypeScript in Popular Editors/IDEs",
+        "paragraphs": [
+          {
+            "paraid": 1,
+            "text": ""
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "category": "ts",
+    "chid": 6,
+    "title": "TypeScript Best Practices",
+    "sections": [
+      {
+        "secid": 1,
+        "subtitle": "Writing Clean and Maintainable Code",
+        "paragraphs": [
+          {
+            "paraid": 1,
+            "text": ""
+          }
+        ]
+      },
+      {
+        "secid": 2,
+        "subtitle": "Error Handling and Exception Handling",
+        "paragraphs": [
+          {
+            "paraid": 1,
+            "text": ""
+          }
+        ]
+      },
+      {
+        "secid": 3,
+        "subtitle": "Performance Optimization",
+        "paragraphs": [
+          {
+            "paraid": 1,
+            "text": ""
+          }
+        ]
+      },
+      {
+        "secid": 4,
+        "subtitle": "Code Documentation and Comments",
+        "paragraphs": [
+          {
+            "paraid": 1,
+            "text": ""
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "category": "ts",
+    "chid": 7,
+    "title": "TypeScript Design Patterns",
+    "sections": [
+      {
+        "secid": 1,
+        "subtitle": "Singleton Pattern",
+        "paragraphs": [
+          {
+            "paraid": 1,
+            "text": ""
+          }
+        ]
+      },
+      {
+        "secid": 2,
+        "subtitle": "Factory Pattern",
+        "paragraphs": [
+          {
+            "paraid": 1,
+            "text": ""
+          }
+        ]
+      },
+      {
+        "secid": 3,
+        "subtitle": "Decorator Pattern",
+        "paragraphs": [
+          {
+            "paraid": 1,
+            "text": ""
+          }
+        ]
+      },
+      {
+        "secid": 4,
+        "subtitle": "Observer Pattern",
+        "paragraphs": [
+          {
+            "paraid": 1,
+            "text": ""
+          }
+        ]
+      },
+      {
+        "secid": 5,
+        "subtitle": "Module Revealing Pattern",
+        "paragraphs": [
+          {
+            "paraid": 1,
+            "text": ""
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "category": "ts",
+    "chid": 8,
+    "title": "Working with Frameworks and Libraries",
+    "sections": [
+      {
+        "secid": 1,
+        "subtitle": "TypeScript and Angular",
+        "paragraphs": [
+          {
+            "paraid": 1,
+            "text": ""
+          }
+        ]
+      },
+      {
+        "secid": 2,
+        "subtitle": "TypeScript and React",
+        "paragraphs": [
+          {
+            "paraid": 1,
+            "text": ""
+          }
+        ]
+      },
+      {
+        "secid": 3,
+        "subtitle": "TypeScript and Vue.js",
+        "paragraphs": [
+          {
+            "paraid": 1,
+            "text": ""
+          }
+        ]
+      },
+      {
+        "secid": 4,
+        "subtitle": "TypeScript and Node.js",
+        "paragraphs": [
+          {
+            "paraid": 1,
+            "text": ""
+          }
+        ]
+      },
+      {
+        "secid": 5,
+        "subtitle": "Using TypeScript with Popular Libraries",
+        "paragraphs": [
+          {
+            "paraid": 1,
+            "text": ""
+          }
+        ]
+      }
+    ]
+  }
+]
