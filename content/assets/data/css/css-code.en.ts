@@ -2057,6 +2057,34 @@ export const css_7_1_5 =
   transition-delay: 0.2s;
 }`;
 
+export const css_7_1_5_1 =
+`<!DOCTYPE html>
+<html>
+<head>
+  <title>CSS Transition Example</title>
+  <style>
+    div {
+      width: 200px;
+      height: 200px;
+      background-color: skyblue;
+      opacity: 1;
+      transition-property: background-color, opacity;
+      transition-duration: 0.5s;
+      transition-timing-function: ease-in-out;
+      transition-delay: 0.2s;
+    }
+    
+    div:hover {
+      background-color: coral;
+      opacity: 0.5;
+    }
+  </style>
+</head>
+<body>
+  <div></div>
+</body>
+</html>`;
+
 export const css_7_2_1 =
 `@keyframes slide-in {
   0% {
@@ -2119,6 +2147,41 @@ export const css_7_2_9 =
   animation-iteration-count: 3;
   animation-fill-mode: forwards;
 }`;
+
+export const css_7_2_9_1 =
+`<!DOCTYPE html>
+<html>
+<head>
+  <title>CSS Animation Example</title>
+  <style>
+    div {
+      width: 200px;
+      height: 200px;
+      background-color: skyblue;
+      animation-name: slide-in;
+      animation-duration: 1s;
+      animation-timing-function: ease-in-out;
+      animation-delay: 0.5s;
+      animation-iteration-count: 3;
+      animation-fill-mode: forwards;
+    }
+    
+    @keyframes slide-in {
+      0% {
+        opacity: 0;
+        transform: translateX(-100%);
+      }
+      100% {
+        opacity: 1;
+        transform: translateX(0);
+      }
+    }
+  </style>
+</head>
+<body>
+  <div></div>
+</body>
+</html>`;
 
 export const css_7_3_1 =
 `div {
