@@ -2192,6 +2192,29 @@ div:hover {
   transform: scale(1.2);
 }`;
 
+export const css_7_3_1_1 =
+`<!DOCTYPE html>
+<html>
+<head>
+  <title>CSS Animation Example</title>
+  <style>
+    div {
+      width: 200px;
+      height: 200px;
+      background-color: skyblue;
+      transition: transform 0.3s ease-in-out;
+    }
+    
+    div:hover {
+      transform: scale(1.2);
+    }
+  </style>
+</head>
+<body>
+  <div></div>
+</body>
+</html>`
+
 export const css_7_3_2 =
 `@keyframes bounce {
   0% {
@@ -2209,6 +2232,37 @@ div {
   animation: bounce 1s infinite;
 }`;
 
+export const css_7_3_2_1 =
+`<!DOCTYPE html>
+<html>
+<head>
+  <title>CSS Animation Example</title>
+  <style>
+    @keyframes bounce {
+      0% {
+        transform: translateY(0);
+      }
+      50% {
+        transform: translateY(-20px);
+      }
+      100% {
+        transform: translateY(0);
+      }
+    }
+
+    div {
+      width: 200px;
+      height: 200px;
+      background-color: skyblue;
+      animation: bounce 1s infinite;
+    }
+  </style>
+</head>
+<body>
+  <div></div>
+</body>
+</html>`;
+
 export const css_7_3_3 =
 `div {
   transition: transform 0.3s ease-in-out;
@@ -2217,6 +2271,29 @@ export const css_7_3_3 =
 div:hover {
   transform: rotate(45deg) scale(1.2);
 }`;
+
+export const css_7_3_3_1 =
+`<!DOCTYPE html>
+<html>
+<head>
+  <title>CSS Animation Example</title>
+  <style>
+    div {
+      width: 200px;
+      height: 200px;
+      background-color: skyblue;
+      transition: transform 0.3s ease-in-out;
+    }
+    
+    div:hover {
+      transform: rotate(45deg) scale(1.2);
+    }
+  </style>
+</head>
+<body>
+  <div></div>
+</body>
+</html>`;
 
 export const css_7_3_4 =
 `button {
@@ -2228,11 +2305,77 @@ button:hover {
   color: #ffffff;
 }`;
 
+export const css_7_3_4_1 =
+`<!DOCTYPE html>
+<html>
+<head>
+  <title>CSS Animation Example</title>
+  <style>
+    button {
+      padding: 10px 20px;
+      background-color: #00ff00;
+      color: #000000;
+      border: none;
+      transition: background-color 0.3s ease-in-out;
+    }
+    
+    button:hover {
+      background-color: #ff0000;
+      color: #ffffff;
+    }
+  </style>
+</head>
+<body>
+  <button>Hover Me</button>
+</body>
+</html>`;
+
 export const css_7_3_5 =
 `const element = document.querySelector('.my-element');
 element.addEventListener('click', () => {
   element.classList.toggle('animate');
 });`;
+
+export const css_7_3_5_1 =
+`<!DOCTYPE html>
+<html>
+<head>
+  <title>JavaScript Animation Example</title>
+  <style>
+    .my-element {
+      width: 200px;
+      height: 200px;
+      background-color: skyblue;
+    }
+    
+    .animate {
+      animation: my-animation 1s infinite;
+    }
+    
+    @keyframes my-animation {
+      0% {
+        transform: translateX(0);
+      }
+      50% {
+        transform: translateX(50px);
+      }
+      100% {
+        transform: translateX(0);
+      }
+    }
+  </style>
+</head>
+<body>
+  <div class="my-element"></div>
+
+  <script>
+    const element = document.querySelector('.my-element');
+    element.addEventListener('click', () => {
+      element.classList.toggle('animate');
+    });
+  </script>
+</body>
+</html>`;
 
 export const css_8_2_1 =
 `@media mediaType and (mediaFeature: value) {
