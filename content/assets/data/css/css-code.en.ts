@@ -1717,19 +1717,107 @@ export const css_6_1_1 =
 `color: red;
 background-color: skyblue;`;
 
+export const css_6_1_1_1 =
+`<!DOCTYPE html>
+<html>
+<head>
+  <title>Named Color Example</title>
+  <style>
+    body {
+      color: red;
+      background-color: skyblue;
+    }
+  </style>
+</head>
+<body>
+  <h1>Welcome to my Website</h1>
+  <p>This is an example paragraph with custom text and background color.</p>
+</body>
+</html>`;
+
 export const css_6_1_2 =
 `color: #FF0000;
 background-color: #00FF00;`;
 
+export const css_6_1_2_1 =
+`<!DOCTYPE html>
+<html>
+<head>
+  <title>Hexadecimal Color Example</title>
+  <style>
+    body {
+      color: #FF0000;
+      background-color: #00FF00;
+    }
+  </style>
+</head>
+<body>
+  <h1>Welcome to my Website</h1>
+  <p>This is an example paragraph with custom text and background color.</p>
+</body>
+</html>`;
+
 export const css_6_1_3 =
 `color: rgb(255, 0, 0);`;
+
+export const css_6_1_3_1 =
+`<!DOCTYPE html>
+<html>
+<head>
+  <title>RGB Color Example</title>
+  <style>
+    body {
+      color: rgb(255, 0, 0);
+    }
+  </style>
+</head>
+<body>
+  <h1>Welcome to my Website</h1>
+  <p>This is an example paragraph with custom text color.</p>
+</body>
+</html>`;
 
 export const css_6_1_4 =
 `color: rgba(255, 0, 0, 0.5);`;
 
+export const css_6_1_4_1 =
+`<!DOCTYPE html>
+<html>
+<head>
+  <title>RGBA Color Example</title>
+  <style>
+    body {
+      color: rgba(255, 0, 0, 0.5);
+    }
+  </style>
+</head>
+<body>
+  <h1>Welcome to my Website</h1>
+  <p>This is an example paragraph with custom text color.</p>
+</body>
+</html>`;
+
 export const css_6_1_5 =
 `color: hsl(0, 100%, 50%);
 background-color: hsla(120, 100%, 50%, 0.7);`;
+
+export const css_6_1_5_1 =
+`<!DOCTYPE html>
+<html>
+<head>
+  <title>HSL and HSLA Color Example</title>
+  <style>
+    body {
+      color: hsl(0, 100%, 50%);
+      background-color: hsla(120, 100%, 50%, 0.7);
+    }
+  </style>
+</head>
+<body>
+  <h1>Welcome to my Website</h1>
+  <p>This is an example paragraph with custom text and background color.</p>
+</body>
+</html>`;
 
 export const css_6_1_6 =
 `color: rgb(255, 0, 0);`;
@@ -1740,11 +1828,67 @@ export const css_6_1_7 =
 export const css_6_1_8 =
 `border-color: red;`;
 
+export const css_6_1_8_1 =
+`<!DOCTYPE html>
+<html>
+<head>
+  <title>Border Color Example</title>
+  <style>
+    .box {
+      width: 200px;
+      height: 200px;
+      border: 2px solid red;
+    }
+  </style>
+</head>
+<body>
+  <div class="box"></div>
+</body>
+</html>`;
+
 export const css_6_1_9 =
 `outline-color: hsl(240, 100%, 50%);`;
 
+export const css_6_1_9_1 =
+`<!DOCTYPE html>
+<html>
+<head>
+  <title>Outline Color Example</title>
+  <style>
+    .box {
+      width: 200px;
+      height: 200px;
+      border: 2px solid black;
+      outline: 2px solid hsl(240, 100%, 50%);
+    }
+  </style>
+</head>
+<body>
+  <div class="box"></div>
+</body>
+</html>`;
+
 export const css_6_1_10 =
 `box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);`;
+
+export const css_6_1_10_1 =
+`<!DOCTYPE html>
+<html>
+<head>
+  <title>Box Shadow Example</title>
+  <style>
+    .box {
+      width: 200px;
+      height: 200px;
+      background-color: skyblue;
+      box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+    }
+  </style>
+</head>
+<body>
+  <div class="box"></div>
+</body>
+</html>`;
 
 export const css_6_2_1 =
 `div {
@@ -1786,15 +1930,70 @@ export const css_6_3_1 =
   background-color: rgba(255, 0, 0, 0.5); /* Red color with 50% transparency */
 }`;
 
+export const css_6_3_1_1 =
+`<!DOCTYPE html>
+<html>
+<head>
+  <title>RGBA Color Transparency Example</title>
+  <style>
+    div {
+      width: 200px;
+      height: 200px;
+      background-color: rgba(255, 0, 0, 0.5);
+    }
+  </style>
+</head>
+<body>
+  <div></div>
+</body>
+</html>`;
+
 export const css_6_3_2 =
 `div {
   background-color: hsla(0, 100%, 50%, 0.5); /* Red color with 50% transparency */
 }`;
 
+export const css_6_3_2_1 =
+`<!DOCTYPE html>
+<html>
+<head>
+  <title>HSLA Color Transparency Example</title>
+  <style>
+    div {
+      width: 200px;
+      height: 200px;
+      background-color: hsla(0, 100%, 50%, 0.5);
+    }
+  </style>
+</head>
+<body>
+  <div></div>
+</body>
+</html>`;
+
 export const css_6_3_3 =
 `div {
   opacity: 0.5; /* 50% transparency */
 }`;
+
+export const css_6_3_3_1 =
+`<!DOCTYPE html>
+<html>
+<head>
+  <title>Opacity Example</title>
+  <style>
+    div {
+      width: 200px;
+      height: 200px;
+      background-color: skyblue;
+      opacity: 0.5;
+    }
+  </style>
+</head>
+<body>
+  <div></div>
+</body>
+</html>`;
 
 export const css_6_3_4 =
 `div {
@@ -1805,6 +2004,30 @@ export const css_6_3_4 =
 div:hover {
   opacity: 1;
 }`;
+
+export const css_6_3_4_1 =
+`<!DOCTYPE html>
+<html>
+<head>
+  <title>CSS Transition Example</title>
+  <style>
+    div {
+      width: 200px;
+      height: 200px;
+      background-color: skyblue;
+      opacity: 0;
+      transition: opacity 0.5s ease-in-out;
+    }
+    
+    div:hover {
+      opacity: 1;
+    }
+  </style>
+</head>
+<body>
+  <div></div>
+</body>
+</html>`;
 
 export const css_7_1_1 =
 `div {
