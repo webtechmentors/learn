@@ -1895,35 +1895,167 @@ export const css_6_2_1 =
   background-image: url("path/to/image.jpg");
 }`;
 
+export const css_6_2_1_1 =
+`<!DOCTYPE html>
+<html>
+<head>
+  <title>Background Image example</title>
+  <style>
+    div {
+      background-image: url("assets/images/background.jpg");
+      width: 300px;
+      height: 200px;
+    }
+  </style>
+</head>
+<body>
+  <div></div>
+</body>
+</html>`;
+
 export const css_6_2_2 =
 `div {
   background-repeat: no-repeat;
 }`;
+
+export const css_6_2_2_1 =
+`<!DOCTYPE html>
+<html>
+<head>
+  <title>Background Image example</title>
+  <style>
+    div {
+      background-image: url("assets/images/background.jpg");
+      background-repeat: no-repeat;
+      width: 300px;
+      height: 200px;
+    }
+  </style>
+</head>
+<body>
+  <div></div>
+</body>
+</html>`;
 
 export const css_6_2_3 =
 `div {
   background-size: cover;
 }`;
 
+export const css_6_2_3_1 =
+`<!DOCTYPE html>
+<html>
+<head>
+  <title>Background Image example</title>
+  <style>
+    div {
+      background-image: url("assets/images/background.jpg");
+      background-size: cover;
+      background-repeat: no-repeat;
+      width: 300px;
+      height: 200px;
+    }
+  </style>
+</head>
+<body>
+  <div></div>
+</body>
+</html>`;
+
 export const css_6_2_4 =
 `div {
   background-position: center;
 }`;
+
+export const css_6_2_4_1 =
+`<!DOCTYPE html>
+<html>
+<head>
+  <title>Background Image example</title>
+  <style>
+    div {
+      background-image: url("assets/images/background.jpg");
+      background-size: auto;
+      background-repeat: no-repeat;
+      background-position: center;
+      width: 300px;
+      height: 200px;
+    }
+  </style>
+</head>
+<body>
+  <div></div>
+</body>
+</html>`;
 
 export const css_6_2_5 =
 `div {
   background-image: linear-gradient(to right, red, blue);
 }`;
 
+export const css_6_2_5_1 =
+`<!DOCTYPE html>
+<html>
+<head>
+  <title>Linear Gradient example</title>
+  <style>
+    div {
+      background-image: linear-gradient(to right, red, blue);
+      width: 300px;
+      height: 200px;
+    }
+  </style>
+</head>
+<body>
+  <div></div>
+</body>
+</html>`
+
 export const css_6_2_6 =
 `div {
   background-image: radial-gradient(circle, red, blue);
 }`;
 
+export const css_6_2_6_1 =
+`<!DOCTYPE html>
+<html>
+<head>
+  <title>Radial Gradient example</title>
+  <style>
+    div {
+      background-image: radial-gradient(circle, red, blue);
+      width: 300px;
+      height: 200px;
+    }
+  </style>
+</head>
+<body>
+  <div></div>
+</body>
+</html>`;
+
 export const css_6_2_7 =
 `div {
   background-image: repeating-linear-gradient(to right, red, blue 50%);
 }`;
+
+export const css_6_2_7_1 =
+`<!DOCTYPE html>
+<html>
+<head>
+  <title>Repeating Linear Gradient example</title>
+  <style>
+    div {
+      background-image: repeating-linear-gradient(to right, red, blue 50%);
+      width: 300px;
+      height: 200px;
+    }
+  </style>
+</head>
+<body>
+  <div></div>
+</body>
+</html>`;
 
 export const css_6_3_1 =
 `div {
@@ -2387,20 +2519,132 @@ export const css_8_2_2 =
   /* Styles applied for screens with a maximum width of 768px */
 }`;
 
+export const css_8_2_2_1 =
+`<!DOCTYPE html>
+<html>
+<head>
+  <title>Media Query Example</title>
+  <style>
+    /* Styles for screens larger than 768px */
+    .container {
+      width: 800px;
+      height: 200px;
+      background-color: skyblue;
+    }
+
+    /* Media query for screens with a maximum width of 768px */
+    @media screen and (max-width: 768px) {
+      .container {
+        width: 100%;
+        height: 150px;
+        background-color: coral;
+      }
+    }
+  </style>
+</head>
+<body>
+  <div class="container"></div>
+</body>
+</html>`;
+
 export const css_8_2_3 =
 `@media screen and (orientation: landscape) {
   /* Styles applied for screens in landscape orientation */
 }`;
+
+export const css_8_2_3_1 =
+`<!DOCTYPE html>
+<html>
+<head>
+  <title>Media Query Example</title>
+  <style>
+    /* Styles for screens in portrait orientation */
+    .container {
+      width: 300px;
+      height: 400px;
+      background-color: skyblue;
+    }
+
+    /* Media query for screens in landscape orientation */
+    @media screen and (orientation: landscape) {
+      .container {
+        width: 500px;
+        height: 300px;
+        background-color: coral;
+      }
+    }
+  </style>
+</head>
+<body>
+  <div class="container"></div>
+</body>
+</html>`;
 
 export const css_8_2_4 =
 `@media screen and (min-width: 768px) and (max-width: 1024px) {
   /* Styles applied for screens with a width between 768px and 1024px */
 }`;
 
+export const css_8_2_4_1 =
+`<!DOCTYPE html>
+<html>
+<head>
+  <title>Media Query Example</title>
+  <style>
+    /* Styles for screens larger than 1024px */
+    .container {
+      width: 800px;
+      height: 200px;
+      background-color: skyblue;
+    }
+
+    /* Media query for screens with a width between 768px and 1024px */
+    @media screen and (min-width: 768px) and (max-width: 1024px) {
+      .container {
+        width: 600px;
+        height: 150px;
+        background-color: coral;
+      }
+    }
+  </style>
+</head>
+<body>
+  <div class="container"></div>
+</body>
+</html>`;
+
 export const css_8_2_5 =
 `@media (-webkit-min-device-pixel-ratio: 2), (min-resolution: 192dpi) {
   /* Styles applied for high-resolution displays */
 }`;
+
+export const css_8_2_5_1 =
+`<!DOCTYPE html>
+<html>
+<head>
+  <title>Media Query Example</title>
+  <style>
+    /* Styles for regular displays */
+    .container {
+      width: 300px;
+      height: 200px;
+      background-color: skyblue;
+    }
+
+    /* Media query for high-resolution displays */
+    @media (-webkit-min-device-pixel-ratio: 2), (min-resolution: 192dpi) {
+      .container {
+        width: 600px;
+        height: 400px;
+        background-color: coral;
+      }
+    }
+  </style>
+</head>
+<body>
+  <div class="container"></div>
+</body>
+</html>`;
 
 export const css_8_3_1 =
 `.container {
@@ -2411,6 +2655,34 @@ export const css_8_3_1 =
   width: 50%;
   float: left;
 }`;
+
+export const css_8_3_1_1 =
+`<!DOCTYPE html>
+<html>
+<head>
+  <title>Fluid Layout Example</title>
+  <style>
+  .container {
+    width: 100%;
+    overflow: hidden;
+  }
+  
+  .column {
+    width: 50%;
+    float: left;
+    box-sizing: border-box;
+    padding: 10px;
+    border: 1px solid black;
+  }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <div class="column">Column 1</div>
+    <div class="column">Column 2</div>
+  </div>
+</body>
+</html>`;
 
 export const css_8_3_2 =
 `.container {
@@ -2423,6 +2695,35 @@ export const css_8_3_2 =
   }
 }`;
 
+export const css_8_3_2_1 =
+`<!DOCTYPE html>
+<html>
+<head>
+  <title>Mobile-First Approach Example</title>
+  <style>
+    .container {
+      width: 100%;
+      background-color: skyblue;
+      padding: 20px;
+      box-sizing: border-box;
+    }
+    
+    @media (min-width: 768px) {
+      .container {
+        width: 80%;
+        background-color: coral;
+      }
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <h1>Hello, World!</h1>
+    <p>This is an example container.</p>
+  </div>
+</body>
+</html>`;
+
 export const css_8_3_3 =
 `.container {
   display: flex;
@@ -2430,8 +2731,37 @@ export const css_8_3_3 =
 }
 
 .column {
-  flex: 1 0 50%;
+  flex: 1 0 300px;
 }`;
+
+export const css_8_3_3_1 =
+`<!DOCTYPE html>
+<html>
+<head>
+  <title>Flexbox Example</title>
+  <style>
+    .container {
+      display: flex;
+      flex-wrap: wrap;
+    }
+    
+    .column {
+      flex: 1 0 300px;
+      padding: 20px;
+      border: 1px solid black;
+      background-color: skyblue;
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <div class="column">Column 1</div>
+    <div class="column">Column 2</div>
+    <div class="column">Column 3</div>
+    <div class="column">Column 4</div>
+  </div>
+</body>
+</html>`;
 
 export const css_8_3_4 =
 `.container {
@@ -2440,12 +2770,62 @@ export const css_8_3_4 =
   grid-gap: 10px;
 }`;
 
+export const css_8_3_4_1 =
+`<!DOCTYPE html>
+<html>
+<head>
+  <title>Grid Layout Example</title>
+  <style>
+    .container {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+      grid-gap: 10px;
+    }
+    
+    .item {
+      background-color: skyblue;
+      padding: 20px;
+      box-sizing: border-box;
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <div class="item">Item 1</div>
+    <div class="item">Item 2</div>
+    <div class="item">Item 3</div>
+    <div class="item">Item 4</div>
+  </div>
+</body>
+</html>`;
+
 export const css_8_3_5 =
 `<picture>
   <source srcset="image-large.jpg" media="(min-width: 768px)">
   <source srcset="image-medium.jpg" media="(min-width: 480px)">
   <img src="image-small.jpg" alt="Responsive Image">
 </picture>`;
+
+export const css_8_3_5_1 =
+`<!DOCTYPE html>
+<html>
+<head>
+  <title>Responsive Image Example</title>
+  <style>
+    img {
+      max-width: 100%;
+      height: auto;
+    }
+  </style>
+</head>
+<body>
+  <picture>
+    <source srcset="assets/images/big_car.png" media="(min-width: 768px)">
+    <source srcset="assets/images/medium_car.png" media="(min-width: 480px)">
+    <img src="assets/images/small_car.png" alt="Responsive Image">
+  </picture>
+</body>
+</html>`;
 
 export const css_8_3_6 =
 `p {
@@ -2457,3 +2837,24 @@ export const css_8_3_6 =
     font-size: 18px;
   }
 }`;
+
+export const css_8_3_6_1 =
+`<html>
+<head>
+  <title>Responsive Typography Example</title>
+  <style>
+    p {
+      font-size: 16px;
+    }
+    
+    @media (min-width: 768px) {
+      p {
+        font-size: 18px;
+      }
+    }
+  </style>
+</head>
+<body>
+  <p>This is a sample paragraph.</p>
+</body>
+</html>`;
