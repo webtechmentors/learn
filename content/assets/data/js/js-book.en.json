@@ -937,7 +937,7 @@
             "paraid": 1,
             "text": "",
             "codeConfig": {
-              "codeid": "js_2_7_1",
+              "codeid": "js_3_3_1",
               "exampleid": "",
               "codeOutput": false,
               "exampleOutput": false,
@@ -958,7 +958,7 @@
             "paraid": 1,
             "text": "",
             "codeConfig": {
-              "codeid": "js_2_7_2",
+              "codeid": "js_3_3_2",
               "exampleid": "",
               "codeOutput": false,
               "exampleOutput": false,
@@ -983,14 +983,14 @@
             "paraid": 1,
             "text": "",
             "codeConfig": {
-              "codeid": "js_2_7_3",
-              "exampleid": "",
+              "codeid": "js_3_3_3",
+              "exampleid": "js_3_3_3_1",
               "codeOutput": false,
-              "exampleOutput": false,
+              "exampleOutput": true,
               "codeTitle": "JS",
-              "exampleTitle": "",
+              "exampleTitle": "Example",
               "codeLangs": "ts",
-              "exampleLangs": "",
+              "exampleLangs": "xml",
               "codeSource": "",
               "exampleSource": "",
               "marginLeft": "5rem"
@@ -1004,14 +1004,14 @@
             "paraid": 1,
             "text": "",
             "codeConfig": {
-              "codeid": "js_2_7_4",
-              "exampleid": "",
+              "codeid": "js_3_3_4",
+              "exampleid": "js_3_3_4_1",
               "codeOutput": false,
-              "exampleOutput": false,
+              "exampleOutput": true,
               "codeTitle": "JS",
-              "exampleTitle": "",
+              "exampleTitle": "Example",
               "codeLangs": "ts",
-              "exampleLangs": "",
+              "exampleLangs": "xml",
               "codeSource": "",
               "exampleSource": "",
               "marginLeft": "5rem"
@@ -1025,14 +1025,14 @@
             "paraid": 1,
             "text": "",
             "codeConfig": {
-              "codeid": "js_2_7_5",
-              "exampleid": "",
+              "codeid": "js_3_3_5",
+              "exampleid": "js_3_3_5_1",
               "codeOutput": false,
-              "exampleOutput": false,
+              "exampleOutput": true,
               "codeTitle": "JS",
-              "exampleTitle": "",
+              "exampleTitle": "Example",
               "codeLangs": "ts",
-              "exampleLangs": "",
+              "exampleLangs": "xml",
               "codeSource": "",
               "exampleSource": "",
               "marginLeft": "5rem"
@@ -1046,14 +1046,14 @@
             "paraid": 1,
             "text": "",
             "codeConfig": {
-              "codeid": "js_2_7_6",
-              "exampleid": "",
+              "codeid": "js_3_3_6",
+              "exampleid": "js_3_3_6_1",
               "codeOutput": false,
-              "exampleOutput": false,
+              "exampleOutput": true,
               "codeTitle": "JS",
-              "exampleTitle": "",
+              "exampleTitle": "Example",
               "codeLangs": "ts",
-              "exampleLangs": "",
+              "exampleLangs": "xml",
               "codeSource": "",
               "exampleSource": "",
               "marginLeft": "5rem"
@@ -1067,14 +1067,14 @@
             "paraid": 1,
             "text": "",
             "codeConfig": {
-              "codeid": "js_2_7_7",
-              "exampleid": "",
+              "codeid": "js_3_3_7",
+              "exampleid": "js_3_3_7_1",
               "codeOutput": false,
-              "exampleOutput": false,
+              "exampleOutput": true,
               "codeTitle": "JS",
-              "exampleTitle": "",
+              "exampleTitle": "Example",
               "codeLangs": "ts",
-              "exampleLangs": "",
+              "exampleLangs": "xml",
               "codeSource": "",
               "exampleSource": "",
               "marginLeft": "5rem"
@@ -1088,14 +1088,14 @@
             "paraid": 1,
             "text": "",
             "codeConfig": {
-              "codeid": "js_2_7_8",
-              "exampleid": "",
+              "codeid": "js_3_3_8",
+              "exampleid": "js_3_3_8_1",
               "codeOutput": false,
-              "exampleOutput": false,
+              "exampleOutput": true,
               "codeTitle": "JS",
-              "exampleTitle": "",
+              "exampleTitle": "Example",
               "codeLangs": "ts",
-              "exampleLangs": "",
+              "exampleLangs": "xml",
               "codeSource": "",
               "exampleSource": "",
               "marginLeft": "5rem"
@@ -1109,14 +1109,14 @@
             "paraid": 1,
             "text": "",
             "codeConfig": {
-              "codeid": "js_2_7_9",
-              "exampleid": "",
+              "codeid": "js_3_3_9",
+              "exampleid": "js_3_3_9_1",
               "codeOutput": false,
-              "exampleOutput": false,
+              "exampleOutput": true,
               "codeTitle": "JS",
-              "exampleTitle": "",
+              "exampleTitle": "Example",
               "codeLangs": "ts",
-              "exampleLangs": "",
+              "exampleLangs": "xml",
               "codeSource": "",
               "exampleSource": "",
               "marginLeft": "5rem"
@@ -1226,13 +1226,13 @@
             "text": "",
             "codeConfig": {
               "codeid": "js_4_2_1",
-              "exampleid": "",
+              "exampleid": "js_4_2_1_1",
               "codeOutput": false,
-              "exampleOutput": false,
+              "exampleOutput": true,
               "codeTitle": "JS",
-              "exampleTitle": "",
+              "exampleTitle": "Example",
               "codeLangs": "ts",
-              "exampleLangs": "",
+              "exampleLangs": "xml",
               "codeSource": "",
               "exampleSource": "",
               "marginLeft": "5rem"
@@ -1247,13 +1247,13 @@
             "text": "",
             "codeConfig": {
               "codeid": "js_4_2_2",
-              "exampleid": "",
+              "exampleid": "js_4_2_2_1",
               "codeOutput": false,
-              "exampleOutput": false,
+              "exampleOutput": true,
               "codeTitle": "JS",
-              "exampleTitle": "",
+              "exampleTitle": "Example",
               "codeLangs": "ts",
-              "exampleLangs": "",
+              "exampleLangs": "xml",
               "codeSource": "",
               "exampleSource": "",
               "marginLeft": "5rem"
@@ -1268,13 +1268,13 @@
             "text": "",
             "codeConfig": {
               "codeid": "js_4_2_3",
-              "exampleid": "",
+              "exampleid": "js_4_2_3_1",
               "codeOutput": false,
-              "exampleOutput": false,
+              "exampleOutput": true,
               "codeTitle": "JS",
-              "exampleTitle": "",
+              "exampleTitle": "Example",
               "codeLangs": "ts",
-              "exampleLangs": "",
+              "exampleLangs": "xml",
               "codeSource": "",
               "exampleSource": "",
               "marginLeft": "5rem"
@@ -1289,13 +1289,13 @@
             "text": "",
             "codeConfig": {
               "codeid": "js_4_2_4",
-              "exampleid": "",
+              "exampleid": "js_4_2_4_1",
               "codeOutput": false,
-              "exampleOutput": false,
+              "exampleOutput": true,
               "codeTitle": "JS",
-              "exampleTitle": "",
+              "exampleTitle": "Example",
               "codeLangs": "ts",
-              "exampleLangs": "",
+              "exampleLangs": "xml",
               "codeSource": "",
               "exampleSource": "",
               "marginLeft": "5rem"
@@ -1314,13 +1314,13 @@
             "text": "",
             "codeConfig": {
               "codeid": "js_4_2_5",
-              "exampleid": "",
+              "exampleid": "js_4_2_5_1",
               "codeOutput": false,
-              "exampleOutput": false,
+              "exampleOutput": true,
               "codeTitle": "JS",
-              "exampleTitle": "",
+              "exampleTitle": "Example",
               "codeLangs": "ts",
-              "exampleLangs": "",
+              "exampleLangs": "xml",
               "codeSource": "",
               "exampleSource": "",
               "marginLeft": "5rem"
@@ -1335,13 +1335,13 @@
             "text": "",
             "codeConfig": {
               "codeid": "js_4_2_6",
-              "exampleid": "",
+              "exampleid": "js_4_2_6_1",
               "codeOutput": false,
-              "exampleOutput": false,
+              "exampleOutput": true,
               "codeTitle": "JS",
-              "exampleTitle": "",
+              "exampleTitle": "Example",
               "codeLangs": "ts",
-              "exampleLangs": "",
+              "exampleLangs": "xml",
               "codeSource": "",
               "exampleSource": "",
               "marginLeft": "5rem"
@@ -1356,13 +1356,13 @@
             "text": "",
             "codeConfig": {
               "codeid": "js_4_2_7",
-              "exampleid": "",
+              "exampleid": "js_4_2_7_1",
               "codeOutput": false,
-              "exampleOutput": false,
+              "exampleOutput": true,
               "codeTitle": "JS",
-              "exampleTitle": "",
+              "exampleTitle": "Example",
               "codeLangs": "ts",
-              "exampleLangs": "",
+              "exampleLangs": "xml",
               "codeSource": "",
               "exampleSource": "",
               "marginLeft": "5rem"
@@ -1377,13 +1377,13 @@
             "text": "",
             "codeConfig": {
               "codeid": "js_4_2_8",
-              "exampleid": "",
+              "exampleid": "js_4_2_8_1",
               "codeOutput": false,
-              "exampleOutput": false,
+              "exampleOutput": true,
               "codeTitle": "JS",
-              "exampleTitle": "",
+              "exampleTitle": "Example",
               "codeLangs": "ts",
-              "exampleLangs": "",
+              "exampleLangs": "xml",
               "codeSource": "",
               "exampleSource": "",
               "marginLeft": "5rem"
@@ -1398,13 +1398,13 @@
             "text": "",
             "codeConfig": {
               "codeid": "js_4_2_9",
-              "exampleid": "",
+              "exampleid": "js_4_2_9_1",
               "codeOutput": false,
-              "exampleOutput": false,
+              "exampleOutput": true,
               "codeTitle": "JS",
-              "exampleTitle": "",
+              "exampleTitle": "Example",
               "codeLangs": "ts",
-              "exampleLangs": "",
+              "exampleLangs": "xml",
               "codeSource": "",
               "exampleSource": "",
               "marginLeft": "5rem"
@@ -1419,13 +1419,13 @@
             "text": "",
             "codeConfig": {
               "codeid": "js_4_2_10",
-              "exampleid": "",
+              "exampleid": "js_4_2_10_1",
               "codeOutput": false,
-              "exampleOutput": false,
+              "exampleOutput": true,
               "codeTitle": "JS",
-              "exampleTitle": "",
+              "exampleTitle": "Example",
               "codeLangs": "ts",
-              "exampleLangs": "",
+              "exampleLangs": "xml",
               "codeSource": "",
               "exampleSource": "",
               "marginLeft": "5rem"
@@ -1483,13 +1483,13 @@
             "text": "",
             "codeConfig": {
               "codeid": "js_4_3_2",
-              "exampleid": "",
+              "exampleid": "js_4_3_2_1",
               "codeOutput": false,
-              "exampleOutput": false,
+              "exampleOutput": true,
               "codeTitle": "JS",
-              "exampleTitle": "",
+              "exampleTitle": "Example",
               "codeLangs": "ts",
-              "exampleLangs": "",
+              "exampleLangs": "xml",
               "codeSource": "",
               "exampleSource": "",
               "marginLeft": "5rem"
@@ -1513,64 +1513,98 @@
           },
           {
             "paraid": 12,
-            "text": "<ol start=\"5\"><li>Event Delegation:</li></ul>"
-          },
-          {
-            "paraid": 13,
-            "text": "<ul><ul><li>Event delegation is a technique where you attach a single event listener to a parent element to handle events for its child elements.</li><li>This approach is useful when you have a large number of dynamically created elements or when elements are added/removed dynamically from the DOM.</li></ul></ul>"
-          },
-          {
-            "paraid": 14,
-            "text": "<ol start=\"6\"><li>Removing Event Listeners:</li></ul>"
-          },
-          {
-            "paraid": 15,
-            "text": "<ul><ul><li>To remove an event listener, you can use the `<code>removeEventListener()</code>` method.</li></ul></ul>"
-          },
-          {
-            "paraid": 16,
             "text": "",
             "codeConfig": {
               "codeid": "js_4_3_3",
-              "exampleid": "",
+              "exampleid": "js_4_3_3_1",
               "codeOutput": false,
-              "exampleOutput": false,
+              "exampleOutput": true,
               "codeTitle": "JS",
-              "exampleTitle": "",
+              "exampleTitle": "Example",
               "codeLangs": "ts",
-              "exampleLangs": "",
+              "exampleLangs": "xml",
               "codeSource": "",
               "exampleSource": "",
               "marginLeft": "5rem"
             }
           },
           {
-            "paraid": 17,
-            "text": "<ol start=\"7\"><li>Inline Event Handlers:</li></ul>"
+            "paraid": 13,
+            "text": "<ol start=\"5\"><li>Event Delegation:</li></ul>"
           },
           {
-            "paraid": 18,
-            "text": "<ul><ul><li>Alternatively, you can use inline event handlers directly in HTML tags, but this approach is generally considered less maintainable and less flexible.</li></ul></ul>"
+            "paraid": 14,
+            "text": "<ul><ul><li>Event delegation is a technique where you attach a single event listener to a parent element to handle events for its child elements.</li><li>This approach is useful when you have a large number of dynamically created elements or when elements are added/removed dynamically from the DOM.</li></ul></ul>"
           },
           {
-            "paraid": 19,
+            "paraid": 15,
             "text": "",
             "codeConfig": {
               "codeid": "js_4_3_4",
-              "exampleid": "",
+              "exampleid": "js_4_3_4_1",
               "codeOutput": false,
-              "exampleOutput": false,
-              "codeTitle": "HTML",
-              "exampleTitle": "",
-              "codeLangs": "xml",
-              "exampleLangs": "",
+              "exampleOutput": true,
+              "codeTitle": "JS",
+              "exampleTitle": "Example",
+              "codeLangs": "ts",
+              "exampleLangs": "xml",
               "codeSource": "",
               "exampleSource": "",
               "marginLeft": "5rem"
             }
           },
           {
+            "paraid": 16,
+            "text": "<ol start=\"6\"><li>Removing Event Listeners:</li></ul>"
+          },
+          {
+            "paraid": 17,
+            "text": "<ul><ul><li>To remove an event listener, you can use the `<code>removeEventListener()</code>` method.</li></ul></ul>"
+          },
+          {
+            "paraid": 18,
+            "text": "",
+            "codeConfig": {
+              "codeid": "js_4_3_5",
+              "exampleid": "js_4_3_5_1",
+              "codeOutput": false,
+              "exampleOutput": true,
+              "codeTitle": "JS",
+              "exampleTitle": "Example",
+              "codeLangs": "ts",
+              "exampleLangs": "xml",
+              "codeSource": "",
+              "exampleSource": "",
+              "marginLeft": "5rem"
+            }
+          },
+          {
+            "paraid": 19,
+            "text": "<ol start=\"7\"><li>Inline Event Handlers:</li></ul>"
+          },
+          {
             "paraid": 20,
+            "text": "<ul><ul><li>Alternatively, you can use inline event handlers directly in HTML tags, but this approach is generally considered less maintainable and less flexible.</li></ul></ul>"
+          },
+          {
+            "paraid": 21,
+            "text": "",
+            "codeConfig": {
+              "codeid": "js_4_3_6",
+              "exampleid": "js_4_3_6_1",
+              "codeOutput": false,
+              "exampleOutput": true,
+              "codeTitle": "HTML",
+              "exampleTitle": "Example",
+              "codeLangs": "xml",
+              "exampleLangs": "xml",
+              "codeSource": "",
+              "exampleSource": "",
+              "marginLeft": "5rem"
+            }
+          },
+          {
+            "paraid": 22,
             "text": "Event handling allows you to respond to user interactions, validate user input, trigger actions based on specific events, and create interactive web applications. By attaching event listeners to elements and writing appropriate event handler functions, you can control the behavior and functionality of your web page."
           }
         ]
@@ -1592,44 +1626,44 @@
             "text": "<ul><ul><li>Use the `<code>createElement()</code>` method to create new HTML elements programmatically.</li><li>To modify the content of an element, you can use the `<code>innerHTML</code>` property or the `<code>textContent</code>` property.</li><li>Use the `<code>getAttribute()</code>` and `<code>setAttribute()</code>` methods to get and set attribute values of an element.</li><li>To add a newly created element as a child of another element, use the `<code>appendChild()</code>` method.</li><li>Use the `<code>removeChild()</code>` method to remove an element from its parent.</li><li>Use the `<code>style</code>` property to modify the CSS styles of an element.</li><li>Attach event listeners to elements using the `<code>addEventListener()</code>` method to respond to user interactions.</li></ul></ul>"
           },
           {
-            "paraid": 21,
+            "paraid": 4,
             "text": "<ol start=\"2\"><li>Dynamic Data:</li></ol>"
           },
           {
-            "paraid": 22,
+            "paraid": 5,
             "text": "<ul><ul><li>JavaScript allows you to fetch data from external sources, such as APIs, and update the content of your web page dynamically.</li><li>You can use AJAX or fetch API to make asynchronous HTTP requests and retrieve data.</li><li>Once the data is retrieved, you can modify the DOM to display the data in the desired format.</li></ul></ul>"
           },
           {
-            "paraid": 23,
+            "paraid": 6,
             "text": "<ul><ul>Here is an example:</ul></ul>"
           },
           {
-            "paraid": 23,
+            "paraid": 7,
             "text": "",
             "codeConfig": {
-              "codeid": "js_4_3_5",
-              "exampleid": "",
+              "codeid": "js_4_4_1",
+              "exampleid": "js_4_4_1_1",
               "codeOutput": false,
-              "exampleOutput": false,
+              "exampleOutput": true,
               "codeTitle": "JS",
-              "exampleTitle": "",
+              "exampleTitle": "Example",
               "codeLangs": "ts",
-              "exampleLangs": "",
+              "exampleLangs": "xml",
               "codeSource": "",
               "exampleSource": "",
               "marginLeft": "5rem"
             }
           },
           {
-            "paraid": 24,
+            "paraid": 8,
             "text": "<ol start=\"3\"><li>Template Engines:</li></ol>"
           },
           {
-            "paraid": 25,
+            "paraid": 9,
             "text": "<ul><ul><li>Template engines like Handlebars, Mustache, or Underscore.js can be used to generate dynamic HTML by combining data and templates.</li><li>These engines provide syntax and functionality to create reusable templates with placeholders that get replaced with actual data at runtime.</li></ul></ul>"
           },
           {
-            "paraid": 26,
+            "paraid": 10,
             "text": "By utilizing these techniques, you can create dynamic and interactive web applications that can update content, respond to user actions, fetch and display data dynamically, and provide a more engaging user experience. JavaScript's ability to manipulate the HTML DOM empowers you to build dynamic web pages that adapt and respond to changing requirements and user interactions."
           }
         ]

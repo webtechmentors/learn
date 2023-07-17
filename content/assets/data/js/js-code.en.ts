@@ -662,7 +662,7 @@ export const js_3_2_7_1 =
 </body>
 </html>`;
 
-export const js_2_7_1 =
+export const js_3_3_1 =
 `// Using object literal syntax
 let person = {
   name: "John",
@@ -670,14 +670,14 @@ let person = {
   profession: "Developer"
 };`;
 
-export const js_2_7_2 =
+export const js_3_3_2 =
 `// Using Object constructor
 let person = new Object();
 person.name = "John";
 person.age = 30;
 person.profession = "Developer";`;
 
-export const js_2_7_3 =
+export const js_3_3_3 =
 `let person = {
   name: "John",
   age: 30,
@@ -687,7 +687,28 @@ export const js_2_7_3 =
 console.log(person.name); // Output: John
 console.log(person['age']); // Output: 30`;
 
-export const js_2_7_4 =
+export const js_3_3_3_1 =
+`<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Object Operation Example</title>
+  <script src="assets/js/utils.js"></script>
+  <script>
+    let person = {
+      name: "John",
+      age: 30,
+      profession: "Developer"
+    };
+    
+    console.log(person.name); // Output: John
+    console.log(person['age']); // Output: 30
+  </script>
+</head>
+<body>
+</body>
+</html>`;
+
+export const js_3_3_4 =
 `let person = {
   name: "John",
   age: 30,
@@ -697,7 +718,31 @@ export const js_2_7_4 =
 person.age = 35;
 person['profession'] = "Engineer";`;
 
-export const js_2_7_5 =
+export const js_3_3_4_1 =
+`<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Object Operation Example</title>
+  <script src="assets/js/utils.js"></script>
+  <script>
+    let person = {
+      name: "John",
+      age: 30,
+      profession: "Developer"
+    };
+    
+    person.age = 35;
+    person['profession'] = "Engineer";
+    
+    console.log(person.age); // Output: 35
+    console.log(person['profession']); // Output: Engineer
+  </script>
+</head>
+<body>
+</body>
+</html>`;
+
+export const js_3_3_5 =
 `let person = {
   name: "John",
   age: 30,
@@ -706,7 +751,30 @@ export const js_2_7_5 =
 
 person.city = "New York";`;
 
-export const js_2_7_6 =
+export const js_3_3_5_1 =
+`<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Object Operation Example</title>
+  <script src="assets/js/utils.js"></script>
+  <script>
+    let person = {
+      name: "John",
+      age: 30,
+      profession: "Developer"
+    };
+    
+    person.city = "New York";
+      
+    console.log(person.name); // Output: John
+    console.log(person.city); // Output: New York
+  </script>
+</head>
+<body>
+</body>
+</html>`;
+
+export const js_3_3_6 =
 `let person = {
   name: "John",
   age: 30,
@@ -715,7 +783,30 @@ export const js_2_7_6 =
 
 delete person.profession;`;
 
-export const js_2_7_7 =
+export const js_3_3_6_1 =
+`<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Object Operation Example</title>
+  <script src="assets/js/utils.js"></script>
+  <script>
+    let person = {
+      name: "John",
+      age: 30,
+      profession: "Developer"
+    };
+    
+    delete person.profession;
+    
+    console.log(person.name); // Output: John
+    console.log(person.profession); // Output: undefined
+  </script>
+</head>
+<body>
+</body>
+</html>`;
+
+export const js_3_3_7 =
 `let person = {
   name: "John",
   age: 30,
@@ -726,7 +817,29 @@ export const js_2_7_7 =
 
 person.sayHello(); // Output: Hello!`
 
-export const js_2_7_8 =
+export const js_3_3_7_1 =
+`<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Object Operation Example</title>
+  <script src="assets/js/utils.js"></script>
+  <script>
+    let person = {
+      name: "John",
+      age: 30,
+      sayHello: function() {
+        console.log("Hello!");
+      }
+    };
+    
+    person.sayHello(); // Output: Hello!
+  </script>
+</head>
+<body>
+</body>
+</html>`;
+
+export const js_3_3_8 =
 `let person = {
   name: "John",
   age: 30,
@@ -743,7 +856,35 @@ for (let i = 0; i < keys.length; i++) {
   console.log(key + ": " + person[key]);
 }`;
 
-export const js_2_7_9 =
+export const js_3_3_8_1 =
+`<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Object Operation Example</title>
+  <script src="assets/js/utils.js"></script>
+  <script>
+    let person = {
+      name: "John",
+      age: 30,
+      profession: "Developer"
+    };
+    
+    for (let key in person) {
+      console.log(key + ": " + person[key]);
+    }
+    
+    let keys = Object.keys(person);
+    for (let i = 0; i < keys.length; i++) {
+      let key = keys[i];
+      console.log(key + ": " + person[key]);
+    }
+  </script>
+</head>
+<body>
+</body>
+</html>`;
+
+export const js_3_3_9 =
 `function Person(name, age) {
   this.name = name;
   this.age = age;
@@ -755,41 +896,314 @@ export const js_2_7_9 =
 let john = new Person("John", 30);
 john.sayHello(); // Output: Hello, my name is John`;
 
+export const js_3_3_9_1 =
+`<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Object Operation Example</title>
+  <script src="assets/js/utils.js"></script>
+  <script>
+    function Person(name, age) {
+      this.name = name;
+      this.age = age;
+      this.sayHello = function() {
+        console.log("Hello, my name is " + this.name);
+      };
+    }
+    
+    let john = new Person("John", 30);
+    john.sayHello(); // Output: Hello, my name is John
+  </script>
+</head>
+<body>
+</body>
+</html>`;
+
 export const js_4_2_1 =
 `let element = document.getElementById('elementId');`;
+
+export const js_4_2_1_1 =
+`<!DOCTYPE html>
+<html>
+<head>
+  <title>Get Elements by ID Example</title>
+  <script src="assets/js/utils.js"></script>
+</head>
+<body>
+  <h1>Get Elements by ID Example</h1>
+  <div id="elementId">This is the selected element.</div>
+  <br/>
+
+  <script>
+    let element = document.getElementById('elementId');
+
+    console.log('This is the inner text of the selected element: ' + element.innerText); // innerText property will be discussed below
+  </script>
+</body>
+</html>`;
 
 export const js_4_2_2 =
 `let elements = document.getElementsByClassName('className');`;
 
+export const js_4_2_2_1 =
+`<!DOCTYPE html>
+<html>
+<head>
+  <title>Get Elements by Class Name Example</title>
+  <script src="assets/js/utils.js"></script>
+</head>
+<body>
+  <h1>Get Elements by Class Name Example</h1>
+  <div class="className">Element 1</div>
+  <div class="className">Element 2</div>
+  <div class="className">Element 3</div>
+  <br/>
+
+  <script>
+    let elements = document.getElementsByClassName('className');
+
+    for (let i = 0; i < elements.length; i++) {
+      console.log('This is the selected element: ' + elements[i].innerText);
+    };
+  </script>
+</body>
+</html>`;
+
 export const js_4_2_3 =
 `let elements = document.getElementsByTagName('tagName');`;
+
+export const js_4_2_3_1 =
+`<!DOCTYPE html>
+<html>
+<head>
+  <title>Get Elements by Tag Name Example</title>
+  <script src="assets/js/utils.js"></script>
+</head>
+<body>
+  <h1>Get Elements by Tag Name Example</h1>
+  <div>Element 1</div>
+  <p>Element 2</p>
+  <span>Element 3</span>
+  <br/>
+
+  <script>
+    let elements = document.getElementsByTagName('div');
+    
+    for (let i = 0; i < elements.length; i++) {
+      console.log('This is the selected element: ' + elements[i].innerText);
+    };
+  </script>
+</body>
+</html>`;
 
 export const js_4_2_4 =
 `let element = document.querySelector('selector');
 let elements = document.querySelectorAll('selector');`;
 
+export const js_4_2_4_1 =
+`<!DOCTYPE html>
+<html>
+<head>
+  <title>Query Selector Examples</title>
+  <script src="assets/js/utils.js"></script>
+</head>
+<body>
+  <h1>Query Selector Example</h1>
+  <div id="elementId">Element 1</div>
+  <div class="className">Element 2</div>
+  <div class="className">Element 3</div>
+  <br/>
+
+  <script>
+    // JavaScript code
+    let element = document.querySelector('#elementId');
+
+    console.log('This is the selected element by id: ' + element.innerText);
+
+    let elements = document.querySelectorAll('.className');
+    
+    for (let i = 0; i < elements.length; i++) {
+      console.log('This is the selected element by class name: ' + elements[i].innerText);
+    };
+  </script>
+</body>
+</html>`;
+
 export const js_4_2_5 =
 `element.innerHTML = 'New HTML content';
 element.textContent = 'New text content';`;
+
+export const js_4_2_5_1 =
+`<!DOCTYPE html>
+<html>
+<head>
+  <title>Modify Element Content Example</title>
+</head>
+<body>
+  <h1 id="elementId">Initial Content</h1>
+  <p>Some paragraph with initial content</p>
+
+  <script>
+    let element = document.getElementById('elementId');
+    element.innerHTML = 'New HTML content';
+
+    let paragraph = document.querySelector('p');
+    paragraph.textContent = 'New text content';
+  </script>
+</body>
+</html>`;
 
 export const js_4_2_6 =
 `let value = element.getAttribute('attributeName');
 element.setAttribute('attributeName', 'attributeValue');`;
 
+export const js_4_2_6_1 =
+`<!DOCTYPE html>
+<html>
+<head>
+  <title>Get and Set Attribute Example</title>
+  <script src="assets/js/utils.js"></script>
+</head>
+<body>
+  <img id="myImage" src="assets/images/cute_cat.jpg" alt="My Image">
+  <br/>
+
+  <script>
+    // JavaScript code
+    let element = document.getElementById('myImage');
+
+    // Get the value of the 'src' attribute
+    let value = element.getAttribute('src');
+    console.log(value);
+
+    // Set the value of the 'alt' attribute
+    element.setAttribute('alt', 'New Alt Text');
+  </script>
+</body>
+</html>`;
+
 export const js_4_2_7 =
 `element.style.property = 'value';`;
+
+export const js_4_2_7_1 =
+`<!DOCTYPE html>
+<html>
+<head>
+  <title>Set CSS Property Example</title>
+</head>
+<body>
+  <div id="myElement">Hello, World!</div>
+
+  <script>
+    let element = document.getElementById('myElement');
+    
+    // Set the CSS property values
+    element.style.color = 'blue';
+    element.style.backgroundColor = 'yellow';
+    element.style.fontSize = '20px';
+    element.style.padding = '10px';
+  </script>
+</body>
+</html>`;
 
 export const js_4_2_8 =
 `element.classList.add('className');
 element.classList.remove('className');`;
 
+export const js_4_2_8_1 =
+`<!DOCTYPE html>
+<html>
+<head>
+  <title>Class Manipulation on Hover Example</title>
+  <style>
+    .highlight {
+      background-color: yellow;
+      color: black;
+    }
+  </style>
+</head>
+<body>
+  <div id="myElement">Hello, World!</div>
+
+  <script>
+    let element = document.getElementById('myElement');
+
+    // Add class on mouseover; addEventListener method will be discussed on next chapter
+    element.addEventListener('mouseover', function() {
+      element.classList.add('highlight');
+    });
+
+    // Remove class on mouseout
+    element.addEventListener('mouseout', function() {
+      element.classList.remove('highlight');
+    });
+  </script>
+</body>
+</html>`;
+
 export const js_4_2_9 =
 `let newElement = document.createElement('tagName');
 let newText = document.createTextNode('Text content');`;
 
+export const js_4_2_9_1 =
+`<!DOCTYPE html>
+<html>
+<head>
+  <title>Create Element and Create Text Node Example</title>
+</head>
+<body>
+  <div id="container"></div>
+
+  <script>
+    let container = document.getElementById('container');
+
+    // Create a new element
+    let newElement = document.createElement('p');
+
+    // Create a text node
+    let newText = document.createTextNode('Text content');
+
+    // Append the text node to the new element
+    newElement.appendChild(newText);
+
+    // Append the new element to the container
+    container.appendChild(newElement);
+  </script>
+</body>
+</html>`;
+
 export const js_4_2_10 =
 `parentElement.appendChild(newElement);
 parentElement.removeChild(childElement);`;
+
+export const js_4_2_10_1 =
+`<!DOCTYPE html>
+<html>
+<head>
+  <title>Append and Remove Child Example</title>
+</head>
+<body>
+  <div id="parent">
+    <p id="child">Child Element</p>
+  </div>
+
+  <script>
+    // JavaScript code
+    let parentElement = document.getElementById('parent');
+    let childElement = document.getElementById('child');
+
+    // Create a new element
+    let newElement = document.createElement('span');
+    newElement.textContent = 'New Child Element';
+
+    // Append the new element to the parent
+    parentElement.appendChild(newElement);
+
+    // Remove the child element from the parent
+    parentElement.removeChild(childElement);
+  </script>
+</body>
+</html>`;
 
 export const js_4_3_1 =
 `element.addEventListener('eventName', eventHandler);`;
@@ -799,13 +1213,212 @@ export const js_4_3_2 =
   // Event handling code
 }`;
 
+export const js_4_3_2_1 =
+`<!DOCTYPE html>
+<html>
+<head>
+  <title>Event Handler Example</title>
+  <script src="assets/js/utils.js"></script>
+</head>
+<body>
+  <button id="myButton">Click Me</button>
+
+  <script>
+    function eventHandler(event) {
+      // Event handling code
+      alert('Button clicked!');
+    }
+
+    // Select the button element
+    let button = document.getElementById('myButton');
+
+    // Attach the event handler to the button's click event
+    button.addEventListener('click', eventHandler);
+  </script>
+</body>
+</html>`;
+
 export const js_4_3_3 =
-`element.removeEventListener('eventName', eventHandler);`;
+`// Event bubbling
+element1.addEventListener('click', eventHandler);
+
+// Event capturing
+element2.addEventListener('click', eventHandler, true);`;
+
+export const js_4_3_3_1 =
+`<!DOCTYPE html>
+<html>
+<head>
+  <title>Event Bubbling and Capturing Example</title>
+  <style>
+    div {
+      padding: 20px;
+      border: 1px solid black;
+      margin-bottom: 10px;
+    }
+  </style>
+</head>
+<body>
+  <div id="outerDiv1">
+    <h2>Bubbling:</h2>
+    <div id="innerDiv1">Click Me!</div>
+  </div>
+
+  <div id="outerDiv2">
+    <h2>Capturing:</h2>
+    <div id="innerDiv2">Click Me!</div>
+  </div>
+</div>
+  <script>
+    function eventHandler(event) {
+      alert('Event handler triggered on:' + event.currentTarget.id);
+      // event.stopPropagation();
+    }
+
+    let innerDiv1 = document.getElementById('innerDiv1');
+    let outerDiv1 = document.getElementById('outerDiv1');
+    
+    let innerDiv2 = document.getElementById('innerDiv2');
+    let outerDiv2 = document.getElementById('outerDiv2');
+    
+    // Event bubbling
+    innerDiv1.addEventListener('click', eventHandler, false);
+    outerDiv1.addEventListener('click', eventHandler, false);
+
+    // Event capturing
+    innerDiv2.addEventListener('click', eventHandler, true);
+    outerDiv2.addEventListener('click', eventHandler, true);
+  </script>
+</body>
+</html>`;
 
 export const js_4_3_4 =
-`<button onclick="eventHandler(event)">Click me</button>`;
+`const listContainer = document.getElementById('listContainer');
+
+function handleItemClick(event) {
+  const target = event.target;
+
+  if (target.tagName === 'LI') {
+    // Toggle the 'selected' class on the clicked list item
+    target.classList.toggle('selected');
+  }
+}
+
+// Attach the event listener to the parent element (listContainer)
+listContainer.addEventListener('click', handleItemClick);
+
+// Simulate dynamically adding more list items after a delay
+setTimeout(() => {
+  const newItem = document.createElement('li');
+  newItem.textContent = 'Item 4';
+  listContainer.appendChild(newItem);
+}, 2000);`;
+
+export const js_4_3_4_1 =
+`<!DOCTYPE html>
+<html>
+<head>
+  <title>Event Delegation Example</title>
+  <style>
+    ul {
+      list-style: none;
+      padding: 0;
+    }
+
+    li {
+      cursor: pointer;
+    }
+
+    .selected {
+      background-color: yellow;
+    }
+  </style>
+</head>
+<body>
+  <ul id="listContainer">
+    <!-- Initial list items -->
+    <li>Item 1</li>
+    <li>Item 2</li>
+    <li>Item 3</li>
+  </ul>
+
+  <script>
+    const listContainer = document.getElementById('listContainer');
+
+    function handleItemClick(event) {
+      const target = event.target;
+
+      if (target.tagName === 'LI') {
+        // Toggle the 'selected' class on the clicked list item
+        target.classList.toggle('selected');
+      }
+    }
+
+    // Attach the event listener to the parent element (listContainer)
+    listContainer.addEventListener('click', handleItemClick);
+
+    // Simulate dynamically adding more list items after a delay
+    setTimeout(() => {
+      const newItem = document.createElement('li');
+      newItem.textContent = 'Item 4';
+      listContainer.appendChild(newItem);
+    }, 2000);
+  </script>
+</body>
+</html>`;
 
 export const js_4_3_5 =
+`element.removeEventListener('eventName', eventHandler);`;
+
+export const js_4_3_5_1 =
+`<!DOCTYPE html>
+<html>
+<head>
+  <title>Remove Event Listener Example</title>
+</head>
+<body>
+  <button id="myButton">Click Me</button>
+
+  <script>
+    function eventHandler() {
+      alert('Button clicked!');
+    }
+
+    let button = document.getElementById('myButton');
+
+    // Attach the event handler to the button's click event
+    button.addEventListener('click', eventHandler);
+
+    // Remove the event handler after 3 seconds
+    setTimeout(() => {
+      button.removeEventListener('click', eventHandler);
+      alert('Event handler removed!');
+    }, 3000);
+  </script>
+</body>
+</html>`;
+
+export const js_4_3_6 =
+`<button onclick="eventHandler(event)">Click me</button>`;
+
+export const js_4_3_6_1 =
+`<!DOCTYPE html>
+<html>
+<head>
+  <title>Inline Event Handling Example</title>
+</head>
+<body>
+  <button onclick="eventHandler()">Click me</button>
+
+  <script>
+    function eventHandler() {
+      alert('Button clicked!');
+    }
+  </script>
+</body>
+</html>`;
+
+export const js_4_4_1 =
 `// Fetch data from the server
 fetch('https://api.example.com/data')
   .then(response => response.json())
@@ -823,6 +1436,35 @@ fetch('https://api.example.com/data')
   .catch(error => {
     console.error('Error:', error);
   });`;
+
+export const js_4_4_1_1 =
+`<!DOCTYPE html>
+<html>
+<head>
+  <title>Fetch API Example</title>
+</head>
+<body>
+  <ul id="data-container"></ul>
+
+  <script>
+    fetch('assets/data/json/list.json')
+      .then(response => response.json())
+      .then(data => {
+        const container = document.getElementById('data-container');
+
+        // Create a new list element for each data item
+        data.forEach(item => {
+          const listItem = document.createElement('li');
+          listItem.textContent = item.name;
+          container.appendChild(listItem);
+        });
+      })
+      .catch(error => {
+        console.error('Error:', error);
+      });
+  </script>
+</body>
+</html>`;
 
 export const js_5_2_1 =
 `function callbackFunction(result) {
