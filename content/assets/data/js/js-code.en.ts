@@ -9,7 +9,8 @@ export const js_2_4_1_1 =
 `<!DOCTYPE html>
 <html lang="en">
 <head>
-  <title>My Webpage</title>
+  <title>Conditional Statement Example</title>
+  <script src="assets/js/utils.js"></script>
   <script>
     let number = 10;
 
@@ -33,6 +34,28 @@ export const js_2_4_2 =
   // code to be executed if all conditions are false
 }`;
 
+export const js_2_4_2_1 =
+`<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Conditional Statement Example</title>
+  <script src="assets/js/utils.js"></script>
+  <script>
+    let num = -10;
+
+    if (num > 0) {
+      console.log("The number is positive.");
+    } else if (num < 0) {
+      console.log("The number is negative.");
+    } else {
+      console.log("The number is zero.");
+    }
+  </script>
+</head>
+<body>
+</body>
+</html>`;
+
 export const js_2_4_3 =
 `switch (expression) {
   case value1:
@@ -45,85 +68,523 @@ export const js_2_4_3 =
     // code to be executed if no case matches the expression
 }`;
 
+export const js_2_4_3_1 =
+`<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Conditional Statement Example</title>
+  <script src="assets/js/utils.js"></script>
+  <script>
+    let day = "Thursday";
+
+    switch (day) {
+      case "Monday":
+        console.log("It's Monday!");
+        break;
+      case "Tuesday":
+        console.log("It's Tuesday!");
+        break;
+      case "Wednesday":
+        console.log("It's Wednesday!");
+        break;
+      case "Thursday":
+        console.log("It's Thursday!");
+        break;
+      case "Friday":
+        console.log("It's Friday!");
+        break;
+      default:
+        console.log("It's the weekend!");
+    }
+  </script>
+</head>
+<body>
+</body>
+</html>`;
+
 export const js_2_4_4 =
 `for (initialization; condition; increment/decrement) {
   // code to be executed in each iteration
 }`;
+
+export const js_2_4_4_1 =
+`<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Loop Structure Example</title>
+  <script src="assets/js/utils.js"></script>
+  <script>
+    for (let i = 1; i <= 5; i++) {
+      console.log("Iteration " + i);
+    }
+  </script>
+</head>
+<body>
+</body>
+</html>`;
 
 export const js_2_4_5 =
 `while (condition) {
   // code to be executed as long as the condition is true
 }`;
 
+export const js_2_4_5_1 =
+`<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Loop Structure Example</title>
+  <script src="assets/js/utils.js"></script>
+  <script>
+    let count = 1;
+
+    while (count <= 5) {
+      console.log("Iteration " + count);
+      count++;
+    }
+  </script>
+</head>
+<body>
+</body>
+</html>`;
+
 export const js_2_4_6 =
 `do {
   // code to be executed at least once
 } while (condition);`;
+
+export const js_2_4_6_1 =
+`<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Loop Structure Example</title>
+  <script src="assets/js/utils.js"></script>
+  <script>
+    let count = 1;
+
+    do {
+      console.log("Iteration " + count);
+      count++;
+    } while (count <= 5);
+  </script>
+</head>
+<body>
+</body>
+</html>`;
 
 export const js_2_4_7 =
 `for (variable in object) {
   // code to be executed for each property
 }`;
 
+export const js_2_4_7_1 =
+`<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Loop Structure Example</title>
+  <script src="assets/js/utils.js"></script>
+  <script>
+    const person = {
+      name: "John",
+      age: 30,
+      city: "New York"
+    };
+    
+    for (let key in person) {
+      console.log(key + ": " + person[key]);
+    }
+  </script>
+</head>
+<body>
+</body>
+</html>`;
+
 export const js_2_4_8 =
 `for (variable of iterable) {
   // code to be executed for each element
 }`;
 
-export const js_2_5_1 =
+export const js_2_4_8_1 =
+`<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Loop Structure Example</title>
+  <script src="assets/js/utils.js"></script>
+  <script>
+    const fruits = ["apple", "banana", "orange"];
+
+    for (let fruit of fruits) {
+      console.log(fruit);
+    }
+  </script>
+</head>
+<body>
+</body>
+</html>`;
+
+export const js_2_4_9 =
+`for (initialization; condition; increment/decrement) {
+  // code to be executed in each iteration
+  break;
+  // code to be executed in each iteration
+}`;
+
+export const js_2_4_9_1 =
+`<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Loop Control Statement Example</title>
+  <script src="assets/js/utils.js"></script>
+  <script>
+    for (let i = 0; i < 10; i++) {
+      if (i === 5) {
+        break; // exit the loop when i is 5
+      }
+      console.log(i);
+    }
+  </script>
+</head>
+<body>
+</body>
+</html>`;
+
+export const js_2_4_10 =
+`for (initialization; condition; increment/decrement) {
+  // code to be executed in each iteration
+  continue;
+  // code to be executed in each iteration
+}`;
+
+export const js_2_4_10_1 =
+`<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Loop Control Statement Example</title>
+  <script src="assets/js/utils.js"></script>
+  <script>
+    for (let i = 0; i < 10; i++) {
+      if (i === 5) {
+        continue; // skip the iteration when i is 5
+      }
+      console.log(i);
+    }
+  </script>
+</head>
+<body>
+</body>
+</html>`;
+
+export const js_2_4_11 =
+`for (variable of iterable) {
+  // code to be executed for each element
+  return;
+  // code to be executed for each element
+}`;
+
+export const js_2_4_11_1 =
+`<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Loop Control Statement Example</title>
+  <script src="assets/js/utils.js"></script>
+  <script>
+    function findNumber(array, target) {
+      for (let num of array) {
+        if (num === target) {
+          return true; // exit the function and return true if target is found
+        }
+      }
+      return false; // return false if target is not found
+    }
+
+    console.log(findNumber([1, 2, 3, 4, 5], 3));
+  </script>
+</head>
+<body>
+</body>
+</html>`;
+
+export const js_3_1_1 =
 `function functionName(parameter1, parameter2, ...) {
   // code to be executed
   return result; // optional
 }`;
 
-export const js_2_5_2 =
+export const js_3_1_1_1 =
+`<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Function Definition Example</title>
+  <script src="assets/js/utils.js"></script>
+  <script>
+    function greet(name) {
+      const message = "Hello, " + name + "!";
+    
+      return message;
+    }
+  </script>
+</head>
+<body>
+</body>
+</html>`;
+
+export const js_3_1_2 =
 `functionName(argument1, argument2, ...);`;
 
-export const js_2_5_3 =
+export const js_3_1_2_1 =
+`<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Function Call Example</title>
+  <script src="assets/js/utils.js"></script>
+  <script>
+    function greet(name) {
+      const message = "Hello, " + name + "!";
+    
+      return message;
+    }
+
+    // Calling the function
+    const result = greet("John");
+    console.log(result); // Output: Hello, John!
+  </script>
+</head>
+<body>
+</body>
+</html>`;
+
+export const js_3_1_3 =
+`// Global variable
+let globalVariable = "I'm a global variable";
+
+function exampleFunction() {
+  // Local variable
+  let localVariable = "I'm a local variable";
+}`;
+
+export const js_3_1_3_1 =
+`<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Function Scope Example</title>
+  <script src="assets/js/utils.js"></script>
+  <script>
+    // Global variable
+    let globalVariable = "I'm a global variable";
+    
+    function exampleFunction() {
+      // Local variable
+      let localVariable = "I'm a local variable";
+    
+      console.log(globalVariable); // Accessing the global variable
+      console.log(localVariable); // Accessing the local variable
+    }
+    
+    exampleFunction(); // Calling the function
+    
+    console.log(globalVariable); // Accessing the global variable outside the function
+    // console.log(localVariable); // This will result in an error since localVariable is not accessible outside the function
+  </script>
+</head>
+<body>
+</body>
+</html>`;
+
+export const js_3_1_4 =
 `let anonymousFunction = function(parameter1, parameter2) {
   // code to be executed
 };`;
 
-export const js_2_5_4 =
+export const js_3_1_4_1 =
+`<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Anonymous Function Example</title>
+  <script src="assets/js/utils.js"></script>
+  <script>
+    let anonymousFunction = function(parameter1, parameter2) {
+      // code to be executed
+      console.log("Parameters:", parameter1, parameter2);
+      console.log("Executing the anonymous function");
+    };
+    
+    // Calling the anonymous function
+    anonymousFunction("Hello", "World");
+  </script>
+</head>
+<body>
+</body>
+</html>`;
+
+export const js_3_1_5 =
+`function outerFunction() {
+  let outerVariable = "I'm an outer variable";
+
+  function innerFunction() {
+    console.log(outerVariable); // Accessing the outer variable from the inner function
+  }
+
+  return innerFunction;
+}
+
+// Creating a closure by calling the outer function and assigning the returned inner function to a variable
+let closure = outerFunction();
+
+// Calling the inner function, which still has access to the outer variable
+closure(); // Output: I'm an outer variable`;
+
+export const js_3_1_5_1 =
+`<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Function Closure Example</title>
+  <script src="assets/js/utils.js"></script>
+  <script>
+    function outerFunction() {
+      let outerVariable = "I'm an outer variable";
+    
+      function innerFunction() {
+        console.log(outerVariable); // Accessing the outer variable from the inner function
+      }
+    
+      return innerFunction;
+    }
+    
+    // Creating a closure by calling the outer function and assigning the returned inner function to a variable
+    let closure = outerFunction();
+    
+    // Calling the inner function, which still has access to the outer variable
+    closure(); // Output: I'm an outer variable
+  </script>
+</head>
+<body>
+</body>
+</html>`;
+
+export const js_3_1_6 =
 `const functionName = (parameter1, parameter2) => {
   // code to be executed
   return result; // optional
 };`;
 
-export const js_2_5_5 =
+export const js_3_1_6_1 =
+`<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Arrow Function Example</title>
+  <script src="assets/js/utils.js"></script>
+  <script>
+    const sum = (num1, num2) => {
+      return num1 + num2;
+    };
+    
+    console.log(sum(2, 3)); // Output: 5
+  </script>
+</head>
+<body>
+</body>
+</html>`;
+
+export const js_3_1_7 =
 `(function() {
   // code to be executed immediately
 })();`;
 
-export const js_2_6_1 =
+export const js_3_1_7_1 =
+`<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>IIFE Example</title>
+  <script src="assets/js/utils.js"></script>
+  <script>
+    (function(name) {
+      console.log("Hello, " + name + "!");
+    })("John");
+  </script>
+</head>
+<body>
+</body>
+</html>`;
+
+export const js_3_2_1 =
 `// Using array literal syntax
 let myArray = [1, 2, 3, 4, 5];`;
 
-export const js_2_6_2 =
+export const js_3_2_2 =
 `// Using Array constructor
 let myArray = new Array(1, 2, 3, 4, 5);`;
 
-export const js_2_6_3 =
+export const js_3_2_3 =
 `let myArray = [1, 2, 3, 4, 5];
 
 console.log(myArray[0]); // Output: 1
 console.log(myArray[2]); // Output: 3`;
 
-export const js_2_6_4 =
+export const js_3_2_3_1 =
+`<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Array Operation Example</title>
+  <script src="assets/js/utils.js"></script>
+  <script>
+    let myArray = [1, 2, 3, 4, 5];
+
+    console.log(myArray[0]); // Output: 1
+    console.log(myArray[2]); // Output: 3
+  </script>
+</head>
+<body>
+</body>
+</html>`;
+
+export const js_3_2_4 =
 `let myArray = [1, 2, 3, 4, 5];
 
 myArray[2] = 10;
 console.log(myArray); // Output: [1, 2, 10, 4, 5]`;
 
-export const js_2_6_5 =
-`let myArray = [1, 2, 3, 4, 5];
+export const js_3_2_4_1 =
+`<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Array Operation Example</title>
+  <script src="assets/js/utils.js"></script>
+  <script>
+    let myArray = [1, 2, 3, 4, 5];
 
+    myArray[2] = 10;
+    console.log(myArray); // Output: [1, 2, 10, 4, 5]
+  </script>
+</head>
+<body>
+</body>
+</html>`;
+
+export const js_3_2_5 =
+`let myArray = [1, 2, 3, 4, 5];
 console.log(myArray.length); // Output: 5
 
 myArray.length = 3;
 console.log(myArray); // Output: [1, 2, 3]`;
 
-export const js_2_6_6 =
+export const js_3_2_5_1 =
+`<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Array Operation Example</title>
+  <script src="assets/js/utils.js"></script>
+  <script>
+    let myArray = [1, 2, 3, 4, 5];
+    console.log(myArray.length); // Output: 5
+    
+    myArray.length = 3;
+    console.log(myArray); // Output: [1, 2, 3]
+  </script>
+</head>
+<body>
+</body>
+</html>`;
+
+export const js_3_2_6 =
 `let myArray = [1, 2, 3];
 
 myArray.push(4); // Adds 4 at the end
@@ -140,7 +601,35 @@ let shiftedElement = myArray.shift(); // Removes the first element and returns i
 console.log(myArray); // Output: [1, 2, 3]
 console.log(shiftedElement); // Output: 0`;
 
-export const js_2_6_7 =
+export const js_3_2_6_1 =
+`<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Array Operation Example</title>
+  <script src="assets/js/utils.js"></script>
+  <script>
+    let myArray = [1, 2, 3];
+
+    myArray.push(4); // Adds 4 at the end
+    console.log(myArray); // Output: [1, 2, 3, 4]
+    
+    let removedElement = myArray.pop(); // Removes the last element and returns it
+    console.log(myArray); // Output: [1, 2, 3]
+    console.log(removedElement); // Output: 4
+    
+    myArray.unshift(0); // Adds 0 at the beginning
+    console.log(myArray); // Output: [0, 1, 2, 3]
+    
+    let shiftedElement = myArray.shift(); // Removes the first element and returns it
+    console.log(myArray); // Output: [1, 2, 3]
+    console.log(shiftedElement); // Output: 0
+  </script>
+</head>
+<body>
+</body>
+</html>`;
+
+export const js_3_2_7 =
 `let myArray = [1, 2, 3, 4, 5];
 
 for (let i = 0; i < myArray.length; i++) {
@@ -150,6 +639,28 @@ for (let i = 0; i < myArray.length; i++) {
 myArray.forEach(function(element) {
   console.log(element);
 });`;
+
+export const js_3_2_7_1 =
+`<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Array Operation Example</title>
+  <script src="assets/js/utils.js"></script>
+  <script>
+    let myArray = [1, 2, 3, 4, 5];
+
+    for (let i = 0; i < myArray.length; i++) {
+      console.log(myArray[i]);
+    }
+
+    myArray.forEach(function(element) {
+      console.log(element);
+    });
+  </script>
+</head>
+<body>
+</body>
+</html>`;
 
 export const js_2_7_1 =
 `// Using object literal syntax

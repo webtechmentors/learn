@@ -314,7 +314,7 @@
               "codeid": "js_2_4_1",
               "exampleid": "js_2_4_1_1",
               "codeOutput": false,
-              "exampleOutput": false,
+              "exampleOutput": true,
               "codeTitle": "JS",
               "exampleTitle": "HTML",
               "codeLangs": "ts",
@@ -333,13 +333,13 @@
             "text": "",
             "codeConfig": {
               "codeid": "js_2_4_2",
-              "exampleid": "",
+              "exampleid": "js_2_4_2_1",
               "codeOutput": false,
-              "exampleOutput": false,
+              "exampleOutput": true,
               "codeTitle": "JS",
-              "exampleTitle": "",
+              "exampleTitle": "Example",
               "codeLangs": "ts",
-              "exampleLangs": "",
+              "exampleLangs": "xml",
               "codeSource": "",
               "exampleSource": "",
               "marginLeft": "5rem"
@@ -354,13 +354,13 @@
             "text": "",
             "codeConfig": {
               "codeid": "js_2_4_3",
-              "exampleid": "",
+              "exampleid": "js_2_4_3_1",
               "codeOutput": false,
-              "exampleOutput": false,
+              "exampleOutput": true,
               "codeTitle": "JS",
-              "exampleTitle": "",
+              "exampleTitle": "Example",
               "codeLangs": "ts",
-              "exampleLangs": "",
+              "exampleLangs": "xml",
               "codeSource": "",
               "exampleSource": "",
               "marginLeft": "5rem"
@@ -379,13 +379,13 @@
             "text": "",
             "codeConfig": {
               "codeid": "js_2_4_4",
-              "exampleid": "",
+              "exampleid": "js_2_4_4_1",
               "codeOutput": false,
-              "exampleOutput": false,
+              "exampleOutput": true,
               "codeTitle": "JS",
-              "exampleTitle": "",
+              "exampleTitle": "Example",
               "codeLangs": "ts",
-              "exampleLangs": "",
+              "exampleLangs": "xml",
               "codeSource": "",
               "exampleSource": "",
               "marginLeft": "5rem"
@@ -400,13 +400,13 @@
             "text": "",
             "codeConfig": {
               "codeid": "js_2_4_5",
-              "exampleid": "",
+              "exampleid": "js_2_4_5_1",
               "codeOutput": false,
-              "exampleOutput": false,
+              "exampleOutput": true,
               "codeTitle": "JS",
-              "exampleTitle": "",
+              "exampleTitle": "Example",
               "codeLangs": "ts",
-              "exampleLangs": "",
+              "exampleLangs": "xml",
               "codeSource": "",
               "exampleSource": "",
               "marginLeft": "5rem"
@@ -421,13 +421,13 @@
             "text": "",
             "codeConfig": {
               "codeid": "js_2_4_6",
-              "exampleid": "",
+              "exampleid": "js_2_4_6_1",
               "codeOutput": false,
-              "exampleOutput": false,
+              "exampleOutput": true,
               "codeTitle": "JS",
-              "exampleTitle": "",
+              "exampleTitle": "Example",
               "codeLangs": "ts",
-              "exampleLangs": "",
+              "exampleLangs": "xml",
               "codeSource": "",
               "exampleSource": "",
               "marginLeft": "5rem"
@@ -442,13 +442,13 @@
             "text": "",
             "codeConfig": {
               "codeid": "js_2_4_7",
-              "exampleid": "",
+              "exampleid": "js_2_4_7_1",
               "codeOutput": false,
-              "exampleOutput": false,
+              "exampleOutput": true,
               "codeTitle": "JS",
-              "exampleTitle": "",
+              "exampleTitle": "Example",
               "codeLangs": "ts",
-              "exampleLangs": "",
+              "exampleLangs": "xml",
               "codeSource": "",
               "exampleSource": "",
               "marginLeft": "5rem"
@@ -463,13 +463,13 @@
             "text": "",
             "codeConfig": {
               "codeid": "js_2_4_8",
-              "exampleid": "",
+              "exampleid": "js_2_4_8_1",
               "codeOutput": false,
-              "exampleOutput": false,
+              "exampleOutput": true,
               "codeTitle": "JS",
-              "exampleTitle": "",
+              "exampleTitle": "Example",
               "codeLangs": "ts",
-              "exampleLangs": "",
+              "exampleLangs": "xml",
               "codeSource": "",
               "exampleSource": "",
               "marginLeft": "5rem"
@@ -481,10 +481,69 @@
           },
           {
             "paraid": 21,
-            "text": "<ul><ul><li><strong>break statement</strong>: Terminates the current loop or switch statement and transfers control to the next statement.</li><li><strong>continue statement</strong>: Skips the current iteration of a loop and continues with the next iteration.</li></ul></ul>"
+            "text": "<ul><ul><li><strong>break statement</strong>: Terminates the current loop or switch statement and transfers control to the next statement.</li></li></ul></ul>"
           },
           {
             "paraid": 22,
+            "text": "",
+            "codeConfig": {
+              "codeid": "js_2_4_9",
+              "exampleid": "js_2_4_9_1",
+              "codeOutput": false,
+              "exampleOutput": true,
+              "codeTitle": "JS",
+              "exampleTitle": "Example",
+              "codeLangs": "ts",
+              "exampleLangs": "xml",
+              "codeSource": "",
+              "exampleSource": "",
+              "marginLeft": "5rem"
+            }
+          },
+          {
+            "paraid": 23,
+            "text": "<ul><ul><li><strong>continue statement</strong>: Skips the current iteration of a loop and continues with the next iteration.</li></ul></ul>"
+          },
+          {
+            "paraid": 24,
+            "text": "",
+            "codeConfig": {
+              "codeid": "js_2_4_10",
+              "exampleid": "js_2_4_10_1",
+              "codeOutput": false,
+              "exampleOutput": true,
+              "codeTitle": "JS",
+              "exampleTitle": "Example",
+              "codeLangs": "ts",
+              "exampleLangs": "xml",
+              "codeSource": "",
+              "exampleSource": "",
+              "marginLeft": "5rem"
+            }
+          },
+          {
+            "paraid": 25,
+            "text": "<ul><ul><li><strong>return statement</strong>: Used to exit a function (will be discussed in next chapter) and optionally return a value. When encountered inside a loop that is part of a function, it immediately terminates the function execution, including the loop, and returns the specified value (if any).</li></ul></ul>"
+          },
+          {
+            "paraid": 26,
+            "text": "",
+            "codeConfig": {
+              "codeid": "js_2_4_11",
+              "exampleid": "js_2_4_11_1",
+              "codeOutput": false,
+              "exampleOutput": true,
+              "codeTitle": "JS",
+              "exampleTitle": "Example",
+              "codeLangs": "ts",
+              "exampleLangs": "xml",
+              "codeSource": "",
+              "exampleSource": "",
+              "marginLeft": "5rem"
+            }
+          },
+          {
+            "paraid": 27,
             "text": "These control flow statements and loop structures allow you to write dynamic and flexible code. By utilizing conditional statements, you can make decisions and execute specific blocks of code based on different conditions. Loops enable you to repeat a block of code multiple times or iterate over collections, performing operations on each item. Understanding and effectively using these control flow and loop structures are essential for building powerful and efficient JavaScript programs."
           }
         ]
@@ -516,14 +575,14 @@
             "paraid": 4,
             "text": "",
             "codeConfig": {
-              "codeid": "js_2_5_1",
-              "exampleid": "",
+              "codeid": "js_3_1_1",
+              "exampleid": "js_3_1_1_1",
               "codeOutput": false,
               "exampleOutput": false,
               "codeTitle": "JS",
-              "exampleTitle": "",
+              "exampleTitle": "Example",
               "codeLangs": "ts",
-              "exampleLangs": "",
+              "exampleLangs": "xml",
               "codeSource": "",
               "exampleSource": "",
               "marginLeft": "5rem"
@@ -545,14 +604,14 @@
             "paraid": 8,
             "text": "",
             "codeConfig": {
-              "codeid": "js_2_5_2",
-              "exampleid": "",
+              "codeid": "js_3_1_2",
+              "exampleid": "js_3_1_2_1",
               "codeOutput": false,
-              "exampleOutput": false,
+              "exampleOutput": true,
               "codeTitle": "JS",
-              "exampleTitle": "",
+              "exampleTitle": "Example",
               "codeLangs": "ts",
-              "exampleLangs": "",
+              "exampleLangs": "xml",
               "codeSource": "",
               "exampleSource": "",
               "marginLeft": "5rem"
@@ -564,61 +623,70 @@
           },
           {
             "paraid": 10,
-            "text": "<ul><ul><li>Variables defined inside a function are called local variables and have function scope. They are accessible only within the function.</li><li>Variables declared outside any function (at the top level) have global scope and can be accessed from anywhere in the code.</li><li>It's important to properly manage the scope of variables to avoid naming conflicts and unintended side effects.</li></ul><ul/>"
+            "text": "<ul><ul><li>Variables defined inside a function are called local variables and have function scope. They are accessible only within the function.</li><li>Variables declared outside any function (at the top level) have global scope and can be accessed from anywhere in the code.</li><li>It's important to properly manage the scope of variables to avoid naming conflicts and unintended side effects.<br/><br/>For example:</li></ul><ul/>"
           },
           {
             "paraid": 11,
-            "text": "<ol start=\"4\"><li>Anonymous Functions and Function Expressions:</li></ol>"
-          },
-          {
-            "paraid": 12,
-            "text": "<ul><ul><li>JavaScript allows you to create anonymous functions, which are functions without a specified name. They are often used as callbacks or immediately invoked.</li></ul></ul>"
-          },
-          {
-            "paraid": 13,
             "text": "",
             "codeConfig": {
-              "codeid": "js_2_5_3",
-              "exampleid": "",
+              "codeid": "js_3_1_3",
+              "exampleid": "js_3_1_3_1",
               "codeOutput": false,
-              "exampleOutput": false,
+              "exampleOutput": true,
               "codeTitle": "JS",
-              "exampleTitle": "",
+              "exampleTitle": "Example",
               "codeLangs": "ts",
-              "exampleLangs": "",
+              "exampleLangs": "xml",
               "codeSource": "",
               "exampleSource": "",
               "marginLeft": "5rem"
             }
           },
           {
+            "paraid": 12,
+            "text": "<ol start=\"4\"><li>Anonymous Functions and Function Expressions:</li></ol>"
+          },
+          {
             "paraid": 13,
-            "text": "<ol start=\"5\"><li>Function Closures:</li></ol>"
+            "text": "<ul><ul><li>JavaScript allows you to create anonymous functions, which are functions without a specified name. They are often used as callbacks or immediately invoked.<br/><br/>For example:</li></ul></ul>"
           },
           {
             "paraid": 14,
-            "text": "<ul><ul><li>JavaScript supports closures, which allow functions to access variables defined in their outer (enclosing) scope even after the outer function has finished executing.</li><li>Closures are created when an inner function references variables from its outer function.</li></ul></ul>"
+            "text": "",
+            "codeConfig": {
+              "codeid": "js_3_1_4",
+              "exampleid": "js_3_1_4_1",
+              "codeOutput": false,
+              "exampleOutput": true,
+              "codeTitle": "JS",
+              "exampleTitle": "Example",
+              "codeLangs": "ts",
+              "exampleLangs": "xml",
+              "codeSource": "",
+              "exampleSource": "",
+              "marginLeft": "5rem"
+            }
           },
           {
             "paraid": 15,
-            "text": "<ol start=\"6\"><li>Arrow Functions:</li></ol>"
+            "text": "<ol start=\"5\"><li>Function Closures:</li></ol>"
           },
           {
             "paraid": 16,
-            "text": "<ul><ul><li>Introduced in ECMAScript 2015 (ES6), arrow functions provide a concise syntax for writing functions.</li><li>Arrow Function Syntax:</li></ul></ul>"
+            "text": "<ul><ul><li>JavaScript supports closures, which allow functions to access variables defined in their outer (enclosing) scope even after the outer function has finished executing.</li><li>Closures are created when an inner function references variables from its outer function.<br/><br/>For example:</li></ul></ul>"
           },
           {
             "paraid": 17,
             "text": "",
             "codeConfig": {
-              "codeid": "js_2_5_4",
-              "exampleid": "",
+              "codeid": "js_3_1_5",
+              "exampleid": "js_3_1_5_1",
               "codeOutput": false,
-              "exampleOutput": false,
+              "exampleOutput": true,
               "codeTitle": "JS",
-              "exampleTitle": "",
+              "exampleTitle": "Example",
               "codeLangs": "ts",
-              "exampleLangs": "",
+              "exampleLangs": "xml",
               "codeSource": "",
               "exampleSource": "",
               "marginLeft": "5rem"
@@ -626,24 +694,24 @@
           },
           {
             "paraid": 18,
-            "text": "<ol start=\"7\"><li>IIFE (Immediately Invoked Function Expression):</li></ol>"
+            "text": "<ol start=\"6\"><li>Arrow Functions:</li></ol>"
           },
           {
             "paraid": 19,
-            "text": "<ul><ul><li>An IIFE is an anonymous function that is executed immediately after it's defined. It helps create a private scope and prevent variable collisions.</li></ul></ul>"
+            "text": "<ul><ul><li>Introduced in ECMAScript 2015 (ES6), arrow functions provide a concise syntax for writing functions.</li><li>Arrow Function Syntax:</li></ul></ul>"
           },
           {
             "paraid": 20,
             "text": "",
             "codeConfig": {
-              "codeid": "js_2_5_5",
-              "exampleid": "",
+              "codeid": "js_3_1_6",
+              "exampleid": "js_3_1_6_1",
               "codeOutput": false,
-              "exampleOutput": false,
+              "exampleOutput": true,
               "codeTitle": "JS",
-              "exampleTitle": "",
+              "exampleTitle": "Example",
               "codeLangs": "ts",
-              "exampleLangs": "",
+              "exampleLangs": "xml",
               "codeSource": "",
               "exampleSource": "",
               "marginLeft": "5rem"
@@ -651,6 +719,31 @@
           },
           {
             "paraid": 21,
+            "text": "<ol start=\"7\"><li>IIFE (Immediately Invoked Function Expression):</li></ol>"
+          },
+          {
+            "paraid": 22,
+            "text": "<ul><ul><li>An IIFE is an anonymous function that is executed immediately after it's defined. It helps create a private scope and prevent variable collisions.<br/><br/>For example:</li></ul></ul>"
+          },
+          {
+            "paraid": 23,
+            "text": "",
+            "codeConfig": {
+              "codeid": "js_3_1_7",
+              "exampleid": "js_3_1_7_1",
+              "codeOutput": false,
+              "exampleOutput": true,
+              "codeTitle": "JS",
+              "exampleTitle": "Example",
+              "codeLangs": "ts",
+              "exampleLangs": "xml",
+              "codeSource": "",
+              "exampleSource": "",
+              "marginLeft": "5rem"
+            }
+          },
+          {
+            "paraid": 24,
             "text": "Understanding functions and scope is fundamental in JavaScript development. Functions allow you to encapsulate code, create reusable modules, and organize your logic effectively. Scope management ensures that variables are accessible where needed while avoiding conflicts and unintended modifications. By leveraging functions and understanding scope, you can build modular, maintainable, and efficient JavaScript applications."
           }
         ]
@@ -664,18 +757,18 @@
             "text": "JavaScript arrays are data structures used to store and manipulate collections of elements. An array is an ordered list of values, where each value is assigned a unique index starting from `<code>0</code>`. Arrays can hold any data type, including numbers, strings, objects, or even other arrays."
           },
           {
-            "paraid": 1,
+            "paraid": 2,
             "text": "<ol><li>Creating Arrays:</li></ol>"
           },
           {
-            "paraid": 1,
-            "text": "<ul><ul><li>Using the array literal syntax which is a pair of square brackets (`<code>[]</code>`).<br/><br/>Example:</li></ul></ul>"
+            "paraid": 3,
+            "text": "<ul><ul><li>Using the array literal syntax which is a pair of square brackets (`<code>[]</code>`).<br/><br/>For example:</li></ul></ul>"
           },
           {
-            "paraid": 1,
+            "paraid": 4,
             "text": "",
             "codeConfig": {
-              "codeid": "js_2_6_1",
+              "codeid": "js_3_2_1",
               "exampleid": "",
               "codeOutput": false,
               "exampleOutput": false,
@@ -689,14 +782,14 @@
             }
           },
           {
-            "paraid": 1,
-            "text": "<ul><ul><li>Using the Array constructor.<br/><br/>Example:</li></ul></ul>"
+            "paraid": 5,
+            "text": "<ul><ul><li>Using the Array constructor.<br/><br/>For example:</li></ul></ul>"
           },
           {
-            "paraid": 1,
+            "paraid": 6,
             "text": "",
             "codeConfig": {
-              "codeid": "js_2_6_2",
+              "codeid": "js_3_2_2",
               "exampleid": "",
               "codeOutput": false,
               "exampleOutput": false,
@@ -710,116 +803,116 @@
             }
           },
           {
-            "paraid": 1,
+            "paraid": 7,
             "text": "<ol start=\"2\"><li>Array Operations:</li></ol>"
           },
           {
-            "paraid": 1,
-            "text": "<ul><ul><li>Accessing Elements: You can access individual elements of an array using square bracket notation and the index of the element.<br/><br/>Example:</li></ul></ul>"
+            "paraid": 8,
+            "text": "<ul><ul><li>Accessing Elements: You can access individual elements of an array using square bracket notation and the index of the element.<br/><br/>For example:</li></ul></ul>"
           },
           {
-            "paraid": 1,
+            "paraid": 9,
             "text": "",
             "codeConfig": {
-              "codeid": "js_2_6_3",
-              "exampleid": "",
+              "codeid": "js_3_2_3",
+              "exampleid": "js_3_2_3_1",
               "codeOutput": false,
-              "exampleOutput": false,
+              "exampleOutput": true,
               "codeTitle": "JS",
-              "exampleTitle": "",
+              "exampleTitle": "Example",
               "codeLangs": "ts",
-              "exampleLangs": "",
+              "exampleLangs": "xml",
               "codeSource": "",
               "exampleSource": "",
               "marginLeft": "5rem"
             }
           },
           {
-            "paraid": 1,
-            "text": "<ul><ul><li>Modifying Elements: You can modify the value of an element by assigning a new value to a specific index.<br/><br/>Example:</li></ul></ul>"
+            "paraid": 10,
+            "text": "<ul><ul><li>Modifying Elements: You can modify the value of an element by assigning a new value to a specific index.<br/><br/>For example:</li></ul></ul>"
           },
           {
-            "paraid": 1,
+            "paraid": 11,
             "text": "",
             "codeConfig": {
-              "codeid": "js_2_6_4",
-              "exampleid": "",
+              "codeid": "js_3_2_4",
+              "exampleid": "js_3_2_4_1",
               "codeOutput": false,
-              "exampleOutput": false,
+              "exampleOutput": true,
               "codeTitle": "JS",
-              "exampleTitle": "",
+              "exampleTitle": "Example",
               "codeLangs": "ts",
-              "exampleLangs": "",
+              "exampleLangs": "xml",
               "codeSource": "",
               "exampleSource": "",
               "marginLeft": "5rem"
             }
           },
           {
-            "paraid": 1,
-            "text": "<ul><ul><li>Array Length: The `<code>length</code>` property of an array returns the number of elements in the array. It can also be used to add or remove elements by modifying its value.<br/><br/>Example:</li></ul></ul>"
+            "paraid": 12,
+            "text": "<ul><ul><li>Array Length: The `<code>length</code>` property of an array returns the number of elements in the array. It can also be used to add or remove elements by modifying its value.<br/><br/>For example:</li></ul></ul>"
           },
           {
-            "paraid": 1,
+            "paraid": 13,
             "text": "",
             "codeConfig": {
-              "codeid": "js_2_6_5",
-              "exampleid": "",
+              "codeid": "js_3_2_5",
+              "exampleid": "js_3_2_5_1",
               "codeOutput": false,
-              "exampleOutput": false,
+              "exampleOutput": true,
               "codeTitle": "JS",
-              "exampleTitle": "",
+              "exampleTitle": "Example",
               "codeLangs": "ts",
-              "exampleLangs": "",
+              "exampleLangs": "xml",
               "codeSource": "",
               "exampleSource": "",
               "marginLeft": "5rem"
             }
           },
           {
-            "paraid": 1,
-            "text": "<ul><ul><li>Adding and Removing Elements: Arrays provide methods like `<code>push()</code>`, `<code>pop()</code>`, `<code>shift()</code>`, and `<code>unshift()</code>` to add or remove elements at the end or beginning of the array.<br/><br/>Example:</li></ul></ul>"
+            "paraid": 14,
+            "text": "<ul><ul><li>Adding and Removing Elements: Arrays provide methods like `<code>push()</code>`, `<code>pop()</code>`, `<code>shift()</code>`, and `<code>unshift()</code>` to add or remove elements at the end or beginning of the array.<br/><br/>For example:</li></ul></ul>"
           },
           {
-            "paraid": 1,
+            "paraid": 15,
             "text": "",
             "codeConfig": {
-              "codeid": "js_2_6_6",
-              "exampleid": "",
+              "codeid": "js_3_2_6",
+              "exampleid": "js_3_2_6_1",
               "codeOutput": false,
-              "exampleOutput": false,
+              "exampleOutput": true,
               "codeTitle": "JS",
-              "exampleTitle": "",
+              "exampleTitle": "Example",
               "codeLangs": "ts",
-              "exampleLangs": "",
+              "exampleLangs": "xml",
               "codeSource": "",
               "exampleSource": "",
               "marginLeft": "5rem"
             }
           },
           {
-            "paraid": 1,
-            "text": "<ul><ul><li>Iterating Over Elements: You can use loops like `<code>for()</code>` or `<code>forEach()</code>` method to iterate over the elements of an array.<br/><br/>Example:</li></ul></ul>"
+            "paraid": 16,
+            "text": "<ul><ul><li>Iterating Over Elements: You can use loops like `<code>for()</code>` or `<code>forEach()</code>` method to iterate over the elements of an array.<br/><br/>For example:</li></ul></ul>"
           },
           {
-            "paraid": 1,
+            "paraid": 17,
             "text": "",
             "codeConfig": {
-              "codeid": "js_2_6_7",
-              "exampleid": "",
+              "codeid": "js_3_2_7",
+              "exampleid": "js_3_2_7_1",
               "codeOutput": false,
-              "exampleOutput": false,
+              "exampleOutput": true,
               "codeTitle": "JS",
-              "exampleTitle": "",
+              "exampleTitle": "Example",
               "codeLangs": "ts",
-              "exampleLangs": "",
+              "exampleLangs": "xml",
               "codeSource": "",
               "exampleSource": "",
               "marginLeft": "5rem"
             }
           },
           {
-            "paraid": 1,
+            "paraid": 18,
             "text": "JavaScript arrays are versatile and commonly used for storing and manipulating collections of data. They are utilized for tasks such as storing lists of items, managing dynamic data, implementing data structures, and performing various data processing operations."
           }
         ]
@@ -838,7 +931,7 @@
           },
           {
             "paraid": 1,
-            "text": "<ul><ul><li>Use the object literal syntax which is a set of curly braces (`<code>{}</code>`).<br/><br/>Example:</li></ul></ul>"
+            "text": "<ul><ul><li>Use the object literal syntax which is a set of curly braces (`<code>{}</code>`).<br/><br/>For example:</li></ul></ul>"
           },
           {
             "paraid": 1,
@@ -859,7 +952,7 @@
           },
           {
             "paraid": 1,
-            "text": "<ul><ul><li>Use the Object constructor.<br/><br/>Example:</li></ul></ul>"
+            "text": "<ul><ul><li>Use the Object constructor.<br/><br/>For example:</li></ul></ul>"
           },
           {
             "paraid": 1,
@@ -884,7 +977,7 @@
           },
           {
             "paraid": 1,
-            "text": "<ul><ul><li>Accessing Object Properties: You can access the values of object properties using dot notation (`<code>objectName.propertyName</code>`) or bracket notation (`<code>objectName['propertyName']</code>`).<br/><br/>Example:</li></ul></ul>"
+            "text": "<ul><ul><li>Accessing Object Properties: You can access the values of object properties using dot notation (`<code>objectName.propertyName</code>`) or bracket notation (`<code>objectName['propertyName']</code>`).<br/><br/>For example:</li></ul></ul>"
           },
           {
             "paraid": 1,
@@ -905,7 +998,7 @@
           },
           {
             "paraid": 1,
-            "text": "<ul><ul><li>Modifying Object Properties: You can modify the value of an object property by assigning a new value to it.<br/><br/>Example:</li></ul></ul>"
+            "text": "<ul><ul><li>Modifying Object Properties: You can modify the value of an object property by assigning a new value to it.<br/><br/>For example:</li></ul></ul>"
           },
           {
             "paraid": 1,
@@ -926,7 +1019,7 @@
           },
           {
             "paraid": 1,
-            "text": "<ul><ul><li>Adding Object Properties: You can add new properties to an object by assigning values to them.<br/><br/>Example:</li></ul></ul>"
+            "text": "<ul><ul><li>Adding Object Properties: You can add new properties to an object by assigning values to them.<br/><br/>For example:</li></ul></ul>"
           },
           {
             "paraid": 1,
@@ -947,7 +1040,7 @@
           },
           {
             "paraid": 1,
-            "text": "<ul><ul><li>Removing Object Properties: You can remove properties from an object using the `<code>delete</code>` keyword.<br/><br/>Example:</li></ul></ul>"
+            "text": "<ul><ul><li>Removing Object Properties: You can remove properties from an object using the `<code>delete</code>` keyword.<br/><br/>For example:</li></ul></ul>"
           },
           {
             "paraid": 1,
@@ -968,7 +1061,7 @@
           },
           {
             "paraid": 1,
-            "text": "<ul><ul><li>Object Methods: Objects can have associated functions called methods. Methods are defined as object properties with function values.<br/><br/>Example:</li></ul></ul>"
+            "text": "<ul><ul><li>Object Methods: Objects can have associated functions called methods. Methods are defined as object properties with function values.<br/><br/>For example:</li></ul></ul>"
           },
           {
             "paraid": 1,
@@ -989,7 +1082,7 @@
           },
           {
             "paraid": 1,
-            "text": "<ul><ul><li>Object Iteration: You can iterate over an object's properties using a `<code>for...in</code>` loop or the `<code>Object.keys()</code>` method.<br/><br/>Example:</li></ul></ul>"
+            "text": "<ul><ul><li>Object Iteration: You can iterate over an object's properties using a `<code>for...in</code>` loop or the `<code>Object.keys()</code>` method.<br/><br/>For example:</li></ul></ul>"
           },
           {
             "paraid": 1,
@@ -1010,7 +1103,7 @@
           },
           {
             "paraid": 1,
-            "text": "<ul><ul><li>Object Constructors: Object constructors are functions used to create multiple objects with similar properties and methods. They serve as a blueprint for creating objects.<br/><br/>Example:</li></ul></ul>"
+            "text": "<ul><ul><li>Object Constructors: Object constructors are functions used to create multiple objects with similar properties and methods. They serve as a blueprint for creating objects.<br/><br/>For example:</li></ul></ul>"
           },
           {
             "paraid": 1,
@@ -2089,7 +2182,7 @@
           },
           {
             "paraid": 1,
-            "text": "<ul><ul><li>Lexical scope refers to the scope determined by the placement of variables and blocks of code in the source code during the compilation phase.</li><li>In JavaScript, scope is defined by functions and blocks (ES6) such as if statements, for loops, or while loops.</li><li>Variables declared within a function or block are accessible only within that function or block and any nested functions or blocks.<br/><br/>Example:</li></ul></ul>"
+            "text": "<ul><ul><li>Lexical scope refers to the scope determined by the placement of variables and blocks of code in the source code during the compilation phase.</li><li>In JavaScript, scope is defined by functions and blocks (ES6) such as if statements, for loops, or while loops.</li><li>Variables declared within a function or block are accessible only within that function or block and any nested functions or blocks.<br/><br/>For example:</li></ul></ul>"
           },
           {
             "paraid": 1,
@@ -2155,7 +2248,7 @@
           },
           {
             "paraid": 1,
-            "text": "<ul><ul><li>Closures are commonly used to create private variables and data encapsulation in JavaScript.</li><li>They are useful for implementing the module pattern, where functions and variables are kept private and only exposed through a public interface.</li><li>Closures are also helpful in scenarios like event handlers, callbacks, and memoization.<br/><br/>Example:</li></ul></ul>"
+            "text": "<ul><ul><li>Closures are commonly used to create private variables and data encapsulation in JavaScript.</li><li>They are useful for implementing the module pattern, where functions and variables are kept private and only exposed through a public interface.</li><li>Closures are also helpful in scenarios like event handlers, callbacks, and memoization.<br/><br/>For example:</li></ul></ul>"
           },
           {
             "paraid": 1,
@@ -2218,7 +2311,7 @@
           },
           {
             "paraid": 1,
-            "text": "<ul><ul><li>The prototype chain is a mechanism by which objects inherit properties and methods from their prototypes.</li><li>When a property or method is accessed on an object, JavaScript first checks if the object has that property or method. If not, it looks up the prototype chain until it finds the property or reaches the end of the chain (usually the Object prototype).</li><li>This allows for property and method sharing among objects, reducing redundancy and enabling code reuse.<br/><br/>Example:</li></ul></ul>"
+            "text": "<ul><ul><li>The prototype chain is a mechanism by which objects inherit properties and methods from their prototypes.</li><li>When a property or method is accessed on an object, JavaScript first checks if the object has that property or method. If not, it looks up the prototype chain until it finds the property or reaches the end of the chain (usually the Object prototype).</li><li>This allows for property and method sharing among objects, reducing redundancy and enabling code reuse.<br/><br/>For example:</li></ul></ul>"
           },
           {
             "paraid": 1,
@@ -2243,7 +2336,7 @@
           },
           {
             "paraid": 1,
-            "text": "<ul><ul><li>Constructor functions are regular functions that are used to create objects.</li><li>When a constructor function is invoked with the `<code>new</code>` keyword, a new object is created, and its `<code>prototype</code>` is set to the function's `<code>prototype</code>` property.</li><li>Properties and methods defined on the constructor function's `<code>prototype</code>` property are inherited by the objects created with that constructor.<br/><br/>Example:</li></ul></ul>"
+            "text": "<ul><ul><li>Constructor functions are regular functions that are used to create objects.</li><li>When a constructor function is invoked with the `<code>new</code>` keyword, a new object is created, and its `<code>prototype</code>` is set to the function's `<code>prototype</code>` property.</li><li>Properties and methods defined on the constructor function's `<code>prototype</code>` property are inherited by the objects created with that constructor.<br/><br/>For example:</li></ul></ul>"
           },
           {
             "paraid": 1,
@@ -2276,7 +2369,7 @@
           },
           {
             "paraid": 1,
-            "text": "<ul><ul><li>ES6 introduced the `<code>class syntax</code>`, which provides syntactic sugar for working with prototypes and constructor functions.</li><li>Classes in JavaScript are primarily a syntax simplification and still rely on prototypes under the hood.</li><li>The `<code>class</code>` syntax makes it easier to define constructor functions, prototype methods, and inheritance relationships.<br/><br/>Example:</li></ul></ul>"
+            "text": "<ul><ul><li>ES6 introduced the `<code>class syntax</code>`, which provides syntactic sugar for working with prototypes and constructor functions.</li><li>Classes in JavaScript are primarily a syntax simplification and still rely on prototypes under the hood.</li><li>The `<code>class</code>` syntax makes it easier to define constructor functions, prototype methods, and inheritance relationships.<br/><br/>For example:</li></ul></ul>"
           },
           {
             "paraid": 1,
@@ -2315,7 +2408,7 @@
           },
           {
             "paraid": 1,
-            "text": "<ul><ul><li>Pure functions are functions that produce the same output for the same input and have no side effects.</li><li>They do not modify external state or variables, ensuring referential transparency.</li><li>Pure functions are deterministic, easier to reason about, and facilitate testing and parallel execution.<br/><br/>Example:</li></ul></ul>"
+            "text": "<ul><ul><li>Pure functions are functions that produce the same output for the same input and have no side effects.</li><li>They do not modify external state or variables, ensuring referential transparency.</li><li>Pure functions are deterministic, easier to reason about, and facilitate testing and parallel execution.<br/><br/>For example:</li></ul></ul>"
           },
           {
             "paraid": 1,
@@ -2340,7 +2433,7 @@
           },
           {
             "paraid": 1,
-            "text": "<ul><ul><li>In functional programming, data is immutable, meaning it cannot be changed after creation.</li><li>Instead of modifying existing data, functional programs create new data structures with updated values.</li><li>Immutable data simplifies code reasoning, eliminates bugs caused by unintended mutations, and facilitates concurrency.<br/><br/>Example:</li></ul></ul>"
+            "text": "<ul><ul><li>In functional programming, data is immutable, meaning it cannot be changed after creation.</li><li>Instead of modifying existing data, functional programs create new data structures with updated values.</li><li>Immutable data simplifies code reasoning, eliminates bugs caused by unintended mutations, and facilitates concurrency.<br/><br/>For example:</li></ul></ul>"
           },
           {
             "paraid": 1,
@@ -2365,7 +2458,7 @@
           },
           {
             "paraid": 1,
-            "text": "<ul><ul><li>Higher-order functions are functions that can take other functions as arguments or return functions as results.</li><li>They enable code abstraction and composition, allowing for the creation of more reusable and modular code.</li><li>Examples of higher-order functions include `<code>map</code>`, `<code>filter</code>`, and `<code>reduce</code>` in JavaScript.<br/><br/>Example:</li></ul></ul>"
+            "text": "<ul><ul><li>Higher-order functions are functions that can take other functions as arguments or return functions as results.</li><li>They enable code abstraction and composition, allowing for the creation of more reusable and modular code.</li><li>Examples of higher-order functions include `<code>map</code>`, `<code>filter</code>`, and `<code>reduce</code>` in JavaScript.<br/><br/>For example:</li></ul></ul>"
           },
           {
             "paraid": 1,
@@ -2390,7 +2483,7 @@
           },
           {
             "paraid": 1,
-            "text": "<ul><ul><li>Function composition is the process of combining functions to create new functions.</li><li>It allows you to build complex operations by chaining together smaller functions.</li><li>Function composition improves code readability, reusability, and testability.<br/><br/>Example:</li></ul></ul>"
+            "text": "<ul><ul><li>Function composition is the process of combining functions to create new functions.</li><li>It allows you to build complex operations by chaining together smaller functions.</li><li>Function composition improves code readability, reusability, and testability.<br/><br/>For example:</li></ul></ul>"
           },
           {
             "paraid": 1,
