@@ -246,16 +246,12 @@
             "text": "<ul>Logical operators are used to combine or manipulate Boolean values<ul><li>Logical AND (`<code>&&</code>`), which returns `<code>true</code>` if both operands are `<code>true</code>`.</li><li>Logical OR (`<code>||</code>`), which returns `<code>true</code>` if at least one operand is `<code>true</code>`.</li><li>Logical NOT (`<code>!</code>`), which negates a Boolean value.</li></ul></ul>"
           }, 
           {
-            "paraid": 10,
-            "text": "<ol start=\"5\"><li>String Operators:</li></ol>"
-          }, 
-          {
             "paraid": 11,
             "text": "<ul><ul><li>JavaScript provides the + operator to concatenate strings. Example: `<code>\"Hello\" + \"World\"</code>`; returns `<code>\"HelloWorld\"</code>`.</li><li>You can also use the `<code>+=</code>` operator to concatenate strings and assign the result to a variable.</li></ul></ul>"
           }, 
           {
             "paraid": 12,
-            "text": "<ol start=\"6\"><li>Conditional (Ternary) Operator:</li></ol>"
+            "text": "<ol start=\"5\"><li>Conditional (Ternary) Operator:</li></ol>"
           }, 
           {
             "paraid": 13,
@@ -263,7 +259,7 @@
           }, 
           {
             "paraid": 14,
-            "text": "<ol start=\"7\"><li>Type Operators:</li></ol>"
+            "text": "<ol start=\"6\"><li>Type Operators:</li></ol>"
           }, 
           {
             "paraid": 15,
@@ -271,7 +267,7 @@
           }, 
           {
             "paraid": 16,
-            "text": "<ol start=\"8\"><li>Grouping Operator:</li></ol>"
+            "text": "<ol start=\"7\"><li>Grouping Operator:</li></ol>"
           }, 
           {
             "paraid": 17,
@@ -279,7 +275,7 @@
           }, 
           {
             "paraid": 18,
-            "text": "<ol start=\"9\"><li>Bitwise Operators (Advanced):</li></ol>"
+            "text": "<ol start=\"8\"><li>Bitwise Operators (Advanced):</li></ol>"
           },
           {
             "paraid": 19,
@@ -557,7 +553,7 @@
     "sections": [
       {
         "secid": 1,
-        "subtitle": "Functions and scope",
+        "subtitle": "Functions, scope and closure",
         "paragraphs": [
           {
             "paraid": 1,
@@ -750,6 +746,170 @@
       },
       {
         "secid": 2,
+        "subtitle": "Strings and operations",
+        "paragraphs": [
+          {
+            "paraid": 1,
+            "text": "In JavaScript, a string is a sequence of characters enclosed in single ('') or double (\"\") quotes. Strings are a primitive data type and are used to represent textual data in JavaScript. Strings can contain letters, numbers, symbols, and even special characters. Here are some common string operations in JavaScript."
+          },
+          {
+            "paraid": 1,
+            "text": "<ol><li>String Concatenation:</li></ol>"
+          },
+          {
+            "paraid": 1,
+            "text": "<ul><ul><li>String concatenation is the process of combining two or more strings to create a new string. In JavaScript, you can use the `<code>+</code>` operator to concatenate strings.<br/><br/>For example:</li></ul></ul>"
+          },
+          {
+            "paraid": 11,
+            "text": "",
+            "codeConfig": {
+              "codeid": "js_3_2_1",
+              "exampleid": "js_3_2_1_1",
+              "codeOutput": false,
+              "exampleOutput": true,
+              "codeTitle": "JS",
+              "exampleTitle": "Example",
+              "codeLangs": "ts",
+              "exampleLangs": "xml",
+              "codeSource": "",
+              "exampleSource": "",
+              "marginLeft": "5rem"
+            }
+          },
+          {
+            "paraid": 1,
+            "text": "<ol start=\"2\"><li>String Length:</li></ol>"
+          },
+          {
+            "paraid": 1,
+            "text": "<ul><ul><li>You can find the length of a string using the `<code>length</code>` property of the string object.<br/><br/>For example:</li></ul></ul>"
+          },
+          {
+            "paraid": 11,
+            "text": "",
+            "codeConfig": {
+              "codeid": "js_3_2_2",
+              "exampleid": "js_3_2_2_1",
+              "codeOutput": false,
+              "exampleOutput": true,
+              "codeTitle": "JS",
+              "exampleTitle": "Example",
+              "codeLangs": "ts",
+              "exampleLangs": "xml",
+              "codeSource": "",
+              "exampleSource": "",
+              "marginLeft": "5rem"
+            }
+          },
+          {
+            "paraid": 1,
+            "text": "<ol start=\"3\"><li>Accessing Characters in a String:</li></ol>"
+          },
+          {
+            "paraid": 1,
+            "text": "<ul><ul><li>You can access individual characters in a string using bracket notation or the `<code>charAt()</code>` method.<br/><br/>For example:</li></ul></ul>"
+          },
+          {
+            "paraid": 11,
+            "text": "",
+            "codeConfig": {
+              "codeid": "js_3_2_3",
+              "exampleid": "js_3_2_3_1",
+              "codeOutput": false,
+              "exampleOutput": true,
+              "codeTitle": "JS",
+              "exampleTitle": "Example",
+              "codeLangs": "ts",
+              "exampleLangs": "xml",
+              "codeSource": "",
+              "exampleSource": "",
+              "marginLeft": "5rem"
+            }
+          },
+          {
+            "paraid": 1,
+            "text": "<ol start=\"4\"><li>String Methods:</li></ol>"
+          },
+          {
+            "paraid": 1,
+            "text": "<ul><ul><li>JavaScript provides a variety of built-in string methods to perform different operations on strings, such as converting cases, extracting substrings, finding positions, replacing characters, and more.<br/><br/>For example:</li></ul></ul>"
+          },
+          {
+            "paraid": 11,
+            "text": "",
+            "codeConfig": {
+              "codeid": "js_3_2_4",
+              "exampleid": "js_3_2_4_1",
+              "codeOutput": false,
+              "exampleOutput": true,
+              "codeTitle": "JS",
+              "exampleTitle": "Example",
+              "codeLangs": "ts",
+              "exampleLangs": "xml",
+              "codeSource": "",
+              "exampleSource": "",
+              "marginLeft": "5rem"
+            }
+          },
+          {
+            "paraid": 1,
+            "text": "<ol start=\"5\"><li>String Template Literals:</li></ol>"
+          },
+          {
+            "paraid": 1,
+            "text": "<ul><ul><li>ES6 introduced template literals, enclosed by backticks (``), which allow for more flexible string interpolation and multiline strings.<br/><br/>For example:</li></ul></ul>"
+          },
+          {
+            "paraid": 11,
+            "text": "",
+            "codeConfig": {
+              "codeid": "js_3_2_5",
+              "exampleid": "js_3_2_5_1",
+              "codeOutput": false,
+              "exampleOutput": true,
+              "codeTitle": "JS",
+              "exampleTitle": "Example",
+              "codeLangs": "ts",
+              "exampleLangs": "xml",
+              "codeSource": "",
+              "exampleSource": "",
+              "marginLeft": "5rem"
+            }
+          },
+          {
+            "paraid": 1,
+            "text": "<ol start=\"6\"><li>Unicode Characters:</li></ol>"
+          },
+          {
+            "paraid": 1,
+            "text": "<ul><ul><li>JavaScript supports Unicode characters, including special characters and emojis. You can use Unicode escape sequences (`<code>\\uXXXX</code>`) or Unicode code point escapes (`<code>\\u{XXXXX}</code>`) to represent these characters.<br/><br/>For example:</li></ul></ul>"
+          },
+          {
+            "paraid": 11,
+            "text": "",
+            "codeConfig": {
+              "codeid": "js_3_2_6",
+              "exampleid": "js_3_2_6_1",
+              "codeOutput": false,
+              "exampleOutput": true,
+              "codeTitle": "JS",
+              "exampleTitle": "Example",
+              "codeLangs": "ts",
+              "exampleLangs": "xml",
+              "codeSource": "",
+              "exampleSource": "",
+              "marginLeft": "5rem"
+            }
+          },
+          {
+            "paraid": 1,
+            "text": "These are just a few examples of the various string operations and concepts available in JavaScript. Strings are a fundamental part of any programming language, and JavaScript provides a rich set of built-in methods and features to work with strings effectively."
+          }
+        ]
+      },
+      {
+        "secid": 3,
         "subtitle": "Arrays and operations",
         "paragraphs": [
           {
@@ -768,7 +928,7 @@
             "paraid": 4,
             "text": "",
             "codeConfig": {
-              "codeid": "js_3_2_1",
+              "codeid": "js_3_3_1",
               "exampleid": "",
               "codeOutput": false,
               "exampleOutput": false,
@@ -789,7 +949,7 @@
             "paraid": 6,
             "text": "",
             "codeConfig": {
-              "codeid": "js_3_2_2",
+              "codeid": "js_3_3_2",
               "exampleid": "",
               "codeOutput": false,
               "exampleOutput": false,
@@ -814,8 +974,8 @@
             "paraid": 9,
             "text": "",
             "codeConfig": {
-              "codeid": "js_3_2_3",
-              "exampleid": "js_3_2_3_1",
+              "codeid": "js_3_3_3",
+              "exampleid": "js_3_3_3_1",
               "codeOutput": false,
               "exampleOutput": true,
               "codeTitle": "JS",
@@ -835,8 +995,8 @@
             "paraid": 11,
             "text": "",
             "codeConfig": {
-              "codeid": "js_3_2_4",
-              "exampleid": "js_3_2_4_1",
+              "codeid": "js_3_3_4",
+              "exampleid": "js_3_3_4_1",
               "codeOutput": false,
               "exampleOutput": true,
               "codeTitle": "JS",
@@ -856,8 +1016,8 @@
             "paraid": 13,
             "text": "",
             "codeConfig": {
-              "codeid": "js_3_2_5",
-              "exampleid": "js_3_2_5_1",
+              "codeid": "js_3_3_5",
+              "exampleid": "js_3_3_5_1",
               "codeOutput": false,
               "exampleOutput": true,
               "codeTitle": "JS",
@@ -877,8 +1037,8 @@
             "paraid": 15,
             "text": "",
             "codeConfig": {
-              "codeid": "js_3_2_6",
-              "exampleid": "js_3_2_6_1",
+              "codeid": "js_3_3_6",
+              "exampleid": "js_3_3_6_1",
               "codeOutput": false,
               "exampleOutput": true,
               "codeTitle": "JS",
@@ -898,8 +1058,8 @@
             "paraid": 17,
             "text": "",
             "codeConfig": {
-              "codeid": "js_3_2_7",
-              "exampleid": "js_3_2_7_1",
+              "codeid": "js_3_3_7",
+              "exampleid": "js_3_3_7_1",
               "codeOutput": false,
               "exampleOutput": true,
               "codeTitle": "JS",
@@ -918,7 +1078,7 @@
         ]
       },
       {
-        "secid": 3,
+        "secid": 4,
         "subtitle": "Objects and operations",
         "paragraphs": [
           {
@@ -937,7 +1097,7 @@
             "paraid": 1,
             "text": "",
             "codeConfig": {
-              "codeid": "js_3_3_1",
+              "codeid": "js_3_4_1",
               "exampleid": "",
               "codeOutput": false,
               "exampleOutput": false,
@@ -958,7 +1118,7 @@
             "paraid": 1,
             "text": "",
             "codeConfig": {
-              "codeid": "js_3_3_2",
+              "codeid": "js_3_4_2",
               "exampleid": "",
               "codeOutput": false,
               "exampleOutput": false,
@@ -983,8 +1143,8 @@
             "paraid": 1,
             "text": "",
             "codeConfig": {
-              "codeid": "js_3_3_3",
-              "exampleid": "js_3_3_3_1",
+              "codeid": "js_3_4_3",
+              "exampleid": "js_3_4_3_1",
               "codeOutput": false,
               "exampleOutput": true,
               "codeTitle": "JS",
@@ -1004,8 +1164,8 @@
             "paraid": 1,
             "text": "",
             "codeConfig": {
-              "codeid": "js_3_3_4",
-              "exampleid": "js_3_3_4_1",
+              "codeid": "js_3_4_4",
+              "exampleid": "js_3_4_4_1",
               "codeOutput": false,
               "exampleOutput": true,
               "codeTitle": "JS",
@@ -1025,8 +1185,8 @@
             "paraid": 1,
             "text": "",
             "codeConfig": {
-              "codeid": "js_3_3_5",
-              "exampleid": "js_3_3_5_1",
+              "codeid": "js_3_4_5",
+              "exampleid": "js_3_4_5_1",
               "codeOutput": false,
               "exampleOutput": true,
               "codeTitle": "JS",
@@ -1046,8 +1206,8 @@
             "paraid": 1,
             "text": "",
             "codeConfig": {
-              "codeid": "js_3_3_6",
-              "exampleid": "js_3_3_6_1",
+              "codeid": "js_3_4_6",
+              "exampleid": "js_3_4_6_1",
               "codeOutput": false,
               "exampleOutput": true,
               "codeTitle": "JS",
@@ -1067,8 +1227,8 @@
             "paraid": 1,
             "text": "",
             "codeConfig": {
-              "codeid": "js_3_3_7",
-              "exampleid": "js_3_3_7_1",
+              "codeid": "js_3_4_7",
+              "exampleid": "js_3_4_7_1",
               "codeOutput": false,
               "exampleOutput": true,
               "codeTitle": "JS",
@@ -1088,8 +1248,8 @@
             "paraid": 1,
             "text": "",
             "codeConfig": {
-              "codeid": "js_3_3_8",
-              "exampleid": "js_3_3_8_1",
+              "codeid": "js_3_4_8",
+              "exampleid": "js_3_4_8_1",
               "codeOutput": false,
               "exampleOutput": true,
               "codeTitle": "JS",
@@ -1109,8 +1269,8 @@
             "paraid": 1,
             "text": "",
             "codeConfig": {
-              "codeid": "js_3_3_9",
-              "exampleid": "js_3_3_9_1",
+              "codeid": "js_3_4_9",
+              "exampleid": "js_3_4_9_1",
               "codeOutput": false,
               "exampleOutput": true,
               "codeTitle": "JS",
@@ -1758,13 +1918,13 @@
             "text": "",
             "codeConfig": {
               "codeid": "js_5_2_1",
-              "exampleid": "",
+              "exampleid": "js_5_2_1_1",
               "codeOutput": false,
-              "exampleOutput": false,
+              "exampleOutput": true,
               "codeTitle": "JS",
-              "exampleTitle": "",
+              "exampleTitle": "Example",
               "codeLangs": "ts",
-              "exampleLangs": "",
+              "exampleLangs": "xml",
               "codeSource": "",
               "exampleSource": "",
               "marginLeft": "5rem"
@@ -1782,22 +1942,38 @@
             "paraid": 8,
             "text": "",
             "codeConfig": {
-              "codeid": "js_5_2_1_1",
-              "exampleid": "",
+              "codeid": "js_5_2_2",
+              "exampleid": "js_5_2_2_1",
               "codeOutput": false,
-              "exampleOutput": false,
+              "exampleOutput": true,
               "codeTitle": "JS",
-              "exampleTitle": "",
+              "exampleTitle": "Example",
               "codeLangs": "ts",
-              "exampleLangs": "",
+              "exampleLangs": "xml",
               "codeSource": "",
               "exampleSource": "",
               "marginLeft": "5rem"
             }
           },
           {
+            "paraid": 12,
+            "text": "<ol start=\"4\"><li>Customizing Callbacks:</li></ol>"
+          },
+          {
+            "paraid": 13,
+            "text": "<ul><ul><li>Callback functions can be customized to accept additional arguments based on the specific requirements of the operation or task being performed.</li><li>The function that invokes the callback can pass any necessary data as arguments when invoking the callback.</li></ul></ul>"
+          },
+          {
+            "paraid": 14,
+            "text": "<ol start=\"5\"><li>Callback Hell:</li></ol>"
+          },
+          {
+            "paraid": 15,
+            "text": "<ul><ul><li>When working with multiple asynchronous operations, nesting callbacks can lead to a situation called \"callback hell\" or \"pyramid of doom.\" It can make code hard to read, understand, and maintain.</li><li>To mitigate callback hell, other approaches like promises or async/await syntax can be used, providing a more structured and readable way to handle asynchronous operations.</li></ul></ul>"
+          },
+          {
             "paraid": 9,
-            "text": "<ol start=\"4\"><li>Error Handling:</li></ol>"
+            "text": "<ol start=\"6\"><li>Error Handling:</li></ol>"
           },
           {
             "paraid": 10,
@@ -1807,7 +1983,7 @@
             "paraid": 11,
             "text": "",
             "codeConfig": {
-              "codeid": "js_5_2_2",
+              "codeid": "js_5_2_3",
               "exampleid": "",
               "codeOutput": false,
               "exampleOutput": false,
@@ -1819,22 +1995,6 @@
               "exampleSource": "",
               "marginLeft": "5rem"
             }
-          },
-          {
-            "paraid": 12,
-            "text": "<ol start=\"5\"><li>Customizing Callbacks:</li></ol>"
-          },
-          {
-            "paraid": 13,
-            "text": "<ul><ul><li>Callback functions can be customized to accept additional arguments based on the specific requirements of the operation or task being performed.</li><li>The function that invokes the callback can pass any necessary data as arguments when invoking the callback.</li></ul></ul>"
-          },
-          {
-            "paraid": 14,
-            "text": "<ol start=\"6\"><li>Callback Hell:</li></ol>"
-          },
-          {
-            "paraid": 15,
-            "text": "<ul><ul><li>When working with multiple asynchronous operations, nesting callbacks can lead to a situation called \"callback hell\" or \"pyramid of doom.\" It can make code hard to read, understand, and maintain.</li><li>To mitigate callback hell, other approaches like promises or async/await syntax can be used, providing a more structured and readable way to handle asynchronous operations.</li></ul></ul>"
           },
           {
             "paraid": 16,
@@ -1960,7 +2120,7 @@
           },
           {
             "paraid": 5,
-            "text": "<ul><ul><li>The `<code>await</code>` keyword can only be used inside an async function.</li><li>It pauses the execution of the async function until the promise is resolved or rejected.</li><li>When `<code>await</code>` is used on a promise, it waits for the promise to settle and returns the resolved value.</li><li>If the promise is rejected, an error is thrown, and you can catch it using a `<code>try...catch</code>` block.</li></ul></ul>"
+            "text": "<ul><ul><li>The `<code>await</code>` keyword can only be used inside an async function.</li><li>It pauses the execution of the async function until the promise is resolved or rejected.</li><li>When `<code>await</code>` is used on a promise, it waits for the promise to settle and returns the resolved value.</li></ul></ul>"
           },
           {
             "paraid": 6,
@@ -1975,13 +2135,13 @@
             "text": "",
             "codeConfig": {
               "codeid": "js_5_4_1",
-              "exampleid": "",
+              "exampleid": "js_5_4_1_1",
               "codeOutput": false,
-              "exampleOutput": false,
+              "exampleOutput": true,
               "codeTitle": "JS",
-              "exampleTitle": "",
+              "exampleTitle": "Example",
               "codeLangs": "ts",
-              "exampleLangs": "",
+              "exampleLangs": "xml",
               "codeSource": "",
               "exampleSource": "",
               "marginLeft": "5rem"
@@ -1993,7 +2153,24 @@
           },
           {
             "paraid": 10,
-            "text": "<ul><ul><li>Errors inside async functions can be handled using `<code>try...catch</code>` blocks.</li><li>If an error occurs during the execution of the `<code>await</code>` expression, the function execution is immediately halted, and the control flows to the `<code>catch</code>` block.</li><li>You can handle the error gracefully, log it, or take appropriate actions.</li></ul></ul>"
+            "text": "<ul><ul><li>If an error occurs during the execution of the `<code>await</code>` expression, the error can be caught by `<code>catch</code>` method.</li><li>You can handle the error gracefully, log it, or take appropriate actions.</li></ul></ul>"
+          },
+          {
+            "paraid": 8,
+            "text": "",
+            "codeConfig": {
+              "codeid": "js_5_4_2",
+              "exampleid": "js_5_4_2_1",
+              "codeOutput": false,
+              "exampleOutput": true,
+              "codeTitle": "JS",
+              "exampleTitle": "Example",
+              "codeLangs": "ts",
+              "exampleLangs": "xml",
+              "codeSource": "",
+              "exampleSource": "",
+              "marginLeft": "5rem"
+            }
           },
           {
             "paraid": 11,
@@ -2023,7 +2200,7 @@
     "sections": [
       {
         "secid": 1,
-        "subtitle": "Working with browser APIs (e.g., Geolocation, Web Storage, Notifications)",
+        "subtitle": "Working with browser APIs",
         "paragraphs": [
           {
             "paraid": 1,
@@ -2204,119 +2381,6 @@
     "sections": [
       {
         "secid": 1,
-        "subtitle": "Closures and lexical scope",
-        "paragraphs": [
-          {
-            "paraid": 1,
-            "text": "Closures and lexical scope are important concepts in JavaScript that are closely related. Understanding these concepts is crucial for writing effective and efficient JavaScript code. Let's explore closures and lexical scope."
-          },
-          {
-            "paraid": 1,
-            "text": "<ol><li>Lexical Scope:</li></ol>"
-          },
-          {
-            "paraid": 1,
-            "text": "<ul><ul><li>Lexical scope refers to the scope determined by the placement of variables and blocks of code in the source code during the compilation phase.</li><li>In JavaScript, scope is defined by functions and blocks (ES6) such as if statements, for loops, or while loops.</li><li>Variables declared within a function or block are accessible only within that function or block and any nested functions or blocks.<br/><br/>For example:</li></ul></ul>"
-          },
-          {
-            "paraid": 1,
-            "text": "",
-            "codeConfig": {
-              "codeid": "js_7_1_1",
-              "exampleid": "",
-              "codeOutput": false,
-              "exampleOutput": false,
-              "codeTitle": "JS",
-              "exampleTitle": "",
-              "codeLangs": "ts",
-              "exampleLangs": "",
-              "codeSource": "",
-              "exampleSource": "",
-              "marginLeft": "5rem"
-            }
-          },
-          {
-            "paraid": 1,
-            "text": "<ol start=\"2\"><li>Closure:</li></ol>"
-          },
-          {
-            "paraid": 1,
-            "text": "<ul><ul><li>A closure is a function that has access to its own scope, the scope of its outer function, and the global scope.</li><li>It \"closes over\" the variables it references, allowing it to access and use those variables even after the outer function has finished executing.</li><li>Closures are created whenever a function is defined inside another function and the inner function references variables from the outer function.</li></ul></ul>"
-          },
-          {
-            "paraid": 1,
-            "text": "<ol start=\"3\"><li>Creating a Closure:</li></ol>"
-          },
-          {
-            "paraid": 1,
-            "text": "",
-            "codeConfig": {
-              "codeid": "js_7_1_2",
-              "exampleid": "",
-              "codeOutput": false,
-              "exampleOutput": false,
-              "codeTitle": "JS",
-              "exampleTitle": "",
-              "codeLangs": "ts",
-              "exampleLangs": "",
-              "codeSource": "",
-              "exampleSource": "",
-              "marginLeft": "5rem"
-            }
-          },
-          {
-            "paraid": 1,
-            "text": "<ul><ul><li>To create a closure, define a function within another function and have the inner function reference variables from the outer function.</li><li>The inner function will maintain a reference to the variables it needs, even after the outer function has completed.</li></ul></ul>"
-          },
-          {
-            "paraid": 1,
-            "text": "<ol start=\"4\"><li>Accessing Variables via Closures:</li></ol>"
-          },
-          {
-            "paraid": 1,
-            "text": "<ul><ul><li>Closures allow accessing variables that are no longer in scope.</li><li>When a function is defined inside another function, the inner function has access to its own variables, the variables of its parent function, and the global variables.</li><li>This allows you to create private variables and encapsulate data within a function.</li></ul></ul>"
-          },
-          {
-            "paraid": 1,
-            "text": "<ol start=\"5\"><li>Practical Use Cases of Closures:</li></ol>"
-          },
-          {
-            "paraid": 1,
-            "text": "<ul><ul><li>Closures are commonly used to create private variables and data encapsulation in JavaScript.</li><li>They are useful for implementing the module pattern, where functions and variables are kept private and only exposed through a public interface.</li><li>Closures are also helpful in scenarios like event handlers, callbacks, and memoization.<br/><br/>For example:</li></ul></ul>"
-          },
-          {
-            "paraid": 1,
-            "text": "",
-            "codeConfig": {
-              "codeid": "js_7_1_2",
-              "exampleid": "",
-              "codeOutput": false,
-              "exampleOutput": false,
-              "codeTitle": "JS",
-              "exampleTitle": "",
-              "codeLangs": "ts",
-              "exampleLangs": "",
-              "codeSource": "",
-              "exampleSource": "",
-              "marginLeft": "5rem"
-            }
-          },
-          {
-            "paraid": 1,
-            "text": "<ol start=\"6\"><li>Memory Considerations:</li></ol>"
-          },
-          {
-            "paraid": 1,
-            "text": "<ul><ul><li>Closures retain references to the variables they close over, which can affect memory usage.</li><li>If closures are not managed properly, they can cause memory leaks by keeping references to objects that are no longer needed.</li><li>Be mindful of creating unnecessary closures or holding references to large objects when not needed.</li></ul></ul>"
-          },
-          {
-            "paraid": 1,
-            "text": "Understanding closures and lexical scope enables you to write more efficient and expressive JavaScript code. Closures provide a powerful mechanism for encapsulating data and creating private variables, enhancing code modularity and reusability. They are particularly useful in scenarios where you need to maintain state or create functions that have access to specific variables."
-          }
-        ]
-      },
-      {
-        "secid": 2,
         "subtitle": "Prototypes and inheritance",
         "paragraphs": [
           {
@@ -2351,14 +2415,14 @@
             "paraid": 1,
             "text": "",
             "codeConfig": {
-              "codeid": "js_7_2_1",
-              "exampleid": "",
+              "codeid": "js_7_1_1",
+              "exampleid": "js_7_1_1_1",
               "codeOutput": false,
-              "exampleOutput": false,
+              "exampleOutput": true,
               "codeTitle": "JS",
-              "exampleTitle": "",
+              "exampleTitle": "Example",
               "codeLangs": "ts",
-              "exampleLangs": "",
+              "exampleLangs": "xml",
               "codeSource": "",
               "exampleSource": "",
               "marginLeft": "5rem"
@@ -2376,14 +2440,14 @@
             "paraid": 1,
             "text": "",
             "codeConfig": {
-              "codeid": "js_7_2_2",
-              "exampleid": "",
+              "codeid": "js_7_1_2",
+              "exampleid": "js_7_1_2_1",
               "codeOutput": false,
-              "exampleOutput": false,
+              "exampleOutput": true,
               "codeTitle": "JS",
-              "exampleTitle": "",
+              "exampleTitle": "Example",
               "codeLangs": "ts",
-              "exampleLangs": "",
+              "exampleLangs": "xml",
               "codeSource": "",
               "exampleSource": "",
               "marginLeft": "5rem"
@@ -2409,14 +2473,14 @@
             "paraid": 1,
             "text": "",
             "codeConfig": {
-              "codeid": "js_7_2_3",
-              "exampleid": "",
+              "codeid": "js_7_1_3",
+              "exampleid": "js_7_1_3_1",
               "codeOutput": false,
-              "exampleOutput": false,
+              "exampleOutput": true,
               "codeTitle": "JS",
-              "exampleTitle": "",
+              "exampleTitle": "Example",
               "codeLangs": "ts",
-              "exampleLangs": "",
+              "exampleLangs": "xml",
               "codeSource": "",
               "exampleSource": "",
               "marginLeft": "5rem"
@@ -2429,7 +2493,7 @@
         ]
       },
       {
-        "secid": 3,
+        "secid": 2,
         "subtitle": "Functional programming concepts",
         "paragraphs": [
           {
@@ -2448,14 +2512,14 @@
             "paraid": 1,
             "text": "",
             "codeConfig": {
-              "codeid": "js_7_3_1",
-              "exampleid": "",
+              "codeid": "js_7_2_1",
+              "exampleid": "js_7_2_1_1",
               "codeOutput": false,
-              "exampleOutput": false,
+              "exampleOutput": true,
               "codeTitle": "JS",
-              "exampleTitle": "",
+              "exampleTitle": "Example",
               "codeLangs": "ts",
-              "exampleLangs": "",
+              "exampleLangs": "xml",
               "codeSource": "",
               "exampleSource": "",
               "marginLeft": "5rem"
@@ -2473,14 +2537,14 @@
             "paraid": 1,
             "text": "",
             "codeConfig": {
-              "codeid": "js_7_3_2",
-              "exampleid": "",
+              "codeid": "js_7_2_2",
+              "exampleid": "js_7_2_2_1",
               "codeOutput": false,
-              "exampleOutput": false,
+              "exampleOutput": true,
               "codeTitle": "JS",
-              "exampleTitle": "",
+              "exampleTitle": "Example",
               "codeLangs": "ts",
-              "exampleLangs": "",
+              "exampleLangs": "xml",
               "codeSource": "",
               "exampleSource": "",
               "marginLeft": "5rem"
@@ -2498,14 +2562,14 @@
             "paraid": 1,
             "text": "",
             "codeConfig": {
-              "codeid": "js_7_3_3",
-              "exampleid": "",
+              "codeid": "js_7_2_3",
+              "exampleid": "js_7_2_3_1",
               "codeOutput": false,
-              "exampleOutput": false,
+              "exampleOutput": true,
               "codeTitle": "JS",
-              "exampleTitle": "",
+              "exampleTitle": "Example",
               "codeLangs": "ts",
-              "exampleLangs": "",
+              "exampleLangs": "xml",
               "codeSource": "",
               "exampleSource": "",
               "marginLeft": "5rem"
@@ -2523,14 +2587,14 @@
             "paraid": 1,
             "text": "",
             "codeConfig": {
-              "codeid": "js_7_3_4",
-              "exampleid": "",
+              "codeid": "js_7_2_4",
+              "exampleid": "js_7_2_4_1",
               "codeOutput": false,
-              "exampleOutput": false,
+              "exampleOutput": true,
               "codeTitle": "JS",
-              "exampleTitle": "",
+              "exampleTitle": "Example",
               "codeLangs": "ts",
-              "exampleLangs": "",
+              "exampleLangs": "xml",
               "codeSource": "",
               "exampleSource": "",
               "marginLeft": "5rem"
@@ -2546,11 +2610,45 @@
           },
           {
             "paraid": 1,
+            "text": "",
+            "codeConfig": {
+              "codeid": "js_7_2_5",
+              "exampleid": "js_7_2_5_1",
+              "codeOutput": false,
+              "exampleOutput": true,
+              "codeTitle": "JS",
+              "exampleTitle": "Example",
+              "codeLangs": "ts",
+              "exampleLangs": "xml",
+              "codeSource": "",
+              "exampleSource": "",
+              "marginLeft": "5rem"
+            }
+          },
+          {
+            "paraid": 1,
             "text": "<ol start=\"6\"><li>Declarative Programming:</li></ol>"
           },
           {
             "paraid": 1,
             "text": "<ul><ul><li>Declarative programming focuses on describing what should be done rather than how to do it.</li><li>Functional programming encourages declarative style, where programs are written as a series of function invocations and data transformations.</li><li>Declarative code is more expressive, easier to understand, and promotes code reuse.</li></ul></ul>"
+          },
+          {
+            "paraid": 1,
+            "text": "",
+            "codeConfig": {
+              "codeid": "js_7_2_6",
+              "exampleid": "js_7_2_6_1",
+              "codeOutput": false,
+              "exampleOutput": true,
+              "codeTitle": "JS",
+              "exampleTitle": "Example",
+              "codeLangs": "ts",
+              "exampleLangs": "xml",
+              "codeSource": "",
+              "exampleSource": "",
+              "marginLeft": "5rem"
+            }
           },
           {
             "paraid": 1,
@@ -2562,11 +2660,45 @@
           },
           {
             "paraid": 1,
+            "text": "",
+            "codeConfig": {
+              "codeid": "js_7_2_7",
+              "exampleid": "js_7_2_7_1",
+              "codeOutput": false,
+              "exampleOutput": true,
+              "codeTitle": "JS",
+              "exampleTitle": "Example",
+              "codeLangs": "ts",
+              "exampleLangs": "xml",
+              "codeSource": "",
+              "exampleSource": "",
+              "marginLeft": "5rem"
+            }
+          },
+          {
+            "paraid": 1,
             "text": "<ol start=\"8\"><li>Pattern Matching:</li></ol>"
           },
           {
             "paraid": 1,
-            "text": "<ul><ul><li>Pattern matching is a technique that allows matching the structure of data against predefined patterns.</li><li>It enables concise and readable code for handling different cases or conditions.</li><li>Pattern matching is supported in some functional programming languages like Haskell or Erlang.</li></ul></ul>"
+            "text": "<ul><ul><li>Pattern matching is a technique that allows matching the structure of data against predefined patterns.</li><li>It enables concise and readable code for handling different cases or conditions.</li></ul></ul>"
+          },
+          {
+            "paraid": 1,
+            "text": "",
+            "codeConfig": {
+              "codeid": "js_7_2_8",
+              "exampleid": "js_7_2_8_1",
+              "codeOutput": false,
+              "exampleOutput": true,
+              "codeTitle": "JS",
+              "exampleTitle": "Example",
+              "codeLangs": "ts",
+              "exampleLangs": "xml",
+              "codeSource": "",
+              "exampleSource": "",
+              "marginLeft": "5rem"
+            }
           },
           {
             "paraid": 1,
@@ -2826,13 +2958,13 @@
             "text": "",
             "codeConfig": {
               "codeid": "js_8_2_1",
-              "exampleid": "",
+              "exampleid": "js_8_2_1_1",
               "codeOutput": false,
-              "exampleOutput": false,
+              "exampleOutput": true,
               "codeTitle": "JS",
-              "exampleTitle": "",
+              "exampleTitle": "Example",
               "codeLangs": "ts",
-              "exampleLangs": "",
+              "exampleLangs": "xml",
               "codeSource": "",
               "exampleSource": "",
               "marginLeft": "5rem"
