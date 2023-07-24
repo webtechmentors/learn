@@ -1,3 +1,45 @@
+export const js_2_2_1 =
+`let age = 35;`;
+
+export const js_2_2_2 =
+`let name = "John";`;
+
+export const js_2_2_3 =
+`let isActive = true;`;
+
+export const js_2_2_4 =
+`let car = null;`;
+
+export const js_2_2_5 =
+`let address = undefined;`;
+
+export const js_2_2_6 =
+`let id = Symbol();`;
+
+export const js_2_2_7 =
+`let person = { name: "John", age: 25 };`;
+
+export const js_2_2_8 =
+`let bigNumber = BigInt(123456789);`;
+
+export const js_2_2_9 =
+`let age = 25;
+let str = "John is " + 25 + " years old." // outputs "John is 25 years old." `;
+
+export const js_2_2_10 =
+`let age = 25; 
+let typeOfAge = typeof age; // returns "number"`;
+
+export const js_2_3_1 =
+``;
+
+export const js_2_3_2 =
+``;
+
+
+
+
+
 export const js_2_4_1 =
 `if (condition) {
   // code to be executed if the condition is true
@@ -1866,61 +1908,76 @@ export const js_5_4_2_1 =
 </body>
 </html>`;
 
-// export const js_7_1_1 =
-// `function outerFunction() {
-//   let outerVariable = 'I am outside!';
+export const js_6_1_1 =
+`navigator.geolocation.getCurrentPosition(
+  position => {
+    const latitude = position.coords.latitude;
+    const longitude = position.coords.longitude;
+    // Do something with the coordinates
+  },
+  error => {
+    console.error('Error:', error.message);
+  }
+);`;
 
-//   if (true) {
-//     let innerVariable = 'I am inside!';
-//     console.log(innerVariable); // Output: I am inside!
-//     console.log(outerVariable); // Output: I am outside!
-//   }
+export const js_6_1_1_1 =
+`<!DOCTYPE html>
+<html>
+<head>
+  <title>Geolocation Example</title>
+  <script src="assets/js/utils.js"></script>
+</head>
+<body>
+  <script>
+    if (navigator.geolocation) {
+      navigator.geolocation.getCurrentPosition(
+        position => {
+          const latitude = position.coords.latitude;
+          const longitude = position.coords.longitude;
+          console.log(latitude, longitude);
+        },
+        error => {
+          console.error('Error:', error.message);
+        }
+      );
+    } else {
+      console.error('Geolocation is not supported by this browser.');
+    }
+  </script>
+</body>
+</html>`;
 
-//   console.log(innerVariable); // Error: innerVariable is not defined
-// }
+export const js_6_1_2 =
+`// Storing data
+localStorage.setItem('key', 'value');
 
-// outerFunction();`;
+// Retrieving data
+const data = localStorage.getItem('key');
 
-// export const js_7_1_2 =
-// `function outerFunction() {
-//   var outerVariable = 'I am in the outer function!';
+// Removing data
+localStorage.removeItem('key');`;
 
-//   function innerFunction() {
-//     var innerVariable = 'I am in the inner function!';
-//     console.log(innerVariable); // Output: I am in the inner function!
-//     console.log(outerVariable); // Output: I am in the outer function!
-//   }
-
-//   return innerFunction;
-// }
-
-// var closure = outerFunction();
-// closure();`;
-
-// export const js_7_1_3 =
-// `function createCounter() {
-//   var count = 0; // Private variable
-
-//   function increment() {
-//     count++;
-//     console.log('Count:', count);
-//   }
-
-//   function decrement() {
-//     count--;
-//     console.log('Count:', count);
-//   }
-
-//   return {
-//     increment: increment, // Public interface
-//     decrement: decrement // Public interface
-//   };
-// }
-
-// var counter = createCounter();
-// counter.increment(); // Output: Count: 1
-// counter.increment(); // Output: Count: 2
-// counter.decrement(); // Output: Count: 1`;
+export const js_6_1_2_1 =
+`<!DOCTYPE html>
+<html>
+<head>
+  <title>Web Storage Example</title>
+  <script src="assets/js/utils.js"></script>
+</head>
+<body>
+  <script>
+    // Storing data
+    localStorage.setItem('key', 'value');
+    
+    // Retrieving data
+    const data = localStorage.getItem('key');
+    console.log(data);
+    
+    // Removing data
+    localStorage.removeItem('key');
+  </script>
+</body>
+</html>`;
 
 export const js_7_1_1 =
 `// Creating a prototype object

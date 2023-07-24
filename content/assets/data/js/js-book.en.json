@@ -173,7 +173,187 @@
           },
           {
             "paraid": 5,
-            "text": "<ul>JavaScript has several built-in data types, including:<ul><li>Primitive Data Types:</li><ul><li><strong>Number</strong>: Represents numeric values, both integers and floating-point numbers. Example: `<code>let age = 25;</code>`</li><li><strong>String</strong>: Represents sequences of characters. Example: `<code>let name = \"John\";</code>`</li><li><strong>Boolean</strong>': Represents logical values `<code>true</code>` or `<code>false</code>`. Example: `<code>let isActive = true;</code>`</li><li><strong>Null</strong>: Represents the intentional absence of any object value. Example: `<code>let car = null;</code>`</li><li><strong>Undefined</strong>: Represents the uninitialized value of a variable. Example: `<code>let address;</code>`</li><li><strong>Symbol</strong> (Introduced in ECMAScript 2015): Represents unique and immutable values, often used as object property identifiers. Example: `<code>let id = Symbol();</code>`</li></ul><li>Object Data Type:<ul><li><strong>Object</strong>: Represents a collection of key-value pairs. Objects are more complex data types that can hold properties and methods. Example: `<code>let person = { name: \"John\", age: 25 };</code>`</li></ul></li><li>Special Data Type:</li><ul><li><strong>BigInt</strong> (Introduced in ECMAScript 2020): Represents arbitrary-precision integers. Example: `<code>let bigNumber = BigInt(123456789);</code>`</li></ul></ul></ul>"
+            "text": "<ul>JavaScript has several built-in data types, including:</ul>"
+          },
+          {
+            "paraid": 5,
+            "text": "<ul><ul><li>Primitive Data Types:</li></ul></ul>"
+          },
+          {
+            "paraid": 5,
+            "text": "<ul><ul><ul><li><strong>Number</strong>: Represents numeric values, both integers and floating-point numbers.<br/><br/>For example:</li></ul></ul></ul>"
+          },
+          {
+            "paraid": 4,
+            "text": "",
+            "codeConfig": {
+              "codeid": "js_2_2_1",
+              "exampleid": "",
+              "codeOutput": false,
+              "exampleOutput": false,
+              "codeTitle": "JS",
+              "exampleTitle": "",
+              "codeLangs": "ts",
+              "exampleLangs": "",
+              "codeSource": "",
+              "exampleSource": "",
+              "marginLeft": "7.5rem"
+            }
+          },
+          {
+            "paraid": 5,
+            "text": "<ul><ul><ul><li><strong>String</strong>: Represents sequences of characters.<br/><br/>For example:</li></ul></ul></ul>"
+          },
+          {
+            "paraid": 4,
+            "text": "",
+            "codeConfig": {
+              "codeid": "js_2_2_2",
+              "exampleid": "",
+              "codeOutput": false,
+              "exampleOutput": false,
+              "codeTitle": "JS",
+              "exampleTitle": "",
+              "codeLangs": "ts",
+              "exampleLangs": "",
+              "codeSource": "",
+              "exampleSource": "",
+              "marginLeft": "7.5rem"
+            }
+          },
+          {
+            "paraid": 5,
+            "text": "<ul><ul><ul><li><strong>Boolean</strong>': Represents logical values `<code>true</code>` or `<code>false</code>`.<br/><br/>For example:</li></ul></ul></ul>"
+          },
+          {
+            "paraid": 4,
+            "text": "",
+            "codeConfig": {
+              "codeid": "js_2_2_3",
+              "exampleid": "",
+              "codeOutput": false,
+              "exampleOutput": false,
+              "codeTitle": "JS",
+              "exampleTitle": "",
+              "codeLangs": "ts",
+              "exampleLangs": "",
+              "codeSource": "",
+              "exampleSource": "",
+              "marginLeft": "7.5rem"
+            }
+          },
+          {
+            "paraid": 5,
+            "text": "<ul><ul><ul><li><strong>Null</strong>: Represents the intentional absence of any object value. Example:<br/><br/>For example:</li></ul></ul></ul>"
+          },
+          {
+            "paraid": 4,
+            "text": "",
+            "codeConfig": {
+              "codeid": "js_2_2_4",
+              "exampleid": "",
+              "codeOutput": false,
+              "exampleOutput": false,
+              "codeTitle": "JS",
+              "exampleTitle": "",
+              "codeLangs": "ts",
+              "exampleLangs": "",
+              "codeSource": "",
+              "exampleSource": "",
+              "marginLeft": "7.5rem"
+            }
+          },
+          {
+            "paraid": 5,
+            "text": "<ul><ul><ul><li><strong>Undefined</strong>: Represents the uninitialized value of a variable.<br/><br/>For example:</li></ul></ul></ul>"
+          },
+          {
+            "paraid": 4,
+            "text": "",
+            "codeConfig": {
+              "codeid": "js_2_2_5",
+              "exampleid": "",
+              "codeOutput": false,
+              "exampleOutput": false,
+              "codeTitle": "JS",
+              "exampleTitle": "",
+              "codeLangs": "ts",
+              "exampleLangs": "",
+              "codeSource": "",
+              "exampleSource": "",
+              "marginLeft": "7.5rem"
+            }
+          },
+          {
+            "paraid": 5,
+            "text": "<ul><ul><ul><li><strong>Symbol</strong> (Introduced in ECMAScript 2015): Represents unique and immutable values, often used as object property identifiers.<br/><br/>For example:</li></ul></ul></ul>"
+          },
+          {
+            "paraid": 4,
+            "text": "",
+            "codeConfig": {
+              "codeid": "js_2_2_6",
+              "exampleid": "",
+              "codeOutput": false,
+              "exampleOutput": false,
+              "codeTitle": "JS",
+              "exampleTitle": "",
+              "codeLangs": "ts",
+              "exampleLangs": "",
+              "codeSource": "",
+              "exampleSource": "",
+              "marginLeft": "7.5rem"
+            }
+          },
+          {
+            "paraid": 5,
+            "text": "<ul><ul><li>Object Data Type:</li></ul></ul>"
+          },
+          {
+            "paraid": 5,
+            "text": "<ul><ul><ul><li><strong>Object</strong>: Represents a collection of key-value pairs. Objects are more complex data types that can hold properties and methods.<br/><br/>For example:</li></ul></ul></ul>"
+          },
+          {
+            "paraid": 4,
+            "text": "",
+            "codeConfig": {
+              "codeid": "js_2_2_7",
+              "exampleid": "",
+              "codeOutput": false,
+              "exampleOutput": false,
+              "codeTitle": "JS",
+              "exampleTitle": "",
+              "codeLangs": "ts",
+              "exampleLangs": "",
+              "codeSource": "",
+              "exampleSource": "",
+              "marginLeft": "7.5rem"
+            }
+          },
+          {
+            "paraid": 5,
+            "text": "<ul><ul><li>Special Data Type:</li></ul></ul>"
+          },
+          {
+            "paraid": 5,
+            "text": "<ul><ul><ul><li><strong>BigInt</strong> (Introduced in ECMAScript 2020): Represents arbitrary-precision integers.<br/><br/>For example:</li></ul></ul></ul>"
+          },
+          {
+            "paraid": 4,
+            "text": "",
+            "codeConfig": {
+              "codeid": "js_2_2_8",
+              "exampleid": "",
+              "codeOutput": false,
+              "exampleOutput": false,
+              "codeTitle": "JS",
+              "exampleTitle": "",
+              "codeLangs": "ts",
+              "exampleLangs": "",
+              "codeSource": "",
+              "exampleSource": "",
+              "marginLeft": "7.5rem"
+            }
           },
           {
             "paraid": 6,
@@ -192,12 +372,46 @@
             "text": "<ul><ul><li>JavaScript also performs type coercion, which is the automatic conversion of values between different types in certain situations.</li><li>For example, JavaScript can convert a number to a string when performing string concatenation.</li></ul></ul>"
           },
           {
+            "paraid": 4,
+            "text": "",
+            "codeConfig": {
+              "codeid": "js_2_2_9",
+              "exampleid": "",
+              "codeOutput": false,
+              "exampleOutput": false,
+              "codeTitle": "JS",
+              "exampleTitle": "",
+              "codeLangs": "ts",
+              "exampleLangs": "",
+              "codeSource": "",
+              "exampleSource": "",
+              "marginLeft": "5rem"
+            }
+          },
+          {
             "paraid": 10,
             "text": "<ol start=\"5\"><li>Checking Data Type:</li></ol>"
           },
           {
             "paraid": 11,
-            "text": "<ul><ul><li>You can use the `<code>typeof</code>` operator to check the data type of a value. Example: `<code>typeof age; // returns \"number\"</code>`</li></ul></ul>"
+            "text": "<ul><ul><li>You can use the `<code>typeof</code>` operator to check the data type of a value.<br/><br/>For example:</li></ul></ul>"
+          },
+          {
+            "paraid": 4,
+            "text": "",
+            "codeConfig": {
+              "codeid": "js_2_2_10",
+              "exampleid": "",
+              "codeOutput": false,
+              "exampleOutput": false,
+              "codeTitle": "JS",
+              "exampleTitle": "",
+              "codeLangs": "ts",
+              "exampleLangs": "",
+              "codeSource": "",
+              "exampleSource": "",
+              "marginLeft": "5rem"
+            }
           },
           {
             "paraid": 12,
@@ -2207,9 +2421,21 @@
             "text": "<ul><ul><li>The Geolocation API allows you to retrieve the user's current geographical location.</li><li>To use this API, you can call the `<code>navigator.geolocation.getCurrentPosition()</code>` method, which takes a success callback and an error callback as arguments.</li><li>The success callback is invoked with a `<code>Position</code>` object containing the user's coordinates.</li><li>Here's an example of using the Geolocation API:</li></ul></ul>"
           },
           {
-            "paraid": 4,
+            "paraid": 8,
             "text": "",
-            "codeid": ""
+            "codeConfig": {
+              "codeid": "js_6_1_1",
+              "exampleid": "js_6_1_1_1",
+              "codeOutput": false,
+              "exampleOutput": true,
+              "codeTitle": "JS",
+              "exampleTitle": "Example",
+              "codeLangs": "ts",
+              "exampleLangs": "xml",
+              "codeSource": "",
+              "exampleSource": "",
+              "marginLeft": "5rem"
+            }
           },
           {
             "paraid": 5,
@@ -2220,9 +2446,21 @@
             "text": "<ul><ul><li>The Web Storage API provides a way to store key-value pairs locally in the browser.</li><li>There are two types of web storage available: `<code>localStorage</code>` and `<code>sessionStorage</code>`.</li><li>`<code>localStorage</code>` allows you to store data persistently across browser sessions, while `<code>sessionStorage</code>` stores data for the duration of the session.</li><li>You can use the `<code>setItem()</code>`, `<code>getItem()</code>`, and `<code>removeItem()</code>` methods to interact with web storage.</li><li>Here's an example of using `<code>localStorage</code>`:</li></ul></ul>"
           },
           {
-            "paraid": 7,
+            "paraid": 8,
             "text": "",
-            "codeid": ""
+            "codeConfig": {
+              "codeid": "js_6_1_2",
+              "exampleid": "js_6_1_2_1",
+              "codeOutput": false,
+              "exampleOutput": true,
+              "codeTitle": "JS",
+              "exampleTitle": "Example",
+              "codeLangs": "ts",
+              "exampleLangs": "xml",
+              "codeSource": "",
+              "exampleSource": "",
+              "marginLeft": "5rem"
+            }
           },
           {
             "paraid": 8,
