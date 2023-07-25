@@ -244,7 +244,7 @@
           },
           {
             "paraid": 5,
-            "text": "<ul><ul><ul><li><strong>Null</strong>: Represents the intentional absence of any object value. Example:<br/><br/>For example:</li></ul></ul></ul>"
+            "text": "<ul><ul><ul><li><strong>Null</strong>: Represents the intentional absence of any object value.<br/><br/>For example:</li></ul></ul></ul>"
           },
           {
             "paraid": 4,
@@ -414,6 +414,27 @@
             }
           },
           {
+            "paraid": 11,
+            "text": "<ul><ul><li>The `<code>instanceof</code>` operator checks if an object is an instance of a specific class or constructor function.<br/><br/>For example:</li></ul></ul>"
+          },
+          {
+            "paraid": 4,
+            "text": "",
+            "codeConfig": {
+              "codeid": "js_2_2_11",
+              "exampleid": "",
+              "codeOutput": false,
+              "exampleOutput": false,
+              "codeTitle": "JS",
+              "exampleTitle": "",
+              "codeLangs": "ts",
+              "exampleLangs": "",
+              "codeSource": "",
+              "exampleSource": "",
+              "marginLeft": "5rem"
+            }
+          },
+          {
             "paraid": 12,
             "text": "Understanding variables and data types is essential for working with JavaScript effectively. By knowing how to declare variables and utilize the various data types, you can store and manipulate different kinds of values in your JavaScript code."
           }
@@ -433,7 +454,45 @@
           },
           {
             "paraid": 3,
-            "text": "<ul><ul><li>The assignment operator (`<code>=</code>`) is used to assign a value to a variable. Example: `<code>let x = 5;</code>`</li><li>Additional assignment operators include `<code>+=</code>`, `<code>-=</code>`, `<code>*=</code>`, `<code>/=</code>`, and `<code>%=</code>`. These operators perform the corresponding operation and assign the result to the variable. Example: `<code>x += 3;</code>` (equivalent to `<code>x = x + 3;</code>`)</li></ul></ul>"
+            "text": "<ul><ul><li>The assignment operator (`<code>=</code>`) is used to assign a value to a variable.<br/><br/>For example:</li></ul></ul>"
+          },
+          {
+            "paraid": 4,
+            "text": "",
+            "codeConfig": {
+              "codeid": "js_2_3_1",
+              "exampleid": "js_2_3_1_1",
+              "codeOutput": false,
+              "exampleOutput": true,
+              "codeTitle": "JS",
+              "exampleTitle": "Example",
+              "codeLangs": "ts",
+              "exampleLangs": "xml",
+              "codeSource": "",
+              "exampleSource": "",
+              "marginLeft": "5rem"
+            }
+          },
+          {
+            "paraid": 3,
+            "text": "<ul><ul><li>Additional assignment operators include `<code>+=</code>`, `<code>-=</code>`, `<code>*=</code>`, `<code>/=</code>`, and `<code>%=</code>`. These operators perform the corresponding operation and assign the result to the variable.<br/><br/>For example:</li></ul></ul>"
+          },
+          {
+            "paraid": 4,
+            "text": "",
+            "codeConfig": {
+              "codeid": "js_2_3_2",
+              "exampleid": "js_2_3_2_1",
+              "codeOutput": false,
+              "exampleOutput": true,
+              "codeTitle": "JS",
+              "exampleTitle": "Example",
+              "codeLangs": "ts",
+              "exampleLangs": "xml",
+              "codeSource": "",
+              "exampleSource": "",
+              "marginLeft": "5rem"
+            }
           },
           {
             "paraid": 4,
@@ -441,7 +500,70 @@
           },
           {
             "paraid": 5,
-            "text": "<ul>JavaScript supports standard arithmetic operators.<ul><li>Addition (`<code>+</code>`), subtraction (`<code>-</code>`), multiplication (`<code>*</code>`), and division (`<code>/</code>`).</li><li>Modulus (`<code>%</code>`), which returns the remainder of a division operation.</li><li>Increment (`<code>++</code>`) and decrement (`<code>--</code>`) operators for increasing or decreasing a value by 1. Example: `<code>i++;</code>` (equivalent to `<code>i = i + 1;</code>`)</li></ul></ul>"
+            "text": "<ul>JavaScript supports standard arithmetic operators.</ul>"
+          },
+          {
+            "paraid": 5,
+            "text": "<ul><ul><li>Addition (`<code>+</code>`), subtraction (`<code>-</code>`), multiplication (`<code>*</code>`), and division (`<code>/</code>`).<br/><br/>For example:</li></ul></ul>"
+          },
+          {
+            "paraid": 4,
+            "text": "",
+            "codeConfig": {
+              "codeid": "js_2_3_3",
+              "exampleid": "js_2_3_3_1",
+              "codeOutput": false,
+              "exampleOutput": true,
+              "codeTitle": "JS",
+              "exampleTitle": "Example",
+              "codeLangs": "ts",
+              "exampleLangs": "xml",
+              "codeSource": "",
+              "exampleSource": "",
+              "marginLeft": "5rem"
+            }
+          },
+          {
+            "paraid": 5,
+            "text": "<ul><ul><li>Modulo (`<code>%</code>`), which returns the remainder of a division operation.<br/><br/>For example:</li></ul></ul>"
+          },
+          {
+            "paraid": 4,
+            "text": "",
+            "codeConfig": {
+              "codeid": "js_2_3_4",
+              "exampleid": "js_2_3_4_1",
+              "codeOutput": false,
+              "exampleOutput": true,
+              "codeTitle": "JS",
+              "exampleTitle": "Example",
+              "codeLangs": "ts",
+              "exampleLangs": "xml",
+              "codeSource": "",
+              "exampleSource": "",
+              "marginLeft": "5rem"
+            }
+          },
+          {
+            "paraid": 5,
+            "text": "<ul><ul><li>Increment (`<code>++</code>`) and decrement (`<code>--</code>`) operators for increasing or decreasing a value by 1.<br/><br/>For example:</li></ul></ul>"
+          },
+          {
+            "paraid": 4,
+            "text": "",
+            "codeConfig": {
+              "codeid": "js_2_3_5",
+              "exampleid": "js_2_3_5_1",
+              "codeOutput": false,
+              "exampleOutput": true,
+              "codeTitle": "JS",
+              "exampleTitle": "Example",
+              "codeLangs": "ts",
+              "exampleLangs": "xml",
+              "codeSource": "",
+              "exampleSource": "",
+              "marginLeft": "5rem"
+            }
           },
           {
             "paraid": 6,
@@ -449,7 +571,49 @@
           },
           {
             "paraid": 7,
-            "text": "<ul>Comparison operators are used to compare values and return a Boolean (`<code>true</code>` or `<code>false</code>`) result.<ul><li>Equal to (`<code>==</code>` or `<code>===</code>`), not equal to (`<code>!=</code>` or `<code>!==</code>`).</li><li>Greater than (`<code>></code>`), less than (`<code><</code>`), greater than or equal to (`<code>>=</code>`), less than or equal to (`<code><=</code>`).</li></ul></ul>"
+            "text": "<ul>Comparison operators are used to compare values and return a Boolean (`<code>true</code>` or `<code>false</code>`) result.</ul>"
+          },
+          {
+            "paraid": 7,
+            "text": "<ul><ul><li>Equal to (`<code>==</code>` or `<code>===</code>`), not equal to (`<code>!=</code>` or `<code>!==</code>`).<br/><br/>For example:</li></ul></ul>"
+          },
+          {
+            "paraid": 4,
+            "text": "",
+            "codeConfig": {
+              "codeid": "js_2_3_6",
+              "exampleid": "js_2_3_6_1",
+              "codeOutput": false,
+              "exampleOutput": true,
+              "codeTitle": "JS",
+              "exampleTitle": "Example",
+              "codeLangs": "ts",
+              "exampleLangs": "xml",
+              "codeSource": "",
+              "exampleSource": "",
+              "marginLeft": "5rem"
+            }
+          },
+          {
+            "paraid": 7,
+            "text": "<ul><ul><li>Greater than (`<code>></code>`), less than (`<code><</code>`), greater than or equal to (`<code>>=</code>`), less than or equal to (`<code><=</code>`).<br/><br/>For example:</li></ul></ul>"
+          },
+          {
+            "paraid": 4,
+            "text": "",
+            "codeConfig": {
+              "codeid": "js_2_3_7",
+              "exampleid": "js_2_3_7_1",
+              "codeOutput": false,
+              "exampleOutput": true,
+              "codeTitle": "JS",
+              "exampleTitle": "Example",
+              "codeLangs": "ts",
+              "exampleLangs": "xml",
+              "codeSource": "",
+              "exampleSource": "",
+              "marginLeft": "5rem"
+            }
           },
           {
             "paraid": 8,
@@ -457,43 +621,145 @@
           },
           {
             "paraid": 9,
-            "text": "<ul>Logical operators are used to combine or manipulate Boolean values<ul><li>Logical AND (`<code>&&</code>`), which returns `<code>true</code>` if both operands are `<code>true</code>`.</li><li>Logical OR (`<code>||</code>`), which returns `<code>true</code>` if at least one operand is `<code>true</code>`.</li><li>Logical NOT (`<code>!</code>`), which negates a Boolean value.</li></ul></ul>"
-          }, 
+            "text": "<ul>Logical operators are used to combine or manipulate Boolean values</ul>"
+          },
           {
-            "paraid": 11,
-            "text": "<ul><ul><li>JavaScript provides the + operator to concatenate strings. Example: `<code>\"Hello\" + \"World\"</code>`; returns `<code>\"HelloWorld\"</code>`.</li><li>You can also use the `<code>+=</code>` operator to concatenate strings and assign the result to a variable.</li></ul></ul>"
-          }, 
+            "paraid": 9,
+            "text": "<ul><ul><li>Logical AND (`<code>&&</code>`), which returns `<code>true</code>` if both operands are `<code>true</code>`.<br/><br/>For example:</li></ul></ul>"
+          },
+          {
+            "paraid": 4,
+            "text": "",
+            "codeConfig": {
+              "codeid": "js_2_3_8",
+              "exampleid": "js_2_3_8_1",
+              "codeOutput": false,
+              "exampleOutput": true,
+              "codeTitle": "JS",
+              "exampleTitle": "Example",
+              "codeLangs": "ts",
+              "exampleLangs": "xml",
+              "codeSource": "",
+              "exampleSource": "",
+              "marginLeft": "5rem"
+            }
+          },
+          {
+            "paraid": 9,
+            "text": "<ul><ul><li>Logical OR (`<code>||</code>`), which returns `<code>true</code>` if at least one operand is `<code>true</code>`.<br/><br/>For example:</li></ul></ul>"
+          },
+          {
+            "paraid": 4,
+            "text": "",
+            "codeConfig": {
+              "codeid": "js_2_3_9",
+              "exampleid": "js_2_3_9_1",
+              "codeOutput": false,
+              "exampleOutput": true,
+              "codeTitle": "JS",
+              "exampleTitle": "Example",
+              "codeLangs": "ts",
+              "exampleLangs": "xml",
+              "codeSource": "",
+              "exampleSource": "",
+              "marginLeft": "5rem"
+            }
+          },
+          {
+            "paraid": 9,
+            "text": "<ul><ul><li>Logical NOT (`<code>!</code>`), which negates a Boolean value.<br/><br/>For example:</li></ul></ul>"
+          },
+          {
+            "paraid": 4,
+            "text": "",
+            "codeConfig": {
+              "codeid": "js_2_3_10",
+              "exampleid": "js_2_3_10_1",
+              "codeOutput": false,
+              "exampleOutput": true,
+              "codeTitle": "JS",
+              "exampleTitle": "Example",
+              "codeLangs": "ts",
+              "exampleLangs": "xml",
+              "codeSource": "",
+              "exampleSource": "",
+              "marginLeft": "5rem"
+            }
+          },
           {
             "paraid": 12,
             "text": "<ol start=\"5\"><li>Conditional (Ternary) Operator:</li></ol>"
           }, 
           {
             "paraid": 13,
-            "text": "<ul><ul><li>The conditional operator (`<code>condition ? expr1 : expr2</code>`) is a shorthand for an `<code>if-else</code>` statement.</li><li>It evaluates the condition and returns `<code>expr1</code>` if the condition is `<code>true</code>`, or `<code>expr2</code>` if the condition is `<code>false</code>`.</li></ul></ul>"
-          }, 
+            "text": "<ul><ul><li>The conditional operator (`<code>condition ? expr1 : expr2</code>`) is a shorthand for an `<code>if-else</code>` statement.</li><li>It evaluates the condition and returns `<code>expr1</code>` if the condition is `<code>true</code>`, or `<code>expr2</code>` if the condition is `<code>false</code>`.<br/><br/>For example:</li></ul></ul>"
+          },
           {
-            "paraid": 14,
-            "text": "<ol start=\"6\"><li>Type Operators:</li></ol>"
-          }, 
-          {
-            "paraid": 15,
-            "text": "<ul><ul><li>The `<code>typeof</code>` operator returns a string indicating the data type of a value. Example: `<code>typeof x;</code>` returns `<code>'number'</code>`.</li><li>The `<code>instanceof</code>` operator checks if an object is an instance of a specific class or constructor function.</li></ul></ul>"
-          }, 
+            "paraid": 4,
+            "text": "",
+            "codeConfig": {
+              "codeid": "js_2_3_11",
+              "exampleid": "js_2_3_11_1",
+              "codeOutput": false,
+              "exampleOutput": true,
+              "codeTitle": "JS",
+              "exampleTitle": "Example",
+              "codeLangs": "ts",
+              "exampleLangs": "xml",
+              "codeSource": "",
+              "exampleSource": "",
+              "marginLeft": "5rem"
+            }
+          },
           {
             "paraid": 16,
-            "text": "<ol start=\"7\"><li>Grouping Operator:</li></ol>"
+            "text": "<ol start=\"6\"><li>Grouping Operator:</li></ol>"
           }, 
           {
             "paraid": 17,
-            "text": "<ul><ul><li>The grouping operator (`<code>()</code>`) is used to group expressions and control the order of evaluation.</li></ul></ul>"
-          }, 
+            "text": "<ul><ul><li>The grouping operator (`<code>()</code>`) is used to group expressions and control the order of evaluation.<br/><br/>For example:</li></ul></ul>"
+          },
+          {
+            "paraid": 4,
+            "text": "",
+            "codeConfig": {
+              "codeid": "js_2_3_12",
+              "exampleid": "js_2_3_12_1",
+              "codeOutput": false,
+              "exampleOutput": true,
+              "codeTitle": "JS",
+              "exampleTitle": "Example",
+              "codeLangs": "ts",
+              "exampleLangs": "xml",
+              "codeSource": "",
+              "exampleSource": "",
+              "marginLeft": "5rem"
+            }
+          },
           {
             "paraid": 18,
-            "text": "<ol start=\"8\"><li>Bitwise Operators (Advanced):</li></ol>"
+            "text": "<ol start=\"7\"><li>Bitwise Operators (Advanced):</li></ol>"
           },
           {
             "paraid": 19,
-            "text": "<ul><ul><li>JavaScript also supports bitwise operators (`<code>&</code>`, `<code>|</code>`, `<code>^</code>`, `<code>~</code>`, `<code><<</code>`, `<code>>></code>`, `<code>>>></code>`) for manipulating binary representations of numbers. These operators are mainly used in advanced scenarios like low-level programming or working with binary data.</li></ul></ul>"
+            "text": "<ul><ul><li>JavaScript also supports bitwise operators (`<code>&</code>`, `<code>|</code>`, `<code>^</code>`, `<code>~</code>`, `<code><<</code>`, `<code>>></code>`, `<code>>>></code>`) for manipulating binary representations of numbers. These operators are mainly used in advanced scenarios like low-level programming or working with binary data.<br/><br/>For example:</li></ul></ul>"
+          },
+          {
+            "paraid": 4,
+            "text": "",
+            "codeConfig": {
+              "codeid": "js_2_3_13",
+              "exampleid": "js_2_3_13_1",
+              "codeOutput": false,
+              "exampleOutput": true,
+              "codeTitle": "JS",
+              "exampleTitle": "Example",
+              "codeLangs": "ts",
+              "exampleLangs": "xml",
+              "codeSource": "",
+              "exampleSource": "",
+              "marginLeft": "5rem"
+            }
           },
           {
             "paraid": 20,
@@ -2178,39 +2444,6 @@
             "text": "<ul><ul><li>Callback functions can be customized to accept additional arguments based on the specific requirements of the operation or task being performed.</li><li>The function that invokes the callback can pass any necessary data as arguments when invoking the callback.</li></ul></ul>"
           },
           {
-            "paraid": 14,
-            "text": "<ol start=\"5\"><li>Callback Hell:</li></ol>"
-          },
-          {
-            "paraid": 15,
-            "text": "<ul><ul><li>When working with multiple asynchronous operations, nesting callbacks can lead to a situation called \"callback hell\" or \"pyramid of doom.\" It can make code hard to read, understand, and maintain.</li><li>To mitigate callback hell, other approaches like promises or async/await syntax can be used, providing a more structured and readable way to handle asynchronous operations.</li></ul></ul>"
-          },
-          {
-            "paraid": 9,
-            "text": "<ol start=\"6\"><li>Error Handling:</li></ol>"
-          },
-          {
-            "paraid": 10,
-            "text": "<ul><ul><li>Callback functions often have the convention of receiving an error parameter as the first argument, allowing the callback to handle any errors that occurred during the asynchronous operation.</li><li>By convention, if the error parameter is null or undefined, it indicates that the operation was successful.</li><li>Here's an example of a callback function with error handling:</li></ul></ul>"
-          },
-          {
-            "paraid": 11,
-            "text": "",
-            "codeConfig": {
-              "codeid": "js_5_2_3",
-              "exampleid": "",
-              "codeOutput": false,
-              "exampleOutput": false,
-              "codeTitle": "JS",
-              "exampleTitle": "",
-              "codeLangs": "ts",
-              "exampleLangs": "",
-              "codeSource": "",
-              "exampleSource": "",
-              "marginLeft": "5rem"
-            }
-          },
-          {
             "paraid": 16,
             "text": "Callback functions are a powerful mechanism in JavaScript that allows you to control the flow of execution in asynchronous scenarios. By passing callback functions to other functions, you can define custom behavior that executes at a specific point in time, such as after the completion of an asynchronous task. However, as the complexity of asynchronous code grows, alternative approaches like promises or async/await may be more suitable for handling asynchronous operations in a more maintainable and readable manner."
           }
@@ -2297,14 +2530,6 @@
           {
             "paraid": 1,
             "text": "<ul><ul><li>Promise rejections can be handled using the `<code>catch()</code>` method, which takes a callback function that will be executed when the promise is rejected.</li><li>The `<code>catch()</code>` method allows you to handle any errors that occur during the asynchronous operation or in any of the preceding `<code>then()</code>` callbacks.</li><li>It's generally recommended to have a `<code>catch()</code>` at the end of the promise chain to handle any unhandled rejections.</li></ul></ul>"
-          },
-          {
-            "paraid": 1,
-            "text": "<ol start=\"5\"><li>`<code>Promise.all()</code>` and `<code>Promise.race()</code>`:</li></ol>"
-          },
-          {
-            "paraid": 1,
-            "text": "<ul><ul><li>The `<code>Promise.all()</code>` method takes an array of promises and returns a new promise that is fulfilled when all the promises in the array are fulfilled.</li><li>If any of the promises in the array is rejected, the resulting promise from `<code>Promise.all()</code>` will be rejected with the reason of the first rejected promise.</li><li>The `<code>Promise.race()</code>` method takes an array of promises and returns a new promise that is settled with the result or error of the first promise that settles (either fulfills or rejects).</li></ul></ul>"
           },
           {
             "paraid": 1,

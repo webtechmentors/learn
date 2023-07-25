@@ -24,21 +24,480 @@ export const js_2_2_8 =
 
 export const js_2_2_9 =
 `let age = 25;
-let str = "John is " + 25 + " years old." // outputs "John is 25 years old." `;
+let str = "John is " + 25 + " years old." // returns "John is 25 years old." `;
 
 export const js_2_2_10 =
 `let age = 25; 
 let typeOfAge = typeof age; // returns "number"`;
 
+export const js_2_2_11 =
+`let person = { name: "John", age: 25 };
+let isInstance = person instanceof Object; // returns true`;
+
 export const js_2_3_1 =
-``;
+`let x = 5;`;
+
+export const js_2_3_1_1 =
+`<!DOCTYPE html>
+<html>
+<head>
+  <title>Assignment Operator Example</title>
+  <script src="assets/js/utils.js"></script>
+</head>
+<body>
+  <script>
+    let x = 5; // Using the assignment operator (=) to assign a value to the variable 'x'
+    console.log('Initial value of x:', x); // Output: 5
+  </script>
+</body>
+</html>`;
 
 export const js_2_3_2 =
-``;
+`let x = 5;
+x += 3; // equivalent to x = x + 3;`;
 
+export const js_2_3_2_1 =
+`<!DOCTYPE html>
+<html>
+<head>
+  <title>Assignment Operator Examples</title>
+  <script src="assets/js/utils.js"></script>
+</head>
+<body>
+    <script>
+      let x = 5; // Using the assignment operator (=) to assign a value to the variable 'x'
 
+      // Additional assignment operators: +=, -=, *=, /=, and %=
+      x += 3; // x = x + 3
+      console.log('x += 3:', x); // Output: 8
 
+      x -= 2; // x = x - 2
+      console.log('x -= 2:', x); // Output: 6
 
+      x *= 4; // x = x * 4
+      console.log('x *= 4:', x); // Output: 24
+
+      x /= 3; // x = x / 3
+      console.log('x /= 3:', x); // Output: 8
+
+      x %= 5; // x = x % 5 (remainder after division by 5)
+      console.log('x %= 5:', x); // Output: 3
+    </script>
+</body>
+</html>`;
+
+export const js_2_3_3 =
+`let a = 10;
+let b = 4;
+
+// Addition
+let sum = a + b;
+
+// Subtraction
+let difference = a - b;
+
+// Multiplication
+let product = a * b;
+
+// Division
+let quotient = a / b;`;
+
+export const js_2_3_3_1 =
+`<!DOCTYPE html>
+<html>
+<head>
+  <title>Arithmetic Operator Examples</title>
+  <script src="assets/js/utils.js"></script>
+</head>
+<body>
+    <script>
+      let a = 10;
+      let b = 4;
+
+      // Addition
+      let sum = a + b;
+      console.log('Addition:', sum); // Output: 14
+
+      // Subtraction
+      let difference = a - b;
+      console.log('Subtraction:', difference); // Output: 6
+
+      // Multiplication
+      let product = a * b;
+      console.log('Multiplication:', product); // Output: 40
+
+      // Division
+      let quotient = a / b;
+      console.log('Division:', quotient); // Output: 2.5
+    </script>
+</body>
+</html>`;
+
+export const js_2_3_4 =
+`let a = 10;
+let b = 4;
+
+// Modulo
+let remainder = a % b;`;
+
+export const js_2_3_4_1 =
+`<!DOCTYPE html>
+<html>
+<head>
+  <title>Arithmetic Operator Example</title>
+  <script src="assets/js/utils.js"></script>
+</head>
+<body>
+    <script>
+      let a = 10;
+      let b = 4;
+
+      // Modulo
+      let remainder = a % b;
+      console.log('Modulo:', remainder); // Output: 2
+    </script>
+</body>
+</html>`;
+
+export const js_2_3_5 =
+`// Increment
+let x = 5;
+x++;
+
+// Decrement
+let y = 8;
+y--;`;
+
+export const js_2_3_5_1 =
+`<!DOCTYPE html>
+<html>
+<head>
+  <title>Arithmetic Operator Examples</title>
+  <script src="assets/js/utils.js"></script>
+</head>
+<body>
+    <script>
+      // Increment
+      let x = 5;
+      x++;
+      console.log('Increment:', x); // Output: 6
+
+      // Decrement
+      let y = 8;
+      y--;
+      console.log('Decrement:', y); // Output: 7
+    </script>
+</body>
+</html>`;
+
+export const js_2_3_6 =
+`// Equal to (==)
+let a = 5;
+let b = '5';
+let isEqual = a == b;
+
+// Not equal to (!=)
+let c = 10;
+let d = 7;
+let notEqual = c != d;
+
+// Strict equal to (===)
+let e = 5;
+let f = 5;
+let isStrictEqual = e === f;
+
+// Strict not equal to (!==)
+let g = 10;
+let h = '10';
+let isStrictNotEqual = g !== h;`;
+
+export const js_2_3_6_1 =
+`<!DOCTYPE html>
+<html>
+<head>
+  <title>Comparison Operator Examples</title>
+  <script src="assets/js/utils.js"></script>
+</head>
+<body>
+  <script>
+    // Equal to (==)
+    let a = 5;
+    let b = '5';
+    let isEqual = a == b;
+    console.log('Equal to (==):', isEqual); // Output: true
+
+    // Not equal to (!=)
+    let c = 10;
+    let d = 7;
+    let notEqual = c != d;
+    console.log('Not equal to (!=):', notEqual); // Output: true
+
+    // Strict equal to (===)
+    let e = 5;
+    let f = 5;
+    let isStrictEqual = e === f;
+    console.log('Strict equal to (===):', isStrictEqual); // Output: true
+
+    // Strict not equal to (!==)
+    let g = 10;
+    let h = '10';
+    let isStrictNotEqual = g !== h;
+    console.log('Strict not equal to (!==):', isStrictNotEqual); // Output: true
+  </script>
+</body>
+</html>`;
+
+export const js_2_3_7 =
+`// Greater than (>)
+let i = 8;
+let j = 5;
+let isGreater = i > j;
+
+// Less than (<)
+let k = 3;
+let l = 6;
+let isLess = k < l;
+
+// Greater than or equal to (>=)
+let m = 7;
+let n = 7;
+let isGreaterOrEqual = m >= n;
+
+// Less than or equal to (<=)
+let o = 9;
+let p = 12;
+let isLessOrEqual = o <= p;`;
+
+export const js_2_3_7_1 =
+`<!DOCTYPE html>
+<html>
+<head>
+  <title>Comparison Operator Examples</title>
+  <script src="assets/js/utils.js"></script>
+</head>
+<body>
+  <script>
+    // Greater than (>)
+    let i = 8;
+    let j = 5;
+    let isGreater = i > j;
+    console.log('Greater than (>):', isGreater); // Output: true
+
+    // Less than (<)
+    let k = 3;
+    let l = 6;
+    let isLess = k < l;
+    console.log('Less than (<):', isLess); // Output: true
+
+    // Greater than or equal to (>=)
+    let m = 7;
+    let n = 7;
+    let isGreaterOrEqual = m >= n;
+    console.log('Greater than or equal to (>=):', isGreaterOrEqual); // Output: true
+
+    // Less than or equal to (<=)
+    let o = 9;
+    let p = 12;
+    let isLessOrEqual = o <= p;
+    console.log('Less than or equal to (<=):', isLessOrEqual); // Output: true
+  </script>
+</body>
+</html>`;
+
+export const js_2_3_8 =
+`// Logical AND (&&)
+let a = true;
+let b = true;
+let resultAND = a && b;`;
+
+export const js_2_3_8_1 =
+`<!DOCTYPE html>
+<html>
+<head>
+  <title>Logical Operator Example</title>
+  <script src="assets/js/utils.js"></script>
+</head>
+<body>
+  <script>
+    // Logical AND (&&)
+    let a = true;
+    let b = true;
+    let resultAND = a && b;
+    console.log('Logical AND (&&):', resultAND); // Output: true
+  </script>
+</body>
+</html>`;
+
+export const js_2_3_9 =
+`// Logical OR (||)
+let c = true;
+let d = false;
+let resultOR = c || d;`;
+
+export const js_2_3_9_1 =
+`<!DOCTYPE html>
+<html>
+<head>
+  <title>Logical Operator Example</title>
+  <script src="assets/js/utils.js"></script>
+</head>
+<body>
+  <script>
+    // Logical OR (||)
+    let c = true;
+    let d = false;
+    let resultOR = c || d;
+    console.log('Logical OR (||):', resultOR); // Output: true
+  </script>
+</body>
+</html>`;
+
+export const js_2_3_10 =
+`// Logical NOT (!)
+let e = true;
+let resultNOT = !e;`;
+
+export const js_2_3_10_1 =
+`<!DOCTYPE html>
+<html>
+<head>
+  <title>Logical Operator Example</title>
+  <script src="assets/js/utils.js"></script>
+</head>
+<body>
+  <script>
+    // Logical NOT (!)
+    let e = true;
+    let resultNOT = !e;
+    console.log('Logical NOT (!):', resultNOT); // Output: false
+  </script>
+</body>
+</html>`;
+
+export const js_2_3_11 =
+`let num = 10;
+let result = num % 2 === 0 ? 'Even' : 'Odd';`;
+
+export const js_2_3_11_1 =
+`<!DOCTYPE html>
+<html>
+<head>
+  <title>Conditional Operator Example</title>
+  <script src="assets/js/utils.js"></script>
+</head>
+<body>
+  <script>
+    let num = 10;
+    let result = num % 2 === 0 ? 'Even' : 'Odd';
+    console.log(result); // Output: "Even"
+  </script>
+</body>
+</html>`;
+
+export const js_2_3_12 =
+`let result = (10 + 5) * 2;`;
+
+export const js_2_3_12_1 =
+`<!DOCTYPE html>
+<html>
+<head>
+  <title>Grouping Operator Example</title>
+  <script src="assets/js/utils.js"></script>
+</head>
+<body>
+  <script>
+    // Without using the grouping operator
+    let result1 = 10 + 5 * 2;
+    console.log('Result 1:', result1); // Output: 20 (Multiplication performed first, then addition)
+
+    // Using the grouping operator
+    let result2 = (10 + 5) * 2;
+    console.log('Result 2:', result2); // Output: 30 (Addition inside parentheses performed first, then multiplication)
+  </script>
+</body>
+</html>`;
+
+export const js_2_3_13 =
+`// Bitwise AND (&)
+let a = 5; // Binary: 0101
+let b = 3; // Binary: 0011
+let resultAND = a & b; // Binary: 0001 (Decimal: 1)
+
+// Bitwise OR (|)
+let c = 5; // Binary: 0101
+let d = 3; // Binary: 0011
+let resultOR = c | d; // Binary: 0111 (Decimal: 7)
+
+// Bitwise XOR (^)
+let e = 5; // Binary: 0101
+let f = 3; // Binary: 0011
+let resultXOR = e ^ f; // Binary: 0110 (Decimal: 6)
+
+// Bitwise NOT (~)
+let g = 5; // Binary: 0101
+let resultNOT = ~g; // Binary: 1010 (Decimal: -6)
+
+// Bitwise left shift (<<)
+let h = 5; // Binary: 0101
+let resultLeftShift = h << 2; // Binary: 010100 (Decimal: 20)
+
+// Bitwise right shift (>>)
+let i = 16; // Binary: 0001 0000
+let resultRightShift = i >> 2; // Binary: 0000 0100 (Decimal: 4)
+
+// Bitwise unsigned right shift (>>>)
+let j = -16; // Binary: 1111 1111 1111 1111 1111 1111 1111 0000
+let resultUnsignedRightShift = j >>> 2; // Binary: 0011 1111 1111 1111 1111 1111 1111 1100 (Decimal: 1073741820)`;
+
+export const js_2_3_13_1 =
+`<!DOCTYPE html>
+<html>
+<head>
+  <title>Bitwise Operator Examples</title>
+  <script src="assets/js/utils.js"></script>
+</head>
+<body>
+  <script>
+    // Bitwise AND (&)
+    let a = 5; // Binary: 0101
+    let b = 3; // Binary: 0011
+    let resultAND = a & b; // Binary: 0001 (Decimal: 1)
+    console.log('Bitwise AND (&):', resultAND); // Output: 1
+
+    // Bitwise OR (|)
+    let c = 5; // Binary: 0101
+    let d = 3; // Binary: 0011
+    let resultOR = c | d; // Binary: 0111 (Decimal: 7)
+    console.log('Bitwise OR (|):', resultOR); // Output: 7
+
+    // Bitwise XOR (^)
+    let e = 5; // Binary: 0101
+    let f = 3; // Binary: 0011
+    let resultXOR = e ^ f; // Binary: 0110 (Decimal: 6)
+    console.log('Bitwise XOR (^):', resultXOR); // Output: 6
+
+    // Bitwise NOT (~)
+    let g = 5; // Binary: 0101
+    let resultNOT = ~g; // Binary: 1010 (Decimal: -6)
+    console.log('Bitwise NOT (~):', resultNOT); // Output: -6
+
+    // Bitwise left shift (<<)
+    let h = 5; // Binary: 0101
+    let resultLeftShift = h << 2; // Binary: 010100 (Decimal: 20)
+    console.log('Bitwise left shift (<<):', resultLeftShift); // Output: 20
+
+    // Bitwise right shift (>>)
+    let i = 16; // Binary: 0001 0000
+    let resultRightShift = i >> 2; // Binary: 0000 0100 (Decimal: 4)
+    console.log('Bitwise right shift (>>):', resultRightShift); // Output: 4
+
+    // Bitwise unsigned right shift (>>>)
+    let j = -16; // Binary: 1111 1111 1111 1111 1111 1111 1111 0000
+    let resultUnsignedRightShift = j >>> 2; // Binary: 0011 1111 1111 1111 1111 1111 1111 1100 (Decimal: 1073741820)
+    console.log('Bitwise unsigned right shift (>>>):', resultUnsignedRightShift); // Output: 1073741820
+  </script>
+</body>
+</html>`;
 
 export const js_2_4_1 =
 `if (condition) {
@@ -49,7 +508,7 @@ export const js_2_4_1 =
 
 export const js_2_4_1_1 =
 `<!DOCTYPE html>
-<html lang="en">
+<html>
 <head>
   <title>Conditional Statement Example</title>
   <script src="assets/js/utils.js"></script>
@@ -78,7 +537,7 @@ export const js_2_4_2 =
 
 export const js_2_4_2_1 =
 `<!DOCTYPE html>
-<html lang="en">
+<html>
 <head>
   <title>Conditional Statement Example</title>
   <script src="assets/js/utils.js"></script>
@@ -112,7 +571,7 @@ export const js_2_4_3 =
 
 export const js_2_4_3_1 =
 `<!DOCTYPE html>
-<html lang="en">
+<html>
 <head>
   <title>Conditional Statement Example</title>
   <script src="assets/js/utils.js"></script>
@@ -151,7 +610,7 @@ export const js_2_4_4 =
 
 export const js_2_4_4_1 =
 `<!DOCTYPE html>
-<html lang="en">
+<html>
 <head>
   <title>Loop Structure Example</title>
   <script src="assets/js/utils.js"></script>
@@ -172,7 +631,7 @@ export const js_2_4_5 =
 
 export const js_2_4_5_1 =
 `<!DOCTYPE html>
-<html lang="en">
+<html>
 <head>
   <title>Loop Structure Example</title>
   <script src="assets/js/utils.js"></script>
@@ -196,7 +655,7 @@ export const js_2_4_6 =
 
 export const js_2_4_6_1 =
 `<!DOCTYPE html>
-<html lang="en">
+<html>
 <head>
   <title>Loop Structure Example</title>
   <script src="assets/js/utils.js"></script>
@@ -220,7 +679,7 @@ export const js_2_4_7 =
 
 export const js_2_4_7_1 =
 `<!DOCTYPE html>
-<html lang="en">
+<html>
 <head>
   <title>Loop Structure Example</title>
   <script src="assets/js/utils.js"></script>
@@ -247,7 +706,7 @@ export const js_2_4_8 =
 
 export const js_2_4_8_1 =
 `<!DOCTYPE html>
-<html lang="en">
+<html>
 <head>
   <title>Loop Structure Example</title>
   <script src="assets/js/utils.js"></script>
@@ -272,7 +731,7 @@ export const js_2_4_9 =
 
 export const js_2_4_9_1 =
 `<!DOCTYPE html>
-<html lang="en">
+<html>
 <head>
   <title>Loop Control Statement Example</title>
   <script src="assets/js/utils.js"></script>
@@ -298,7 +757,7 @@ export const js_2_4_10 =
 
 export const js_2_4_10_1 =
 `<!DOCTYPE html>
-<html lang="en">
+<html>
 <head>
   <title>Loop Control Statement Example</title>
   <script src="assets/js/utils.js"></script>
@@ -324,7 +783,7 @@ export const js_2_4_11 =
 
 export const js_2_4_11_1 =
 `<!DOCTYPE html>
-<html lang="en">
+<html>
 <head>
   <title>Loop Control Statement Example</title>
   <script src="assets/js/utils.js"></script>
@@ -353,7 +812,7 @@ export const js_3_1_1 =
 
 export const js_3_1_1_1 =
 `<!DOCTYPE html>
-<html lang="en">
+<html>
 <head>
   <title>Function Definition Example</title>
   <script src="assets/js/utils.js"></script>
@@ -374,7 +833,7 @@ export const js_3_1_2 =
 
 export const js_3_1_2_1 =
 `<!DOCTYPE html>
-<html lang="en">
+<html>
 <head>
   <title>Function Call Example</title>
   <script src="assets/js/utils.js"></script>
@@ -405,7 +864,7 @@ function exampleFunction() {
 
 export const js_3_1_3_1 =
 `<!DOCTYPE html>
-<html lang="en">
+<html>
 <head>
   <title>Function Scope Example</title>
   <script src="assets/js/utils.js"></script>
@@ -438,7 +897,7 @@ export const js_3_1_4 =
 
 export const js_3_1_4_1 =
 `<!DOCTYPE html>
-<html lang="en">
+<html>
 <head>
   <title>Anonymous Function Example</title>
   <script src="assets/js/utils.js"></script>
@@ -476,7 +935,7 @@ closure(); // Output: I'm an outer variable`;
 
 export const js_3_1_5_1 =
 `<!DOCTYPE html>
-<html lang="en">
+<html>
 <head>
   <title>Function Closure Example</title>
   <script src="assets/js/utils.js"></script>
@@ -510,7 +969,7 @@ export const js_3_1_6 =
 
 export const js_3_1_6_1 =
 `<!DOCTYPE html>
-<html lang="en">
+<html>
 <head>
   <title>Arrow Function Example</title>
   <script src="assets/js/utils.js"></script>
@@ -533,7 +992,7 @@ export const js_3_1_7 =
 
 export const js_3_1_7_1 =
 `<!DOCTYPE html>
-<html lang="en">
+<html>
 <head>
   <title>IIFE Example</title>
   <script src="assets/js/utils.js"></script>
@@ -556,7 +1015,7 @@ console.log(fullName); // Output: "John Doe"`;
 
 export const js_3_2_1_1 =
 `<!DOCTYPE html>
-<html lang="en">
+<html>
 <head>
   <title>String Concatenation Example</title>
   <script src="assets/js/utils.js"></script>
@@ -578,7 +1037,7 @@ console.log(message.length); // Output: 13`;
 
 export const js_3_2_2_1 =
 `<!DOCTYPE html>
-<html lang="en">
+<html>
 <head>
   <title>String Length Example</title>
   <script src="assets/js/utils.js"></script>
@@ -598,7 +1057,7 @@ console.log(greeting.charAt(1)); // Output: "e"`;
 
 export const js_3_2_3_1 =
 `<!DOCTYPE html>
-<html lang="en">
+<html>
 <head>
   <title>Accessing Characters in a String Example</title>
   <script src="assets/js/utils.js"></script>
@@ -656,7 +1115,7 @@ console.log(matches); // Output: ["quick", "lazy"]`;
 
 export const js_3_2_4_1 =
 `<!DOCTYPE html>
-<html lang="en">
+<html>
 <head>
   <title>String Method Examples</title>
   <script src="assets/js/utils.js"></script>
@@ -723,7 +1182,7 @@ console.log(message); // Output: "My name is John and I am 30 years old."'
 
 export const js_3_2_5_1 =
 `<!DOCTYPE html>
-<html lang="en">
+<html>
 <head>
   <title>String Template Literal Example</title>
   <script src="assets/js/utils.js"></script>
@@ -744,15 +1203,15 @@ console.log(smiley); // Output: "😄"`;
 
 export const js_3_2_6_1 =
 `<!DOCTYPE html>
-<html lang="en">
+<html>
 <head>
   <title>Unicode Character Example</title>
   <script src="assets/js/utils.js"></script>
   <script>
-    const heart = "\u2665";
+    const heart = "\\u2665";
     console.log(heart); // Output: "♥"
     
-    const smiley = "\u{1F604}";
+    const smiley = "\\u{1F604}";
     console.log(smiley); // Output: "😄"
   </script>
 </head>
@@ -776,7 +1235,7 @@ console.log(myArray[2]); // Output: 3`;
 
 export const js_3_3_3_1 =
 `<!DOCTYPE html>
-<html lang="en">
+<html>
 <head>
   <title>Array Operation Example</title>
   <script src="assets/js/utils.js"></script>
@@ -799,7 +1258,7 @@ console.log(myArray); // Output: [1, 2, 10, 4, 5]`;
 
 export const js_3_3_4_1 =
 `<!DOCTYPE html>
-<html lang="en">
+<html>
 <head>
   <title>Array Operation Example</title>
   <script src="assets/js/utils.js"></script>
@@ -823,7 +1282,7 @@ console.log(myArray); // Output: [1, 2, 3]`;
 
 export const js_3_3_5_1 =
 `<!DOCTYPE html>
-<html lang="en">
+<html>
 <head>
   <title>Array Operation Example</title>
   <script src="assets/js/utils.js"></script>
@@ -858,7 +1317,7 @@ console.log(shiftedElement); // Output: 0`;
 
 export const js_3_3_6_1 =
 `<!DOCTYPE html>
-<html lang="en">
+<html>
 <head>
   <title>Array Operation Example</title>
   <script src="assets/js/utils.js"></script>
@@ -897,7 +1356,7 @@ myArray.forEach(function(element) {
 
 export const js_3_3_7_1 =
 `<!DOCTYPE html>
-<html lang="en">
+<html>
 <head>
   <title>Array Operation Example</title>
   <script src="assets/js/utils.js"></script>
@@ -944,7 +1403,7 @@ console.log(person['age']); // Output: 30`;
 
 export const js_3_4_3_1 =
 `<!DOCTYPE html>
-<html lang="en">
+<html>
 <head>
   <title>Object Operation Example</title>
   <script src="assets/js/utils.js"></script>
@@ -975,7 +1434,7 @@ person['profession'] = "Engineer";`;
 
 export const js_3_4_4_1 =
 `<!DOCTYPE html>
-<html lang="en">
+<html>
 <head>
   <title>Object Operation Example</title>
   <script src="assets/js/utils.js"></script>
@@ -1008,7 +1467,7 @@ person.city = "New York";`;
 
 export const js_3_4_5_1 =
 `<!DOCTYPE html>
-<html lang="en">
+<html>
 <head>
   <title>Object Operation Example</title>
   <script src="assets/js/utils.js"></script>
@@ -1040,7 +1499,7 @@ delete person.profession;`;
 
 export const js_3_4_6_1 =
 `<!DOCTYPE html>
-<html lang="en">
+<html>
 <head>
   <title>Object Operation Example</title>
   <script src="assets/js/utils.js"></script>
@@ -1074,7 +1533,7 @@ person.sayHello(); // Output: Hello!`
 
 export const js_3_4_7_1 =
 `<!DOCTYPE html>
-<html lang="en">
+<html>
 <head>
   <title>Object Operation Example</title>
   <script src="assets/js/utils.js"></script>
@@ -1113,7 +1572,7 @@ for (let i = 0; i < keys.length; i++) {
 
 export const js_3_4_8_1 =
 `<!DOCTYPE html>
-<html lang="en">
+<html>
 <head>
   <title>Object Operation Example</title>
   <script src="assets/js/utils.js"></script>
@@ -1153,7 +1612,7 @@ john.sayHello(); // Output: Hello, my name is John`;
 
 export const js_3_4_9_1 =
 `<!DOCTYPE html>
-<html lang="en">
+<html>
 <head>
   <title>Object Operation Example</title>
   <script src="assets/js/utils.js"></script>
@@ -1734,25 +2193,24 @@ export const js_5_2_1_1 =
 <html>
 <head>
   <title>Javascript Callback Function Example</title>
+  <script src="assets/js/utils.js"></script>
 </head>
 <body>
-  <button id="myButton">Click me</button>
-
   <script>
+    // Define a function called 'greet' with parameters 'name' and 'callback'
     function greet(name, callback) {
-      const message = 'Hello, ' + name + '!';
+      const message = "Hello, " + name + "!";
+    
+      // Call the 'callback' function and pass the 'message' as an argument
       callback(message);
     }
-
+    
     function displayMessage(message) {
-      alert(message);
+      console.log(message);
     }
-
-    const button = document.getElementById('myButton');
-
-    button.addEventListener('click', () => {
-      greet('John', displayMessage);
-    });
+    
+    // Call the 'greet' function with arguments 'John' as the name and 'displayMessage' as the callback
+    greet('John', displayMessage);
   </script>
 </body>
 </html>`;
@@ -1769,7 +2227,7 @@ function fetchDataFromAPI(callback) {
 
 // Callback function to handle the fetched data
 function handleData(data) {
-  console.log('Data received:', data);
+  console.log(data);
 }`;
 
 export const js_5_2_2_1 =
@@ -1777,10 +2235,9 @@ export const js_5_2_2_1 =
 <html>
 <head>
   <title>Asynchronous Callback Example</title>
+  <script src="assets/js/utils.js"></script>
 </head>
 <body>
-  <button onclick="fetchDataFromAPI(handleData)">Fetch Data</button>
-
   <script>
     // Asynchronous function that simulates making an API request
     function fetchDataFromAPI(callback) {
@@ -1793,20 +2250,22 @@ export const js_5_2_2_1 =
 
     // Callback function to handle the fetched data
     function handleData(data) {
-      alert('Data received:');
+      console.log(data);
     }
+
+    fetchDataFromAPI(handleData);
   </script>
 </body>
 </html>`;
 
-export const js_5_2_3 =
-`function callbackFunction(err, result) {
-  if (err) {
-    // Handle error
-  } else {
-    // Process the result
-  }
-}`;
+// export const js_5_2_3 =
+// `function callbackFunction(err, result) {
+//   if (err) {
+//     // Handle error
+//   } else {
+//     // Process the result
+//   }
+// }`;
 
 export const js_5_3_1 =
 `function fetchData() {
@@ -1840,7 +2299,7 @@ export const js_5_3_2 =
 
 export const js_5_4_1 =
 `async function fetchData() {
-  const response = await fetch('assets/json/list');
+  const response = await fetch('assets/data/json/hello.json');
   const data = response.json();
   return data;
 }`;
@@ -1855,13 +2314,13 @@ export const js_5_4_1_1 =
 <body>
   <script>
     async function fetchData() {
-      const response = await fetch('assets/data/json/list.json');
+      const response = await fetch('assets/data/json/hello.json');
       const data = response.json();
       return data;
     }
 
     fetchData().then(data => {
-      console.log(data.length);
+      console.log(data.hello);
     });
   </script>
 </body>
@@ -1876,7 +2335,7 @@ export const js_5_4_2 =
 
 fetchData()
   .then(data => {
-    console.log(data.length);
+    console.log(data);
   })
   .catch(error => {
     console.error(error);
@@ -1899,7 +2358,7 @@ export const js_5_4_2_1 =
 
     fetchData()
       .then(data => {
-        console.log(data.length);
+        console.log(data);
       })
       .catch(error => {
         console.error(error);
