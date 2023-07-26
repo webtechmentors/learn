@@ -3008,7 +3008,7 @@ export const js_7_3_2_1 =
   <!-- Indicate that the JavaScript code within the script tag is an ES6 module -->
   <script type="module">
     // Define an asynchronous function called "main"
-    const main = async function() {
+    async function main() {
       // Dynamically import the math.module.js module using "import()" and extract "add", "subtract", and "multiply" functions
       const { add, subtract, multiply } = await import('./assets/data/modules/math.module.js');
     
@@ -3032,7 +3032,6 @@ export const js_7_3_2_1 =
   </script>
 </body>
 </html>`;
-
 
 export const js_8_2_1 =
 `try {
