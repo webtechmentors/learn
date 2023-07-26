@@ -2258,15 +2258,6 @@ export const js_5_2_2_1 =
 </body>
 </html>`;
 
-// export const js_5_2_3 =
-// `function callbackFunction(err, result) {
-//   if (err) {
-//     // Handle error
-//   } else {
-//     // Process the result
-//   }
-// }`;
-
 export const js_5_3_1 =
 `function fetchData() {
   return new Promise(function(resolve, reject) {
@@ -2284,18 +2275,109 @@ export const js_5_3_1 =
   });
 }`;
 
+export const js_5_3_1_1 =
+`<!DOCTYPE html>
+<html>
+<head>
+  <title>Creating Promise Example</title>
+  <script src="assets/js/utils.js"></script>
+</head>
+<body>
+  <script>
+    function fetchData() {
+      return new Promise(function(resolve, reject) {
+        // Simulating an asynchronous operation with setTimeout
+        setTimeout(function() {
+          // Simulating a successful response
+          const data = { message: "Data successfully fetched!" };
+    
+          // Resolve the promise with the data
+          resolve(data);
+    
+          // Simulating an error scenario
+          // reject(new Error("Failed to fetch data!"));
+        }, 2000); // Wait for 2 seconds
+      });
+    }
+    
+    // Using the fetchData() function and handling the Promise
+    fetchData()
+      .then(function(data) {
+        console.log(data.message); // Output: Data successfully fetched!
+      })
+      .catch(function(error) {
+        console.error(error.message); // If the error scenario is uncommented, this will output: Failed to fetch data!
+      });
+  </script>
+</body>
+</html>`;
+
 export const js_5_3_2 =
 `promise
-.then(result => {
-  // Process the result
-  return transformedResult;
-})
-.then(transformedResult => {
-  // Process the transformed result
-})
-.catch(error => {
-  // Handle any errors along the chain
-});`;
+  .then(result => {
+    // Process the result
+    return transformedResult;
+  })
+  .then(transformedResult => {
+    // Process the transformed result
+  })
+  .catch(error => {
+    // Handle any errors along the chain
+  });`;
+
+export const js_5_3_2_1 =
+`<!DOCTYPE html>
+<html>
+<head>
+  <title>Promise Chaining Example</title>
+  <script src="assets/js/utils.js"></script>
+</head>
+<body>
+  <script>
+    // A function that returns a Promise to simulate an asynchronous operation
+    function fetchData() {
+      return new Promise(function(resolve) {
+        // Simulating data fetching with setTimeout
+        setTimeout(function() {
+          const data = [1, 2, 3, 4, 5];
+          resolve(data);
+        }, 1000);
+      });
+    }
+    
+    // Function to process the data and return a new Promise with the transformed result
+    function processData(data) {
+      return new Promise(function(resolve) {
+        // Simulating processing with setTimeout
+        setTimeout(function() {
+          const transformedResult = data.map((item) => item * 2);
+          resolve(transformedResult);
+        }, 1500);
+      });
+    }
+    
+    // Function to further process the transformed result and log the final output
+    function processTransformedData(transformedData) {
+      console.log("Final result:", transformedData.reduce((sum, item) => sum + item, 0));
+    }
+    
+    // Chain the Promises together
+    fetchData()
+      .then((result) => {
+        // Process the result and return a new Promise with the transformed result
+        return processData(result);
+      })
+      .then((transformedResult) => {
+        // Process the transformed result
+        processTransformedData(transformedResult);
+      })
+      .catch((error) => {
+        // Handle any errors along the chain
+        console.error("Error occurred:", error);
+      });
+  </script>
+</body>
+</html>`;
 
 export const js_5_4_1 =
 `async function fetchData() {
@@ -2434,6 +2516,138 @@ export const js_6_1_2_1 =
     
     // Removing data
     localStorage.removeItem('key');
+  </script>
+</body>
+</html>`;
+
+export const js_6_2_1 =
+`// Create an XMLHttpRequest object
+let xhr = new XMLHttpRequest();`;
+
+export const js_6_2_1_1 =
+`<!DOCTYPE html>
+<html>
+<head>
+  <title>Ajax Example</title>
+  <script src="assets/js/utils.js"></script>
+</head>
+<body>
+  <script>
+    // Create an XMLHttpRequest object
+    let xhr = new XMLHttpRequest();
+
+    // Set up the AJAX request
+    xhr.open('GET', 'assets/data/json/hello.json', true); // true for asynchronous, false for synchronous
+    
+    // Handle the Response
+    xhr.onload = function () {
+      // The request was successful, and the response data is available in xhr.responseText
+      if (xhr.status >= 200 && xhr.status < 300) {
+        console.log(xhr.responseText); // Output the response data
+      } else {
+        console.error('Request failed:', xhr.status, xhr.statusText); // Handle errors if the request was not successful
+      }
+    };
+    
+    // Handle Errors
+    xhr.onerror = function () {
+      console.error('Network error occurred'); // Handle network errors
+    };
+    
+    // Send the Request
+    xhr.send();
+  </script>
+</body>
+</html>`;
+
+export const js_6_2_2 =
+`<div>
+  <!-- The content will be updated here -->
+  <h2 id="header">----------</h2>
+  <p id="paragraph">----------</p>
+</div>
+
+<button id="updateButton">Update Content</button>
+
+<script>
+  // Event listener to handle the button click
+  document.getElementById('updateButton').addEventListener('click', function() {
+    // Create a new XMLHttpRequest object
+    const xhr = new XMLHttpRequest();
+
+    // Configure the AJAX request
+    xhr.open('GET', 'assets/data/json/content.json', true);
+
+    // Set up the response handling
+    xhr.onload = function() {
+      if (xhr.status >= 200 && xhr.status < 300) {
+        // Parse the JSON response into an object
+        const data = JSON.parse(xhr.responseText);
+
+        // Update the content of h2 and p elements with the data from the JSON file
+        document.getElementById('header').innerHTML = data.title;
+        document.getElementById('paragraph').innerHTML = data.content;
+      } else {
+        console.error('Request failed:', xhr.status, xhr.statusText);
+      }
+    };
+
+    // Handle network errors
+    xhr.onerror = function() {
+      console.error('Network error occurred');
+    };
+
+    // Send the AJAX request
+    xhr.send();
+  });
+</script>`;
+
+export const js_6_2_2_1 =
+`<!DOCTYPE html>
+<html>
+<head>
+  <title>AJAX Example</title>
+</head>
+<body>
+  <div>
+    <!-- The content will be updated here -->
+    <h2 id="header">----------</h2>
+    <p id="paragraph">----------</p>
+  </div>
+
+  <button id="updateButton">Update Content</button>
+
+  <script>
+    // Event listener to handle the button click
+    document.getElementById('updateButton').addEventListener('click', function() {
+      // Create a new XMLHttpRequest object
+      const xhr = new XMLHttpRequest();
+
+      // Configure the AJAX request
+      xhr.open('GET', 'assets/data/json/content.json', true);
+
+      // Set up the response handling
+      xhr.onload = function() {
+        if (xhr.status >= 200 && xhr.status < 300) {
+          // Parse the JSON response into an object
+          const data = JSON.parse(xhr.responseText);
+
+          // Update the content of h2 and p elements with the data from the JSON file
+          document.getElementById('header').innerText = data.title;
+          document.getElementById('paragraph').innerText = data.content;
+        } else {
+          console.error('Request failed:', xhr.status, xhr.statusText);
+        }
+      };
+
+      // Handle network errors
+      xhr.onerror = function() {
+        console.error('Network error occurred');
+      };
+
+      // Send the AJAX request
+      xhr.send();
+    });
   </script>
 </body>
 </html>`;
@@ -2993,7 +3207,8 @@ export const js_7_3_1_1 =
 </html>`;
 
 export const js_7_3_2 =
-`// Dynamically import the math.module.js module
+`// Dynamically import the math.module.js module 
+// Some browsers don't support this feature
 const { add, subtract, multiply } = await import('./assets/data/modules/math.module.js');`;
 
 export const js_7_3_2_1 =
@@ -3027,8 +3242,10 @@ export const js_7_3_2_1 =
       elem.innerText = text;
     }
     
-    // Call the "main" function asynchronously and pass "output" function as a callback through "then" method
-    main().then(output);
+    // Call the "main" function asynchronously
+    main()
+      .then(output)
+      .catch(() => output("Your browser doesn't support this feature."));
   </script>
 </body>
 </html>`;

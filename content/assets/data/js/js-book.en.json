@@ -2482,13 +2482,13 @@
             "text": "",
             "codeConfig": {
               "codeid": "js_5_3_1",
-              "exampleid": "",
+              "exampleid": "js_5_3_1_1",
               "codeOutput": false,
-              "exampleOutput": false,
+              "exampleOutput": true,
               "codeTitle": "JS",
-              "exampleTitle": "",
+              "exampleTitle": "Example",
               "codeLangs": "ts",
-              "exampleLangs": "",
+              "exampleLangs": "xml",
               "codeSource": "",
               "exampleSource": "",
               "marginLeft": "5rem"
@@ -2511,13 +2511,13 @@
             "text": "",
             "codeConfig": {
               "codeid": "js_5_3_2",
-              "exampleid": "",
+              "exampleid": "js_5_3_2_1",
               "codeOutput": false,
-              "exampleOutput": false,
+              "exampleOutput": true,
               "codeTitle": "JS",
-              "exampleTitle": "",
+              "exampleTitle": "Example",
               "codeLangs": "ts",
-              "exampleLangs": "",
+              "exampleLangs": "xml",
               "codeSource": "",
               "exampleSource": "",
               "marginLeft": "5rem"
@@ -2529,7 +2529,7 @@
           },
           {
             "paraid": 1,
-            "text": "<ul><ul><li>Promise rejections can be handled using the `<code>catch()</code>` method, which takes a callback function that will be executed when the promise is rejected.</li><li>The `<code>catch()</code>` method allows you to handle any errors that occur during the asynchronous operation or in any of the preceding `<code>then()</code>` callbacks.</li><li>It's generally recommended to have a `<code>catch()</code>` at the end of the promise chain to handle any unhandled rejections.</li></ul></ul>"
+            "text": "<ul><ul><li>Promise rejections can be handled using the `<code>catch()</code>` method, which takes a callback function that will be executed when the promise is rejected.</li><li>The `<code>catch()</code>` method allows you to handle any errors that occur during the asynchronous operation or in any of the preceding `<code>then()</code>` callbacks.</li><li>It's generally recommended to have a `<code>catch()</code>` at the end of the promise chain to handle any unhandled rejections. Refer to two above examples.</li></ul></ul>"
           },
           {
             "paraid": 1,
@@ -2707,7 +2707,79 @@
         ]
       },
       {
-        "secid":2,
+        "secid": 2,
+        "subtitle": "Introduction to AJAX",
+        "paragraphs": [
+          {
+            "paraid": 1,
+            "text": "AJAX (Asynchronous JavaScript and XML) is a technique used in web development to send and receive data from a server asynchronously without reloading the entire web page. It allows for dynamic and interactive web applications by enabling the retrieval and updating of data in the background. Here's an introduction to AJAX."
+          },
+          {
+            "paraid": 2,
+            "text": "<ol><li>Asynchronous Requests:</li></pl>"
+          },
+          {
+            "paraid": 3,
+            "text": "<ul><ul><li>AJAX enables making asynchronous requests to a server, which means that the browser can send a request to the server and continue working with other parts of the web page without waiting for a response.</li><li>This allows for a smoother user experience as the web page remains responsive while data is being fetched or updated.</li></ul></ul>"
+          },
+          {
+            "paraid": 4,
+            "text": "<ol start=\"2\"><li>XMLHttpRequest Object:</li></pl>"
+          },
+          {
+            "paraid": 5,
+            "text": "<ul><ul><li>The XMLHttpRequest (XHR) object is the core of AJAX. It provides the ability to send and receive data between a web browser and a server.</li><li>The XHR object has various methods and properties to handle the request and response.</li><li>Here's an example of making an AJAX request using the XHR object:</li></ul></ul>"
+          },
+          {
+            "paraid": 8,
+            "text": "",
+            "codeConfig": {
+              "codeid": "js_6_2_1",
+              "exampleid": "js_6_2_1_1",
+              "codeOutput": false,
+              "exampleOutput": true,
+              "codeTitle": "JS",
+              "exampleTitle": "Example",
+              "codeLangs": "ts",
+              "exampleLangs": "xml",
+              "codeSource": "",
+              "exampleSource": "",
+              "marginLeft": "5rem"
+            }
+          },
+          {
+            "paraid": 10,
+            "text": "<ol start=\"3\"><li>Updating Web Page Content:</li></pl>"
+          },
+          {
+            "paraid": 11,
+            "text": "<ul><ul><li>AJAX enables you to update specific parts of a web page without reloading the entire page.</li><li>You can use JavaScript to manipulate the DOM and update the content based on the received data.</li><li>This allows for dynamic and interactive user interfaces, such as updating a list of items, live search suggestions, or real-time chat messages.</li></ul></ul>"
+          },
+          {
+            "paraid": 8,
+            "text": "",
+            "codeConfig": {
+              "codeid": "js_6_2_2",
+              "exampleid": "js_6_2_2_1",
+              "codeOutput": false,
+              "exampleOutput": true,
+              "codeTitle": "JS",
+              "exampleTitle": "Example",
+              "codeLangs": "ts",
+              "exampleLangs": "xml",
+              "codeSource": "",
+              "exampleSource": "",
+              "marginLeft": "5rem"
+            }
+          },
+          {
+            "paraid": 12,
+            "text": "AJAX has revolutionized web development by providing a way to create more interactive and responsive web applications. It allows for data retrieval and updates in the background, reducing the need for full page reloads. The XMLHttpRequest object and Fetch API are commonly used to implement AJAX functionality in JavaScript applications."
+          }
+        ]
+      },
+      {
+        "secid": 3,
         "subtitle": "Making HTTP requests with the Fetch API",
         "paragraphs": [
           {
@@ -2769,61 +2841,6 @@
           {
             "paraid": 14,
             "text": "The Fetch API provides a powerful and flexible way to make HTTP requests in JavaScript. It supports a variety of request options, handles responses in different formats, and allows for error handling. It is widely supported in modern browsers and is a recommended approach for performing HTTP requests in client-side JavaScript applications."
-          }
-        ]
-      },
-      {
-        "secid": 3,
-        "subtitle": "Introduction to AJAX",
-        "paragraphs": [
-          {
-            "paraid": 1,
-            "text": "AJAX (Asynchronous JavaScript and XML) is a technique used in web development to send and receive data from a server asynchronously without reloading the entire web page. It allows for dynamic and interactive web applications by enabling the retrieval and updating of data in the background. Here's an introduction to AJAX."
-          },
-          {
-            "paraid": 2,
-            "text": "<ol><li>Asynchronous Requests:</li></pl>"
-          },
-          {
-            "paraid": 3,
-            "text": "<ul><ul><li>AJAX enables making asynchronous requests to a server, which means that the browser can send a request to the server and continue working with other parts of the web page without waiting for a response.</li><li>This allows for a smoother user experience as the web page remains responsive while data is being fetched or updated.</li></ul></ul>"
-          },
-          {
-            "paraid": 4,
-            "text": "<ol start=\"2\"><li>XMLHttpRequest Object:</li></pl>"
-          },
-          {
-            "paraid": 5,
-            "text": "<ul><ul><li>The XMLHttpRequest (XHR) object is the core of AJAX. It provides the ability to send and receive data between a web browser and a server.</li><li>The XHR object has various methods and properties to handle the request and response.</li><li>Here's an example of making an AJAX request using the XHR object:</li></ul></ul>"
-          },
-          {
-            "paraid": 6,
-            "text": "",
-            "codeid": ""
-          },
-          {
-            "paraid": 7,
-            "text": "<ol start=\"3\"><li>Handling Responses:</li></pl>"
-          },
-          {
-            "paraid": 8,
-            "text": "<ul><ul><li>Once a response is received from the server, you can handle it by parsing the data and updating the web page dynamically.</li><li>Commonly used response formats include JSON and XML, although JSON is more prevalent due to its simplicity and compatibility with JavaScript.</li><li>You can parse JSON data using the `<code>JSON.parse()</code>` method or XML data using the DOM API or specialized XML parsing libraries.</li></ul></ul>"
-          },
-          {
-            "paraid": 9,
-            "text": ""
-          },
-          {
-            "paraid": 10,
-            "text": "<ol start=\"4\"><li>Updating Web Page Content:</li></pl>"
-          },
-          {
-            "paraid": 11,
-            "text": "<ul><ul><li>AJAX enables you to update specific parts of a web page without reloading the entire page.</li><li>You can use JavaScript to manipulate the DOM and update the content based on the received data.</li><li>This allows for dynamic and interactive user interfaces, such as updating a list of items, live search suggestions, or real-time chat messages.</li></ul></ul>"
-          },
-          {
-            "paraid": 12,
-            "text": "AJAX has revolutionized web development by providing a way to create more interactive and responsive web applications. It allows for data retrieval and updates in the background, reducing the need for full page reloads. The XMLHttpRequest object and Fetch API are commonly used to implement AJAX functionality in JavaScript applications."
           }
         ]
       }
