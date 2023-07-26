@@ -2938,6 +2938,102 @@ export const js_7_2_8_1 =
 </body>
 </html>`;
 
+export const js_7_3_1 =
+`// assets/data/modules/math.module.js
+export function add(a, b) {
+  return a + b;
+}
+
+export function subtract(a, b) {
+  return a - b;
+}
+
+export function multiply(a, b) {
+  return a * b;
+}`;
+
+export const js_7_3_1_1 =
+`<!DOCTYPE html>
+<html>
+<head>
+  <title>ES Module Example</title>
+</head>
+<body>
+  <p></p>
+
+  <!-- Indicate that the JavaScript code within the script tag is an ES6 module -->
+  <script type="module">
+    // Importing functions from the math.module.js module
+    import { add, subtract, multiply } from './assets/data/modules/math.module.js';
+    
+    // Define the main function
+    function main() {
+      // Calculate the sum, difference, and product using the imported functions
+      const sum = add(123, 456);
+      const difference = subtract(100, 23);
+      const product = multiply(12, 15);
+    
+      // Create a text containing the calculated values
+      const text = "sum = " + sum + ", " + "difference = " + difference + ", " + "product = " + product;
+    
+      // Call the output function
+      output(text);
+    }
+    
+    // Define the output function to display the text in a <p> element
+    function output(text) {
+      let elem = document.querySelector("p");
+      elem.innerText = text;
+    }
+    
+    // Call the main function to start the execution
+    main();
+  </script>
+</body>
+</html>`;
+
+export const js_7_3_2 =
+`// Dynamically import the math.module.js module
+const { add, subtract, multiply } = await import('./assets/data/modules/math.module.js');`;
+
+export const js_7_3_2_1 =
+`<!DOCTYPE html>
+<html>
+<head>
+  <title>ES Module Asynchronous Loading Example</title>
+</head>
+<body>
+  <p></p>
+
+  <!-- Indicate that the JavaScript code within the script tag is an ES6 module -->
+  <script type="module">
+    // Define an asynchronous function called "main"
+    const main = async function() {
+      // Dynamically import the math.module.js module using "import()" and extract "add", "subtract", and "multiply" functions
+      const { add, subtract, multiply } = await import('./assets/data/modules/math.module.js');
+    
+      // Calculate the sum, difference, and product using the imported functions
+      const sum = add(123, 456);
+      const difference = subtract(100, 23);
+      const product = multiply(12, 15);
+    
+      // Return a string containing the calculated values
+      return "sum = " + sum + ", " + "difference = " + difference + ", " + "product = " + product;
+    };
+    
+    // Define the "output" function to display the text in a <p> element
+    function output(text) {
+      let elem = document.querySelector("p");
+      elem.innerText = text;
+    }
+    
+    // Call the "main" function asynchronously and pass "output" function as a callback through "then" method
+    main().then(output);
+  </script>
+</body>
+</html>`;
+
+
 export const js_8_2_1 =
 `try {
   // Code that might throw an error

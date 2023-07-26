@@ -3170,12 +3170,12 @@
         ]
       },
       {
-        "secid": 4,
-        "subtitle": "Modules and module loaders",
+        "secid": 3,
+        "subtitle": "Modules",
         "paragraphs": [
           {
             "paraid": 1,
-            "text": "Modules and module loaders are essential concepts in modern JavaScript development that help organize and modularize code. They provide a way to split code into reusable and encapsulated units and manage dependencies between different modules. Let's explore modules and module loaders."
+            "text": "Modules are essential concepts in modern JavaScript development that help organize and modularize code. They provide a way to split code into reusable and encapsulated units and manage dependencies between different modules. Let's explore modules and module loaders."
           },
           {
             "paraid": 1,
@@ -3195,67 +3195,53 @@
           },
           {
             "paraid": 1,
-            "text": "<ol start=\"3\"><li>ES Modules (ESM):</li></ol>"
+            "text": "<ol start=\"3\"><li>ES Modules:</li></ol>"
           },
           {
             "paraid": 1,
-            "text": "<ul><ul><li>ES Modules are the official module system in JavaScript, supported by most modern browsers and Node.js.</li><li>They use the `<code>import</code>` and `<code>export</code>` keywords to declare dependencies and export functionality between modules.</li><li>ES Modules support both named exports and default exports, allowing fine-grained control over exported members.</li></ul></ul>"
+            "text": "<ul><ul><li>ES Modules are the official module system in JavaScript, supported by most modern browsers and Node.js.</li><li>They use the `<code>import</code>` and `<code>export</code>` keywords to declare dependencies and export functionality between modules.</li><li>ES Modules support both named exports and default exports, allowing fine-grained control over exported members.<br/><br/>For example:</li></ul></ul>"
           },
           {
             "paraid": 1,
-            "text": "<ol start=\"4\"><li>Module Loaders:</li></ol>"
+            "text": "",
+            "codeConfig": {
+              "codeid": "js_7_3_1",
+              "exampleid": "js_7_3_1_1",
+              "codeOutput": false,
+              "exampleOutput": true,
+              "codeTitle": "JS",
+              "exampleTitle": "Example",
+              "codeLangs": "ts",
+              "exampleLangs": "xml",
+              "codeSource": "",
+              "exampleSource": "",
+              "marginLeft": "5rem"
+            }
           },
           {
             "paraid": 1,
-            "text": "<ul><ul><li>Module loaders are tools or libraries that handle the loading and execution of modules in a JavaScript environment.</li><li>They provide additional features like dependency resolution, lazy loading, and bundling.</li></ul></ul>"
+            "text": "<ol start=\"4\"><li>Asynchronous Module Loading:</li></ol>"
           },
           {
             "paraid": 1,
-            "text": "<ol start=\"5\"><li>Common Module Loaders:</li></ol>"
+            "text": "<ul><ul><li>Module loaders can handle asynchronous loading of modules, allowing modules to be loaded on-demand when needed.</li><li>Asynchronous module loading is beneficial for larger applications with complex dependency trees, improving initial page load times.<br/><br/>For example:</li></ul></ul>"
           },
           {
             "paraid": 1,
-            "text": "<ul><ul><li>RequireJS: A popular module loader for AMD modules, used primarily in browser-based JavaScript development.</li><li>SystemJS: A universal module loader that supports multiple module formats (AMD, CommonJS, and ES Modules).</li><li>Webpack: A module bundler that can handle various module formats and is widely used in modern JavaScript development.</li><li>Parcel: A zero-configuration bundler that also supports module loading out of the box.</li></ul></ul>"
-          },
-          {
-            "paraid": 1,
-            "text": "<ol start=\"6\"><li>Module Resolution:</li></ol>"
-          },
-          {
-            "paraid": 1,
-            "text": "<ul><ul><li>Module loaders resolve module dependencies by locating and loading the required modules.</li><li>The resolution process involves searching for modules in specified directories or file paths and handling naming conventions and file extensions.</li></ul></ul>"
-          },
-          {
-            "paraid": 1,
-            "text": "<ol start=\"7\"><li>Code Bundling:</li></ol>"
-          },
-          {
-            "paraid": 1,
-            "text": "<ul><ul><li>Module loaders often include bundling capabilities, which combine multiple modules into a single file for optimized delivery to the browser or server.</li><li>Bundling reduces the number of network requests and improves performance by minimizing file sizes and leveraging caching.</li></ul></ul>"
-          },
-          {
-            "paraid": 1,
-            "text": "<ol start=\"8\"><li>Asynchronous Module Loading:</li></ol>"
-          },
-          {
-            "paraid": 1,
-            "text": "<ul><ul><li>Module loaders can handle asynchronous loading of modules, allowing modules to be loaded on-demand when needed.</li><li>Asynchronous module loading is beneficial for larger applications with complex dependency trees, improving initial page load times.</li></ul></ul>"
-          },
-          {
-            "paraid": 1,
-            "text": "<ol start=\"9\"><li>Tree Shaking:</li></ol>"
-          },
-          {
-            "paraid": 1,
-            "text": "<ul><ul><li>Tree shaking is a process performed by module bundlers to eliminate unused code from the final bundle.</li><li>It analyzes the dependencies between modules and removes any code that is not referenced or executed, reducing the bundle size.</li></ul></ul>"
-          },
-          {
-            "paraid": 1,
-            "text": "<ol start=\"10\"><li>Module Resolvers and Plugins:</li></ol>"
-          },
-          {
-            "paraid": 1,
-            "text": "<ul><ul><li>Module loaders often provide resolvers or plugins that extend their functionality.</li><li>Resolvers help resolve module paths and provide flexibility in specifying module locations.</li><li>Plugins can handle additional tasks like transpiling code, optimizing resources, or handling specific module formats.</li></ul></ul>"
+            "text": "",
+            "codeConfig": {
+              "codeid": "js_7_3_2",
+              "exampleid": "js_7_3_2_1",
+              "codeOutput": false,
+              "exampleOutput": true,
+              "codeTitle": "JS",
+              "exampleTitle": "Example",
+              "codeLangs": "ts",
+              "exampleLangs": "xml",
+              "codeSource": "",
+              "exampleSource": "",
+              "marginLeft": "5rem"
+            }
           },
           {
             "paraid": 1,
@@ -3268,7 +3254,7 @@
   {
     "category": "js",
     "chid": 8,
-    "title": "Error Handling and Debugging",
+    "title": "Debugging and Error Handling",
     "sections": [
       {
         "secid": 1,
