@@ -2508,7 +2508,7 @@ export const js_6_1_2_1 =
 <body>
   <script>
     // Storing data
-    localStorage.setItem('key', 'value');
+    localStorage.setItem('key', 'Hello World!');
     
     // Retrieving data
     const data = localStorage.getItem('key');
@@ -2648,6 +2648,111 @@ export const js_6_2_2_1 =
       // Send the AJAX request
       xhr.send();
     });
+  </script>
+</body>
+</html>`;
+
+export const js_6_3_1 =
+`fetch('https://api.example.com/data')
+  .then(response => {
+    if (response.ok) {
+      return response.json();
+    } else {
+      throw new Error('Request failed');
+    }
+  })
+  .then(data => {
+    // Process the response data
+  })
+  .catch(error => {
+    console.error('Error:', error);
+  });`;
+
+export const js_6_3_1_1 =
+`<!DOCTYPE html>
+<html>
+<head>
+  <title>Fetch Example</title>
+  <script src="assets/js/utils.js"></script>
+</head>
+<body>
+  <script>
+    fetch('assets/data/json/hello.json')
+      .then(response => {
+        if (response.ok) {
+          return response.json();
+        } else {
+          throw new Error('Request failed');
+        }
+      })
+      .then(data => {
+        console.log(data.hello);
+      })
+      .catch(error => {
+        console.error('Error:', error);
+      });
+  </script>
+</body>
+</html>`;
+
+export const js_6_3_2 =
+`fetch('https://api.example.com/data', {
+  method: 'POST',
+  headers: {
+    'Content-Type': 'application/json',
+    // Additional headers if needed
+  },
+  body: JSON.stringify(data) // Request body as JSON
+})
+  .then(response => {
+    // Handle the response
+  })
+  .catch(error => {
+    console.error('Error:', error);
+  });`;
+
+export const js_6_3_2_1 =
+``;
+
+export const js_6_3_3 =
+`fetch('https://api.example.com/data')
+  .then(response => {
+    if (response.ok) {
+      return response.json();
+    } else {
+      throw new Error('Request failed');
+    }
+  })
+  .then(data => {
+    // Process the response data
+  })
+  .catch(error => {
+    console.error('Error:', error);
+  });`;
+
+export const js_6_3_3_1 =
+`<!DOCTYPE html>
+<html>
+<head>
+  <title>Fetch Example</title>
+  <script src="assets/js/utils.js"></script>
+</head>
+<body>
+  <script>
+    fetch('assets/data/json/hello.js') // hello.js file doesn't exist
+      .then(response => {
+        if (response.ok) {
+          return response.json();
+        } else {
+          throw new Error('Request failed');
+        }
+      })
+      .then(data => {
+        console.log(data.hello);
+      })
+      .catch(error => {
+        console.error('Error:', error);
+      });
   </script>
 </body>
 </html>`;

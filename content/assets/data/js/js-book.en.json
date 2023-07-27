@@ -176,15 +176,15 @@
             "text": "<ul>JavaScript has several built-in data types, including:</ul>"
           },
           {
-            "paraid": 5,
+            "paraid": 6,
             "text": "<ul><ul><li>Primitive Data Types:</li></ul></ul>"
           },
           {
-            "paraid": 5,
+            "paraid": 7,
             "text": "<ul><ul><ul><li><strong>Number</strong>: Represents numeric values, both integers and floating-point numbers.<br/><br/>For example:</li></ul></ul></ul>"
           },
           {
-            "paraid": 4,
+            "paraid": 8,
             "text": "",
             "codeConfig": {
               "codeid": "js_2_2_1",
@@ -201,11 +201,11 @@
             }
           },
           {
-            "paraid": 5,
+            "paraid": 9,
             "text": "<ul><ul><ul><li><strong>String</strong>: Represents sequences of characters.<br/><br/>For example:</li></ul></ul></ul>"
           },
           {
-            "paraid": 4,
+            "paraid": 10,
             "text": "",
             "codeConfig": {
               "codeid": "js_2_2_2",
@@ -222,11 +222,11 @@
             }
           },
           {
-            "paraid": 5,
+            "paraid": 11,
             "text": "<ul><ul><ul><li><strong>Boolean</strong>': Represents logical values `<code>true</code>` or `<code>false</code>`.<br/><br/>For example:</li></ul></ul></ul>"
           },
           {
-            "paraid": 4,
+            "paraid": 12,
             "text": "",
             "codeConfig": {
               "codeid": "js_2_2_3",
@@ -243,11 +243,11 @@
             }
           },
           {
-            "paraid": 5,
+            "paraid": 13,
             "text": "<ul><ul><ul><li><strong>Null</strong>: Represents the intentional absence of any object value.<br/><br/>For example:</li></ul></ul></ul>"
           },
           {
-            "paraid": 4,
+            "paraid": 14,
             "text": "",
             "codeConfig": {
               "codeid": "js_2_2_4",
@@ -264,11 +264,11 @@
             }
           },
           {
-            "paraid": 5,
+            "paraid": 15,
             "text": "<ul><ul><ul><li><strong>Undefined</strong>: Represents the uninitialized value of a variable.<br/><br/>For example:</li></ul></ul></ul>"
           },
           {
-            "paraid": 4,
+            "paraid": 16,
             "text": "",
             "codeConfig": {
               "codeid": "js_2_2_5",
@@ -285,11 +285,11 @@
             }
           },
           {
-            "paraid": 5,
+            "paraid": 17,
             "text": "<ul><ul><ul><li><strong>Symbol</strong> (Introduced in ECMAScript 2015): Represents unique and immutable values, often used as object property identifiers.<br/><br/>For example:</li></ul></ul></ul>"
           },
           {
-            "paraid": 4,
+            "paraid": 18,
             "text": "",
             "codeConfig": {
               "codeid": "js_2_2_6",
@@ -306,15 +306,15 @@
             }
           },
           {
-            "paraid": 5,
+            "paraid": 19,
             "text": "<ul><ul><li>Object Data Type:</li></ul></ul>"
           },
           {
-            "paraid": 5,
+            "paraid": 20,
             "text": "<ul><ul><ul><li><strong>Object</strong>: Represents a collection of key-value pairs. Objects are more complex data types that can hold properties and methods.<br/><br/>For example:</li></ul></ul></ul>"
           },
           {
-            "paraid": 4,
+            "paraid": 21,
             "text": "",
             "codeConfig": {
               "codeid": "js_2_2_7",
@@ -331,15 +331,15 @@
             }
           },
           {
-            "paraid": 5,
+            "paraid": 22,
             "text": "<ul><ul><li>Special Data Type:</li></ul></ul>"
           },
           {
-            "paraid": 5,
+            "paraid": 23,
             "text": "<ul><ul><ul><li><strong>BigInt</strong> (Introduced in ECMAScript 2020): Represents arbitrary-precision integers.<br/><br/>For example:</li></ul></ul></ul>"
           },
           {
-            "paraid": 4,
+            "paraid": 24,
             "text": "",
             "codeConfig": {
               "codeid": "js_2_2_8",
@@ -356,23 +356,23 @@
             }
           },
           {
-            "paraid": 6,
+            "paraid": 25,
             "text": "<ol start=\"3\"><li>Dynamic Typing:</li></ol>"
           },
           {
-            "paraid": 7,
+            "paraid": 26,
             "text": "<ul><ul><li>JavaScript is a dynamically-typed language, meaning variables can hold values of any data type without explicitly specifying the type.</li><li>You can assign different data types to the same variable during the execution of your program.</li></ul></ul>"
           },
           {
-            "paraid": 8,
+            "paraid": 27,
             "text": "<ol start=\"4\"><li>Type Coercion:</li></ol>"
           },
           {
-            "paraid": 9,
+            "paraid": 28,
             "text": "<ul><ul><li>JavaScript also performs type coercion, which is the automatic conversion of values between different types in certain situations.</li><li>For example, JavaScript can convert a number to a string when performing string concatenation.</li></ul></ul>"
           },
           {
-            "paraid": 4,
+            "paraid": 29,
             "text": "",
             "codeConfig": {
               "codeid": "js_2_2_9",
@@ -389,15 +389,15 @@
             }
           },
           {
-            "paraid": 10,
+            "paraid": 30,
             "text": "<ol start=\"5\"><li>Checking Data Type:</li></ol>"
           },
           {
-            "paraid": 11,
+            "paraid": 31,
             "text": "<ul><ul><li>You can use the `<code>typeof</code>` operator to check the data type of a value.<br/><br/>For example:</li></ul></ul>"
           },
           {
-            "paraid": 4,
+            "paraid": 32,
             "text": "",
             "codeConfig": {
               "codeid": "js_2_2_10",
@@ -414,11 +414,11 @@
             }
           },
           {
-            "paraid": 11,
+            "paraid": 33,
             "text": "<ul><ul><li>The `<code>instanceof</code>` operator checks if an object is an instance of a specific class or constructor function.<br/><br/>For example:</li></ul></ul>"
           },
           {
-            "paraid": 4,
+            "paraid": 34,
             "text": "",
             "codeConfig": {
               "codeid": "js_2_2_11",
@@ -435,7 +435,7 @@
             }
           },
           {
-            "paraid": 12,
+            "paraid": 35,
             "text": "Understanding variables and data types is essential for working with JavaScript effectively. By knowing how to declare variables and utilize the various data types, you can store and manipulate different kinds of values in your JavaScript code."
           }
         ]
@@ -474,11 +474,11 @@
             }
           },
           {
-            "paraid": 3,
+            "paraid": 5,
             "text": "<ul><ul><li>Additional assignment operators include `<code>+=</code>`, `<code>-=</code>`, `<code>*=</code>`, `<code>/=</code>`, and `<code>%=</code>`. These operators perform the corresponding operation and assign the result to the variable.<br/><br/>For example:</li></ul></ul>"
           },
           {
-            "paraid": 4,
+            "paraid": 6,
             "text": "",
             "codeConfig": {
               "codeid": "js_2_3_2",
@@ -495,19 +495,19 @@
             }
           },
           {
-            "paraid": 4,
+            "paraid": 7,
             "text": "<ol start=\"2\"><li>Arithmetic Operators:</li></ol>"
           },
           {
-            "paraid": 5,
+            "paraid": 8,
             "text": "<ul>JavaScript supports standard arithmetic operators.</ul>"
           },
           {
-            "paraid": 5,
+            "paraid": 9,
             "text": "<ul><ul><li>Addition (`<code>+</code>`), subtraction (`<code>-</code>`), multiplication (`<code>*</code>`), and division (`<code>/</code>`).<br/><br/>For example:</li></ul></ul>"
           },
           {
-            "paraid": 4,
+            "paraid": 10,
             "text": "",
             "codeConfig": {
               "codeid": "js_2_3_3",
@@ -524,11 +524,11 @@
             }
           },
           {
-            "paraid": 5,
+            "paraid": 11,
             "text": "<ul><ul><li>Modulo (`<code>%</code>`), which returns the remainder of a division operation.<br/><br/>For example:</li></ul></ul>"
           },
           {
-            "paraid": 4,
+            "paraid": 12,
             "text": "",
             "codeConfig": {
               "codeid": "js_2_3_4",
@@ -545,11 +545,11 @@
             }
           },
           {
-            "paraid": 5,
+            "paraid": 13,
             "text": "<ul><ul><li>Increment (`<code>++</code>`) and decrement (`<code>--</code>`) operators for increasing or decreasing a value by 1.<br/><br/>For example:</li></ul></ul>"
           },
           {
-            "paraid": 4,
+            "paraid": 14,
             "text": "",
             "codeConfig": {
               "codeid": "js_2_3_5",
@@ -566,19 +566,19 @@
             }
           },
           {
-            "paraid": 6,
+            "paraid": 15,
             "text": "<ol start=\"3\"><li>Comparison Operators:</li></ol>"
           },
           {
-            "paraid": 7,
+            "paraid": 16,
             "text": "<ul>Comparison operators are used to compare values and return a Boolean (`<code>true</code>` or `<code>false</code>`) result.</ul>"
           },
           {
-            "paraid": 7,
+            "paraid": 17,
             "text": "<ul><ul><li>Equal to (`<code>==</code>` or `<code>===</code>`), not equal to (`<code>!=</code>` or `<code>!==</code>`).<br/><br/>For example:</li></ul></ul>"
           },
           {
-            "paraid": 4,
+            "paraid": 18,
             "text": "",
             "codeConfig": {
               "codeid": "js_2_3_6",
@@ -595,11 +595,11 @@
             }
           },
           {
-            "paraid": 7,
+            "paraid": 19,
             "text": "<ul><ul><li>Greater than (`<code>></code>`), less than (`<code><</code>`), greater than or equal to (`<code>>=</code>`), less than or equal to (`<code><=</code>`).<br/><br/>For example:</li></ul></ul>"
           },
           {
-            "paraid": 4,
+            "paraid": 20,
             "text": "",
             "codeConfig": {
               "codeid": "js_2_3_7",
@@ -616,19 +616,19 @@
             }
           },
           {
-            "paraid": 8,
+            "paraid": 21,
             "text": "<ol start=\"4\"><li>Logical Operators:</li></ol>"
           },
           {
-            "paraid": 9,
+            "paraid": 22,
             "text": "<ul>Logical operators are used to combine or manipulate Boolean values</ul>"
           },
           {
-            "paraid": 9,
+            "paraid": 23,
             "text": "<ul><ul><li>Logical AND (`<code>&&</code>`), which returns `<code>true</code>` if both operands are `<code>true</code>`.<br/><br/>For example:</li></ul></ul>"
           },
           {
-            "paraid": 4,
+            "paraid": 24,
             "text": "",
             "codeConfig": {
               "codeid": "js_2_3_8",
@@ -645,11 +645,11 @@
             }
           },
           {
-            "paraid": 9,
+            "paraid": 25,
             "text": "<ul><ul><li>Logical OR (`<code>||</code>`), which returns `<code>true</code>` if at least one operand is `<code>true</code>`.<br/><br/>For example:</li></ul></ul>"
           },
           {
-            "paraid": 4,
+            "paraid": 26,
             "text": "",
             "codeConfig": {
               "codeid": "js_2_3_9",
@@ -666,11 +666,11 @@
             }
           },
           {
-            "paraid": 9,
+            "paraid": 27,
             "text": "<ul><ul><li>Logical NOT (`<code>!</code>`), which negates a Boolean value.<br/><br/>For example:</li></ul></ul>"
           },
           {
-            "paraid": 4,
+            "paraid": 28,
             "text": "",
             "codeConfig": {
               "codeid": "js_2_3_10",
@@ -687,15 +687,15 @@
             }
           },
           {
-            "paraid": 12,
+            "paraid": 29,
             "text": "<ol start=\"5\"><li>Conditional (Ternary) Operator:</li></ol>"
           }, 
           {
-            "paraid": 13,
+            "paraid": 30,
             "text": "<ul><ul><li>The conditional operator (`<code>condition ? expr1 : expr2</code>`) is a shorthand for an `<code>if-else</code>` statement.</li><li>It evaluates the condition and returns `<code>expr1</code>` if the condition is `<code>true</code>`, or `<code>expr2</code>` if the condition is `<code>false</code>`.<br/><br/>For example:</li></ul></ul>"
           },
           {
-            "paraid": 4,
+            "paraid": 31,
             "text": "",
             "codeConfig": {
               "codeid": "js_2_3_11",
@@ -712,15 +712,15 @@
             }
           },
           {
-            "paraid": 16,
+            "paraid": 32,
             "text": "<ol start=\"6\"><li>Grouping Operator:</li></ol>"
           }, 
           {
-            "paraid": 17,
+            "paraid": 33,
             "text": "<ul><ul><li>The grouping operator (`<code>()</code>`) is used to group expressions and control the order of evaluation.<br/><br/>For example:</li></ul></ul>"
           },
           {
-            "paraid": 4,
+            "paraid": 34,
             "text": "",
             "codeConfig": {
               "codeid": "js_2_3_12",
@@ -737,15 +737,15 @@
             }
           },
           {
-            "paraid": 18,
+            "paraid": 35,
             "text": "<ol start=\"7\"><li>Bitwise Operators (Advanced):</li></ol>"
           },
           {
-            "paraid": 19,
+            "paraid": 36,
             "text": "<ul><ul><li>JavaScript also supports bitwise operators (`<code>&</code>`, `<code>|</code>`, `<code>^</code>`, `<code>~</code>`, `<code><<</code>`, `<code>>></code>`, `<code>>>></code>`) for manipulating binary representations of numbers. These operators are mainly used in advanced scenarios like low-level programming or working with binary data.<br/><br/>For example:</li></ul></ul>"
           },
           {
-            "paraid": 4,
+            "paraid": 37,
             "text": "",
             "codeConfig": {
               "codeid": "js_2_3_13",
@@ -762,7 +762,7 @@
             }
           },
           {
-            "paraid": 20,
+            "paraid": 38,
             "text": "Operators and expressions allow you to perform a wide range of operations and calculations in JavaScript. By understanding and utilizing these operators effectively, you can manipulate values, make decisions, and control the flow of your code."
           }
         ]
@@ -1233,15 +1233,15 @@
             "text": "In JavaScript, a string is a sequence of characters enclosed in single ('') or double (\"\") quotes. Strings are a primitive data type and are used to represent textual data in JavaScript. Strings can contain letters, numbers, symbols, and even special characters. Here are some common string operations in JavaScript."
           },
           {
-            "paraid": 1,
+            "paraid": 2,
             "text": "<ol><li>String Concatenation:</li></ol>"
           },
           {
-            "paraid": 1,
+            "paraid": 3,
             "text": "<ul><ul><li>String concatenation is the process of combining two or more strings to create a new string. In JavaScript, you can use the `<code>+</code>` operator to concatenate strings.<br/><br/>For example:</li></ul></ul>"
           },
           {
-            "paraid": 11,
+            "paraid": 4,
             "text": "",
             "codeConfig": {
               "codeid": "js_3_2_1",
@@ -1258,15 +1258,15 @@
             }
           },
           {
-            "paraid": 1,
+            "paraid": 5,
             "text": "<ol start=\"2\"><li>String Length:</li></ol>"
           },
           {
-            "paraid": 1,
+            "paraid": 6,
             "text": "<ul><ul><li>You can find the length of a string using the `<code>length</code>` property of the string object.<br/><br/>For example:</li></ul></ul>"
           },
           {
-            "paraid": 11,
+            "paraid": 7,
             "text": "",
             "codeConfig": {
               "codeid": "js_3_2_2",
@@ -1283,15 +1283,15 @@
             }
           },
           {
-            "paraid": 1,
+            "paraid": 8,
             "text": "<ol start=\"3\"><li>Accessing Characters in a String:</li></ol>"
           },
           {
-            "paraid": 1,
+            "paraid": 9,
             "text": "<ul><ul><li>You can access individual characters in a string using bracket notation or the `<code>charAt()</code>` method.<br/><br/>For example:</li></ul></ul>"
           },
           {
-            "paraid": 11,
+            "paraid": 10,
             "text": "",
             "codeConfig": {
               "codeid": "js_3_2_3",
@@ -1308,15 +1308,15 @@
             }
           },
           {
-            "paraid": 1,
+            "paraid": 11,
             "text": "<ol start=\"4\"><li>String Methods:</li></ol>"
           },
           {
-            "paraid": 1,
+            "paraid": 12,
             "text": "<ul><ul><li>JavaScript provides a variety of built-in string methods to perform different operations on strings, such as converting cases, extracting substrings, finding positions, replacing characters, and more.<br/><br/>For example:</li></ul></ul>"
           },
           {
-            "paraid": 11,
+            "paraid": 13,
             "text": "",
             "codeConfig": {
               "codeid": "js_3_2_4",
@@ -1333,15 +1333,15 @@
             }
           },
           {
-            "paraid": 1,
+            "paraid": 14,
             "text": "<ol start=\"5\"><li>String Template Literals:</li></ol>"
           },
           {
-            "paraid": 1,
+            "paraid": 15,
             "text": "<ul><ul><li>ES6 introduced template literals, enclosed by backticks (``), which allow for more flexible string interpolation and multiline strings.<br/><br/>For example:</li></ul></ul>"
           },
           {
-            "paraid": 11,
+            "paraid": 16,
             "text": "",
             "codeConfig": {
               "codeid": "js_3_2_5",
@@ -1358,15 +1358,15 @@
             }
           },
           {
-            "paraid": 1,
+            "paraid": 17,
             "text": "<ol start=\"6\"><li>Unicode Characters:</li></ol>"
           },
           {
-            "paraid": 1,
+            "paraid": 18,
             "text": "<ul><ul><li>JavaScript supports Unicode characters, including special characters and emojis. You can use Unicode escape sequences (`<code>\\uXXXX</code>`) or Unicode code point escapes (`<code>\\u{XXXXX}</code>`) to represent these characters.<br/><br/>For example:</li></ul></ul>"
           },
           {
-            "paraid": 11,
+            "paraid": 19,
             "text": "",
             "codeConfig": {
               "codeid": "js_3_2_6",
@@ -1383,7 +1383,7 @@
             }
           },
           {
-            "paraid": 1,
+            "paraid": 20,
             "text": "These are just a few examples of the various string operations and concepts available in JavaScript. Strings are a fundamental part of any programming language, and JavaScript provides a rich set of built-in methods and features to work with strings effectively."
           }
         ]
@@ -1566,15 +1566,15 @@
             "text": "JavaScript objects are key-value pairs used to store and organize data. They are an essential part of JavaScript and provide a way to represent real-world entities, such as a person, car, or any other object with properties and behaviors. Objects in JavaScript are dynamic, meaning you can add, modify, or remove properties and methods dynamically."
           },
           {
-            "paraid": 1,
+            "paraid": 2,
             "text": "<ol><li>Creating Objects:</li></ol>"
           },
           {
-            "paraid": 1,
+            "paraid": 3,
             "text": "<ul><ul><li>Use the object literal syntax which is a set of curly braces (`<code>{}</code>`).<br/><br/>For example:</li></ul></ul>"
           },
           {
-            "paraid": 1,
+            "paraid": 4,
             "text": "",
             "codeConfig": {
               "codeid": "js_3_4_1",
@@ -1591,11 +1591,11 @@
             }
           },
           {
-            "paraid": 1,
+            "paraid": 5,
             "text": "<ul><ul><li>Use the Object constructor.<br/><br/>For example:</li></ul></ul>"
           },
           {
-            "paraid": 1,
+            "paraid": 6,
             "text": "",
             "codeConfig": {
               "codeid": "js_3_4_2",
@@ -1612,15 +1612,15 @@
             }
           },
           {
-            "paraid": 1,
+            "paraid": 7,
             "text": "<ol start=\"2\"><li>Object Operations:</li></ol>"
           },
           {
-            "paraid": 1,
+            "paraid": 8,
             "text": "<ul><ul><li>Accessing Object Properties: You can access the values of object properties using dot notation (`<code>objectName.propertyName</code>`) or bracket notation (`<code>objectName['propertyName']</code>`).<br/><br/>For example:</li></ul></ul>"
           },
           {
-            "paraid": 1,
+            "paraid": 9,
             "text": "",
             "codeConfig": {
               "codeid": "js_3_4_3",
@@ -1637,11 +1637,11 @@
             }
           },
           {
-            "paraid": 1,
+            "paraid": 10,
             "text": "<ul><ul><li>Modifying Object Properties: You can modify the value of an object property by assigning a new value to it.<br/><br/>For example:</li></ul></ul>"
           },
           {
-            "paraid": 1,
+            "paraid": 11,
             "text": "",
             "codeConfig": {
               "codeid": "js_3_4_4",
@@ -1658,11 +1658,11 @@
             }
           },
           {
-            "paraid": 1,
+            "paraid": 12,
             "text": "<ul><ul><li>Adding Object Properties: You can add new properties to an object by assigning values to them.<br/><br/>For example:</li></ul></ul>"
           },
           {
-            "paraid": 1,
+            "paraid": 13,
             "text": "",
             "codeConfig": {
               "codeid": "js_3_4_5",
@@ -1679,11 +1679,11 @@
             }
           },
           {
-            "paraid": 1,
+            "paraid": 14,
             "text": "<ul><ul><li>Removing Object Properties: You can remove properties from an object using the `<code>delete</code>` keyword.<br/><br/>For example:</li></ul></ul>"
           },
           {
-            "paraid": 1,
+            "paraid": 15,
             "text": "",
             "codeConfig": {
               "codeid": "js_3_4_6",
@@ -1700,11 +1700,11 @@
             }
           },
           {
-            "paraid": 1,
+            "paraid": 16,
             "text": "<ul><ul><li>Object Methods: Objects can have associated functions called methods. Methods are defined as object properties with function values.<br/><br/>For example:</li></ul></ul>"
           },
           {
-            "paraid": 1,
+            "paraid": 17,
             "text": "",
             "codeConfig": {
               "codeid": "js_3_4_7",
@@ -1721,11 +1721,11 @@
             }
           },
           {
-            "paraid": 1,
+            "paraid": 18,
             "text": "<ul><ul><li>Object Iteration: You can iterate over an object's properties using a `<code>for...in</code>` loop or the `<code>Object.keys()</code>` method.<br/><br/>For example:</li></ul></ul>"
           },
           {
-            "paraid": 1,
+            "paraid": 19,
             "text": "",
             "codeConfig": {
               "codeid": "js_3_4_8",
@@ -1742,11 +1742,11 @@
             }
           },
           {
-            "paraid": 1,
+            "paraid": 20,
             "text": "<ul><ul><li>Object Constructors: Object constructors are functions used to create multiple objects with similar properties and methods. They serve as a blueprint for creating objects.<br/><br/>For example:</li></ul></ul>"
           },
           {
-            "paraid": 1,
+            "paraid": 21,
             "text": "",
             "codeConfig": {
               "codeid": "js_3_4_9",
@@ -1763,7 +1763,7 @@
             }
           },
           {
-            "paraid": 1,
+            "paraid": 22,
             "text": "JavaScript objects provide a powerful way to organize and manipulate data, allowing you to represent complex structures and behaviors in your code. They are widely used for modeling real-world entities, implementing data structures, and building modular and reusable code."
           }
         ]
@@ -2030,11 +2030,11 @@
             }
           },
           {
-            "paraid": 21,
+            "paraid": 20,
             "text": "<ul><ul><li>Creating Elements: Use the `<code>createElement()</code>` method to create a new element, and `<code>createTextNode()</code>` to create a text node.</li></ul></ul>"
           },
           {
-            "paraid": 22,
+            "paraid": 21,
             "text": "",
             "codeConfig": {
               "codeid": "js_4_2_9",
@@ -2051,11 +2051,11 @@
             }
           },
           {
-            "paraid": 23,
+            "paraid": 22,
             "text": "<ul><ul><li>Appending and Removing Elements: Use the `<code>appendChild()</code>` method to append an element as a child of another element. Use the `<code>removeChild()</code>` method to remove an element.</li></ul></ul>"
           },
           {
-            "paraid": 24,
+            "paraid": 23,
             "text": "",
             "codeConfig": {
               "codeid": "js_4_2_10",
@@ -2072,7 +2072,7 @@
             }
           },
           {
-            "paraid": 25,
+            "paraid": 24,
             "text": "These are just some of the basic techniques for accessing and manipulating DOM elements. The DOM provides many more methods and properties that allow you to traverse the document, handle events, modify styles, and interact with elements in various ways. By leveraging the DOM API, you can create dynamic and interactive web applications."
           }
         ]
@@ -2386,15 +2386,15 @@
             "text": "<ul><ul><li>A callback function is a function that is passed as an argument to another function and gets invoked at a later point in time, typically after the completion of a certain task.</li><li>The function receiving the callback is responsible for calling it, usually passing some data or result to the callback.</li></ul></ul>"
           },
           {
-            "paraid": 6,
+            "paraid": 4,
             "text": "<ol start=\"2\"><li>Callback Syntax:</li></ol>"
           },
           {
-            "paraid": 7,
+            "paraid": 5,
             "text": "<ul><ul><li>Callback functions can be declared using regular function syntax or as anonymous functions.<br/><br/>Here is an example:</li></ul></ul>"
           },
           {
-            "paraid": 8,
+            "paraid": 6,
             "text": "",
             "codeConfig": {
               "codeid": "js_5_2_1",
@@ -2411,15 +2411,15 @@
             }
           },
           {
-            "paraid": 4,
+            "paraid": 7,
             "text": "<ol start=\"3\"><li>Asynchronous Operations:</li></ol>"
           },
           {
-            "paraid": 5,
+            "paraid": 8,
             "text": "<ul><ul><li>Callback functions are commonly used in asynchronous programming to handle the completion of time-consuming tasks, such as making API requests, reading files, or database operations.</li><li>Instead of blocking the program's execution while waiting for these tasks to finish, the program continues executing other tasks, and the callback function is invoked once the asynchronous operation completes.<br/><br/>Here is an example:</li></ul></ul>"
           },
           {
-            "paraid": 8,
+            "paraid": 9,
             "text": "",
             "codeConfig": {
               "codeid": "js_5_2_2",
@@ -2436,15 +2436,15 @@
             }
           },
           {
-            "paraid": 12,
+            "paraid": 10,
             "text": "<ol start=\"4\"><li>Customizing Callbacks:</li></ol>"
           },
           {
-            "paraid": 13,
+            "paraid": 11,
             "text": "<ul><ul><li>Callback functions can be customized to accept additional arguments based on the specific requirements of the operation or task being performed.</li><li>The function that invokes the callback can pass any necessary data as arguments when invoking the callback.</li></ul></ul>"
           },
           {
-            "paraid": 16,
+            "paraid": 12,
             "text": "Callback functions are a powerful mechanism in JavaScript that allows you to control the flow of execution in asynchronous scenarios. By passing callback functions to other functions, you can define custom behavior that executes at a specific point in time, such as after the completion of an asynchronous task. However, as the complexity of asynchronous code grows, alternative approaches like promises or async/await may be more suitable for handling asynchronous operations in a more maintainable and readable manner."
           }
         ]
@@ -2458,27 +2458,27 @@
             "text": "Promises are an essential part of JavaScript and provide a more structured and cleaner way to handle asynchronous operations compared to using callback functions. A promise represents the eventual completion or failure of an asynchronous operation and allows you to handle the result or error once it's available. Here's an overview of promises."
           },
           {
-            "paraid": 1,
+            "paraid": 2,
             "text": "<ol><li>Promise States:</li></ol>"
           },
           {
-            "paraid": 1,
+            "paraid": 3,
             "text": "<ul><ul><li>A promise can be in one of three states: pending, fulfilled, or rejected.</li><li>When a promise is pending, it means that the asynchronous operation is still ongoing and the result is not available yet.</li><li>A fulfilled promise means that the operation completed successfully, and the promise holds the resulting value.</li><li>A rejected promise means that an error occurred during the operation, and the promise holds the reason for the error.</li></ul></ul>"
           },
           {
-            "paraid": 1,
+            "paraid": 4,
             "text": "<ol start=\"2\"><li>Creating Promises:</li></ol>"
           },
           {
-            "paraid": 1,
+            "paraid": 5,
             "text": "<ul><ul><li>Promises can be created using the `<code>Promise</code>` constructor. The constructor takes a function as an argument, commonly referred to as the \"executor function\".</li><li>The executor function takes two parameters: `<code>resolve</code>` and `<code>reject</code>`. `<code>resolve</code>` is used to fulfill the promise, and `<code>reject</code>` is used to reject the promise.</li><li>Inside the executor function, you perform the asynchronous operation, and once it's complete, you call `<code>resolve</code>` with the result or `<code>reject</code>` with an error.</li></ul></ul>"
           },
           {
-            "paraid": 1,
+            "paraid": 6,
             "text": "<ul><ul>Here's an example of creating a promise:</ul></ul>"
           },
           {
-            "paraid": 1,
+            "paraid": 7,
             "text": "",
             "codeConfig": {
               "codeid": "js_5_3_1",
@@ -2495,19 +2495,19 @@
             }
           },
           {
-            "paraid": 1,
+            "paraid": 8,
             "text": "<ol start=\"3\"><li>Promise Chaining:</li></ol>"
           },
           {
-            "paraid": 1,
+            "paraid": 9,
             "text": "<ul><ul><li>Promises can be chained together using the `<code>then()</code>` method, which allows you to specify what should happen after the promise is fulfilled.</li><li>The `<code>then()</code>` method takes a callback function as an argument, which will be executed with the resolved value of the promise.</li><li>Promise chaining allows you to perform sequential operations or transformations on the result of the previous promise.</li></ul></ul>"
           },
           {
-            "paraid": 1,
+            "paraid": 10,
             "text": "<ul><ul>Here's an example of promise chaining:</ul></ul>"
           },
           {
-            "paraid": 1,
+            "paraid": 11,
             "text": "",
             "codeConfig": {
               "codeid": "js_5_3_2",
@@ -2524,15 +2524,15 @@
             }
           },
           {
-            "paraid": 1,
+            "paraid": 12,
             "text": "<ol start=\"4\"><li>Handling Promise Rejections:</li></ol>"
           },
           {
-            "paraid": 1,
+            "paraid": 13,
             "text": "<ul><ul><li>Promise rejections can be handled using the `<code>catch()</code>` method, which takes a callback function that will be executed when the promise is rejected.</li><li>The `<code>catch()</code>` method allows you to handle any errors that occur during the asynchronous operation or in any of the preceding `<code>then()</code>` callbacks.</li><li>It's generally recommended to have a `<code>catch()</code>` at the end of the promise chain to handle any unhandled rejections. Refer to two above examples.</li></ul></ul>"
           },
           {
-            "paraid": 1,
+            "paraid": 14,
             "text": "Promises provide a more organized and readable way to handle asynchronous operations and their results. They allow you to chain operations, handle errors, and ensure the flow of execution is maintained. Promises have become a standard part of JavaScript, and many modern APIs and libraries use promises for handling asynchronous tasks."
           }
         ]
@@ -2595,7 +2595,7 @@
             "text": "<ul><ul><li>If an error occurs during the execution of the `<code>await</code>` expression, the error can be caught by `<code>catch</code>` method.</li><li>You can handle the error gracefully, log it, or take appropriate actions.</li></ul></ul>"
           },
           {
-            "paraid": 8,
+            "paraid": 11,
             "text": "",
             "codeConfig": {
               "codeid": "js_5_4_2",
@@ -2612,12 +2612,12 @@
             }
           },
           {
-            "paraid": 13,
+            "paraid": 12,
             "text": "",
             "codeid": "create sample code"
           },
           {
-            "paraid": 14,
+            "paraid": 13,
             "text": "Async/await offers a more intuitive and synchronous-like way to write asynchronous code, making it easier to read, write, and reason about. It simplifies error handling and allows for sequential execution of asynchronous operations. However, it's important to note that async/await can only be used within async functions and requires promises to be present for it to work. It has become a widely adopted pattern in modern JavaScript development and is commonly used in conjunction with promises or libraries and frameworks that use promises as their underlying mechanism for handling asynchronous tasks."
           }
         ]
@@ -2627,7 +2627,7 @@
   {
     "category": "js",
     "chid": 6,
-    "title": "JavaScript APIs",
+    "title": "Browser APIs",
     "sections": [
       {
         "secid": 1,
@@ -2646,7 +2646,7 @@
             "text": "<ul><ul><li>The Geolocation API allows you to retrieve the user's current geographical location.</li><li>To use this API, you can call the `<code>navigator.geolocation.getCurrentPosition()</code>` method, which takes a success callback and an error callback as arguments.</li><li>The success callback is invoked with a `<code>Position</code>` object containing the user's coordinates.</li><li>Here's an example of using the Geolocation API:</li></ul></ul>"
           },
           {
-            "paraid": 8,
+            "paraid": 4,
             "text": "",
             "codeConfig": {
               "codeid": "js_6_1_1",
@@ -2671,7 +2671,7 @@
             "text": "<ul><ul><li>The Web Storage API provides a way to store key-value pairs locally in the browser.</li><li>There are two types of web storage available: `<code>localStorage</code>` and `<code>sessionStorage</code>`.</li><li>`<code>localStorage</code>` allows you to store data persistently across browser sessions, while `<code>sessionStorage</code>` stores data for the duration of the session.</li><li>You can use the `<code>setItem()</code>`, `<code>getItem()</code>`, and `<code>removeItem()</code>` methods to interact with web storage.</li><li>Here's an example of using `<code>localStorage</code>`:</li></ul></ul>"
           },
           {
-            "paraid": 8,
+            "paraid": 7,
             "text": "",
             "codeConfig": {
               "codeid": "js_6_1_2",
@@ -2688,27 +2688,14 @@
             }
           },
           {
-            "paraid": 8,
-            "text": "<ol start=\"3\"><li>Notifications API:</li></ol>"
-          },
-          {
-            "paraid": 9,
-            "text": "<ul><ul><li>The Notifications API allows you to display system notifications to the user.</li><li>To create a notification, you can use the Notification constructor or the `<code>Notification.requestPermission()</code>` method.</li><li>The `<code>Notification</code>` constructor accepts a title and options for customizing the notification.</li><li>The `<code>requestPermission()</code>` method asks the user for permission to show notifications and returns a promise.</li><li>Here's an example of creating a notification:</li></ul></ul>"
-          },
-          {
-            "paraid": 10,
-            "text": "",
-            "codeid": ""
-          },
-          {
             "paraid": 11,
-            "text": "These are just a few examples of browser APIs, but there are many more available, such as the Fetch API for making HTTP requests, the Canvas API for drawing graphics, the Audio and Video APIs for working with multimedia, and many others. Each API has its own set of methods and properties, so it's important to refer to the specific documentation for each API to understand how to use them effectively in your applications."
+            "text": "Here are just a few examples of browser APIs, but there are many more available, such as the Fetch API for making HTTP requests, the Canvas API for drawing graphics, the Audio and Video APIs for working with multimedia, and many others. Each API has its own set of methods and properties, so it's important to refer to the specific documentation for each API to understand how to use them effectively in your applications."
           }
         ]
       },
       {
         "secid": 2,
-        "subtitle": "Introduction to AJAX",
+        "subtitle": "Making HTTP requests with AJAX",
         "paragraphs": [
           {
             "paraid": 1,
@@ -2731,7 +2718,7 @@
             "text": "<ul><ul><li>The XMLHttpRequest (XHR) object is the core of AJAX. It provides the ability to send and receive data between a web browser and a server.</li><li>The XHR object has various methods and properties to handle the request and response.</li><li>Here's an example of making an AJAX request using the XHR object:</li></ul></ul>"
           },
           {
-            "paraid": 8,
+            "paraid": 6,
             "text": "",
             "codeConfig": {
               "codeid": "js_6_2_1",
@@ -2748,15 +2735,15 @@
             }
           },
           {
-            "paraid": 10,
+            "paraid": 7,
             "text": "<ol start=\"3\"><li>Updating Web Page Content:</li></pl>"
           },
           {
-            "paraid": 11,
+            "paraid": 8,
             "text": "<ul><ul><li>AJAX enables you to update specific parts of a web page without reloading the entire page.</li><li>You can use JavaScript to manipulate the DOM and update the content based on the received data.</li><li>This allows for dynamic and interactive user interfaces, such as updating a list of items, live search suggestions, or real-time chat messages.</li></ul></ul>"
           },
           {
-            "paraid": 8,
+            "paraid": 9,
             "text": "",
             "codeConfig": {
               "codeid": "js_6_2_2",
@@ -2773,7 +2760,7 @@
             }
           },
           {
-            "paraid": 12,
+            "paraid": 10,
             "text": "AJAX has revolutionized web development by providing a way to create more interactive and responsive web applications. It allows for data retrieval and updates in the background, reducing the need for full page reloads. The XMLHttpRequest object and Fetch API are commonly used to implement AJAX functionality in JavaScript applications."
           }
         ]
@@ -2795,51 +2782,82 @@
             "text": "<ul><ul><li>To make a simple GET request, you can use the `<code>fetch()</code>` function and pass the URL as an argument.</li><li>The `<code>fetch()</code>` function returns a promise that resolves to the `<code>Response</code>` object representing the server's response.</li><li>You can then use the `<code>Response</code>` object to process the response data.</li></ul></ul>"
           },
           {
-            "paraid": 4,
+            "paraid": 9,
             "text": "",
-            "codeid": ""
+            "codeConfig": {
+              "codeid": "js_6_3_1",
+              "exampleid": "js_6_3_1_1",
+              "codeOutput": false,
+              "exampleOutput": true,
+              "codeTitle": "JS",
+              "exampleTitle": "Example",
+              "codeLangs": "ts",
+              "exampleLangs": "xml",
+              "codeSource": "",
+              "exampleSource": "",
+              "marginLeft": "5rem"
+            }
           },
           {
-            "paraid": 5,
+            "paraid": 4,
             "text": "<ol start=\"2\"><li>Fetch Request Options:</li></ol>"
           },
           {
-            "paraid": 6,
+            "paraid": 5,
             "text": "<ul><ul><li>The `<code>fetch()</code>` function accepts a second parameter for additional request options, such as the HTTP method, headers, and request body.</li><li>You can pass an object with these options to customize the request.</li></ul></ul>"
           },
           {
-            "paraid": 7,
+            "paraid": 9,
             "text": "",
-            "codeid": ""
+            "codeConfig": {
+              "codeid": "js_6_3_2",
+              "exampleid": "",
+              "codeOutput": false,
+              "exampleOutput": false,
+              "codeTitle": "JS",
+              "exampleTitle": "",
+              "codeLangs": "ts",
+              "exampleLangs": "",
+              "codeSource": "",
+              "exampleSource": "",
+              "marginLeft": "5rem"
+            }
           },
           {
-            "paraid": 8,
+            "paraid": 7,
             "text": "<ol start=\"3\"><li>Handling Response:</li></ol>"
           },
           {
-            "paraid": 9,
+            "paraid": 8,
             "text": "<ul><ul><li>The `<code>Response</code>` object provides several methods to access and process the response data.</li><li>You can use methods like `<code>json()</code>` to parse the response as JSON, `<code>text()</code>` to get the response as plain text, and `<code>blob()</code>` to retrieve the response as a Blob object.</li></ul></ul>"
           },
           {
             "paraid": 10,
-            "text": "",
-            "codeid": ""
-          },
-          {
-            "paraid": 11,
             "text": "<ol start=\"4\"><li>Error Handling:</li></ol>"
           },
           {
-            "paraid": 12,
+            "paraid": 11,
             "text": "<ul><ul><li>If the server responds with an error status code (e.g., 404, 500), the `<code>fetch()</code>` promise will still resolve successfully.</li><li>You can check the `<code>ok</code>` property of the `<code>Response</code>` object to determine if the request was successful.</li><li>If the request was not successful, you can throw an error or handle it as needed.</li></ul></ul>"
           },
           {
-            "paraid": 13,
+            "paraid": 9,
             "text": "",
-            "codeid": ""
+            "codeConfig": {
+              "codeid": "js_6_3_3",
+              "exampleid": "js_6_3_3_1",
+              "codeOutput": false,
+              "exampleOutput": true,
+              "codeTitle": "JS",
+              "exampleTitle": "Example",
+              "codeLangs": "ts",
+              "exampleLangs": "xml",
+              "codeSource": "",
+              "exampleSource": "",
+              "marginLeft": "5rem"
+            }
           },
           {
-            "paraid": 14,
+            "paraid": 13,
             "text": "The Fetch API provides a powerful and flexible way to make HTTP requests in JavaScript. It supports a variety of request options, handles responses in different formats, and allows for error handling. It is widely supported in modern browsers and is a recommended approach for performing HTTP requests in client-side JavaScript applications."
           }
         ]
@@ -2860,31 +2878,31 @@
             "text": "Prototypes and inheritance are fundamental concepts in JavaScript that play a crucial role in object-oriented programming. They provide a mechanism for creating and sharing behavior among objects. Let's explore prototypes and inheritance in JavaScript."
           },
           {
-            "paraid": 1,
+            "paraid": 2,
             "text": "<ol><li>Prototypes:</li></ol>"
           },
           {
-            "paraid": 1,
+            "paraid": 3,
             "text": "<ul><ul><li>In JavaScript, each object has a prototype. A prototype is an object from which the object inherits properties and methods.</li><li>Every object in JavaScript is linked to a prototype object, which acts as a fallback for property and method lookup.</li><li>Prototypes create a chain of objects, often referred to as the prototype chain.</li></ul></ul>"
           },
           {
-            "paraid": 1,
+            "paraid": 4,
             "text": "<ol start=\"2\"><li>Prototype Object:</li></ol>"
           },
           {
-            "paraid": 1,
+            "paraid": 5,
             "text": "<ul><ul><li>The prototype object is a regular JavaScript object that is used as a blueprint for creating new objects.</li><li>Objects are created by either using the new keyword with a constructor function or using object literals `<code>{}</code>`. The newly created object inherits properties and methods from its prototype.</li></ul></ul>"
           },
           {
-            "paraid": 1,
+            "paraid": 6,
             "text": "<ol start=\"3\"><li>Prototype Chain and Inheritance:</li></ol>"
           },
           {
-            "paraid": 1,
+            "paraid": 7,
             "text": "<ul><ul><li>The prototype chain is a mechanism by which objects inherit properties and methods from their prototypes.</li><li>When a property or method is accessed on an object, JavaScript first checks if the object has that property or method. If not, it looks up the prototype chain until it finds the property or reaches the end of the chain (usually the Object prototype).</li><li>This allows for property and method sharing among objects, reducing redundancy and enabling code reuse.<br/><br/>For example:</li></ul></ul>"
           },
           {
-            "paraid": 1,
+            "paraid": 8,
             "text": "",
             "codeConfig": {
               "codeid": "js_7_1_1",
@@ -2901,15 +2919,15 @@
             }
           },
           {
-            "paraid": 1,
+            "paraid": 9,
             "text": "<ol start=\"4\"><li>Constructor Functions:</li></ol>"
           },
           {
-            "paraid": 1,
+            "paraid": 10,
             "text": "<ul><ul><li>Constructor functions are regular functions that are used to create objects.</li><li>When a constructor function is invoked with the `<code>new</code>` keyword, a new object is created, and its `<code>prototype</code>` is set to the function's `<code>prototype</code>` property.</li><li>Properties and methods defined on the constructor function's `<code>prototype</code>` property are inherited by the objects created with that constructor.<br/><br/>For example:</li></ul></ul>"
           },
           {
-            "paraid": 1,
+            "paraid": 11,
             "text": "",
             "codeConfig": {
               "codeid": "js_7_1_2",
@@ -2926,23 +2944,23 @@
             }
           },
           {
-            "paraid": 1,
+            "paraid": 12,
             "text": "<ol start=\"5\"><li>Prototypal Inheritance vs. Classical Inheritance:</li></ol>"
           },
           {
-            "paraid": 1,
+            "paraid": 13,
             "text": "<ul><ul><li>JavaScript uses prototypal inheritance, which is different from classical inheritance found in languages like Java or C++.</li><li>In prototypal inheritance, objects directly inherit from other objects, whereas in classical inheritance, classes define the structure and behavior of objects.</li><li>JavaScript's prototypal inheritance is more flexible and dynamic, allowing objects to inherit properties and methods at runtime.</li></ul></ul>"
           },
           {
-            "paraid": 1,
+            "paraid": 14,
             "text": "<ol start=\"6\"><li>ES6 Classes:</li></ol>"
           },
           {
-            "paraid": 1,
+            "paraid": 15,
             "text": "<ul><ul><li>ES6 introduced the `<code>class syntax</code>`, which provides syntactic sugar for working with prototypes and constructor functions.</li><li>Classes in JavaScript are primarily a syntax simplification and still rely on prototypes under the hood.</li><li>The `<code>class</code>` syntax makes it easier to define constructor functions, prototype methods, and inheritance relationships.<br/><br/>For example:</li></ul></ul>"
           },
           {
-            "paraid": 1,
+            "paraid": 16,
             "text": "",
             "codeConfig": {
               "codeid": "js_7_1_3",
@@ -2959,7 +2977,7 @@
             }
           },
           {
-            "paraid": 1,
+            "paraid": 17,
             "text": "Understanding prototypes and inheritance is essential for effective object-oriented programming in JavaScript. It enables code reuse, modularity, and allows for dynamic modification of object behavior. JavaScript's prototype-based inheritance provides a flexible and powerful approach to working with objects and their relationships."
           }
         ]
@@ -2973,15 +2991,15 @@
             "text": "Functional programming is a programming paradigm that focuses on building software by composing pure functions and avoiding shared state and mutable data. It emphasizes immutability, higher-order functions, and declarative programming. Here are some key concepts of functional programming."
           },
           {
-            "paraid": 1,
+            "paraid": 2,
             "text": "<ol><li>Pure Functions:</li></ol>"
           },
           {
-            "paraid": 1,
+            "paraid": 3,
             "text": "<ul><ul><li>Pure functions are functions that produce the same output for the same input and have no side effects.</li><li>They do not modify external state or variables, ensuring referential transparency.</li><li>Pure functions are deterministic, easier to reason about, and facilitate testing and parallel execution.<br/><br/>For example:</li></ul></ul>"
           },
           {
-            "paraid": 1,
+            "paraid": 4,
             "text": "",
             "codeConfig": {
               "codeid": "js_7_2_1",
@@ -2998,15 +3016,15 @@
             }
           },
           {
-            "paraid": 1,
+            "paraid": 5,
             "text": "<ol start=\"2\"><li>Immutability:</li></ol>"
           },
           {
-            "paraid": 1,
+            "paraid": 6,
             "text": "<ul><ul><li>In functional programming, data is immutable, meaning it cannot be changed after creation.</li><li>Instead of modifying existing data, functional programs create new data structures with updated values.</li><li>Immutable data simplifies code reasoning, eliminates bugs caused by unintended mutations, and facilitates concurrency.<br/><br/>For example:</li></ul></ul>"
           },
           {
-            "paraid": 1,
+            "paraid": 7,
             "text": "",
             "codeConfig": {
               "codeid": "js_7_2_2",
@@ -3023,15 +3041,15 @@
             }
           },
           {
-            "paraid": 1,
+            "paraid": 8,
             "text": "<ol start=\"3\"><li>Higher-Order Functions:</li></ol>"
           },
           {
-            "paraid": 1,
+            "paraid": 9,
             "text": "<ul><ul><li>Higher-order functions are functions that can take other functions as arguments or return functions as results.</li><li>They enable code abstraction and composition, allowing for the creation of more reusable and modular code.</li><li>Examples of higher-order functions include `<code>map</code>`, `<code>filter</code>`, and `<code>reduce</code>` in JavaScript.<br/><br/>For example:</li></ul></ul>"
           },
           {
-            "paraid": 1,
+            "paraid": 10,
             "text": "",
             "codeConfig": {
               "codeid": "js_7_2_3",
@@ -3048,15 +3066,15 @@
             }
           },
           {
-            "paraid": 1,
+            "paraid": 11,
             "text": "<ol start=\"4\"><li>Function Composition:</li></ol>"
           },
           {
-            "paraid": 1,
+            "paraid": 12,
             "text": "<ul><ul><li>Function composition is the process of combining functions to create new functions.</li><li>It allows you to build complex operations by chaining together smaller functions.</li><li>Function composition improves code readability, reusability, and testability.<br/><br/>For example:</li></ul></ul>"
           },
           {
-            "paraid": 1,
+            "paraid": 13,
             "text": "",
             "codeConfig": {
               "codeid": "js_7_2_4",
@@ -3073,15 +3091,15 @@
             }
           },
           {
-            "paraid": 1,
+            "paraid": 14,
             "text": "<ol start=\"5\"><li>Recursion:</li></ol>"
           },
           {
-            "paraid": 1,
+            "paraid": 15,
             "text": "<ul><ul><li>Recursion is a technique where a function calls itself to solve a problem by breaking it down into smaller subproblems.</li><li>It is a fundamental concept in functional programming and enables elegant and concise solutions to certain types of problems.</li><li>Recursive functions often replace looping constructs like `<code>for</code>` or `<code>while</code>` in functional programming.</li></ul></ul>"
           },
           {
-            "paraid": 1,
+            "paraid": 16,
             "text": "",
             "codeConfig": {
               "codeid": "js_7_2_5",
@@ -3098,15 +3116,15 @@
             }
           },
           {
-            "paraid": 1,
+            "paraid": 17,
             "text": "<ol start=\"6\"><li>Declarative Programming:</li></ol>"
           },
           {
-            "paraid": 1,
+            "paraid": 18,
             "text": "<ul><ul><li>Declarative programming focuses on describing what should be done rather than how to do it.</li><li>Functional programming encourages declarative style, where programs are written as a series of function invocations and data transformations.</li><li>Declarative code is more expressive, easier to understand, and promotes code reuse.</li></ul></ul>"
           },
           {
-            "paraid": 1,
+            "paraid": 19,
             "text": "",
             "codeConfig": {
               "codeid": "js_7_2_6",
@@ -3123,15 +3141,15 @@
             }
           },
           {
-            "paraid": 1,
+            "paraid": 20,
             "text": "<ol start=\"7\"><li>Lazy Evaluation:</li></ol>"
           },
           {
-            "paraid": 1,
+            "paraid": 21,
             "text": "<ul><ul><li>Lazy evaluation is an evaluation strategy where expressions are not evaluated until their results are actually needed.</li><li>It allows for better performance by avoiding unnecessary computations.</li><li>Lazy evaluation is commonly used in functional programming for operations like infinite lists or stream processing.</li></ul></ul>"
           },
           {
-            "paraid": 1,
+            "paraid": 22,
             "text": "",
             "codeConfig": {
               "codeid": "js_7_2_7",
@@ -3148,15 +3166,15 @@
             }
           },
           {
-            "paraid": 1,
+            "paraid": 23,
             "text": "<ol start=\"8\"><li>Pattern Matching:</li></ol>"
           },
           {
-            "paraid": 1,
+            "paraid": 24,
             "text": "<ul><ul><li>Pattern matching is a technique that allows matching the structure of data against predefined patterns.</li><li>It enables concise and readable code for handling different cases or conditions.</li></ul></ul>"
           },
           {
-            "paraid": 1,
+            "paraid": 25,
             "text": "",
             "codeConfig": {
               "codeid": "js_7_2_8",
@@ -3173,15 +3191,15 @@
             }
           },
           {
-            "paraid": 1,
+            "paraid":26,
             "text": "<ol start=\"9\"><li>Avoiding Shared State and Side Effects:</li></ol>"
           },
           {
-            "paraid": 1,
+            "paraid": 27,
             "text": "<ul><ul><li>Functional programming emphasizes minimizing shared mutable state and side effects.</li><li>Shared mutable state can lead to bugs and make programs harder to reason about.</li><li>By avoiding side effects, functional programs become more predictable and easier to test and debug.</li></ul></ul>"
           },
           {
-            "paraid": 1,
+            "paraid": 28,
             "text": "Functional programming promotes writing concise, modular, and maintainable code by leveraging pure functions, immutability, and higher-order functions. While JavaScript is not a purely functional language, it incorporates many functional programming concepts and provides support for functional programming techniques. Understanding and applying functional programming principles can lead to cleaner and more robust code in JavaScript and other languages."
           }
         ]
@@ -3195,31 +3213,31 @@
             "text": "Modules are essential concepts in modern JavaScript development that help organize and modularize code. They provide a way to split code into reusable and encapsulated units and manage dependencies between different modules. Let's explore modules and module loaders."
           },
           {
-            "paraid": 1,
+            "paraid": 2,
             "text": "<ol><li>Modules:</li></ol>"
           },
           {
-            "paraid": 1,
+            "paraid": 3,
             "text": "<ul><ul><li>Modules are self-contained units of code that encapsulate related functionality.</li><li>They allow developers to break down large codebases into smaller, manageable parts, promoting code reuse and maintainability.</li><li>Modules typically have a clear interface, exposing only the necessary functions, classes, or variables while keeping implementation details hidden.</li></ul></ul>"
           },
           {
-            "paraid": 1,
+            "paraid": 4,
             "text": "<ol start=\"2\"><li>Module Formats:</li></ol>"
           },
           {
-            "paraid": 1,
+            "paraid": 5,
             "text": "<ul><ul><li>There are different module formats used in JavaScript, such as CommonJS, AMD (Asynchronous Module Definition), and ES Modules (ESM).</li><li>CommonJS and AMD formats were prevalent in older JavaScript environments (e.g., Node.js or RequireJS).</li><li>ES Modules, introduced in ES6, are now the standard module format in modern JavaScript environments, both in the browser and Node.js.</li></ul></ul>"
           },
           {
-            "paraid": 1,
+            "paraid": 6,
             "text": "<ol start=\"3\"><li>ES Modules:</li></ol>"
           },
           {
-            "paraid": 1,
+            "paraid": 7,
             "text": "<ul><ul><li>ES Modules are the official module system in JavaScript, supported by most modern browsers and Node.js.</li><li>They use the `<code>import</code>` and `<code>export</code>` keywords to declare dependencies and export functionality between modules.</li><li>ES Modules support both named exports and default exports, allowing fine-grained control over exported members.<br/><br/>For example:</li></ul></ul>"
           },
           {
-            "paraid": 1,
+            "paraid": 8,
             "text": "",
             "codeConfig": {
               "codeid": "js_7_3_1",
@@ -3236,15 +3254,15 @@
             }
           },
           {
-            "paraid": 1,
+            "paraid": 9,
             "text": "<ol start=\"4\"><li>Asynchronous Module Loading:</li></ol>"
           },
           {
-            "paraid": 1,
+            "paraid": 10,
             "text": "<ul><ul><li>Module loaders can handle asynchronous loading of modules, allowing modules to be loaded on-demand when needed.</li><li>Asynchronous module loading is beneficial for larger applications with complex dependency trees, improving initial page load times.<br/><br/>For example:</li></ul></ul>"
           },
           {
-            "paraid": 1,
+            "paraid": 11,
             "text": "",
             "codeConfig": {
               "codeid": "js_7_3_2",
@@ -3261,7 +3279,7 @@
             }
           },
           {
-            "paraid": 1,
+            "paraid": 12,
             "text": "Effective use of modules and module loaders can enhance code organization, reusability, and maintainability in JavaScript projects. They enable developers to break down complex applications into manageable units, handle dependencies, and improve overall performance. ES Modules and modern bundlers like Webpack have significantly simplified the process of working with modules in JavaScript, making it easier to leverage the benefits of modular code."
           }
         ]
