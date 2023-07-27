@@ -118,7 +118,7 @@ export const html_2_5_1 =
 
 export const html_2_5_1_1 =
 `<!DOCTYPE html>
-<html lang="en">
+<html>
 <head>
   <title>My Webpage</title>
   <style>
@@ -163,7 +163,7 @@ export const html_2_5_9 =
 
 export const html_2_5_9_1 =
 `<!DOCTYPE html>
-<html lang="en">
+<html>
 <head>
   <title>My Webpage</title>
 </head>
@@ -364,7 +364,7 @@ export const html_6_2_1 =
 
 export const html_6_2_1_1 =
 `<!DOCTYPE html>
-<html lang="en">
+<html>
 <head>
   <title>My Webpage</title>
 </head>
@@ -384,7 +384,7 @@ export const html_6_2_2 =
 
 export const html_6_2_2_1 =
 `<!DOCTYPE html>
-<html lang="en">
+<html>
 <head>
   <title>My Webpage</title>
 </head>
@@ -414,7 +414,7 @@ export const html_6_2_3 =
 
 export const html_6_2_3_1 =
 `<!DOCTYPE html>
-<html lang="en">
+<html>
 <head>
   <title>My Webpage</title>
 </head>
@@ -447,7 +447,7 @@ export const html_6_2_4 =
 
 export const html_6_2_4_1 =
 `<!DOCTYPE html>
-<html lang="en">
+<html>
 <head>
   <title>My Webpage</title>
 </head>
@@ -467,7 +467,7 @@ export const html_6_2_5 =
 
 export const html_6_2_5_1 =
 `<!DOCTYPE html>
-<html lang="en">
+<html>
 <head>
   <title>My Webpage</title>
 </head>
@@ -482,7 +482,7 @@ export const html_6_2_6 =
 
 export const html_6_2_6_1 =
 `<!DOCTYPE html>
-<html lang="en">
+<html>
 <head>
   <title>My Webpage</title>
 </head>
@@ -494,16 +494,16 @@ export const html_6_2_6_1 =
 
 export const html_7_1_1 =
 `<!DOCTYPE html>
-<html lang="en">
+<html>
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>My Webpage</title>
+  <title>Semantic Tag Example</title>
   <link rel="stylesheet" href="styles.css">
 </head>
 <body>
   <header>
-    <h1>Welcome to My Webpage</h1>
+    <h1>Welcome to Semantic Tag Example Webpage</h1>
     <nav>
       <ul>
         <li><a href="#">Home</a></li>
@@ -555,9 +555,9 @@ ctx.fillRect(50, 50, 100, 100);`;
 
 export const html_7_2_3 =
 `<!DOCTYPE html>
-<html lang="en">
+<html>
 <head>
-  <title>My Webpage</title>
+  <title>Canvas Example</title>
 </head>
 <body>
   <canvas id="myCanvas" width="500" height="500"></canvas>
@@ -579,9 +579,9 @@ export const html_7_2_4 =
 
 export const html_7_2_5 =
 `<!DOCTYPE html>
-<html lang="en">
+<html>
 <head>
-  <title>My Webpage</title>
+  <title>SVG Example</title>
 </head>
 <body>
   <svg width="500" height="500">
@@ -592,28 +592,74 @@ export const html_7_2_5 =
 </body>
 </html>`;
 
-// export const html_4_2_3_ =
-// `<body>
-//   <img src="https://example.com/image.jpg" alt="A beautiful image">
-// </body>`;
+export const html_7_4_1 =
+`<!DOCTYPE html>
+<html>
+<head>
+  <title>Flexbox Responsive Example</title>
+  <style>
+    body {
+      margin: 0;
+      padding: 0;
+      font-family: Arial, sans-serif;
+    }
 
-// export const html_4_2_3_ =
-// `<body>
-//   <img src="https://example.com/image.jpg" alt="A beautiful image">
-// </body>`;
+    header {
+      background-color: purple;
+      color: #fff;
+      text-align: center;
+      padding: 10px;
+    }
 
-// export const html_4_2_3_ =
-// `<body>
-//   <img src="https://example.com/image.jpg" alt="A beautiful image">
-// </body>`;
+    main {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: space-between;
+      padding: 20px;
+    }
 
-// export const html_4_2_3_ =
-// `<body>
-//   <img src="https://example.com/image.jpg" alt="A beautiful image">
-// </body>`;
+    section {
+      flex-basis: 30%;
+      background-color: #f0f0f0;
+      border: 1px solid #ddd;
+      padding: 10px;
+      margin-bottom: 20px;
+    }
 
-// export const html_4_2_3_ =
-// `<body>
-//   <img src="https://example.com/image.jpg" alt="A beautiful image">
-// </body>`;
+    footer {
+      background-color: purple;
+      color: #fff;
+      text-align: center;
+      padding: 10px;
+    }
 
+    @media screen and (max-width: 768px) {
+      main {
+        justify-content: center;
+      }
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Flexbox Responsive Example</h1>
+  </header>
+  <main>
+    <section>
+      <h2>Section 1</h2>
+      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+    </section>
+    <section>
+      <h2>Section 2</h2>
+      <p>Integer id elit non tellus pharetra blandit.</p>
+    </section>
+    <section>
+      <h2>Section 3</h2>
+      <p>Suspendisse potenti. Nam congue erat ut tincidunt fringilla.</p>
+    </section>
+  </main>
+  <footer>
+    <p>&copy; 2023 Flexbox Responsive Example</p>
+  </footer>
+</body>
+</html>`;

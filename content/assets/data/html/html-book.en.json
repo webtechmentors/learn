@@ -1736,12 +1736,19 @@
           {
             "paraid": 1,
             "text": "",
-            "codeid": ""
-          },
-          {
-            "paraid": 1,
-            "text": "",
-            "codeid": ""
+            "codeConfig": {
+              "codeid": "html_7_4_1",
+              "exampleid": "",
+              "codeOutput": true,
+              "exampleOutput": false,
+              "codeTitle": "HTML",
+              "exampleTitle": "",
+              "codeLangs": "xml",
+              "exampleLangs": "",
+              "codeSource": "",
+              "exampleSource": "",
+              "marginLeft": "0"
+            }
           },
           {
             "paraid": 1,
