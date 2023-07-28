@@ -726,7 +726,7 @@ export const js_2_4_9 =
 `for (initialization; condition; increment/decrement) {
   // code to be executed in each iteration
   break;
-  // code to be executed in each iteration
+  // code to be executed in each iteration and possibly skipped
 }`;
 
 export const js_2_4_9_1 =
@@ -752,7 +752,7 @@ export const js_2_4_10 =
 `for (initialization; condition; increment/decrement) {
   // code to be executed in each iteration
   continue;
-  // code to be executed in each iteration
+  // code to be executed in each iteration and possibly skipped
 }`;
 
 export const js_2_4_10_1 =
@@ -778,7 +778,7 @@ export const js_2_4_11 =
 `for (variable of iterable) {
   // code to be executed for each element
   return;
-  // code to be executed for each element
+  // code to be executed for each element and possibly skipped
 }`;
 
 export const js_2_4_11_1 =
