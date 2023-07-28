@@ -162,11 +162,11 @@ export const js_2_3_4_1 =
 export const js_2_3_5 =
 `// Increment
 let x = 5;
-x++;
+x++; // equivalent to x = x + 1;
 
 // Decrement
 let y = 8;
-y--;`;
+y--; // equivalent to y = y - 1;`; 
 
 export const js_2_3_5_1 =
 `<!DOCTYPE html>
