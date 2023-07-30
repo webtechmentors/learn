@@ -1053,7 +1053,7 @@
           },
           {
             "paraid": 3,
-            "text": "<ul><ul><li>A function is a block of code that performs a specific task or calculates a value. It can be invoked (called) multiple times throughout your code.</li><li>Functions in JavaScript can be declared using the function keyword.</li><li>Function Syntax:</li></ul></ul>"
+            "text": "<ul><ul><li>A function is a block of code that performs a specific task or calculates a value. It can be invoked (called) multiple times throughout your code.</li><li>Functions in JavaScript can be declared using the `<code>function</code>` keyword.</li><li>Function Syntax:</li></ul></ul>"
           },
           {
             "paraid": 4,
@@ -1867,7 +1867,7 @@
           },
           {
             "paraid": 3,
-            "text": "<ul><ul><li>By ID: Use the `<code>getElementById()</code>` method to select an element based on its unique ID attribute.</li></ul></ul>"
+            "text": "<ul><ul><li>By ID: Use the `<code>getElementById()</code>` method to select an element based on its unique ID attribute.<br/><br/>For example:</li></ul></ul>"
           },
           {
             "paraid": 4,
@@ -1888,7 +1888,7 @@
           },
           {
             "paraid": 5,
-            "text": "<ul><ul><li>By Class: Use the `<code>getElementsByClassName()</code>` method to select elements based on their class names. It returns a collection of elements.</li></ul></ul>"
+            "text": "<ul><ul><li>By Class: Use the `<code>getElementsByClassName()</code>` method to select elements based on their class names. It returns a collection of elements.<br/><br/>For example:</li></ul></ul>"
           },
           {
             "paraid": 6,
@@ -1909,7 +1909,7 @@
           },
           {
             "paraid": 7,
-            "text": "<ul><ul><li>By Tag Name: Use the `<code>getElementsByTagName()</code>` method to select elements based on their tag names. It also returns a collection of elements.</li></ul></ul>"
+            "text": "<ul><ul><li>By Tag Name: Use the `<code>getElementsByTagName()</code>` method to select elements based on their tag names. It also returns a collection of elements.<br/><br/>For example:</li></ul></ul>"
           },
           {
             "paraid": 8,
@@ -1930,7 +1930,7 @@
           },
           {
             "paraid": 9,
-            "text": "<ul><ul><li>By CSS Selector: Use the `<code>querySelector()</code>` or `<code>querySelectorAll()</code>` method to select elements using CSS selectors. `<code>querySelector()</code>` returns the first matching element, while `<code>querySelectorAll()</code>` returns a collection of all matching elements.</li></ul></ul>"
+            "text": "<ul><ul><li>By CSS Selector: Use the `<code>querySelector()</code>` or `<code>querySelectorAll()</code>` method to select elements using CSS selectors. `<code>querySelector()</code>` returns the first matching element, while `<code>querySelectorAll()</code>` returns a collection of all matching elements.<br/><br/>For example:</li></ul></ul>"
           },
           {
             "paraid": 10,
@@ -1955,7 +1955,7 @@
           },
           {
             "paraid": 12,
-            "text": "<ul><ul><li>Changing Content: You can modify the content of an element using the `<code>innerHTML</code>` property or the `<code>textContent</code>` property.</li></ul></ul>"
+            "text": "<ul><ul><li>Changing Content: You can modify the content of an element using the `<code>innerHTML</code>` property or the `<code>textContent</code>` property.<br/><br/>For example:</li></ul></ul>"
           },
           {
             "paraid": 13,
@@ -1976,7 +1976,7 @@
           },
           {
             "paraid": 14,
-            "text": "<ul><ul><li>Modifying Attributes: Use the `<code>getAttribute()</code>` and `<code>setAttribute()</code>` methods to get and set attribute values of an element.</li></ul></ul>"
+            "text": "<ul><ul><li>Modifying Attributes: Use the `<code>getAttribute()</code>` and `<code>setAttribute()</code>` methods to get and set attribute values of an element.<br/><br/>For example:</li></ul></ul>"
           },
           {
             "paraid": 15,
@@ -1997,7 +1997,7 @@
           },
           {
             "paraid": 16,
-            "text": "<ul><ul><li>Changing Styles: Use the `<code>style</code>` property to modify the CSS styles of an element.</li></ul></ul>"
+            "text": "<ul><ul><li>Changing Styles: Use the `<code>style</code>` property to modify the CSS styles of an element.<br/><br/>For example:</li></ul></ul>"
           },
           {
             "paraid": 17,
@@ -2018,7 +2018,7 @@
           },
           {
             "paraid": 18,
-            "text": "<ul><ul><li>Adding and Removing Classes: Use the `<code>classList</code>` property to add or remove CSS classes from an element.</li></ul></ul>"
+            "text": "<ul><ul><li>Adding and Removing Classes: Use the `<code>classList</code>` property to add or remove CSS classes from an element.<br/><br/>For example:</li></ul></ul>"
           },
           {
             "paraid": 19,
@@ -2039,7 +2039,7 @@
           },
           {
             "paraid": 20,
-            "text": "<ul><ul><li>Creating Elements: Use the `<code>createElement()</code>` method to create a new element, and `<code>createTextNode()</code>` to create a text node.</li></ul></ul>"
+            "text": "<ul><ul><li>Creating Elements: Use the `<code>createElement()</code>` method to create a new element, and `<code>createTextNode()</code>` to create a text node.<br/><br/>For example:</li></ul></ul>"
           },
           {
             "paraid": 21,
@@ -2060,7 +2060,7 @@
           },
           {
             "paraid": 22,
-            "text": "<ul><ul><li>Appending and Removing Elements: Use the `<code>appendChild()</code>` method to append an element as a child of another element. Use the `<code>removeChild()</code>` method to remove an element.</li></ul></ul>"
+            "text": "<ul><ul><li>Appending and Removing Elements: Use the `<code>appendChild()</code>` method to append an element as a child of another element. Use the `<code>removeChild()</code>` method to remove an element.<br/><br/>For example:</li></ul></ul>"
           },
           {
             "paraid": 23,
@@ -2099,7 +2099,7 @@
           },
           {
             "paraid": 3,
-            "text": "<ul><ul><li>An event listener is a function that is executed when a specific event occurs on an element.</li><li>You can attach an event listener to an element using the `<code>addEventListener()</code>` method.</li></ul></ul>"
+            "text": "<ul><ul><li>An event listener is a function that is executed when a specific event occurs on an element.</li><li>You can attach an event listener to an element using the `<code>addEventListener()</code>` method.<br/><br/>For example:</li></ul></ul>"
           },
           {
             "paraid": 4,
@@ -2124,7 +2124,7 @@
           },
           {
             "paraid": 6,
-            "text": "<ul><ul><li>An event handler function is the function that gets executed when an event occurs.</li><li>It receives an `<code>event</code>` object as a parameter, which provides information about the event and its target element.</li></ul></ul>"
+            "text": "<ul><ul><li>An event handler function is the function that gets executed when an event occurs.</li><li>It receives an `<code>event</code>` object as a parameter, which provides information about the event and its target element.<br/><br/>For example:</li></ul></ul>"
           },
           {
             "paraid": 7,
@@ -2157,7 +2157,7 @@
           },
           {
             "paraid": 11,
-            "text": "<ul><ul><li>Events in the DOM follow a bubbling or capturing phase, which determines the order in which event handlers are triggered.</li><li>By default, events bubble up from the target element to its parent elements. You can use the `<code>event.stopPropagation()</code>` method to stop the event from further propagation.</li><li>Capturing phase allows you to handle the event on the parent elements before reaching the target element. You can enable capturing by passing a third argument `<code>true</code>` to the `<code>addEventListener()</code>` method.</li></ul></ul>"
+            "text": "<ul><ul><li>Events in the DOM follow a bubbling or capturing phase, which determines the order in which event handlers are triggered.</li><li>By default, events bubble up from the target element to its parent elements. You can use the `<code>event.stopPropagation()</code>` method to stop the event from further propagation.</li><li>Capturing phase allows you to handle the event on the parent elements before reaching the target element. You can enable capturing by passing a third argument `<code>true</code>` to the `<code>addEventListener()</code>` method.<br/><br/>For example:</li></ul></ul>"
           },
           {
             "paraid": 12,
@@ -2182,7 +2182,7 @@
           },
           {
             "paraid": 14,
-            "text": "<ul><ul><li>Event delegation is a technique where you attach a single event listener to a parent element to handle events for its child elements.</li><li>This approach is useful when you have a large number of dynamically created elements or when elements are added/removed dynamically from the DOM.</li></ul></ul>"
+            "text": "<ul><ul><li>Event delegation is a technique where you attach a single event listener to a parent element to handle events for its child elements.</li><li>This approach is useful when you have a large number of dynamically created elements or when elements are added/removed dynamically from the DOM.<br/><br/>For example:</li></ul></ul>"
           },
           {
             "paraid": 15,
@@ -2207,7 +2207,7 @@
           },
           {
             "paraid": 17,
-            "text": "<ul><ul><li>To remove an event listener, you can use the `<code>removeEventListener()</code>` method.</li></ul></ul>"
+            "text": "<ul><ul><li>To remove an event listener, you can use the `<code>removeEventListener()</code>` method.<br/><br/>For example:</li></ul></ul>"
           },
           {
             "paraid": 18,
@@ -2232,7 +2232,7 @@
           },
           {
             "paraid": 20,
-            "text": "<ul><ul><li>Alternatively, you can use inline event handlers directly in HTML tags, but this approach is generally considered less maintainable and less flexible.</li></ul></ul>"
+            "text": "<ul><ul><li>Alternatively, you can use inline event handlers directly in HTML tags, but this approach is generally considered less maintainable and less flexible.<br/><br/>For example:</li></ul></ul>"
           },
           {
             "paraid": 21,
