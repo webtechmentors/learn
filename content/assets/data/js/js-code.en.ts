@@ -2449,6 +2449,29 @@ export const js_5_4_2_1 =
 </body>
 </html>`;
 
+export const js_5_5_1 =
+`// Adding an event listener to a DOM element for "click" event
+document.getElementById("myButton").addEventListener("click", function() {
+  alert("Button Clicked!");
+});`;
+
+export const js_5_5_1_1 =
+`<!DOCTYPE html>
+<html>
+<head>
+  <title>Event-Driven Programming</title>
+</head>
+<body>
+  <button id="myButton">Click Me!</button>
+  <script>
+    // Adding an event listener to the button element for "click" event
+    document.getElementById("myButton").addEventListener("click", function() {
+      alert("Button Clicked!");
+    });
+  </script>
+</body>
+</html>`;
+
 export const js_6_1_1 =
 `navigator.geolocation.getCurrentPosition(
   position => {

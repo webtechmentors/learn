@@ -2537,7 +2537,7 @@
           },
           {
             "paraid": 13,
-            "text": "<ul><ul><li>Promise rejections can be handled using the `<code>catch()</code>` method, which takes a callback function that will be executed when the promise is rejected.</li><li>The `<code>catch()</code>` method allows you to handle any errors that occur during the asynchronous operation or in any of the preceding `<code>then()</code>` callbacks.</li><li>It's generally recommended to have a `<code>catch()</code>` at the end of the promise chain to handle any unhandled rejections. Refer to two above examples.</li></ul></ul>"
+            "text": "<ul><ul><li>Promise rejections can be handled using the `<code>catch()</code>` method, which takes a callback function that will be executed when the promise is rejected.</li><li>The `<code>catch()</code>` method allows you to handle any errors that occur during the asynchronous operation or in any of the preceding `<code>then()</code>` callbacks.</li><li>It's generally recommended to have a `<code>catch()</code>` at the end of the promise chain to handle any unhandled rejections. Refer to two examples above.</li></ul></ul>"
           },
           {
             "paraid": 14,
@@ -2627,6 +2627,73 @@
           {
             "paraid": 13,
             "text": "Async/await offers a more intuitive and synchronous-like way to write asynchronous code, making it easier to read, write, and reason about. It simplifies error handling and allows for sequential execution of asynchronous operations. However, it's important to note that async/await can only be used within async functions and requires promises to be present for it to work. It has become a widely adopted pattern in modern JavaScript development and is commonly used in conjunction with promises or libraries and frameworks that use promises as their underlying mechanism for handling asynchronous tasks."
+          }
+        ]
+      },
+      {
+        "secid": 5,
+        "subtitle": "Event-driven Programming",
+        "paragraphs": [
+          {
+            "paraid": 1,
+            "text": "JavaScript is a language well-suited for event-driven programming. Event-driven programming is a paradigm where the flow of a program is primarily determined by events, such as user actions, system events, or messages from other parts of the program. Instead of following a linear sequence of execution, event-driven programs react to these events by executing specific event handlers or callbacks."
+          },
+          {
+            "paraid": 2,
+            "text": "In the context of web development, event-driven programming is especially prominent due to the nature of the browser environment, where user interactions (clicks, keypresses, etc.) trigger events that developers can listen to and respond to accordingly."
+          },
+          {
+            "paraid": 3,
+            "text": "Here's an overview of how event-driven programming works in JavaScript."
+          },
+          {
+            "paraid": 4,
+            "text": "<ol><li>Event Listeners:</li></ol>"
+          },
+          {
+            "paraid": 5,
+            "text": "<ul><ul><li>In event-driven programming, you attach event listeners to specific elements or objects that are likely to generate events. These event listeners \"listen\" for events to occur. When the event is triggered, the associated callback function, also known as an event handler, is executed.</li></ul></ul>"
+          },
+          {
+            "paraid": 6,
+            "text": "<ol start=\"2\"><li>Event Handling:</li></ol>"
+          },
+          {
+            "paraid": 7,
+            "text": "<ul><ul><li>The event handler is a function that contains the logic to be executed when the event occurs. It could be anything from updating the user interface, processing data, making an AJAX request, or changing the application's state.</li></ul></ul>"
+          },
+          {
+            "paraid": 8,
+            "text": "<ol start=\"3\"><li>Asynchronous Execution:</li></ol>"
+          },
+          {
+            "paraid": 9,
+            "text": "<ul><ul><li>Event-driven programming is inherently asynchronous. When you register an event listener, the program continues executing without waiting for the event to occur. Once the event happens, the event handler is invoked asynchronously, allowing the rest of the program to continue its normal flow.</li></ul></ul>"
+          },
+          {
+            "paraid": 10,
+            "text": "<ul><ul>Here's an example of event-driven programming in JavaScript:</ul></ul>"
+          },
+          {
+            "paraid": 11,
+            "text": "",
+            "codeConfig": {
+              "codeid": "js_5_5_1",
+              "exampleid": "js_5_5_1_1",
+              "codeOutput": false,
+              "exampleOutput": true,
+              "codeTitle": "JS",
+              "exampleTitle": "Example",
+              "codeLangs": "ts",
+              "exampleLangs": "xml",
+              "codeSource": "",
+              "exampleSource": "",
+              "marginLeft": "5rem"
+            }
+          },
+          {
+            "paraid": 12,
+            "text": "JavaScript's event-driven nature allows for interactive and responsive web applications. It is widely used in various contexts, including web development, desktop applications, and server-side programming with Node.js. Event-driven architecture plays a crucial role in enabling non-blocking behavior and efficient resource utilization, making it a fundamental concept in modern programming paradigms."
           }
         ]
       }
