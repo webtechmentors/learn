@@ -2739,11 +2739,11 @@
           },
           {
             "paraid": 5,
-            "text": "<ol start=\"2\"><li>Web Storage API:</li></ol>"
+            "text": "<ol start=\"2\"><li>Browser Storage API:</li></ol>"
           },
           {
             "paraid": 6,
-            "text": "<ul><ul><li>The Web Storage API provides a way to store key-value pairs locally in the browser.</li><li>There are two types of web storage available: `<code>localStorage</code>` and `<code>sessionStorage</code>`.</li><li>`<code>localStorage</code>` allows you to store data persistently across browser sessions, while `<code>sessionStorage</code>` stores data for the duration of the session.</li><li>You can use the `<code>setItem()</code>`, `<code>getItem()</code>`, and `<code>removeItem()</code>` methods to interact with web storage.</li><li>Here's an example of using `<code>localStorage</code>`:</li></ul></ul>"
+            "text": "<ul><ul><li>The Browser Storage API provides a way to store key-value pairs locally in the browser.</li><li>There are two types of browser storage available: `<code>localStorage</code>` and `<code>sessionStorage</code>`.</li><li>`<code>localStorage</code>` allows you to store data persistently across browser sessions, while `<code>sessionStorage</code>` stores data for the duration of the session.</li><li>You can use the `<code>setItem()</code>`, `<code>getItem()</code>`, and `<code>removeItem()</code>` methods to interact with browser storage.</li><li>Here's an example of using `<code>localStorage</code>`:</li></ul></ul>"
           },
           {
             "paraid": 7,
@@ -2751,6 +2751,60 @@
             "codeConfig": {
               "codeid": "js_6_1_2",
               "exampleid": "js_6_1_2_1",
+              "codeOutput": false,
+              "exampleOutput": true,
+              "codeTitle": "JS",
+              "exampleTitle": "Example",
+              "codeLangs": "ts",
+              "exampleLangs": "xml",
+              "codeSource": "",
+              "exampleSource": "",
+              "marginLeft": "5rem"
+            }
+          },
+          {
+            "paraid": 11,
+            "text": "<ol start=\"3\"><li>Browser Clipboard API</li></ol>"
+          },
+          {
+            "paraid": 11,
+            "text": "<ul><ul><li>The Browser Clipboard API allows web applications to interact with the user's clipboard, enabling copying, cutting, and pasting content programmatically. This API provides methods and events to read data from the clipboard as well as to write data to it.</li></ul></ul>"
+          },
+          {
+            "paraid": 11,
+            "text": "<ul><ul><li>Please note that clipboard access may have certain security and privacy implications, and browsers may have specific permissions or restrictions to ensure a safe user experience. Therefore, clipboard-related operations are generally only allowed in response to user interactions, such as clicks or keypresses.</li></ul></ul>"
+          },
+          {
+            "paraid": 11,
+            "text": "<ul><ul><li>Copying Text to Clipboard: To copy text to the clipboard, you can use the `<code>navigator.clipboard.writeText()</code>` method. This method returns a Promise that resolves when the text is successfully copied to the clipboard.<br/><br/>For example:</li></ul></ul>"
+          },
+          {
+            "paraid": 7,
+            "text": "",
+            "codeConfig": {
+              "codeid": "js_6_1_3",
+              "exampleid": "",
+              "codeOutput": false,
+              "exampleOutput": false,
+              "codeTitle": "JS",
+              "exampleTitle": "",
+              "codeLangs": "ts",
+              "exampleLangs": "",
+              "codeSource": "",
+              "exampleSource": "",
+              "marginLeft": "5rem"
+            }
+          },
+          {
+            "paraid": 11,
+            "text": "<ul><ul><li>Reading Text from Clipboard: To read text from the clipboard, you can use the `<code>navigator.clipboard.readText()</code>` method. This method returns a Promise that resolves with the text read from the clipboard. After copying, you can also use `<code>CTR+C</code>` in Windows or use `<code>CMD+C</code>` to pasts clipboard content to other applications.<br/><br/>For example:</li></ul></ul>"
+          },
+          {
+            "paraid": 7,
+            "text": "",
+            "codeConfig": {
+              "codeid": "js_6_1_4",
+              "exampleid": "js_6_1_4_1",
               "codeOutput": false,
               "exampleOutput": true,
               "codeTitle": "JS",

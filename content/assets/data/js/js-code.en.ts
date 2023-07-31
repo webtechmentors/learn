@@ -2488,7 +2488,7 @@ export const js_6_1_1_1 =
 `<!DOCTYPE html>
 <html>
 <head>
-  <title>Geolocation Example</title>
+  <title>Browser Geolocation API Example</title>
   <script src="assets/js/utils.js"></script>
 </head>
 <body>
@@ -2525,7 +2525,7 @@ export const js_6_1_2_1 =
 `<!DOCTYPE html>
 <html>
 <head>
-  <title>Web Storage Example</title>
+  <title>Browser Storage API Example</title>
   <script src="assets/js/utils.js"></script>
 </head>
 <body>
@@ -2539,6 +2539,72 @@ export const js_6_1_2_1 =
     
     // Removing data
     localStorage.removeItem('key');
+  </script>
+</body>
+</html>`;
+
+export const js_6_1_3 =
+`const copyButton = document.getElementById("copyButton");
+const textToCopy = "Hello, world!";
+
+copyButton.addEventListener("click", async () => {
+  try {
+    await navigator.clipboard.writeText(textToCopy);
+    console.log("Text copied to clipboard successfully!");
+  } catch (err) {
+    console.error("Failed to copy text:", err);
+  }
+});`;
+
+export const js_6_1_4 =
+`const pasteButton = document.getElementById("pasteButton");
+const outputElement = document.getElementById("output");
+
+pasteButton.addEventListener("click", async () => {
+  try {
+    const textFromClipboard = await navigator.clipboard.readText();
+    outputElement.textContent = "Text from clipboard: " + textFromClipboard;
+  } catch (err) {
+    console.error("Failed to read text from clipboard:", err);
+  }
+});`;
+
+export const js_6_1_4_1 =
+`<!DOCTYPE html>
+<html>
+<head>
+  <title>Browser Clipboard API Example</title>
+</head>
+<body>
+  <input type="text" id="inputText" placeholder="Enter text to copy">
+  <button id="copyButton">Copy to Clipboard</button>
+  <button id="pasteButton">Paste from Clipboard</button>
+  <div id="output"></div>
+
+  <script>
+    const inputText = document.getElementById("inputText");
+    const copyButton = document.getElementById("copyButton");
+    const pasteButton = document.getElementById("pasteButton");
+    const outputElement = document.getElementById("output");
+
+    copyButton.addEventListener("click", async () => {
+      const textToCopy = inputText.value;
+      try {
+        await navigator.clipboard.writeText(textToCopy);
+        console.log("Text copied to clipboard successfully!");
+      } catch (err) {
+        console.error("Failed to copy text:", err);
+      }
+    });
+
+    pasteButton.addEventListener("click", async () => {
+      try {
+        const textFromClipboard = await navigator.clipboard.readText();
+        outputElement.textContent = "Text from clipboard: " + textFromClipboard;
+      } catch (err) {
+        console.error("Failed to read text from clipboard:", err);
+      }
+    });
   </script>
 </body>
 </html>`;
