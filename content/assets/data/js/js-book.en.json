@@ -3474,7 +3474,7 @@
           },
           {
             "paraid": 13,
-            "text": "<ul><ul><li>Modern web browsers, such as Chrome, Firefox, and Safari, provide developer tools that include comprehensive debugging capabilities.</li><li>These tools offer a range of features, including breakpoints, step-by-step execution, console logging, network monitoring, and DOM inspection.</li><li>Familiarize yourself with the debugging features available in your preferred browser's developer tools.</li></ul></ul>"
+            "text": "<ul><ul><li>Modern web browsers, such as Chrome, Firefox, and Safari, provide developer tools that include comprehensive debugging capabilities.</li><li>These tools offer a range of features, including breakpoints, step-by-step execution, console logging, network monitoring, and DOM inspection.</li><li>Familiarize yourself with the debugging features available in your preferred browser's developer tools.</li><li>You can also put the `<code>debugger</code>` statement before the code to be tested. It works as setting a breakpoint and triggers any available debugging functionality. The statement has no effect if debugging functionality is unavailable.</li></ul></ul>"
           },
           {
             "paraid": 14,
@@ -3544,7 +3544,7 @@
           },
           {
             "paraid": 11,
-            "text": "<ul><ul><li>Network errors occur when there is a problem with network connectivity or when making HTTP requests.</li><li>These errors can include failed requests, timeouts, or CORS (Cross-Origin Resource Sharing) issues.</li><li>To handle network errors, use `<code>try-catch</code>` blocks when making asynchronous requests and handle specific error codes or response statuses gracefully.</li></ul></ul>"
+            "text": "<ul><ul><li>Network errors occur when there is a problem with network connectivity or when making HTTP requests.</li><li>These errors can include failed requests, timeouts, or CORS (Cross-Origin Resource Sharing) issues.</li><li>To handle network errors, please refer to Sections \"Making HTTP requests with AJAX\" and \"Making HTTP requests with the Fetch API\" in Chapter 6.</li></ul></ul>"
           },
           {
             "paraid": 12,
@@ -3790,7 +3790,7 @@
           },
           {
             "paraid": 7,
-            "text": "<ul><ul><li>Optimize loops by reducing the number of iterations and avoiding unnecessary operations within the loop.</li><li>Store the length of an array in a variable before the loop to prevent recalculating it on each iteration.</li><li>Consider using techniques like loop unrolling or loop inversion to optimize specific scenarios.</li></ul></ul>"
+            "text": "<ul><ul><li>Optimize loops by reducing the number of iterations and avoiding unnecessary operations within the loop.</li><li>Consider using techniques like loop unrolling or loop inversion to optimize specific scenarios.</li></ul></ul>"
           },
           {
             "paraid": 8,
@@ -3854,7 +3854,7 @@
           },
           {
             "paraid": 23,
-            "text": "<ul><ul><li>Be mindful of memory usage and manage memory efficiently.</li><li>Avoid memory leaks by properly releasing resources, removing event listeners, and deallocating memory when no longer needed.</li><li>Use techniques like object pooling or memory reuse for performance-critical scenarios.</li></ul></ul>"
+            "text": "<ul><ul><li>Be mindful of memory usage and manage memory efficiently.</li><li>Avoid memory leaks by properly releasing resources, removing event listeners to deallocate memory when no longer needed.</li><li>Use techniques like object pooling or memory reuse for performance-critical scenarios.</li></ul></ul>"
           },
           {
             "paraid": 24,
