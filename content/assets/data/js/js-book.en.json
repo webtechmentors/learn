@@ -2840,18 +2840,102 @@
           },
           {
             "paraid": 4,
-            "text": "<ol start=\"2\"><li>XMLHttpRequest Object:</li></pl>"
+            "text": "<ol start=\"2\"><li>Creating and Using XMLHttpRequest Objects:</li></ol>"
           },
           {
-            "paraid": 5,
-            "text": "<ul><ul><li>The XMLHttpRequest (XHR) object is the core of AJAX. It provides the ability to send and receive data between a web browser and a server.</li><li>The XHR object has various methods and properties to handle the request and response.</li><li>Here's an example of making an AJAX request using the XHR object:</li></ul></ul>"
+            "paraid": 4,
+            "text": "<ul><ul><li><strong>Creating an instance</strong>: To create a new `<code>XMLHttpRequest</code>` object, you can use the `<code>new XMLHttpRequest()</code>` constructor.<br/><br/>For example:</li></ul></ul>"
           },
           {
-            "paraid": 6,
+            "paraid": 7,
             "text": "",
             "codeConfig": {
               "codeid": "js_6_2_1",
-              "exampleid": "js_6_2_1_1",
+              "exampleid": "",
+              "codeOutput": false,
+              "exampleOutput": false,
+              "codeTitle": "JS",
+              "exampleTitle": "",
+              "codeLangs": "ts",
+              "exampleLangs": "",
+              "codeSource": "",
+              "exampleSource": "",
+              "marginLeft": "5rem"
+            }
+          },
+          {
+            "paraid": 4,
+            "text": "<ul><ul><li><strong>Configuring the request</strong>: After creating the object, you configure the request by specifying the HTTP method, URL, and other optional parameters.<br/><br/>For example:</li></ul></ul>"
+          },
+          {
+            "paraid": 7,
+            "text": "",
+            "codeConfig": {
+              "codeid": "js_6_2_2",
+              "exampleid": "",
+              "codeOutput": false,
+              "exampleOutput": false,
+              "codeTitle": "JS",
+              "exampleTitle": "",
+              "codeLangs": "ts",
+              "exampleLangs": "",
+              "codeSource": "",
+              "exampleSource": "",
+              "marginLeft": "5rem"
+            }
+          },
+          {
+            "paraid": 4,
+            "text": "<ul><ul><li><strong>Setting Headers (Optional)</strong>: If your request requires custom headers, you can set them using the `<code>setRequestHeader</code>` method.<br/><br/>For example:</li></ul></ul>"
+          },
+          {
+            "paraid": 7,
+            "text": "",
+            "codeConfig": {
+              "codeid": "js_6_2_3",
+              "exampleid": "",
+              "codeOutput": false,
+              "exampleOutput": false,
+              "codeTitle": "JS",
+              "exampleTitle": "",
+              "codeLangs": "ts",
+              "exampleLangs": "",
+              "codeSource": "",
+              "exampleSource": "",
+              "marginLeft": "5rem"
+            }
+          },
+          {
+            "paraid": 4,
+            "text": "<ul><ul><li><strong>Handling the Response</strong>: You need to set up a function to handle the response when the server responds. This function is assigned to the `<code>onreadystatechange</code>` event, and it will be called whenever the `<code>readyState</code>` of the request changes.<br/><br/>For example:</li></ul></ul>"
+          },
+          {
+            "paraid": 7,
+            "text": "",
+            "codeConfig": {
+              "codeid": "js_6_2_4",
+              "exampleid": "",
+              "codeOutput": false,
+              "exampleOutput": false,
+              "codeTitle": "JS",
+              "exampleTitle": "",
+              "codeLangs": "ts",
+              "exampleLangs": "",
+              "codeSource": "",
+              "exampleSource": "",
+              "marginLeft": "5rem"
+            }
+          },
+          {
+            "paraid": 4,
+            "text": "<ul><ul><li><strong>Sending the Request</strong>: After setting up the request and response handling, you send the request to the server.<br/><br/>For example:</li></ul></ul>"
+          },
+          {
+            "paraid": 7,
+            "text": "",
+            "codeConfig": {
+              "codeid": "js_6_2_5",
+              "exampleid": "js_6_2_5_1",
               "codeOutput": false,
               "exampleOutput": true,
               "codeTitle": "JS",
@@ -2864,8 +2948,117 @@
             }
           },
           {
+            "paraid": 4,
+            "text": "<ol start=\"3\"><li>Handling Errors:</li></ol>"
+          },
+          {
+            "paraid": 4,
+            "text": "<ul><ul><li><strong>Creation and Initialization</strong>: When creating a new `<code>XMLHttpRequest</code>` object, it's essential to handle any potential errors during initialization. The initialization can fail due to security restrictions or if the browser does not support the `<code>XMLHttpRequest</code>` object. To handle this, you can use a `<code>try-catch</code>` block when creating the `<code>XMLHttpRequest</code>` instance.<br/><br/>For example:</li></ul></ul>"
+          },
+          {
             "paraid": 7,
-            "text": "<ol start=\"3\"><li>Updating Web Page Content:</li></pl>"
+            "text": "",
+            "codeConfig": {
+              "codeid": "js_6_2_6",
+              "exampleid": "",
+              "codeOutput": false,
+              "exampleOutput": false,
+              "codeTitle": "JS",
+              "exampleTitle": "",
+              "codeLangs": "ts",
+              "exampleLangs": "",
+              "codeSource": "",
+              "exampleSource": "",
+              "marginLeft": "5rem"
+            }
+          },
+          {
+            "paraid": 4,
+            "text": "<ul><ul><li><strong>Network Errors</strong>: During the request's execution, various network-related errors can occur, such as the server being unreachable, a timeout, or a failed connection. You can listen for the `<code>onerror</code>` event to catch these types of errors.<br/><br/>For example:</li></ul></ul>"
+          },
+          {
+            "paraid": 7,
+            "text": "",
+            "codeConfig": {
+              "codeid": "js_6_2_7",
+              "exampleid": "",
+              "codeOutput": false,
+              "exampleOutput": false,
+              "codeTitle": "JS",
+              "exampleTitle": "",
+              "codeLangs": "ts",
+              "exampleLangs": "",
+              "codeSource": "",
+              "exampleSource": "",
+              "marginLeft": "5rem"
+            }
+          },
+          {
+            "paraid": 4,
+            "text": "<ul><ul><li><strong>HTTP Errors</strong>: After the request is sent and the server responds, there might be HTTP errors like 404 Not Found or 500 Internal Server Error. These errors are considered successful requests but unsuccessful responses. You can handle these errors by checking the status code of the response.<br/><br/>For example:</li></ul></ul>"
+          },
+          {
+            "paraid": 7,
+            "text": "",
+            "codeConfig": {
+              "codeid": "js_6_2_8",
+              "exampleid": "",
+              "codeOutput": false,
+              "exampleOutput": false,
+              "codeTitle": "JS",
+              "exampleTitle": "",
+              "codeLangs": "ts",
+              "exampleLangs": "",
+              "codeSource": "",
+              "exampleSource": "",
+              "marginLeft": "5rem"
+            }
+          },
+          {
+            "paraid": 4,
+            "text": "<ul><ul><li><strong>Timeout Handling</strong>: To avoid infinite waiting for a response, you can set a timeout for the request. If the timeout is exceeded, you can handle it as an error.<br/><br/>For example:</li></ul></ul>"
+          },
+          {
+            "paraid": 7,
+            "text": "",
+            "codeConfig": {
+              "codeid": "js_6_2_9",
+              "exampleid": "",
+              "codeOutput": false,
+              "exampleOutput": false,
+              "codeTitle": "JS",
+              "exampleTitle": "",
+              "codeLangs": "ts",
+              "exampleLangs": "",
+              "codeSource": "",
+              "exampleSource": "",
+              "marginLeft": "5rem"
+            }
+          },
+          {
+            "paraid": 10,
+            "text": "<ul><ul>Here is a complete example of error handling:</ul></ul>"
+          },
+          {
+            "paraid": 7,
+            "text": "",
+            "codeConfig": {
+              "codeid": "",
+              "exampleid": "js_6_2_10_1",
+              "codeOutput": false,
+              "exampleOutput": true,
+              "codeTitle": "",
+              "exampleTitle": "Example",
+              "codeLangs": "ts",
+              "exampleLangs": "xml",
+              "codeSource": "",
+              "exampleSource": "",
+              "marginLeft": "5rem"
+            }
+          },
+          {
+            "paraid": 7,
+            "text": "<ol start=\"4\"><li>Updating Web Page Content:</li></pl>"
           },
           {
             "paraid": 8,
@@ -2875,13 +3068,13 @@
             "paraid": 9,
             "text": "",
             "codeConfig": {
-              "codeid": "js_6_2_2",
-              "exampleid": "js_6_2_2_1",
+              "codeid": "js_6_2_11",
+              "exampleid": "js_6_2_11_1",
               "codeOutput": false,
               "exampleOutput": true,
               "codeTitle": "JS",
               "exampleTitle": "Example",
-              "codeLangs": "ts",
+              "codeLangs": "xml",
               "exampleLangs": "xml",
               "codeSource": "",
               "exampleSource": "",
@@ -2954,7 +3147,7 @@
           },
           {
             "paraid": 7,
-            "text": "<ol start=\"3\"><li>Handling Response:</li></ol>"
+            "text": "<ol start=\"3\"><li>Handling the Response:</li></ol>"
           },
           {
             "paraid": 8,
@@ -2962,7 +3155,7 @@
           },
           {
             "paraid": 10,
-            "text": "<ol start=\"4\"><li>Error Handling:</li></ol>"
+            "text": "<ol start=\"4\"><li>Handling Errors:</li></ol>"
           },
           {
             "paraid": 11,
@@ -3552,11 +3745,11 @@
           },
           {
             "paraid": 13,
-            "text": "<ul><ul><li>JavaScript provides built-in error objects like `<code>Error</code>`, `<code>TypeError</code>`, `<code>ReferenceError</code>`, etc., that can be used to catch and handle specific types of errors.</li><li>You can use the `<code>try-catch</code>` statement to catch errors and handle them gracefully.</li><li>The `<code>catch</code>` block can include code to handle the error, log error messages, or display user-friendly error messages.</li></ul></ul>"
+            "text": "<ul><ul><li>JavaScript provides built-in error objects like `<code>Error</code>`, `<code>TypeError</code>`, `<code>ReferenceError</code>`, etc., that can be used to catch and handle specific types of errors.</li><li>You can use the `<code>try-catch-finally</code>` statement to catch errors and handle them gracefully.</li><li>The `<code>catch</code>` block can include code to handle the error, log error messages, or display user-friendly error messages.</li><li>The `<code>finally</code>` block is executed regardless whether an exception is thrown or caught. This block is optional.</li></ul></ul>"
           },
           {
             "paraid": 14,
-            "text": "<ul><ul>Example of handling errors using `<code>try-catch</code>`:</ul></ul>"
+            "text": "<ul><ul>Example of handling errors using `<code>try-catch-finally</code>`:</ul></ul>"
           },
           {
             "paraid": 15,

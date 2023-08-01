@@ -2610,10 +2610,32 @@ export const js_6_1_4_1 =
 </html>`;
 
 export const js_6_2_1 =
-`// Create an XMLHttpRequest object
-let xhr = new XMLHttpRequest();`;
+`const xhr = new XMLHttpRequest();`;
 
-export const js_6_2_1_1 =
+export const js_6_2_2 =
+`xhr.open('GET', 'https://api.example.com/data', true);`;
+
+export const js_6_2_3 =
+`xhr.setRequestHeader('Content-Type', 'application/json');`;
+
+export const js_6_2_4 =
+`xhr.onreadystatechange = function() {
+  if (xhr.readyState === XMLHttpRequest.DONE) {
+    if (xhr.status === 200) {
+      // Request was successful, handle the response
+      const responseData = xhr.responseText;
+      // ...
+    } else {
+      // Handle HTTP error
+      console.error('HTTP error occurred:', xhr.status, xhr.statusText);
+    }
+  }
+};`;
+
+export const js_6_2_5 =
+`xhr.send();`;
+
+export const js_6_2_5_1 =
 `<!DOCTYPE html>
 <html>
 <head>
@@ -2628,80 +2650,163 @@ export const js_6_2_1_1 =
     // Set up the AJAX request
     xhr.open('GET', 'assets/data/json/hello.json', true); // true for asynchronous, false for synchronous
     
+    // Set up request headers
+    xhr.setRequestHeader('Content-Type', 'application/json');
+
     // Handle the Response
-    xhr.onload = function () {
-      // The request was successful, and the response data is available in xhr.responseText
-      if (xhr.status >= 200 && xhr.status < 300) {
-        console.log(xhr.responseText); // Output the response data
-      } else {
-        console.error('Request failed:', xhr.status, xhr.statusText); // Handle errors if the request was not successful
+    xhr.onreadystatechange = function() {
+      if (xhr.readyState === XMLHttpRequest.DONE) {
+        if (xhr.status === 200) {
+          // Request was successful, handle the response
+          const responseData = xhr.responseText;
+          console.log(xhr.responseText); // Output the response data
+        } else {
+          // Handle HTTP error
+          console.error('HTTP error occurred:', xhr.status, xhr.statusText);
+        }
       }
     };
-    
-    // Handle Errors
-    xhr.onerror = function () {
-      console.error('Network error occurred'); // Handle network errors
-    };
-    
+
     // Send the Request
     xhr.send();
   </script>
 </body>
 </html>`;
 
-export const js_6_2_2 =
-`<div>
-  <!-- The content will be updated here -->
-  <h2 id="header">----------</h2>
-  <p id="paragraph">----------</p>
-</div>
+export const js_6_2_6 =
+`let xhr;
+try {
+  xhr = new XMLHttpRequest();
+} catch (error) {
+  // Handle initialization error
+  console.error("XMLHttpRequest creation failed:", error);
+}`;
 
-<button id="updateButton">Update Content</button>
+export const js_6_2_7 =
+`xhr.onerror = function() {
+  // Handle network error
+  console.error('Network error occurred:', xhr.status, xhr.statusText);
+};`;
 
-<script>
-  // Event listener to handle the button click
-  document.getElementById('updateButton').addEventListener('click', function() {
-    // Create a new XMLHttpRequest object
-    const xhr = new XMLHttpRequest();
+export const js_6_2_8 =
+`xhr.onreadystatechange = function() {
+  if (xhr.readyState === XMLHttpRequest.DONE) {
+    if (xhr.status === 200) {
+      // Request was successful, handle the response
+    } else {
+      // Handle HTTP error
+      console.error('HTTP error occurred:', xhr.status, xhr.statusText);
+    }
+  }
+};`;
 
-    // Configure the AJAX request
-    xhr.open('GET', 'assets/data/json/content.json', true);
+export const js_6_2_9 =
+`xhr.timeout = 5000; // Set the timeout to 5 seconds
 
-    // Set up the response handling
-    xhr.onload = function() {
-      if (xhr.status >= 200 && xhr.status < 300) {
-        // Parse the JSON response into an object
-        const data = JSON.parse(xhr.responseText);
+xhr.ontimeout = function() {
+  // Handle timeout error
+  console.error('Request timed out');
+};`;
 
-        // Update the content of h2 and p elements with the data from the JSON file
-        document.getElementById('header').innerHTML = data.title;
-        document.getElementById('paragraph').innerHTML = data.content;
-      } else {
-        console.error('Request failed:', xhr.status, xhr.statusText);
-      }
-    };
-
-    // Handle network errors
-    xhr.onerror = function() {
-      console.error('Network error occurred');
-    };
-
-    // Send the AJAX request
-    xhr.send();
-  });
-</script>`;
-
-export const js_6_2_2_1 =
+export const js_6_2_10_1 =
 `<!DOCTYPE html>
 <html>
 <head>
-  <title>AJAX Example</title>
+  <title>Ajax Error Handling Example</title>
+  <script src="assets/js/utils.js"></script>
+</head>
+<body>
+  <script>
+    // Create an XMLHttpRequest object
+    let xhr;
+    try {
+      xhr = new XMLHttpRequest();
+    } catch (error) {
+      // Handle initialization error
+      console.error("XMLHttpRequest creation failed:", error);
+    }
+
+    // Set up the AJAX request
+    xhr.open('GET', 'https://api.example.com/data', true); // true for asynchronous, false for synchronous
+    
+    // Set up request headers
+    xhr.setRequestHeader('Content-Type', 'application/json');
+
+    // Handle the Response
+    xhr.onreadystatechange = function() {
+      if (xhr.readyState === XMLHttpRequest.DONE) {
+        if (xhr.status === 200) {
+          // Request was successful, handle the response
+          const responseData = xhr.responseText;
+          console.log(xhr.responseText); // Output the response data
+        } else {
+          // Handle HTTP error
+          console.error('HTTP error occurred:', xhr.status, xhr.statusText);
+        }
+      }
+    };
+
+    // Handle network error
+    xhr.onerror = function() {
+      console.error('Network error occurred:', xhr.status, xhr.statusText);
+    };
+
+    xhr.timeout = 5000; // Set the timeout to 5 seconds
+
+    // Handle timeout error
+    xhr.ontimeout = function() {
+      console.error('Request timed out');
+    };
+
+    // Send the Request
+    xhr.send();
+  </script>
+</body>
+</html>`;
+
+export const js_6_2_11 =
+`<div>
+  <!-- The content will be updated here -->
+  <h2 id="header">Original header</h2>
+  <p id="paragraph">Original paragraph</p>
+</div>
+
+<script>
+  // Create a new XMLHttpRequest object
+  const xhr = new XMLHttpRequest();
+
+  // Configure the AJAX request
+  xhr.open('GET', 'assets/data/json/content.json', true);
+
+  // Set up the response handling
+  xhr.onreadystatechange = function() {
+    if (xhr.readyState === XMLHttpRequest.DONE) {
+      if (xhr.status === 200) {
+        // Request was successful, handle the response
+        const data = JSON.parse(xhr.responseText);
+
+        // Update the content of h2 and p elements with the data from the JSON file
+        document.getElementById('header').innerText = data.title;
+        document.getElementById('paragraph').innerText = data.content;
+      }
+    }
+  };
+
+  // Send the AJAX request
+  xhr.send();
+</script>`;
+
+export const js_6_2_11_1 =
+`<!DOCTYPE html>
+<html>
+<head>
+  <title>AJAX Updating Web Page Content Example</title>
 </head>
 <body>
   <div>
     <!-- The content will be updated here -->
-    <h2 id="header">----------</h2>
-    <p id="paragraph">----------</p>
+    <h2 id="header">Original header</h2>
+    <p id="paragraph">Original paragraph</p>
   </div>
 
   <button id="updateButton">Update Content</button>
@@ -2716,16 +2821,19 @@ export const js_6_2_2_1 =
       xhr.open('GET', 'assets/data/json/content.json', true);
 
       // Set up the response handling
-      xhr.onload = function() {
-        if (xhr.status >= 200 && xhr.status < 300) {
-          // Parse the JSON response into an object
-          const data = JSON.parse(xhr.responseText);
+      xhr.onreadystatechange = function() {
+        if (xhr.readyState === XMLHttpRequest.DONE) {
+          if (xhr.status === 200) {
+            // Request was successful, handle the response
+            const data = JSON.parse(xhr.responseText);
 
-          // Update the content of h2 and p elements with the data from the JSON file
-          document.getElementById('header').innerText = data.title;
-          document.getElementById('paragraph').innerText = data.content;
-        } else {
-          console.error('Request failed:', xhr.status, xhr.statusText);
+            // Update the content of h2 and p elements with the data from the JSON file
+            document.getElementById('header').innerText = data.title;
+            document.getElementById('paragraph').innerText = data.content;
+          } else {
+            // Handle HTTP error
+            console.error('HTTP error occurred:', xhr.status, xhr.statusText);
+          }
         }
       };
 
@@ -3450,6 +3558,8 @@ export const js_8_2_1 =
 } catch (error) {
   // Handle the error
   console.error('Error:', error);
+} finally {
+  // Code to be executed regardless of whether an exception is thrown or caught
 }`;
 
 export const js_8_2_1_1 =
@@ -3468,6 +3578,8 @@ export const js_8_2_1_1 =
       } catch (error) {
         // Handle the error
         console.error('Error: ' + error.message);
+      } finally {
+        console.log('"Finally" code is exexuted.')
       }
     }
 
