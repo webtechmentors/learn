@@ -3667,7 +3667,7 @@
           },
           {
             "paraid": 13,
-            "text": "<ul><ul><li>Modern web browsers, such as Chrome, Firefox, and Safari, provide developer tools that include comprehensive debugging capabilities.</li><li>These tools offer a range of features, including breakpoints, step-by-step execution, console logging, network monitoring, and DOM inspection.</li><li>Familiarize yourself with the debugging features available in your preferred browser's developer tools.</li><li>You can also put the `<code>debugger</code>` statement before the code to be tested. It works as setting a breakpoint and triggers any available debugging functionality. The statement has no effect if debugging functionality is unavailable.</li></ul></ul>"
+            "text": "<ul><ul><li>Modern web browsers, such as Chrome, Firefox, and Safari, provide developer tools that include comprehensive debugging capabilities.</li><li>These tools offer a range of features, including breakpoints, step-by-step execution, console logging, network monitoring, and DOM inspection.</li><li>Familiarize yourself with the debugging features available in your preferred browser's developer tools.</li><li>You can also put the `<code>debugger</code>` statement before the code to be checked. It works as setting a breakpoint and triggers any available debugging functionality. The statement has no effect if debugging functionality is unavailable.</li></ul></ul>"
           },
           {
             "paraid": 14,

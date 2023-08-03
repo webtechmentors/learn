@@ -206,7 +206,11 @@
           },
           {
             "paraid": 2,
-            "text": "Here is an example of a doctype declaration for HTML5:"
+            "text": "<ol><li>Doctype Declaration for HTML5:</li></ol>"
+          },
+          {
+            "paraid": 2,
+            "text": "<ul><ul><li>The doctype declaration for HTML5 tells the web browser that the web page is written in HTML5.</li></ul></ul>"
           },
           {
             "paraid": 3,
@@ -222,24 +226,16 @@
               "exampleLangs": "",
               "codeSource": "",
               "exampleSource": "",
-              "marginLeft": "0"
+              "marginLeft": "5rem"
             }
           },
           {
-            "paraid": 4,
-            "text": "This declaration tells the web browser that the web page is written in HTML5."
-          },
-          {
             "paraid": 5,
-            "text": "Prior to HTML5, there were several versions of HTML, including HTML 4.01, XHTML 1.0, and XHTML 1.1. Each version had its own doctype declaration."
-          },
-          {
-            "paraid": 6,
-            "text": "Here are some examples of doctype declarations for other versions of HTML:"
+            "text": "<ol start=\"2\"><li>Doctype Declarations for Other Versions of HTML:</li></ol>"
           },
           {
             "paraid": 7,
-            "text": "HTML 4.01 Strict:"
+            "text": "<ul><ul><li>HTML 4.01: This is a privious HTML version, the declaration needs to refer to a DTD (Document Type Definition).</li></ul></ul>"
           },
           {
             "paraid": 8,
@@ -255,12 +251,12 @@
               "exampleLangs": "",
               "codeSource": "",
               "exampleSource": "",
-              "marginLeft": "0"
+              "marginLeft": "5rem"
             }
           },
           {
             "paraid": 9,
-            "text": "XHTML 1.0 Strict:"
+            "text": "<ul><ul><li>XHTML 1.0: This is also a privious HTML version, the declaration needs to refer to a DTD (Document Type Definition).</li></ul></ul>"
           },
           {
             "paraid": 10,
@@ -276,7 +272,7 @@
               "exampleLangs": "",
               "codeSource": "",
               "exampleSource": "",
-              "marginLeft": "0"
+              "marginLeft": "5rem"
             }
           },
           {
@@ -1286,7 +1282,27 @@
         "paragraphs": [
           {
             "paraid": 1,
-            "text": "To create an HTML form, you need to use the `<code>&lt;form&gt;</code>` element. Here's an example of a basic form that allows users to enter their name and email:"
+            "text": "HTML forms are an essential part of web development, allowing users to input and submit data to a web server. They act as containers for various form controls (input fields, checkboxes, radio buttons, etc.) that collect user data. When the user submits the form, the data is sent to the server for processing, storage, or further actions."
+          },
+          {
+            "paraid": 2,
+            "text": "<ol><li>The `<code>&lt;form&gt;</code>` element has several attributes:</li></ol>"
+          },
+          {
+            "paraid": 2,
+            "text": "<ul><ul><li>`<code>action</code>`: Specifies the URL where the form data will be sent when the form is submitted. It can be an absolute or relative URL.</li></ul></ul>"
+          },
+          {
+            "paraid": 2,
+            "text": "<ul><ul><li>`<code>method</code>`: Specifies the HTTP method to be used for form submission. The two most common methods are `<code>GET</code>` and `<code>POST</code>`, which determine how the form data is sent to the server.</li></ul></ul>"
+          },
+          {
+            "paraid": 2,
+            "text": "<ul><ul><li>`<code>target</code>`: Specifies where the response from the server should be displayed. It can be set to `<code>_self</code>`, `<code>_blank</code>`, `<code>_parent</code>`, or `<code>_top</code>`</li></ul></ul>"
+          },
+          {
+            "paraid": 1,
+            "text": "<ol start=\"2\"><li>To create an HTML form, you need to use the `<code>&lt;form&gt;</code>` element. Here's an example of a basic form that allows users to enter their name and email:</li></ol>"
           },          
           {
             "paraid": 2,
@@ -1302,17 +1318,9 @@
               "exampleLangs": "",
               "codeSource": "",
               "exampleSource": "",
-              "marginLeft": "0"
+              "marginLeft": "2.5rem"
             }
-          },          
-          {
-            "paraid": 3,
-            "text": "In this example:"
-          },
-          {
-            "paraid": 4,
-            "text": "<ul><li>The `<code>&lt;form&gt;</code>` element defines the start of the form.</li><li>The `<code>action</code>` attribute specifies where the form data should be sent when the form is submitted. In this case, it's sent to the `<code>/submit-form</code>` endpoint.</li><li>The `<code>method</code>` attribute specifies the HTTP method to use when submitting the form. In this case, we're using the POST method.</li><li>The `<code>&lt;label&gt;</code>` elements are used to provide a text label for the input fields. The `<code>for</code>` attribute of the `<code>&lt;label&gt;</code>` element must match the `<code>id</code>` attribute of the corresponding input field.</li><li>The `<code>&lt;input&gt;</code>` elements define the input fields themselves. In this case, we're using two text input fields, one for the name and one for the email address. The `<code>type</code>` attribute specifies the type of input field (in this case, \"text\" and \"email\"). The `<code>id</code>` attribute provides a unique identifier for the input field, which can be used to associate it with a `<code>&lt;label&gt;</code>` element. The `<code>name</code>` attribute provides a name for the input field, which is used to identify it when the form is submitted.</li><li>The `<code>&lt;input&gt;</code>` element with the `<code>type=\"submit\"</code>` attribute creates a button that the user can click to submit the form.</li></ul>"
-          },          
+          },                 
           {
             "paraid": 5,
             "text": "When the user submits the form, the data is sent to the server-side script specified in the `<code>action</code>` attribute. The server-side script can then process the form data and return a response to the user."
@@ -1469,11 +1477,11 @@
           },                
           {
             "paraid": 2,
-            "text": "The form has an action attribute that specifies the URL of the script that will process the form data. The method attribute is set to \"POST\", which means that the form data will be sent in the HTTP request body."
+            "text": "The form has an `<code>action</code>` attribute that specifies the URL of the script that will process the form data. The method attribute is set to `<code>POST</code>`, which means that the form data will be sent in the HTTP request body."
           },
           {
             "paraid": 3,
-            "text": "When the user clicks the submit button, the form data is sent to the URL specified in the action attribute. The form data is sent as key-value pairs, where the name attribute of each form control is the key, and the value attribute (if present) or the user-entered value is the value."
+            "text": "When the user clicks the submit button, the form data is sent to the URL specified in the `<code>action</code>` attribute. The form data is sent as key-value pairs, where the `<code>name</code>` attribute of each form control is the key, and the `<code>value</code>` attribute (if present) or the user-entered value is the value."
           },          
           {
             "paraid": 4,
@@ -1534,10 +1542,14 @@
           {
             "paraid": 1,
             "text": "HTML5 introduced the `<code>&lt;audio&gt;</code>` and `<code>&lt;video&gt;</code>` elements for embedding audio and video content directly in web pages. Here's how to use them:"
-          },          
+          },
           {
             "paraid": 1,
-            "text": "To add an `<code>&lt;audio&gt;</code>` file, you can use the `<code>&lt;audio&gt;</code>` element like this:"
+            "text": "<ol><li>Audio Element:</li></ol>"
+          },        
+          {
+            "paraid": 1,
+            "text": "<ul><ul><li>To add an `<code>&lt;audio&gt;</code>` file, you can use the `<code>&lt;audio&gt;</code>` element like this:</li></ul></ul>"
           },   
           {
             "paraid": 1,
@@ -1553,16 +1565,20 @@
               "exampleLangs": "",
               "codeSource": "",
               "exampleSource": "",
-              "marginLeft": "0"
+              "marginLeft": "5rem"
             }
           },       
           {
             "paraid": 1,
-            "text": "This will embed the audio file \"audio_file.mp3\" in the page and display standard audio `<code>controls</code>` (play, pause, volume, etc.). You can also add other attributes to the `<code>&lt;audio&gt;</code>` element, such as `<code>autoplay</code>`, `<code>loop</code>`, `<code>preload</code>`, and `<code>muted</code>`, to control the playback behavior."
+            "text": "<ul><ul><li>This will embed the audio file \"audio_file.mp3\" in the page and display standard audio `<code>controls</code>` (play, pause, volume, etc.). You can also add other attributes to the `<code>&lt;audio&gt;</code>` element, such as `<code>autoplay</code>`, `<code>loop</code>`, `<code>preload</code>`, and `<code>muted</code>`, to control the playback behavior.</li></ul></ul>"
           },
           {
             "paraid": 1,
-            "text": "To add a video file, you can use the `<code>&lt;video&gt;</code>` element like this:"
+            "text": "<ol start=\"2\"><li>Video Element</li></ol>"
+          },
+          {
+            "paraid": 1,
+            "text": "<ul><ul><li>To add a video file, you can use the `<code>&lt;video&gt;</code>` element like this:</li></ul></ul>"
           },          
           {
             "paraid": 1,
@@ -1578,16 +1594,20 @@
               "exampleLangs": "",
               "codeSource": "",
               "exampleSource": "",
-              "marginLeft": "0"
+              "marginLeft": "5rem"
             }
           },
           {
             "paraid": 1,
-            "text": "This will embed the video file \"video_file.mp4\" in the page and display standard video `<code>controls</code>` (play, pause, volume, etc.). Like with the `<code>&lt;audio&gt;</code>` element, you can also add other attributes to the `<code>&lt;video&gt;</code>` element to control the playback behavior."
-          },          
+            "text": "<ul><ul><li>This will embed the video file \"video_file.mp4\" in the page and display standard video `<code>controls</code>` (play, pause, volume, etc.). Like with the `<code>&lt;audio&gt;</code>` element, you can also add other attributes to the `<code>&lt;video&gt;</code>` element to control the playback behavior.</li></ul></ul>"
+          },
+          {
+            "paraid": 2,
+            "text": "<ol start=\"3\"><li>Common Features:</li></ol>"
+          },      
           {
             "paraid": 1,
-            "text": "In addition to the `<code>src</code>` attribute, the `<code>&lt;audio&gt;</code>` and `<code>&lt;video&gt;</code>` elements can also contain multiple sources with `<code>&lt;source&gt;</code>`, each with its own `<code>src</code>`, `<code>type</code>`, and `<code>media</code>` attributes. This allows you to provide multiple formats of the same media file, so that the browser can choose the best one to use based on the user's device and browser."
+            "text": "<ul><ul><li>In addition to the `<code>src</code>` attribute, the `<code>&lt;audio&gt;</code>` and `<code>&lt;video&gt;</code>` elements can also contain multiple sources with `<code>&lt;source&gt;</code>`, each with its own `<code>src</code>`, `<code>type</code>`, and `<code>media</code>` attributes. This allows you to provide multiple formats of the same media file, so that the browser can choose the best one to use based on the user's device and browser.</li></ul></ul>"
           },
           {
             "paraid": 2,
@@ -1595,13 +1615,8 @@
             "codeid": ""
           },
           {
-            "paraid": 2,
-            "text": "",
-            "codeid": ""
-          },
-          {
             "paraid": 1,
-            "text": "The `<code>&lt;audio&gt;</code>` and `<code>&lt;video&gt;</code>` elements also support JavaScript control through their DOM APIs. You can access the element using JavaScript and call methods like `<code>play()</code>`, `<code>pause()</code>`, or add event listeners to handle events such as `<code>play</code>`, `<code>pause</code>`, or `<code>ended</code>`."
+            "text": "<ul><ul><li>The `<code>&lt;audio&gt;</code>` and `<code>&lt;video&gt;</code>` elements also support JavaScript control through their DOM APIs. You can access the element using JavaScript and call methods like `<code>play()</code>`, `<code>pause()</code>`, or add event listeners to handle events such as `<code>play</code>`, `<code>pause</code>`, or `<code>ended</code>`.</li></ul></ul>"
           },
           {
             "paraid": 2,
@@ -1625,15 +1640,15 @@
         "paragraphs": [
           {
             "paraid": 1,
-            "text": "HTML5 also introduced two new graphics elements: `<code>&lt;canvas&gt;</code>` and `<code>&lt;svg&gt;</code>`. Here's how to use them:"
+            "text": "HTML5 also introduced two new graphics elements: `<code>&lt;canvas&gt;</code>` and `<code>&lt;svg&gt;</code>`. Here's how to use them."
           },          
           {
             "paraid": 1,
-            "text": "<strong>Canvas:</strong>"
+            "text": "<ol><li>Canvas Element:</li></ol>"
           },
           {
             "paraid": 1,
-            "text": "The `<code>&lt;canvas&gt;</code>` element provides a way to draw graphics using JavaScript. To use it, you first create a canvas element in your HTML document, like this:"
+            "text": "<ul><ul><li>The `<code>&lt;canvas&gt;</code>` element provides a way to draw graphics using JavaScript. To use it, you first create a canvas element in your HTML document, like this:</li></ul></ul>"
           },
           {
             "paraid": 1,
@@ -1649,12 +1664,12 @@
               "exampleLangs": "",
               "codeSource": "",
               "exampleSource": "",
-              "marginLeft": "0"
+              "marginLeft": "5rem"
             }
           },
           {
             "paraid": 1,
-            "text": "Then, in your JavaScript code, you can get a reference to the canvas element and use its `<code>getContext()</code>` method to get a drawing context. This context provides methods for drawing shapes, lines, text, and images on the canvas. Here's an example:"
+            "text": "<ul><ul><li>Then, in your JavaScript code, you can get a reference to the canvas element and use its `<code>getContext()</code>` method to get a drawing context. This context provides methods for drawing shapes, lines, text, and images on the canvas. Here's an example:</li></ul></ul>"
           },
           {
             "paraid": 1,
@@ -1670,20 +1685,20 @@
               "exampleLangs": "xml",
               "codeSource": "",
               "exampleSource": "",
-              "marginLeft": "0"
+              "marginLeft": "5rem"
             }
           },
           {
             "paraid": 1,
-            "text": "This code creates a red rectangle on the canvas, with a top-left corner at (50,50) and a size of 100x100 pixels."
+            "text": "<ul><ul><li>This code creates a red rectangle on the canvas, with a top-left corner at (50,50) and a size of 100x100 pixels.</li></ul></ul>"
           },
           {
             "paraid": 1,
-            "text": "<strong>SVG:</strong>"
+            "text": "<ol start=\"2\">SVG Element:</ol>"
           },
           {
             "paraid": 1,
-            "text": "The `<code>&lt;svg&gt;</code>` element provides a way to create scalable vector graphics (SVG) directly in your HTML document. SVG is an XML-based language for describing two-dimensional graphics, and is supported by all modern web browsers. To use it, you simply create an `<code>&lt;svg&gt;</code>` element in your HTML document and use its child elements to define the graphics you want to display. Here's an example:"
+            "text": "<ul><ul><li>The `<code>&lt;svg&gt;</code>` element provides a way to create scalable vector graphics (SVG) directly in your HTML document. SVG is an XML-based language for describing two-dimensional graphics, and is supported by all modern web browsers. To use it, you simply create an `<code>&lt;svg&gt;</code>` element in your HTML document and use its child elements to define the graphics you want to display. Here's an example:</li></ul></ul>"
           },
           {
             "paraid": 1,
@@ -1699,21 +1714,16 @@
               "exampleLangs": "xml",
               "codeSource": "",
               "exampleSource": "",
-              "marginLeft": "0"
+              "marginLeft": "5rem"
             }
           },
           {
             "paraid": 1,
-            "text": "This code creates a red rectangle, a blue circle, and a green text label on the SVG canvas, with a size of 500x500 pixels."
+            "text": "<ul><ul><li>This code creates a red rectangle, a blue circle, and a green text label on the SVG canvas, with a size of 500x500 pixels.</li></ul></ul>"
           },
           {
             "paraid": 1,
             "text": "Overall, the `<code>&lt;canvas&gt;</code>` and `<code>&lt;svg&gt;</code>` elements provide powerful ways to create graphics directly in your HTML document, using either JavaScript or SVG markup. They allow you to create interactive animations, games, data visualizations, and much more."
-          },
-
-          {
-            "paraid": 1,
-            "text": ""
           }
         ]
       },
@@ -1731,7 +1741,7 @@
           },
           {
             "paraid": 1,
-            "text": "Here's an example of how you can create a responsive layout using CSS flexbox:"
+            "text": "<ul>Here's an example of how you can create a responsive layout using CSS flexbox:</ul>"
           },
           {
             "paraid": 1,
@@ -1747,12 +1757,12 @@
               "exampleLangs": "",
               "codeSource": "",
               "exampleSource": "",
-              "marginLeft": "0"
+              "marginLeft": "2.5rem"
             }
           },
           {
             "paraid": 1,
-            "text": "In this example, we're using flexbox to create a layout with a header, navigation bar, main content area, and footer. The `<code>flex-direction</code>` property is used to arrange the elements in a column on larger screens and in a row on smaller screens, using a media query to adjust the layout at a maximum width of 768 pixels."
+            "text": "<ul>In this example, we're using flexbox to create a layout with a header, navigation bar, main content area, and footer. The `<code>flex-direction</code>` property is used to arrange the elements in a column on larger screens and in a row on smaller screens, using a media query to adjust the layout at a maximum width of 768 pixels.</ul>"
           },
           {
             "paraid": 1,
@@ -1795,7 +1805,7 @@
           },          
           {
             "paraid": 1,
-            "text": "<ol><li>Provide descriptive text for images using the `<code>alt</code>` attribute: The `<code>alt</code>` attribute provides a text alternative for images, which is important for people who use screen readers or have images disabled in their browsers.</li><li>Use semantic HTML: As I mentioned earlier, semantic HTML helps to provide meaning and structure to web pages, making them more accessible to people using assistive technologies.</li><li>Use appropriate markup for headings: Headings should be used to structure content and indicate hierarchy. This helps screen reader users navigate and understand the content more easily.</li><li>Use labels for form controls: Labels provide context for form controls, making it clear what information is required. They are especially important for people using screen readers.</li><li>Provide skip links: Skip links allow keyboard-only users to bypass navigation and go straight to the main content of a page. This can be especially helpful for people with motor disabilities.</li><li>Provide captions and transcripts for media: Captions and transcripts provide additional information for people who are deaf or hard of hearing, as well as those who prefer to read rather than listen.</li><li>Use high-contrast colors: High-contrast color schemes can help people with visual impairments better distinguish between different elements on a page.</li></ol>"
+            "text": "<ol><li>Provide descriptive text for images using the `<code>alt</code>` attribute: The `<code>alt</code>` attribute provides a text alternative for images, which is important for people who use screen readers or have images disabled in their browsers.</li><li>Use semantic HTML: Semantic HTML helps to provide meaning and structure to web pages, making them more accessible to people using assistive technologies.</li><li>Use appropriate markup for headings: Headings should be used to structure content and indicate hierarchy. This helps screen reader users navigate and understand the content more easily.</li><li>Use labels for form controls: Labels provide context for form controls, making it clear what information is required. They are especially important for people using screen readers.</li><li>Provide skip links: Skip links allow keyboard-only users to bypass navigation and go straight to the main content of a page. This can be especially helpful for people with motor disabilities.</li><li>Provide captions and transcripts for media: Captions and transcripts provide additional information for people who are deaf or hard of hearing, as well as those who prefer to read rather than listen.</li><li>Use high-contrast colors: High-contrast color schemes can help people with visual impairments better distinguish between different elements on a page.</li></ol>"
           },          
           {
             "paraid": 1,
@@ -1809,7 +1819,7 @@
         "paragraphs": [
           {
             "paraid": 1,
-            "text": "Cross-browser compatibility refers to the ability of a website to function and display consistently across different web browsers, such as Chrome, Firefox, Safari, and Internet Explorer. Here are some HTML techniques you can use to improve cross-browser compatibility:"
+            "text": "Cross-browser compatibility refers to the ability of a website to function and display consistently across different web browsers, such as Chrome, Firefox, Safari, and Edge. Here are some HTML techniques you can use to improve cross-browser compatibility:"
           },          
           {
             "paraid": 1,
@@ -1835,7 +1845,7 @@
           },          
           {
             "paraid": 1,
-            "text": "<ol><li>Improve website accessibility: Valid HTML code is more accessible to people using assistive technologies, such as screen readers.</li><li>Ensure cross-browser compatibility: Valid HTML code is more likely to be interpreted consistently across different web browsers.</li><li>Improve website performance: Valid HTML code is typically cleaner and more efficient, which can improve website performance.</li><li>Facilitate website maintenance: Valid HTML code is easier to read and understand, which can make it easier to maintain your website over time.</li></ol>"
+            "text": "<ol><li><strong>Improve website accessibility</strong>: Valid HTML code is more accessible to people using assistive technologies, such as screen readers.</li><li><strong>Ensure cross-browser compatibility</strong>: Valid HTML code is more likely to be interpreted consistently across different web browsers.</li><li><strong>Improve website performance</strong>: Valid HTML code is typically cleaner and more efficient, which can improve website performance.</li><li><strong>Facilitate website maintenance</strong>: Valid HTML code is easier to read and understand, which can make it easier to maintain your website over time.</li></ol>"
           },
           {
             "paraid": 1,
