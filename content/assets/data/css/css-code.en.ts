@@ -389,9 +389,10 @@ export const css_2_5_1_1 =
 <body>
   <h2>Links:</h2>
   <ul>
-    <li><a href="#">Link 1</a></li>
-    <li><a href="#">Link 2</a></li>
-    <li><a href="#">Link 3</a></li>
+    <!-- The use of javascript:0 in the href attribute is a common practice to create an anchor link that has no functional effect when clicked -->
+    <li><a href="javascript:0">Link 1</a></li>
+    <li><a href="javascript:0">Link 2</a></li>
+    <li><a href="javascript:0">Link 3</a></li>
   </ul>
 </body>
 </html>`;

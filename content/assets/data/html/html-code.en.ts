@@ -344,9 +344,9 @@ export const html_5_1_2 =
 `;
 
 export const html_6_1_1 =
-`<p>This is an example which doesn't work.</p>
+`<p>This is an example for demo only.</p>
 
-<form action="/submit-form" method="post">
+<form action="/submit-form" method="post" target="_blank">
   <label for="name">Name:</label>
   <input type="text" id="name" name="name">
   <br>

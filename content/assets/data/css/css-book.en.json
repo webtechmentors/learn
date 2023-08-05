@@ -36,7 +36,7 @@
           },
           {
             "paraid": 2,
-            "text": "<ol><li>Separation of Concerns: CSS allows developers to separate the visual presentation of a website from its structure (HTML) and behavior (JavaScript). This separation makes the code more maintainable, modular, and easier to update and modify. It also enables different team members to work on different aspects of a web project simultaneously.</li><li>Consistent Styling: With CSS, you can define styles once and apply them to multiple elements or pages throughout a website. This consistency in styling ensures a uniform look and feel across the site, enhancing the user experience and brand identity.</li><li>Responsive Web Design: CSS provides the foundation for creating responsive and mobile-friendly websites. By utilizing media queries, developers can adjust the layout, font sizes, and other design elements based on the user's device screen size. This approach allows websites to adapt and provide optimal viewing experiences on various devices, including desktops, tablets, and smartphones.</li><li>Easy Maintenance: Since CSS allows for centralized styling, updating the appearance of a website becomes more efficient. By modifying a single CSS file, you can instantly apply changes across multiple web pages. This reduces the need for duplicating styles or making individual changes to each HTML element, saving time and effort.</li><li>Efficient File Management: By utilizing external CSS files, web developers can keep the styling code separate from the HTML markup. This organization makes the codebase cleaner, more modular, and easier to navigate. It also promotes code reuse and simplifies collaboration among team members.</li><li>Browser Compatibility: CSS helps in addressing browser-specific rendering issues and inconsistencies. Developers can use CSS vendor prefixes, polyfills, and feature detection techniques to ensure that their styles are correctly applied across different web browsers. This helps to create a consistent user experience regardless of the browser being used.</li><li>Enhanced User Experience: CSS allows developers to apply visual effects, animations, and transitions, which can greatly enhance the user experience. By utilizing CSS to create visually appealing designs, intuitive navigation, and interactive elements, websites become more engaging and memorable for visitors.</li></ol>"
+            "text": "<ol><li><strong>Separation of Concerns</strong>: CSS allows developers to separate the visual presentation of a website from its structure (HTML) and behavior (JavaScript). This separation makes the code more maintainable, modular, and easier to update and modify. It also enables different team members to work on different aspects of a web project simultaneously.</li><li><strong>Consistent Styling</strong>: With CSS, you can define styles once and apply them to multiple elements or pages throughout a website. This consistency in styling ensures a uniform look and feel across the site, enhancing the user experience and brand identity.</li><li><strong>Responsive Web Design</strong>: CSS provides the foundation for creating responsive and mobile-friendly websites. By utilizing media queries, developers can adjust the layout, font sizes, and other design elements based on the user's device screen size. This approach allows websites to adapt and provide optimal viewing experiences on various devices, including desktops, tablets, and smartphones.</li><li><strong>Easy Maintenance</strong>: Since CSS allows for centralized styling, updating the appearance of a website becomes more efficient. By modifying a single CSS file, you can instantly apply changes across multiple web pages. This reduces the need for duplicating styles or making individual changes to each HTML element, saving time and effort.</li><li><strong>Efficient File Management</strong>: By utilizing external CSS files, web developers can keep the styling code separate from the HTML markup. This organization makes the codebase cleaner, more modular, and easier to navigate. It also promotes code reuse and simplifies collaboration among team members.</li><li><strong>Browser Compatibility</strong>: CSS helps in addressing browser-specific rendering issues and inconsistencies. Developers can use CSS vendor prefixes, polyfills, and feature detection techniques to ensure that their styles are correctly applied across different web browsers. This helps to create a consistent user experience regardless of the browser being used.</li><li><strong>Enhanced User Experience</strong>: CSS allows developers to apply visual effects, animations, and transitions, which can greatly enhance the user experience. By utilizing CSS to create visually appealing designs, intuitive navigation, and interactive elements, websites become more engaging and memorable for visitors.</li></ol>"
           },
           {
             "paraid": 3,
@@ -54,7 +54,7 @@
           },
           {
             "paraid": 2,
-            "text": "<ol><li>Selectors: Selectors target HTML elements to which the styles will be applied. Selectors can be based on element names, classes, IDs, attributes, or other criteria.<br/><br/>For example:</li></ol>"
+            "text": "<ol><li><strong>Selectors</strong>: Selectors target HTML elements to which the styles will be applied. Selectors can be based on element names, classes, IDs, attributes, or other criteria.<br/><br/>For example:</li></ol>"
           },
           {
             "paraid": 3,
@@ -62,7 +62,7 @@
           },
           {
             "paraid": 4,
-            "text": "<ol start=\"2\"><li>Declarations: Declarations define the specific styles or properties that should be applied to the selected elements. Declarations consist of a property and its corresponding value, separated by a colon. Multiple declarations are enclosed within curly braces.<br/><br/>For example:</li></ol>"
+            "text": "<ol start=\"2\"><li><strong>Declarations</strong>: Declarations define the specific styles or properties that should be applied to the selected elements. Declarations consist of a property and its corresponding value, separated by a colon. Multiple declarations are enclosed within curly braces.<br/><br/>For example:</li></ol>"
           },
           {
             "paraid": 5,
@@ -83,7 +83,7 @@
           },
           {
             "paraid": 6,
-            "text": "<ol start=\"3\"><li>Properties and Values: CSS provides a wide range of properties and values to control various aspects of element styling. Properties specify what aspect of an element to modify, such as `<code>color</code>`, `<code>font-size</code>`, `<code>margin</code>`, etc. Values determine the specific settings for a property, such as `<code>red</code>` for color, `<code>12px</code>` for font-size, or `<code>10px 20px</code>` for margin.<br/><br/>For example:</li><ol>"
+            "text": "<ol start=\"3\"><li><strong>Properties and Values</strong>: CSS provides a wide range of properties and values to control various aspects of element styling. Properties specify what aspect of an element to modify, such as `<code>color</code>`, `<code>font-size</code>`, `<code>margin</code>`, etc. Values determine the specific settings for a property, such as `<code>red</code>` for color, `<code>12px</code>` for font-size, or `<code>10px 20px</code>` for margin.<br/><br/>For example:</li><ol>"
           },
           {
             "paraid": 7,
@@ -104,7 +104,7 @@
           },
           {
             "paraid": 8,
-            "text": "<ol start=\"4\"><li>Comments: CSS allows for comments within the code to provide explanations or notes. Comments are enclosed within `<code>/*</code>` and `<code>*/</code>`. They are not interpreted by the browser and serve as documentation for developers.<br/><br/>For example:</li></ol>"
+            "text": "<ol start=\"4\"><li><strong>Comments</strong>: CSS allows for comments within the code to provide explanations or notes. Comments are enclosed within `<code>/*</code>` and `<code>*/</code>`. They are not interpreted by the browser and serve as documentation for developers.<br/><br/>For example:</li></ol>"
           },
           {
             "paraid": 9,
@@ -125,11 +125,11 @@
           },
           {
             "paraid": 10,
-            "text": "<ol start=\"5\"><li>Cascading and Specificity: CSS follows the cascading principle, where styles can be inherited from parent elements and overridden or modified by more specific rules. Specificity determines which styles take precedence when multiple rules conflict. It is based on the selector type, IDs, classes, and inline styles.</li></ol>"
+            "text": "<ol start=\"5\"><li><strong>Cascading and Specificity</strong>: CSS follows the cascading principle, where styles can be inherited from parent elements and overridden or modified by more specific rules. Specificity determines which styles take precedence when multiple rules conflict. It is based on the selector type, IDs, classes, and inline styles.</li></ol>"
           },
           {
             "paraid": 11,
-            "text": "<ol start=\"6\"><li>CSS Rule Sets: A CSS rule set combines a selector and one or more declarations to define how the selected elements should be styled. Multiple rule sets can be grouped together within a CSS file or embedded directly into an HTML document using the `<code>&lt;style&gt;</code>` tag.</li></ol>"
+            "text": "<ol start=\"6\"><li><strong>CSS Rule Sets</strong>: A CSS rule set combines a selector and one or more declarations to define how the selected elements should be styled. Multiple rule sets can be grouped together within a CSS file or embedded directly into an HTML document using the `<code>&lt;style&gt;</code>` tag.</li></ol>"
           },
           {
             "paraid": 12,
@@ -168,7 +168,7 @@
           },
           {
             "paraid": 2,
-            "text": "<ol><li>External CSS file: The most widely used method is to create a separate CSS file with a .css extension and link it to the HTML document using the `<code>&lt;link&gt;</code>` tag. This method allows for better code organization and reusability.</li></ol>"
+            "text": "<ol><li><strong>External CSS file</strong>: The most widely used method is to create a separate CSS file with a .css extension and link it to the HTML document using the `<code>&lt;link&gt;</code>` tag. This method allows for better code organization and reusability.</li></ol>"
           },
           {
             "paraid": 3,
@@ -193,7 +193,7 @@
           },
           {
             "paraid": 5,
-            "text": "<ol start=\"2\"><li>Internal CSS: CSS styles can be directly embedded within an HTML document using the `<code>&lt;style&gt;</code>` tag. This method is useful for adding specific styles to a single HTML file.</li><ol>"
+            "text": "<ol start=\"2\"><li><strong>Internal CSS</strong>: CSS styles can be directly embedded within an HTML document using the `<code>&lt;style&gt;</code>` tag. This method is useful for adding specific styles to a single HTML file.</li><ol>"
           },
           {
             "paraid": 6,
@@ -218,7 +218,7 @@
           },
           {
             "paraid": 8,
-            "text": "<ol start=\"3\"><li>Inline CSS: Inline styles are applied directly to HTML elements using the style attribute. This method is useful for applying styles to individual elements or overriding styles on specific elements.</li></ol>"
+            "text": "<ol start=\"3\"><li><strong>Inline CSS</strong>: Inline styles are applied directly to HTML elements using the style attribute. This method is useful for applying styles to individual elements or overriding styles on specific elements.</li></ol>"
           },
           {
             "paraid": 9,
@@ -268,7 +268,7 @@
           },
           {
             "paraid": 2,
-            "text": "The syntax for an element selector is simply the element name itself. For example, to select all `<code>&lt;p&gt;</code>` elements in an HTML document, you would use the following CSS rule:"
+            "text": "The syntax for an element selector is simply the element name itself. For example, to select all `<code>&lt;p&gt;</code>` elements in an HTML document, you would use the following CSS rule set:"
           },
           {
             "paraid": 3,
@@ -297,7 +297,7 @@
           },
           {
             "paraid": 6,
-            "text": "<ol><li>Specificity: Element selectors have the lowest specificity among CSS selectors. This means that if there are more specific selectors targeting the same element, those styles will take precedence over the generic element selector styles.</li><li>Global Application: Element selectors apply the specified styles to all instances of the selected element type throughout the HTML document unless overridden by more specific selectors.</li><li>Cascading: Element selectors can be combined with other selectors to create more specific rules. For example, you can combine an element selector with a class or ID selector to target specific elements of that type.</li></ol>"
+            "text": "<ol><li><strong>Specificity</strong>: Element selectors have the lowest specificity among CSS selectors. This means that if there are more specific selectors targeting the same element, those styles will take precedence over the generic element selector styles.</li><li><strong>Global Application</strong>: Element selectors apply the specified styles to all instances of the selected element type throughout the HTML document unless overridden by more specific selectors.</li><li><strong>Cascading</strong>: Element selectors can be combined with other selectors to create more specific rule sets. For example, you can combine an element selector with a class or ID selector to target specific elements of that type.</li></ol>"
           },
           {
             "paraid": 7,
@@ -336,7 +336,7 @@
           },
           {
             "paraid": 2,
-            "text": "The syntax for a class selector is a period (.) followed by the class name. For example, to select elements with the class \"my-class\", you would use the following CSS rule:"
+            "text": "The syntax for a class selector is a period (.) followed by the class name. For example, to select elements with the class \"my-class\", you would use the following CSS rule set:"
           },
           {
             "paraid": 3,
@@ -365,7 +365,7 @@
           },
           {
             "paraid": 6,
-            "text": "<ol><li>Class Attribute: To use class selectors, you need to assign the desired class name to the class attribute of the HTML elements you want to style. Multiple elements can share the same class name, allowing you to apply consistent styles to them.</li></ol>"
+            "text": "<ol><li><strong>Class Attribute</strong>: To use class selectors, you need to assign the desired class name to the class attribute of the HTML elements you want to style. Multiple elements can share the same class name, allowing you to apply consistent styles to them.</li></ol>"
           },
           {
             "paraid": 7,
@@ -386,7 +386,7 @@
           },
           {
             "paraid": 8,
-            "text": "<ol start=\"2\"><li>Reusability: Class selectors are highly reusable. You can apply the same class to multiple elements, which helps to maintain consistent styling throughout your HTML document and promotes code efficiency.</li><li>Specificity: Class selectors have a higher specificity than element selectors. If there are conflicting styles targeting the same element, the styles applied via class selectors will take precedence over the styles applied via element selectors.</li><li>Combining Selectors: Class selectors can be combined with other selectors to create more specific rules. This allows you to target elements with a specific class within a specific context.</li></ol>"
+            "text": "<ol start=\"2\"><li><strong>Reusability</strong>: Class selectors are highly reusable. You can apply the same class to multiple elements, which helps to maintain consistent styling throughout your HTML document and promotes code efficiency.</li><li><strong>Specificity</strong>: Class selectors have a higher specificity than element selectors. If there are conflicting styles targeting the same element, the styles applied via class selectors will take precedence over the styles applied via element selectors.</li><li><strong>Combining Selectors</strong>: Class selectors can be combined with other selectors to create more specific rule sets. This allows you to target elements with a specific class within a specific context.</li></ol>"
           },
           {
             "paraid": 9,
@@ -407,7 +407,7 @@
           },
           {
             "paraid": 10,
-            "text": "<ol start=\"5\"><li>Multiple Classes: An HTML element can have multiple class names, separated by spaces. This allows you to apply multiple class styles to a single element.</li><ol>"
+            "text": "<ol start=\"5\"><li><strong>Multiple Classes</strong>: An HTML element can have multiple class names, separated by spaces. This allows you to apply multiple class styles to a single element.</li><ol>"
           },
           {
             "paraid": 10,
@@ -446,7 +446,7 @@
           },
           {
             "paraid": 2,
-            "text": "The syntax for an ID selector is a hash (#) followed by the ID name. For example, to select an element with the ID \"my-id\", you would use the following CSS rule:"
+            "text": "The syntax for an ID selector is a hash (#) followed by the ID name. For example, to select an element with the ID \"my-id\", you would use the following CSS rule set:"
           },
           {
             "paraid": 3,
@@ -475,7 +475,7 @@
           },
           {
             "paraid": 6,
-            "text": "<ol><li>ID Attribute: To use ID selectors, you need to assign a unique ID name to the ID attribute of the HTML element you want to style. Unlike class names, IDs should be unique within an HTML document.</li></ol>"
+            "text": "<ol><li><strong>ID Attribute</strong>: To use ID selectors, you need to assign a unique ID name to the ID attribute of the HTML element you want to style. Unlike class names, IDs should be unique within an HTML document.</li></ol>"
           },
           {
             "paraid": 7,
@@ -496,7 +496,7 @@
           },
           {
             "paraid": 8,
-            "text": "<ol start=\"2\"><li>Uniqueness: IDs must be unique within an HTML document. Each ID should only be assigned to a single element. Using the same ID for multiple elements is invalid HTML and can lead to unexpected behavior.</li><li>Higher Specificity: ID selectors have a higher specificity than both class selectors and element selectors. If there are conflicting styles targeting the same element, the styles applied via ID selectors will take precedence over the styles applied via class selectors or element selectors.</li><li>Unique Styles: ID selectors are often used to target specific elements that require unique styles. They are suitable for applying specific styles to individual elements rather than multiple elements.</li><li>Combining Selectors: ID selectors can also be combined with other selectors to create more specific rules. This allows you to target elements with a specific ID within a specific context.</li></ol>"
+            "text": "<ol start=\"2\"><li><strong>Uniqueness</strong>: IDs must be unique within an HTML document. Each ID should only be assigned to a single element. Using the same ID for multiple elements is invalid HTML and can lead to unexpected behavior.</li><li><strong>Higher Specificity</strong>: ID selectors have a higher specificity than both class selectors and element selectors. If there are conflicting styles targeting the same element, the styles applied via ID selectors will take precedence over the styles applied via class selectors or element selectors.</li><li><strong>Unique Styles</strong>: ID selectors are often used to target specific elements that require unique styles. They are suitable for applying specific styles to individual elements rather than multiple elements.</li><li><strong>Combining Selectors</strong>: ID selectors can also be combined with other selectors to create more specific rule sets. This allows you to target elements with a specific ID within a specific context.</li></ol>"
           },
           {
             "paraid": 9,
@@ -531,7 +531,7 @@
           },
           {
             "paraid": 2,
-            "text": "<ol><li>Basic Attribute Selector: The basic attribute selector targets elements that have a specific attribute present, regardless of its value. The syntax is `<code>[attribute]</code>`. For example, to select all elements with the attribute `<code>data-custom</code>`, you would use:</li></ol>"
+            "text": "<ol><li><strong>Basic Attribute Selector</strong>: The basic attribute selector targets elements that have a specific attribute present, regardless of its value. The syntax is `<code>[attribute]</code>`. For example, to select all elements with the attribute `<code>data-custom</code>`, you would use:</li></ol>"
           },
           {
             "paraid": 3,
@@ -552,7 +552,7 @@
           },
           {
             "paraid": 4,
-            "text": "<ol start=\"2\"><li>Attribute Selector with Value: Attribute selectors can be used to target elements with a specific attribute value. The syntax is `<code>[attribute=value]</code>`. For example, to select all `<code>&lt;input&gt;</code>` elements with the attribute `<code>type</code>` set to `<code>\"text\"</code>`, you would use:</li></ol>"
+            "text": "<ol start=\"2\"><li><strong>Attribute Selector with Value</strong>: Attribute selectors can be used to target elements with a specific attribute value. The syntax is `<code>[attribute=value]</code>`. For example, to select all `<code>&lt;input&gt;</code>` elements with the attribute `<code>type</code>` set to `<code>\"text\"</code>`, you would use:</li></ol>"
           },
           {
             "paraid": 5,
@@ -577,7 +577,7 @@
           },
           {
             "paraid": 7,
-            "text": "<ol start=\"3\"><li>Attribute Selector with Partial Value: Attribute selectors can also match elements whose attribute values contain a specific substring. This is useful when targeting elements with attributes that have dynamic or varying values. The syntax is `<code>[attribute*=value]</code>`. For example, to select all `<code>&lt;a&gt;</code>` elements with the `<code>href</code>` attribute containing the substring `<code>\"example.com\"</code>`, you would use:</li></ol>"
+            "text": "<ol start=\"3\"><li><strong>Attribute Selector with Partial Value</strong>: Attribute selectors can also match elements whose attribute values contain a specific substring. This is useful when targeting elements with attributes that have dynamic or varying values. The syntax is `<code>[attribute*=value]</code>`. For example, to select all `<code>&lt;a&gt;</code>` elements with the `<code>href</code>` attribute containing the substring `<code>\"example.com\"</code>`, you would use:</li></ol>"
           },
           {
             "paraid": 8,
@@ -602,7 +602,7 @@
           },
           {
             "paraid": 10,
-            "text": "<ol start=\"4\"><li>Attribute Selector with Prefix Value: Attribute selectors can target elements whose attribute values start with a specific prefix. The syntax is `<code>[attribute^=value]</code>`. For example, to select all `<code>&lt;img&gt;</code>` elements with the `<code>src</code>` attribute starting with `<code>\"images/\"</code>`, you would use:</li></ol>"
+            "text": "<ol start=\"4\"><li><strong>Attribute Selector with Prefix Value</strong>: Attribute selectors can target elements whose attribute values start with a specific prefix. The syntax is `<code>[attribute^=value]</code>`. For example, to select all `<code>&lt;img&gt;</code>` elements with the `<code>src</code>` attribute starting with `<code>\"images/\"</code>`, you would use:</li></ol>"
           },
           {
             "paraid": 11,
@@ -627,7 +627,7 @@
           },
           {
             "paraid": 13,
-            "text": "<ol start=\"5\"><li>Attribute Selector with Suffix Value: Attribute selectors can target elements whose attribute values end with a specific suffix. The syntax is `<code>[attribute$=value]</code>`. For example, to select all `<code>&lt;a&gt;</code>` elements with the href attribute ending with `<code>\".pdf\"</code>`, you would use:</li></ol>"
+            "text": "<ol start=\"5\"><li><strong>Attribute Selector with Suffix Value</strong>: Attribute selectors can target elements whose attribute values end with a specific suffix. The syntax is `<code>[attribute$=value]</code>`. For example, to select all `<code>&lt;a&gt;</code>` elements with the `<code>href</code>` attribute ending with `<code>\".pdf\"</code>`, you would use:</li></ol>"
           },
           {
             "paraid": 14,
@@ -666,7 +666,7 @@
           },
           {
             "paraid": 2,
-            "text": "<ol><li>Pseudo-classes: Pseudo-classes target elements based on a specific state or condition. They are denoted by a colon (:) followed by the pseudo-class name. Here are some commonly used pseudo-classes:</li></ol>"
+            "text": "<ol><li><strong>Pseudo-classes</strong>: Pseudo-classes target elements based on a specific state or condition. They are denoted by a colon (:) followed by the pseudo-class name. Here are some commonly used pseudo-classes:</li></ol>"
           },
           {
             "paraid": 3,
@@ -695,7 +695,7 @@
           },
           {
             "paraid": 6,
-            "text": "<ol start=\"2\"><li>Pseudo-elements: Pseudo-elements target specific parts of an element's content or represent generated content. They are denoted by a double colon (::) followed by the pseudo-element name. Here are some commonly used pseudo-elements:</li></ol>"
+            "text": "<ol start=\"2\"><li><strong>Pseudo-elements</strong>: Pseudo-elements target specific parts of an element's content or represent generated content. They are denoted by a double colon (::) followed by the pseudo-element name. Here are some commonly used pseudo-elements:</li></ol>"
           },
           {
             "paraid": 7,
@@ -745,20 +745,15 @@
           },
           {
             "paraid": 2,
-            "text": "<ol><li>Content: The content area of an element holds the actual content, such as text, images, or other HTML elements. It is defined by the element's width and height properties.</li><li>Padding: The padding is the space between the content and the element's border. It provides breathing room around the content and can be set using the `<code>padding</code>` property. Padding does not include background color or borders.</li><li>Border: The border is a line that surrounds the padding and content area. It can be customized with different styles, colors, and widths using the `<code>border</code>` property. The border separates the element from its neighboring elements.</li><li>Margin: The margin is the space outside the element's border. It creates the gap between adjacent elements. The margin can be set using the `<code>margin</code>` property.</li></ol>"
+            "text": "<ol><li><strong>Content</strong>: The content area of an element holds the actual content, such as text, images, or other HTML elements. It is defined by the element's width and height properties.</li><li><strong>Padding</strong>: The padding is the space between the content and the element's border. It provides breathing room around the content and can be set using the `<code>padding</code>` property. Padding does not include background color or borders.</li><li><strong>Border</strong>: The border is a line that surrounds the padding and content area. It can be customized with different styles, colors, and widths using the `<code>border</code>` property. The border separates the element from its neighboring elements.</li><li><strong>Margin</strong>: The margin is the space outside the element's border. It creates the gap between adjacent elements. The margin can be set using the `<code>margin</code>` property.</li></ol>"
           },
           {
             "paraid": 3,
             "text": "Here's a visual representation of the box model components:<br/><br/><img src=\"assets/images/box_model.png\" style=\"width:50%; height:50%; margin-left:2.5rem;\" alt=\"Box model\">"
           },
           {
-            "paraid": 4,
-            "text": "",
-            "imgid": "image"
-          },
-          {
             "paraid": 5,
-            "text": "It's important to note that the width and height properties determine the size of the content area only. To calculate the total space an element occupies on the page, you need to consider the width/height, padding, border, and margin."
+            "text": "It's important to note that the `<code>width</code>` and `<code>height</code>` properties determine the size of the content area only. To calculate the total space an element occupies on the page, you need to consider the width/height, padding, border, and margin."
           },
           {
             "paraid": 6,

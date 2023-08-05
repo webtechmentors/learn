@@ -50,15 +50,15 @@
           },
           {
             "paraid": 2,
-            "text": "<ol><li>Doctype Declaration: This is the first line of an HTML document and it informs the web browser which version of HTML is being used. It is not an HTML tag, but rather an instruction to the browser.</li><br/>Example: `<code>&lt;!DOCTYPE html&gt;</code>`</ol>"
+            "text": "<ol><li>Doctype Declaration: This is the first line of an HTML document and it informs the web browser which version of HTML is being used. It is not an HTML tag, but rather an instruction to the browser.</li><br/>For example: `<code>&lt;!DOCTYPE html&gt;</code>`</ol>"
           },
           {
             "paraid": 3,
-            "text": "<ol start=\"2\"><li>HTML tag: The HTML tag is the root element of an HTML document. It tells the web browser that the document is an HTML document.</li><br/>Example: `<code>&lt;html&gt;</code>`...`<code>&lt;/html&gt;</code>`</ol>"
+            "text": "<ol start=\"2\"><li>HTML tag: The HTML tag is the root element of an HTML document. It tells the web browser that the document is an HTML document.</li><br/>For example: `<code>&lt;html&gt;</code>`...`<code>&lt;/html&gt;</code>`</ol>"
           },
           {
             "paraid": 4,
-            "text": "<ol start=\"3\"><li>Head tag: The head tag contains information about the web page that is not displayed on the web page itself. This includes the title of the web page, any metadata, and links to CSS stylesheets and JavaScript files.</li><br/>Example:</ol>"
+            "text": "<ol start=\"3\"><li>Head tag: The head tag contains information about the web page that is not displayed on the web page itself. This includes the title of the web page, any metadata, and links to CSS stylesheets and JavaScript files.</li><br/>For example:</ol>"
           },
           {
             "paraid": 5,
@@ -79,7 +79,7 @@
           },
           {
             "paraid": 6,
-            "text": "<ol start=\"4\"><li>Body tag: The body tag contains the visible content of the web page, such as headings, paragraphs, images, and other HTML elements.</li><br/>Example:</ol>"
+            "text": "<ol start=\"4\"><li>Body tag: The body tag contains the visible content of the web page, such as headings, paragraphs, images, and other HTML elements.</li><br/>For example:</ol>"
           },
           {
             "paraid": 7,
@@ -100,7 +100,7 @@
           },
           {
             "paraid": 8,
-            "text": "<ol start=\"5\"><li>Tag attributes: HTML tags can have attributes that provide additional information about the tag or modify its behavior. Attributes are specified within the opening tag of an element.<br/><br/>Example:</li></ol>"
+            "text": "<ol start=\"5\"><li>Tag attributes: HTML tags can have attributes that provide additional information about the tag or modify its behavior. Attributes are specified within the opening tag of an element.<br/><br/>For example:</li></ol>"
           },
           {
             "paraid": 9,
@@ -125,7 +125,7 @@
           },
           {
             "paraid": 11,
-            "text": "<ol start=\"6\"><li>Comments: HTML comments are used to add notes and explanations to an HTML document that are not displayed on the web page. Comments start with `<code>&lt;!--</code>` and end with `<code>--&gt;</code>`.<br/><br/>Example:</li></ol>"
+            "text": "<ol start=\"6\"><li>Comments: HTML comments are used to add notes and explanations to an HTML document that are not displayed on the web page. Comments start with `<code>&lt;!--</code>` and end with `<code>--&gt;</code>`.<br/><br/>For example:</li></ol>"
           },
           {
             "paraid": 12,
@@ -284,7 +284,7 @@
       {
         "category": "html",
         "secid": 3,
-        "subtitle": "Head and body section",
+        "subtitle": "Head and body sections",
         "paragraphs": [
           {
             "paraid": 1,
@@ -292,19 +292,23 @@
           },
           {
             "paraid": 2,
-            "text": "The `<code>&lt;head&gt;</code>` section of an HTML document contains information about the web page that is not displayed on the web page itself. This information includes the title of the web page, any metadata, and links to CSS stylesheets and JavaScript files."
+            "text": "<ol><li>Head Section:</li></ol>"
+          },
+          {
+            "paraid": 2,
+            "text": "<ul><ul><li>The `<code>&lt;head&gt;</code>` section of an HTML document contains information about the web page that is not displayed on the web page itself. This information includes the title of the web page, any metadata, and links to CSS stylesheets and JavaScript files.</li></ul></ul>"
           },          
           {
             "paraid": 3,
-            "text": "Here are some common tags that can be included in the `<code>&lt;head&gt;</code>` section of an HTML document:"
+            "text": "<ul><ul><li>Here are some common tags that can be included in the `<code>&lt;head&gt;</code>` section of an HTML document:</li></ul></ul>"
           },
           {
             "paraid": 4,
-            "text": "<ol><li>`<code>&lt;title&gt;</code>`: The `<code>&lt;title&gt;</code>` tag is used to define the title of the web page. The title is displayed in the browser's title bar or tab.</li><li>`<code>&lt;meta&gt;</code>`: The `<code>&lt;meta&gt;</code>` tag is used to specify metadata about the web page, such as the character encoding, description, and keywords.</li><li>`<code>&lt;link&gt;</code>`: The `<code>&lt;link&gt;</code>` tag is used to link to external resources, such as CSS stylesheets and JavaScript files.</li><li>`<code>&lt;style&gt;</code>`: The `<code>&lt;style&gt;</code>` tag is used to define CSS styles for the web page.</li><li>`<code>&lt;script&gt;</code>`: The `<code>&lt;script&gt;</code>` tag is used to include JavaScript code in the web page.</li></ol>"
+            "text": "<ul><ul><ol><li>`<code>&lt;title&gt;</code>`: The `<code>&lt;title&gt;</code>` tag is used to define the title of the web page. The title is displayed in the browser's title bar or tab.</li><li>`<code>&lt;meta&gt;</code>`: The `<code>&lt;meta&gt;</code>` tag is used to specify metadata about the web page, such as the character encoding, description, and keywords.</li><li>`<code>&lt;link&gt;</code>`: The `<code>&lt;link&gt;</code>` tag is used to link to external resources, such as CSS stylesheets and JavaScript files.</li><li>`<code>&lt;style&gt;</code>`: The `<code>&lt;style&gt;</code>` tag is used to define CSS styles for the web page.</li><li>`<code>&lt;script&gt;</code>`: The `<code>&lt;script&gt;</code>` tag is used to include JavaScript code in the web page.</li></ol></ul></ul>"
           },
           {
             "paraid": 5,
-            "text": "<ol>Here is an example of `<code>&lt;head&gt;</code>` section:</ol>"
+            "text": "<ul><ul>Here is an example of `<code>&lt;head&gt;</code>` section:</ul></ul>"
           },
           {
             "paraid": 6,
@@ -320,24 +324,28 @@
               "exampleLangs": "",
               "codeSource": "",
               "exampleSource": "",
-              "marginLeft": "2.5rem"
+              "marginLeft": "5rem"
             }
           },
           {
+            "paraid": 6,
+            "text": "<ol start=\"2\"><li>Body Section</li></ol>"
+          },
+          {
             "paraid": 7,
-            "text": "The `<code>&lt;body&gt;</code>` section of an HTML document contains the visible content of the web page, such as headings, paragraphs, images, and other HTML elements. This section is where the actual content of the web page is displayed."
+            "text": "<ul><ul><li>The `<code>&lt;body&gt;</code>` section of an HTML document contains the visible content of the web page, such as headings, paragraphs, images, and other HTML elements. This section is where the actual content of the web page is displayed.</li></ul></ul>"
           },
           {
             "paraid": 8,
-            "text": "Here are some common HTML tags that can be included in the `<code>&lt;body&gt;</code>` section of an HTML document:"
+            "text": "<ul><ul><li>Here are some common HTML tags that can be included in the `<code>&lt;body&gt;</code>` section of an HTML document:</li></ul></ul>"
           },
           {
             "paraid": 9,
-            "text": "<ol><li>Headings (`<code>&lt;h1&gt;</code>`-`<code>&lt;h6&gt;</code>`): Headings are used to indicate the importance and hierarchy of headings on a web page.</li><li>Paragraphs (`<code>&lt;p&gt;</code>`): Paragraphs are used to enclose blocks of text.</li><li>Links (`<code>&lt;a&gt;</code>`): Links are used to create hyperlinks to other web pages or resources.</li><li>Images (`<code>&lt;img&gt;</code>`): Images are used to display graphics on a web page.</li><li>Lists (`<code>&lt;ul&gt;</code>`, `<code>&lt;ol&gt;</code>`, `<code>&lt;li&gt;</code>`): Lists are used to create ordered or unordered lists of items.</li></ol>"
+            "text": "<ul><ul><ol><li>Headings (`<code>&lt;h1&gt;</code>`-`<code>&lt;h6&gt;</code>`): Headings are used to indicate the importance and hierarchy of headings on a web page.</li><li>Paragraphs (`<code>&lt;p&gt;</code>`): Paragraphs are used to enclose blocks of text.</li><li>Links (`<code>&lt;a&gt;</code>`): Links are used to create hyperlinks to other web pages or resources.</li><li>Images (`<code>&lt;img&gt;</code>`): Images are used to display graphics on a web page.</li><li>Lists (`<code>&lt;ul&gt;</code>`, `<code>&lt;ol&gt;</code>`, `<code>&lt;li&gt;</code>`): Lists are used to create ordered or unordered lists of items.</li></ol></ul></ul>"
           },
           {
             "paraid": 10,
-            "text": "<ol>Here is an example of `<code>&lt;body&gt;</code>` section:</ol>"
+            "text": "<ul><ul>Here is an example of `<code>&lt;body&gt;</code>` section:</ul></ul>"
           },
           {
             "paraid": 11,
@@ -353,7 +361,7 @@
               "exampleLangs": "",
               "codeSource": "",
               "exampleSource": "",
-              "marginLeft": "2.5rem"
+              "marginLeft": "5rem"
             }
           },
           {
@@ -872,11 +880,11 @@
           },          
           {
             "paraid": 2,
-            "text": "<ol><li>Linking to an external website</li></ol>"
+            "text": "<ol><li>Linking to an External Website:</li></ol>"
           },          
           {
             "paraid":3, 
-            "text": "<ol>To link to an external website, you simply set the `<code>href</code>` attribute to the URL of the website.<br/><br/>For example:</ol>"
+            "text": "<ul><ul><li>To link to an external website, you simply set the `<code>href</code>` attribute to the URL of the website.<br/><br/>For example:</li></ul></ul>"
           },
           {
             "paraid": 4,
@@ -892,20 +900,20 @@
               "exampleLangs": "",
               "codeSource": "",
               "exampleSource": "",
-              "marginLeft": "2.5rem"
+              "marginLeft": "5rem"
             }
           },
           {
             "paraid": 5,
-            "text": "<ol>This will create a hyperlink that says \"Click here to visit Example.com\" and when clicked, will take the user to the Example.com website.</ol>"
+            "text": "<ul><ul><li>This will create a hyperlink that says \"Click here to visit Example.com\" and when clicked, will take the user to the Example.com website.</li></ul></ul>"
           },
           {
             "paraid": 6,
-            "text": "<ol start=\"2\"><li>Linking to a page on the same website</li></ol>"
+            "text": "<ol start=\"2\"><li>Linking to a Page on the Same Website:</li></ol>"
           },
           {
             "paraid": 7,
-            "text": "<ol>To link to a page on the same website, you need to provide the relative path to the page. The relative path is the path to the file from the current page. For example, if you have a file called `<code>about.html</code>` in the same directory as the current page, you would use the following code to create a link to it:</ol>"
+            "text": "<ul><ul><li>To link to a page on the same website, you need to provide the relative path to the page. The relative path is the path to the file from the current page. For example, if you have a file called `<code>about.html</code>` in the same directory as the current page, you would use the following code to create a link to it:</li></ul></ul>"
           },
           {
             "paraid": 8,
@@ -921,16 +929,16 @@
               "exampleLangs": "",
               "codeSource": "",
               "exampleSource": "",
-              "marginLeft": "2.5rem"
+              "marginLeft": "5rem"
             }
           },
           {
             "paraid": 9,
-            "text": "<ol>This will create a hyperlink that says \"About Us\" and when clicked, will take the user to the `<code>about.html</code>` page in the same directory.</ol>"
+            "text": "<ul><ul><li>This will create a hyperlink that says \"About Us\" and when clicked, will take the user to the `<code>about.html</code>` page in the same directory.</li></ul></ul>"
           },
           {
             "paraid": 10,
-            "text": "<ol>If the file you want to link to is in a different directory, you need to provide the relative path to that directory. For example, if you have a file called `<code>contact.html</code>` in a directory called `<code>pages</code>`, you would use the following code to create a link to it:</ol>"
+            "text": "<ul><ul><li>If the file you want to link to is in a different directory, you need to provide the relative path to that directory. For example, if you have a file called `<code>contact.html</code>` in a directory called `<code>pages</code>`, you would use the following code to create a link to it:</li></ul></ul>"
           },
           {
             "paraid": 11,
@@ -946,20 +954,20 @@
               "exampleLangs": "",
               "codeSource": "",
               "exampleSource": "",
-              "marginLeft": "2.5rem"
+              "marginLeft": "5rem"
             }
           },
           {
             "paraid": 12,
-            "text": "<ol>This will create a hyperlink that says \"Contact Us\" and when clicked, will take the user to the `<code>contact.html</code>` page in the `<code>pages</code>` directory.</ol>"
+            "text": "<ul><ul><li>This will create a hyperlink that says \"Contact Us\" and when clicked, will take the user to the `<code>contact.html</code>` page in the `<code>pages</code>` directory.</li></ul></ul>"
           },
           {
             "paraid": 13,
-            "text": "<ol start=\"3\"><li>Navigate to different parts of the same web page</li></ol>"
+            "text": "<ol start=\"3\"><li>Navigate to Different Parts of the Same Webpage:</li></ol>"
           },
           {
             "paraid": 14,
-            "text": "<ol>You can also create links that navigate to different parts of the same web page using anchor tags. To create an anchor tag, you use the <a> tag and set the href attribute to the ID of the element you want to navigate to.<br/><br/>For example:</ol>"
+            "text": "<ul><ul><li>You can also create links that navigate to different parts of the same web page using anchor tags. To create an anchor tag, you use the <a> tag and set the `<code>href</code>` attribute to the ID of the element you want to navigate to.<br/><br/>For example:</li></ul></ul>"
           },
           {
             "paraid": 15,
@@ -975,7 +983,7 @@
               "exampleLangs": "",
               "codeSource": "",
               "exampleSource": "",
-              "marginLeft": "2.5rem"
+              "marginLeft": "5rem"
             }
           },
           {
@@ -998,11 +1006,11 @@
           },          
           {
             "paraid": 3,
-            "text": "<ol><li>Linking to an external stylesheet</li></ol>"
+            "text": "<ol><li>Linking to an External Stylesheet:</li></ol>"
           },
           {
             "paraid": 4,
-            "text": "<ol>To link to an external stylesheet in HTML, you use the `<code>&lt;link&gt;</code>` tag with the href attribute set to the URL of the stylesheet.<br/><br/>Here is an example:</ol>"
+            "text": "<ul><ul><li>To link to an external stylesheet in HTML, you use the `<code>&lt;link&gt;</code>` tag with the href attribute set to the URL of the stylesheet.<br/><br/>Here is an example:</li></ul></ul>"
           },          
           {
             "paraid": 5,
@@ -1018,20 +1026,20 @@
               "exampleLangs": "",
               "codeSource": "",
               "exampleSource": "",
-              "marginLeft": "2.5rem"
+              "marginLeft": "5rem"
             }
           },          
           {
             "paraid": 6,
-            "text": "<ol>This code will link to an external stylesheet called `<code>styles.css</code>` hosted on `<code>www.example.com</code>`.</ol>"
+            "text": "<ul><ul><li>This code will link to an external stylesheet called `<code>styles.css</code>` hosted on `<code>www.example.com</code>`.</li></ul></ul>"
           },
           {
             "paraid": 7,
-            "text": "<ol start=\"2\"><li>Linking to an external JavaScript file</li><ol>"
+            "text": "<ol start=\"2\"><li>Linking to an External JavaScript File:</li><ol>"
           },          
           {
             "paraid": 8,
-            "text": "<ol>To link to an external JavaScript file in HTML, you use the `<code>&lt;script&gt;</code>` tag with the `<code>src</code>` attribute set to the URL of the file.<br/><br/>Here is an example:</ol>"
+            "text": "<ul><ul><li>To link to an external JavaScript file in HTML, you use the `<code>&lt;script&gt;</code>` tag with the `<code>src</code>` attribute set to the URL of the file.<br/><br/>Here is an example:</li></ul></ul>"
           },          
           {
             "paraid": 9,
@@ -1047,20 +1055,20 @@
               "exampleLangs": "",
               "codeSource": "",
               "exampleSource": "",
-              "marginLeft": "2.5rem"
+              "marginLeft": "5rem"
             }
           },
           {
             "paraid": 10,
-            "text": "<ol>This code will link to an external JavaScript file called `<code>script.js</code>` hosted on `<code>www.example.com</code>`.</ol>"
+            "text": "<ul><ul><li>This code will link to an external JavaScript file called `<code>script.js</code>` hosted on `<code>www.example.com</code>`.</li></ul></ul>"
           },
           {
             "paraid": 11,
-            "text": "<ol start=\"3\"><li>Linking to an external image, audio, and video</li></ol>"
+            "text": "<ol start=\"3\"><li>Linking to an External Image, Audio, and Video:</li></ol>"
           },          
           {
             "paraid": 12,
-            "text": "<ol>To link to an external image, audio, and video on a webpage, you can use the `<code>&lt;img&gt;</code>`, `<code>&lt;audio&gt;</code>`, and `<code>&lt;video&gt;</code>` elements, respectively. The usage of the `<code>&lt;img&gt;</code>` element is described in the next section of this chapter, while the usage of the `<code>&lt;audio&gt;</code>` and `<code>&lt;video&gt;</code>` elements is covered in Chapter 7.</ol>"
+            "text": "<ul><ul><li>To link to an external image, audio, and video on a web page, you can use the `<code>&lt;img&gt;</code>`, `<code>&lt;audio&gt;</code>`, and `<code>&lt;video&gt;</code>` elements, respectively. The usage of the `<code>&lt;img&gt;</code>` element is described in the next section of this chapter, while the usage of the `<code>&lt;audio&gt;</code>` and `<code>&lt;video&gt;</code>` elements is covered in Chapter 7.</li></ul></ul>"
           },      
           {
             "paraid": 15,
@@ -1070,7 +1078,7 @@
       },
       {
         "secid": 3,
-        "subtitle": "Adding images to a page",
+        "subtitle": "Adding images to a web page",
         "paragraphs": [
           {
             "paraid": 1,
@@ -1145,8 +1153,20 @@
         "paragraphs": [
           {
             "paraid": 1,
-            "text": "To create tables in HTML, you can use the `<code>&lt;table&gt;</code>` tag along with several other tags that define the structure of the table.<br/><br/>Here is an example of a basic HTML table:"
+            "text": "To create tables in HTML, you can use the `<code>&lt;table&gt;</code>` tag along with several other tags that define the structure of the table."
+          },
+          {
+            "paraid": 4,
+            "text": "There are some common tags and attributes used in creating tables in HTML:"
           },          
+          {
+            "paraid": 5,
+            "text": "<ol><li>`<code>&lt;table&gt;</code>`: This tag is used to define the table.</li><li>`<code>&lt;thead&gt;</code>`: This tag is used to define the table header section.</li><li>`<code>&lt;tbody&gt;</code>`: This tag is used to define the table body section.</li><li>`<code>&lt;tfoot&gt;</code>`: This tag is used to define the table footer section.</li><li>`<code>&lt;tr&gt;</code>`: This tag is used to define a row in the table.</li><li>`<code>&lt;th&gt;</code>`: This tag is used to define a header cell in the table.</li><li>`<code>&lt;td&gt;</code>`: This tag is used to define a data cell in the table.</li><li>`<code>colspan</code>`: This attribute is used to define the number of columns that a cell should span.</li><li>`<code>rowspan</code>`: This attribute is used to define the number of rows that a cell should span.</li></ol>"
+          },
+          {
+            "paraid": 1,
+            "text": "<ul>Here is an example of a basic HTML table:</ul>"
+          },         
           {
             "paraid": 2,
             "text": "",
@@ -1161,21 +1181,13 @@
               "exampleLangs": "",
               "codeSource": "",
               "exampleSource": "",
-              "marginLeft": "0"
+              "marginLeft": "2.5rem"
             }
           },          
           {
             "paraid": 3,
-            "text": "In this example, we have a table with a header section (`<code>&lt;thead&gt;</code>`) and a body section (`<code>&lt;tbody&gt;</code>`). Within the header section, we define a single row (`<code>&lt;tr&gt;</code>`) with three columns (`<code>&lt;th&gt;</code>`) for our table headings. Within the body section, we define two rows, each with three columns (`<code>&lt;td&gt;</code>`) of data."
-          },
-          {
-            "paraid": 4,
-            "text": "Here are some of the common tags and attributes used in creating tables in HTML:"
-          },          
-          {
-            "paraid": 5,
-            "text": "<ol><li>`<code>&lt;table&gt;</code>`: This tag is used to define the table.</li><li>`<code>&lt;thead&gt;</code>`: This tag is used to define the table header section.</li><li>`<code>&lt;tbody&gt;</code>`: This tag is used to define the table body section.</li><li>`<code>&lt;tfoot&gt;</code>`: This tag is used to define the table footer section.</li><li>`<code>&lt;tr&gt;</code>`: This tag is used to define a row in the table.</li><li>`<code>&lt;th&gt;</code>`: This tag is used to define a header cell in the table.</li><li>`<code>&lt;td&gt;</code>`: This tag is used to define a data cell in the table.</li><li>`<code>colspan</code>`: This attribute is used to define the number of columns that a cell should span.</li><li>`<code>rowspan</code>`: This attribute is used to define the number of rows that a cell should span.</li></ol>"
-          },          
+            "text": "<ul>In this example, we have a table with a header section (`<code>&lt;thead&gt;</code>`) and a body section (`<code>&lt;tbody&gt;</code>`). Within the header section, we define a single row (`<code>&lt;tr&gt;</code>`) with three columns (`<code>&lt;th&gt;</code>`) for our table headings. Within the body section, we define two rows, each with three columns (`<code>&lt;td&gt;</code>`) of data.</ul>"
+          },       
           {
             "paraid": 6,
             "text": "By using these tags and attributes, you can create more complex tables with merged cells, styled headers and rows, and more."
@@ -1506,11 +1518,11 @@
           },          
           {
             "paraid": 1,
-            "text": "<ul><li>`<code>&lt;header&gt;</code>`: Defines a header section for a document or section.</li><li>`<code>&lt;nav&gt;</code>`: Defines a navigation section for a document or section.</li><li>`<code>&lt;main&gt;</code>`: Defines the main content section of a document.</li><li>`<code>&lt;section&gt;</code>`: Defines a section of a document, such as a chapter or a group of related content.</li><li>`<code>&lt;article&gt;</code>`: Defines a self-contained article or piece of content that can be distributed independently of the rest of the page.</li><li>`<code>&lt;aside&gt;</code>`: Defines content that is related to the main content but not central to it, such as a sidebar or a callout box.</li><li>`<code>&lt;footer&gt;</code>`: Defines a footer section for a document or section.</li><li>`<code>&lt;figure&gt;</code>`: Defines a figure or illustration, along with a caption.</li><li>`<code>&lt;figcaption&gt;</code>`: Defines a caption for a `<code>&lt;figure&gt;</code>` element.</li><ul>"
+            "text": "<ol><li>`<code>&lt;header&gt;</code>`: Defines a header section for a document or section.</li><li>`<code>&lt;nav&gt;</code>`: Defines a navigation section for a document or section.</li><li>`<code>&lt;main&gt;</code>`: Defines the main content section of a document.</li><li>`<code>&lt;section&gt;</code>`: Defines a section of a document, such as a chapter or a group of related content.</li><li>`<code>&lt;article&gt;</code>`: Defines a self-contained article or piece of content that can be distributed independently of the rest of the page.</li><li>`<code>&lt;aside&gt;</code>`: Defines content that is related to the main content but not central to it, such as a sidebar or a callout box.</li><li>`<code>&lt;footer&gt;</code>`: Defines a footer section for a document or section.</li><li>`<code>&lt;figure&gt;</code>`: Defines a figure or illustration, along with a caption.</li><li>`<code>&lt;figcaption&gt;</code>`: Defines a caption for a `<code>&lt;figure&gt;</code>` element.</li><ol>"
           },    
           {
             "paraid": 2,
-            "text": "<ul>Here is the example of a webpage using some semantic tags:</ul>"
+            "text": "<ul>Here is the example of a web page using some semantic tags:</ul>"
           },
           {
             "paraid": 2,
@@ -1737,7 +1749,7 @@
           },
           {
             "paraid": 1,
-            "text": "<ol><li>Use a flexible layout: Instead of using fixed widths for your page elements, use percentages or em units that adjust to the size of the screen. This way, your page will look good on screens of all sizes.</li><li>Use media queries: Media queries allow you to apply different styles to your page based on the size of the screen. For example, you can use a media query to change the font size of your text when the screen size is smaller than a certain width.</li><li>Use responsive images: To ensure that your images look good on all devices, you can use responsive images that adjust to the size of the screen. You can do this by setting the width and height of the image to a percentage, and using the `<code>max-width</code>` property to ensure that the image doesn't become larger than its container.</li><li>Use viewport meta tag: The viewport meta tag tells the browser how to scale the page to fit the device screen. You can use this tag to set the initial scale of the page and disable zooming, so that the page looks good on all devices.</li></ol>"
+            "text": "<ol><li><strong>Use a flexible layout</strong>: Instead of using fixed widths for your page elements, use percentages or em units that adjust to the size of the screen. This way, your page will look good on screens of all sizes.</li><li><strong>Use media queries</strong>: Media queries allow you to apply different styles to your page based on the size of the screen. For example, you can use a media query to change the font size of your text when the screen size is smaller than a certain width.</li><li><strong>Use responsive images</strong>: To ensure that your images look good on all devices, you can use responsive images that adjust to the size of the screen. You can do this by setting the width and height of the image to a percentage, and using the `<code>max-width</code>` property to ensure that the image doesn't become larger than its container.</li><li><strong>Use viewport meta tag</strong>: The viewport meta tag tells the browser how to scale the page to fit the device screen. You can use this tag to set the initial scale of the page and disable zooming, so that the page looks good on all devices.</li></ol>"
           },
           {
             "paraid": 1,
@@ -1787,7 +1799,7 @@
           },          
           {
             "paraid": 1,
-            "text": "<ol><li>Improved Accessibility: Semantic tags help improve web accessibility by providing clearer cues to assistive technologies and search engines in understanding the content. This benefits users with disabilities who rely on screen readers or other assistive devices to navigate and understand web pages.</li><li>Search Engine Optimization (SEO): Semantic tags enable search engines to better understand the context and relevance of different sections of a web page. By using semantic tags such as `<code>&lt;header&gt;</code>`, `<code>&lt;nav&gt;</code>`, `<code>&lt;article&gt;</code>`, `<code>&lt;section&gt;</code>`, and `<code>&lt;footer&gt;</code>`, search engines can identify the important content and improve the page's visibility in search results.</li><li>Enhanced Structure and Readability: Semantic tags promote a logical structure within a web page, making it easier for developers to understand and maintain the codebase. By using tags like `<code>&lt;main&gt;</code>`, `<code>&lt;article&gt;</code>`, `<code>&lt;section&gt;</code>`, and `<code>&lt;aside&gt;</code>`, developers can clearly define the purpose of different parts of the page, leading to more maintainable and readable code.</li><li>Future Compatibility: Semantic tags provide a forward-looking approach to web development. By using semantic tags, developers ensure their code is compatible with future technologies and standards. New tools, frameworks, and devices can leverage the semantic structure of the content, enhancing their functionality and user experience.</li><li>Consistency and Standardization: Semantic tags contribute to the standardization of web page structure. Developers can use these tags consistently across different projects, making it easier for others to understand and collaborate on the codebase. This consistency leads to improved interoperability and better code quality.</li><li>CSS Styling and Layout: Semantic tags offer meaningful hooks for applying CSS styles and layouts. For example, using `<code>&lt;header&gt;</code>`, `<code>&lt;nav&gt;</code>`, and `<code>&lt;footer&gt;</code>` allows developers to target specific sections easily, making styling and layout adjustments more intuitive and efficient.</li></ol>"
+            "text": "<ol><li><strong>Improved Accessibility</strong>: Semantic tags help improve web accessibility by providing clearer cues to assistive technologies and search engines in understanding the content. This benefits users with disabilities who rely on screen readers or other assistive devices to navigate and understand web pages.</li><li><strong>Search Engine Optimization (SEO)</strong>: Semantic tags enable search engines to better understand the context and relevance of different sections of a web page. By using semantic tags such as `<code>&lt;header&gt;</code>`, `<code>&lt;nav&gt;</code>`, `<code>&lt;article&gt;</code>`, `<code>&lt;section&gt;</code>`, and `<code>&lt;footer&gt;</code>`, search engines can identify the important content and improve the page's visibility in search results.</li><li><strong>Enhanced Structure and Readability</strong>: Semantic tags promote a logical structure within a web page, making it easier for developers to understand and maintain the codebase. By using tags like `<code>&lt;main&gt;</code>`, `<code>&lt;article&gt;</code>`, `<code>&lt;section&gt;</code>`, and `<code>&lt;aside&gt;</code>`, developers can clearly define the purpose of different parts of the page, leading to more maintainable and readable code.</li><li><strong>Future Compatibility</strong>: Semantic tags provide a forward-looking approach to web development. By using semantic tags, developers ensure their code is compatible with future technologies and standards. New tools, frameworks, and devices can leverage the semantic structure of the content, enhancing their functionality and user experience.</li><li><strong>Consistency and Standardization</strong>: Semantic tags contribute to the standardization of web page structure. Developers can use these tags consistently across different projects, making it easier for others to understand and collaborate on the codebase. This consistency leads to improved interoperability and better code quality.</li><li><strong>CSS Styling and Layout</strong>: Semantic tags offer meaningful hooks for applying CSS styles and layouts. For example, using `<code>&lt;header&gt;</code>`, `<code>&lt;nav&gt;</code>`, and `<code>&lt;footer&gt;</code>` allows developers to target specific sections easily, making styling and layout adjustments more intuitive and efficient.</li></ol>"
           },          
           {
             "paraid": 1,
@@ -1805,7 +1817,7 @@
           },          
           {
             "paraid": 1,
-            "text": "<ol><li>Provide descriptive text for images using the `<code>alt</code>` attribute: The `<code>alt</code>` attribute provides a text alternative for images, which is important for people who use screen readers or have images disabled in their browsers.</li><li>Use semantic HTML: Semantic HTML helps to provide meaning and structure to web pages, making them more accessible to people using assistive technologies.</li><li>Use appropriate markup for headings: Headings should be used to structure content and indicate hierarchy. This helps screen reader users navigate and understand the content more easily.</li><li>Use labels for form controls: Labels provide context for form controls, making it clear what information is required. They are especially important for people using screen readers.</li><li>Provide skip links: Skip links allow keyboard-only users to bypass navigation and go straight to the main content of a page. This can be especially helpful for people with motor disabilities.</li><li>Provide captions and transcripts for media: Captions and transcripts provide additional information for people who are deaf or hard of hearing, as well as those who prefer to read rather than listen.</li><li>Use high-contrast colors: High-contrast color schemes can help people with visual impairments better distinguish between different elements on a page.</li></ol>"
+            "text": "<ol><li><strong>Provide descriptive text for images using the `<code>alt</code>` attribute</strong>: The `<code>alt</code>` attribute provides a text alternative for images, which is important for people who use screen readers or have images disabled in their browsers.</li><li><strong>Use semantic HTML</strong>: Semantic HTML helps to provide meaning and structure to web pages, making them more accessible to people using assistive technologies.</li><li><strong>Use appropriate markup for headings</strong>: Headings should be used to structure content and indicate hierarchy. This helps screen reader users navigate and understand the content more easily.</li><li><strong>Use labels for form controls</strong>: Labels provide context for form controls, making it clear what information is required. They are especially important for people using screen readers.</li><li><strong>Provide skip links</strong>: Skip links allow keyboard-only users to bypass navigation and go straight to the main content of a page. This can be especially helpful for people with motor disabilities.</li><li><strong>Provide captions and transcripts for media</strong>: Captions and transcripts provide additional information for people who are deaf or hard of hearing, as well as those who prefer to read rather than listen.</li><li><strong>Use high-contrast colors</strong>: High-contrast color schemes can help people with visual impairments better distinguish between different elements on a page.</li></ol>"
           },          
           {
             "paraid": 1,
@@ -1823,7 +1835,7 @@
           },          
           {
             "paraid": 1,
-            "text": "<ol><li>Use valid HTML: Valid HTML code is more likely to be interpreted consistently across different browsers. You can validate your HTML using a tool such as the W3C Markup Validation Service.</li><li>Use web standards: Web standards are guidelines for building web pages that are supported by all major web browsers. Following web standards can help ensure that your pages work consistently across different browsers.</li><li>Test in multiple browsers: To ensure cross-browser compatibility, you should test your website in multiple browsers, including both desktop and mobile browsers.</li><li>Use browser prefixes: Some HTML and CSS features may be supported by some browsers but not others. To ensure compatibility, you can use browser prefixes, such as -webkit-, -moz-, -ms-, and -o-, to specify which browsers a particular feature is intended for.</li><li>Use a CSS reset: Different browsers have different default styles, which can affect the way your website looks and behaves. Using a CSS reset can help to normalize these differences and ensure a consistent starting point for your styles.</li><li>Avoid browser-specific features: Some HTML and CSS features may be supported by only one or a few browsers. Avoiding these features can help ensure cross-browser compatibility.</li></ol>"
+            "text": "<ol><li><strong>Use valid HTML</strong>: Valid HTML code is more likely to be interpreted consistently across different browsers. You can validate your HTML using a tool such as the W3C Markup Validation Service.</li><li><strong>Use web standards</strong>: Web standards are guidelines for building web pages that are supported by all major web browsers. Following web standards can help ensure that your pages work consistently across different browsers.</li><li><strong>Test in multiple browsers</strong>: To ensure cross-browser compatibility, you should test your website in multiple browsers, including both desktop and mobile browsers.</li><li><strong>Use browser prefixes</strong>: Some HTML and CSS features may be supported by some browsers but not others. To ensure compatibility, you can use browser prefixes, such as -webkit-, -moz-, -ms-, and -o-, to specify which browsers a particular feature is intended for.</li><li><strong>Use a CSS reset</strong>: Different browsers have different default styles, which can affect the way your website looks and behaves. Using a CSS reset can help to normalize these differences and ensure a consistent starting point for your styles.</li><li><strong>Avoid browser-specific features</strong>: Some HTML and CSS features may be supported by only one or a few browsers. Avoiding these features can help ensure cross-browser compatibility.</li></ol>"
           },          
           {
             "paraid": 1,
