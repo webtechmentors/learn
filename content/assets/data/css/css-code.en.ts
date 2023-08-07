@@ -2124,7 +2124,7 @@ export const css_6_3_3_1 =
   </style>
 </head>
 <body>
-  <div></div>
+  <div>Opacity Example</div>
 </body>
 </html>`;
 

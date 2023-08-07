@@ -1127,7 +1127,7 @@
           },
           {
             "paraid": 8,
-            "text": "<ul><ul><li>Elements are positioned relative to their nearest positioned ancestor (an ancestor with a position value other than static) or the initial containing block.</li><li>The `<code>top</code>`, `<code>right</code>`, `<code>bottom</code>`, and `<code>left</code>` properties are used to specify the element's position.</li><li>Absolute positioned elements are removed from the normal document flow, and other elements can overlap them.</li><br/>For example:</ul></ul>"
+            "text": "<ul><ul><li>Elements are positioned relative to their nearest positioned ancestor (an ancestor with a position value other than static) or the initial containing block.</li><li>The `<code>top</code>`, `<code>right</code>`, `<code>bottom</code>`, and `<code>left</code>` properties are used to specify the element's position.</li><li>Absolutely positioned elements will overlap other content.</li><br/>For example:</ul></ul>"
           },
           {
             "paraid": 9,
@@ -1212,7 +1212,7 @@
           },
           {
             "paraid": 2,
-            "text": "<ol><li>block:</li></ol>"
+            "text": "<ol><li>Block:</li></ol>"
           },
           {
             "paraid": 3,
@@ -1220,7 +1220,7 @@
           },
           {
             "paraid": 4,
-            "text": "<ol start=\"2\"><li>inline:</li><ol>"
+            "text": "<ol start=\"2\"><li>Inline:</li><ol>"
           },
           {
             "paraid": 5,
@@ -1228,7 +1228,7 @@
           },
           {
             "paraid": 6,
-            "text": "<ol start=\"3\"><li>inline-block:</li><ol>"
+            "text": "<ol start=\"3\"><li>Inline-Block:</li><ol>"
           },
           {
             "paraid": 7,
@@ -1236,7 +1236,7 @@
           },
           {
             "paraid": 8,
-            "text": "<ol start=\"4\"><li>none:</li><ol>"
+            "text": "<ol start=\"4\"><li>None:</li><ol>"
           },
           {
             "paraid": 9,
@@ -1244,15 +1244,15 @@
           },
           {
             "paraid": 10,
-            "text": "<ol start=\"5\"><li>flex:</li><ol>"
+            "text": "<ol start=\"5\"><li>Flex:</li><ol>"
           },
           {
             "paraid": 11,
-            "text": "<ul><ul><li>The `<code>flex</code>` display value enables a flexible box layout model for its direct children.</li><li>It allows you to create flexible and responsive layouts, controlling the alignment, spacing, and order of the child elements.</li><li>This is often used in conjunction with additional flex-related properties such as `<code>flex-direction</code>`, `<code>flex-wrap<code>', `<code>justify-content</code>`, and `<code>align-items<code>'.</li></ul></ul>"
+            "text": "<ul><ul><li>The `<code>flex</code>` display value enables a flexible box layout model for its direct children.</li><li>It allows you to create flexible and responsive layouts, controlling the alignment, spacing, and order of the child elements.</li><li>This is often used in conjunction with additional flex-related properties such as `<code>flex-direction</code>`, `<code>flex-wrap</code>`, `<code>justify-content</code>`, and `<code>align-items</code>`.</li></ul></ul>"
           },
           {
             "paraid": 12,
-            "text": "<ol start=\"6\"><li>grid:</li><ol>"
+            "text": "<ol start=\"6\"><li>Grid:</li><ol>"
           },
           {
             "paraid": 13,
@@ -1278,7 +1278,7 @@
           },
           {
             "paraid": 3,
-            "text": "<ul><ul><li>The float property is used to specify that an element should be floated to the left or right of its containing element, allowing text and other elements to wrap around it.</li><li>Floated elements are taken out of the normal flow of the document and are positioned as far to the left or right as possible.</li><li>The float property can have two values: `<code>left</code>` and `<code>right</code>`.</li><br/>For example:</ul></ul>"
+            "text": "<ul><ul><li>The `<code>float</code>` property is used to specify that an element should be floated to the left or right of its containing element, allowing text and other elements to wrap around it.</li><li>Floated elements are taken out of the normal flow of the document and are positioned as far to the left or right as possible.</li><li>The float property can have two values: `<code>left</code>` and `<code>right</code>`.</li><br/>For example:</ul></ul>"
           },
           {
             "paraid": 4,
@@ -1299,7 +1299,7 @@
           },
           {
             "paraid": 5,
-            "text": "<ol>In this example, the image element is floated to the right, and other elements will wrap around it on the left side.</ol>"
+            "text": "<ul><ul>In this example, the image element is floated to the right, and other elements will wrap around it on the left side.</ul></ul>"
           },
           {
             "paraid": 6,
@@ -1307,7 +1307,7 @@
           },
           {
             "paraid": 7,
-            "text": "<ul><ul><li>The clear property is used to specify which sides of an element should not be adjacent to floated elements.</li><li>It ensures that the element is moved below any preceding floated elements, maintaining the normal flow of the document.</li><li>The clear property can have four values: `<code>none</code>` (default), `<code>left</code>`, `<code>right</code>`, and `<code>both</code>`.</li><br/>For example:</ul></ul>"
+            "text": "<ul><ul><li>The `<code>clear</code>` property is used to specify which sides of an element should not be adjacent to floated elements.</li><li>It ensures that the element is moved below any preceding floated elements, maintaining the normal flow of the document.</li><li>The clear property can have four values: `<code>none</code>` (default), `<code>left</code>`, `<code>right</code>`, and `<code>both</code>`.</li><br/>For example:</ul></ul>"
           },
           {
             "paraid": 8,
@@ -1354,7 +1354,7 @@
           },
           {
             "paraid": 3,
-            "text": "<ul><ul><li>To create a grid layout, you define a grid container by applying the `<code>display: grid;</code>` property to an element</li><li>The grid container serves as the parent element for all the grid items within it.</li><br/>For example:</ul></ul>"
+            "text": "<ul><ul><li>To create a grid layout, you define a grid container by applying the `<code>display: grid;</code>` property to an element.</li><li>The grid container serves as the parent element for all the grid items within it.</li><br/>For example:</ul></ul>"
           },
           {
             "paraid": 4,
@@ -1429,7 +1429,7 @@
           },
           {
             "paraid": 12,
-            "text": "<ul><ul><li>Grid lines are the horizontal and vertical lines that define the edges of grid cells and separate tracks</li><li>You can reference grid lines using line numbers or names when positioning grid items.</li><br/>For example:</ul></ul>"
+            "text": "<ul><ul><li>Grid lines are the horizontal and vertical lines that define the edges of grid cells and separate tracks.</li><li>You can reference grid lines using line numbers or names when positioning grid items.</li><br/>For example:</ul></ul>"
           },
           {
             "paraid": 13,
@@ -1664,7 +1664,7 @@
           },
           {
             "paraid": 3,
-            "text": "<ul><ul><li>The `<code>font-family</code>` property sets the font face or typeface for text.</li><li>You can specify multiple font families as fallback options separated by commas.<br/><br/>For example:</li></ul></ul>"
+            "text": "<ul><ul><li>The `<code>font-family</code>` property sets the font or typeface for text.</li><li>You can specify multiple font families as fallback options separated by commas.<br/><br/>For example:</li></ul></ul>"
           },
           {
             "paraid": 4,
@@ -1861,7 +1861,7 @@
           },
           {
             "paraid": 5,
-            "text": "<ul><ul><li>You can host web fonts yourself or use third-party font hosting services like Google Fonts, Adobe Fonts, or Typekit.</li><li>Hosting services provide easy integration and take care of font delivery, optimization, and cross-browser compatibility.</li></ul></ul>"
+            "text": "<ul><ul><li>You can host web fonts yourself or use third-party font hosting services like Google Fonts, or Adobe Fonts.</li><li>Hosting services provide easy integration and take care of font delivery, optimization, etc.</li></ul></ul>"
           },
           {
             "paraid": 6,
@@ -1995,7 +1995,7 @@
           },
           {
             "paraid": 6,
-            "text": "<ul><ul><li>Utilize CSS media queries to define different font sizes for specific screen sizes or breakpoints.</li><li>Adjust font sizes based on the available screen width to maintain readability.<br/><br/>For example:</li></ul></ul>"
+            "text": "<ul><ul><li>Utilize CSS media queries to define different font sizes for specific screen sizes.</li><li>Adjust font sizes based on the available screen width to maintain readability.<br/><br/>For example:</li></ul></ul>"
           },
           {
             "paraid": 7,
