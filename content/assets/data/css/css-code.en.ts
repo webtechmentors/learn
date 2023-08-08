@@ -2184,13 +2184,33 @@ export const css_7_1_4 =
 
 export const css_7_1_5 =
 `div {
+  transition: background-color 0.5s ease-in-out 0.2s;
+}`;
+
+export const css_7_1_6 =
+`div {
+  background-color: skyblue;
+  opacity: 1;
+  transition-property: background-color, opacity;
+  transition-duration: 0.5s;
+  transition-timing-function: ease-in-out;
+  transition-delay: 0.2s;
+}
+
+div:hover {
+  background-color: coral;
+  opacity: 0.5;
+}`;
+
+export const css_7_1_7 =
+`div {
   transition-property: background-color, opacity;
   transition-duration: 0.5s;
   transition-timing-function: ease-in-out;
   transition-delay: 0.2s;
 }`;
 
-export const css_7_1_5_1 =
+export const css_7_1_7_1 =
 `<!DOCTYPE html>
 <html>
 <head>

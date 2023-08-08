@@ -2792,15 +2792,11 @@
     "sections": [
       {
         "secid": 1,
-        "subtitle": "Transition properties and timing functions",
+        "subtitle": "Transitions",
         "paragraphs": [
           {
             "paraid": 1,
-            "text": "Transition properties and timing functions in CSS allow you to add smooth animations and transitions to elements on your web page. Let's explore how to use transition properties and timing functions."
-          },
-          {
-            "paraid": 2,
-            "text": "<strong>Transition Properties</strong>"
+            "text": "Transitions allow you to smoothly change the property values of an element over a specified duration. This creates a visual transition effect, making changes more visually appealing and providing a smoother user experience. Transitions are often used for animating changes in properties like color, size, position, and more."
           },
           {
             "paraid": 3,
@@ -2858,7 +2854,7 @@
           },
           {
             "paraid": 10,
-            "text": "<ul><ul><li>The `<code>transition-timing-function</code>` property determines the speed curve or pace of the transition.</li><li>It controls the acceleration and deceleration of the transition effect.</li><li>Various timing functions are available, such as `<code>ease</code>` (default), `<code>linear</code>`, `<code>ease-in</code>`, `<code>ease-out</code>`, `<code>ease-in-out</code>`, and more.<br/><br/>For example:</li></ul></ul>"
+            "text": "<ul><ul><li>The `<code>transition-timing-function</code>` property determines the speed curve or pace of the transition.</li><li>It controls the acceleration and deceleration of the transition effect.</li><li>Various timing functions are available.</li><li>`<code>ease</code>`: Starts slow, accelerates, and then slows down at the end (default).</li><li>`<code>linear</code>`: Progresses at a constant speed throughout the transition.</li><li>`<code>ease-in</code>`: Starts slow and accelerates.</li><li>`<code>ease-out</code>`: Starts fast and decelerates.</li><li>`<code>ease-in-out</code>`: Starts slow, accelerates, and then decelerates.<br/><br/>For example:</li></ul></ul>"
           },
           {
             "paraid": 11,
@@ -2904,26 +2900,64 @@
           },
           {
             "paraid": 15,
-            "text": "<strong>Explanation of Timing Functions</strong>"
+            "text": "<ol start=\"5\"><li>Using Shorthand Property:</li></ol>"
           },
           {
-            "paraid": 16,
-            "text": "<ol>CSS offers several timing functions that define the pace of the transition effect. Here are a few common timing functions:</ol>"
+            "paraid": 15,
+            "text": "<ul><ul><li>The `<code>transition</code>` property is a shorthand for `<code>transition-property</code>`, `<code>transition-duration</code>`, `<code>transition-timing-function</code>`, and `<code>transition-delay</code>`.<br/><br/>For example:</li></ul></ul>"
           },
           {
-            "paraid": 17,
-            "text": "<ul><ul><li>`<code>ease</code>`: Starts slow, accelerates, and then slows down at the end (default).</li><li>`<code>linear</code>`: Progresses at a constant speed throughout the transition.</li><li>`<code>ease-in</code>`: Starts slow and accelerates.</li><li>`<code>ease-out</code>`: Starts fast and decelerates.</li><li>`<code>ease-in-out</code>`: Starts slow, accelerates, and then decelerates.</li></ul></ul>"
+            "paraid": 14,
+            "text": "",
+            "codeConfig": {
+              "codeid": "css_7_1_5",
+              "exampleid": "",
+              "codeOutput": false,
+              "exampleOutput": false,
+              "codeTitle": "CSS",
+              "exampleTitle": "",
+              "codeLangs": "css",
+              "exampleLangs": "",
+              "codeSource": "",
+              "exampleSource": "",
+              "marginLeft": "5rem"
+            }
+          },
+          {
+            "paraid": 15,
+            "text": "<ol start=\"6\"><li>Triggering Transitions:</li></ol>"
+          },
+          {
+            "paraid": 15,
+            "text": "<ul><ul><li>You can trigger transitions using pseudo classes like `<code>:hover</code>`, `<code>:focus</code>`, or `<code>:active</code>`. Also can use JavaScript to add or remove classes to trigger transitions.<br/><br/>For example:</li></ul></ul>"
+          },
+          {
+            "paraid": 14,
+            "text": "",
+            "codeConfig": {
+              "codeid": "css_7_1_6",
+              "exampleid": "",
+              "codeOutput": false,
+              "exampleOutput": false,
+              "codeTitle": "CSS",
+              "exampleTitle": "",
+              "codeLangs": "css",
+              "exampleLangs": "",
+              "codeSource": "",
+              "exampleSource": "",
+              "marginLeft": "5rem"
+            }
           },
           {
             "paraid": 18,
-            "text": "<ul><ul>Example combining transition properties and timing function:</ul><ul>"
+            "text": "<ul>Example combining transition properties:<ul>"
           },
           {
             "paraid": 19,
             "text": "",
             "codeConfig": {
-              "codeid": "css_7_1_5",
-              "exampleid": "css_7_1_5_1",
+              "codeid": "css_7_1_7",
+              "exampleid": "css_7_1_7_1",
               "codeOutput": false,
               "exampleOutput": true,
               "codeTitle": "CSS",
@@ -2932,12 +2966,12 @@
               "exampleLangs": "xml",
               "codeSource": "",
               "exampleSource": "",
-              "marginLeft": "5rem"
+              "marginLeft": "2.5rem"
             }
           },
           {
             "paraid": 20,
-            "text": "By using transition properties and timing functions effectively, you can add fluid and visually appealing animations to elements on your web page, enhancing the user experience and bringing life to your designs."
+            "text": "By using transition properties effectively, you can add fluid and visually appealing animations to elements on your web page, enhancing the user experience and bringing life to your designs."
           }
         ]
       },
