@@ -442,6 +442,7 @@ export const css_3_2_1_1 =
 `<!DOCTYPE html>
 <html>
 <head>
+  <title>Margin Property Example</title>
   <style>
     .class1 {
       margin: 10px;
@@ -488,6 +489,7 @@ export const css_3_2_2_1 =
 `<!DOCTYPE html>
 <html>
 <head>
+  <title>Padding Property Example</title>
   <style>
     .class1 {
       padding: 10px;
@@ -535,6 +537,7 @@ export const css_3_2_3_1 =
 `<!DOCTYPE html>
 <html>
 <head>
+  <title>Border Property Example</title>
   <style>
     .class1 {
       border: 1px solid black;
@@ -589,6 +592,7 @@ export const css_3_3_1_1 =
 `<!DOCTYPE html>
 <html>
 <head>
+  <title>Box Sizing Property Example</title>
   <style>
     .box {
       box-sizing: border-box;
@@ -601,7 +605,7 @@ export const css_3_3_1_1 =
 </head>
 <body>
   <div class="box">
-    <h2>Box Example</h2>
+    <h2>Box Sizing Property Example</h2>
     <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
   </div>
 </body>
@@ -618,6 +622,7 @@ export const css_3_3_2_1 =
 `<!DOCTYPE html>
 <html>
 <head>
+  <title>Overflow Property Example</title>
   <style>
     .box {
       width: 200px;
@@ -630,7 +635,7 @@ export const css_3_3_2_1 =
 </head>
 <body>
   <div class="box">
-    <h2>Scrollable Box Example</h2>
+    <h2>Overflow Property Example</h2>
     <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris ultrices dolor eget velit vulputate auctor. Nam dignissim lacus ac dui rhoncus posuere.</p>
     <p>Nulla facilisi. Duis varius tortor vel nunc pulvinar, a pharetra mauris finibus. Vivamus et ante vitae ipsum interdum mattis sed id erat.</p>
     <p>Sed condimentum magna nec tortor efficitur, ac dignissim nulla iaculis. Suspendisse tristique luctus luctus. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; In mattis consectetur dapibus.</p>
@@ -653,6 +658,7 @@ export const css_3_4_1_1 =
 `<!DOCTYPE html>
 <html>
 <head>
+  <title>Box Model Example</title>
   <style>
     .box {
       width: 200px;
@@ -666,7 +672,7 @@ export const css_3_4_1_1 =
 </head>
 <body>
   <div class="box">
-    <h2>Box Example</h2>
+    <h2>Box Model Example</h2>
     <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
   </div>
 </body>
@@ -682,6 +688,7 @@ export const css_3_4_2_1 =
 `<!DOCTYPE html>
 <html>
 <head>
+  <title>Box Model Example</title>
   <style>
     .box {
       margin: 10px;
@@ -692,7 +699,7 @@ export const css_3_4_2_1 =
 </head>
 <body>
   <div class="box">
-    <h2>Box Example</h2>
+    <h2>Box Model Example</h2>
     <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
   </div>
 </body>
@@ -709,6 +716,7 @@ export const css_3_4_3_1 =
 `<!DOCTYPE html>
 <html>
 <head>
+  <title>Equal-Sized Columns' Example</title>
   <style>
     .column {
       width: 33.33%;
@@ -756,6 +764,7 @@ export const css_3_4_4_1 =
 `<!DOCTYPE html>
 <html>
 <head>
+  <title>Scrollable Container Example</title>
   <style>
     .container {
       width: 200px;
@@ -789,6 +798,7 @@ export const css_3_4_5_1 =
 `<!DOCTYPE html>
 <html>
 <head>
+  <title>Centered Element Example</title>
   <style>
     .block-element {
       width: 300px;
@@ -801,7 +811,7 @@ export const css_3_4_5_1 =
 </head>
 <body>
   <div class="block-element">
-    <h2>Block Element</h2>
+    <h2>Centered Element Example</h2>
     <p>This is a block-level element with a fixed width of 300px. It is horizontally centered using the margin-left and margin-right set to auto.</p>
   </div>
 </body>
@@ -1900,7 +1910,7 @@ export const css_6_2_1_1 =
 `<!DOCTYPE html>
 <html>
 <head>
-  <title>Background Image example</title>
+  <title>Background Image Example</title>
   <style>
     div {
       background-image: url("assets/images/background.jpg");
@@ -1923,7 +1933,7 @@ export const css_6_2_2_1 =
 `<!DOCTYPE html>
 <html>
 <head>
-  <title>Background Image example</title>
+  <title>Background Image Example</title>
   <style>
     div {
       background-image: url("assets/images/background.jpg");
@@ -1947,7 +1957,7 @@ export const css_6_2_3_1 =
 `<!DOCTYPE html>
 <html>
 <head>
-  <title>Background Image example</title>
+  <title>Background Image Example</title>
   <style>
     div {
       background-image: url("assets/images/background.jpg");
@@ -1972,7 +1982,7 @@ export const css_6_2_4_1 =
 `<!DOCTYPE html>
 <html>
 <head>
-  <title>Background Image example</title>
+  <title>Background Image Example</title>
   <style>
     div {
       background-image: url("assets/images/background.jpg");
@@ -1998,7 +2008,7 @@ export const css_6_2_5_1 =
 `<!DOCTYPE html>
 <html>
 <head>
-  <title>Linear Gradient example</title>
+  <title>Linear Gradient Example</title>
   <style>
     div {
       background-image: linear-gradient(to right, red, blue);
@@ -2021,7 +2031,7 @@ export const css_6_2_6_1 =
 `<!DOCTYPE html>
 <html>
 <head>
-  <title>Radial Gradient example</title>
+  <title>Radial Gradient Example</title>
   <style>
     div {
       background-image: radial-gradient(circle, red, blue);
@@ -2044,7 +2054,7 @@ export const css_6_2_7_1 =
 `<!DOCTYPE html>
 <html>
 <head>
-  <title>Repeating Linear Gradient example</title>
+  <title>Repeating Linear Gradient Example</title>
   <style>
     div {
       background-image: repeating-linear-gradient(to right, red, blue 50%);
@@ -2449,47 +2459,12 @@ export const css_7_3_3_1 =
 </html>`;
 
 export const css_7_3_4 =
-`button {
-  transition: background-color 0.3s ease-in-out;
-}
-
-button:hover {
-  background-color: #ff0000;
-  color: #ffffff;
-}`;
-
-export const css_7_3_4_1 =
-`<!DOCTYPE html>
-<html>
-<head>
-  <title>CSS Animation Example</title>
-  <style>
-    button {
-      padding: 10px 20px;
-      background-color: #00ff00;
-      color: #000000;
-      border: none;
-      transition: background-color 0.3s ease-in-out;
-    }
-    
-    button:hover {
-      background-color: #ff0000;
-      color: #ffffff;
-    }
-  </style>
-</head>
-<body>
-  <button>Hover Me</button>
-</body>
-</html>`;
-
-export const css_7_3_5 =
 `const element = document.querySelector('.my-element');
 element.addEventListener('click', () => {
   element.classList.toggle('animate');
 });`;
 
-export const css_7_3_5_1 =
+export const css_7_3_4_1 =
 `<!DOCTYPE html>
 <html>
 <head>
