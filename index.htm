@@ -2,6 +2,15 @@
 <html lang="en">
 
 <head>
+  <!-- Google tag (gtag.js) -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=G-6T6C25SQKM"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+    gtag('config', 'G-6T6C25SQKM');
+    gtag('event', 'page-view', { 'category': 'about in index.htm' });
+  </script>
   <meta charset="utf-8">
   <meta http-equiv="Permissions-Policy" content="interest-cohort=()">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -23,7 +32,7 @@
       letter-spacing: 0.05em;
     }
 
-    .container {
+    .container, footer {
       max-width: 900px;
       margin-left: auto;
       margin-right: auto;
@@ -31,8 +40,12 @@
       margin: 1.5rem; */
     }
 
-    h3 {
+    h3, footer {
       margin-top: 3rem;
+    }
+
+    footer {
+      margin-bottom: 6rem;
     }
 
     img {
@@ -72,7 +85,7 @@
 </head>
 
 <body>
-  <div class="container">
+  <main class="container">
     <h2>About the Website</h2>
 
     <h3>Introduction to the Website:</h3>
@@ -98,12 +111,15 @@
     </div>
 
     <h3>Disclaimers:</h3>
-  <p><strong>1. Accuracy</strong>: The information provided on this website is for general educational purposes only. While we strive to ensure the accuracy and currency of the content, we make no representations or warranties of any kind, express or implied, about the completeness, accuracy, reliability, or suitability concerning the tutorials or the information, or related graphics contained on the website. Any reliance you place on such information is strictly at your own risk.</p>
-  <p><strong>2. Code and Security</strong>: The tutorials and code snippets provided on this website are for educational purposes only. We do not guarantee their suitability for specific applications, and users are advised to thoroughly test the code in a safe environment before using it in a production setting. Additionally, we shall not be held liable for any security breaches or vulnerabilities that may arise from the use of any code or techniques presented on this website.</p>
-  <p><strong>3. Changes to Content</strong>: The content and tutorials on this website may be updated or changed without notice. We reserve the right to modify, update, or discontinue any part of the website at our sole discretion.</p>
-  <p><strong>4. External Links</strong>: Our website may contain links to external websites that are not controlled or operated by us. While we strive to provide only quality links to useful and ethical websites, we have no control over the content and nature of these sites. The inclusion of any links does not necessarily imply a recommendation or endorsement of the views expressed within them.</p>
-  <p><strong>5. Compliance</strong>: Users are responsible for ensuring compliance with applicable laws, regulations, and licenses when using the information, code, or techniques presented on this website.</p>
-  </div>
+    <p><strong>1. Accuracy</strong>: The information provided on this website is for general educational purposes only. While we strive to ensure the accuracy and currency of the content, we make no representations or warranties of any kind, express or implied, about the completeness, accuracy, reliability, or suitability concerning the tutorials or the information, or related graphics contained on the website. Any reliance you place on such information is strictly at your own risk.</p>
+    <p><strong>2. Code and Security</strong>: The tutorials and code snippets provided on this website are for educational purposes only. We do not guarantee their suitability for specific applications, and users are advised to thoroughly test the code in a safe environment before using it in a production setting. Additionally, we shall not be held liable for any security breaches or vulnerabilities that may arise from the use of any code or techniques presented on this website.</p>
+    <p><strong>3. Changes to Content</strong>: The content and tutorials on this website may be updated or changed without notice. We reserve the right to modify, update, or discontinue any part of the website at our sole discretion.</p>
+    <p><strong>4. External Links</strong>: Our website may contain links to external websites that are not controlled or operated by us. While we strive to provide only quality links to useful and ethical websites, we have no control over the content and nature of these sites. The inclusion of any links does not necessarily imply a recommendation or endorsement of the views expressed within them.</p>
+    <p><strong>5. Compliance</strong>: Users are responsible for ensuring compliance with applicable laws, regulations, and licenses when using the information, code, or techniques presented on this website.</p>
+  </main>
+  
+  <footer>
+    <p>&copy; 2023 Web Tech Mentors website. All rights reserved.</p>
+  </footer>
 </body>
-
 </html>

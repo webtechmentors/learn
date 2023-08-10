@@ -32,7 +32,7 @@
           },
           {
             "paraid": 2,
-            "text": "<ol><li>Structure: HTML provides a way to structure content on a web page. By using HTML tags to enclose content, developers can create a hierarchy of content, with headings, paragraphs, and other elements arranged in a logical and meaningful way.</li><li>Accessibility: HTML is designed to be accessible to all users, including those with disabilities. By using semantic HTML tags and following accessibility guidelines, developers can create web pages that are easy to navigate and understand for users with disabilities.</li><li>Compatibility: HTML is a widely used and well-established standard, which means that it is supported by all modern web browsers. This makes it possible to create web pages that work consistently across different browsers and devices.</li><li>Interactivity: HTML provides a way to add interactivity to web pages through the use of forms, buttons, and other interactive elements. This allows developers to create web applications that can respond to user input and provide a dynamic user experience.</li><li>Search engine optimization (SEO): By using HTML tags and attributes to provide metadata and other information about a web page, developers can improve the search engine visibility and ranking of their website.</li></ol>"
+            "text": "<ol><li><strong>Structure</strong>: HTML provides a way to structure content on a web page. By using HTML tags to enclose content, developers can create a hierarchy of content, with headings, paragraphs, and other elements arranged in a logical and meaningful way.</li><li><strong>Accessibility</strong>: HTML is designed to be accessible to all users, including those with disabilities. By using semantic HTML tags and following accessibility guidelines, developers can create web pages that are easy to navigate and understand for users with disabilities.</li><li><strong>Compatibility</strong>: HTML is a widely used and well-established standard, which means that it is supported by all modern web browsers. This makes it possible to create web pages that work consistently across different browsers and devices.</li><li><strong>Interactivity</strong>: HTML provides a way to add interactivity to web pages through the use of forms, buttons, and other interactive elements. This allows developers to create web applications that can respond to user input and provide a dynamic user experience.</li><li><strong>Search engine optimization (SEO)</strong>: By using HTML tags and attributes to provide metadata and other information about a web page, developers can improve the search engine visibility and ranking of their website.</li></ol>"
           },
           {
             "paraid": 3,
@@ -50,15 +50,15 @@
           },
           {
             "paraid": 2,
-            "text": "<ol><li>Doctype Declaration: This is the first line of an HTML document and it informs the web browser which version of HTML is being used. It is not an HTML tag, but rather an instruction to the browser.</li><br/>For example: `<code>&lt;!DOCTYPE html&gt;</code>`</ol>"
+            "text": "<ol><li><strong>Doctype Declaration</strong>: This is the first line of an HTML document and it informs the web browser which version of HTML is being used. It is not an HTML tag, but rather an instruction to the browser.</li><br/>For example: `<code>&lt;!DOCTYPE html&gt;</code>`</ol>"
           },
           {
             "paraid": 3,
-            "text": "<ol start=\"2\"><li>HTML tag: The HTML tag is the root element of an HTML document. It tells the web browser that the document is an HTML document.</li><br/>For example: `<code>&lt;html&gt;</code>`...`<code>&lt;/html&gt;</code>`</ol>"
+            "text": "<ol start=\"2\"><li><strong>HTML tag</strong>: The HTML tag is the root element of an HTML document. It tells the web browser that the document is an HTML document.</li><br/>For example: `<code>&lt;html&gt;</code>`...`<code>&lt;/html&gt;</code>`</ol>"
           },
           {
             "paraid": 4,
-            "text": "<ol start=\"3\"><li>Head tag: The head tag contains information about the web page that is not displayed on the web page itself. This includes the title of the web page, any metadata, and links to CSS stylesheets and JavaScript files.</li><br/>For example:</ol>"
+            "text": "<ol start=\"3\"><li><strong>Head tag</strong>: The head tag contains information about the web page that is not displayed on the web page itself. This includes the title of the web page, any metadata, and links to CSS stylesheets and JavaScript files.</li><br/>For example:</ol>"
           },
           {
             "paraid": 5,
@@ -79,7 +79,7 @@
           },
           {
             "paraid": 6,
-            "text": "<ol start=\"4\"><li>Body tag: The body tag contains the visible content of the web page, such as headings, paragraphs, images, and other HTML elements.</li><br/>For example:</ol>"
+            "text": "<ol start=\"4\"><li><strong>Body tag</strong>: The body tag contains the visible content of the web page, such as headings, paragraphs, images, and other HTML elements.</li><br/>For example:</ol>"
           },
           {
             "paraid": 7,
@@ -100,7 +100,7 @@
           },
           {
             "paraid": 8,
-            "text": "<ol start=\"5\"><li>Tag attributes: HTML tags can have attributes that provide additional information about the tag or modify its behavior. Attributes are specified within the opening tag of an element.<br/><br/>For example:</li></ol>"
+            "text": "<ol start=\"5\"><li><strong>Tag attributes</strong>: HTML tags can have attributes that provide additional information about the tag or modify its behavior. Attributes are specified within the opening tag of an element.<br/><br/>For example:</li></ol>"
           },
           {
             "paraid": 9,
@@ -125,7 +125,7 @@
           },
           {
             "paraid": 11,
-            "text": "<ol start=\"6\"><li>Comments: HTML comments are used to add notes and explanations to an HTML document that are not displayed on the web page. Comments start with `<code>&lt;!--</code>` and end with `<code>--&gt;</code>`.<br/><br/>For example:</li></ol>"
+            "text": "<ol start=\"6\"><li><strong>Comments</strong>: HTML comments are used to add notes and explanations to an HTML document that are not displayed on the web page. Comments start with `<code>&lt;!--</code>` and end with `<code>--&gt;</code>`.<br/><br/>For example:</li></ol>"
           },
           {
             "paraid": 12,

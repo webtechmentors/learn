@@ -318,7 +318,7 @@
           },
           {
             "paraid": 8,
-            "text": "<ol start=\"4\"><li>Inheritance: Some CSS properties are inherited by default, meaning that the styles applied to a parent element can be inherited by its child elements. Element selectors can be used to target specific elements and override or modify inherited styles.</li></ol>"
+            "text": "<ol start=\"4\"><li><strong>Inheritance</strong>: Some CSS properties are inherited by default, meaning that the styles applied to a parent element can be inherited by its child elements. Element selectors can be used to target specific elements and override or modify inherited styles.</li></ol>"
           },
           {
             "paraid": 9,
