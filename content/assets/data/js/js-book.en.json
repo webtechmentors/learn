@@ -17,8 +17,76 @@
             "text": "Here are some key points about JavaScript:"
           },
           {
-            "paraid": 3,
-            "text": "<ol><li><strong>Client-Side Scripting</strong>: JavaScript is mainly used as a client-side scripting language, meaning it runs on the user's web browser and enables interactivity with web pages. It can manipulate the Document Object Model (DOM) of a webpage, enabling dynamic content updates, event handling, and user interactions.</li><li><strong>Object-Oriented and Prototypal Language</strong>: JavaScript follows an object-oriented programming (OOP) paradigm. It provides objects and classes for organizing and encapsulating code. However, instead of traditional class-based inheritance, JavaScript uses prototypal inheritance, where objects can inherit properties and methods from other objects.</li><li><strong>Web Development</strong>: JavaScript is an essential component of modern web development. It is used alongside HTML and CSS to create dynamic and interactive web experiences. It allows developers to add functionality like form validation, animations, AJAX-based content loading, and much more.</li><li><strong>Server-Side Development</strong>: With the introduction of platforms like Node.js, JavaScript can now be used for server-side development as well. Node.js allows developers to write server applications using JavaScript, making it possible to build full-stack web applications entirely with JavaScript.</li><li><strong>Large Ecosystem</strong>: JavaScript has a vast ecosystem of libraries, frameworks, and tools that extend its capabilities and simplify web development. Popular libraries and frameworks like React, Angular, and Vue.js enable developers to build complex web applications more efficiently.</li><li><strong>Cross-Platform</strong>: JavaScript can run on various platforms, including different web browsers, operating systems, and devices. This cross-platform compatibility makes JavaScript a versatile language for creating web applications that work seamlessly across different environments.</li><li><strong>Constantly Evolving</strong>: JavaScript is an actively evolving language, with regular updates and new features being added. The ECMAScript specification defines the language standards.</li></ol>"
+            "paraid": 1,
+            "text": "<ol><li><strong>Client-Side Scripting</strong></li></ol>"
+          },
+          {
+            "paraid": 1,
+            "text": "<ul>JavaScript is mainly used as a client-side scripting language, meaning it runs on the user's web browser and enables interactivity with web pages. It can manipulate the Document Object Model (DOM) of a webpage, enabling dynamic content updates, event handling, and user interactions.</ul>"
+          },
+          {
+            "paraid": 1,
+            "text": "<ol start=\"2\"><li><strong>Flexible Images and Media</strong></li></ol>"
+          },
+          {
+            "paraid": 1,
+            "text": "<ul>Ensuring that images and media content can scale and resize appropriately to fit different screen dimensions without losing clarity or breaking the layout.</ul>"
+          },
+          {
+            "paraid": 1,
+            "text": "<ol start=\"3\"><li><strong>Media Queries</strong></li></ol>"
+          },
+          {
+            "paraid": 1,
+            "text": "<ul>Employing CSS media queries to apply specific styles based on the characteristics of the device or viewport, such as screen width, height, and orientation. This allows for targeted customization for different screen sizes.</ul>"
+          },
+          {
+            "paraid": 1,
+            "text": "<ol start=\"4\"><li><strong>Mobile-First Approach</strong></li></ol>"
+          },
+          {
+            "paraid": 1,
+            "text": "<ul>Designing and developing for mobile devices first and then progressively enhancing the layout for larger screens. This ensures a focus on essential content and a smooth experience on smaller devices.</ul>"
+          },
+          {
+            "paraid": 1,
+            "text": "<ol start=\"5\"><li><strong>Responsive Typography</strong></li></ol>"
+          },
+          {
+            "paraid": 1,
+            "text": "<ul>Using fluid typography techniques to ensure that text content scales and adjusts based on the screen size, improving readability across devices.</ul>"
+          },
+          {
+            "paraid": 1,
+            "text": "<ol start=\"6\"><li><strong>CSS Flexbox</strong></li></ol>"
+          },
+          {
+            "paraid": 1,
+            "text": "<ul>Utilize CSS Flexbox to create flexible and responsive layouts. Flexbox provides a powerful way to distribute and align elements within a container, making it easier to create responsive designs.</ul>"
+          },
+          {
+            "paraid": 1,
+            "text": "<ol start=\"7\"><li><strong>CSS Grid</strong></li></ol>"
+          },
+          {
+            "paraid": 1,
+            "text": "<ul>CSS Grid allows you to define complex grid-based layouts that adapt to different screen sizes. Use grid properties to specify how elements should be positioned and arranged within a grid container.</ul>"
+          },
+          {
+            "paraid": 1,
+            "text": "<ol start=\"8\"><li><strong>Responsive Navigation</strong></li></ol>"
+          },
+          {
+            "paraid": 1,
+            "text": "<ul>Implement navigation menus that adapt to different screen sizes, such as hamburger menus or collapsible menus. Consider using media queries to change the layout or switch to a different navigation style on smaller screens.</ul>"
+          },
+          {
+            "paraid": 1,
+            "text": "<ol start=\"9\"><li><strong>Hide/Show Content</strong></li></ol>"
+          },
+          {
+            "paraid": 1,
+            "text": "<ul>Hide or show specific content based on screen size or device using CSS display properties or classes. This technique is useful for presenting different layouts or hiding non-essential content on smaller screens.</ul>"
           },
           {
             "paraid": 4,
@@ -28,15 +96,83 @@
       },
       {
         "secid": 2,
-        "subtitle": "History and evolution of JavaScript",
+        "subtitle": "History and Evolution of JavaScript",
         "paragraphs": [
           {
             "paraid": 1,
             "text": "JavaScript has an interesting history and has undergone significant evolution since its creation. Here's an overview of the history and key milestones of JavaScript:"
           },
           {
-            "paraid": 2,
-            "text": "<ol><li><strong>Creation of JavaScript</strong>: JavaScript was created by Brendan Eich in 1995 while he was working at Netscape Communications. Originally called \"Mocha\", it was later renamed to \"LiveScript\" and finally to \"JavaScript\". The goal was to develop a scripting language for web browsers that could add interactivity and dynamic features to web pages.</li><li><strong>Collaboration with ECMA</strong>: In 1996, Netscape submitted JavaScript to Ecma International, a standards organization, for standardization. The standardization process resulted in the creation of the ECMAScript specification, which defines the language syntax, semantics, and standard library. The first standardized version was ECMAScript 1 in 1997.</li><li><strong>Adoption by Multiple Browsers</strong>: JavaScript quickly gained popularity due to its ability to enhance web pages. Other browsers, such as Microsoft's Internet Explorer, started implementing JavaScript support, often with their own variations. This led to some compatibility issues between different browser implementations.</li><li><strong>DOM and Dynamic Web Content</strong>: In the late 1990s, the Document Object Model (DOM) was introduced. The DOM allowed JavaScript to access and manipulate elements of an HTML document, enabling dynamic updates and interactivity. This advancement played a crucial role in the evolution of JavaScript as a powerful web development language.</li><li><strong>AJAX and Rich Internet Applications</strong>: In the early 2000s, JavaScript became a key component in the development of AJAX (Asynchronous JavaScript and XML) techniques. AJAX allowed web applications to retrieve data from servers asynchronously without reloading the entire page. This led to the rise of rich internet applications (RIAs), which provided a more desktop-like user experience within a web browser.</li><li><strong>Frameworks and Libraries</strong>: The mid-2000s saw the emergence of JavaScript frameworks and libraries that simplified web development. Libraries like jQuery (2006) provided a concise and convenient API for manipulating the DOM and handling events. Later, powerful frameworks like AngularJS (2009), React (2013), and Vue.js (2014) gained popularity, offering advanced tools for building complex web applications.</li><li><strong>Server-Side JavaScript</strong>: In 2009, Ryan Dahl introduced Node.js, a runtime environment that allowed JavaScript to run on the server-side. Node.js enabled developers to use JavaScript for server-side programming, opening up opportunities for full-stack JavaScript development and facilitating the creation of scalable and efficient web applications.</li><li><strong>Evolution of ECMAScript</strong>: ECMAScript, the standard for JavaScript, has undergone several significant updates and releases. ECMAScript 3 (1999) introduced many core features still widely used today, while ECMAScript 5 (2009) brought important enhancements. ECMAScript 6 (2015) introduced major language improvements, including classes, arrow functions, and modules. Subsequent versions like ECMAScript 2016, 2017, and 2018 introduced additional features and syntax enhancements.</li><li><strong>Modern JavaScript</strong>: JavaScript has continued to evolve with regular updates and new features. Recent developments have focused on improving performance, enhancing developer productivity, and providing better language support for complex applications. Notable features introduced in recent years include async/await for asynchronous programming, spread syntax, optional chaining, and more.</li></ol>"
+            "paraid": 1,
+            "text": "<ol><li><strong>Creation of JavaScript</strong></li></ol>"
+          },
+          {
+            "paraid": 1,
+            "text": "<ul>JavaScript was created by Brendan Eich in 1995 while he was working at Netscape Communications. Originally called \"Mocha\", it was later renamed to \"LiveScript\" and finally to \"JavaScript\". The goal was to develop a scripting language for web browsers that could add interactivity and dynamic features to web pages.</ul>"
+          },
+          {
+            "paraid": 1,
+            "text": "<ol start=\"2\"><li><strong>Collaboration with ECMA</strong></li></ol>"
+          },
+          {
+            "paraid": 1,
+            "text": "<ul>In 1996, Netscape submitted JavaScript to Ecma International, a standards organization, for standardization. The standardization process resulted in the creation of the ECMAScript specification, which defines the language syntax, semantics, and standard library. The first standardized version was ECMAScript 1 in 1997.</ul>"
+          },
+          {
+            "paraid": 1,
+            "text": "<ol start=\"3\"><li><strong>Adoption by Multiple Browsers</strong></li></ol>"
+          },
+          {
+            "paraid": 1,
+            "text": "<ul>JavaScript quickly gained popularity due to its ability to enhance web pages. Other browsers, such as Microsoft's Internet Explorer, started implementing JavaScript support, often with their own variations. This led to some compatibility issues between different browser implementations.</ul>"
+          },
+          {
+            "paraid": 1,
+            "text": "<ol start=\"4\"><li><strong>DOM and Dynamic Web Content</strong></li></ol>"
+          },
+          {
+            "paraid": 1,
+            "text": "<ul>In the late 1990s, the Document Object Model (DOM) was introduced. The DOM allowed JavaScript to access and manipulate elements of an HTML document, enabling dynamic updates and interactivity. This advancement played a crucial role in the evolution of JavaScript as a powerful web development language.</ul>"
+          },
+          {
+            "paraid": 1,
+            "text": "<ol start=\"5\"><li><strong>AJAX and Rich Internet Applications</strong></li></ol>"
+          },
+          {
+            "paraid": 1,
+            "text": "<ul>In the early 2000s, JavaScript became a key component in the development of AJAX (Asynchronous JavaScript and XML) techniques. AJAX allowed web applications to retrieve data from servers asynchronously without reloading the entire page. This led to the rise of rich internet applications (RIAs), which provided a more desktop-like user experience within a web browser.</ul>"
+          },
+          {
+            "paraid": 1,
+            "text": "<ol start=\"6\"><li><strong>Frameworks and Libraries</strong></li></ol>"
+          },
+          {
+            "paraid": 1,
+            "text": "<ul>The mid-2000s saw the emergence of JavaScript frameworks and libraries that simplified web development. Libraries like jQuery (2006) provided a concise and convenient API for manipulating the DOM and handling events. Later, powerful frameworks like AngularJS (2009), React (2013), and Vue.js (2014) gained popularity, offering advanced tools for building complex web applications.</ul>"
+          },
+          {
+            "paraid": 1,
+            "text": "<ol start=\"7\"><li><strong>Server-Side JavaScript</strong></li></ol>"
+          },
+          {
+            "paraid": 1,
+            "text": "<ul>In 2009, Ryan Dahl introduced Node.js, a runtime environment that allowed JavaScript to run on the server-side. Node.js enabled developers to use JavaScript for server-side programming, opening up opportunities for full-stack JavaScript development and facilitating the creation of scalable and efficient web applications.</ul>"
+          },
+          {
+            "paraid": 1,
+            "text": "<ol start=\"8\"><li><strong>Evolution of ECMAScript</strong></li></ol>"
+          },
+          {
+            "paraid": 1,
+            "text": "<ul>ECMAScript, the standard for JavaScript, has undergone several significant updates and releases. ECMAScript 3 (1999) introduced many core features still widely used today, while ECMAScript 5 (2009) brought important enhancements. ECMAScript 6 (2015) introduced major language improvements, including classes, arrow functions, and modules. Subsequent versions like ECMAScript 2016, 2017, and 2018 introduced additional features and syntax enhancements.</ul>"
+          },
+          {
+            "paraid": 1,
+            "text": "<ol start=\"9\"><li><strong>Modern JavaScript</strong></li></ol>"
+          },
+          {
+            "paraid": 1,
+            "text": "<ul>JavaScript has continued to evolve with regular updates and new features. Recent developments have focused on improving performance, enhancing developer productivity, and providing better language support for complex applications. Notable features introduced in recent years include async/await for asynchronous programming, spread syntax, optional chaining, and more.</ul>"
           },
           {
             "paraid": 3,
@@ -46,32 +182,93 @@
       },
       {
         "secid": 3,
-        "subtitle": "JavaScript in web development",
+        "subtitle": "JavaScript in Web Development",
         "paragraphs": [
           {
             "paraid": 1,
             "text": "JavaScript plays a vital role in web development, enabling developers to create dynamic, interactive, and feature-rich web applications. Here are some key aspects of JavaScript's role in web development:"
           },
           {
-            "paraid": 2,
-            "text": "<ol><li><strong>Client-Side Interactivity</strong>: JavaScript is primarily used on the client-side, meaning it runs directly in the user's web browser. It allows developers to add interactivity and responsiveness to web pages. JavaScript can handle events, such as button clicks, form submissions, and mouse movements, and respond dynamically by modifying the content, styles, or behavior of the page.</li><li><strong>Manipulating the DOM</strong>: The Document Object Model (DOM) is a programming interface that represents the structure and content of an HTML document as a tree of objects. JavaScript provides extensive support for accessing, modifying, and manipulating the DOM elements. Developers can use JavaScript to dynamically update the content, create or remove elements, change styles, and handle user interactions.</li><li><strong>Form Validation</strong>: JavaScript enables form validation on the client-side, allowing for immediate feedback to users when they submit forms. Developers can use JavaScript to perform various validations, such as checking for required fields, validating email addresses, enforcing input formats, and displaying error messages without the need for a server roundtrip.</li><li><strong>AJAX and Asynchronous Operations</strong>: JavaScript, in combination with AJAX (Asynchronous JavaScript and XML) techniques, allows web applications to retrieve data from servers asynchronously without refreshing the entire page. This enables a smoother user experience, as content can be dynamically loaded and updated in the background, providing real-time updates and reducing server load.</li><li><strong>Rich User Interfaces</strong>: JavaScript frameworks and libraries like React, Angular, and Vue.js have gained popularity for building complex user interfaces. These frameworks provide powerful tools for managing state, rendering components, and handling user interactions. They enable developers to create interactive, responsive, and dynamic web applications with reusable components and efficient rendering.</li><li><strong>Browser APIs and Integration</strong>: JavaScript provides access to various browser APIs (Application Programming Interfaces) that expose additional functionalities and capabilities to web applications. These APIs include geolocation, local storage, web notifications, audio/video playback, canvas for graphics, and many more. JavaScript allows developers to leverage these APIs to create compelling and interactive experiences directly within the browser.</li><li><strong>Web Application Frameworks</strong>: JavaScript is the language of choice for many web application frameworks. These frameworks, such as Express.js, Meteor, and Nest.js, enable developers to build server-side applications, APIs, and full-stack web applications using JavaScript. These frameworks provide structure, routing, database integration, and other essential components for developing scalable and robust web applications.</li><li><strong>Cross-Browser Compatibility</strong>: JavaScript is supported by all modern web browsers, making it a reliable choice for developing cross-browser compatible web applications. While there may be some minor differences in browser implementations, JavaScript frameworks and libraries often abstract away these inconsistencies, allowing developers to write code that works across different browsers.</li><li><strong>Continuous Development and Libraries</strong>: JavaScript has a vast ecosystem of libraries, frameworks, and tools that continuously evolve and enhance web development capabilities. Developers can leverage these libraries and tools to streamline development processes, enhance functionality, improve performance, and address common challenges.</li></ol>"
+            "paraid": 1,
+            "text": "<ol><li><strong>Client-Side Interactivity</strong></li></ol>"
+          },
+          {
+            "paraid": 1,
+            "text": "<ul>JavaScript is primarily used on the client-side, meaning it runs directly in the user's web browser. It allows developers to add interactivity and responsiveness to web pages. JavaScript can handle events, such as button clicks, form submissions, and mouse movements, and respond dynamically by modifying the content, styles, or behavior of the page.</ul>"
+          },
+          {
+            "paraid": 1,
+            "text": "<ol start=\"2\"><li><strong>Manipulating the DOM</strong></li></ol>"
+          },
+          {
+            "paraid": 1,
+            "text": "<ul>The Document Object Model (DOM) is a programming interface that represents the structure and content of an HTML document as a tree of objects. JavaScript provides extensive support for accessing, modifying, and manipulating the DOM elements. Developers can use JavaScript to dynamically update the content, create or remove elements, change styles, and handle user interactions.</ul>"
+          },
+          {
+            "paraid": 1,
+            "text": "<ol start=\"3\"><li><strong>Form Validation</strong></li></ol>"
+          },
+          {
+            "paraid": 1,
+            "text": "<ul>JavaScript enables form validation on the client-side, allowing for immediate feedback to users when they submit forms. Developers can use JavaScript to perform various validations, such as checking for required fields, validating email addresses, enforcing input formats, and displaying error messages without the need for a server roundtrip.</ul>"
+          },
+          {
+            "paraid": 1,
+            "text": "<ol start=\"4\"><li><strong>AJAX and Asynchronous Operations</strong></li></ol>"
+          },
+          {
+            "paraid": 1,
+            "text": "<ul>JavaScript, in combination with AJAX (Asynchronous JavaScript and XML) techniques, allows web applications to retrieve data from servers asynchronously without refreshing the entire page. This enables a smoother user experience, as content can be dynamically loaded and updated in the background, providing real-time updates and reducing server load.</ul>"
+          },
+          {
+            "paraid": 1,
+            "text": "<ol start=\"5\"><li><strong>Rich User Interfaces</strong></li></ol>"
+          },
+          {
+            "paraid": 1,
+            "text": "<ul>JavaScript frameworks and libraries like React, Angular, and Vue.js have gained popularity for building complex user interfaces. These frameworks provide powerful tools for managing state, rendering components, and handling user interactions. They enable developers to create interactive, responsive, and dynamic web applications with reusable components and efficient rendering.</ul>"
+          },
+          {
+            "paraid": 1,
+            "text": "<ol start=\"6\"><li><strong>Browser APIs and Integration</strong></li></ol>"
+          },
+          {
+            "paraid": 1,
+            "text": "<ul>JavaScript provides access to various browser APIs (Application Programming Interfaces) that expose additional functionalities and capabilities to web applications. These APIs include geolocation, local storage, web notifications, audio/video playback, canvas for graphics, and many more. JavaScript allows developers to leverage these APIs to create compelling and interactive experiences directly within the browser.</ul>"
+          },
+          {
+            "paraid": 1,
+            "text": "<ol start=\"7\"><li><strong>Web Application Frameworks</strong></li></ol>"
+          },
+          {
+            "paraid": 1,
+            "text": "<ul>JavaScript is the language of choice for many web application frameworks. These frameworks, such as Express.js, Meteor, and Nest.js, enable developers to build server-side applications, APIs, and full-stack web applications using JavaScript. These frameworks provide structure, routing, database integration, and other essential components for developing scalable and robust web applications.</ul>"
+          },
+          {
+            "paraid": 1,
+            "text": "<ol start=\"8\"><li><strong>Cross-Browser Compatibility</strong></li></ol>"
+          },
+          {
+            "paraid": 1,
+            "text": "<ul>JavaScript is supported by all modern web browsers, making it a reliable choice for developing cross-browser compatible web applications. While there may be some minor differences in browser implementations, JavaScript frameworks and libraries often abstract away these inconsistencies, allowing developers to write code that works across different browsers.</ul>"
+          },
+          {
+            "paraid": 1,
+            "text": "<ol start=\"9\"><li><strong>Continuous Development and Libraries</strong></li></ol>"
+          },
+          {
+            "paraid": 1,
+            "text": "<ul>JavaScript has a vast ecosystem of libraries, frameworks, and tools that continuously evolve and enhance web development capabilities. Developers can leverage these libraries and tools to streamline development processes, enhance functionality, improve performance, and address common challenges.</ul>"
           },
           {
             "paraid": 3,
             "text": "In summary, JavaScript is a fundamental technology in web development, enabling developers to create dynamic and interactive web applications. Its versatility, extensive browser support, and thriving ecosystem make it a powerful language for building engaging user experiences on the web."
           }
         ]
-      }
-    ]
-  },
-  {
-    "category": "js",
-    "chid": 2,
-    "title": "JavaScript Basics I",
-    "sections": [
+      },
       {
-        "secid": 1,
-        "subtitle": "Setting up a JavaScript development environment",
+        "secid": 4,
+        "subtitle": "Setting Up a JavaScript Development Environment",
         "paragraphs": [
           {
             "paraid": 1,
@@ -79,7 +276,7 @@
           },
           {
             "paraid": 2,
-            "text": "<ol><li>Install a Text Editor or Integrated Development Environment (IDE):</li></ol>"
+            "text": "<ol><li><strong>Install a Text Editor or Integrated Development Environment (IDE)</strong></li></ol>"
           },
           {
             "paraid": 3,
@@ -87,7 +284,7 @@
           },
           {
             "paraid": 4,
-            "text": "<ol start=\"2\"><li>Install Node.js:</li></ol>"
+            "text": "<ol start=\"2\"><li><strong>Install Node.js</strong></li></ol>"
           },
           {
             "paraid": 5,
@@ -95,7 +292,7 @@
           },
           {
             "paraid": 6,
-            "text": "<ol start=\"3\"><li>Set up a Package.json file:</li></ol>"
+            "text": "<ol start=\"3\"><li><strong>Set up a Package.json file</strong></li></ol>"
           },
           {
             "paraid": 7,
@@ -103,7 +300,7 @@
           },
           {
             "paraid": 8,
-            "text": "<ol start=\"4\"><li>Install JavaScript Libraries and Tools:</li></ol>"
+            "text": "<ol start=\"4\"><li><strong>Install JavaScript Libraries and Tools</strong></li></ol>"
           },
           {
             "paraid": 9,
@@ -111,7 +308,7 @@
           },
           {
             "paraid": 10,
-            "text": "<ol start=\"5\"><li>Use a Module Bundler (optional):</li></ol>"
+            "text": "<ol start=\"5\"><li><strong>Use a Module Bundler (optional)</strong></li></ol>"
           },
           {
             "paraid": 11,
@@ -119,7 +316,7 @@
           },
           {
             "paraid": 12,
-            "text": "<ol start=\"6\"><li>Testing and Debugging:</li></ol>"
+            "text": "<ol start=\"6\"><li><strong>Testing and Debugging</strong></li></ol>"
           },
           {
             "paraid": 13,
@@ -127,7 +324,7 @@
           },
           {
             "paraid": 14,
-            "text": "<ol start=\"7\"><li>Browser Live-Reload (optional):</li></ol>"
+            "text": "<ol start=\"7\"><li><strong>Browser Live-Reload (optional)</strong></li></ol>"
           },
           {
             "paraid": 15,
@@ -135,7 +332,7 @@
           },
           {
             "paraid": 16,
-            "text": "<ol start=\"8\"><li>Version Control:</li></ol>"
+            "text": "<ol start=\"8\"><li><strong>Version Control</strong></li></ol>"
           },
           {
             "paraid": 17,
@@ -150,18 +347,25 @@
             "text": "Note: The specific steps for setting up a JavaScript development environment may vary depending on your operating system, text editor or IDE, and specific project requirements. It's always a good idea to consult the official documentation and resources for the tools and libraries you choose to use."
           }
         ]
-      },
+      }
+    ]
+  },
+  {
+    "category": "js",
+    "chid": 2,
+    "title": "JavaScript Basics I",
+    "sections": [
       {
-        "secid": 2,
-        "subtitle": "Variables and data types",
+        "secid": 1,
+        "subtitle": "Variables and Data Types",
         "paragraphs": [
           {
             "paraid": 1,
-            "text": "In JavaScript, variables are used to store data values that can be manipulated and accessed throughout your code. JavaScript has several data types that represent different kinds of values. Let's explore variables and data types in JavaScript."
+            "text": "In JavaScript, variables are used to store data values that can be manipulated and accessed throughout your code. JavaScript has several data types that represent different kinds of values. Let's explore variables and data types in JavaScript:"
           },
           {
             "paraid": 2,
-            "text": "<ol><li>Declaring Variables:</li></ol>"
+            "text": "<ol><li><strong>Declaring Variables</strong></li></ol>"
           },
           {
             "paraid": 3,
@@ -169,7 +373,7 @@
           },
           {
             "paraid": 4,
-            "text": "<ol start=\"2\"><li>Data Types:</li></ol>"
+            "text": "<ol start=\"2\"><li><strong>Data Types</strong></li></ol>"
           },
           {
             "paraid": 5,
@@ -357,7 +561,7 @@
           },
           {
             "paraid": 25,
-            "text": "<ol start=\"3\"><li>Dynamic Typing:</li></ol>"
+            "text": "<ol start=\"3\"><li><strong>Dynamic Typing</strong></li></ol>"
           },
           {
             "paraid": 26,
@@ -365,7 +569,7 @@
           },
           {
             "paraid": 27,
-            "text": "<ol start=\"4\"><li>Type Coercion:</li></ol>"
+            "text": "<ol start=\"4\"><li><strong>Type Coercion</strong></li></ol>"
           },
           {
             "paraid": 28,
@@ -390,7 +594,7 @@
           },
           {
             "paraid": 30,
-            "text": "<ol start=\"5\"><li>Checking Data Type:</li></ol>"
+            "text": "<ol start=\"5\"><li><strong>Checking Data Type</strong></li></ol>"
           },
           {
             "paraid": 31,
@@ -441,16 +645,16 @@
         ]
       },
       {
-        "secid": 3,
-        "subtitle": "Operators and expressions",
+        "secid": 2,
+        "subtitle": "Operators and Expressions",
         "paragraphs": [
           {
             "paraid": 1,
-            "text": "In JavaScript, operators and expressions are used to perform operations on values and produce results. They allow you to manipulate variables, compare values, perform arithmetic calculations, and more. Let's explore the various operators and expressions in JavaScript."
+            "text": "In JavaScript, operators and expressions are used to perform operations on values and produce results. They allow you to manipulate variables, compare values, perform arithmetic calculations, and more. Let's explore the various operators and expressions in JavaScript:"
           },
           {
             "paraid": 2,
-            "text": "<ol><li>Assignment Operators:</li></ol>"
+            "text": "<ol><li><strong>Assignment Operators</strong></li></ol>"
           },
           {
             "paraid": 3,
@@ -496,7 +700,7 @@
           },
           {
             "paraid": 7,
-            "text": "<ol start=\"2\"><li>Arithmetic Operators:</li></ol>"
+            "text": "<ol start=\"2\"><li><strong>Arithmetic Operators</strong></li></ol>"
           },
           {
             "paraid": 8,
@@ -567,7 +771,7 @@
           },
           {
             "paraid": 15,
-            "text": "<ol start=\"3\"><li>Comparison Operators:</li></ol>"
+            "text": "<ol start=\"3\"><li><strong>Comparison Operators</strong></li></ol>"
           },
           {
             "paraid": 16,
@@ -625,7 +829,7 @@
           },
           {
             "paraid": 21,
-            "text": "<ol start=\"4\"><li>Logical Operators:</li></ol>"
+            "text": "<ol start=\"4\"><li><strong>Logical Operators</strong></li></ol>"
           },
           {
             "paraid": 22,
@@ -696,7 +900,7 @@
           },
           {
             "paraid": 29,
-            "text": "<ol start=\"5\"><li>Conditional (Ternary) Operator:</li></ol>"
+            "text": "<ol start=\"5\"><li><strong>Conditional (Ternary) Operator</strong></li></ol>"
           }, 
           {
             "paraid": 30,
@@ -721,7 +925,7 @@
           },
           {
             "paraid": 32,
-            "text": "<ol start=\"6\"><li>Grouping Operator:</li></ol>"
+            "text": "<ol start=\"6\"><li><strong>Grouping Operator</strong></li></ol>"
           }, 
           {
             "paraid": 33,
@@ -746,7 +950,7 @@
           },
           {
             "paraid": 35,
-            "text": "<ol start=\"7\"><li>Bitwise Operators (Advanced):</li></ol>"
+            "text": "<ol start=\"7\"><li><strong>Bitwise Operators</strong></li></ol>"
           },
           {
             "paraid": 36,
@@ -776,20 +980,20 @@
         ]
       },
       {
-        "secid": 4,
-        "subtitle": "Control flow and loops",
+        "secid": 3,
+        "subtitle": "Control Flow and Loops",
         "paragraphs": [
           {
             "paraid": 1,
-            "text": "Control flow and loops in JavaScript provide mechanisms to control the execution flow of your code and perform repetitive tasks. They allow you to make decisions based on conditions and iterate over collections or execute code multiple times. Let's explore the control flow statements and loop structures in JavaScript."
+            "text": "Control flow and loops in JavaScript provide mechanisms to control the execution flow of your code and perform repetitive tasks. They allow you to make decisions based on conditions and iterate over collections or execute code multiple times. Let's explore the control flow statements and loop structures in JavaScript:"
           },
           {
             "paraid": 2,
-            "text": "<ol><li>Conditional Statements:</li></ol>"
+            "text": "<ol><li><strong>Conditional Statements</strong></li></ol>"
           },
           {
             "paraid": 3,
-            "text": "<ul><ul><li><strong>if statement</strong>: Executes a block of code if a specified condition is `<code>true</code>`.</li></ul></ul>"
+            "text": "<ul><ul><li><strong>`<code>if...else</code>` statement</strong>: Executes a block of code if a specified condition is `<code>true</code>`, otherwise execute the `<code>else</code>` block. The `<code>else</code>` statement can be optional:</li></ul></ul>"
           },
           {
             "paraid": 4,
@@ -810,7 +1014,7 @@
           },
           {
             "paraid": 5,
-            "text": "<ul><ul><li><strong>else if statement</strong>: Allows you to check multiple conditions sequentially.</li></ul></ul>"
+            "text": "<ul><ul><li><strong>`<code>else if</code>` statement</strong>: Allows you to check multiple conditions sequentially:</li></ul></ul>"
           },
           {
             "paraid": 6,
@@ -831,7 +1035,7 @@
           },
           {
             "paraid": 7,
-            "text": "<ul><ul><li><strong>switch statement</strong>: Evaluates an expression and executes code based on matching cases.</li></ul></ul>"
+            "text": "<ul><ul><li><strong>`<code>switch</code>` statement</strong>: Evaluates an expression and executes code based on matching cases:</li></ul></ul>"
           },
           {
             "paraid": 8,
@@ -852,11 +1056,11 @@
           },
           {
             "paraid": 9,
-            "text": "<ol start=\"2\"><li>Loop Structures:</li></ol>"
+            "text": "<ol start=\"2\"><li><strong>Loop Structures</strong></li></ol>"
           },
           {
             "paraid": 10,
-            "text": "<ul><ul><li><strong>for loop</strong>: Executes a block of code a specific number of times.</li></ul></ul>"
+            "text": "<ul><ul><li><strong>`<code>for</code>` loop</strong>: Executes a block of code a specific number of times:</li></ul></ul>"
           },
           {
             "paraid": 11,
@@ -877,7 +1081,7 @@
           },
           {
             "paraid": 12,
-            "text": "<ul><ul><li><strong>while loop</strong>: Executes a block of code as long as a specified condition is true.</li></ul></ul>"
+            "text": "<ul><ul><li><strong>`<code>while</code>` loop</strong>: Executes a block of code as long as a specified condition is true:</li></ul></ul>"
           },
           {
             "paraid": 13,
@@ -898,7 +1102,7 @@
           },
           {
             "paraid": 14,
-            "text": "<ul><ul><li><strong>do-while loop</strong>: Similar to a while loop, but the code is executed at least once before checking the condition.</li></ul></ul>"
+            "text": "<ul><ul><li><strong>`<code>do while</code>` loop</strong>: Similar to a while loop, but the code is executed at least once before checking the condition:</li></ul></ul>"
           },
           {
             "paraid": 15,
@@ -919,7 +1123,7 @@
           },
           {
             "paraid": 16,
-            "text": "<ul><ul><li><strong>for...in loop</strong>: Iterates over the properties of an object.</li></ul></ul>"
+            "text": "<ul><ul><li><strong>`<code>for...in</code>` loop</strong>: Iterates over the properties of an object:</li></ul></ul>"
           },
           {
             "paraid": 17,
@@ -940,7 +1144,7 @@
           },
           {
             "paraid": 18,
-            "text": "<ul><ul><li><strong>for...of loop</strong>: Iterates over iterable objects (arrays, strings, etc.) and provides access to each element.</li></ul></ul>"
+            "text": "<ul><ul><li><strong>`<code>for...of</code>` loop</strong>: Iterates over iterable objects (arrays, strings, etc.) and provides access to each element:</li></ul></ul>"
           },
           {
             "paraid": 19,
@@ -961,11 +1165,11 @@
           },
           {
             "paraid": 20,
-            "text": "<ol start=\"3\"><li>Control Statements:</li></ol>"
+            "text": "<ol start=\"3\"><li><strong>Control Statements</strong></li></ol>"
           },
           {
             "paraid": 21,
-            "text": "<ul><ul><li><strong>break statement</strong>: Terminates the current loop or switch statement and transfers control to the next statement.</li></li></ul></ul>"
+            "text": "<ul><ul><li><strong>`<code>break</code>` statement</strong>: Terminates the current loop or switch statement and transfers control to the next statement:</li></li></ul></ul>"
           },
           {
             "paraid": 22,
@@ -986,7 +1190,7 @@
           },
           {
             "paraid": 23,
-            "text": "<ul><ul><li><strong>continue statement</strong>: Skips the current iteration of a loop and continues with the next iteration.</li></ul></ul>"
+            "text": "<ul><ul><li><strong>`<code>continue</code>` statement</strong>: Skips the current iteration of a loop and continues with the next iteration:</li></ul></ul>"
           },
           {
             "paraid": 24,
@@ -1007,7 +1211,7 @@
           },
           {
             "paraid": 25,
-            "text": "<ul><ul><li><strong>return statement</strong>: Used to exit a function (will be discussed in next chapter) and optionally return a value. When encountered inside a loop that is part of a function, it immediately terminates the function execution, including the loop, and returns the specified value (if any).</li></ul></ul>"
+            "text": "<ul><ul><li><strong>`<code>return</code>` statement</strong>: Used to exit a function (will be discussed in next chapter) and optionally return a value. When encountered inside a loop that is part of a function, it immediately terminates the function execution, including the loop, and returns the specified value (if any):</li></ul></ul>"
           },
           {
             "paraid": 26,
@@ -1041,19 +1245,19 @@
     "sections": [
       {
         "secid": 1,
-        "subtitle": "Functions, scope and closure",
+        "subtitle": "Functions, Scope and Closure",
         "paragraphs": [
           {
             "paraid": 1,
-            "text": "Functions and scope are crucial concepts in JavaScript that enable you to organize and encapsulate code, reuse functionality, and control variable visibility. Let's explore functions and scope in JavaScript."
+            "text": "Functions and scope are crucial concepts in JavaScript that enable you to organize and encapsulate code, reuse functionality, and control variable visibility. Let's explore functions and scope in JavaScript:"
           },
           {
             "paraid": 2,
-            "text": "<ol><li>Functions:</li></ol>"
+            "text": "<ol><li><strong>Functions</strong></li></ol>"
           },
           {
             "paraid": 3,
-            "text": "<ul><ul><li>A function is a block of code that performs a specific task or calculates a value. It can be invoked (called) multiple times throughout your code.</li><li>Functions in JavaScript can be declared using the `<code>function</code>` keyword.</li><li>Function Syntax:</li></ul></ul>"
+            "text": "<ul><ul><li>A function is a block of code that performs a specific task or calculates a value. It can be invoked (called) multiple times throughout your code.</li><li>Functions in JavaScript can be declared using the `<code>function</code>` keyword.</li></ul></ul>"
           },
           {
             "paraid": 4,
@@ -1078,11 +1282,11 @@
           },
           {
             "paraid": 6,
-            "text": "<ol start=\"2\"><li>Function Invocation:</li></ol>"
+            "text": "<ol start=\"2\"><li><strong>Function Invocation</strong></li></ol>"
           },
           {
             "paraid": 7,
-            "text": "<ul><ul><li>To execute a function, you need to invoke (call) it by using its name followed by parentheses `<code>()</code>`. You can pass arguments inside the parentheses if the function expects parameters.</li><li>Function Call Syntax:</li></ul></ul>"
+            "text": "<ul><ul><li>To execute a function, you need to invoke (call) it by using its name followed by parentheses `<code>()</code>`. You can pass arguments inside the parentheses if the function expects parameters.</li></ul></ul>"
           },
           {
             "paraid": 8,
@@ -1103,7 +1307,7 @@
           },
           {
             "paraid": 9,
-            "text": "<ol start=\"3\"><li>Function Scope:</li></ol>"
+            "text": "<ol start=\"3\"><li><strong>Function Scope</strong></li></ol>"
           },
           {
             "paraid": 10,
@@ -1128,7 +1332,7 @@
           },
           {
             "paraid": 12,
-            "text": "<ol start=\"4\"><li>Anonymous Functions and Function Expressions:</li></ol>"
+            "text": "<ol start=\"4\"><li><strong>Anonymous Functions and Function Expressions</strong></li></ol>"
           },
           {
             "paraid": 13,
@@ -1153,7 +1357,7 @@
           },
           {
             "paraid": 15,
-            "text": "<ol start=\"5\"><li>Function Closures:</li></ol>"
+            "text": "<ol start=\"5\"><li><strong>Function Closures</strong></li></ol>"
           },
           {
             "paraid": 16,
@@ -1178,11 +1382,11 @@
           },
           {
             "paraid": 18,
-            "text": "<ol start=\"6\"><li>Arrow Functions:</li></ol>"
+            "text": "<ol start=\"6\"><li><strong>Arrow Functions</strong></li></ol>"
           },
           {
             "paraid": 19,
-            "text": "<ul><ul><li>Introduced in ECMAScript 2015 (ES6), arrow functions provide a concise syntax for writing functions.</li><li>Arrow Function Syntax:</li></ul></ul>"
+            "text": "<ul><ul><li>Introduced in ECMAScript 2015 (ES6), arrow functions provide a concise syntax for writing functions.<br/><br/>For example:</li></ul></ul>"
           },
           {
             "paraid": 20,
@@ -1203,7 +1407,7 @@
           },
           {
             "paraid": 21,
-            "text": "<ol start=\"7\"><li>IIFE (Immediately Invoked Function Expression):</li></ol>"
+            "text": "<ol start=\"7\"><li><strong>IIFE (Immediately Invoked Function Expression)<strong></li></ol>"
           },
           {
             "paraid": 22,
@@ -1234,15 +1438,15 @@
       },
       {
         "secid": 2,
-        "subtitle": "Strings and operations",
+        "subtitle": "Strings and Operations",
         "paragraphs": [
           {
             "paraid": 1,
-            "text": "In JavaScript, a string is a sequence of characters enclosed in single ('') or double (\"\") quotes. Strings are a primitive data type and are used to represent textual data in JavaScript. Strings can contain letters, numbers, symbols, and even special characters. Here are some common string operations in JavaScript."
+            "text": "In JavaScript, a string is a sequence of characters enclosed in single ('') or double (\"\") quotes. Strings are a primitive data type and are used to represent textual data in JavaScript. Strings can contain letters, numbers, symbols, and even special characters. Here are some common string operations in JavaScript:"
           },
           {
             "paraid": 2,
-            "text": "<ol><li>String Concatenation:</li></ol>"
+            "text": "<ol><li><strong>String Concatenation</strong></li></ol>"
           },
           {
             "paraid": 3,
@@ -1267,7 +1471,7 @@
           },
           {
             "paraid": 5,
-            "text": "<ol start=\"2\"><li>String Length:</li></ol>"
+            "text": "<ol start=\"2\"><li><strong>String Length</strong></li></ol>"
           },
           {
             "paraid": 6,
@@ -1292,7 +1496,7 @@
           },
           {
             "paraid": 8,
-            "text": "<ol start=\"3\"><li>Accessing Characters in a String:</li></ol>"
+            "text": "<ol start=\"3\"><li><strong>Accessing Characters in a String</strong></li></ol>"
           },
           {
             "paraid": 9,
@@ -1317,7 +1521,7 @@
           },
           {
             "paraid": 11,
-            "text": "<ol start=\"4\"><li>String Methods:</li></ol>"
+            "text": "<ol start=\"4\"><li><strong>String Methods</strong></li></ol>"
           },
           {
             "paraid": 12,
@@ -1342,7 +1546,7 @@
           },
           {
             "paraid": 14,
-            "text": "<ol start=\"5\"><li>String Template Literals:</li></ol>"
+            "text": "<ol start=\"5\"><li><strong>String Template Literals</strong></li></ol>"
           },
           {
             "paraid": 15,
@@ -1367,7 +1571,7 @@
           },
           {
             "paraid": 17,
-            "text": "<ol start=\"6\"><li>Unicode Characters:</li></ol>"
+            "text": "<ol start=\"6\"><li><strong>Unicode Characters</strong></li></ol>"
           },
           {
             "paraid": 18,
@@ -1398,7 +1602,7 @@
       },
       {
         "secid": 3,
-        "subtitle": "Arrays and operations",
+        "subtitle": "Arrays and Operations",
         "paragraphs": [
           {
             "paraid": 1,
@@ -1406,7 +1610,7 @@
           },
           {
             "paraid": 2,
-            "text": "<ol><li>Creating Arrays:</li></ol>"
+            "text": "<ol><li><strong>Creating Arrays</strong></li></ol>"
           },
           {
             "paraid": 3,
@@ -1452,7 +1656,7 @@
           },
           {
             "paraid": 7,
-            "text": "<ol start=\"2\"><li>Array Operations:</li></ol>"
+            "text": "<ol start=\"2\"><li><strong>Array Operations</strong></li></ol>"
           },
           {
             "paraid": 8,
@@ -1567,7 +1771,7 @@
       },
       {
         "secid": 4,
-        "subtitle": "Objects and operations",
+        "subtitle": "Objects and Operations",
         "paragraphs": [
           {
             "paraid": 1,
@@ -1575,7 +1779,7 @@
           },
           {
             "paraid": 2,
-            "text": "<ol><li>Creating Objects:</li></ol>"
+            "text": "<ol><li><strong>Creating Objects</strong></li></ol>"
           },
           {
             "paraid": 3,
@@ -1621,7 +1825,7 @@
           },
           {
             "paraid": 7,
-            "text": "<ol start=\"2\"><li>Object Operations:</li></ol>"
+            "text": "<ol start=\"2\"><li><strong>Object Operations</strong></li></ol>"
           },
           {
             "paraid": 8,
@@ -1789,11 +1993,11 @@
         "paragraphs": [
           {
             "paraid": 1,
-            "text": "The Document Object Model (DOM) is a programming interface for web documents. It represents the structure of an HTML or XML document as a tree-like structure, where each node in the tree represents a part of the document. The DOM provides methods and properties to interact with and manipulate the document's content, structure, and styling. Understanding the DOM is essential for web development using JavaScript. Here are some key points about the DOM."
+            "text": "The Document Object Model (DOM) is a programming interface for web documents. It represents the structure of an HTML or XML document as a tree-like structure, where each node in the tree represents a part of the document. The DOM provides methods and properties to interact with and manipulate the document's content, structure, and styling. Understanding the DOM is essential for web development using JavaScript. Here are some key points about the DOM:"
           },
           {
             "paraid": 2,
-            "text": "<ol><li>Tree Structure:</li></ol>"
+            "text": "<ol><li><strong>Tree Structure</strong></li></ol>"
           },
           {
             "paraid": 3,
@@ -1801,7 +2005,7 @@
           },
           {
             "paraid": 4,
-            "text": "<ol start=\"2\"><li>Document Object:</li></ol>"
+            "text": "<ol start=\"2\"><li><strong>Document Object</strong></li></ol>"
           },
           {
             "paraid": 5,
@@ -1809,7 +2013,7 @@
           },
           {
             "paraid": 6,
-            "text": "<ol start=\"3\"><li>Node Objects:</li></ol>"
+            "text": "<ol start=\"3\"><li><strong>Node Objects</strong></li></ol>"
           },
           {
             "paraid": 7,
@@ -1817,7 +2021,7 @@
           },
           {
             "paraid": 8,
-            "text": "<ol start=\"4\"><li>Selecting Elements:</li></ol>"
+            "text": "<ol start=\"4\"><li><strong>Selecting Elements</strong></li></ol>"
           },
           {
             "paraid": 9,
@@ -1825,7 +2029,7 @@
           },
           {
             "paraid": 10,
-            "text": "<ol start=\"5\"><li>Manipulating Elements:</li></ol>"
+            "text": "<ol start=\"5\"><li><strong>Manipulating Elements</strong></li></ol>"
           },
           {
             "paraid": 11,
@@ -1833,7 +2037,7 @@
           },
           {
             "paraid": 12,
-            "text": "<ol start=\"6\"><li>Event Handling:</li></ol>"
+            "text": "<ol start=\"6\"><li><strong>Event Handling</strong></li></ol>"
           },
           {
             "paraid": 13,
@@ -1841,7 +2045,7 @@
           },
           {
             "paraid": 14,
-            "text": "<ol start=\"7\"><li>Dynamic Updates:</li></ol>"
+            "text": "<ol start=\"7\"><li><strong>Dynamic Updates</strong></li></ol>"
           },
           {
             "paraid": 15,
@@ -1855,15 +2059,15 @@
       },
       {
         "secid": 2,
-        "subtitle": "Accessing and manipulating DOM elements",
+        "subtitle": "Accessing and Manipulating DOM Elements",
         "paragraphs": [
           {
             "paraid": 1,
-            "text": "Accessing and manipulating DOM elements is a fundamental part of web development using JavaScript. The Document Object Model (DOM) provides various methods and properties to interact with elements in the HTML document. Here's an overview of how to access and manipulate DOM elements."
+            "text": "Accessing and manipulating DOM elements is a fundamental part of web development using JavaScript. The Document Object Model (DOM) provides various methods and properties to interact with elements in the HTML document. Here's an overview of how to access and manipulate DOM elements:"
           },
           {
             "paraid": 2,
-            "text": "<ol><li>Accessing Elements:</li></ol>"
+            "text": "<ol><li><strong>Accessing Elements</strong></li></ol>"
           },
           {
             "paraid": 3,
@@ -1951,7 +2155,7 @@
           },
           {
             "paraid": 11,
-            "text": "<ol start=\"2\"><li>Manipulating Elements:</li></ol>"
+            "text": "<ol start=\"2\"><li><strong>Manipulating Elements</strong></li></ol>"
           },
           {
             "paraid": 12,
@@ -2087,15 +2291,15 @@
       },
       {
         "secid": 3,
-        "subtitle": "Handling events",
+        "subtitle": "Handling Events",
         "paragraphs": [
           {
             "paraid": 1,
-            "text": "Handling events is a crucial aspect of web development that allows you to respond to user interactions or other occurrences on a web page. JavaScript provides various methods and techniques to handle events effectively. Here's an overview of how to handle events in JavaScript."
+            "text": "Handling events is a crucial aspect of web development that allows you to respond to user interactions or other occurrences on a web page. JavaScript provides various methods and techniques to handle events effectively. Here's an overview of how to handle events in JavaScript:"
           },
           {
             "paraid": 2,
-            "text": "<ol><li>Event Listeners:</li></ol>"
+            "text": "<ol><li><strong>Event Listeners</strong></li></ol>"
           },
           {
             "paraid": 3,
@@ -2120,7 +2324,7 @@
           },
           {
             "paraid": 5,
-            "text": "<ol start=\"2\"><li>Event Handler Function:</li></ol>"
+            "text": "<ol start=\"2\"><li><strong>Event Handler Function</strong></li></ol>"
           },
           {
             "paraid": 6,
@@ -2145,7 +2349,7 @@
           },
           {
             "paraid": 8,
-            "text": "<ol start=\"3\"><li>Common Event Types:</li></ul>"
+            "text": "<ol start=\"3\"><li><strong>Common Event Types</strong></li></ul>"
           },
           {
             "paraid": 9,
@@ -2153,7 +2357,7 @@
           },
           {
             "paraid": 10,
-            "text": "<ol start=\"4\"><li>Event Bubbling and Event Capturing:</li></ul>"
+            "text": "<ol start=\"4\"><li><strong>Event Bubbling and Event Capturing</strong></li></ul>"
           },
           {
             "paraid": 11,
@@ -2178,7 +2382,7 @@
           },
           {
             "paraid": 13,
-            "text": "<ol start=\"5\"><li>Event Delegation:</li></ul>"
+            "text": "<ol start=\"5\"><li><strong>Event Delegation</strong></li></ul>"
           },
           {
             "paraid": 14,
@@ -2203,7 +2407,7 @@
           },
           {
             "paraid": 16,
-            "text": "<ol start=\"6\"><li>Removing Event Listeners:</li></ul>"
+            "text": "<ol start=\"6\"><li><strong>Removing Event Listeners</strong></li></ul>"
           },
           {
             "paraid": 17,
@@ -2228,7 +2432,7 @@
           },
           {
             "paraid": 19,
-            "text": "<ol start=\"7\"><li>Inline Event Handlers:</li></ul>"
+            "text": "<ol start=\"7\"><li><strong>Inline Event Handlers</strong></li></ul>"
           },
           {
             "paraid": 20,
@@ -2263,11 +2467,11 @@
         "paragraphs": [
           {
             "paraid": 1,
-            "text": "Dynamic HTML refers to the ability to create, modify, and update the content and structure of a web page dynamically using JavaScript. It allows you to change elements, update styles, manipulate data, and respond to user interactions in real-time. Here are some key techniques for working with dynamic HTML using JavaScript."
+            "text": "Dynamic HTML refers to the ability to create, modify, and update the content and structure of a web page dynamically using JavaScript. It allows you to change elements, update styles, manipulate data, and respond to user interactions in real-time. Here are some key techniques for working with dynamic HTML using JavaScript:"
           },
           {
             "paraid": 2,
-            "text": "<ol><li>Maniplating Elements:</li></ol>"
+            "text": "<ol><li><strong>Maniplating Elements</strong></li></ol>"
           },
           {
             "paraid": 3,
@@ -2275,7 +2479,7 @@
           },
           {
             "paraid": 4,
-            "text": "<ol start=\"2\"><li>Dynamic Data:</li></ol>"
+            "text": "<ol start=\"2\"><li><strong>Dynamic Data</strong></li></ol>"
           },
           {
             "paraid": 5,
@@ -2304,7 +2508,7 @@
           },
           {
             "paraid": 8,
-            "text": "<ol start=\"3\"><li>Template Engines:</li></ol>"
+            "text": "<ol start=\"3\"><li><strong>Template Engines</strong></li></ol>"
           },
           {
             "paraid": 9,
@@ -2325,15 +2529,15 @@
     "sections": [
       {
         "secid": 1,
-        "subtitle": "Introduction to asynchronous programming",
+        "subtitle": "Introduction to Asynchronous Programming",
         "paragraphs": [
           {
             "paraid": 1,
-            "text": "Asynchronous programming is a programming paradigm that allows tasks to run independently and concurrently without blocking the execution of the main program. It enables the efficient execution of time-consuming operations such as fetching data from a server, reading and writing files, or waiting for user input. Instead of waiting for these operations to complete before moving on, asynchronous programming allows the program to continue executing other tasks while waiting for the asynchronous operations to finish. Here's an introduction to asynchronous programming."
+            "text": "Asynchronous programming is a programming paradigm that allows tasks to run independently and concurrently without blocking the execution of the main program. It enables the efficient execution of time-consuming operations such as fetching data from a server, reading and writing files, or waiting for user input. Instead of waiting for these operations to complete before moving on, asynchronous programming allows the program to continue executing other tasks while waiting for the asynchronous operations to finish. Here's an introduction to asynchronous programming:"
           },
           {
             "paraid": 2,
-            "text": "<ol><li>Synchronous vs. Asynchronous Execution:</li></ol>"
+            "text": "<ol><li><strong>Synchronous vs. Asynchronous Execution</strong></li></ol>"
           },
           {
             "paraid": 3,
@@ -2341,7 +2545,7 @@
           },
           {
             "paraid": 4,
-            "text": "<ol start=\"2\"><li>Callbacks:</li></ol>"
+            "text": "<ol start=\"2\"><li><strong>Callbacks</strong></li></ol>"
           },
           {
             "paraid": 5,
@@ -2349,7 +2553,7 @@
           },
           {
             "paraid": 6,
-            "text": "<ol start=\"3\"><li>Promises:</li></ol>"
+            "text": "<ol start=\"3\"><li><strong>Promises</strong></li></ol>"
           },
           {
             "paraid": 7,
@@ -2357,7 +2561,7 @@
           },
           {
             "paraid": 8,
-            "text": "<ol start=\"4\"><li>Async/Await:</li></ol>"
+            "text": "<ol start=\"4\"><li><strong>Async/Await</strong></li></ol>"
           },
           {
             "paraid": 9,
@@ -2365,7 +2569,7 @@
           },
           {
             "paraid": 10,
-            "text": "<ol start=\"5\"><li>Event-driven Programming:</li></ol>"
+            "text": "<ol start=\"5\"><li><strong>Event-driven Programming</strong></li></ol>"
           },
           {
             "paraid": 11,
@@ -2379,15 +2583,15 @@
       },
       {
         "secid": 2,
-        "subtitle": "Callback functions",
+        "subtitle": "Callback Functions",
         "paragraphs": [
           {
             "paraid": 1,
-            "text": "Callback functions are a fundamental concept in JavaScript that allows you to pass a function as an argument to another function. The primary purpose of using callback functions is to execute code asynchronously or to handle the result of an asynchronous operation. Here's an overview of callback functions."
+            "text": "Callback functions are a fundamental concept in JavaScript that allows you to pass a function as an argument to another function. The primary purpose of using callback functions is to execute code asynchronously or to handle the result of an asynchronous operation. Here's an overview of callback functions:"
           },
           {
             "paraid": 2,
-            "text": "<ol><li>Definition:</li></ol>"
+            "text": "<ol><li><strong>Definition</strong></li></ol>"
           },
           {
             "paraid": 3,
@@ -2395,7 +2599,7 @@
           },
           {
             "paraid": 4,
-            "text": "<ol start=\"2\"><li>Callback Syntax:</li></ol>"
+            "text": "<ol start=\"2\"><li><strong>Callback Syntax</strong></li></ol>"
           },
           {
             "paraid": 5,
@@ -2420,7 +2624,7 @@
           },
           {
             "paraid": 7,
-            "text": "<ol start=\"3\"><li>Asynchronous Operations:</li></ol>"
+            "text": "<ol start=\"3\"><li><strong>Asynchronous Operations</strong></li></ol>"
           },
           {
             "paraid": 8,
@@ -2445,7 +2649,7 @@
           },
           {
             "paraid": 10,
-            "text": "<ol start=\"4\"><li>Customizing Callbacks:</li></ol>"
+            "text": "<ol start=\"4\"><li><strong>Customizing Callbacks</strong></li></ol>"
           },
           {
             "paraid": 11,
@@ -2463,11 +2667,11 @@
         "paragraphs": [
           {
             "paraid": 1,
-            "text": "Promises are an essential part of JavaScript and provide a more structured and cleaner way to handle asynchronous operations compared to using callback functions. A promise represents the eventual completion or failure of an asynchronous operation and allows you to handle the result or error once it's available. Here's an overview of promises."
+            "text": "Promises are an essential part of JavaScript and provide a more structured and cleaner way to handle asynchronous operations compared to using callback functions. A promise represents the eventual completion or failure of an asynchronous operation and allows you to handle the result or error once it's available. Here's an overview of promises:"
           },
           {
             "paraid": 2,
-            "text": "<ol><li>Promise States:</li></ol>"
+            "text": "<ol><li><strong>Promise States</strong></li></ol>"
           },
           {
             "paraid": 3,
@@ -2475,7 +2679,7 @@
           },
           {
             "paraid": 4,
-            "text": "<ol start=\"2\"><li>Creating Promises:</li></ol>"
+            "text": "<ol start=\"2\"><li><strong>Creating Promises</strong></li></ol>"
           },
           {
             "paraid": 5,
@@ -2504,7 +2708,7 @@
           },
           {
             "paraid": 8,
-            "text": "<ol start=\"3\"><li>Promise Chaining:</li></ol>"
+            "text": "<ol start=\"3\"><li><strong>Promise Chaining</strong></li></ol>"
           },
           {
             "paraid": 9,
@@ -2533,7 +2737,7 @@
           },
           {
             "paraid": 12,
-            "text": "<ol start=\"4\"><li>Handling Promise Rejections:</li></ol>"
+            "text": "<ol start=\"4\"><li><strong>Handling Promise Rejections</strong></li></ol>"
           },
           {
             "paraid": 13,
@@ -2547,15 +2751,15 @@
       },
       {
         "secid": 4,
-        "subtitle": "Async/await",
+        "subtitle": "Async/Await",
         "paragraphs": [
           {
             "paraid": 1,
-            "text": "Async/await is a syntax introduced in newer versions of JavaScript (ES2017) that provides a more concise and synchronous-like way to write asynchronous code. It is built on top of promises and offers a simpler and more readable approach to handle asynchronous operations. Here's an overview of async/await."
+            "text": "Async/await is a syntax introduced in newer versions of JavaScript (ES2017) that provides a more concise and synchronous-like way to write asynchronous code. It is built on top of promises and offers a simpler and more readable approach to handle asynchronous operations. Here's an overview of async/await:"
           },
           {
             "paraid": 2,
-            "text": "<ol><li>Async Function:</li></ol>"
+            "text": "<ol><li><strong>Async Function</strong></li></ol>"
           },
           {
             "paraid": 3,
@@ -2563,7 +2767,7 @@
           },
           {
             "paraid": 4,
-            "text": "<ol start=\"2\"><li>Await Keyword:</li></ol>"
+            "text": "<ol start=\"2\"><li><strong>Await Keyword</strong></li></ol>"
           },
           {
             "paraid": 5,
@@ -2571,7 +2775,7 @@
           },
           {
             "paraid": 6,
-            "text": "<ol start=\"3\"><li>Writing Async Functions:</li></ol>"
+            "text": "<ol start=\"3\"><li><strong>Writing Async Functions</strong></li></ol>"
           },
           {
             "paraid": 7,
@@ -2596,7 +2800,7 @@
           },
           {
             "paraid": 9,
-            "text": "<ol start=\"4\"><li>Error Handling:</li></ol>"
+            "text": "<ol start=\"4\"><li><strong>Error Handling</strong></li></ol>"
           },
           {
             "paraid": 10,
@@ -2632,7 +2836,7 @@
       },
       {
         "secid": 5,
-        "subtitle": "Event-driven Programming",
+        "subtitle": "Event-Driven Programming",
         "paragraphs": [
           {
             "paraid": 1,
@@ -2644,11 +2848,11 @@
           },
           {
             "paraid": 3,
-            "text": "Here's an overview of how event-driven programming works in JavaScript."
+            "text": "Here's an overview of how event-driven programming works in JavaScript:"
           },
           {
             "paraid": 4,
-            "text": "<ol><li>Event Listeners:</li></ol>"
+            "text": "<ol><li><strong>Event Listeners</strong></li></ol>"
           },
           {
             "paraid": 5,
@@ -2656,7 +2860,7 @@
           },
           {
             "paraid": 6,
-            "text": "<ol start=\"2\"><li>Event Handling:</li></ol>"
+            "text": "<ol start=\"2\"><li><strong>Event Handling</strong></li></ol>"
           },
           {
             "paraid": 7,
@@ -2664,7 +2868,7 @@
           },
           {
             "paraid": 8,
-            "text": "<ol start=\"3\"><li>Asynchronous Execution:</li></ol>"
+            "text": "<ol start=\"3\"><li><strong>Asynchronous Execution</strong></li></ol>"
           },
           {
             "paraid": 9,
@@ -2706,19 +2910,19 @@
     "sections": [
       {
         "secid": 1,
-        "subtitle": "Working with browser APIs",
+        "subtitle": "Working with Browser APIs",
         "paragraphs": [
           {
             "paraid": 1,
-            "text": "Working with browser APIs allows you to access various features and functionalities provided by the web browser. Here are some commonly used browser APIs and how to work with them."
+            "text": "Working with browser APIs allows you to access various features and functionalities provided by the web browser. Here are some commonly used browser APIs and how to work with them:"
           },
           {
             "paraid": 2,
-            "text": "<ol><li>Geolocation API:</li></ol>"
+            "text": "<ol><li><strong>Geolocation API</strong></li></ol>"
           },
           {
             "paraid": 3,
-            "text": "<ul><ul><li>The Geolocation API allows you to retrieve the user's current geographical location.</li><li>To use this API, you can call the `<code>navigator.geolocation.getCurrentPosition()</code>` method, which takes a success callback and an error callback as arguments.</li><li>The success callback is invoked with a `<code>Position</code>` object containing the user's coordinates.</li><li>Here's an example of using the Geolocation API:</li></ul></ul>"
+            "text": "<ul><ul><li>The Geolocation API allows you to retrieve the user's current geographical location.</li><li>To use this API, you can call the `<code>navigator.geolocation.getCurrentPosition()</code>` method, which takes a success callback and an error callback as arguments.</li><li>The success callback is invoked with a `<code>Position</code>` object containing the user's coordinates.<br/><br/>Here's an example of using the Geolocation API:</li></ul></ul>"
           },
           {
             "paraid": 4,
@@ -2739,11 +2943,11 @@
           },
           {
             "paraid": 5,
-            "text": "<ol start=\"2\"><li>Browser Storage API:</li></ol>"
+            "text": "<ol start=\"2\"><li><strong>Browser Storage API</strong></li></ol>"
           },
           {
             "paraid": 6,
-            "text": "<ul><ul><li>The Browser Storage API provides a way to store key-value pairs locally in the browser.</li><li>There are two types of browser storage available: `<code>localStorage</code>` and `<code>sessionStorage</code>`.</li><li>`<code>localStorage</code>` allows you to store data persistently across browser sessions, while `<code>sessionStorage</code>` stores data for the duration of the session.</li><li>You can use the `<code>setItem()</code>`, `<code>getItem()</code>`, and `<code>removeItem()</code>` methods to interact with browser storage.</li><li>Here's an example of using `<code>localStorage</code>`:</li></ul></ul>"
+            "text": "<ul><ul><li>The Browser Storage API provides a way to store key-value pairs locally in the browser.</li><li>There are two types of browser storage available: `<code>localStorage</code>` and `<code>sessionStorage</code>`.</li><li>`<code>localStorage</code>` allows you to store data persistently across browser sessions, while `<code>sessionStorage</code>` stores data for the duration of the session.</li><li>You can use the `<code>setItem()</code>`, `<code>getItem()</code>`, and `<code>removeItem()</code>` methods to interact with browser storage.<br/><br/>Here's an example of using `<code>localStorage</code>`:</li></ul></ul>"
           },
           {
             "paraid": 7,
@@ -2764,7 +2968,7 @@
           },
           {
             "paraid": 11,
-            "text": "<ol start=\"3\"><li>Browser Clipboard API</li></ol>"
+            "text": "<ol start=\"3\"><li><strong>Browser Clipboard API</strong></li></ol>"
           },
           {
             "paraid": 11,
@@ -2824,15 +3028,15 @@
       },
       {
         "secid": 2,
-        "subtitle": "Making HTTP requests with AJAX",
+        "subtitle": "Making HTTP Requests with AJAX",
         "paragraphs": [
           {
             "paraid": 1,
-            "text": "AJAX (Asynchronous JavaScript and XML) is a technique used in web development to send and receive data from a server asynchronously without reloading the entire web page. It allows for dynamic and interactive web applications by enabling the retrieval and updating of data in the background. Here's an introduction to AJAX."
+            "text": "AJAX (Asynchronous JavaScript and XML) is a technique used in web development to send and receive data from a server asynchronously without reloading the entire web page. It allows for dynamic and interactive web applications by enabling the retrieval and updating of data in the background. Here's an introduction to AJAX:"
           },
           {
             "paraid": 2,
-            "text": "<ol><li>Asynchronous Requests:</li></pl>"
+            "text": "<ol><li><strong>Asynchronous Requests</strong></li></pl>"
           },
           {
             "paraid": 3,
@@ -2840,7 +3044,7 @@
           },
           {
             "paraid": 4,
-            "text": "<ol start=\"2\"><li>Creating and Using XMLHttpRequest Objects:</li></ol>"
+            "text": "<ol start=\"2\"><li><strong>Creating and Using XMLHttpRequest Objects</strong></li></ol>"
           },
           {
             "paraid": 4,
@@ -2949,7 +3153,7 @@
           },
           {
             "paraid": 4,
-            "text": "<ol start=\"3\"><li>Handling Errors:</li></ol>"
+            "text": "<ol start=\"3\"><li><strong>Handling Errors</strong></li></ol>"
           },
           {
             "paraid": 4,
@@ -3058,7 +3262,7 @@
           },
           {
             "paraid": 7,
-            "text": "<ol start=\"4\"><li>Updating Web Page Content:</li></pl>"
+            "text": "<ol start=\"4\"><li><strong>Updating Web Page Content</strong></li></pl>"
           },
           {
             "paraid": 8,
@@ -3089,15 +3293,15 @@
       },
       {
         "secid": 3,
-        "subtitle": "Making HTTP requests with the Fetch API",
+        "subtitle": "Making HTTP Requests with the Fetch API",
         "paragraphs": [
           {
             "paraid": 1,
-            "text": "The Fetch API is a modern JavaScript API that provides a built-in mechanism for making HTTP requests in the browser. It offers a more flexible and powerful alternative to traditional methods like XMLHttpRequest. Here's an overview of how to make HTTP requests using the Fetch API."
+            "text": "The Fetch API is a modern JavaScript API that provides a built-in mechanism for making HTTP requests in the browser. It offers a more flexible and powerful alternative to traditional methods like XMLHttpRequest. Here's an overview of how to make HTTP requests using the Fetch API:"
           },
           {
             "paraid": 2,
-            "text": "<ol><li>Basic Fetch Request:</li></ol>"
+            "text": "<ol><li><strong>Basic Fetch Request</strong></li></ol>"
           },
           {
             "paraid": 3,
@@ -3122,7 +3326,7 @@
           },
           {
             "paraid": 4,
-            "text": "<ol start=\"2\"><li>Fetch Request Options:</li></ol>"
+            "text": "<ol start=\"2\"><li><strong>Fetch Request Options</strong></li></ol>"
           },
           {
             "paraid": 5,
@@ -3147,7 +3351,7 @@
           },
           {
             "paraid": 7,
-            "text": "<ol start=\"3\"><li>Handling the Response:</li></ol>"
+            "text": "<ol start=\"3\"><li><strong>Handling the Response</strong></li></ol>"
           },
           {
             "paraid": 8,
@@ -3155,7 +3359,7 @@
           },
           {
             "paraid": 10,
-            "text": "<ol start=\"4\"><li>Handling Errors:</li></ol>"
+            "text": "<ol start=\"4\"><li><strong>Handling Errors</strong></li></ol>"
           },
           {
             "paraid": 11,
@@ -3193,15 +3397,15 @@
     "sections": [
       {
         "secid": 1,
-        "subtitle": "Prototypes and inheritance",
+        "subtitle": "Prototypes and Inheritance",
         "paragraphs": [
           {
             "paraid": 1,
-            "text": "Prototypes and inheritance are fundamental concepts in JavaScript that play a crucial role in object-oriented programming. They provide a mechanism for creating and sharing behavior among objects. Let's explore prototypes and inheritance in JavaScript."
+            "text": "Prototypes and inheritance are fundamental concepts in JavaScript that play a crucial role in object-oriented programming. They provide a mechanism for creating and sharing behavior among objects. Let's explore prototypes and inheritance in JavaScript:"
           },
           {
             "paraid": 2,
-            "text": "<ol><li>Prototypes:</li></ol>"
+            "text": "<ol><li><strong>Prototypes</strong></li></ol>"
           },
           {
             "paraid": 3,
@@ -3209,7 +3413,7 @@
           },
           {
             "paraid": 4,
-            "text": "<ol start=\"2\"><li>Prototype Object:</li></ol>"
+            "text": "<ol start=\"2\"><li><strong>Prototype Object</strong></li></ol>"
           },
           {
             "paraid": 5,
@@ -3217,7 +3421,7 @@
           },
           {
             "paraid": 6,
-            "text": "<ol start=\"3\"><li>Prototype Chain and Inheritance:</li></ol>"
+            "text": "<ol start=\"3\"><li><strong>Prototype Chain and Inheritance</strong></li></ol>"
           },
           {
             "paraid": 7,
@@ -3242,7 +3446,7 @@
           },
           {
             "paraid": 9,
-            "text": "<ol start=\"4\"><li>Constructor Functions:</li></ol>"
+            "text": "<ol start=\"4\"><li><strong>Constructor Functions</strong></li></ol>"
           },
           {
             "paraid": 10,
@@ -3267,7 +3471,7 @@
           },
           {
             "paraid": 12,
-            "text": "<ol start=\"5\"><li>Prototypal Inheritance vs. Classical Inheritance:</li></ol>"
+            "text": "<ol start=\"5\"><li><strong>Prototypal Inheritance vs. Classical Inheritance</strong></li></ol>"
           },
           {
             "paraid": 13,
@@ -3275,7 +3479,7 @@
           },
           {
             "paraid": 14,
-            "text": "<ol start=\"6\"><li>ES6 Classes:</li></ol>"
+            "text": "<ol start=\"6\"><li><strong>ES6 Classes</strong></li></ol>"
           },
           {
             "paraid": 15,
@@ -3306,15 +3510,15 @@
       },
       {
         "secid": 2,
-        "subtitle": "Functional programming concepts",
+        "subtitle": "Functional Programming Concepts",
         "paragraphs": [
           {
             "paraid": 1,
-            "text": "Functional programming is a programming paradigm that focuses on building software by composing pure functions and avoiding shared state and mutable data. It emphasizes immutability, higher-order functions, and declarative programming. Here are some key concepts of functional programming."
+            "text": "Functional programming is a programming paradigm that focuses on building software by composing pure functions and avoiding shared state and mutable data. It emphasizes immutability, higher-order functions, and declarative programming. Here are some key concepts of functional programming:"
           },
           {
             "paraid": 2,
-            "text": "<ol><li>Pure Functions:</li></ol>"
+            "text": "<ol><li><strong>Pure Functions</strong></li></ol>"
           },
           {
             "paraid": 3,
@@ -3339,7 +3543,7 @@
           },
           {
             "paraid": 5,
-            "text": "<ol start=\"2\"><li>Immutability:</li></ol>"
+            "text": "<ol start=\"2\"><li><strong>Immutability</strong></li></ol>"
           },
           {
             "paraid": 6,
@@ -3364,7 +3568,7 @@
           },
           {
             "paraid": 8,
-            "text": "<ol start=\"3\"><li>Higher-Order Functions:</li></ol>"
+            "text": "<ol start=\"3\"><li><strong>Higher-Order Functions</strong></li></ol>"
           },
           {
             "paraid": 9,
@@ -3389,7 +3593,7 @@
           },
           {
             "paraid": 11,
-            "text": "<ol start=\"4\"><li>Function Composition:</li></ol>"
+            "text": "<ol start=\"4\"><li><strong>Function Composition</strong></li></ol>"
           },
           {
             "paraid": 12,
@@ -3414,7 +3618,7 @@
           },
           {
             "paraid": 14,
-            "text": "<ol start=\"5\"><li>Recursion:</li></ol>"
+            "text": "<ol start=\"5\"><li><strong>Recursion</strong></li></ol>"
           },
           {
             "paraid": 15,
@@ -3439,7 +3643,7 @@
           },
           {
             "paraid": 17,
-            "text": "<ol start=\"6\"><li>Declarative Programming:</li></ol>"
+            "text": "<ol start=\"6\"><li><strong>Declarative Programming</strong></li></ol>"
           },
           {
             "paraid": 18,
@@ -3464,7 +3668,7 @@
           },
           {
             "paraid": 20,
-            "text": "<ol start=\"7\"><li>Lazy Evaluation:</li></ol>"
+            "text": "<ol start=\"7\"><li><strong>Lazy Evaluation</strong></li></ol>"
           },
           {
             "paraid": 21,
@@ -3489,7 +3693,7 @@
           },
           {
             "paraid": 23,
-            "text": "<ol start=\"8\"><li>Pattern Matching:</li></ol>"
+            "text": "<ol start=\"8\"><li><strong>Pattern Matching</strong></li></ol>"
           },
           {
             "paraid": 24,
@@ -3514,7 +3718,7 @@
           },
           {
             "paraid":26,
-            "text": "<ol start=\"9\"><li>Avoiding Shared State and Side Effects:</li></ol>"
+            "text": "<ol start=\"9\"><li><strong>Avoiding Shared State and Side Effects</strong></li></ol>"
           },
           {
             "paraid": 27,
@@ -3532,11 +3736,11 @@
         "paragraphs": [
           {
             "paraid": 1,
-            "text": "Modules are essential concepts in modern JavaScript development that help organize and modularize code. They provide a way to split code into reusable and encapsulated units and manage dependencies between different modules. Let's explore modules and module loaders."
+            "text": "Modules are essential concepts in modern JavaScript development that help organize and modularize code. They provide a way to split code into reusable and encapsulated units and manage dependencies between different modules. Let's explore modules and module loaders:"
           },
           {
             "paraid": 2,
-            "text": "<ol><li>Modules:</li></ol>"
+            "text": "<ol><li><strong>Modules</strong></li></ol>"
           },
           {
             "paraid": 3,
@@ -3544,7 +3748,7 @@
           },
           {
             "paraid": 4,
-            "text": "<ol start=\"2\"><li>Module Formats:</li></ol>"
+            "text": "<ol start=\"2\"><li><strong>Module Formats</strong></li></ol>"
           },
           {
             "paraid": 5,
@@ -3552,7 +3756,7 @@
           },
           {
             "paraid": 6,
-            "text": "<ol start=\"3\"><li>ES Modules:</li></ol>"
+            "text": "<ol start=\"3\"><li><strong>ES Modules</strong></li></ol>"
           },
           {
             "paraid": 7,
@@ -3577,7 +3781,7 @@
           },
           {
             "paraid": 9,
-            "text": "<ol start=\"4\"><li>Asynchronous Module Loading:</li></ol>"
+            "text": "<ol start=\"4\"><li><strong>Asynchronous Module Loading</strong></li></ol>"
           },
           {
             "paraid": 10,
@@ -3615,15 +3819,15 @@
     "sections": [
       {
         "secid": 1,
-        "subtitle": "Debugging techniques and tools",
+        "subtitle": "Debugging Techniques and Tools",
         "paragraphs": [
           {
             "paraid": 1,
-            "text": "Debugging is an essential skill in software development, including JavaScript. It involves identifying and resolving issues or bugs in your code. Here are some common debugging techniques and tools that can help you in the process."
+            "text": "Debugging is an essential skill in software development, including JavaScript. It involves identifying and resolving issues or bugs in your code. Here are some common debugging techniques and tools that can help you in the process:"
           },
           {
             "paraid": 2,
-            "text": "<ol><li>Console Logging:</li></ol>"
+            "text": "<ol><li><strong>Console Logging</strong></li></ol>"
           },
           {
             "paraid": 3,
@@ -3631,7 +3835,7 @@
           },
           {
             "paraid": 4,
-            "text": "<ol start=\"2\"><li>Debugging with breakpoints:</li></ol>"
+            "text": "<ol start=\"2\"><li><strong>Debugging with breakpoints</strong></li></ol>"
           },
           {
             "paraid": 5,
@@ -3639,7 +3843,7 @@
           },
           {
             "paraid": 6,
-            "text": "<ol start=\"3\"><li>Step-by-step Execution:</li></ol>"
+            "text": "<ol start=\"3\"><li><strong>Step-by-step Execution</strong></li></ol>"
           },
           {
             "paraid": 7,
@@ -3647,7 +3851,7 @@
           },
           {
             "paraid": 8,
-            "text": "<ol start=\"4\"><li>Inspecting Variables and Objects:</li></ol>"
+            "text": "<ol start=\"4\"><li><strong>Inspecting Variables and Objects</strong></li></ol>"
           },
           {
             "paraid": 9,
@@ -3655,7 +3859,7 @@
           },
           {
             "paraid": 10,
-            "text": "<ol start=\"5\"><li>Error Messages and Stack Traces:</li></ol>"
+            "text": "<ol start=\"5\"><li><strong>Error Messages and Stack Traces</strong></li></ol>"
           },
           {
             "paraid": 11,
@@ -3663,7 +3867,7 @@
           },
           {
             "paraid": 12,
-            "text": "<ol start=\"6\"><li>Debugging Tools:</li></ol>"
+            "text": "<ol start=\"6\"><li><strong>Debugging Tools</strong></li></ol>"
           },
           {
             "paraid": 13,
@@ -3671,7 +3875,7 @@
           },
           {
             "paraid": 14,
-            "text": "<ol start=\"7\"><li>Linting and Code Analysis:</li></ol>"
+            "text": "<ol start=\"7\"><li><strong>Linting and Code Analysis</strong></li></ol>"
           },
           {
             "paraid": 15,
@@ -3679,7 +3883,7 @@
           },
           {
             "paraid": 16,
-            "text": "<ol start=\"8\"><li>Logging and Error Handling:</li></ol>"
+            "text": "<ol start=\"8\"><li><strong>Logging and Error Handling</strong></li></ol>"
           },
           {
             "paraid": 17,
@@ -3693,15 +3897,15 @@
       },
       {
         "secid": 2,
-        "subtitle": "Common JavaScript errors and how to handle them",
+        "subtitle": "Common JavaScript Errors and How to Handle Them",
         "paragraphs": [
           {
             "paraid": 1,
-            "text": "JavaScript code can encounter various errors during execution. Here are some common JavaScript errors and how to handle them."
+            "text": "JavaScript code can encounter various errors during execution. Here are some common JavaScript errors and how to handle them:"
           },
           {
             "paraid": 2,
-            "text": "<ol><li>Syntax Errors:</li></ol>"
+            "text": "<ol><li><strong>Syntax Errors</strong></li></ol>"
           },
           {
             "paraid": 3,
@@ -3709,7 +3913,7 @@
           },
           {
             "paraid": 4,
-            "text": "<ol start=\"2\"><li>Reference Errors:</li></ol>"
+            "text": "<ol start=\"2\"><li><strong>Reference Errors</strong></li></ol>"
           },
           {
             "paraid": 5,
@@ -3717,7 +3921,7 @@
           },
           {
             "paraid": 6,
-            "text": "<ol start=\"3\"><li>Type Errors:</li></ol>"
+            "text": "<ol start=\"3\"><li><strong>Type Errors</strong></li></ol>"
           },
           {
             "paraid": 7,
@@ -3725,7 +3929,7 @@
           },
           {
             "paraid": 8,
-            "text": "<ol start=\"4\"><li>Range Errors:</li></ol>"
+            "text": "<ol start=\"4\"><li><strong>Range Errors</strong></li></ol>"
           },
           {
             "paraid": 9,
@@ -3733,7 +3937,7 @@
           },
           {
             "paraid": 10,
-            "text": "<ol start=\"5\"><li>Network Errors:</li></ol>"
+            "text": "<ol start=\"5\"><li><strong>Network Errors</strong></li></ol>"
           },
           {
             "paraid": 11,
@@ -3741,7 +3945,7 @@
           },
           {
             "paraid": 12,
-            "text": "<ol start=\"6\"><li>Error Objects:</li></ol>"
+            "text": "<ol start=\"6\"><li><strong>Error Objects</strong></li></ol>"
           },
           {
             "paraid": 13,
@@ -3783,15 +3987,15 @@
     "sections": [
       {
         "secid": 1,
-        "subtitle": "Code organization and modularization",
+        "subtitle": "Code Organization and Modularization",
         "paragraphs": [
           {
             "paraid": 1,
-            "text": "Code organization and modularization are crucial for writing maintainable, scalable, and reusable JavaScript applications. They help improve code readability, reduce complexity, and facilitate collaboration among team members. Here are some guidelines for code organization and modularization."
+            "text": "Code organization and modularization are crucial for writing maintainable, scalable, and reusable JavaScript applications. They help improve code readability, reduce complexity, and facilitate collaboration among team members. Here are some guidelines for code organization and modularization:"
           },
           {
             "paraid": 2,
-            "text": "<ol><li>File and Directory Structure:</li></ol>"
+            "text": "<ol><li><strong>File and Directory Structure</strong></li></ol>"
           },
           {
             "paraid": 3,
@@ -3799,7 +4003,7 @@
           },
           {
             "paraid": 4,
-            "text": "<ol start=\"2\"><li>Modular JavaScript:</li></ol>"
+            "text": "<ol start=\"2\"><li><strong>Modular JavaScript</strong></li></ol>"
           },
           {
             "paraid": 5,
@@ -3807,7 +4011,7 @@
           },
           {
             "paraid": 6,
-            "text": "<ol start=\"3\"><li>Dependency Management:</li></ol>"
+            "text": "<ol start=\"3\"><li><strong>Dependency Management</strong></li></ol>"
           },
           {
             "paraid": 7,
@@ -3815,7 +4019,7 @@
           },
           {
             "paraid": 8,
-            "text": "<ol start=\"4\"><li>Separation of Concerns:</li></ol>"
+            "text": "<ol start=\"4\"><li><strong>Separation of Concerns</strong></li></ol>"
           },
           {
             "paraid": 9,
@@ -3823,7 +4027,7 @@
           },
           {
             "paraid": 10,
-            "text": "<ol start=\"5\"><li>Use Modules or Module Systems:</li></ol>"
+            "text": "<ol start=\"5\"><li><strong>Use Modules or Module Systems</strong></li></ol>"
           },
           {
             "paraid": 11,
@@ -3831,7 +4035,7 @@
           },
           {
             "paraid": 12,
-            "text": "<ol start=\"6\"><li>Modular Development Frameworks:</li></ol>"
+            "text": "<ol start=\"6\"><li><strong>Modular Development Frameworks</strong></li></ol>"
           },
           {
             "paraid": 13,
@@ -3839,7 +4043,7 @@
           },
           {
             "paraid": 14,
-            "text": "<ol start=\"7\"><li>Documentation and Comments:</li></ol>"
+            "text": "<ol start=\"7\"><li><strong>Documentation and Comments</strong></li></ol>"
           },
           {
             "paraid": 15,
@@ -3847,7 +4051,7 @@
           },
           {
             "paraid": 16,
-            "text": "<ol start=\"8\"><li>Code Linting:</li></ol>"
+            "text": "<ol start=\"8\"><li><strong>Code Linting</strong></li></ol>"
           },
           {
             "paraid": 17,
@@ -3861,15 +4065,15 @@
       },
       {
         "secid": 2,
-        "subtitle": "Naming conventions and coding style",
+        "subtitle": "Naming Conventions and Coding Style",
         "paragraphs": [
           {
             "paraid": 1,
-            "text": "Naming conventions and coding style are important aspects of writing clean, readable, and maintainable JavaScript code. Consistent naming and coding style make it easier for developers to understand and collaborate on a project. While different teams or projects may have their specific conventions, here are some common guidelines."
+            "text": "Naming conventions and coding style are important aspects of writing clean, readable, and maintainable JavaScript code. Consistent naming and coding style make it easier for developers to understand and collaborate on a project. While different teams or projects may have their specific conventions, here are some common guidelines:"
           },
           {
             "paraid": 2,
-            "text": "<ol><li>Variable and Function Names:</li></ol>"
+            "text": "<ol><li><strong>Variable and Function Names</strong></li></ol>"
           },
           {
             "paraid": 3,
@@ -3877,7 +4081,7 @@
           },
           {
             "paraid": 4,
-            "text": "<ol start=\"2\"><li>Constants:</li></ol>"
+            "text": "<ol start=\"2\"><li><strong>Constants</strong></li></ol>"
           },
           {
             "paraid": 5,
@@ -3885,7 +4089,7 @@
           },
           {
             "paraid": 6,
-            "text": "<ol start=\"3\"><li>Classes and Constructor Functions:</li></ol>"
+            "text": "<ol start=\"3\"><li><strong>Classes and Constructor Functions</strong></li></ol>"
           },
           {
             "paraid": 7,
@@ -3893,7 +4097,7 @@
           },
           {
             "paraid": 8,
-            "text": "<ol start=\"4\"><li>Functions and Methods:</li></ol>"
+            "text": "<ol start=\"4\"><li><strong>Functions and Methods</strong></li></ol>"
           },
           {
             "paraid": 9,
@@ -3901,7 +4105,7 @@
           },
           {
             "paraid": 10,
-            "text": "<ol start=\"5\"><li>Comments:</li></ol>"
+            "text": "<ol start=\"5\"><li><strong>Comments</strong></li></ol>"
           },
           {
             "paraid": 11,
@@ -3909,7 +4113,7 @@
           },
           {
             "paraid": 12,
-            "text": "<ol start=\"6\"><li>Indentation and Formatting:</li></ol>"
+            "text": "<ol start=\"6\"><li><strong>Indentation and Formatting</strong></li></ol>"
           },
           {
             "paraid": 13,
@@ -3917,7 +4121,7 @@
           },
           {
             "paraid": 14,
-            "text": "<ol start=\"7\"><li>Line Length and Wrapping:</li></ol>"
+            "text": "<ol start=\"7\"><li><strong>Line Length and Wrapping</strong></li></ol>"
           },
           {
             "paraid": 15,
@@ -3925,7 +4129,7 @@
           },
           {
             "paraid": 16,
-            "text": "<ol start=\"8\"><li>Parentheses and Brackets:</li></ol>"
+            "text": "<ol start=\"8\"><li><strong>Parentheses and Brackets</strong></li></ol>"
           },
           {
             "paraid": 17,
@@ -3933,7 +4137,7 @@
           },
           {
             "paraid": 18,
-            "text": "<ol start=\"9\"><li>Operator Spacing:</li></ol>"
+            "text": "<ol start=\"9\"><li><strong>Operator Spacing</strong></li></ol>"
           },
           {
             "paraid": 19,
@@ -3941,7 +4145,7 @@
           },
           {
             "paraid": 20,
-            "text": "<ol start=\"10\"><li>Consistency and Team Guidelines:</li></ol>"
+            "text": "<ol start=\"10\"><li><strong>Consistency and Team Guidelines</strong></li></ol>"
           },
           {
             "paraid": 21,
@@ -3955,15 +4159,15 @@
       },
       {
         "secid": 3,
-        "subtitle": "Performance optimization tips",
+        "subtitle": "Performance Optimization Tips",
         "paragraphs": [
           {
             "paraid": 1,
-            "text": "When it comes to performance optimization in JavaScript, there are several techniques and best practices that can help improve the speed and efficiency of your code. Here are some performance optimization tips."
+            "text": "When it comes to performance optimization in JavaScript, there are several techniques and best practices that can help improve the speed and efficiency of your code. Here are some performance optimization tips:"
           },
           {
             "paraid": 2,
-            "text": "<ol><li>Minimize and Bundle Code:</li></ol>"
+            "text": "<ol><li><strong>Minimize and Bundle Code</strong></li></ol>"
           },
           {
             "paraid": 3,
@@ -3971,7 +4175,7 @@
           },
           {
             "paraid": 4,
-            "text": "<ol start=\"2\"><li>Avoid Global Variables:</li></ol>"
+            "text": "<ol start=\"2\"><li><strong>Avoid Global Variables</strong></li></ol>"
           },
           {
             "paraid": 5,
@@ -3979,7 +4183,7 @@
           },
           {
             "paraid": 6,
-            "text": "<ol start=\"3\"><li>Optimize Loops:</li></ol>"
+            "text": "<ol start=\"3\"><li><strong>Optimize Loops</strong></li></ol>"
           },
           {
             "paraid": 7,
@@ -3987,7 +4191,7 @@
           },
           {
             "paraid": 8,
-            "text": "<ol start=\"4\"><li>Use Efficient Data Structures and Algorithms:</li></ol>"
+            "text": "<ol start=\"4\"><li><strong>Use Efficient Data Structures and Algorithms</strong></li></ol>"
           },
           {
             "paraid": 9,
@@ -3995,7 +4199,7 @@
           },
           {
             "paraid": 10,
-            "text": "<ol start=\"5\"><li>Cache DOM Queries:</li></ol>"
+            "text": "<ol start=\"5\"><li><strong>Cache DOM Queries</strong></li></ol>"
           },
           {
             "paraid": 11,
@@ -4003,7 +4207,7 @@
           },
           {
             "paraid": 12,
-            "text": "<ol start=\"6\"><li>Debouncing and Throttling:</li></ol>"
+            "text": "<ol start=\"6\"><li><strong>Debouncing and Throttling</strong></li></ol>"
           },
           {
             "paraid": 13,
@@ -4011,7 +4215,7 @@
           },
           {
             "paraid": 14,
-            "text": "<ol start=\"7\"><li>Use Efficient Selectors:</li></ol>"
+            "text": "<ol start=\"7\"><li><strong>Use Efficient Selectors</strong></li></ol>"
           },
           {
             "paraid": 15,
@@ -4019,7 +4223,7 @@
           },
           {
             "paraid": 16,
-            "text": "<ol start=\"8\"><li>Asynchronous Operations:</li></ol>"
+            "text": "<ol start=\"8\"><li><strong>Asynchronous Operations</strong></li></ol>"
           },
           {
             "paraid": 17,
@@ -4027,7 +4231,7 @@
           },
           {
             "paraid": 18,
-            "text": "<ol start=\"9\"><li>Optimize Network Requests:</li></ol>"
+            "text": "<ol start=\"9\"><li><strong>Optimize Network Requests</strong></li></ol>"
           },
           {
             "paraid": 19,
@@ -4035,7 +4239,7 @@
           },
           {
             "paraid": 20,
-            "text": "<ol start=\"10\"><li>Profiling and Benchmarking:</li></ol>"
+            "text": "<ol start=\"10\"><li><strong>Profiling and Benchmarking</strong></li></ol>"
           },
           {
             "paraid": 21,
@@ -4043,7 +4247,7 @@
           },
           {
             "paraid": 22,
-            "text": "<ol start=\"11\"><li>Memory Management:</li></ol>"
+            "text": "<ol start=\"11\"><li><strong>Memory Management</strong></li></ol>"
           },
           {
             "paraid": 23,
@@ -4051,7 +4255,7 @@
           },
           {
             "paraid": 24,
-            "text": "<ol start=\"12\"><li>Use Web Workers:</li></ol>"
+            "text": "<ol start=\"12\"><li><strong>Use Web Workers</strong></li></ol>"
           },
           {
             "paraid": 25,
@@ -4065,15 +4269,15 @@
       },
       {
         "secid": 4,
-        "subtitle": "Security considerations",
+        "subtitle": "Security Considerations",
         "paragraphs": [
           {
             "paraid": 1,
-            "text": "When developing JavaScript applications, it's essential to consider security aspects to protect user data, prevent vulnerabilities, and ensure a secure user experience. Here are some important security considerations for JavaScript development."
+            "text": "When developing JavaScript applications, it's essential to consider security aspects to protect user data, prevent vulnerabilities, and ensure a secure user experience. Here are some important security considerations for JavaScript development:"
           },
           {
             "paraid": 2,
-            "text": "<ol><li>Input Validation and Sanitization:</li></ol>"
+            "text": "<ol><li><strong>Input Validation and Sanitization</strong></li></ol>"
           },
           {
             "paraid": 3,
@@ -4081,7 +4285,7 @@
           },
           {
             "paraid": 4,
-            "text": "<ol start=\"2\"><li>Cross-Site Scripting (XSS) Prevention:</li></ol>"
+            "text": "<ol start=\"2\"><li><strong>Cross-Site Scripting (XSS) Prevention</strong></li></ol>"
           },
           {
             "paraid": 5,
@@ -4089,7 +4293,7 @@
           },
           {
             "paraid": 6,
-            "text": "<ol start=\"3\"><li>Cross-Site Request Forgery (CSRF) Protection:</li></ol>"
+            "text": "<ol start=\"3\"><li><strong>Cross-Site Request Forgery (CSRF) Protection</strong></li></ol>"
           },
           {
             "paraid": 7,
@@ -4097,7 +4301,7 @@
           },
           {
             "paraid": 8,
-            "text": "<ol start=\"4\"><li>Secure Communication:</li></ol>"
+            "text": "<ol start=\"4\"><li><strong>Secure Communication</strong></li></ol>"
           },
           {
             "paraid": 9,
@@ -4105,7 +4309,7 @@
           },
           {
             "paraid": 10,
-            "text": "<ol start=\"5\"><li>Secure Authentication and Authorization:</li></ol>"
+            "text": "<ol start=\"5\"><li><strong>Secure Authentication and Authorization</strong></li></ol>"
           },
           {
             "paraid": 11,
@@ -4113,7 +4317,7 @@
           },
           {
             "paraid": 12,
-            "text": "<ol start=\"6\"><li>Secure Storage and Data Handling:</li></ol>"
+            "text": "<ol start=\"6\"><li><strong>Secure Storage and Data Handling</strong></li></ol>"
           },
           {
             "paraid": 13,
@@ -4121,7 +4325,7 @@
           },
           {
             "paraid": 14,
-            "text": "<ol start=\"7\"><li>Secure Third-Party Libraries and APIs:</li></ol>"
+            "text": "<ol start=\"7\"><li><strong>Secure Third-Party Libraries and APIs</strong></li></ol>"
           },
           {
             "paraid": 15,
@@ -4129,7 +4333,7 @@
           },
           {
             "paraid": 16,
-            "text": "<ol start=\"8\"><li>Regular Security Updates and Patches:</li></ol>"
+            "text": "<ol start=\"8\"><li><strong>Regular Security Updates and Patches</strong></li></ol>"
           },
           {
             "paraid": 17,
@@ -4137,7 +4341,7 @@
           },
           {
             "paraid": 18,
-            "text": "<ol start=\"9\"><li>Error Handling and Logging:</li></ol>"
+            "text": "<ol start=\"9\"><li><strong>Error Handling and Logging</strong></li></ol>"
           },
           {
             "paraid": 19,
@@ -4145,7 +4349,7 @@
           },
           {
             "paraid": 20,
-            "text": "<ol start=\"10\"><li>Access Control and Privilege Escalation:</li></ol>"
+            "text": "<ol start=\"10\"><li><strong>Access Control and Privilege Escalation</strong></li></ol>"
           },
           {
             "paraid": 21,
@@ -4153,7 +4357,7 @@
           },
           {
             "paraid": 22,
-            "text": "<ol start=\"11\"><li>Security Auditing and Penetration Testing:</li></ol>"
+            "text": "<ol start=\"11\"><li><strong>Security Auditing and Penetration Testing</strong></li></ol>"
           },
           {
             "paraid": 23,
@@ -4161,7 +4365,7 @@
           },
           {
             "paraid": 24,
-            "text": "<ol start=\"12\"><li>User Education and Security Best Practices:</li></ol>"
+            "text": "<ol start=\"12\"><li><strong>User Education and Security Best Practices</strong></li></ol>"
           },
           {
             "paraid": 25,

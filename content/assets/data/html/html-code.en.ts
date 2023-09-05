@@ -286,6 +286,9 @@ export const html_4_2_3 =
 </body>`;
 
 export const html_4_3_1 =
+`<img src="assets/images/cute_cat.jpg" alt="A cute cat">`;
+
+export const html_4_3_1_1 =
 `<!DOCTYPE html>
 <html>
   <head>
@@ -299,7 +302,20 @@ export const html_4_3_1 =
 </html>`;
 
 export const html_4_3_2 =
-`<img src="cat.jpg" alt="A cute cat" width="500" height="300">`;
+`<img src="assets/images/cute_cat.jpg" alt="A cute cat" width="500px" height="200px" title="A large image">`;
+
+export const html_4_3_2_1 =
+`<!DOCTYPE html>
+<html>
+  <head>
+    <title>My Website</title>
+  </head>
+  <body>
+    <h1>Welcome to My Website!</h1>
+    <p>Here's a picture:</p>
+    <img src="assets/images/cute_cat.jpg" alt="A cute cat" width="500px" height="200px" title="A large image">
+  </body>
+</html>`;
 
 export const html_5_1_1 =
 `<table border="1">
@@ -339,6 +355,158 @@ export const html_5_1_2 =
     <td>Row 3, Column 1</td>
     <td>Row 3, Column 2</td>
     <td>Row 3, Column 3</td>
+  </tr>
+</table>
+`;
+
+export const html_5_2_1 =
+`<table border="1">
+  <thead>
+    <tr>
+      <th>Employee ID</th>
+      <th>First Name</th>
+      <th>Last Name</th>
+      <th>Department</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>001</td>
+      <td>John</td>
+      <td>Doe</td>
+      <td>HR</td>
+    </tr>
+    <tr>
+      <td>002</td>
+      <td>Jane</td>
+      <td>Smith</td>
+      <td>IT</td>
+    </tr>
+  </tbody>
+</table>`;
+
+export const html_5_2_2 =
+`<table border="1">
+  <thead>
+    <tr>
+      <th>Month</th>
+      <th>Sales</th>
+      <th>Expenses</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <th>January</th>
+      <td>$10,000</td>
+      <td>$7,500</td>
+    </tr>
+    <tr>
+      <th>February</th>
+      <td>$12,500</td>
+      <td>$8,200</td>
+    </tr>
+  </tbody>
+</table>`;
+
+export const html_5_2_3 =
+`<table border="1">
+  <thead>
+    <tr>
+      <th>Month</th>
+      <th id="sales-header">Sales</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <th id="january-header">January</th>
+      <td headers="sales-header january-header">$10,000</td>
+    </tr>
+    <tr>
+      <th id="february-header">February</th>
+      <td headers="sales-header february-header">$12,500</td>
+    </tr>
+  </tbody>
+</table>`;
+
+export const html_5_3_1 =
+`<table border="1">
+  <tr>
+    <th>Product</th>
+    <th>Price</th>
+    <th>Quantity</th>
+  </tr>
+  <tr>
+    <td>Product A</td>
+    <td>$20.00</td>
+    <td>50</td>
+  </tr>
+  <tr>
+    <td>Product B</td>
+    <td>$15.00</td>
+    <td>75</td>
+  </tr>
+</table>`;
+
+export const html_5_4_1 =
+`<table border="1">
+  <tr>
+    <th>Product</th>
+    <th>Price</th>
+    <th>Quantity</th>
+    <th>Month</th>
+  </tr>
+  <tr>
+    <td rowspan="2">Product A</td>
+    <td>$20.00</td>
+    <td>50</td>
+    <td>Last Month</td>
+  </tr>
+  <tr>
+    <td>$15.00</td>
+    <td>50</td>
+    <td>This Month</td>
+  </tr>
+</table>
+`;
+
+export const html_5_4_2 =
+`<table border="1">
+  <tr>
+    <th>Product</th>
+    <th colspan="2">Sales Data</th>
+  </tr>
+  <tr>
+    <td>Product A</td>
+    <td>$20.00</td>
+    <td>50</td>
+  </tr>
+  <tr>
+    <td>Product B</td>
+    <td>$15.00</td>
+    <td>75</td>
+  </tr>
+</table>
+`;
+
+export const html_5_4_3 =
+`<table border="1">
+  <tr>
+    <th rowspan="2">Product</th>
+    <th colspan="2">Sales Data</th>
+  </tr>
+  <tr>
+    <td>Price</td>
+    <td>Quantity</td>
+  </tr>
+  <tr>
+    <td>Product A</td>
+    <td>$20.00</td>
+    <td>50</td>
+  </tr>
+  <tr>
+    <td>Product B</td>
+    <td>$15.00</td>
+    <td>75</td>
   </tr>
 </table>
 `;
@@ -491,6 +659,22 @@ export const html_6_2_6_1 =
   <button id="my-button" onclick="javascript:alert('Clicked')">Click Me</button>
 </body>
 </html>`;
+
+export const html_6_3_1 =
+`<input type="submit" value="Submit">`
+
+export const html_6_3_2 =
+`<form action="/submit-form" method="post" target="_blank">
+<label for="name">Name:</label>
+<input type="text" id="name" name="name">
+<br>
+
+<label for="email">Email:</label>
+<input type="email" id="email" name="email">
+<br>
+
+<input type="submit" value="Submit">
+</form>`;
 
 export const html_7_1_1 =
 `<!DOCTYPE html>

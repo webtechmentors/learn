@@ -18,47 +18,91 @@
           },
           {
             "paraid": 3,
-            "text": "<ol><li><strong>Static Typing</strong>: One of the most prominent features of TypeScript is its support for static typing. This means that you can explicitly define the types of variables, function parameters, and function return values. The TypeScript compiler checks these types at compile-time, helping to catch type-related errors before the code runs.</li></ul>"
+            "text": "<ol><li><strong>Static Typing</strong></li></ul>"
+          },
+          {
+            "paraid": 1,
+            "text": "<ul>One of the most prominent features of TypeScript is its support for static typing. This means that you can explicitly define the types of variables, function parameters, and function return values. The TypeScript compiler checks these types at compile-time, helping to catch type-related errors before the code runs.</ul>"
           },
           {
             "paraid": 4,
-            "text": "<ol start=\"2\"><li><strong>Type Annotations</strong>: TypeScript allows you to annotate variables, functions, and other constructs with type information. This enhances code clarity and provides self-documentation for your codebase.</li></ol>"
+            "text": "<ol start=\"2\"><li><strong>Type Annotations</strong></li></ol>"
+          },
+          {
+            "paraid": 1,
+            "text": "<ul>TypeScript allows you to annotate variables, functions, and other constructs with type information. This enhances code clarity and provides self-documentation for your codebase.</ul>"
           },
           {
             "paraid": 5,
-            "text": "<ol start=\"3\"><li><strong>Type Inference</strong>: Even if you don't explicitly annotate types, TypeScript's type inference system can often determine the types of variables and expressions based on how they are used. This reduces the need for excessive type annotations.</li></ol>"
+            "text": "<ol start=\"3\"><li><strong>Type Inference</strong></li></ol>"
+          },
+          {
+            "paraid": 1,
+            "text": "<ul>Even if you don't explicitly annotate types, TypeScript's type inference system can often determine the types of variables and expressions based on how they are used. This reduces the need for excessive type annotations.</ul>"
           },
           {
             "paraid": 6,
-            "text": "<ol start=\"4\"><li><strong>Interfaces and Type Aliases</strong>: TypeScript introduces the concept of interfaces and type aliases. Interfaces define the structure of objects, ensuring that they adhere to a specific shape. Type aliases allow you to create custom type names for complex types, making the code more readable.</li></ol>"
+            "text": "<ol start=\"4\"><li><strong>Interfaces and Type Aliases</strong></li></ol>"
+          },
+          {
+            "paraid": 1,
+            "text": "<ul>TypeScript introduces the concept of interfaces and type aliases. Interfaces define the structure of objects, ensuring that they adhere to a specific shape. Type aliases allow you to create custom type names for complex types, making the code more readable.</ul>"
           },
           {
             "paraid": 7,
-            "text": "<ol start=\"5\"><li><strong>Classes and Inheritance</strong>: TypeScript supports object-oriented programming concepts, including classes, inheritance, and encapsulation. This is especially useful when working with larger and more organized codebases.</li></ol>"
+            "text": "<ol start=\"5\"><li><strong>Classes and Inheritance</strong></li></ol>"
+          },
+          {
+            "paraid": 1,
+            "text": "<ul>TypeScript supports object-oriented programming concepts, including classes, inheritance, and encapsulation. This is especially useful when working with larger and more organized codebases.</ul>"
           },
           {
             "paraid": 8,
-            "text": "<ol start=\"6\"><li><strong>Enums</strong>: Enums provide a way to define a set of named constants, making the code more readable and self-explanatory.</li></ol>"
+            "text": "<ol start=\"6\"><li><strong>Enums</strong></li></ol>"
+          },
+          {
+            "paraid": 1,
+            "text": "<ul>Enums provide a way to define a set of named constants, making the code more readable and self-explanatory.</ul>"
           },
           {
             "paraid": 9,
-            "text": "<ol start=\"7\"><li><strong>Generics</strong>: Generics allow you to write reusable and flexible code by creating functions and classes that can work with different types without sacrificing type safety.</li></ol>"
+            "text": "<ol start=\"7\"><li><strong>Generics</strong></li></ol>"
+          },
+          {
+            "paraid": 1,
+            "text": "<ul>Generics allow you to write reusable and flexible code by creating functions and classes that can work with different types without sacrificing type safety.</ul>"
           },
           {
             "paraid": 10,
-            "text": "<ol start=\"8\"><li><strong>Modules and Namespaces</strong>: TypeScript offers built-in support for modular programming by allowing you to define modules that encapsulate related code. This helps with code organization and separation of concerns.</li></ol>"
+            "text": "<ol start=\"8\"><li><strong>Modules and Namespaces</strong></li></ol>"
+          },
+          {
+            "paraid": 1,
+            "text": "<ul>TypeScript offers built-in support for modular programming by allowing you to define modules that encapsulate related code. This helps with code organization and separation of concerns.</ul>"
           },
           {
             "paraid": 11,
-            "text": "<ol start=\"9\"><li><strong>Type Checking</strong>: The TypeScript compiler performs thorough type checks during compilation. It can catch common mistakes and type-related errors, leading to more robust and reliable code.</li></ol>"
+            "text": "<ol start=\"9\"><li><strong>Type Checking</strong></li></ol>"
+          },
+          {
+            "paraid": 1,
+            "text": "<ul>The TypeScript compiler performs thorough type checks during compilation. It can catch common mistakes and type-related errors, leading to more robust and reliable code.</ul>"
           },
           {
             "paraid": 12,
-            "text": "<ol start=\"10\"><li><strong>Transpilation</strong>: TypeScript code is transpiled (converted) into standard JavaScript code that can run in any browser or JavaScript runtime. This means that TypeScript can be used in modern web development projects without compatibility issues.</li></ol>"
+            "text": "<ol start=\"10\"><li><strong>Transpilation</strong></li></ol>"
+          },
+          {
+            "paraid": 1,
+            "text": "<ul>TypeScript code is transpiled (converted) into standard JavaScript code that can run in any browser or JavaScript runtime. This means that TypeScript can be used in modern web development projects without compatibility issues.</ul>"
           },
           {
             "paraid": 13,
-            "text": "<ol start=\"11\"><li><strong>Tooling and IDE Support</strong>: TypeScript is supported by various integrated development environments (IDEs) and code editors, providing features like intelligent code completion, type hints, and error checking.</li></ol>"
+            "text": "<ol start=\"11\"><li><strong>Tooling and IDE Support</strong></li></ol>"
+          },
+          {
+            "paraid": 1,
+            "text": "<ul>TypeScript is supported by various integrated development environments (IDEs) and code editors, providing features like intelligent code completion, type hints, and error checking.</ul>"
           },
           {
             "paraid": 14,
@@ -76,59 +120,115 @@
           },
           {
             "paraid": 2,
-            "text": "<ol><li><strong>Static Typing</strong>: TypeScript introduces static typing, allowing developers to explicitly declare types for variables, function parameters, and return values. This catches type-related errors at compile-time, reducing the likelihood of runtime errors caused by type mismatches.</li></ol>"
+            "text": "<ol><li><strong>Static Typing</strong></li></ol>"
+          },
+          {
+            "paraid": 1,
+            "text": "<ul>TypeScript introduces static typing, allowing developers to explicitly declare types for variables, function parameters, and return values. This catches type-related errors at compile-time, reducing the likelihood of runtime errors caused by type mismatches.</ul>"
           },
           {
             "paraid": 3,
-            "text": "<ol start=\"2\"><li><strong>Type Inference</strong>: While TypeScript encourages explicit type annotations, it also provides a type inference system that can deduce types based on usage. This strikes a balance between static typing and developer convenience.</li></ol>"
+            "text": "<ol start=\"2\"><li><strong>Type Inference</strong></li></ol>"
+          },
+          {
+            "paraid": 1,
+            "text": "<ul>While TypeScript encourages explicit type annotations, it also provides a type inference system that can deduce types based on usage. This strikes a balance between static typing and developer convenience.</ul>"
           },
           {
             "paraid": 4,
-            "text": "<ol start=\"3\"><li><strong>Code Readability and Self-Documentation</strong>: Type annotations make code more self-documenting by indicating the expected data types for variables and functions. This improves code readability and helps other developers understand the codebase.</li></ol>"
+            "text": "<ol start=\"3\"><li><strong>Code Readability and Self-Documentation</strong></li></ol>"
+          },
+          {
+            "paraid": 1,
+            "text": "<ul>Type annotations make code more self-documenting by indicating the expected data types for variables and functions. This improves code readability and helps other developers understand the codebase.</ul>"
           },
           {
             "paraid": 5,
-            "text": "<ol start=\"4\"><li><strong>Early Error Detection</strong>: The TypeScript compiler performs thorough type checking, catching many common programming errors before the code is executed. This leads to more robust and reliable code.</li></ol>"
+            "text": "<ol start=\"4\"><li><strong>Early Error Detection</strong></li></ol>"
+          },
+          {
+            "paraid": 1,
+            "text": "<ul>The TypeScript compiler performs thorough type checking, catching many common programming errors before the code is executed. This leads to more robust and reliable code.</ul>"
           },
           {
             "paraid": 6,
-            "text": "<ol start=\"5\"><li><strong>Enhanced IDE Support</strong>: TypeScript is designed to work well with modern development tools and IDEs. Features like autocompletion, intelligent code navigation, and error highlighting are more effective due to the availability of type information.</li></ol>"
+            "text": "<ol start=\"5\"><li><strong>Enhanced IDE Support</strong></li></ol>"
+          },
+          {
+            "paraid": 1,
+            "text": "<ul>TypeScript is designed to work well with modern development tools and IDEs. Features like autocompletion, intelligent code navigation, and error highlighting are more effective due to the availability of type information.</ul>"
           },
           {
             "paraid": 7,
-            "text": "<ol start=\"6\"><li><strong>Better Refactoring and Code Maintenance</strong>: With the help of types, refactoring becomes safer and more efficient. Changing variable names, function signatures, or types can be done with confidence, knowing that the compiler will catch any inconsistencies.</li></ol>"
+            "text": "<ol start=\"6\"><li><strong>Better Refactoring and Code Maintenance</strong></li></ol>"
+          },
+          {
+            "paraid": 1,
+            "text": "<ul>With the help of types, refactoring becomes safer and more efficient. Changing variable names, function signatures, or types can be done with confidence, knowing that the compiler will catch any inconsistencies.</ul>"
           },
           {
             "paraid": 8,
-            "text": "<ol start=\"7\"><li><strong>Improved Collaboration</strong>: TypeScript's type annotations and clear interfaces enhance collaboration among team members. It reduces misunderstandings about function signatures and data structures, leading to smoother teamwork.</li></ol>"
+            "text": "<ol start=\"7\"><li><strong>Improved Collaboration</strong></li></ol>"
+          },
+          {
+            "paraid": 1,
+            "text": "<ul>TypeScript's type annotations and clear interfaces enhance collaboration among team members. It reduces misunderstandings about function signatures and data structures, leading to smoother teamwork.</ul>"
           },
           {
             "paraid": 9,
-            "text": "<ol start=\"8\"><li><strong>Easier Documentation Generation</strong>: TypeScript's type annotations can be used to generate accurate and up-to-date documentation automatically. This simplifies the documentation process and keeps it in sync with the code.</li></ol>"
+            "text": "<ol start=\"8\"><li><strong>Easier Documentation Generation</strong></li></ol>"
+          },
+          {
+            "paraid": 1,
+            "text": "<ul>TypeScript's type annotations can be used to generate accurate and up-to-date documentation automatically. This simplifies the documentation process and keeps it in sync with the code.</ul>"
           },
           {
             "paraid": 10,
-            "text": "<ol start=\"9\"><li><strong>Better Tooling for Large Codebases</strong>: In larger projects, keeping track of types and dependencies can become challenging. TypeScript's modules and namespaces help structure and organize code, making it more manageable.</li></ol>"
+            "text": "<ol start=\"9\"><li><strong>Better Tooling for Large Codebases</strong></li></ol>"
+          },
+          {
+            "paraid": 1,
+            "text": "<ul>In larger projects, keeping track of types and dependencies can become challenging. TypeScript's modules and namespaces help structure and organize code, making it more manageable.</ul>"
           },
           {
             "paraid": 11,
-            "text": "<ol start=\"10\"><li><strong>Code Maintainability</strong>: Static typing, combined with features like interfaces and classes, promotes better code organization and modular development. This leads to cleaner, more maintainable codebases.</li></ol>"
+            "text": "<ol start=\"10\"><li><strong>Code Maintainability</strong></li></ol>"
+          },
+          {
+            "paraid": 1,
+            "text": "<ul>Static typing, combined with features like interfaces and classes, promotes better code organization and modular development. This leads to cleaner, more maintainable codebases.</ul>"
           },
           {
             "paraid": 12,
-            "text": "<ol start=\"11\"><li><strong>Enhanced OOP Features</strong>: TypeScript provides support for object-oriented programming features like classes, interfaces, and inheritance. This is particularly beneficial for projects that require complex data structures and abstractions.</li></ol>"
+            "text": "<ol start=\"11\"><li><strong>Enhanced OOP Features</strong></li></ol>"
+          },
+          {
+            "paraid": 1,
+            "text": "<ul>TypeScript provides support for object-oriented programming features like classes, interfaces, and inheritance. This is particularly beneficial for projects that require complex data structures and abstractions.</ul>"
           },
           {
             "paraid": 13,
-            "text": "<ol start=\"12\"><li><strong>Compatibility with JavaScript Ecosystem</strong>: TypeScript is a superset of JavaScript, meaning that existing JavaScript code can be gradually migrated to TypeScript. This compatibility allows developers to take advantage of TypeScript's features without completely rewriting their codebase.</li></ol>"
+            "text": "<ol start=\"12\"><li><strong>Compatibility with JavaScript Ecosystem</strong></li></ol>"
+          },
+          {
+            "paraid": 1,
+            "text": "<ul>TypeScript is a superset of JavaScript, meaning that existing JavaScript code can be gradually migrated to TypeScript. This compatibility allows developers to take advantage of TypeScript's features without completely rewriting their codebase.</ul>"
           },
           {
             "paraid": 14,
-            "text": "<ol start=\"13\"><li><strong>TypeScript Declaration Files</strong>: TypeScript has a concept of declaration files (with `<code>.d.ts</code>` extensions) that describe the structure and types of existing JavaScript libraries. This enables type checking and auto-completion when using third-party libraries in TypeScript projects.</li></ol>"
+            "text": "<ol start=\"13\"><li><strong>TypeScript Declaration Files</strong></li></ol>"
+          },
+          {
+            "paraid": 1,
+            "text": "<ul>TypeScript has a concept of declaration files (with `<code>.d.ts</code>` extensions) that describe the structure and types of existing JavaScript libraries. This enables type checking and auto-completion when using third-party libraries in TypeScript projects.</ul>"
           },
           {
             "paraid": 15,
-            "text": "<ol start=\"14\"><li><strong>Community and Resources</strong>: TypeScript has a growing and active community, providing resources, tutorials, and support for developers. This community-driven effort contributes to the language's evolution and improvement.</li></ol>"
+            "text": "<ol start=\"14\"><li><strong>Community and Resources</strong></li></ol>"
+          },
+          {
+            "paraid": 1,
+            "text": "<ul>TypeScript has a growing and active community, providing resources, tutorials, and support for developers. This community-driven effort contributes to the language's evolution and improvement.</ul>"
           },
           {
             "paraid": 16,
@@ -138,7 +238,7 @@
       },
       {
         "secid": 3,
-        "subtitle": "Setting up TypeScript development environment",
+        "subtitle": "Setting Up TypeScript Development Environment",
         "paragraphs": [
           {
             "paraid": 1,
@@ -146,7 +246,7 @@
           },
           {
             "paraid": 2,
-            "text": "<ol><li><strong>Install Node.js:</strong></li></ol>"
+            "text": "<ol><li><strong>Install Node.js</strong></li></ol>"
           },
           {
             "paraid": 3,
@@ -154,10 +254,14 @@
           },
           {
             "paraid": 4,
-            "text": "<ol start=\"2\"><li><strong>Install TypeScript:</strong></li></ol>"
+            "text": "<ol start=\"2\"><li><strong>Install TypeScript</strong></li></ol>"
           },
           {
             "paraid": 5,
+            "text": "<ul>Once Node.js is installed, you can use npm (Node Package Manager) to install TypeScript globally on your system. Open a terminal or command prompt and run the following command:</ul>"
+          },
+          {
+            "paraid": 6,
             "text": "",
             "codeConfig": {
               "codeid": "ts_1_3_1",
@@ -174,16 +278,12 @@
             }
           },
           {
-            "paraid": 6,
-            "text": "<ul>Once Node.js is installed, you can use npm (Node Package Manager) to install TypeScript globally on your system. Open a terminal or command prompt and run the following command:</ul>"
-          },
-          {
             "paraid": 7,
             "text": "<ul>This installs the TypeScript compiler (`<code>tsc</code>`) globally, allowing you to compile TypeScript files anywhere on your system.</ul>"
           },
           {
             "paraid": 8,
-            "text": "<ol start=\"3\"><li><strong>Create a Project Directory:</strong></li></ol>"
+            "text": "<ol start=\"3\"><li><strong>Create a Project Directory</strong></li></ol>"
           },
           {
             "paraid": 9,
@@ -191,10 +291,14 @@
           },
           {
             "paraid": 10,
-            "text": "<ol start=\"4\"><li><strong>Initialize a `<code>package.json</code>` File:</strong></li></ol>"
+            "text": "<ol start=\"4\"><li><strong>Initialize a `<code>package.json</code>` File</strong></li></ol>"
           },
           {
             "paraid": 11,
+            "text": "<ul>Run the following command in your project directory to initialize a `<code>package.json</code>` file, which manages your project's dependencies and settings:</ul>"
+          },
+          {
+            "paraid": 12,
             "text": "",
             "codeConfig": {
               "codeid": "ts_1_3_2",
@@ -211,12 +315,8 @@
             }
           },
           {
-            "paraid": 12,
-            "text": "<ul>Run the following command in your project directory to initialize a `<code>package.json</code>` file, which manages your project's dependencies and settings:</ul>"
-          },
-          {
             "paraid": 13,
-            "text": "<ol start=\"5\"><li><strong>Create a TypeScript File:</strong></li></ol>"
+            "text": "<ol start=\"5\"><li><strong>Create a TypeScript File</strong></li></ol>"
           },
           {
             "paraid": 14,
@@ -224,7 +324,7 @@
           },
           {
             "paraid": 15,
-            "text": "<ol start=\"6\"><li><strong>Write TypeScript Code:</strong></li></ol>"
+            "text": "<ol start=\"6\"><li><strong>Write TypeScript Code</strong></li></ol>"
           },
           {
             "paraid": 16,
@@ -249,7 +349,7 @@
           },
           {
             "paraid": 18,
-            "text": "<ol start=\"7\"><li><strong>Compile TypeScript:</strong></li></ol>"
+            "text": "<ol start=\"7\"><li><strong>Compile TypeScript</strong></li></ol>"
           },
           {
             "paraid": 19,
@@ -278,7 +378,7 @@
           },
           {
             "paraid": 22,
-            "text": "<ol start=\"8\"><li><strong>Run JavaScript Code:</strong></li></ol>"
+            "text": "<ol start=\"8\"><li><strong>Run JavaScript Code</strong></li></ol>"
           },
           {
             "paraid": 23,
@@ -307,7 +407,7 @@
           },
           {
             "paraid": 26,
-            "text": "<ol start=\"9\"><li><strong>Automating Compilation (Optional):</strong></li></ol>"
+            "text": "<ol start=\"9\"><li><strong>Automating Compilation (Optional)</strong></li></ol>"
           },
           {
             "paraid": 27,
@@ -349,7 +449,7 @@
     "sections": [
       {
         "secid": 1,
-        "subtitle": "Primitive types",
+        "subtitle": "Primitive Types",
         "paragraphs": [
           {
             "paraid": 1,
@@ -357,7 +457,7 @@
           },
           {
             "paraid": 2,
-            "text": "<ol><li><strong>Number:</strong></li></ol>"
+            "text": "<ol><li><strong>Number</strong></li></ol>"
           },
           {
             "paraid": 3,
@@ -382,7 +482,7 @@
           },
           {
             "paraid": 5,
-            "text": "<ol start=\"2\"><li><strong>String:</strong></li></ol>"
+            "text": "<ol start=\"2\"><li><strong>String</strong></li></ol>"
           },
           {
             "paraid": 6,
@@ -407,7 +507,7 @@
           },
           {
             "paraid": 8,
-            "text": "<ol start=\"3\"><li><strong>Boolean:</strong></li></ol>"
+            "text": "<ol start=\"3\"><li><strong>Boolean</strong></li></ol>"
           },
           {
             "paraid": 9,
@@ -432,7 +532,7 @@
           },
           {
             "paraid": 11,
-            "text": "<ol start=\"4\"><li><strong>Symbol:</strong></li></ol>"
+            "text": "<ol start=\"4\"><li><strong>Symbol</strong></li></ol>"
           },
           {
             "paraid": 12,
@@ -485,7 +585,7 @@
       },
       {
         "secid": 2,
-        "subtitle": "Special types",
+        "subtitle": "Special Types",
         "paragraphs": [
           {
             "paraid": 1,
@@ -493,11 +593,11 @@
           },
           {
             "paraid": 2,
-            "text": "<ol><li><strong>Undefined:</strong></li></ol>"
+            "text": "<ol><li><strong>Undefined</strong></li></ol>"
           },
           {
             "paraid": 3,
-            "text": "<ul>The `<code>undefined</code>` type represents the absence of a value. Typically used when a variable doesn't have a value assigned.</ul>"
+            "text": "<ul>The `<code>undefined</code>` type represents the absence of a value. Typically used when a variable doesn't have a value assigned:</ul>"
           },
           {
             "paraid": 4,
@@ -518,11 +618,11 @@
           },
           {
             "paraid": 5,
-            "text": "<ol start=\"2\"><li><strong>Null:</strong></li></ol>"
+            "text": "<ol start=\"2\"><li><strong>Null</strong></li></ol>"
           },
           {
             "paraid": 6,
-            "text": "<ul>The `<code>null</code>` type indicates the absence of a value explicitly.</ul>"
+            "text": "<ul>The `<code>null</code>` type indicates the absence of a value explicitly:</ul>"
           },
           {
             "paraid": 7,
@@ -543,11 +643,11 @@
           },
           {
             "paraid": 8,
-            "text": "<ol start=\"3\"><li><strong>Any:</strong></li></ol>"
+            "text": "<ol start=\"3\"><li><strong>Any</strong></li></ol>"
           },
           {
             "paraid": 9,
-            "text": "<ul>The `<code>any</code>` type represents a type that can hold any value, and type checking is disabled. Used when you need to work with values of unknown types or interact with JavaScript code.</ul>"
+            "text": "<ul>The `<code>any</code>` type represents a type that can hold any value, and type checking is disabled. Used when you need to work with values of unknown types or interact with JavaScript code:</ul>"
           },
           {
             "paraid": 10,
@@ -568,11 +668,11 @@
           },
           {
             "paraid": 11,
-            "text": "<ol start=\"4\"><li><strong>Unknown:</strong></li></ol>"
+            "text": "<ol start=\"4\"><li><strong>Unknown</strong></li></ol>"
           },
           {
             "paraid": 12,
-            "text": "<ul>The `<code>unknown</code>` type represents a type-safe counterpart to `<code>any</code>`, requiring type checks before performing operations. Used when you're unsure of a value's type but want to maintain stricter type handling than `<code>any</code>`.</ul>"
+            "text": "<ul>The `<code>unknown</code>` type represents a type-safe counterpart to `<code>any</code>`, requiring type checks before performing operations. Used when you're unsure of a value's type but want to maintain stricter type handling than `<code>any</code>`:</ul>"
           },
           {
             "paraid": 13,
@@ -598,7 +698,7 @@
           },
           {
             "paraid": 15,
-            "text": "<ul>The `<code>never</code>` type represents values that never occur or functions that never return. Used in functions that throw exceptions, have infinite loops, or exhaustive type checks.</ul>"
+            "text": "<ul>The `<code>never</code>` type represents values that never occur or functions that never return. Used in functions that throw exceptions, have infinite loops, or exhaustive type checks:</ul>"
           },
           {
             "paraid": 16,
@@ -619,11 +719,11 @@
           },
           {
             "paraid": 17,
-            "text": "<ol start=\"6\"><li><strong>Unique Symbol:</strong></li></ol>"
+            "text": "<ol start=\"6\"><li><strong>Unique Symbol</strong></li></ol>"
           },
           {
             "paraid": 18,
-            "text": "<ul>The `<code>unique symbol</code>` type represents a unique and immutable value used as an identifier for object properties. Used to create unique property keys that won't conflict with other keys.</ul>"
+            "text": "<ul>The `<code>unique symbol</code>` type represents a unique and immutable value used as an identifier for object properties. Used to create unique property keys that won't conflict with other keys:</ul>"
           },
           {
             "paraid": 19,
@@ -650,19 +750,19 @@
       },
       {
         "secid": 3,
-        "subtitle": "Declaring variables with let and const",
+        "subtitle": "Declaring Variables",
         "paragraphs": [
           {
             "paraid": 1,
-            "text": "In TypeScript, you can declare variables using the `<code>let</code>` and `<code>const</code>` keywords, just like in JavaScript. However, TypeScript's type system allows you to add type annotations to variables to specify their expected types, making your code more readable and helping catch type-related errors during development. Here's an overview of how to declare variables using `<code>let</code>` and `<code>const</code>`."
+            "text": "In TypeScript, you can declare variables using the `<code>let</code>` and `<code>const</code>` keywords, just like in JavaScript. However, TypeScript's type system allows you to add type annotations to variables to specify their expected types, making your code more readable and helping catch type-related errors during development. Here's an overview of how to declare variables using `<code>let</code>` and `<code>const</code>`:"
           },
           {
             "paraid": 2,
-            "text": "<ol><li><strong>Using `<code>let</code>` for Mutable Variables:</strong></li></ol>"
+            "text": "<ol><li><strong>Using `<code>let</code>` for Mutable Variables</strong></li></ol>"
           },
           {
             "paraid": 3,
-            "text": "<ul>The `<code>let</code>` keyword is used to declare mutable variables, which means their values can be reassigned after their initial assignment.</ul>"
+            "text": "<ul>The `<code>let</code>` keyword is used to declare mutable variables, which means their values can be reassigned after their initial assignment:</ul>"
           },
           {
             "paraid": 4,
@@ -687,11 +787,11 @@
           },
           {
             "paraid": 6,
-            "text": "<ol start=\"2\"><li><strong>Using `<code>const</code>` for Immutable Variables:</strong></li></ol>"
+            "text": "<ol start=\"2\"><li><strong>Using `<code>const</code>` for Immutable Variables</strong></li></ol>"
           },
           {
             "paraid": 7,
-            "text": "<ul>The `<code>const</code>` keyword is used to declare variables that cannot be reassigned after their initial assignment. This is useful when you want to ensure that a variable's value remains constant throughout its scope.</ul>"
+            "text": "<ul>The `<code>const</code>` keyword is used to declare variables that cannot be reassigned after their initial assignment. This is useful when you want to ensure that a variable's value remains constant throughout its scope:</ul>"
           },
           {
             "paraid": 8,
@@ -739,7 +839,7 @@
       },
       {
         "secid": 4,
-        "subtitle": "Type annotations and type inference",
+        "subtitle": "Type Annotations and Type Inference",
         "paragraphs": [
           {
             "paraid": 1,
@@ -747,7 +847,7 @@
           },
           {
             "paraid": 2,
-            "text": "<ol><li><strong>Type Annotations:</strong></li></ol>"
+            "text": "<ol><li><strong>Type Annotations</strong></li></ol>"
           },
           {
             "paraid": 3,
@@ -776,7 +876,7 @@
           },
           {
             "paraid": 6,
-            "text": "<ol start=\"2\"><li><strong>Type Inference:</strong></li></ol>"
+            "text": "<ol start=\"2\"><li><strong>Type Inference</strong></li></ol>"
           },
           {
             "paraid": 7,
@@ -851,15 +951,15 @@
     "sections": [
       {
         "secid": 1,
-        "subtitle": "Working with arrays",
+        "subtitle": "Working with Arrays",
         "paragraphs": [
           {
             "paraid": 1,
-            "text": "Working with arrays in TypeScript is similar to working with arrays in JavaScript, but TypeScript's static typing adds an extra layer of type safety and clarity. You can declare the type of elements an array can hold, and TypeScript will help you catch type-related errors. Here's how to work with arrays in TypeScript."
+            "text": "Working with arrays in TypeScript is similar to working with arrays in JavaScript, but TypeScript's static typing adds an extra layer of type safety and clarity. You can declare the type of elements an array can hold, and TypeScript will help you catch type-related errors. Here's how to work with arrays in TypeScript:"
           },
           {
             "paraid": 1,
-            "text": "<ol><li><strong>Declaring Typed Arrays:</strong></li></ol>"
+            "text": "<ol><li><strong>Declaring Typed Arrays</strong></li></ol>"
           },
           {
             "paraid": 1,
@@ -884,7 +984,7 @@
           },
           {
             "paraid": 1,
-            "text": "<ol start=\"2\"><li><strong>Array Type Inference:</strong></li></ol>"
+            "text": "<ol start=\"2\"><li><strong>Array Type Inference</strong></li></ol>"
           },
           {
             "paraid": 1,
@@ -909,7 +1009,7 @@
           },
           {
             "paraid": 1,
-            "text": "<ol start=\"3\"><li><strong>Accessing Array Elements:</strong></li></ol>"
+            "text": "<ol start=\"3\"><li><strong>Accessing Array Elements</strong></li></ol>"
           },
           {
             "paraid": 1,
@@ -934,7 +1034,7 @@
           },
           {
             "paraid": 1,
-            "text": "<ol start=\"4\"><li><strong>Array Methods and Properties:</strong></li></ol>"
+            "text": "<ol start=\"4\"><li><strong>Array Methods and Properties</strong></li></ol>"
           },
           {
             "paraid": 1,
@@ -959,7 +1059,7 @@
           },
           {
             "paraid": 1,
-            "text": "<ol start=\"5\"><li><strong>Iterating Through Arrays:</strong></li></ol>"
+            "text": "<ol start=\"5\"><li><strong>Iterating Through Arrays</strong></li></ol>"
           },
           {
             "paraid": 1,
@@ -985,7 +1085,7 @@
           },
           {
             "paraid": 1,
-            "text": "<ol start=\"6\"><li><strong>Array Type Union:</strong></li></ol>"
+            "text": "<ol start=\"6\"><li><strong>Array Type Union</strong></li></ol>"
           },
           {
             "paraid": 1,
@@ -1010,7 +1110,7 @@
           },
           {
             "paraid": 1,
-            "text": "<ol start=\"7\"><li><strong>Read-Only Arrays with `<code>readonly</code>`:</strong></li></ol>"
+            "text": "<ol start=\"7\"><li><strong>Read-Only Arrays with `<code>readonly</code>`</strong></li></ol>"
           },
           {
             "paraid": 1,
@@ -1041,7 +1141,7 @@
       },
       {
         "secid": 2,
-        "subtitle": "Understanding tuples and their uses",
+        "subtitle": "Understanding Tuples and Their Uses",
         "paragraphs": [
           {
             "paraid": 1,
@@ -1049,7 +1149,7 @@
           },
           {
             "paraid": 1,
-            "text": "<ol><li><strong>Defining Tuples:</strong></li></ol>"
+            "text": "<ol><li><strong>Defining Tuples</strong></li></ol>"
           },
           {
             "paraid": 1,
@@ -1078,7 +1178,7 @@
           },
           {
             "paraid": 1,
-            "text": "<ol start=\"2\"><li><strong>Accessing Tuple Elements:</strong></li></ol>"
+            "text": "<ol start=\"2\"><li><strong>Accessing Tuple Elements</strong></li></ol>"
           },
           {
             "paraid": 1,
@@ -1103,7 +1203,7 @@
           },
           {
             "paraid": 1,
-            "text": "<ol start=\"3\"><li><strong>Tuple Type Inference:</strong></li></ol>"
+            "text": "<ol start=\"3\"><li><strong>Tuple Type Inference</strong></li></ol>"
           },
           {
             "paraid": 1,
@@ -1128,7 +1228,7 @@
           },
           {
             "paraid": 1,
-            "text": "<ol start=\"4\"><li><strong>Using Tuples in Functions:</strong></li></ol>"
+            "text": "<ol start=\"4\"><li><strong>Using Tuples in Functions</strong></li></ol>"
           },
           {
             "paraid": 1,
@@ -1153,7 +1253,7 @@
           },
           {
             "paraid": 1,
-            "text": "<ol start=\"5\"><li><strong>Tuples with Optional Elements:</strong></li></ol>"
+            "text": "<ol start=\"5\"><li><strong>Tuples with Optional Elements</strong></li></ol>"
           },
           {
             "paraid": 1,
@@ -1178,7 +1278,7 @@
           },
           {
             "paraid": 1,
-            "text": "<ol start=\"6\"><li><strong>Tuples with Rest Elements:</strong></li></ol>"
+            "text": "<ol start=\"6\"><li><strong>Tuples with Rest Elements</strong></li></ol>"
           },
           {
             "paraid": 1,
@@ -1203,7 +1303,7 @@
           },
           {
             "paraid": 1,
-            "text": "<ol start=\"7\"><li><strong>Tuples in Arrays:</strong></li></ol>"
+            "text": "<ol start=\"7\"><li><strong>Tuples in Arrays</strong></li></ol>"
           },
           {
             "paraid": 1,
@@ -1228,7 +1328,7 @@
           },
           {
             "paraid": 1,
-            "text": "<ol start=\"8\"><li><strong>Limitations and Considerations:</strong></li></ol>"
+            "text": "<ol start=\"8\"><li><strong>Limitations and Considerations</strong></li></ol>"
           },
           {
             "paraid": 1,
@@ -1253,15 +1353,15 @@
     "sections": [
       {
         "secid": 1,
-        "subtitle": "Declaring functions and function types",
+        "subtitle": "Declaring Functions and Function Types",
         "paragraphs": [
           {
             "paraid": 1,
-            "text": "Declaring functions and specifying function types are fundamental aspects of TypeScript, as they allow you to provide type information for function parameters and return values. This helps catch errors early and provides better documentation for your code. Here's how to declare functions and define function types in TypeScript."
+            "text": "Declaring functions and specifying function types are fundamental aspects of TypeScript, as they allow you to provide type information for function parameters and return values. This helps catch errors early and provides better documentation for your code. Here's how to declare functions and define function types in TypeScript:"
           },
           {
             "paraid": 1,
-            "text": "<ol><li><strong>Declaring Functions:</strong></li></ol>"
+            "text": "<ol><li><strong>Declaring Functions</strong></li></ol>"
           },
           {
             "paraid": 1,
@@ -1290,7 +1390,7 @@
           },
           {
             "paraid": 1,
-            "text": "<ol start=\"2\"><li><strong>Function Types:</strong></li></ol>"
+            "text": "<ol start=\"2\"><li><strong>Function Types</strong></li></ol>"
           },
           {
             "paraid": 1,
@@ -1319,7 +1419,7 @@
           },
           {
             "paraid": 1,
-            "text": "<ol start=\"3\"><li><strong>Function Overloads:</strong></li></ol>"
+            "text": "<ol start=\"3\"><li><strong>Function Overloads</strong></li></ol>"
           },
           {
             "paraid": 1,
@@ -1344,7 +1444,7 @@
           },
           {
             "paraid": 1,
-            "text": "<ol start=\"4\"><li><strong>Function Callbacks:</strong></li></ol>"
+            "text": "<ol start=\"4\"><li><strong>Function Callbacks</strong></li></ol>"
           },
           {
             "paraid": 1,
@@ -1369,7 +1469,7 @@
           },
           {
             "paraid": 1,
-            "text": "<ol start=\"5\"><li><strong>Arrow Functions:</strong></li></ol>"
+            "text": "<ol start=\"5\"><li><strong>Arrow Functions</strong></li></ol>"
           },
           {
             "paraid": 1,
@@ -1400,15 +1500,15 @@
       },
       {
         "secid": 2,
-        "subtitle": "Optional, default, and rest parameters",
+        "subtitle": "Optional, Default, and Rest Parameters",
         "paragraphs": [
           {
             "paraid": 1,
-            "text": "Optional, default, and rest parameters are powerful features in TypeScript that provide flexibility when working with functions. They allow you to define functions that can be called with fewer arguments or with some arguments using default values. Here's an explanation of optional, default, and parameters."
+            "text": "Optional, default, and rest parameters are powerful features in TypeScript that provide flexibility when working with functions. They allow you to define functions that can be called with fewer arguments or with some arguments using default values. Here's an explanation of optional, default, and parameters:"
           },
           {
             "paraid": 1,
-            "text": "<ol><li><strong>Optional Parameters:</strong></li></ol>"
+            "text": "<ol><li><strong>Optional Parameters</strong></li></ol>"
           },
           {
             "paraid": 1,
@@ -1434,7 +1534,7 @@
           },
           {
             "paraid": 1,
-            "text": "<ol start=\"2\"><li><strong>Default Parameters:</strong></li></ol>"
+            "text": "<ol start=\"2\"><li><strong>Default Parameters</strong></li></ol>"
           },
           {
             "paraid": 1,
@@ -1460,7 +1560,7 @@
           },
           {
             "paraid": 1,
-            "text": "<ol start=\"3\"><li><strong>Combining Optional and Default Parameters:</strong></li></ol>"
+            "text": "<ol start=\"3\"><li><strong>Combining Optional and Default Parameters</strong></li></ol>"
           },
           {
             "paraid": 1,
@@ -1486,7 +1586,7 @@
           },
           {
             "paraid": 1,
-            "text": "<ol start=\"4\"><li><strong>Rest Parameters:</strong></li></ol>"
+            "text": "<ol start=\"4\"><li><strong>Rest Parameters</strong></li></ol>"
           },
           {
             "paraid": 1,
@@ -1524,15 +1624,15 @@
     "sections": [
       {
         "secid": 1,
-        "subtitle": "Understanding classes",
+        "subtitle": "Understanding Classes",
         "paragraphs": [
           {
             "paraid": 1,
-            "text": "In TypeScript, classes are a fundamental concept that enables you to define blueprints for creating objects. They allow you to encapsulate data and behavior, facilitating a more organized and object-oriented approach to programming. TypeScript classes are an enhancement of JavaScript's prototype-based inheritance model. Here's an overview of TypeScript classes and their features."
+            "text": "In TypeScript, classes are a fundamental concept that enables you to define blueprints for creating objects. They allow you to encapsulate data and behavior, facilitating a more organized and object-oriented approach to programming. TypeScript classes are an enhancement of JavaScript's prototype-based inheritance model. Here's an overview of TypeScript classes and their features:"
           },
           {
             "paraid": 1,
-            "text": "<ol><li><strong>Class Declaration:</strong></li></ol>"
+            "text": "<ol><li><strong>Class Declaration</strong></li></ol>"
           },
           {
             "paraid": 1,
@@ -1557,7 +1657,7 @@
           },
           {
             "paraid": 1,
-            "text": "<ol start=\"2\"><li><strong>Constructors:</strong></li></ol>"
+            "text": "<ol start=\"2\"><li><strong>Constructors</strong></li></ol>"
           },
           {
             "paraid": 1,
@@ -1583,7 +1683,7 @@
           },
           {
             "paraid": 1,
-            "text": "<ol start=\"3\"><li><strong>Properties:</strong></li></ol>"
+            "text": "<ol start=\"3\"><li><strong>Properties</strong></li></ol>"
           },
           {
             "paraid": 1,
@@ -1608,7 +1708,7 @@
           },
           {
             "paraid": 1,
-            "text": "<ol start=\"4\"><li><strong>Getter and Setter Properties:</strong></li></ol>"
+            "text": "<ol start=\"4\"><li><strong>Getter and Setter Properties</strong></li></ol>"
           },
           {
             "paraid": 1,
@@ -1633,7 +1733,7 @@
           },
           {
             "paraid": 1,
-            "text": "<ol start=\"5\"><li><strong>Methods:</strong></li></ol>"
+            "text": "<ol start=\"5\"><li><strong>Methods</strong></li></ol>"
           },
           {
             "paraid": 1,
@@ -1658,11 +1758,11 @@
           },
           {
             "paraid": 1,
-            "text": "<ol start=\"6\"><li><strong>Static Members:</strong></li></ol>"
+            "text": "<ol start=\"6\"><li><strong>Static Members</strong></li></ol>"
           },
           {
             "paraid": 1,
-            "text": "<ul>Static members (properties and methods) belong to the class itself, rather than to instances. They are accessed using the class name.</ul>"
+            "text": "<ul>Static members (properties and methods) belong to the class itself, rather than to instances. They are accessed using the class name:</ul>"
           },
           {
             "paraid": 4,
@@ -1683,7 +1783,7 @@
           },
           {
             "paraid": 1,
-            "text": "<ol start=\"7\"><li><strong>Access Modifiers:</strong></li></ol>"
+            "text": "<ol start=\"7\"><li><strong>Access Modifiers</strong></li></ol>"
           },
           {
             "paraid": 1,
@@ -1726,19 +1826,19 @@
       },
       {
         "secid": 2,
-        "subtitle": "Abstract classes and inheritance",
+        "subtitle": "Abstract Classes and Inheritance",
         "paragraphs": [
           {
             "paraid": 1,
-            "text": "Abstract classes and inheritance are important concepts in TypeScript's object-oriented programming paradigm. They allow you to create structured and reusable code by defining common behaviors and properties in a base class and then extending that base class to create more specialized subclasses. Let's explore abstract classes and inheritance in TypeScript in more detail."
+            "text": "Abstract classes and inheritance are important concepts in TypeScript's object-oriented programming paradigm. They allow you to create structured and reusable code by defining common behaviors and properties in a base class and then extending that base class to create more specialized subclasses. Let's explore abstract classes and inheritance in TypeScript in more detail:"
           },
           {
             "paraid": 1,
-            "text": "<ol><li><strong>Abstract Classes:</strong></li><ol>"
+            "text": "<ol><li><strong>Abstract Classes</strong></li><ol>"
           },
           {
             "paraid": 1,
-            "text": "<ul>You can define an abstract class using the `<code>abstract</code>` keyword. An abstract class is a class that cannot be instantiated directly but serves as a base for other classes. It can contain abstract methods (methods without implementation) that must be implemented by its subclasses. Abstract classes provide a way to define common behavior and structure for related classes.</ul>"
+            "text": "<ul>You can define an abstract class using the `<code>abstract</code>` keyword. An abstract class is a class that cannot be instantiated directly but serves as a base for other classes. It can contain abstract methods (methods without implementation) that must be implemented by its subclasses. Abstract classes provide a way to define common behavior and structure for related classes:</ul>"
           },
           {
             "paraid": 4,
@@ -1759,7 +1859,7 @@
           },
           {
             "paraid": 1,
-            "text": "<ol start=\"2\"><li><strong>Inheritance:</strong></li><ol>"
+            "text": "<ol start=\"2\"><li><strong>Inheritance</strong></li><ol>"
           },
           {
             "paraid": 1,
@@ -1788,11 +1888,11 @@
           },
           {
             "paraid": 1,
-            "text": "<ol start=\"3\"><li><strong>Method Overriding:</strong></li><ol>"
+            "text": "<ol start=\"3\"><li><strong>Method Overriding</strong></li><ol>"
           },
           {
             "paraid": 1,
-            "text": "<ul>Method overriding allows a subclass to provide a new implementation for a method that is already defined in its superclass. This enables the subclass to customize the behavior of the inherited method while maintaining a common interface.</ul>"
+            "text": "<ul>Method overriding allows a subclass to provide a new implementation for a method that is already defined in its superclass. This enables the subclass to customize the behavior of the inherited method while maintaining a common interface:</ul>"
           },
           {
             "paraid": 4,
@@ -1853,15 +1953,15 @@
     "sections": [
       {
         "secid": 1,
-        "subtitle": "Defining interfaces and their importance",
+        "subtitle": "Defining Interfaces and Their Importance",
         "paragraphs": [
           {
             "paraid": 1,
-            "text": "Defining interfaces is a powerful feature in TypeScript that helps you define contracts for the shape and structure of objects. Interfaces allow you to specify the properties and methods an object should have, ensuring type safety and consistency throughout your codebase. Here's a detailed explanation of interfaces and their importance."
+            "text": "Defining interfaces is a powerful feature in TypeScript that helps you define contracts for the shape and structure of objects. Interfaces allow you to specify the properties and methods an object should have, ensuring type safety and consistency throughout your codebase. Here's a detailed explanation of interfaces and their importance:"
           },
           {
             "paraid": 1,
-            "text": "<ol><li><strong>Defining Interfaces:</strong></li></ol>"
+            "text": "<ol><li><strong>Defining Interfaces</strong></li></ol>"
           },
           {
             "paraid": 1,
@@ -1890,7 +1990,7 @@
           },
           {
             "paraid": 1,
-            "text": "<ol start=\"2\"><li><strong>Implementing Interfaces:</strong></li></ol>"
+            "text": "<ol start=\"2\"><li><strong>Implementing Interfaces</strong></li></ol>"
           },
           {
             "paraid": 1,
@@ -1919,7 +2019,7 @@
           },
           {
             "paraid": 1,
-            "text": "<ol start=\"3\"><li><strong>Optional Properties and Readonly Properties:</strong></li></ol>"
+            "text": "<ol start=\"3\"><li><strong>Optional Properties and Readonly Properties</strong></li></ol>"
           },
           {
             "paraid": 1,
@@ -1971,15 +2071,15 @@
       },
       {
         "secid": 2,
-        "subtitle": "Creating type aliases for custom types",
+        "subtitle": "Creating Type Aliases for Custom Types",
         "paragraphs": [
           {
             "paraid": 1,
-            "text": "Type aliases in TypeScript allow you to create custom names for types, making your code more expressive and readable. They are especially useful for complex type definitions or when you want to reuse a type definition across multiple places in your code. Here's how to create type aliases."
+            "text": "Type aliases in TypeScript allow you to create custom names for types, making your code more expressive and readable. They are especially useful for complex type definitions or when you want to reuse a type definition across multiple places in your code. Here's how to create type aliases:"
           },
           {
             "paraid": 1,
-            "text": "<ol><li><strong>Basic Type Aliases:</strong></li></ol>"
+            "text": "<ol><li><strong>Basic Type Aliases</strong></li></ol>"
           },
           {
             "paraid": 1,
@@ -2008,7 +2108,7 @@
           },
           {
             "paraid": 1,
-            "text": "<ol start=\"2\"><li><strong>Custom Object Type Aliases:</strong></li></ol>"
+            "text": "<ol start=\"2\"><li><strong>Custom Object Type Aliases</strong></li></ol>"
           },
           {
             "paraid": 1,
@@ -2033,7 +2133,7 @@
           },
           {
             "paraid": 1,
-            "text": "<ol start=\"3\"><li><strong>Union and Intersection Type Aliases:</strong></li></ol>"
+            "text": "<ol start=\"3\"><li><strong>Union and Intersection Type Aliases</strong></li></ol>"
           },
           {
             "paraid": 1,
@@ -2058,7 +2158,7 @@
           },
           {
             "paraid": 1,
-            "text": "<ol start=\"4\"><li><strong>Function Type Aliases:</strong></li></ol>"
+            "text": "<ol start=\"4\"><li><strong>Function Type Aliases</strong></li></ol>"
           },
           {
             "paraid": 1,
@@ -2083,7 +2183,7 @@
           },
           {
             "paraid": 1,
-            "text": "<ol start=\"5\"><li><strong>Mapped Type Aliases:</strong></li></ol>"
+            "text": "<ol start=\"5\"><li><strong>Mapped Type Aliases</strong></li></ol>"
           },
           {
             "paraid": 1,
@@ -2108,7 +2208,7 @@
           },
           {
             "paraid": 1,
-            "text": "<ol start=\"6\"><li><strong>Generics with Type Aliases:</strong></li></ol>"
+            "text": "<ol start=\"6\"><li><strong>Generics with Type Aliases</strong></li></ol>"
           },
           {
             "paraid": 1,
@@ -2146,7 +2246,7 @@
     "sections": [
       {
         "secid": 1,
-        "subtitle": "Using type assertions to override type inference",
+        "subtitle": "Using Type Assertions to Override Type Inference",
         "paragraphs": [
           {
             "paraid": 1,
@@ -2162,7 +2262,7 @@
           },
           {
             "paraid": 1,
-            "text": "<ol><li><strong>Using Angle Bracket Syntax:</strong></li></ol>"
+            "text": "<ol><li><strong>Using Angle Bracket Syntax</strong></li></ol>"
           },
           {
             "paraid": 1,
@@ -2191,7 +2291,7 @@
           },
           {
             "paraid": 1,
-            "text": "<ol start=\"2\"><li><strong>Using `<code>as</code>` Syntax:</strong></li></ol>"
+            "text": "<ol start=\"2\"><li><strong>Using `<code>as</code>` Syntax</strong></li></ol>"
           },
           {
             "paraid": 1,
@@ -2220,7 +2320,7 @@
           },
           {
             "paraid": 1,
-            "text": "<ol start=\"3\"><li><strong>Caution and Best Practices:</strong></li></ol>"
+            "text": "<ol start=\"3\"><li><strong>Caution and Best Practices</strong></li></ol>"
           },
           {
             "paraid": 1,
@@ -2246,15 +2346,15 @@
       },
       {
         "secid": 2,
-        "subtitle": "Alternatives to type assertions",
+        "subtitle": "Alternatives to Type Assertions",
         "paragraphs": [
           {
             "paraid": 1,
-            "text": "The type assertions allow you to explicitly inform the TypeScript compiler about the expected type of a value. While they can be useful, there are alternatives to consider depending on the situation. Here are some alternatives to type assertions."
+            "text": "The type assertions allow you to explicitly inform the TypeScript compiler about the expected type of a value. While they can be useful, there are alternatives to consider depending on the situation. Here are some alternatives to type assertions:"
           },
           {
             "paraid": 1,
-            "text": "<ol><li><strong>Type Cast Functions:</strong></li></ol>"
+            "text": "<ol><li><strong>Type Cast Functions</strong></li></ol>"
           },
           {
             "paraid": 1,
@@ -2283,7 +2383,7 @@
           },
           {
             "paraid": 1,
-            "text": "<ol start=\"2\"><li><strong>Type Guards:</strong></li></ol>"
+            "text": "<ol start=\"2\"><li><strong>Type Guards</strong></li></ol>"
           },
           {
             "paraid": 1,
@@ -2312,7 +2412,7 @@
           },
           {
             "paraid": 1,
-            "text": "<ol start=\"3\"><li><strong>User-Defined Type Guards:</strong></li></ol>"
+            "text": "<ol start=\"3\"><li><strong>User-Defined Type Guards</strong></li></ol>"
           },
           {
             "paraid": 1,
@@ -2341,7 +2441,7 @@
           },
           {
             "paraid": 1,
-            "text": "<ol start=\"4\"><li><strong>Intersection and Union Types:</strong></li></ol>"
+            "text": "<ol start=\"4\"><li><strong>Intersection and Union Types</strong></li></ol>"
           },
           {
             "paraid": 1,
@@ -2396,15 +2496,15 @@
     "sections": [
       {
         "secid": 1,
-        "subtitle": "Working with enums in TypeScript",
+        "subtitle": "Working with Enums in TypeScript",
         "paragraphs": [
           {
             "paraid": 1,
-            "text": "Enums in TypeScript provide a way to define a set of named constant values that can represent a specific set of options or states. Enums help make your code more readable, self-explanatory, and type-safe. Here's how to work with enums in TypeScript."
+            "text": "Enums in TypeScript provide a way to define a set of named constant values that can represent a specific set of options or states. Enums help make your code more readable, self-explanatory, and type-safe. Here's how to work with enums in TypeScript:"
           },
           {
             "paraid": 1,
-            "text": "<ol><li><strong>Defining Enums:</strong></li></ol>"
+            "text": "<ol><li><strong>Defining Enums</strong></li></ol>"
           },
           {
             "paraid": 1,
@@ -2433,7 +2533,7 @@
           },
           {
             "paraid": 1,
-            "text": "<ol start=\"2\"><li><strong>Using Enums:</strong></li></ol>"
+            "text": "<ol start=\"2\"><li><strong>Using Enums</strong></li></ol>"
           },
           {
             "paraid": 1,
@@ -2479,7 +2579,7 @@
           },
           {
             "paraid": 1,
-            "text": "<ol start=\"3\"><li><strong>Numeric and String Enums:</strong></li></ol>"
+            "text": "<ol start=\"3\"><li><strong>Numeric and String Enums</strong></li></ol>"
           },
           {
             "paraid": 1,
@@ -2504,7 +2604,7 @@
           },
           {
             "paraid": 1,
-            "text": "<ol start=\"4\"><li><strong>Accessing Enum Values:</strong></li></ol>"
+            "text": "<ol start=\"4\"><li><strong>Accessing Enum Values</strong></li></ol>"
           },
           {
             "paraid": 1,
@@ -2530,7 +2630,7 @@
           },
           {
             "paraid": 1,
-            "text": "<ol start=\"5\"><li><strong>Enum Value Assignment:</strong></li></ol>"
+            "text": "<ol start=\"5\"><li><strong>Enum Value Assignment</strong></li></ol>"
           },
           {
             "paraid": 1,
@@ -2555,7 +2655,7 @@
           },
           {
             "paraid": 1,
-            "text": "<ol start=\"6\"><li><strong>Enum Member Behavior:</strong></li></ol>"
+            "text": "<ol start=\"6\"><li><strong>Enum Member Behavior</strong></li></ol>"
           },
           {
             "paraid": 1,
@@ -2575,7 +2675,7 @@
           },
           {
             "paraid": 1,
-            "text": "<ol start=\"7\"><li><strong>Reverse Mapping:</strong></li></ol>"
+            "text": "<ol start=\"7\"><li><strong>Reverse Mapping</strong></li></ol>"
           },
           {
             "paraid": 1,
@@ -2606,15 +2706,15 @@
       },
       {
         "secid": 2,
-        "subtitle": "Enumerating and accessing enum values",
+        "subtitle": "Enumerating and Accessing Enum Values",
         "paragraphs": [
           {
             "paraid": 1,
-            "text": "Enumerating and accessing enum values in TypeScript involves iterating through the members of an enum and accessing their corresponding values. TypeScript provides several ways to achieve this. Here's how you can enumerate and access enum values."
+            "text": "Enumerating and accessing enum values in TypeScript involves iterating through the members of an enum and accessing their corresponding values. TypeScript provides several ways to achieve this. Here's how you can enumerate and access enum values:"
           },
           {
             "paraid": 1,
-            "text": "<ol><li><strong>`<code>for...in</code>` Loop:</strong></li></ol>"
+            "text": "<ol><li><strong>`<code>for...in</code>` Loop</strong></li></ol>"
           },
           {
             "paraid": 1,
@@ -2644,7 +2744,7 @@
           },
           {
             "paraid": 1,
-            "text": "<ol start=\"2\"><li><strong>`<code>Object.keys</code>`:</strong></li></ol>"
+            "text": "<ol start=\"2\"><li><strong>`<code>Object.keys</code>`</strong></li></ol>"
           },
           {
             "paraid": 1,
@@ -2670,7 +2770,7 @@
           },
           {
             "paraid": 1,
-            "text": "<ol start=\"3\"><li><strong>Using `<code>for...of</code>` with `<code>Object.values</code>`:</strong></li></ol>"
+            "text": "<ol start=\"3\"><li><strong>Using `<code>for...of</code>` with `<code>Object.values</code>`</strong></li></ol>"
           },
           {
             "paraid": 1,
@@ -2696,7 +2796,7 @@
           },
           {
             "paraid": 1,
-            "text": "<ol start=\"4\"><li><strong>Accessing Enum Values:</strong></li></ol>"
+            "text": "<ol start=\"4\"><li><strong>Accessing Enum Values</strong></li></ol>"
           },
           {
             "paraid": 1,
@@ -2735,7 +2835,7 @@
     "sections": [
       {
         "secid": 1,
-        "subtitle": "Introduction to generics",
+        "subtitle": "Introduction to Generics",
         "paragraphs": [
           {
             "paraid": 1,
@@ -2743,7 +2843,7 @@
           },
           {
             "paraid": 1,
-            "text": "<ol><li><strong>Why Use Generics:</strong></li></ol>"
+            "text": "<ol><li><strong>Why Use Generics</strong></li></ol>"
           },
           {
             "paraid": 1,
@@ -2751,7 +2851,7 @@
           },
           {
             "paraid": 1,
-            "text": "<ol start=\"2\"><li><strong>Advantages of Generics:</strong></li></ol>"
+            "text": "<ol start=\"2\"><li><strong>Advantages of Generics</strong></li></ol>"
           },
           {
             "paraid": 1,
@@ -2777,15 +2877,15 @@
       },
       {
         "secid": 2,
-        "subtitle": "Creating generic functions and classes",
+        "subtitle": "Creating Generic Functions and Classes",
         "paragraphs": [
           {
             "paraid": 1,
-            "text": "Creating generic functions and classes in TypeScript involves using type parameters to make your code flexible and reusable. Let's explore how to define and use generic functions and classes."
+            "text": "Creating generic functions and classes in TypeScript involves using type parameters to make your code flexible and reusable. Let's explore how to define and use generic functions and classes:"
           },
           {
             "paraid": 1,
-            "text": "<ol><li><strong>Creating a Generic Function:</strong></li></ol>"
+            "text": "<ol><li><strong>Creating a Generic Function</strong></li></ol>"
           },
           {
             "paraid": 1,
@@ -2814,7 +2914,7 @@
           },
           {
             "paraid": 1,
-            "text": "<ol start=\"2\"><li><strong>Creating a Generic Class:</strong></li></ol>"
+            "text": "<ol start=\"2\"><li><strong>Creating a Generic Class</strong></li></ol>"
           },
           {
             "paraid": 1,
@@ -2843,7 +2943,7 @@
           },
           {
             "paraid": 1,
-            "text": "<ol start=\"3\"><li><strong>Using Multiple Type Parameters:</strong></li></ol>"
+            "text": "<ol start=\"3\"><li><strong>Using Multiple Type Parameters</strong></li></ol>"
           },
           {
             "paraid": 1,
@@ -2868,7 +2968,7 @@
           },
           {
             "paraid": 1,
-            "text": "<ol start=\"4\"><li><strong>Explicitly Specifying Types:</strong></li></ol>"
+            "text": "<ol start=\"4\"><li><strong>Explicitly Specifying Types</strong></li></ol>"
           },
           {
             "paraid": 1,
@@ -2899,15 +2999,15 @@
       },
       {
         "secid": 3,
-        "subtitle": "Constraints on generic types",
+        "subtitle": "Constraints on Generic Types",
         "paragraphs": [
           {
             "paraid": 1,
-            "text": "Constraints on generic types in TypeScript allow you to specify requirements that the type parameter must meet. This helps ensure that the generic type is compatible with certain operations or properties. Let's explore how to apply constraints on generic types."
+            "text": "Constraints on generic types in TypeScript allow you to specify requirements that the type parameter must meet. This helps ensure that the generic type is compatible with certain operations or properties. Let's explore how to apply constraints on generic types:"
           },
           {
             "paraid": 1,
-            "text": "<ol><li><strong>Using Constraints:</strong></li></ol>"
+            "text": "<ol><li><strong>Using Constraints</strong></li></ol>"
           },
           {
             "paraid": 1,
@@ -2936,7 +3036,7 @@
           },
           {
             "paraid": 1,
-            "text": "<ol start=\"2\"><li><strong>Using Multiple Constraints:</strong></li></ol>"
+            "text": "<ol start=\"2\"><li><strong>Using Multiple Constraints</strong></li></ol>"
           },
           {
             "paraid": 1,
@@ -2965,7 +3065,7 @@
           },
           {
             "paraid": 1,
-            "text": "<ol start=\"3\"><li><strong>Using Built-in Constraints:</strong></li></ol>"
+            "text": "<ol start=\"3\"><li><strong>Using Built-in Constraints</strong></li></ol>"
           },
           {
             "paraid": 1,
@@ -3002,7 +3102,7 @@
           },
           {
             "paraid": 1,
-            "text": "<ol start=\"4\"><li><strong>Using Class Constraints:</strong></li></ol>"
+            "text": "<ol start=\"4\"><li><strong>Using Class Constraints</strong></li></ol>"
           },
           {
             "paraid": 1,
@@ -3041,7 +3141,7 @@
     "sections": [
       {
         "secid": 1,
-        "subtitle": "Union types and intersection types",
+        "subtitle": "Union Types and Intersection Types",
         "paragraphs": [
           {
             "paraid": 1,
@@ -3049,7 +3149,7 @@
           },
           {
             "paraid": 1,
-            "text": "<ol><li><strong>Union Types:</strong></li></ol>"
+            "text": "<ol><li><strong>Union Types</strong></li></ol>"
           },
           {
             "paraid": 1,
@@ -3078,7 +3178,7 @@
           },
           {
             "paraid": 1,
-            "text": "<ol start=\"2\"><li><strong>Intersection Types:</strong></li></ol>"
+            "text": "<ol start=\"2\"><li><strong>Intersection Types</strong></li></ol>"
           },
           {
             "paraid": 1,
@@ -3107,7 +3207,7 @@
           },
           {
             "paraid": 1,
-            "text": "<ol start=\"3\"><li><strong>Using Union and Intersection Together:</strong></li></ol>"
+            "text": "<ol start=\"3\"><li><strong>Using Union and Intersection Together</strong></li></ol>"
           },
           {
             "paraid": 1,
@@ -3136,7 +3236,7 @@
           },
           {
             "paraid": 1,
-            "text": "<ol start=\"4\"><li><strong>Key Takeaways:</strong></li></ol>"
+            "text": "<ol start=\"4\"><li><strong>Key Points</strong></li></ol>"
           },
           {
             "paraid": 1,
@@ -3162,15 +3262,15 @@
       },
       {
         "secid": 2,
-        "subtitle": "Type guards and type predicates",
+        "subtitle": "Type Guards and Type Predicates",
         "paragraphs": [
           {
             "paraid": 1,
-            "text": "Type guards and type predicates are powerful concepts in TypeScript that allow you to narrow down the type of a value within specific code blocks. They help you write more precise and type-safe code when dealing with complex type scenarios. Let's explore type guards and type predicates."
+            "text": "Type guards and type predicates are powerful concepts in TypeScript that allow you to narrow down the type of a value within specific code blocks. They help you write more precise and type-safe code when dealing with complex type scenarios. Let's explore type guards and type predicates:"
           },
           {
             "paraid": 1,
-            "text": "<ol><li><strong>Type Guards:</strong></li></ol>"
+            "text": "<ol><li><strong>Type Guards</strong></li></ol>"
           },
           {
             "paraid": 1,
@@ -3204,7 +3304,7 @@
           },
           {
             "paraid": 1,
-            "text": "<ol start=\"2\"><li><strong>Type Predicates:</strong></li></ol>"
+            "text": "<ol start=\"2\"><li><strong>Type Predicates</strong></li></ol>"
           },
           {
             "paraid": 1,
@@ -3234,7 +3334,7 @@
           },
           {
             "paraid": 1,
-            "text": "<ol start=\"3\"><li><strong>In Operator:</strong></li></ol>"
+            "text": "<ol start=\"3\"><li><strong>In Operator</strong></li></ol>"
           },
           {
             "paraid": 1,
@@ -3260,7 +3360,7 @@
           },
           {
             "paraid": 1,
-            "text": "<ol start=\"4\"><li><strong>Key Takeaways:</strong></li></ol>"
+            "text": "<ol start=\"4\"><li><strong>Key Points</strong></li></ol>"
           },
           {
             "paraid": 1,
@@ -3286,7 +3386,7 @@
       },
       {
         "secid": 3,
-        "subtitle": "Conditional types",
+        "subtitle": "Conditional Types",
         "paragraphs": [
           {
             "paraid": 1,
@@ -3294,11 +3394,11 @@
           },
           {
             "paraid": 1,
-            "text": "Here's an overview of how conditional types work."
+            "text": "Here's an overview of how conditional types work:"
           },
           {
             "paraid": 1,
-            "text": "<ol><li><strong>Basic Syntax:</strong></li></ol>"
+            "text": "<ol><li><strong>Basic Syntax</strong></li></ol>"
           },
           {
             "paraid": 1,
@@ -3327,7 +3427,7 @@
           },
           {
             "paraid": 1,
-            "text": "<ol start=\"2\"><li><strong>Extract and Exclude:</strong></li></ol>"
+            "text": "<ol start=\"2\"><li><strong>Extract and Exclude</strong></li></ol>"
           },
           {
             "paraid": 1,
@@ -3356,11 +3456,11 @@
           },
           {
             "paraid": 1,
-            "text": "<ol start=\"3\"><li><strong>Distributive Conditional Types:</strong></li></ol>"
+            "text": "<ol start=\"3\"><li><strong>Distributive Conditional Types</strong></li></ol>"
           },
           {
             "paraid": 1,
-            "text": "<ul>Conditional types can distribute over union types. When applied to a union type, a conditional type is applied to each constituent type, and the result is a new union type.</ul>"
+            "text": "<ul>Conditional types can distribute over union types. When applied to a union type, a conditional type is applied to each constituent type, and the result is a new union type:</ul>"
           },
           {
             "paraid": 4,
@@ -3381,7 +3481,7 @@
           },
           {
             "paraid": 1,
-            "text": "<ol start=\"4\"><li><strong>Key Takeaways:</strong></li></ol>"
+            "text": "<ol start=\"4\"><li><strong>Key Points</strong></li></ol>"
           },
           {
             "paraid": 1,
@@ -3407,15 +3507,15 @@
       },
       {
         "secid": 4,
-        "subtitle": "Mapped types",
+        "subtitle": "Mapped Types",
         "paragraphs": [
           {
             "paraid": 1,
-            "text": "Mapped types in TypeScript are a powerful feature that allow you to transform and manipulate the properties of an existing type to create a new type. They provide a way to generate new types based on the properties of an existing type by applying transformations uniformly across those properties. Mapped types are particularly useful when you need to create variations of types without duplicating code. Let's explore how mapped types work."
+            "text": "Mapped types in TypeScript are a powerful feature that allow you to transform and manipulate the properties of an existing type to create a new type. They provide a way to generate new types based on the properties of an existing type by applying transformations uniformly across those properties. Mapped types are particularly useful when you need to create variations of types without duplicating code. Let's explore how mapped types work:"
           },
           {
             "paraid": 1,
-            "text": "<ol><li><strong>Basic Mapped Type:</strong></li></ol>"
+            "text": "<ol><li><strong>Basic Mapped Type</strong></li></ol>"
           },
           {
             "paraid": 1,
@@ -3444,7 +3544,7 @@
           },
           {
             "paraid": 1,
-            "text": "<ol start=\"2\"><li><strong>Creating Mapped Types:</strong></li></ol>"
+            "text": "<ol start=\"2\"><li><strong>Creating Mapped Types</strong></li></ol>"
           },
           {
             "paraid": 1,
@@ -3473,7 +3573,7 @@
           },
           {
             "paraid": 1,
-            "text": "<ol start=\"3\"><li><strong>Mapping with Conditions:</strong></li></ol>"
+            "text": "<ol start=\"3\"><li><strong>Mapping with Conditions</strong></li></ol>"
           },
           {
             "paraid": 1,
@@ -3502,7 +3602,7 @@
           },
           {
             "paraid": 1,
-            "text": "<ol start=\"4\"><li><strong>Using Mapped Types:</strong></li></ol>"
+            "text": "<ol start=\"4\"><li><strong>Using Mapped Types</strong></li></ol>"
           },
           {
             "paraid": 1,
@@ -3531,7 +3631,7 @@
           },
           {
             "paraid": 1,
-            "text": "<ol start=\"5\"><li><strong>Inference with Mapped Types:</strong></li></ol>"
+            "text": "<ol start=\"5\"><li><strong>Inference with Mapped Types</strong></li></ol>"
           },
           {
             "paraid": 1,
@@ -3573,7 +3673,7 @@
     "sections": [
       {
         "secid": 1,
-        "subtitle": "Understanding decorators and their applications",
+        "subtitle": "Understanding Decorators and Their Applications",
         "paragraphs": [
           {
             "paraid": 1,
@@ -3581,7 +3681,7 @@
           },
           {
             "paraid": 1,
-            "text": "<ol><li><strong>Using Decorators:</strong></li></ol>"
+            "text": "<ol><li><strong>Using Decorators</strong></li></ol>"
           },
           {
             "paraid": 1,
@@ -3611,7 +3711,7 @@
           },
           {
             "paraid": 1,
-            "text": "<ol start=\"2\"><li><strong>Common Applications:</strong></li></ol>"
+            "text": "<ol start=\"2\"><li><strong>Common Applications</strong></li></ol>"
           },
           {
             "paraid": 1,
@@ -3631,7 +3731,7 @@
           },
           {
             "paraid": 1,
-            "text": "<ol start=\"3\"><li><strong>Using Decorators with Frameworks:</strong></li></ol>"
+            "text": "<ol start=\"3\"><li><strong>Using Decorators with Frameworks</strong></li></ol>"
           },
           {
             "paraid": 1,
@@ -3639,7 +3739,7 @@
           },
           {
             "paraid": 1,
-            "text": "<ol start=\"4\"><li><strong>Key Considerations:</strong></li></ol>"
+            "text": "<ol start=\"4\"><li><strong>Key Considerations</strong></li></ol>"
           },
           {
             "paraid": 1,
@@ -3665,15 +3765,15 @@
       },
       {
         "secid": 2,
-        "subtitle": "Implementing custom decorators",
+        "subtitle": "Implementing Custom Decorators",
         "paragraphs": [
           {
             "paraid": 1,
-            "text": "Implementing custom decorators in TypeScript involves creating functions that modify the behavior of classes, methods, properties, or parameters. Custom decorators provide a way to extend the functionality of your codebase while keeping it organized and maintainable. Let's walk through the process of implementing custom decorators with some examples."
+            "text": "Implementing custom decorators in TypeScript involves creating functions that modify the behavior of classes, methods, properties, or parameters. Custom decorators provide a way to extend the functionality of your codebase while keeping it organized and maintainable. Let's walk through the process of implementing custom decorators with some examples:"
           },
           {
             "paraid": 1,
-            "text": "<ol><li><strong>Class Decorator:</strong></li></ol>"
+            "text": "<ol><li><strong>Class Decorator</strong></li></ol>"
           },
           {
             "paraid": 1,
@@ -3703,7 +3803,7 @@
           },
           {
             "paraid": 1,
-            "text": "<ol start=\"2\"><li><strong>Method Decorator:</strong></li></ol>"
+            "text": "<ol start=\"2\"><li><strong>Method Decorator</strong></li></ol>"
           },
           {
             "paraid": 1,
@@ -3733,7 +3833,7 @@
           },
           {
             "paraid": 1,
-            "text": "<ol start=\"3\"><li><strong>Property Decorator:</strong></li></ol>"
+            "text": "<ol start=\"3\"><li><strong>Property Decorator</strong></li></ol>"
           },
           {
             "paraid": 1,
@@ -3763,7 +3863,7 @@
           },
           {
             "paraid": 1,
-            "text": "<ol start=\"4\"><li><strong>Parameter Decorator:</strong></li></ol>"
+            "text": "<ol start=\"4\"><li><strong>Parameter Decorator</strong></li></ol>"
           },
           {
             "paraid": 1,
@@ -3806,15 +3906,15 @@
     "sections": [
       {
         "secid": 1,
-        "subtitle": "Organizing code with modules",
+        "subtitle": "Organizing Code with Modules",
         "paragraphs": [
           {
             "paraid": 1,
-            "text": "Organizing code with modules in TypeScript allows you to create structured and modular codebases by encapsulating functionality into separate files, namespaces, or external libraries. Modules help improve code readability, maintainability, and reusability by dividing your code into logical units of functionality. Here's how you can organize your code using modules in TypeScript."
+            "text": "Organizing code with modules in TypeScript allows you to create structured and modular codebases by encapsulating functionality into separate files, namespaces, or external libraries. Modules help improve code readability, maintainability, and reusability by dividing your code into logical units of functionality. Here's how you can organize your code using modules in TypeScript:"
           },
           {
             "paraid": 1,
-            "text": "<ol><li><strong>Named Exports:</strong></li></ol>"
+            "text": "<ol><li><strong>Named Exports</strong></li></ol>"
           },
           {
             "paraid": 1,
@@ -3839,7 +3939,7 @@
           },
           {
             "paraid": 1,
-            "text": "<ol start=\"2\"><li><strong>Default Exports:</strong></li></ol>"
+            "text": "<ol start=\"2\"><li><strong>Default Exports</strong></li></ol>"
           },
           {
             "paraid": 1,
@@ -3864,7 +3964,7 @@
           },
           {
             "paraid": 1,
-            "text": "<ol start=\"3\"><li><strong>Exporting Types:</strong></li></ol>"
+            "text": "<ol start=\"3\"><li><strong>Exporting Types</strong></li></ol>"
           },
           {
             "paraid": 1,
@@ -3889,7 +3989,7 @@
           },
           {
             "paraid": 1,
-            "text": "<ol start=\"4\"><li><strong>Re-Exporting:</strong></li></ol>"
+            "text": "<ol start=\"4\"><li><strong>Re-Exporting</strong></li></ol>"
           },
           {
             "paraid": 1,
@@ -3914,7 +4014,7 @@
           },
           {
             "paraid": 1,
-            "text": "<ol start=\"5\"><li><strong>Named Imports:</strong></li></ol>"
+            "text": "<ol start=\"5\"><li><strong>Named Imports</strong></li></ol>"
           },
           {
             "paraid": 1,
@@ -3939,7 +4039,7 @@
           },
           {
             "paraid": 1,
-            "text": "<ol start=\"6\"><li><strong>Default Imports:</strong></li></ol>"
+            "text": "<ol start=\"6\"><li><strong>Default Imports</strong></li></ol>"
           },
           {
             "paraid": 1,
@@ -3964,7 +4064,7 @@
           },
           {
             "paraid": 1,
-            "text": "<ol start=\"7\"><li><strong>Alias Imports:</strong></li></ol>"
+            "text": "<ol start=\"7\"><li><strong>Alias Imports</strong></li></ol>"
           },
           {
             "paraid": 1,
@@ -3989,7 +4089,7 @@
           },
           {
             "paraid": 1,
-            "text": "<ol start=\"8\"><li><strong>Importing Types:</strong></li></ol>"
+            "text": "<ol start=\"8\"><li><strong>Importing Types</strong></li></ol>"
           },
           {
             "paraid": 1,
@@ -4014,7 +4114,7 @@
           },
           {
             "paraid": 1,
-            "text": "<ol start=\"9\"><li><strong>Importing All Elements:</strong></li></ol>"
+            "text": "<ol start=\"9\"><li><strong>Importing All Elements</strong></li></ol>"
           },
           {
             "paraid": 1,
@@ -4039,7 +4139,7 @@
           },
           {
             "paraid": 1,
-            "text": "<ol start=\"10\"><li><strong>Importing External Modules:</strong></li></ol>"
+            "text": "<ol start=\"10\"><li><strong>Importing External Modules</strong></li></ol>"
           },
           {
             "paraid": 1,
@@ -4064,7 +4164,7 @@
           },
           {
             "paraid": 1,
-            "text": "<ol start=\"11\"><li><strong>Key Benefits of Modules:</strong></li></ol>"
+            "text": "<ol start=\"11\"><li><strong>Key Benefits of Modules</strong></li></ol>"
           },
           {
             "paraid": 1,
@@ -4090,15 +4190,15 @@
       },
       {
         "secid": 2,
-        "subtitle": "Using namespaces for encapsulation",
+        "subtitle": "Using Namespaces for Encapsulation",
         "paragraphs": [
           {
             "paraid": 1,
-            "text": "Namespaces in TypeScript provide a way to organize and encapsulate code into logical containers to avoid naming conflicts and keep related functionality together. Namespaces help improve code organization, maintainability, and readability by grouping related code into separate namespaces. Here's how you can use namespaces for encapsulation."
+            "text": "Namespaces in TypeScript provide a way to organize and encapsulate code into logical containers to avoid naming conflicts and keep related functionality together. Namespaces help improve code organization, maintainability, and readability by grouping related code into separate namespaces. Here's how you can use namespaces for encapsulation:"
           },
           {
             "paraid": 1,
-            "text": "<ol><li><strong>Defining a Namespace:</strong></li></ol>"
+            "text": "<ol><li><strong>Defining a Namespace</strong></li></ol>"
           },
           {
             "paraid": 1,
@@ -4131,7 +4231,7 @@
           },
           {
             "paraid": 1,
-            "text": "<ol start=\"2\"><li><strong>Using Namespaced Members:</strong></li></ol>"
+            "text": "<ol start=\"2\"><li><strong>Using Namespaced Members</strong></li></ol>"
           },
           {
             "paraid": 1,
@@ -4164,7 +4264,7 @@
           },
           {
             "paraid": 1,
-            "text": "<ol start=\"3\"><li><strong>Nested Namespaces:</strong></li></ol>"
+            "text": "<ol start=\"3\"><li><strong>Nested Namespaces</strong></li></ol>"
           },
           {
             "paraid": 1,
@@ -4193,7 +4293,7 @@
           },
           {
             "paraid": 1,
-            "text": "<ol start=\"4\"><li><strong>Using Global Objects with Namespaces:</strong></li></ol>"
+            "text": "<ol start=\"4\"><li><strong>Using Global Objects with Namespaces</strong></li></ol>"
           },
           {
             "paraid": 1,
@@ -4201,7 +4301,7 @@
           },
           {
             "paraid": 1,
-            "text": "<ol start=\"5\"><li><strong>Limitations and Considerations:</strong></li></ol>"
+            "text": "<ol start=\"5\"><li><strong>Limitations and Considerations</strong></li></ol>"
           },
           {
             "paraid": 1,
@@ -4230,19 +4330,19 @@
     "sections": [
       {
         "secid": 1,
-        "subtitle": "Debugging TypeScript code",
+        "subtitle": "Debugging TypeScript Code",
         "paragraphs": [
           {
             "paraid": 1,
-            "text": "Debugging TypeScript code is an important skill to ensure your applications work as expected. TypeScript offers a range of debugging techniques that you can use in conjunction with popular development tools and browsers to identify and fix issues in your code. Here's how to debug TypeScript code effectively."
+            "text": "Debugging TypeScript code is an important skill to ensure your applications work as expected. TypeScript offers a range of debugging techniques that you can use in conjunction with popular development tools and browsers to identify and fix issues in your code. Here's how to debug TypeScript code effectively:"
           },
           {
             "paraid": 1,
-            "text": "<ol><li><strong>Using Browser DevTools:</strong></li></ol>"
+            "text": "<ol><li><strong>Using Browser DevTools</strong></li></ol>"
           },
           {
             "paraid": 1,
-            "text": "<ul>Modern web browsers provide powerful developer tools that allow you to debug both TypeScript and JavaScript code running in the browser.</ul>"
+            "text": "<ul>Modern web browsers provide powerful developer tools that allow you to debug both TypeScript and JavaScript code running in the browser:</ul>"
           },
           {
             "paraid": 1,
@@ -4258,11 +4358,11 @@
           },
           {
             "paraid": 1,
-            "text": "<ol start=\"2\"><li><strong>Using Node.js Debugger:</strong></li></ol>"
+            "text": "<ol start=\"2\"><li><strong>Using Node.js Debugger</strong></li></ol>"
           },
           {
             "paraid": 1,
-            "text": "<ul>If you're running TypeScript code in a Node.js environment, you can debug using the Node.js debugger along with the `<code>--inspect</code>` flag.</ul>"
+            "text": "<ul>If you're running TypeScript code in a Node.js environment, you can debug using the Node.js debugger along with the `<code>--inspect</code>` flag:</ul>"
           },
           {
             "paraid": 4,
@@ -4287,11 +4387,11 @@
           },
           {
             "paraid": 1,
-            "text": "<ol start=\"3\"><li><strong>Debugging in IDEs:</strong></li></ol>"
+            "text": "<ol start=\"3\"><li><strong>Debugging in IDEs</strong></li></ol>"
           },
           {
             "paraid": 1,
-            "text": "<ul>Integrated development environments (IDEs) like Visual Studio Code (VS Code) offer excellent support for TypeScript debugging.</ul>"
+            "text": "<ul>Integrated development environments (IDEs) like Visual Studio Code (VS Code) offer excellent support for TypeScript debugging:</ul>"
           },
           {
             "paraid": 1,
@@ -4307,7 +4407,7 @@
           },
           {
             "paraid": 1,
-            "text": "<ol start=\"4\"><li><strong>Console Logging:</strong></li></ol>"
+            "text": "<ol start=\"4\"><li><strong>Console Logging</strong></li></ol>"
           },
           {
             "paraid": 1,
@@ -4315,11 +4415,11 @@
           },
           {
             "paraid": 1,
-            "text": "<ol start=\"5\"><li><strong>Source Maps:</strong></li></ol>"
+            "text": "<ol start=\"5\"><li><strong>Source Maps</strong></li></ol>"
           },
           {
             "paraid": 1,
-            "text": "<ul>Source maps generated by TypeScript allow you to debug your TypeScript code directly in the browser, even if it was compiled to JavaScript. Ensure you have source maps enabled in your TypeScript configuration.</ul>"
+            "text": "<ul>Source maps generated by TypeScript allow you to debug your TypeScript code directly in the browser, even if it was compiled to JavaScript. Ensure you have source maps enabled in your TypeScript configuration:</ul>"
           },
           {
             "paraid": 4,
@@ -4340,7 +4440,7 @@
           },
           {
             "paraid": 1,
-            "text": "<ol start=\"6\"><li><strong>Debugging Third-Party Code:</strong></li></ol>"
+            "text": "<ol start=\"6\"><li><strong>Debugging Third-Party Code</strong></li></ol>"
           },
           {
             "paraid": 1,
@@ -4354,7 +4454,7 @@
       },
       {
         "secid": 2,
-        "subtitle": "Overview of popular TypeScript tools and IDEs",
+        "subtitle": "Overview of Popular TypeScript Tools and IDEs",
         "paragraphs": [
           {
             "paraid": 1,
@@ -4362,7 +4462,7 @@
           },
           {
             "paraid": 1,
-            "text": "<ol><li><strong>Visual Studio Code (VS Code):</strong></li></ol>"
+            "text": "<ol><li><strong>Visual Studio Code (VS Code)</strong></li></ol>"
           },
           {
             "paraid": 1,
@@ -4370,7 +4470,7 @@
           },
           {
             "paraid": 1,
-            "text": "<ol start=\"2\"><li><strong>WebStorm:</strong></li></ol>"
+            "text": "<ol start=\"2\"><li><strong>WebStorm</strong></li></ol>"
           },
           {
             "paraid": 1,
@@ -4378,7 +4478,7 @@
           },
           {
             "paraid": 1,
-            "text": "<ol start=\"3\"><li><strong>Sublime Text:</strong></li></ol>"
+            "text": "<ol start=\"3\"><li><strong>Sublime Text</strong></li></ol>"
           },
           {
             "paraid": 1,
@@ -4386,7 +4486,7 @@
           },
           {
             "paraid": 1,
-            "text": "<ol start=\"4\"><li><strong>TypeScript Playground:</strong></li></ol>"
+            "text": "<ol start=\"4\"><li><strong>TypeScript Playground</strong></li></ol>"
           },
           {
             "paraid": 1,
@@ -4394,7 +4494,7 @@
           },
           {
             "paraid": 1,
-            "text": "<ol start=\"5\"><li><strong>TypeScript Language Service:</strong></li></ol>"
+            "text": "<ol start=\"5\"><li><strong>TypeScript Language Service</strong></li></ol>"
           },
           {
             "paraid": 1,
@@ -4402,7 +4502,7 @@
           },
           {
             "paraid": 1,
-            "text": "<ol start=\"6\"><li><strong>ts-node:</strong></li></ol>"
+            "text": "<ol start=\"6\"><li><strong>ts-node</strong></li></ol>"
           },
           {
             "paraid": 1,
@@ -4410,7 +4510,7 @@
           },
           {
             "paraid": 1,
-            "text": "<ol start=\"7\"><li><strong>TSLint and ESLint:</strong></li></ol>"
+            "text": "<ol start=\"7\"><li><strong>TSLint and ESLint</strong></li></ol>"
           },
           {
             "paraid": 1,
@@ -4418,7 +4518,7 @@
           },
           {
             "paraid": 1,
-            "text": "<ol start=\"8\"><li><strong>Jest and Testing Libraries:</strong></li></ol>"
+            "text": "<ol start=\"8\"><li><strong>Jest and Testing Libraries</strong></li></ol>"
           },
           {
             "paraid": 1,
@@ -4426,7 +4526,7 @@
           },
           {
             "paraid": 1,
-            "text": "<ol start=\"9\"><li><strong>Parcel and Webpack:</strong></li></ol>"
+            "text": "<ol start=\"9\"><li><strong>Parcel and Webpack</strong></li></ol>"
           },
           {
             "paraid": 1,
@@ -4447,15 +4547,15 @@
     "sections": [
       {
         "secid": 1,
-        "subtitle": "TypeScript coding standards",
+        "subtitle": "TypeScript Coding Standards",
         "paragraphs": [
           {
             "paraid": 1,
-            "text": "TypeScript coding standards are a set of guidelines and best practices that help maintain consistency, readability, and maintainability in your TypeScript codebase. Following these standards makes your code more understandable for you and your team, and it reduces the likelihood of introducing bugs or errors. While coding standards can vary based on your team's preferences and the nature of your project, here are some common TypeScript coding standards to consider."
+            "text": "TypeScript coding standards are a set of guidelines and best practices that help maintain consistency, readability, and maintainability in your TypeScript codebase. Following these standards makes your code more understandable for you and your team, and it reduces the likelihood of introducing bugs or errors. While coding standards can vary based on your team's preferences and the nature of your project, here are some common TypeScript coding standards to consider:"
           },
           {
             "paraid": 1,
-            "text": "<ol><li><strong>Naming Conventions:</strong></li></ol>"
+            "text": "<ol><li><strong>Naming Conventions</strong></li></ol>"
           },
           {
             "paraid": 1,
@@ -4471,7 +4571,7 @@
           },
           {
             "paraid": 1,
-            "text": "<ol start=\"2\"><li><strong>Type Annotations:</strong></li></ol>"
+            "text": "<ol start=\"2\"><li><strong>Type Annotations</strong></li></ol>"
           },
           {
             "paraid": 1,
@@ -4483,7 +4583,7 @@
           },
           {
             "paraid": 1,
-            "text": "<ol start=\"3\"><li><strong>Code Formatting:</strong></li></ol>"
+            "text": "<ol start=\"3\"><li><strong>Code Formatting</strong></li></ol>"
           },
           {
             "paraid": 1,
@@ -4499,7 +4599,7 @@
           },
           {
             "paraid": 1,
-            "text": "<ol start=\"4\"><li><strong>nterface and Type Declarations:</strong></li></ol>"
+            "text": "<ol start=\"4\"><li><strong>nterface and Type Declarations</strong></li></ol>"
           },
           {
             "paraid": 1,
@@ -4515,7 +4615,7 @@
           },
           {
             "paraid": 1,
-            "text": "<ol start=\"5\"><li><strong>Function Declarations:</strong></li></ol>"
+            "text": "<ol start=\"5\"><li><strong>Function Declarations</strong></li></ol>"
           },
           {
             "paraid": 1,
@@ -4527,7 +4627,7 @@
           },
           {
             "paraid": 1,
-            "text": "<ol start=\"6\"><li><strong>Imports and Exports:</strong></li></ol>"
+            "text": "<ol start=\"6\"><li><strong>Imports and Exports</strong></li></ol>"
           },
           {
             "paraid": 1,
@@ -4539,7 +4639,7 @@
           },
           {
             "paraid": 1,
-            "text": "<ol start=\"7\"><li><strong>Avoid Any:</strong></li></ol>"
+            "text": "<ol start=\"7\"><li><strong>Avoid Any</strong></li></ol>"
           },
           {
             "paraid": 1,
@@ -4551,7 +4651,7 @@
           },
           {
             "paraid": 1,
-            "text": "<ol start=\"8\"><li><strong>Avoid Implicit Any:</strong></li></ol>"
+            "text": "<ol start=\"8\"><li><strong>Avoid Implicit Any</strong></li></ol>"
           },
           {
             "paraid": 1,
@@ -4563,7 +4663,7 @@
           },
           {
             "paraid": 1,
-            "text": "<ol start=\"9\"><li><strong>Null and Undefined:</strong></li></ol>"
+            "text": "<ol start=\"9\"><li><strong>Null and Undefined</strong></li></ol>"
           },
           {
             "paraid": 1,
@@ -4575,7 +4675,7 @@
           },
           {
             "paraid": 1,
-            "text": "<ol start=\"10\"><li><strong>Enums:</strong></li></ol>"
+            "text": "<ol start=\"10\"><li><strong>Enums</strong></li></ol>"
           },
           {
             "paraid": 1,
@@ -4587,7 +4687,7 @@
           },
           {
             "paraid": 1,
-            "text": "<ol start=\"11\"><li><strong>Comments and Documentation:</strong></li></ol>"
+            "text": "<ol start=\"11\"><li><strong>Comments and Documentation</strong></li></ol>"
           },
           {
             "paraid": 1,
@@ -4599,7 +4699,7 @@
           },
           {
             "paraid": 1,
-            "text": "<ol start=\"12\"><li><strong>Error Handling:</strong></li></ol>"
+            "text": "<ol start=\"12\"><li><strong>Error Handling</strong></li></ol>"
           },
           {
             "paraid": 1,
@@ -4611,7 +4711,7 @@
           },
           {
             "paraid": 1,
-            "text": "<ol start=\"13\"><li><strong>Testing and Debugging:</strong></li></ol>"
+            "text": "<ol start=\"13\"><li><strong>Testing and Debugging</strong></li></ol>"
           },
           {
             "paraid": 1,
@@ -4623,7 +4723,7 @@
           },
           {
             "paraid": 1,
-            "text": "<ol start=\"14\"><li><strong>Code Reviews:</strong></li></ol>"
+            "text": "<ol start=\"14\"><li><strong>Code Reviews</strong></li></ol>"
           },
           {
             "paraid": 1,
@@ -4641,15 +4741,15 @@
       },
       {
         "secid": 2,
-        "subtitle": "Common pitfalls to avoid",
+        "subtitle": "Common Pitfalls to Avoid",
         "paragraphs": [
           {
             "paraid": 1,
-            "text": "When working with TypeScript, there are several common pitfalls and mistakes that developers should be aware of to write clean, maintainable, and error-free code. Here are some common pitfalls to avoid."
+            "text": "When working with TypeScript, there are several common pitfalls and mistakes that developers should be aware of to write clean, maintainable, and error-free code. Here are some common pitfalls to avoid:"
           },
           {
             "paraid": 1,
-            "text": "<ol><li><strong>Not Using Strict Mode:</strong></li></ol>"
+            "text": "<ol><li><strong>Not Using Strict Mode</strong></li></ol>"
           },
           {
             "paraid": 1,
@@ -4657,7 +4757,7 @@
           },
           {
             "paraid": 1,
-            "text": "<ol start=\"2\"><li><strong>Neglecting Type Annotations:</strong></li></ol>"
+            "text": "<ol start=\"2\"><li><strong>Neglecting Type Annotations</strong></li></ol>"
           },
           {
             "paraid": 1,
@@ -4665,7 +4765,7 @@
           },
           {
             "paraid": 1,
-            "text": "<ol start=\"3\"><li><strong>Overusing `<code>any</code>`:</strong></li></ol>"
+            "text": "<ol start=\"3\"><li><strong>Overusing `<code>any</code>`</strong></li></ol>"
           },
           {
             "paraid": 1,
@@ -4673,7 +4773,7 @@
           },
           {
             "paraid": 1,
-            "text": "<ol start=\"4\"><li><strong>Ignoring Null and Undefined:</strong></li></ol>"
+            "text": "<ol start=\"4\"><li><strong>Ignoring Null and Undefined</strong></li></ol>"
           },
           {
             "paraid": 1,
@@ -4681,7 +4781,7 @@
           },
           {
             "paraid": 1,
-            "text": "<ol start=\"5\"><li><strong>Not Handling Promises Correctly:</strong></li></ol>"
+            "text": "<ol start=\"5\"><li><strong>Not Handling Promises Correctly</strong></li></ol>"
           },
           {
             "paraid": 1,
@@ -4689,7 +4789,7 @@
           },
           {
             "paraid": 1,
-            "text": "<ol start=\"6\"><li><strong>Not Using Non-Null Assertions Wisely:</strong></li></ol>"
+            "text": "<ol start=\"6\"><li><strong>Not Using Non-Null Assertions Wisely</strong></li></ol>"
           },
           {
             "paraid": 1,
@@ -4697,7 +4797,7 @@
           },
           {
             "paraid": 1,
-            "text": "<ol start=\"7\"><li><strong>Not Updating Type Definitions:</strong></li></ol>"
+            "text": "<ol start=\"7\"><li><strong>Not Updating Type Definitions</strong></li></ol>"
           },
           {
             "paraid": 1,
@@ -4705,7 +4805,7 @@
           },
           {
             "paraid": 1,
-            "text": "<ol start=\"8\"><li><strong>Using Object as a Type:</strong></li></ol>"
+            "text": "<ol start=\"8\"><li><strong>Using Object as a Type</strong></li></ol>"
           },
           {
             "paraid": 1,
@@ -4713,7 +4813,7 @@
           },
           {
             "paraid": 1,
-            "text": "<ol start=\"9\"><li><strong>Failing to Consider Enums:</strong></li></ol>"
+            "text": "<ol start=\"9\"><li><strong>Failing to Consider Enums</strong></li></ol>"
           },
           {
             "paraid": 1,
@@ -4721,7 +4821,7 @@
           },
           {
             "paraid": 1,
-            "text": "<ol start=\"10\"><li><strong>Ignoring Strict Mode Checks:</strong></li></ol>"
+            "text": "<ol start=\"10\"><li><strong>Ignoring Strict Mode Checks</strong></li></ol>"
           },
           {
             "paraid": 1,
@@ -4729,7 +4829,7 @@
           },
           {
             "paraid": 1,
-            "text": "<ol start=\"11\"><li><strong>Using `<code>undefined</code>` as a Value:</strong></li></ol>"
+            "text": "<ol start=\"11\"><li><strong>Using `<code>undefined</code>` as a Value</strong></li></ol>"
           },
           {
             "paraid": 1,
@@ -4737,7 +4837,7 @@
           },
           {
             "paraid": 1,
-            "text": "<ol start=\"12\"><li><strong>Neglecting Type Inference:</strong></li></ol>"
+            "text": "<ol start=\"12\"><li><strong>Neglecting Type Inference</strong></li></ol>"
           },
           {
             "paraid": 1,
@@ -4745,7 +4845,7 @@
           },
           {
             "paraid": 1,
-            "text": "<ol start=\"13\"><li><strong>Not Handling Unions and Intersection Types:</strong></li></ol>"
+            "text": "<ol start=\"13\"><li><strong>Not Handling Unions and Intersection Types</strong></li></ol>"
           },
           {
             "paraid": 1,
@@ -4753,7 +4853,7 @@
           },
           {
             "paraid": 1,
-            "text": "<ol start=\"14\"><li><strong>Incorrectly Using `<code>this</code>` Context:</strong></li></ol>"
+            "text": "<ol start=\"14\"><li><strong>Incorrectly Using `<code>this</code>` Context</strong></li></ol>"
           },
           {
             "paraid": 1,
@@ -4761,7 +4861,7 @@
           },
           {
             "paraid": 1,
-            "text": "<ol start=\"15\"><li><strong>Not Using Code Analysis Tools:</strong></li></ol>"
+            "text": "<ol start=\"15\"><li><strong>Not Using Code Analysis Tools</strong></li></ol>"
           },
           {
             "paraid": 1,
@@ -4769,7 +4869,7 @@
           },
           {
             "paraid": 1,
-            "text": "<ol start=\"16\"><li><strong>Overengineering with Generics:</strong></li></ol>"
+            "text": "<ol start=\"16\"><li><strong>Overengineering with Generics</strong></li></ol>"
           },
           {
             "paraid": 1,
@@ -4777,7 +4877,7 @@
           },
           {
             "paraid": 1,
-            "text": "<ol start=\"17\"><li><strong>Failing to Test Types:</strong></li></ol>"
+            "text": "<ol start=\"17\"><li><strong>Failing to Test Types</strong></li></ol>"
           },
           {
             "paraid": 1,
@@ -4785,7 +4885,7 @@
           },
           {
             "paraid": 1,
-            "text": "<ol start=\"18\"><li><strong>Overlooking Error Handling:</strong></li></ol>"
+            "text": "<ol start=\"18\"><li><strong>Overlooking Error Handling</strong></li></ol>"
           },
           {
             "paraid": 1,
