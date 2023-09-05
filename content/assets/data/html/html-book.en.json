@@ -584,7 +584,7 @@
           },
           {
             "paraid": 1,
-            "text": "<ul>This meta tag is used to control the viewport size of the web page. The width=device-width part sets the width of the viewport to the width of the device, while the initial-scale=1.0 part sets the initial zoom level to 100%.</ul>"
+            "text": "<ul>This meta tag is used to control the viewport size of the web page. The `<code>width=device-width</code>` part sets the width of the viewport to the width of the device, while the `<code>initial-scale=1.0</code>` part sets the initial zoom level to 100%.</ul>"
           },
           {
             "paraid": 2,
