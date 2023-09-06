@@ -159,10 +159,17 @@
             "text": "In summary, CSS is a fundamental component of web development that enables the separation of concerns, provides consistent styling, facilitates responsive design, simplifies maintenance, improves browser compatibility, and enhances the overall user experience."
           }
         ]
-      },
+      }
+    ]
+  },
+  {
+    "category": "css",
+    "chid": 2,
+    "title": "CSS Basics",
+    "sections": [
       {
-        "secid": 3,
-        "subtitle": "CSS Syntax and Structure",
+        "secid": 1,
+        "subtitle": "Syntax and Structure",
         "paragraphs": [
           {
             "paraid": 1,
@@ -192,7 +199,7 @@
             "paraid": 5,
             "text": "",
             "codeConfig": {
-              "codeid": "css_1_3_1",
+              "codeid": "css_2_1_1",
               "exampleid": "",
               "codeOutput": false,
               "exampleOutput": false,
@@ -217,7 +224,7 @@
             "paraid": 7,
             "text": "",
             "codeConfig": {
-              "codeid": "css_1_3_2",
+              "codeid": "css_2_1_2",
               "exampleid": "",
               "codeOutput": false,
               "exampleOutput": false,
@@ -242,7 +249,7 @@
             "paraid": 9,
             "text": "",
             "codeConfig": {
-              "codeid": "css_1_3_3",
+              "codeid": "css_2_1_3",
               "exampleid": "",
               "codeOutput": false,
               "exampleOutput": false,
@@ -279,7 +286,7 @@
             "paraid": 13,
             "text": "",
             "codeConfig": {
-              "codeid": "css_1_3_4",
+              "codeid": "css_2_1_4",
               "exampleid": "",
               "codeOutput": false,
               "exampleOutput": false,
@@ -299,8 +306,394 @@
         ]
       },
       {
+        "secid": 2,
+        "subtitle": "Units",
+        "paragraphs": [
+          {
+            "paraid": 1,
+            "text": "In CSS, units are used to specify the size of various properties like width, height, font size, margins, and so on. Understanding the various types of units and when to use them is crucial for effective styling. Here are the main types of units in CSS:"
+          },
+          {
+            "paraid": 1,
+            "text": "<ol><li><strong>Absolute Units</strong></li></ol>"
+          },
+          {
+            "paraid": 1,
+            "text": "<ul>These are fixed-size units and are not dependent on the size of the parent or viewport.</ul>"
+          },
+          {
+            "paraid": 1,
+            "text": "<ul><ul><li><strong>`<code>px</code>` (Pixels):</strong></li></ul></ul>"
+          },
+
+          {
+            "paraid": 1,
+            "text": "<ul><ul>The most commonly used unit, ideal for screen media. One pixel is equal to one dot on the computer screen, though this can vary depending on the screen's resolution.</ul></ul>"
+          },
+          {
+            "paraid": 1,
+            "text": "<ul><ul><li><strong>`<code>pt</code>` (Points)</strong></li></ul></ul>"
+          },
+          {
+            "paraid": 1,
+            "text": "<ul><ul>Mainly used for print media. There are approximately 72 points in an inch.</ul></ul>"
+          },
+          {
+            "paraid": 1,
+            "text": "<ul><ul><li><strong>`<code>pc</code>` (Picas)</strong></li></ul></ul>"
+          },
+          {
+            "paraid": 1,
+            "text": "<ul><ul>Another unit used for print media. One pica is equivalent to 12 points.</ul></ul>"
+          },
+          {
+            "paraid": 1,
+            "text": "<ul><ul><li><strong>`<code>in</code>` (Inches), `<code>cm</code>` (Centimeters), `<code>mm</code>` (Millimeters)</strong></li></ul></ul>"
+          },
+          {
+            "paraid": 1,
+            "text": "<ul><ul>These are physical units and are mainly used for print.</ul></ul>"
+          },
+          {
+            "paraid": 1,
+            "text": "<ol start=\"2\"><li><strong>Relative Units</strong></li></ol>"
+          },
+          {
+            "paraid": 1,
+            "text": "<ul>These are scalable units and are useful for responsive design, as they adjust relative to some other value.</ul>"
+          },
+          {
+            "paraid": 1,
+            "text": "<ul><ul><li><strong>`<code>em</code>`</strong></li></ul></ul>"
+          },
+          {
+            "paraid": 1,
+            "text": "<ul><ul>Relative to the `<code>font-size</code>` of its closest parent or itself if no `<code>font-size</code>` is defined. For example, if the parent element has a font size of `<code>16px</code>`, `<code>1em</code>` would equal `<code>16px</code>` for that element.</ul></ul>"
+          },
+          {
+            "paraid": 1,
+            "text": "<ul><ul><li><strong>rem</strong></li></ul></ul>"
+          },
+          {
+            "paraid": 1,
+            "text": "<ul><ul>Similar to `<code>em</code>`, but always relative to the root (`<code>html</code>`) element. If the root element has a font size of `<code>18px</code>`, then `<code>1rem</code>` will be `<code>18px</code>`.</ul></ul>"
+          },
+          {
+            "paraid": 1,
+            "text": "<ul><ul><li><strong>`<code>%</code>` (Percent)</strong></li></ul></ul>"
+          },
+          {
+            "paraid": 1,
+            "text": "<ul><ul>This unit is relative to the parent element. For example, if the parent's width is `<code>200px</code>`, then `<code>50%</code>` would be `<code>100px</code>`.</ul></ul>"
+          },
+          {
+            "paraid": 1,
+            "text": "<ul><ul><li><strong>`<code>vw</code>` (Viewport Width):</strong></li></ul></ul>"
+          },
+          {
+            "paraid": 1,
+            "text": "<ul><ul>Relative to 1% of the width of the viewport.</ul></ul>"
+          },
+          {
+            "paraid": 1,
+            "text": "<ul><ul><li><strong>`<code>vh</code>` (Viewport Height)</strong></li></ul></ul>"
+          },
+          {
+            "paraid": 1,
+            "text": "<ul><ul>Relative to 1% of the height of the viewport.</ul></ul>"
+          },
+          {
+            "paraid": 1,
+            "text": "<ul><ul><li><strong>`<code>vmin</code>` and `<code>vmax</code>`</strong></li></ul></ul>"
+          },
+          {
+            "paraid": 1,
+            "text": "<ul><ul>Relative to 1% of the viewport's smaller or larger dimension (width or height).</ul></ul>"
+          },
+          {
+            "paraid": 1,
+            "text": "<ol start=\"3\"><li><strong>Font-relative Units</strong></li></ol>"
+          },
+          {
+            "paraid": 1,
+            "text": "<ul>These units are mainly used for fonts and typography.</ul>"
+          },
+          {
+            "paraid": 1,
+            "text": "<ul><ul><li><strong>`<code>ex</code>`</strong></li></ul></ul>"
+          },
+          {
+            "paraid": 1,
+            "text": "<ul><ul>The `<code>ex</code>` unit is based on the x-height (he height of the letter x in the font) of the current font. The x-height is typically the height of lowercase letters in a font.</ul></ul>"
+          },
+          {
+            "paraid": 1,
+            "text": "<ul><ul><li><strong>`<code>ch</code>`</strong></li></ul></ul>"
+          },
+          {
+            "paraid": 1,
+            "text": "<ul><ul>The `<code>ch</code>` unit is equal to the width of the \"0\" (zero) character of the element's font.</ul></ul>"
+          },
+          {
+            "paraid": 1,
+            "text": "<ul>Here are some examples to demonstrate various CSS units:</ul>"
+          },
+          {
+            "paraid": 13,
+            "text": "",
+            "codeConfig": {
+              "codeid": "css_2_2_1",
+              "exampleid": "",
+              "codeOutput": false,
+              "exampleOutput": false,
+              "codeTitle": "CSS",
+              "exampleTitle": "",
+              "codeLangs": "css",
+              "exampleLangs": "",
+              "codeSource": "",
+              "exampleSource": "",
+              "marginLeft": "2.5rem"
+            }
+          },
+          {
+            "paraid": 1,
+            "text": "Each type of unit serves a different purpose and is best suited for specific situations. For example, px is useful for specifying dimensions that should not scale, while em and rem are more suitable for scalable and responsive designs."
+          }
+        ]
+      },
+      {
+        "secid": 3,
+        "subtitle": "Variables and Functions",
+        "paragraphs": [
+          {
+            "paraid": 1,
+            "text": "CSS variables and functions provide more flexibility and reusability in your stylesheets, allowing you to create more dynamic and maintainable CSS."
+          },
+          {
+            "paraid": 1,
+            "text": "<ol><li><strong>CSS Variables (Custom Properties)</strong></li></ol>"
+          },
+          {
+            "paraid": 1,
+            "text": "<ul>CSS Variables, also known as Custom Properties, allow you to store values that you want to reuse throughout your stylesheet. You can define a variable with a specific value and then use it in other places in your CSS.</ul>"
+          },
+          {
+            "paraid": 1,
+            "text": "<ul><ul><li><strong>Defining a Variable</strong></li></ul></ul>"
+          },
+          {
+            "paraid": 1,
+            "text": "<ul><ul>To define a variable, you can use the following syntax:</ul></ul>"
+          },
+          {
+            "paraid": 13,
+            "text": "",
+            "codeConfig": {
+              "codeid": "css_2_3_1",
+              "exampleid": "",
+              "codeOutput": false,
+              "exampleOutput": false,
+              "codeTitle": "CSS",
+              "exampleTitle": "",
+              "codeLangs": "css",
+              "exampleLangs": "",
+              "codeSource": "",
+              "exampleSource": "",
+              "marginLeft": "5rem"
+            }
+          },
+          {
+            "paraid": 1,
+            "text": "<ul><ul>Here, `<code>--primary-color</code>` is the variable name, and `<code>blue</code>` is its value. Variables are usually defined in the `<code>:root</code>` pseudo-class (representing the `<code>&lt;html&gt;</code>` element), which makes them globally accessible across your stylesheet.</ul></ul>"
+          },
+          {
+            "paraid": 1,
+            "text": "<ul><ul><li><strong>Using a Variable</strong></li></ul></ul>"
+          },
+          {
+            "paraid": 1,
+            "text": "<ul><ul>To use a variable, you can call it using the `<code>var()</code>` function like this:</ul></ul>"
+          },
+          {
+            "paraid": 13,
+            "text": "",
+            "codeConfig": {
+              "codeid": "css_2_3_2",
+              "exampleid": "",
+              "codeOutput": false,
+              "exampleOutput": false,
+              "codeTitle": "CSS",
+              "exampleTitle": "",
+              "codeLangs": "css",
+              "exampleLangs": "",
+              "codeSource": "",
+              "exampleSource": "",
+              "marginLeft": "5rem"
+            }
+          },
+          {
+            "paraid": 1,
+            "text": "<ul><ul>Here's a simple example showing how to define and use CSS variables:</ul></ul>"
+          },
+          {
+            "paraid": 13,
+            "text": "",
+            "codeConfig": {
+              "codeid": "css_2_3_3",
+              "exampleid": "css_2_3_3_1",
+              "codeOutput": false,
+              "exampleOutput": true,
+              "codeTitle": "CSS",
+              "exampleTitle": "Example",
+              "codeLangs": "css",
+              "exampleLangs": "xml",
+              "codeSource": "",
+              "exampleSource": "",
+              "marginLeft": "5rem"
+            }
+          },
+          {
+            "paraid": 1,
+            "text": "<ol start=\"2\"><li><strong>CSS Functions</strong></li></ol>"
+          },
+          {
+            "paraid": 1,
+            "text": "<ul>CSS functions are used to perform various operations and transformations within your stylesheets. Some commonly used CSS functions are:</ul>"
+          },
+          {
+            "paraid": 1,
+            "text": "<ul><ul><li><strong>calc()</strong></li></ul></ul>"
+          },
+          {
+            "paraid": 1,
+            "text": "<ul><ul>The `<code>calc()</code>` function allows you to perform calculations when specifying CSS property values. This is particularly useful for creating layouts that adapt to various screen sizes.</ul></ul>"
+          },
+          {
+            "paraid": 13,
+            "text": "",
+            "codeConfig": {
+              "codeid": "css_2_3_4",
+              "exampleid": "css_2_3_4_1",
+              "codeOutput": false,
+              "exampleOutput": true,
+              "codeTitle": "CSS",
+              "exampleTitle": "Example",
+              "codeLangs": "css",
+              "exampleLangs": "xml",
+              "codeSource": "",
+              "exampleSource": "",
+              "marginLeft": "5rem"
+            }
+          },
+          {
+            "paraid": 1,
+            "text": "<ul><ul><li><strong>`<code>var()</code>`</strong></li></ul></ul>"
+          },
+          {
+            "paraid": 1,
+            "text": "<ul><ul>As mentioned earlier, the `<code>var()</code>` function is used for inserting custom property (variable) values. It can also accept a fallback value. When the variable is not available, it returns the fallback value.</ul></ul>"
+          },
+          {
+            "paraid": 13,
+            "text": "",
+            "codeConfig": {
+              "codeid": "css_2_3_5",
+              "exampleid": "",
+              "codeOutput": false,
+              "exampleOutput": false,
+              "codeTitle": "CSS",
+              "exampleTitle": "",
+              "codeLangs": "css",
+              "exampleLangs": "",
+              "codeSource": "",
+              "exampleSource": "",
+              "marginLeft": "5rem"
+            }
+          },
+          {
+            "paraid": 1,
+            "text": "<ul><ul><li><strong>`<code>rgba()</code>`</strong></li></ul></ul>"
+          },
+          {
+            "paraid": 1,
+            "text": "<ul><ul>This function allows you to define colors along with an alpha channel for transparency.</ul></ul>"
+          },
+          {
+            "paraid": 13,
+            "text": "",
+            "codeConfig": {
+              "codeid": "css_2_3_6",
+              "exampleid": "css_2_3_6_1",
+              "codeOutput": false,
+              "exampleOutput": true,
+              "codeTitle": "CSS",
+              "exampleTitle": "Example",
+              "codeLangs": "css",
+              "exampleLangs": "xml",
+              "codeSource": "",
+              "exampleSource": "",
+              "marginLeft": "5rem"
+            }
+          },
+          {
+            "paraid": 1,
+            "text": "<ul><ul><li><strong>`<code>url()</code>`</strong></li></ul></ul>"
+          },
+          {
+            "paraid": 1,
+            "text": "<ul><ul>The `<code>url()</code>` function is used for linking to external resources, like images or fonts.</ul></ul>"
+          },
+          {
+            "paraid": 13,
+            "text": "",
+            "codeConfig": {
+              "codeid": "css_2_3_7",
+              "exampleid": "css_2_3_7_1",
+              "codeOutput": false,
+              "exampleOutput": true,
+              "codeTitle": "CSS",
+              "exampleTitle": "Example",
+              "codeLangs": "css",
+              "exampleLangs": "xml",
+              "codeSource": "",
+              "exampleSource": "",
+              "marginLeft": "5rem"
+            }
+          },
+          {
+            "paraid": 1,
+            "text": "<ul><ul><li><strong>`<code>attr()</code>`</strong></li></ul></ul>"
+          },
+          {
+            "paraid": 1,
+            "text": "<ul><ul>The `<code>attr()</code>` function can be used to get the value of an HTML attribute and use it in your stylesheet.</ul></ul>"
+          },
+          {
+            "paraid": 13,
+            "text": "",
+            "codeConfig": {
+              "codeid": "css_2_3_8",
+              "exampleid": "css_2_3_8_1",
+              "codeOutput": false,
+              "exampleOutput": true,
+              "codeTitle": "CSS",
+              "exampleTitle": "Example",
+              "codeLangs": "css",
+              "exampleLangs": "xml",
+              "codeSource": "",
+              "exampleSource": "",
+              "marginLeft": "5rem"
+            }
+          },
+          {
+            "paraid": 1,
+            "text": "Both variables and functions in CSS make your stylesheets more flexible, easier to manage, and maintainable."
+          }
+        ]
+      },
+      {
         "secid": 4,
-        "subtitle": "CSS File Inclusion Methods",
+        "subtitle": "Inclusion Methods",
         "paragraphs": [
           {
             "paraid": 1,
@@ -312,13 +705,13 @@
           },
           {
             "paraid": 1,
-            "text": "<ul>The most widely used method is to create a separate CSS file with a .css extension and link it to the HTML document using the `<code>&lt;link&gt;</code>` tag. This method allows for better code organization and reusability:</ul>"
+            "text": "<ul>The most widely used method is to create a separate CSS file with a `<code>.css</code>` extension and link it to the HTML document using the `<code>&lt;link&gt;</code>` tag. This method allows for better code organization and reusability:</ul>"
           },
           {
             "paraid": 3,
             "text": "",
             "codeConfig": {
-              "codeid": "css_1_4_1",
+              "codeid": "css_2_4_1",
               "exampleid": "",
               "codeOutput": false,
               "exampleOutput": false,
@@ -333,7 +726,7 @@
           },
           {
             "paraid": 4,
-            "text": "<ol>In this example, the href attribute specifies the path to the external CSS file (styles.css). The `<code>&lt;link&gt;</code>` tag is typically placed within the `<code>&lt;head&gt;</code>` section of the HTML document.</ol>"
+            "text": "<ol>In this example, the `<code>href</code>` attribute specifies the path to the external CSS file (styles.css). The `<code>&lt;link&gt;</code>` tag is typically placed within the `<code>&lt;head&gt;</code>` section of the HTML document.</ol>"
           },
           {
             "paraid": 5,
@@ -347,7 +740,7 @@
             "paraid": 6,
             "text": "",
             "codeConfig": {
-              "codeid": "css_1_4_2",
+              "codeid": "css_2_4_2",
               "exampleid": "",
               "codeOutput": false,
               "exampleOutput": false,
@@ -370,13 +763,13 @@
           },
           {
             "paraid": 1,
-            "text": "<ul>Inline styles are applied directly to HTML elements using the style attribute. This method is useful for applying styles to individual elements or overriding styles on specific elements:</ul>"
+            "text": "<ul>Inline styles are applied directly to HTML elements using the `<code>style</code>` attribute. This method is useful for applying styles to individual elements or overriding styles on specific elements:</ul>"
           },
           {
             "paraid": 9,
             "text": "",
             "codeConfig": {
-              "codeid": "css_1_4_3",
+              "codeid": "css_2_4_3",
               "exampleid": "",
               "codeOutput": false,
               "exampleOutput": false,
@@ -391,7 +784,7 @@
           },
           {
             "paraid": 10,
-            "text": "<ol>In this example, the styles are defined within the style attribute of the `<code>&lt;h1&gt;</code>` element.</ol>"
+            "text": "<ol>In this example, the styles are defined within the `<code>style</code>` attribute of the `<code>&lt;h1&gt;</code>` element.</ol>"
           },
           {
             "paraid": 11,
@@ -407,7 +800,7 @@
   },
   {
     "category": "css",
-    "chid": 2,
+    "chid": 3,
     "title": "CSS Selectors",
     "sections": [
       {
@@ -426,8 +819,8 @@
             "paraid": 3,
             "text": "",
             "codeConfig": {
-              "codeid": "css_2_1_1",
-              "exampleid": "css_2_1_1_1",
+              "codeid": "css_3_1_1",
+              "exampleid": "css_3_1_1_1",
               "codeOutput": false,
               "exampleOutput": true,
               "codeTitle": "CSS",
@@ -475,8 +868,8 @@
             "paraid": 7,
             "text": "",
             "codeConfig": {
-              "codeid": "css_2_1_2",
-              "exampleid": "css_2_1_2_1",
+              "codeid": "css_3_1_2",
+              "exampleid": "css_3_1_2_1",
               "codeOutput": false,
               "exampleOutput": true,
               "codeTitle": "CSS",
@@ -508,17 +901,17 @@
         "paragraphs": [
           {
             "paraid": 1,
-            "text": "Class selectors in CSS allow you to target and apply styles to elements with a specific class attribute. Class selectors are versatile and widely used, as they provide a way to style multiple elements throughout an HTML document based on shared characteristics. Here's an overview of class selectors in CSS."
+            "text": "Class selectors in CSS allow you to target and apply styles to elements with a specific `<code>class</code>` attribute. Class selectors are versatile and widely used, as they provide a way to style multiple elements throughout an HTML document based on shared characteristics. Here's an overview of class selectors in CSS."
           },
           {
             "paraid": 2,
-            "text": "The syntax for a class selector is a period (.) followed by the class name. For example, to select elements with the class \"my-class\", you would use the following CSS rule set:"
+            "text": "The syntax for a class selector is a period (.) followed by the class name. For example, to select elements with the class `<code>\"my-class\"</code>`, you would use the following CSS rule set:"
           },
           {
             "paraid": 3,
             "text": "",
             "codeConfig": {
-              "codeid": "css_2_2_1",
+              "codeid": "css_3_2_1",
               "exampleid": "",
               "codeOutput": false,
               "exampleOutput": false,
@@ -533,7 +926,7 @@
           },
           {
             "paraid": 4,
-            "text": "In this example, the `<code>.my-class</code>` selector targets all elements that have the class attribute set to \"my-class\" and applies the specified styles within the curly braces."
+            "text": "In this example, the `<code>.my-class</code>` selector targets all elements that have the class attribute set to `<code>\"my-class\"</code>` and applies the specified styles within the curly braces."
           },
           {
             "paraid": 5,
@@ -545,14 +938,14 @@
           },
           {
             "paraid": 1,
-            "text": "<ul>To use class selectors, you need to assign the desired class name to the class attribute of the HTML elements you want to style. Multiple elements can share the same class name, allowing you to apply consistent styles to them:</ul>"
+            "text": "<ul>To use class selectors, you need to assign the desired class name to the `<code>class</code>` attribute of the HTML elements you want to style. Multiple elements can share the same class name, allowing you to apply consistent styles to them:</ul>"
           },
           {
             "paraid": 7,
             "text": "",
             "codeConfig": {
-              "codeid": "css_2_2_2",
-              "exampleid": "css_2_2_2_1",
+              "codeid": "css_3_2_2",
+              "exampleid": "css_3_2_2_1",
               "codeOutput": false,
               "exampleOutput": true,
               "codeTitle": "HTML",
@@ -592,8 +985,8 @@
             "paraid": 9,
             "text": "",
             "codeConfig": {
-              "codeid": "css_2_2_3",
-              "exampleid": "css_2_2_3_1",
+              "codeid": "css_3_2_3",
+              "exampleid": "css_3_2_3_1",
               "codeOutput": false,
               "exampleOutput": true,
               "codeTitle": "CSS",
@@ -617,8 +1010,8 @@
             "paraid": 10,
             "text": "",
             "codeConfig": {
-              "codeid": "css_2_2_4",
-              "exampleid": "css_2_2_4_1",
+              "codeid": "css_3_2_4",
+              "exampleid": "css_3_2_4_1",
               "codeOutput": false,
               "exampleOutput": true,
               "codeTitle": "HTML",
@@ -650,13 +1043,13 @@
           },
           {
             "paraid": 2,
-            "text": "The syntax for an ID selector is a hash (#) followed by the ID name. For example, to select an element with the ID \"my-id\", you would use the following CSS rule set:"
+            "text": "The syntax for an ID selector is a hash (#) followed by the ID name. For example, to select an element with the ID `<code>\"my-id\"</code>`, you would use the following CSS rule set:"
           },
           {
             "paraid": 3,
             "text": "",
             "codeConfig": {
-              "codeid": "css_2_3_1",
+              "codeid": "css_3_3_1",
               "exampleid": "",
               "codeOutput": false,
               "exampleOutput": false,
@@ -671,7 +1064,7 @@
           },
           {
             "paraid": 4,
-            "text": "In this example, the `<code>#my-id</code>` selector targets the element that has the ID attribute set to \"my-id\" and applies the specified styles within the curly braces."
+            "text": "In this example, the `<code>#my-id</code>` selector targets the element that has the ID attribute set to `<code>\"my-id\"</code>` and applies the specified styles within the curly braces."
           },
           {
             "paraid": 5,
@@ -683,14 +1076,14 @@
           },
           {
             "paraid": 1,
-            "text": "<ul>To use ID selectors, you need to assign a unique ID name to the ID attribute of the HTML element you want to style. Unlike class names, IDs should be unique within an HTML document:</ul>"
+            "text": "<ul>To use ID selectors, you need to assign a unique ID name to the `<code>id</code>` attribute of the HTML element you want to style. Unlike class names, IDs should be unique within an HTML document:</ul>"
           },
           {
             "paraid": 7,
             "text": "",
             "codeConfig": {
-              "codeid": "css_2_3_2",
-              "exampleid": "css_2_3_2_1",
+              "codeid": "css_3_3_2",
+              "exampleid": "css_3_3_2_1",
               "codeOutput": false,
               "exampleOutput": true,
               "codeTitle": "HTML",
@@ -738,8 +1131,8 @@
             "paraid": 9,
             "text": "",
             "codeConfig": {
-              "codeid": "css_2_3_3",
-              "exampleid": "css_2_3_3_1",
+              "codeid": "css_3_3_3",
+              "exampleid": "css_3_3_3_1",
               "codeOutput": false,
               "exampleOutput": true,
               "codeTitle": "CSS",
@@ -763,7 +1156,7 @@
         "paragraphs": [
           {
             "paraid": 1,
-            "text": "Attribute selectors in CSS allow you to target HTML elements based on specific attribute values or attribute presence. They provide a way to select elements based on the values of their attributes, such as the class, ID, or other custom attributes. Here's an overview of attribute selectors in CSS."
+            "text": "Attribute selectors in CSS allow you to target HTML elements based on specific attribute values or attribute presence. They provide a way to select elements based on the values of their attributes, such as the class, ID, or other custom attributes. Here's an overview of attribute selectors in CSS:"
           },
           {
             "paraid": 2,
@@ -777,7 +1170,7 @@
             "paraid": 3,
             "text": "",
             "codeConfig": {
-              "codeid": "css_2_4_1",
+              "codeid": "css_3_4_1",
               "exampleid": "",
               "codeOutput": false,
               "exampleOutput": false,
@@ -802,8 +1195,8 @@
             "paraid": 5,
             "text": "",
             "codeConfig": {
-              "codeid": "css_2_4_2",
-              "exampleid": "css_2_4_2_1",
+              "codeid": "css_3_4_2",
+              "exampleid": "css_3_4_2_1",
               "codeOutput": false,
               "exampleOutput": true,
               "codeTitle": "CSS",
@@ -831,8 +1224,8 @@
             "paraid": 8,
             "text": "",
             "codeConfig": {
-              "codeid": "css_2_4_3",
-              "exampleid": "css_2_4_3_1",
+              "codeid": "css_3_4_3",
+              "exampleid": "css_3_4_3_1",
               "codeOutput": false,
               "exampleOutput": true,
               "codeTitle": "CSS",
@@ -860,8 +1253,8 @@
             "paraid": 11,
             "text": "",
             "codeConfig": {
-              "codeid": "css_2_4_4",
-              "exampleid": "css_2_4_4_1",
+              "codeid": "css_3_4_4",
+              "exampleid": "css_3_4_4_1",
               "codeOutput": false,
               "exampleOutput": true,
               "codeTitle": "CSS",
@@ -889,8 +1282,8 @@
             "paraid": 14,
             "text": "",
             "codeConfig": {
-              "codeid": "css_2_4_5",
-              "exampleid": "css_2_4_5_1",
+              "codeid": "css_3_4_5",
+              "exampleid": "css_3_4_5_1",
               "codeOutput": false,
               "exampleOutput": true,
               "codeTitle": "CSS",
@@ -918,7 +1311,7 @@
         "paragraphs": [
           {
             "paraid": 1,
-            "text": "Pseudo-classes and pseudo-elements in CSS allow you to target and style elements based on their states or specific parts of their content. They provide additional selectors that go beyond targeting elements based solely on their tag names, classes, or attributes. Here's an overview of pseudo-classes and pseudo-elements in CSS."
+            "text": "Pseudo-classes and pseudo-elements in CSS allow you to target and style elements based on their states or specific parts of their content. They provide additional selectors that go beyond targeting elements based solely on their tag names, classes, or attributes. Here's an overview of pseudo-classes and pseudo-elements in CSS:"
           },
           {
             "paraid": 2,
@@ -940,8 +1333,8 @@
             "paraid": 5,
             "text": "",
             "codeConfig": {
-              "codeid": "css_2_5_1",
-              "exampleid": "css_2_5_1_1",
+              "codeid": "css_3_5_1",
+              "exampleid": "css_3_5_1_1",
               "codeOutput": false,
               "exampleOutput": true,
               "codeTitle": "CSS",
@@ -973,8 +1366,8 @@
             "paraid": 9,
             "text": "",
             "codeConfig": {
-              "codeid": "css_2_5_2",
-              "exampleid": "css_2_5_2_1",
+              "codeid": "css_3_5_2",
+              "exampleid": "css_3_5_2_1",
               "codeOutput": false,
               "exampleOutput": true,
               "codeTitle": "CSS",
@@ -991,12 +1384,142 @@
             "text": "Pseudo-classes and pseudo-elements provide additional ways to target and style elements based on their states or specific content parts. They enhance the flexibility and customization of CSS styles, allowing you to create dynamic and interactive designs. Understanding and utilizing pseudo-classes and pseudo-elements can greatly expand your styling capabilities in CSS."
           }
         ]
+      },
+      {
+        "secid": 6,
+        "subtitle": "Combinators",
+        "paragraphs": [
+          {
+            "paraid": 1,
+            "text": "CSS combinators are symbols used to define the relationships between different elements in HTML documents, for the purpose of styling them. Combinators help to target specific elements that are either descendants, children, adjacent siblings, or general siblings of an element. Here are the most commonly used CSS combinators:"
+          },
+          {
+            "paraid": 1,
+            "text": "<ol><li><strong>Descendant Combinator (space)</strong></li></ol>"
+          },
+          {
+            "paraid": 1,
+            "text": "<ul>This is the most straightforward combinator. It selects all elements that are descendants of a specified element.<br/><br/>For example:</ul>"
+          },
+          {
+            "paraid": 5,
+            "text": "",
+            "codeConfig": {
+              "codeid": "css_3_6_1",
+              "exampleid": "css_3_6_1_1",
+              "codeOutput": false,
+              "exampleOutput": true,
+              "codeTitle": "CSS",
+              "exampleTitle": "Example",
+              "codeLangs": "css",
+              "exampleLangs": "xml",
+              "codeSource": "",
+              "exampleSource": "",
+              "marginLeft": "2.5rem"
+            }
+          },
+          {
+            "paraid": 1,
+            "text": "<ul>This will select all `<code>&lt;p&gt;</code>` elements inside `<code>&lt;div&gt;</code>` elements, including nested `<code>&lt;p&gt;</code>` elements, and set their text color to red.</ul>"
+          },
+          {
+            "paraid": 1,
+            "text": "<ol start=\"2\"><li><strong>Child Combinator (>)</strong></li></ol>"
+          },
+          {
+            "paraid": 1,
+            "text": "<ul>This targets only direct children of an element.<br/><br/>For example:</ul>"
+          },
+          {
+            "paraid": 5,
+            "text": "",
+            "codeConfig": {
+              "codeid": "css_3_6_2",
+              "exampleid": "css_3_6_2_1",
+              "codeOutput": false,
+              "exampleOutput": true,
+              "codeTitle": "CSS",
+              "exampleTitle": "Example",
+              "codeLangs": "css",
+              "exampleLangs": "xml",
+              "codeSource": "",
+              "exampleSource": "",
+              "marginLeft": "2.5rem"
+            }
+          },
+          {
+            "paraid": 1,
+            "text": "<ul>This will select only the `<code>&lt;p&gt;</code>` elements that are directly inside a `<code>&lt;div&gt;</code>` element, ignoring any nested inside other elements like `<code>&lt;article&gt;</code>` or `<code>&lt;section&gt;</code>`.</ul>"
+          },
+          {
+            "paraid": 1,
+            "text": "<ol start=\"3\"><li><strong>Adjacent Sibling Combinator (+)</strong></li></ol>"
+          },
+          {
+            "paraid": 1,
+            "text": "<ul>This targets an element that is immediately preceded by a certain element.<br/><br/>For example:</ul>"
+          },
+          {
+            "paraid": 5,
+            "text": "",
+            "codeConfig": {
+              "codeid": "css_3_6_3",
+              "exampleid": "css_3_6_3_1",
+              "codeOutput": false,
+              "exampleOutput": true,
+              "codeTitle": "CSS",
+              "exampleTitle": "Example",
+              "codeLangs": "css",
+              "exampleLangs": "xml",
+              "codeSource": "",
+              "exampleSource": "",
+              "marginLeft": "2.5rem"
+            }
+          },
+          {
+            "paraid": 1,
+            "text": "<ul>This will select the first `<code>&lt;p&gt;</code>` immediately following any `<code>&lt;h2&gt;</code>` and set its font weight to bold.</ul>"
+          },
+          {
+            "paraid": 1,
+            "text": "<ol start=\"4\"><li><strong>General Sibling Combinator (~)</strong></li></ol>"
+          },
+          {
+            "paraid": 1,
+            "text": "<ul>This targets all elements that share the same parent and are preceded by a certain element.<br/><br/>For example:</ul>"
+          },
+          {
+            "paraid": 5,
+            "text": "",
+            "codeConfig": {
+              "codeid": "css_3_6_4",
+              "exampleid": "css_3_6_4_1",
+              "codeOutput": false,
+              "exampleOutput": true,
+              "codeTitle": "CSS",
+              "exampleTitle": "Example",
+              "codeLangs": "css",
+              "exampleLangs": "xml",
+              "codeSource": "",
+              "exampleSource": "",
+              "marginLeft": "2.5rem"
+            }
+          },
+          {
+            "paraid": 1,
+            "text": "<ul>This will select all `<code>&lt;p&gt;</code>` elements that follow an `<code>&lt;h2&gt;</code>` under the same parent element and set their font weight to bold.</ul>"
+          },
+          {
+            "paraid": 1,
+            "text": "In summary, understanding how these combinators work can make it much easier to select exactly the elements you wish to style, leading to cleaner and more maintainable CSS code."
+          }
+        ]
       }
     ]
   },
   {
     "category": "css",
-    "chid": 3,
+    "chid": 4,
     "title": "Box Model",
     "sections": [
       {
@@ -1077,8 +1600,8 @@
             "paraid": 4,
             "text": "",
             "codeConfig": {
-              "codeid": "css_3_2_1",
-              "exampleid": "css_3_2_1_1",
+              "codeid": "css_4_2_1",
+              "exampleid": "css_4_2_1_1",
               "codeOutput": false,
               "exampleOutput": true,
               "codeTitle": "CSS",
@@ -1102,8 +1625,8 @@
             "paraid": 7,
             "text": "",
             "codeConfig": {
-              "codeid": "css_3_2_2",
-              "exampleid": "css_3_2_2_1",
+              "codeid": "css_4_2_2",
+              "exampleid": "css_4_2_2_1",
               "codeOutput": false,
               "exampleOutput": true,
               "codeTitle": "CSS",
@@ -1127,8 +1650,8 @@
             "paraid": 10,
             "text": "",
             "codeConfig": {
-              "codeid": "css_3_2_3",
-              "exampleid": "css_3_2_3_1",
+              "codeid": "css_4_2_3",
+              "exampleid": "css_4_2_3_1",
               "codeOutput": false,
               "exampleOutput": true,
               "codeTitle": "CSS",
@@ -1170,8 +1693,8 @@
             "paraid": 4,
             "text": "",
             "codeConfig": {
-              "codeid": "css_3_3_1",
-              "exampleid": "css_3_3_1_1",
+              "codeid": "css_4_3_1",
+              "exampleid": "css_4_3_1_1",
               "codeOutput": false,
               "exampleOutput": true,
               "codeTitle": "CSS",
@@ -1211,8 +1734,8 @@
             "paraid": 10,
             "text": "",
             "codeConfig": {
-              "codeid": "css_3_3_2",
-              "exampleid": "css_3_3_2_1",
+              "codeid": "css_4_3_2",
+              "exampleid": "css_4_3_2_1",
               "codeOutput": false,
               "exampleOutput": true,
               "codeTitle": "CSS",
@@ -1254,8 +1777,8 @@
             "paraid": 4,
             "text": "",
             "codeConfig": {
-              "codeid": "css_3_4_1",
-              "exampleid": "css_3_4_1_1",
+              "codeid": "css_4_4_1",
+              "exampleid": "css_4_4_1_1",
               "codeOutput": false,
               "exampleOutput": true,
               "codeTitle": "CSS",
@@ -1279,8 +1802,8 @@
             "paraid": 7,
             "text": "",
             "codeConfig": {
-              "codeid": "css_3_4_2",
-              "exampleid": "css_3_4_2_1",
+              "codeid": "css_4_4_2",
+              "exampleid": "css_4_4_2_1",
               "codeOutput": false,
               "exampleOutput": true,
               "codeTitle": "CSS",
@@ -1304,8 +1827,8 @@
             "paraid": 10,
             "text": "",
             "codeConfig": {
-              "codeid": "css_3_4_3",
-              "exampleid": "css_3_4_3_1",
+              "codeid": "css_4_4_3",
+              "exampleid": "css_4_4_3_1",
               "codeOutput": false,
               "exampleOutput": true,
               "codeTitle": "CSS",
@@ -1329,8 +1852,8 @@
             "paraid": 13,
             "text": "",
             "codeConfig": {
-              "codeid": "css_3_4_4",
-              "exampleid": "css_3_4_4_1",
+              "codeid": "css_4_4_4",
+              "exampleid": "css_4_4_4_1",
               "codeOutput": false,
               "exampleOutput": true,
               "codeTitle": "CSS",
@@ -1354,8 +1877,8 @@
             "paraid": 16,
             "text": "",
             "codeConfig": {
-              "codeid": "css_3_4_5",
-              "exampleid": "css_3_4_5_1",
+              "codeid": "css_4_4_5",
+              "exampleid": "css_4_4_5_1",
               "codeOutput": false,
               "exampleOutput": true,
               "codeTitle": "CSS",
@@ -1377,7 +1900,7 @@
   },
   {
     "category": "css",
-    "chid": 4,
+    "chid": 5,
     "title": "CSS Layout",
     "sections": [
       {
@@ -1408,8 +1931,8 @@
             "paraid": 6,
             "text": "",
             "codeConfig": {
-              "codeid": "css_4_1_1",
-              "exampleid": "css_4_1_1_1",
+              "codeid": "css_5_1_1",
+              "exampleid": "css_5_1_1_1",
               "codeOutput": false,
               "exampleOutput": true,
               "codeTitle": "CSS",
@@ -1433,8 +1956,8 @@
             "paraid": 9,
             "text": "",
             "codeConfig": {
-              "codeid": "css_4_1_2",
-              "exampleid": "css_4_1_2_1",
+              "codeid": "css_5_1_2",
+              "exampleid": "css_5_1_2_1",
               "codeOutput": false,
               "exampleOutput": true,
               "codeTitle": "CSS",
@@ -1458,8 +1981,8 @@
             "paraid": 12,
             "text": "",
             "codeConfig": {
-              "codeid": "css_4_1_3",
-              "exampleid": "css_4_1_3_1",
+              "codeid": "css_5_1_3",
+              "exampleid": "css_5_1_3_1",
               "codeOutput": false,
               "exampleOutput": true,
               "codeTitle": "CSS",
@@ -1483,8 +2006,8 @@
             "paraid": 15,
             "text": "",
             "codeConfig": {
-              "codeid": "css_4_1_4",
-              "exampleid": "css_4_1_4_1",
+              "codeid": "css_5_1_4",
+              "exampleid": "css_5_1_4_1",
               "codeOutput": false,
               "exampleOutput": true,
               "codeTitle": "CSS",
@@ -1584,8 +2107,8 @@
             "paraid": 4,
             "text": "",
             "codeConfig": {
-              "codeid": "css_4_3_1",
-              "exampleid": "css_4_3_1_1",
+              "codeid": "css_5_3_1",
+              "exampleid": "css_5_3_1_1",
               "codeOutput": false,
               "exampleOutput": true,
               "codeTitle": "CSS",
@@ -1613,8 +2136,8 @@
             "paraid": 8,
             "text": "",
             "codeConfig": {
-              "codeid": "css_4_3_2",
-              "exampleid": "css_4_3_2_1",
+              "codeid": "css_5_3_2",
+              "exampleid": "css_5_3_2_1",
               "codeOutput": false,
               "exampleOutput": true,
               "codeTitle": "CSS",
@@ -1660,7 +2183,7 @@
             "paraid": 4,
             "text": "",
             "codeConfig": {
-              "codeid": "css_4_4_1",
+              "codeid": "css_5_4_1",
               "exampleid": "",
               "codeOutput": false,
               "exampleOutput": false,
@@ -1685,8 +2208,8 @@
             "paraid": 7,
             "text": "",
             "codeConfig": {
-              "codeid": "css_4_4_2",
-              "exampleid": "css_4_4_2_1",
+              "codeid": "css_5_4_2",
+              "exampleid": "css_5_4_2_1",
               "codeOutput": false,
               "exampleOutput": true,
               "codeTitle": "CSS",
@@ -1710,8 +2233,8 @@
             "paraid": 10,
             "text": "",
             "codeConfig": {
-              "codeid": "css_4_4_3",
-              "exampleid": "css_4_4_3_1",
+              "codeid": "css_5_4_3",
+              "exampleid": "css_5_4_3_1",
               "codeOutput": false,
               "exampleOutput": true,
               "codeTitle": "CSS",
@@ -1735,8 +2258,8 @@
             "paraid": 13,
             "text": "",
             "codeConfig": {
-              "codeid": "css_4_4_4",
-              "exampleid": "css_4_4_4_1",
+              "codeid": "css_5_4_4",
+              "exampleid": "css_5_4_4_1",
               "codeOutput": false,
               "exampleOutput": true,
               "codeTitle": "CSS",
@@ -1760,8 +2283,8 @@
             "paraid": 16,
             "text": "",
             "codeConfig": {
-              "codeid": "css_4_4_5",
-              "exampleid": "css_4_4_5_1",
+              "codeid": "css_5_4_5",
+              "exampleid": "css_5_4_5_1",
               "codeOutput": false,
               "exampleOutput": true,
               "codeTitle": "CSS",
@@ -1799,7 +2322,7 @@
             "paraid": 4,
             "text": "",
             "codeConfig": {
-              "codeid": "css_4_5_1",
+              "codeid": "css_5_5_1",
               "exampleid": "",
               "codeOutput": false,
               "exampleOutput": false,
@@ -1824,8 +2347,8 @@
             "paraid": 7,
             "text": "",
             "codeConfig": {
-              "codeid": "css_4_5_2",
-              "exampleid": "css_4_5_2_1",
+              "codeid": "css_5_5_2",
+              "exampleid": "css_5_5_2_1",
               "codeOutput": false,
               "exampleOutput": true,
               "codeTitle": "CSS",
@@ -1849,8 +2372,8 @@
             "paraid": 10,
             "text": "",
             "codeConfig": {
-              "codeid": "css_4_5_3",
-              "exampleid": "css_4_5_3_1",
+              "codeid": "css_5_5_3",
+              "exampleid": "css_5_5_3_1",
               "codeOutput": false,
               "exampleOutput": true,
               "codeTitle": "CSS",
@@ -1874,8 +2397,8 @@
             "paraid": 13,
             "text": "",
             "codeConfig": {
-              "codeid": "css_4_5_4",
-              "exampleid": "css_4_5_4_1",
+              "codeid": "css_5_5_4",
+              "exampleid": "css_5_5_4_1",
               "codeOutput": false,
               "exampleOutput": true,
               "codeTitle": "CSS",
@@ -1899,8 +2422,8 @@
             "paraid": 16,
             "text": "",
             "codeConfig": {
-              "codeid": "css_4_5_5",
-              "exampleid": "css_4_5_5_1",
+              "codeid": "css_5_5_5",
+              "exampleid": "css_5_5_5_1",
               "codeOutput": false,
               "exampleOutput": true,
               "codeTitle": "CSS",
@@ -1924,8 +2447,8 @@
             "paraid": 19,
             "text": "",
             "codeConfig": {
-              "codeid": "css_4_5_6",
-              "exampleid": "css_4_5_6_1",
+              "codeid": "css_5_5_6",
+              "exampleid": "css_5_5_6_1",
               "codeOutput": false,
               "exampleOutput": true,
               "codeTitle": "CSS",
@@ -1947,7 +2470,7 @@
   },
   {
     "category": "css",
-    "chid": 5,
+    "chid": 6,
     "title": "CSS Typography",
     "sections": [
       {
@@ -1970,8 +2493,8 @@
             "paraid": 4,
             "text": "",
             "codeConfig": {
-              "codeid": "css_5_1_1",
-              "exampleid": "css_5_1_1_1",
+              "codeid": "css_6_1_1",
+              "exampleid": "css_6_1_1_1",
               "codeOutput": false,
               "exampleOutput": true,
               "codeTitle": "CSS",
@@ -1995,8 +2518,8 @@
             "paraid": 7,
             "text": "",
             "codeConfig": {
-              "codeid": "css_5_1_2",
-              "exampleid": "css_5_1_2_1",
+              "codeid": "css_6_1_2",
+              "exampleid": "css_6_1_2_1",
               "codeOutput": false,
               "exampleOutput": true,
               "codeTitle": "CSS",
@@ -2020,8 +2543,8 @@
             "paraid": 10,
             "text": "",
             "codeConfig": {
-              "codeid": "css_5_1_3",
-              "exampleid": "css_5_1_3_1",
+              "codeid": "css_6_1_3",
+              "exampleid": "css_6_1_3_1",
               "codeOutput": false,
               "exampleOutput": true,
               "codeTitle": "CSS",
@@ -2045,8 +2568,8 @@
             "paraid": 13,
             "text": "",
             "codeConfig": {
-              "codeid": "css_5_1_4",
-              "exampleid": "css_5_1_4_1",
+              "codeid": "css_6_1_4",
+              "exampleid": "css_6_1_4_1",
               "codeOutput": false,
               "exampleOutput": true,
               "codeTitle": "CSS",
@@ -2070,8 +2593,8 @@
             "paraid": 16,
             "text": "",
             "codeConfig": {
-              "codeid": "css_5_1_5",
-              "exampleid": "css_5_1_5_1",
+              "codeid": "css_6_1_5",
+              "exampleid": "css_6_1_5_1",
               "codeOutput": false,
               "exampleOutput": true,
               "codeTitle": "CSS",
@@ -2095,8 +2618,8 @@
             "paraid": 19,
             "text": "",
             "codeConfig": {
-              "codeid": "css_5_1_6",
-              "exampleid": "css_5_1_6_1",
+              "codeid": "css_6_1_6",
+              "exampleid": "css_6_1_6_1",
               "codeOutput": false,
               "exampleOutput": true,
               "codeTitle": "CSS",
@@ -2120,8 +2643,8 @@
             "paraid": 22,
             "text": "",
             "codeConfig": {
-              "codeid": "css_5_1_7",
-              "exampleid": "css_5_1_7_1",
+              "codeid": "css_6_1_7",
+              "exampleid": "css_6_1_7_1",
               "codeOutput": false,
               "exampleOutput": true,
               "codeTitle": "CSS",
@@ -2175,7 +2698,7 @@
             "paraid": 8,
             "text": "",
             "codeConfig": {
-              "codeid": "css_5_2_1",
+              "codeid": "css_6_2_1",
               "exampleid": "",
               "codeOutput": false,
               "exampleOutput": false,
@@ -2200,7 +2723,7 @@
             "paraid": 11,
             "text": "",
             "codeConfig": {
-              "codeid": "css_5_2_2",
+              "codeid": "css_6_2_2",
               "exampleid": "",
               "codeOutput": false,
               "exampleOutput": false,
@@ -2225,7 +2748,7 @@
             "paraid": 14,
             "text": "",
             "codeConfig": {
-              "codeid": "css_5_2_3",
+              "codeid": "css_6_2_3",
               "exampleid": "",
               "codeOutput": false,
               "exampleOutput": false,
@@ -2276,8 +2799,8 @@
             "paraid": 4,
             "text": "",
             "codeConfig": {
-              "codeid": "css_5_3_1",
-              "exampleid": "css_5_3_1_1",
+              "codeid": "css_6_3_1",
+              "exampleid": "css_6_3_1_1",
               "codeOutput": false,
               "exampleOutput": true,
               "codeTitle": "CSS",
@@ -2301,8 +2824,8 @@
             "paraid": 7,
             "text": "",
             "codeConfig": {
-              "codeid": "css_5_3_2",
-              "exampleid": "css_5_3_2_1",
+              "codeid": "css_6_3_2",
+              "exampleid": "css_6_3_2_1",
               "codeOutput": false,
               "exampleOutput": true,
               "codeTitle": "CSS",
@@ -2326,8 +2849,8 @@
             "paraid": 10,
             "text": "",
             "codeConfig": {
-              "codeid": "css_5_3_3",
-              "exampleid": "css_5_3_3_1",
+              "codeid": "css_6_3_3",
+              "exampleid": "css_6_3_3_1",
               "codeOutput": false,
               "exampleOutput": true,
               "codeTitle": "CSS",
@@ -2351,8 +2874,8 @@
             "paraid": 13,
             "text": "",
             "codeConfig": {
-              "codeid": "css_5_3_4",
-              "exampleid": "css_5_3_4_1",
+              "codeid": "css_6_3_4",
+              "exampleid": "css_6_3_4_1",
               "codeOutput": false,
               "exampleOutput": true,
               "codeTitle": "CSS",
@@ -2376,8 +2899,8 @@
             "paraid": 16,
             "text": "",
             "codeConfig": {
-              "codeid": "css_5_3_5",
-              "exampleid": "css_5_3_5_1",
+              "codeid": "css_6_3_5",
+              "exampleid": "css_6_3_5_1",
               "codeOutput": false,
               "exampleOutput": true,
               "codeTitle": "CSS",
@@ -2399,7 +2922,7 @@
   },
   {
     "category": "css",
-    "chid": 6,
+    "chid": 7,
     "title": "Colors and Backgrounds",
     "sections": [
       {
@@ -2426,8 +2949,8 @@
             "paraid": 4,
             "text": "",
             "codeConfig": {
-              "codeid": "css_6_1_1",
-              "exampleid": "css_6_1_1_1",
+              "codeid": "css_7_1_1",
+              "exampleid": "css_7_1_1_1",
               "codeOutput": false,
               "exampleOutput": true,
               "codeTitle": "CSS",
@@ -2459,8 +2982,8 @@
             "paraid": 6,
             "text": "",
             "codeConfig": {
-              "codeid": "css_6_1_2",
-              "exampleid": "css_6_1_2_1",
+              "codeid": "css_7_1_2",
+              "exampleid": "css_7_1_2_1",
               "codeOutput": false,
               "exampleOutput": true,
               "codeTitle": "CSS",
@@ -2492,8 +3015,8 @@
             "paraid": 8,
             "text": "",
             "codeConfig": {
-              "codeid": "css_6_1_3",
-              "exampleid": "css_6_1_3_1",
+              "codeid": "css_7_1_3",
+              "exampleid": "css_7_1_3_1",
               "codeOutput": false,
               "exampleOutput": true,
               "codeTitle": "CSS",
@@ -2525,8 +3048,8 @@
             "paraid": 8,
             "text": "",
             "codeConfig": {
-              "codeid": "css_6_1_4",
-              "exampleid": "css_6_1_4_1",
+              "codeid": "css_7_1_4",
+              "exampleid": "css_7_1_4_1",
               "codeOutput": false,
               "exampleOutput": true,
               "codeTitle": "CSS",
@@ -2562,8 +3085,8 @@
             "paraid": 8,
             "text": "",
             "codeConfig": {
-              "codeid": "css_6_1_5",
-              "exampleid": "css_6_1_5_1",
+              "codeid": "css_7_1_5",
+              "exampleid": "css_7_1_5_1",
               "codeOutput": false,
               "exampleOutput": true,
               "codeTitle": "CSS",
@@ -2603,7 +3126,7 @@
             "paraid": 12,
             "text": "",
             "codeConfig": {
-              "codeid": "css_6_1_6",
+              "codeid": "css_7_1_6",
               "exampleid": "",
               "codeOutput": false,
               "exampleOutput": false,
@@ -2632,7 +3155,7 @@
             "paraid": 15,
             "text": "",
             "codeConfig": {
-              "codeid": "css_6_1_7",
+              "codeid": "css_7_1_7",
               "exampleid": "",
               "codeOutput": false,
               "exampleOutput": false,
@@ -2661,8 +3184,8 @@
             "paraid": 18,
             "text": "",
             "codeConfig": {
-              "codeid": "css_6_1_8",
-              "exampleid": "css_6_1_8_1",
+              "codeid": "css_7_1_8",
+              "exampleid": "css_7_1_8_1",
               "codeOutput": false,
               "exampleOutput": true,
               "codeTitle": "CSS",
@@ -2690,8 +3213,8 @@
             "paraid": 18,
             "text": "",
             "codeConfig": {
-              "codeid": "css_6_1_9",
-              "exampleid": "css_6_1_9_1",
+              "codeid": "css_7_1_9",
+              "exampleid": "css_7_1_9_1",
               "codeOutput": false,
               "exampleOutput": true,
               "codeTitle": "CSS",
@@ -2719,8 +3242,8 @@
             "paraid": 18,
             "text": "",
             "codeConfig": {
-              "codeid": "css_6_1_10",
-              "exampleid": "css_6_1_10_1",
+              "codeid": "css_7_1_10",
+              "exampleid": "css_7_1_10_1",
               "codeOutput": false,
               "exampleOutput": true,
               "codeTitle": "CSS",
@@ -2766,8 +3289,8 @@
             "paraid": 5,
             "text": "",
             "codeConfig": {
-              "codeid": "css_6_2_1",
-              "exampleid": "css_6_2_1_1",
+              "codeid": "css_7_2_1",
+              "exampleid": "css_7_2_1_1",
               "codeOutput": false,
               "exampleOutput": true,
               "codeTitle": "CSS",
@@ -2795,8 +3318,8 @@
             "paraid": 8,
             "text": "",
             "codeConfig": {
-              "codeid": "css_6_2_2",
-              "exampleid": "css_6_2_2_1",
+              "codeid": "css_7_2_2",
+              "exampleid": "css_7_2_2_1",
               "codeOutput": false,
               "exampleOutput": true,
               "codeTitle": "CSS",
@@ -2824,8 +3347,8 @@
             "paraid": 11,
             "text": "",
             "codeConfig": {
-              "codeid": "css_6_2_3",
-              "exampleid": "css_6_2_3_1",
+              "codeid": "css_7_2_3",
+              "exampleid": "css_7_2_3_1",
               "codeOutput": false,
               "exampleOutput": true,
               "codeTitle": "CSS",
@@ -2853,8 +3376,8 @@
             "paraid": 14,
             "text": "",
             "codeConfig": {
-              "codeid": "css_6_2_4",
-              "exampleid": "css_6_2_4_1",
+              "codeid": "css_7_2_4",
+              "exampleid": "css_7_2_4_1",
               "codeOutput": false,
               "exampleOutput": true,
               "codeTitle": "CSS",
@@ -2886,8 +3409,8 @@
             "paraid": 18,
             "text": "",
             "codeConfig": {
-              "codeid": "css_6_2_5",
-              "exampleid": "css_6_2_5_1",
+              "codeid": "css_7_2_5",
+              "exampleid": "css_7_2_5_1",
               "codeOutput": false,
               "exampleOutput": true,
               "codeTitle": "CSS",
@@ -2915,8 +3438,8 @@
             "paraid": 11,
             "text": "",
             "codeConfig": {
-              "codeid": "css_6_2_6",
-              "exampleid": "css_6_2_6_1",
+              "codeid": "css_7_2_6",
+              "exampleid": "css_7_2_6_1",
               "codeOutput": false,
               "exampleOutput": true,
               "codeTitle": "CSS",
@@ -2944,8 +3467,8 @@
             "paraid": 24,
             "text": "",
             "codeConfig": {
-              "codeid": "css_6_2_7",
-              "exampleid": "css_6_2_7_1",
+              "codeid": "css_7_2_7",
+              "exampleid": "css_7_2_7_1",
               "codeOutput": false,
               "exampleOutput": true,
               "codeTitle": "CSS",
@@ -2991,8 +3514,8 @@
             "paraid": 5,
             "text": "",
             "codeConfig": {
-              "codeid": "css_6_3_1",
-              "exampleid": "css_6_3_1_1",
+              "codeid": "css_7_3_1",
+              "exampleid": "css_7_3_1_1",
               "codeOutput": false,
               "exampleOutput": true,
               "codeTitle": "CSS",
@@ -3020,8 +3543,8 @@
             "paraid": 11,
             "text": "",
             "codeConfig": {
-              "codeid": "css_6_3_2",
-              "exampleid": "css_6_3_2_1",
+              "codeid": "css_7_3_2",
+              "exampleid": "css_7_3_2_1",
               "codeOutput": false,
               "exampleOutput": true,
               "codeTitle": "CSS",
@@ -3053,8 +3576,8 @@
             "paraid": 11,
             "text": "",
             "codeConfig": {
-              "codeid": "css_6_3_3",
-              "exampleid": "css_6_3_3_1",
+              "codeid": "css_7_3_3",
+              "exampleid": "css_7_3_3_1",
               "codeOutput": false,
               "exampleOutput": true,
               "codeTitle": "CSS",
@@ -3078,8 +3601,8 @@
             "paraid": 14,
             "text": "",
             "codeConfig": {
-              "codeid": "css_6_3_4",
-              "exampleid": "css_6_3_4_1",
+              "codeid": "css_7_3_4",
+              "exampleid": "css_7_3_4_1",
               "codeOutput": false,
               "exampleOutput": true,
               "codeTitle": "CSS",
@@ -3167,7 +3690,7 @@
   },
   {
     "category": "css",
-    "chid": 7,
+    "chid": 8,
     "title": "Transitions and Animations",
     "sections": [
       {
@@ -3190,7 +3713,7 @@
             "paraid": 5,
             "text": "",
             "codeConfig": {
-              "codeid": "css_7_1_1",
+              "codeid": "css_8_1_1",
               "exampleid": "",
               "codeOutput": false,
               "exampleOutput": false,
@@ -3215,7 +3738,7 @@
             "paraid": 8,
             "text": "",
             "codeConfig": {
-              "codeid": "css_7_1_2",
+              "codeid": "css_8_1_2",
               "exampleid": "",
               "codeOutput": false,
               "exampleOutput": false,
@@ -3240,7 +3763,7 @@
             "paraid": 11,
             "text": "",
             "codeConfig": {
-              "codeid": "css_7_1_3",
+              "codeid": "css_8_1_3",
               "exampleid": "",
               "codeOutput": false,
               "exampleOutput": false,
@@ -3265,7 +3788,7 @@
             "paraid": 14,
             "text": "",
             "codeConfig": {
-              "codeid": "css_7_1_4",
+              "codeid": "css_8_1_4",
               "exampleid": "",
               "codeOutput": false,
               "exampleOutput": false,
@@ -3290,7 +3813,7 @@
             "paraid": 14,
             "text": "",
             "codeConfig": {
-              "codeid": "css_7_1_5",
+              "codeid": "css_8_1_5",
               "exampleid": "",
               "codeOutput": false,
               "exampleOutput": false,
@@ -3315,7 +3838,7 @@
             "paraid": 14,
             "text": "",
             "codeConfig": {
-              "codeid": "css_7_1_6",
+              "codeid": "css_8_1_6",
               "exampleid": "",
               "codeOutput": false,
               "exampleOutput": false,
@@ -3336,8 +3859,8 @@
             "paraid": 19,
             "text": "",
             "codeConfig": {
-              "codeid": "css_7_1_7",
-              "exampleid": "css_7_1_7_1",
+              "codeid": "css_8_1_7",
+              "exampleid": "css_8_1_7_1",
               "codeOutput": false,
               "exampleOutput": true,
               "codeTitle": "CSS",
@@ -3383,7 +3906,7 @@
             "paraid": 5,
             "text": "",
             "codeConfig": {
-              "codeid": "css_7_2_1",
+              "codeid": "css_8_2_1",
               "exampleid": "",
               "codeOutput": false,
               "exampleOutput": false,
@@ -3412,7 +3935,7 @@
             "paraid": 5,
             "text": "",
             "codeConfig": {
-              "codeid": "css_7_2_2",
+              "codeid": "css_8_2_2",
               "exampleid": "",
               "codeOutput": false,
               "exampleOutput": false,
@@ -3445,7 +3968,7 @@
             "paraid": 11,
             "text": "",
             "codeConfig": {
-              "codeid": "css_7_2_3",
+              "codeid": "css_8_2_3",
               "exampleid": "",
               "codeOutput": false,
               "exampleOutput": false,
@@ -3474,7 +3997,7 @@
             "paraid": 14,
             "text": "",
             "codeConfig": {
-              "codeid": "css_7_2_4",
+              "codeid": "css_8_2_4",
               "exampleid": "",
               "codeOutput": false,
               "exampleOutput": false,
@@ -3507,7 +4030,7 @@
             "paraid": 17,
             "text": "",
             "codeConfig": {
-              "codeid": "css_7_2_5",
+              "codeid": "css_8_2_5",
               "exampleid": "",
               "codeOutput": false,
               "exampleOutput": false,
@@ -3536,7 +4059,7 @@
             "paraid": 20,
             "text": "",
             "codeConfig": {
-              "codeid": "css_7_2_6",
+              "codeid": "css_8_2_6",
               "exampleid": "",
               "codeOutput": false,
               "exampleOutput": false,
@@ -3565,7 +4088,7 @@
             "paraid": 23,
             "text": "",
             "codeConfig": {
-              "codeid": "css_7_2_7",
+              "codeid": "css_8_2_7",
               "exampleid": "",
               "codeOutput": false,
               "exampleOutput": false,
@@ -3594,7 +4117,7 @@
             "paraid": 26,
             "text": "",
             "codeConfig": {
-              "codeid": "css_7_2_8",
+              "codeid": "css_8_2_8",
               "exampleid": "",
               "codeOutput": false,
               "exampleOutput": false,
@@ -3615,8 +4138,8 @@
             "paraid": 28,
             "text": "",
             "codeConfig": {
-              "codeid": "css_7_2_9",
-              "exampleid": "css_7_2_9_1",
+              "codeid": "css_8_2_9",
+              "exampleid": "css_8_2_9_1",
               "codeOutput": false,
               "exampleOutput": true,
               "codeTitle": "CSS",
@@ -3654,8 +4177,8 @@
             "paraid": 4,
             "text": "",
             "codeConfig": {
-              "codeid": "css_7_3_1",
-              "exampleid": "css_7_3_1_1",
+              "codeid": "css_8_3_1",
+              "exampleid": "css_8_3_1_1",
               "codeOutput": false,
               "exampleOutput": true,
               "codeTitle": "CSS",
@@ -3679,8 +4202,8 @@
             "paraid": 7,
             "text": "",
             "codeConfig": {
-              "codeid": "css_7_3_2",
-              "exampleid": "css_7_3_2_1",
+              "codeid": "css_8_3_2",
+              "exampleid": "css_8_3_2_1",
               "codeOutput": false,
               "exampleOutput": true,
               "codeTitle": "CSS",
@@ -3704,8 +4227,8 @@
             "paraid": 10,
             "text": "",
             "codeConfig": {
-              "codeid": "css_7_3_3",
-              "exampleid": "css_7_3_3_1",
+              "codeid": "css_8_3_3",
+              "exampleid": "css_8_3_3_1",
               "codeOutput": false,
               "exampleOutput": true,
               "codeTitle": "CSS",
@@ -3729,8 +4252,8 @@
             "paraid": 16,
             "text": "",
             "codeConfig": {
-              "codeid": "css_7_3_4",
-              "exampleid": "css_7_3_4_1",
+              "codeid": "css_8_3_4",
+              "exampleid": "css_8_3_4_1",
               "codeOutput": false,
               "exampleOutput": true,
               "codeTitle": "JS",
@@ -3756,7 +4279,7 @@
   },
   {
     "category": "css",
-    "chid": 8,
+    "chid": 9,
     "title": "CSS Media Queries and Responsive Design",
     "sections": [
       {
@@ -3901,7 +4424,7 @@
             "paraid": 2,
             "text": "",
             "codeConfig": {
-              "codeid": "css_8_2_1",
+              "codeid": "css_9_2_1",
               "exampleid": "",
               "codeOutput": false,
               "exampleOutput": false,
@@ -3934,8 +4457,8 @@
             "paraid": 7,
             "text": "",
             "codeConfig": {
-              "codeid": "css_8_2_2",
-              "exampleid": "css_8_2_2_1",
+              "codeid": "css_9_2_2",
+              "exampleid": "css_9_2_2_1",
               "codeOutput": false,
               "exampleOutput": true,
               "codeTitle": "CSS",
@@ -3955,8 +4478,8 @@
             "paraid": 9,
             "text": "",
             "codeConfig": {
-              "codeid": "css_8_2_3",
-              "exampleid": "css_8_2_3_1",
+              "codeid": "css_9_2_3",
+              "exampleid": "css_9_2_3_1",
               "codeOutput": false,
               "exampleOutput": true,
               "codeTitle": "CSS",
@@ -3976,8 +4499,8 @@
             "paraid": 11,
             "text": "",
             "codeConfig": {
-              "codeid": "css_8_2_4",
-              "exampleid": "css_8_2_4_1",
+              "codeid": "css_9_2_4",
+              "exampleid": "css_9_2_4_1",
               "codeOutput": false,
               "exampleOutput": true,
               "codeTitle": "CSS",
@@ -3997,8 +4520,8 @@
             "paraid": 13,
             "text": "",
             "codeConfig": {
-              "codeid": "css_8_2_5",
-              "exampleid": "css_8_2_5_1",
+              "codeid": "css_9_2_5",
+              "exampleid": "css_9_2_5_1",
               "codeOutput": false,
               "exampleOutput": true,
               "codeTitle": "CSS",
@@ -4040,8 +4563,8 @@
             "paraid": 4,
             "text": "",
             "codeConfig": {
-              "codeid": "css_8_3_1",
-              "exampleid": "css_8_3_1_1",
+              "codeid": "css_9_3_1",
+              "exampleid": "css_9_3_1_1",
               "codeOutput": false,
               "exampleOutput": true,
               "codeTitle": "CSS",
@@ -4069,8 +4592,8 @@
             "paraid": 8,
             "text": "",
             "codeConfig": {
-              "codeid": "css_8_3_2",
-              "exampleid": "css_8_3_2_1",
+              "codeid": "css_9_3_2",
+              "exampleid": "css_9_3_2_1",
               "codeOutput": false,
               "exampleOutput": true,
               "codeTitle": "CSS",
@@ -4098,8 +4621,8 @@
             "paraid": 12,
             "text": "",
             "codeConfig": {
-              "codeid": "css_8_3_3",
-              "exampleid": "css_8_3_3_1",
+              "codeid": "css_9_3_3",
+              "exampleid": "css_9_3_3_1",
               "codeOutput": false,
               "exampleOutput": true,
               "codeTitle": "CSS",
@@ -4127,8 +4650,8 @@
             "paraid": 16,
             "text": "",
             "codeConfig": {
-              "codeid": "css_8_3_4",
-              "exampleid": "css_8_3_4_1",
+              "codeid": "css_9_3_4",
+              "exampleid": "css_9_3_4_1",
               "codeOutput": false,
               "exampleOutput": true,
               "codeTitle": "CSS",
@@ -4156,8 +4679,8 @@
             "paraid": 20,
             "text": "",
             "codeConfig": {
-              "codeid": "css_8_3_5",
-              "exampleid": "css_8_3_5_1",
+              "codeid": "css_9_3_5",
+              "exampleid": "css_9_3_5_1",
               "codeOutput": false,
               "exampleOutput": true,
               "codeTitle": "HTML",
@@ -4185,8 +4708,8 @@
             "paraid": 24,
             "text": "",
             "codeConfig": {
-              "codeid": "css_8_3_6",
-              "exampleid": "css_8_3_6_1",
+              "codeid": "css_9_3_6",
+              "exampleid": "css_9_3_6_1",
               "codeOutput": false,
               "exampleOutput": true,
               "codeTitle": "CSS",
@@ -4212,7 +4735,7 @@
   },
   {
     "category": "css",
-    "chid": 9,
+    "chid": 10,
     "title": "CSS Best Practices",
     "sections": [
       {

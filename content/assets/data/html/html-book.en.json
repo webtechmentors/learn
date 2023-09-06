@@ -1126,6 +1126,10 @@
         "paragraphs": [
           {
             "paraid": 1,
+            "text": "HTML lists are a fundamental component of web content that allow you to organize and present information in a structured manner. There are two main types of lists: unordered lists and ordered lists. Each type serves a distinct purpose and offers flexibility in displaying content."
+          },
+          {
+            "paraid": 1,
             "text": "<ol><li><strong>Unordered Lists</strong></li></ol>"
           },          
           {
