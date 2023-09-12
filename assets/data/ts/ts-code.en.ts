@@ -20,12 +20,12 @@ export const ts_1_3_2 =
 `npm init -y`;
 
 export const ts_1_3_3 =
-'function greet(name: string) { \n\
+"function greet(name: string) { \n\
   return `Hello, ${name}!`; \n\
 } \n\
 \n\
-const message = greet("TypeScript"); \n\
-console.log(message);';
+const message = greet('TypeScript'); \n\
+console.log(message);";
 
 export const ts_1_3_4 =
 `tsc main.ts`;
@@ -41,7 +41,7 @@ export const ts_2_1_1 =
 let price: number = 49.99;`;
 
 export const ts_2_1_2 =
-`let firstName: string = "John";
+`let firstName: string = 'John';
 let lastName: string = 'Doe';`;
 
 export const ts_2_1_3 =
@@ -49,18 +49,18 @@ export const ts_2_1_3 =
 let isStudent: boolean = false;`;
 
 export const ts_2_1_4 =
-`const mySymbol: symbol = Symbol("description");
+`const mySymbol: symbol = Symbol('description');
 
 const obj = {
-  [mySymbol]: "This is a value associated with the symbol"
+  [mySymbol]: 'This is a value associated with the symbol'
 };
 
-console.log(obj[mySymbol]); // "This is a value associated with the symbol"`;
+console.log(obj[mySymbol]); // 'This is a value associated with the symbol'`;
 
 export const ts_2_1_4_1 = getOutput('https://www.typescriptlang.org/play?ts=5.1.6#code/MYewdgzgLgBAtgTwMoLgIxAGwFwwqjTGAXhhXSwAoAiAEwFMJgAnASwAcpXxqBKAbgCwAKBgjQkWCDQArEjADeImDADaicoQC6uagBUAFqwgxjMAIYwAbucwBXehYgQQwVuaj1aMAO6soBjABjvgUmNQiAL5CouLgLpj0AHSYIADmlNIy6sgEWFoCMAD0RTD6RiZmljb2jubOru6e3n4BQQYheeEiQA');
 
 export const ts_2_1_5 =
-`let age: number = "25"; // Error: Type 'string' is not assignable to type 'number'.`;
+`let age: number = '25'; // Error: Type 'string' is not assignable to type 'number'.`;
 
 export const ts_2_2_1 =
 `let myUndefined: undefined = undefined;`;
@@ -69,15 +69,15 @@ export const ts_2_2_2 =
 `let myNull: null = null;`;
 
 export const ts_2_2_3 =
-`let myAny: any = "Hello, TypeScript!";`;
+`let myAny: any = 'Hello, TypeScript!';`;
 
 export const ts_2_2_4 =
-`let myUnknown: unknown = "Hello, TypeScript!";
-if (typeof myUnknown === "string") {
+`let myUnknown: unknown = 'Hello, TypeScript!';
+if (typeof myUnknown === 'string') {
     console.log(myUnknown.length);
 }`;
 
-export const ts_2_2_4_1 = getOutput('https://www.typescriptlang.org/play?ts=5.1.6#code/DYUwLgBAtgngqgOwNYIPYHcEC4IFdlqYQC8EARABIjDCoA0EAKjAA4gDKAxgE4CWLYAIRkA3AFgAULwBmEABRhWIVLNiIUGBCWKkyAZzB8EAczIBKCAG9JEWxE6oEe1KAB0tY3LUFN7kCbAACzNxCQBfIA');
+export const ts_2_2_4_1 = getOutput('https://www.typescriptlang.org/play?ts=5.1.6#code/DYUwLgBAtgngqgOwNYIPYHcEC4IFdlqYQC8EA5ABIjDCoA0EAKjAA4gDKAxgE4CWLYAIRkA3AFgAULwBmEABRhWIVLNiIUGBCWKkyAZzB8EAczIBKCAG9JEWxE6oEe1KAB0tY3LUFN7kCbAACzNxCQBfIA');
 
 export const ts_2_2_5 =
 `function throwError(message: string): never {
@@ -85,23 +85,23 @@ export const ts_2_2_5 =
 }`;
 
 export const ts_2_2_6 =
-`const uniqueKey: unique symbol = Symbol("unique property");
+`const uniqueKey: unique symbol = Symbol('unique property');
 const obj = {
-  [uniqueKey]: "This is a value associated with the unique symbol"
+  [uniqueKey]: 'This is a value associated with the unique symbol'
 };`;
 
 export const ts_2_3_1 =
 `let age: number = 25;
-let firstName: string = "John";
+let firstName: string = 'John';
 let isActive: boolean = true;`;
 
 export const ts_2_3_2 =
 `const pi: number = 3.14159;
-const greeting: string = "Hello, TypeScript!";`;
+const greeting: string = 'Hello, TypeScript!';`;
 
 export const ts_2_3_3 =
-`const name: string = "Alice";
-name = "Bob"; // Error: Cannot assign to 'name' because it is a constant.`;
+`const name: string = 'Alice';
+name = 'Bob'; // Error: Cannot assign to 'name' because it is a constant.`;
 
 export const ts_2_4_1 =
 'let age: number = 25; // age is explicitly annotated as type number \n\
@@ -111,23 +111,23 @@ function greet(name: string): string { \n\
 
 export const ts_2_4_2 =
 `let temperature = 30; // TypeScript infers temperature as type 'number'
-const appName = "MyApp"; // TypeScript infers appName as type 'string'`;
+const appName = 'MyApp'; // TypeScript infers appName as type 'string'`;
 
 export const ts_2_4_3 =
 `let age: number = 25; // Type annotation
-let name = "Alice"; // Type inference`;
+let name = 'Alice'; // Type inference`;
 
 export const ts_3_1_1 =
 `let numbers: number[] = [1, 2, 3, 4, 5];
-let names: string[] = ["Alice", "Bob", "Charlie"];`;
+let names: string[] = ['Alice', 'Bob', 'Charlie'];`;
 
 export const ts_3_1_2 =
 `let temperatures = [25, 30, 22]; // TypeScript infers temperatures as number[]`;
 
 export const ts_3_1_3 =
-`let fruits: string[] = ["apple", "banana", "orange"];
-let firstFruit: string = fruits[0]; // "apple"
-let secondFruit: string = fruits[1]; // "banana"`;
+`let fruits: string[] = ['apple', 'banana', 'orange'];
+let firstFruit: string = fruits[0]; // 'apple'
+let secondFruit: string = fruits[1]; // 'banana'`;
 
 export const ts_3_1_4 =
 `let numbers: number[] = [1, 2, 3, 4, 5];
@@ -136,7 +136,7 @@ numbers.push(6); // push() method is type-checked for number[]
 let poppedNumber: number | undefined = numbers.pop(); // pop() method returns a number or undefined if the array is empty`;
 
 export const ts_3_1_5 =
-`let colors: string[] = ["red", "green", "blue"];
+`let colors: string[] = ['red', 'green', 'blue'];
 
 for (let i = 0; i < colors.length; i++) {
   console.log(colors[i]);
@@ -150,20 +150,20 @@ for (let color of colors) {
   console.log(color);
 }`;
 
-export const ts_3_1_5_1 = getOutput('https://www.typescriptlang.org/play?ts=5.1.6#code/DYUwLgBAxg9sMCcDOAuCSwIJYDsDmA2gLoQC8EBARAiACaUA0EleNIOjzARsAK4iUiAbgCwAKHEAzRBAAUoSFjIQADEIhKAPNDiIkAOlD4wAC3VYA1BYCUEAN7iIOnEjghDMPLNjxkBLETWomIAvuLiPnr60ggAogCGUCbeughkAHz2js6uoB5ekQhB4iHFEmIxcgo6vhAwkjV6tg5iTrAubvkpvmUhQA');
+export const ts_3_1_5_1 = getOutput('https://www.typescriptlang.org/play?ts=5.1.6#code/DYUwLgBAxg9sMCcDOAuCSwIJYDsDmA2gLoQC8EBA5AiACaUA0EleNIOjzARsAK4iUiAbgCwAKHEAzRBAAUoSFjIQADEIhKAPNDiIkAOlD4wAC3VYA1BYCUEAN7iIOnEjghDMPLNjxkBLETWomIAvuLiPnr60ggAogCGUCbeughkAHz2js6uoB5ekQhB4iHFEmIxcgo6vhAwkjV6tg5iTrAubvkpvmUhQA');
 
 export const ts_3_1_6 =
-`let mixedArray: (number | string)[] = [1, "two", 3, "four"];`;
+`let mixedArray: (number | string)[] = [1, 'two', 3, 'four'];`;
 
 export const ts_3_1_7 =
 `let readOnlyArray: readonly number[] = [1, 2, 3];
 readOnlyArray.push(4); // Error: Property 'push' does not exist on type 'readonly number[]'`;
 
 export const ts_3_2_1 =
-`let person: [string, number] = ["Alice", 30];`;
+`let person: [string, number] = ['Alice', 30];`;
 
 export const ts_3_2_2 =
-`let name: string = person[0]; // "Alice"
+`let name: string = person[0]; // 'Alice'
 let age: number = person[1]; // 30`;
 
 export const ts_3_2_3 =
@@ -177,13 +177,13 @@ export const ts_3_2_4 =
 let [x, y] = getCoordinates();`;
 
 export const ts_3_2_5 =
-`let optionalTuple: [string, number?] = ["Alice"];`;
+`let optionalTuple: [string, number?] = ['Alice'];`;
 
 export const ts_3_2_6 =
-`let multiValueTuple: [string, ...number[]] = ["Alice", 1, 2, 3];`;
+`let multiValueTuple: [string, ...number[]] = ['Alice', 1, 2, 3];`;
 
 export const ts_3_2_7 =
-`let measurements: [string, number][] = [["height", 180], ["weight", 75]];`;
+`let measurements: [string, number][] = [['height', 180], ['weight', 75]];`;
 
 export const ts_4_1_1 =
 `function add(a: number, b: number): number {
@@ -207,7 +207,7 @@ function processValue(input: string | number): string | number {
 
 export const ts_4_1_4 =
 `function doSomething(callback: (result: string) => void) {
-  const result = "Finished";
+  const result = 'Finished';
   callback(result);
 }`;
 
@@ -215,7 +215,7 @@ export const ts_4_1_5 =
 `const multiply = (a: number, b: number): number => a * b;`;
 
 export const ts_4_2_1 =
-'function greet(name: string, age?: number): string { \n\
+"function greet(name: string, age?: number): string { \n\
   if (age) { \n\
     return `Hello, ${name}! You are ${age} years old.`; \n\
   } else { \n\
@@ -223,23 +223,23 @@ export const ts_4_2_1 =
   } \n\
 } \n\
 \n\
-console.log(greet("Alice"));           // Output: Hello, Alice! \n\
-console.log(greet("Bob", 30));         // Output: Hello, Bob! You are 30 years old.';
+console.log(greet('Alice'));           // Output: Hello, Alice! \n\
+console.log(greet('Bob', 30));         // Output: Hello, Bob! You are 30 years old.";
 
-export const ts_4_2_1_1 = getOutput('https://www.typescriptlang.org/play?ts=5.1.6#code/GYVwdgxgLglg9mABAcwE4FN1QBRgIYC26AXIgM5SoxjIA0iey6A-KWCAQEbqoCUpFKjUQBvRAFgAUIkQxgibI3S9RE6TMQYoIVEgAGACXQAbY3HoASEfiIBfAISIAmnBAMMiK0tuIAnujxUMkQ4YwATADo9AG41GR8TMnRVKQ1NLB19I1NzT2tCdAcYuMQfKTLpKQgEMlD0CLNkbDRMHAAiAEFjGAh0Nt5eWLThxAB6UcQAeRAoAAcZ0myzei6e9EcqmrqGuCaWrGw2gCE4Tjb6AGYABgGhkbGJ6bmFxCXck85HFzdA5Ou-AJBELhCJSIA');
+export const ts_4_2_1_1 = getOutput('https://www.typescriptlang.org/play?ts=5.1.6#code/GYVwdgxgLglg9mABAcwE4FN1QBRgIYC26AXIgM5SoxjIA0iey6A-KWCAQEbqoCUpFKjUQBvRAFgAUIkQxgibI3S9RE6TMQYoIVEgAGACXQAbY3HoASEfiIBfAISIAmnBAMMiK0tuIAnujxUMkQ4YwATADo9AG41GR8TMnRVKQ1NLB19I1NzT2tCdAcYuMQfKTLpKQgEMlD0CLNkbDRMHAByAEFjGAh0Nt5eWLThxAB6UcQAeRAoAAcZ0myzei6e9EcqmrqGuCaWrGw2gCE4Tjb6AGYABgGhkbGJ6bmFxCXck85HFzdA5Ou-AJBELhCJSIA');
 
 export const ts_4_2_2 =
-'function introduce(name: string, role: string = "user"): string { \n\
+"function introduce(name: string, role: string = 'user'): string { \n\
   return `My name is ${name} and I am a ${role}.`; \n\
 } \n\
 \n\
-console.log(introduce("Alice"));       // Output: My name is Alice and I am a user. \n\
-console.log(introduce("Bob", "admin")); // Output: My name is Bob and I am an admin.';
+console.log(introduce('Alice'));       // Output: My name is Alice and I am a user. \n\
+console.log(introduce('Bob', 'admin')); // Output: My name is Bob and I am an admin.";
 
-export const ts_4_2_2_1 = getOutput('https://www.typescriptlang.org/play?ts=5.1.6#code/GYVwdgxgLglg9mABDMUBOcAmIIFMAUYAhgLa4BciAzuigOYA0iGANhdbWHYgLyIBEIKrjT8AlJRpp6iAN6IAsAChEzXFBBokAAwCyAT0TEyyKogAks47gC+iImEyIAkvZL2Ls1rYB02gNyKSnbKQRAIVHBsPixwdPgo6Fg4BPwAgiwweOJigar5iAD0hYgA8iBQAA4VlAZGpLimiBlZjQ5OrqQeQiI+YRFRuDFxCagY2Hj4-ABCcABG-Ez8RJgkKDmBxWUV1VC1htZNs3P2ji5up-arKD7KQA');
+export const ts_4_2_2_1 = getOutput('https://www.typescriptlang.org/play?ts=5.1.6#code/JAMwrgdgxgLglgewgAjhGAnBATMUCmAFBAIYC2+AXMgM6ZoDmANMlgDZW30QPIC8yAORga+DIICU1OhkbIA3sgCwAKGSt8MMBhQADALIBPZKQqoayACTzT+AL7ISEbMgCSjso6vz29gHS6ANzKKg6qIVBINAgcfmwIDIRomDh4RIIAgmxwBJISweqFyAD0xcgA8mAwAA5V1EYm5PjmyFk5zU4u7uReImJ+EVEx+HEJSehYuASEggBCCABGgiyCJNhkaHnBpRVVtTD1xrYt8wuOzm4e547raH6qQA');
 
 export const ts_4_2_3 =
-'function greetUser(firstName: string, lastName?: string, title: string = "Mr."): string { \n\
+"function greetUser(firstName: string, lastName?: string, title: string = 'Mr.'): string { \n\
   if (lastName) { \n\
     return `Hello, ${title} ${firstName} ${lastName}!`; \n\
   } else { \n\
@@ -247,11 +247,11 @@ export const ts_4_2_3 =
   } \n\
 } \n\
 \n\
-console.log(greetUser("John"));                   // Output: Hello, Mr. John! \n\
-console.log(greetUser("Alice", "Smith"));          // Output: Hello, Mr. Alice Smith! \n\
-console.log(greetUser("Bob", undefined, "Dr."));  // Output: Hello, Dr. Bob!';
+console.log(greetUser('John'));                   // Output: Hello, Mr. John! \n\
+console.log(greetUser('Alice', 'Smith'));          // Output: Hello, Mr. Alice Smith! \n\
+console.log(greetUser('Bob', undefined, 'Dr.'));  // Output: Hello, Dr. Bob!";
 
-export const ts_4_2_3_1 = getOutput('https://www.typescriptlang.org/play?ts=5.1.6#code/GYVwdgxgLglg9mABAcwE4FN1QKoGd2oAUwMquUAcgIYC26AXIuajGMgDSIA2V51dAfkbNWHRLChcGTKCzaIAvIgBEAWVQA6ZQEphs0YgDeiALAAoRIhjBEhHn1rptR0xcuIMUEKiQADABLoXFxwnAAkhhJSAL6IESRklI6xEfZJdNEAhL4A3K6WsUH4LubuHljefoHBoXGRMJLoKYYJDhnZeaWIseY9FuYQCLhwUhohyIRomDj4RMoAUnAAFmA62nllm1vuAPQ7iADyIFAADseM1SGc6hqIiyuZroNgw6PjkxhYeASEygCCXBgEHQyk4ygAyjQGks1httog9odjmcoBcgldEDdEACgehEJDoY8BkMRugxnAJlMvrNfgAhOAAI1BiHAABN0CQwOhWWCACKaWGWRFHU7nRCXWr8270hmZcxAA');
+export const ts_4_2_3_1 = getOutput('https://www.typescriptlang.org/play?ts=5.1.6#code/JAMwrgdgxgLglgewgAgOYCcCmmYFUDOm6AFCHOvjAHICGAtpgFzKXpwSoA0yANjZbQYB+Zq3Zdk8GDyYsYbDsgC8yAOQBZdADpVASlHzxyAN7IAsAChkyOCGTE+A+pl0nzV68iwww6FAAMACUweHgRuABJjKRkAX2QosgpqZ3ioxxSGWIBCfwBud2t4kMI3S08vHF8A4NDwhOi4aUw04ySnLNyC8uR4yz6rSygkfAQZLTDUYgxsPEISVQApBAALCD1dAortnc8Aej3kAHkwGAAHU+ZasO5NLWRltez3YYhR8cnprBwCImJVACCPDgUEwqm4qgAynQmisNltdsgDsdThcYFcQjdkHdkECQZhkNDYc8hiMxpgJggpjMfvN-gAhBAAI3ByEgABNMGQIJh2RCACLaeHWZEnc6XZDXeqC+6MpnZIA');
 
 export const ts_4_2_4 =
 `function sumNumbers(...numbers: number[]): number {
@@ -268,14 +268,14 @@ export const ts_5_1_2 =
   constructor(public firstName: string, public lastName: string) {}
 }
 
-const person = new Person("John", "Doe");
+const person = new Person('John', 'Doe');
 console.log(person.firstName); // Output: John`;
 
-export const ts_5_1_2_1 = getOutput('https://www.typescriptlang.org/play?ts=5.1.6#code/MYGwhgzhAEAKCmAnCB7AdtA3gWAFDWmHQgBdEBXYElRACgAdyAjEAS2GgDNXkSA5MAFt4ALmilErNAHMANNEYt20cKQHCxEqdICUWAL55DuPETSkFSVBgC80NPADucK+loAiAFIoAFmnfy7gAiKPDuOgDcpsQoIPAAdCAo0gyuaPHcvOrwkdAA9HnQAPLkJIwkYt5+QA');
+export const ts_5_1_2_1 = getOutput('https://www.typescriptlang.org/play?ts=5.1.6#code/MYGwhgzhAEAKCmAnCB7AdtA3gWAFDWmHQgBdEBXYElRACgAdyAjEAS2GgDNXkSA5MAFt4ALmilErNAHMANNEYt20cKQHCxEqdICUWAL55D+PETSkFSVBgC80NPADucK+loByAFIoAFmnfy7gAiKPDuOgDcpsQoIPAAdCAo0gyuaPHcvOrwkdAA9HnQAPLkJIwkYt5+QA');
 
 export const ts_5_1_3 =
 `class Student {
-  public readonly school: string = "MountainView School";
+  public readonly school: string = 'MountainView School';
   private studentId: number;
 
   constructor(studentId: number) {
@@ -299,7 +299,7 @@ export const ts_5_1_4 =
     if (value >= 0) {
       this._radius = value;
     } else {
-      throw new Error("Radius cannot be negative.");
+      throw new Error('Radius cannot be negative.');
     }
   }
 
@@ -370,17 +370,17 @@ class Square extends Shape {
 export const ts_5_2_3 =
 `class Parent {
   greet(): void {
-    console.log("Hello from Parent");
+    console.log('Hello from Parent');
   }
 }
 
 class Child extends Parent {
   greet(): void {
-    console.log("Hello from Child");
+    console.log('Hello from Child');
   }
 }`;
 
-export const ts_5_2_3_1 = getOutput('https://www.typescriptlang.org/play?ts=5.1.6#code/MYGwhgzhAEAKYCcCmA7ALtA3gWAFDWgHNkk0AKASgC5oA3AewEsATLPAg4elCekJAHQh6hMgCIAEkhDDoAMwT0AtnESo0YigG520AL54DuPKEgwAwgAtGIVkgAeaVMxjxk6NviIly1Ok1YcL05uXn4hEXEpGXp5RRUrG2ZNHS8jPSA');
+export const ts_5_2_3_1 = getOutput('https://www.typescriptlang.org/play?ts=5.1.6#code/MYGwhgzhAEAKYCcCmA7ALtA3gWAFDWgHNkk0AKASgC5oA3AewEsATLPAg4elCekJAHQh6hMgHIAEkhDDoAMwT0AtnESo0YigG520AL54D+PKEgwAwgAtGIVkgAeaVMxjxk6NviIly1Ok1YcL05uXn4hEXEpGXp5RRUrG2ZNHS8jPSA');
 
 export const ts_5_2_4 =
 `const circle = new Circle(5);
@@ -436,7 +436,7 @@ export const ts_6_2_1 =
 type Name = string;
 
 let age: Age = 25;
-let name: Name = "Alice";`;
+let name: Name = 'Alice';`;
 
 export const ts_6_2_2 =
 `type Person = {
@@ -446,8 +446,8 @@ export const ts_6_2_2 =
 };
 
 let person: Person = {
-  firstName: "John",
-  lastName: "Doe",
+  firstName: 'John',
+  lastName: 'Doe',
   age: 30,
 };`;
 
@@ -468,15 +468,15 @@ type OptionalPerson = Partial<Person>;`;
 export const ts_6_2_6 =
 `type Wrapper<T> = { value: T };
 
-let stringWrapper: Wrapper<string> = { value: "Hello" };
+let stringWrapper: Wrapper<string> = { value: 'Hello' };
 let numberWrapper: Wrapper<number> = { value: 42 };`;
 
 export const ts_7_1_1 =
-`let value: any = "Hello, TypeScript!";
+`let value: any = 'Hello, TypeScript!';
 let length: number = (<string>value).length;`;
 
 export const ts_7_1_2 =
-`let value: any = "Hello, TypeScript!";
+`let value: any = 'Hello, TypeScript!';
 let length: number = (value as string).length;`;
 
 export const ts_7_2_1 =
@@ -484,24 +484,24 @@ export const ts_7_2_1 =
   return value as T;
 }
 
-let stringValue: string = castToType<string>("Hello");`;
+let stringValue: string = castToType<string>('Hello');`;
 
 export const ts_7_2_2 =
 `function isString(value: any): value is string {
-  return typeof value === "string";
+  return typeof value === 'string';
 }
 
-let value: any = "Hello";
+let value: any = 'Hello';
 if (isString(value)) {
   let length: number = value.length;
 }`;
 
 export const ts_7_2_3 =
 `function isStringArray(value: any[]): value is string[] {
-  return value.every(item => typeof item === "string");
+  return value.every(item => typeof item === 'string');
 }
 
-let array: any[] = ["Hello", "World"];
+let array: any[] = ['Hello', 'World'];
 if (isStringArray(array)) {
   let firstItem: string = array[0];
 }`;
@@ -509,14 +509,14 @@ if (isStringArray(array)) {
 export const ts_7_2_4 =
 `type StringOrNumber = string | number;
 
-let value: StringOrNumber = "Hello";
+let value: StringOrNumber = 'Hello';
 let length: number = (value as string).length; // Type assertion`;
 
 export const ts_7_2_5 =
 `type StringOrNumber = string | number;
 
-let value: StringOrNumber = "Hello";
-if (typeof value === "string") {
+let value: StringOrNumber = 'Hello';
+if (typeof value === 'string') {
   let length: number = value.length; // No type assertion needed
 }`;
 
@@ -532,26 +532,26 @@ export const ts_8_1_2 =
 
 export const ts_8_1_3 =
 `enum Direction {
-  Up = "UP",
-  Down = "DOWN",
-  Left = "LEFT",
-  Right = "RIGHT",
+  Up = 'UP',
+  Down = 'DOWN',
+  Left = 'LEFT',
+  Right = 'RIGHT',
 }
 
 let direction: Direction = Direction.Up;`;
 
 export const ts_8_1_4 =
 `enum Status {
-  Active = "ACTIVE",
-  Inactive = "INACTIVE",
-  Pending = "PENDING",
+  Active = 'ACTIVE',
+  Inactive = 'INACTIVE',
+  Pending = 'PENDING',
 }`;
 
 export const ts_8_1_5 =
 `let currentStatus: Status = Status.Active;
-console.log(currentStatus); // Output: "ACTIVE"`;
+console.log(currentStatus); // Output: 'ACTIVE'`;
 
-export const ts_8_1_5_1 = getOutput('https://www.typescriptlang.org/play?ts=5.1.6#code/KYOwrgtgBAygLgQzmAzlA3gWAFBSgQQGM4BLAN2CgF4oAifAYQBUBJANQFFaAaHPFkAmLlKNWiwByjVpx58oABVAATEiADm1Ogo4SAIpIDic7AF8cOADbA4UQmABOD0HHhJUALliJkaGm98AOiJSCgBuHEIAexAUKOtAyyj1AAp7JxcA1ABKMKgAenyoAHkwOAAHMq96ZnYuHCA');
+export const ts_8_1_5_1 = getOutput('https://www.typescriptlang.org/play?ts=5.1.6#code/KYOwrgtgBAygLgQzmAzlA3gWAFBSgQQGM4BLAN2CgF4oByfAYQBUBJANQFFaAaHPFkAmLlKNWiwByjVpx58oABVAATEiADm1Ogo4SAIpIDic7AF8cOADbA4UQmABOD0HHhJUALliJkaGm98AOiJSCgBuHEIAexAUKOtAyyj1AAp7JxcA1ABKMKgAenyoAHkwOAAHMq96ZnYuHCA');
 
 export const ts_8_1_6 =
 `enum Size {
@@ -566,7 +566,7 @@ export const ts_8_1_7 =
   Banana,
 }
 
-let fruitName: string = Fruit[1]; // "Banana"`;
+let fruitName: string = Fruit[1]; // 'Banana'`;
 
 export const ts_8_2_1 =
 'enum Color { \n\
@@ -626,7 +626,7 @@ export const ts_8_2_4 =
 let today: Day = Day.Wednesday;
 console.log(today); // Output: 3
 
-let dayName: string = Day[3]; // "Wednesday"`;
+let dayName: string = Day[3]; // 'Wednesday'`;
 
 export const ts_8_2_4_1 = getOutput('https://www.typescriptlang.org/play?ts=5.1.6#code/KYOwrgtgBAIghgTygbwLACgpQMphAE0QBoMsBZAewONKgBUxgBnQhEzKAdWHxGdfZY6ACzAAnFjQ4AxMQEsBtbHAAu4xegC+GDABtgKqCoqsAXLERQAvBYQA6br36IA3BgDGVJhX13dFAHMACmNWAEoXKAB6KKgAeTAVAAdE8wBmHXR9Q1YAOTgIYHMmFXkQAOtbAG00gF1ImKgAIkc+SQQmjCA');
 
@@ -636,7 +636,7 @@ export const ts_9_2_1 =
 }
 
 const numberResult = identity(42); // TypeScript infers T as number
-const stringResult = identity("Hello"); // TypeScript infers T as string`;
+const stringResult = identity('Hello'); // TypeScript infers T as string`;
 
 export const ts_9_2_2 =
 `class Box<T> {
@@ -652,18 +652,18 @@ export const ts_9_2_2 =
 }
 
 const numberBox = new Box<number>(42); // Creates a Box<number> instance
-const stringBox = new Box<string>("Hello"); // Creates a Box<string> instance`;
+const stringBox = new Box<string>('Hello'); // Creates a Box<string> instance`;
 
 export const ts_9_2_3 =
 `function combineArrays<T, U>(arr1: T[], arr2: U[]): (T | U)[] {
   return [...arr1, ...arr2];
 }
 
-const combinedArray = combineArrays([1, 2], ["a", "b"]); // Array of mixed types: [1, 2, "a", "b"]`;
+const combinedArray = combineArrays([1, 2], ['a', 'b']); // Array of mixed types: [1, 2, 'a', 'b']`;
 
 export const ts_9_2_4 =
 `const explicitResult = identity<number>(42); // Specifies T as number
-const explicitBox = new Box<string>("Hello"); // Specifies T as string`;
+const explicitBox = new Box<string>('Hello'); // Specifies T as string`;
 
 export const ts_9_3_1 =
 `interface Lengthy {
@@ -689,18 +689,18 @@ export const ts_9_3_3 =
   return obj[key];
 }
 
-const person = { name: "Alice", age: 30 };
-const name = getProperty(person, "name"); // Type of name is string
-const age = getProperty(person, "age"); // Type of age is number`;
+const person = { name: 'Alice', age: 30 };
+const name = getProperty(person, 'name'); // Type of name is string
+const age = getProperty(person, 'age'); // Type of age is number`;
 
 export const ts_9_3_4 =
-'class Animal { \n\
+"class Animal { \n\
   constructor(public name: string) {} \n\
 } \n\
 \n\
 class Cat extends Animal { \n\
   meow(): void { \n\
-    console.log("Meow!"); \n\
+    console.log('Meow!'); \n\
   } \n\
 } \n\
 \n\
@@ -708,16 +708,16 @@ function adopt<T extends Animal>(animal: T): void { \n\
   console.log(`You adopted ${animal.name}`); \n\
 } \n\
 \n\
-const cat = new Cat("Whiskers"); \n\
-adopt(cat); // Outputs: You adopted Whiskers';
+const cat = new Cat('Whiskers'); \n\
+adopt(cat); // Outputs: You adopted Whiskers";
 
-export const ts_9_3_4_1 = getOutput('https://www.typescriptlang.org/play?ts=5.1.6#code/MYGwhgzhAECCB2BLAtmE0De0CwAoa0wA9vBAC4BOArsGURQBQAOVARiIsNPGMgKYAuaOQqJ4AcwCUmAL45ccvPNCQYAYTBlofAB5k+8ACYwEKNJnkF+RAO4NJQgG5FEhi0oKESEIiD4A6ECJxBgAiAFk+WwBCUMkAbktoRQVLPAAzKnhaRBJoMEMiJjIAHgAVbT0DYzgkVBAAPgYwOrQhModoZ1d3fC9SXwCgkIADAE0iKnzC4r43ABIMFrMQfx5+GRGE+RTlby1gTWgAXm4+G2gNMjCAdQALRAgAaz4KCDjEvAKi68OybYA9ADoAB5KhkFhkCBCCZTb6zNz3R4vN54IA');
+export const ts_9_3_4_1 = getOutput('https://www.typescriptlang.org/play?ts=5.1.6#code/MYGwhgzhAECCB2BLAtmE0De0CwAoa0wA9vBAC4BOArsGURQBQAOVARiIsNPGMgKYAuaOQqJ4AcwCUmAL45ccvPNCQYAYTBlofAB5k+8ACYwEKNJnkF+RAO4NJQgG5FEhi0oKESEIiD4A6ECJxBgByAFk+WwBCUMkAbktoRQVLPAAzKnhaRBJoMEMiJjIAHgAVbT0DYzgkVBAAPgYwOrQhModoZ1d3fC9SXwCgkIADAE0iKnzC4r43ABIMFrMQfx5+GRGE+RTlby1gTWgAXm4+G2gNMjCAdQALRAgAaz4KCDjEvAKi68OybYA9ADoAB5KhkFhkCBCCZTb6zNz3R4vN5AA');
 
 export const ts_10_1_1 =
 `type Result = string | number;
 
 let data: Result;
-data = "Hello"; // Valid
+data = 'Hello'; // Valid
 data = 42;      // Valid
 // data = true; // Error: Type 'boolean' is not assignable to type 'Result'`;
 
@@ -733,7 +733,7 @@ type Employee = {
 type EmployeePerson = Person & Employee;
 
 let employee: EmployeePerson = {
-  firstName: "Alice",
+  firstName: 'Alice',
   employeeId: 123,
 };`;
 
@@ -748,20 +748,20 @@ type ConfigurableValue = Value & Configurable;`;
 
 export const ts_10_2_1 =
 `function isString(value: any): boolean {
-  return typeof value === "string";
+  return typeof value === 'string';
 }
 
-let data: any = "Hello, TypeScript!";
+let data: any = 'Hello, TypeScript!';
 if (isString(data)) {
   // Inside this block, TypeScript knows that 'data' is of type 'string'
   console.log(data.toUpperCase());
 }`;
 
-export const ts_10_2_1_1 = getOutput('https://www.typescriptlang.org/play?ts=5.1.6#code/GYVwdgxgLglg9mABDAzgZSgJxmA5gCgDcBDAGxAFMAuRYsATwEoaAjOOUiuxAbwFgAUIkSYKUEJiRR6ABwpxgiEuQqIAvBsQAiFFhy4tAbkEBfQYM5REAE2JRiNOvXXaAEhVKk4AGkQAVWQo0CGwZKABCI0EYRXxUDGw8fFt7RkZeQWEAeizEAEkwFBhrVSgAC1REFi8IAGtfALlg0KtasDgAdxREcrtEAHIU4n7kboUewIHdRNx+zMQIBBQOCgA6LwIh1ag4AFUZOUwAYWIUCnw04wETIA');
+export const ts_10_2_1_1 = getOutput('https://www.typescriptlang.org/play?ts=5.1.6#code/GYVwdgxgLglg9mABDAzgORAWwEYFMBOAFAG4CGANiLgFyKlgCeAlLWZbsiomFnvogG8AsAChEifLigh8SKAwAOuOMERsqiALzbEAch44CugNyiAvqMSjQkWAkQL8cCLhQoAahSokvNRCih8GDAAc0QAH25eAhY1OBgAE0FLZFVCVAxDInVcJiZksXEigHpixABJMBREjigAC1REbHJnAGsAGkQAFUVcAGUIIIUoRFawOAB3LnrSEd0c3U5EFUR5JT0DPl0UosQIBBQ4clwAOhaQn3ZEACpEACYmU0KzRFxyFA5hQt3Siqqa1YNLjNNqdHpKAZDEZjSbTOqzPQLJYrNYcXQBIKhbbfIr7KpHU7nS5UE5QOAAVQUSnwAGFSB9CHknuILCIzEA');
 
 export const ts_10_2_2 =
 `function isNumber(value: any): value is number {
-  return typeof value === "number";
+  return typeof value === 'number';
 }
 
 function processValue(value: string | number): void {
@@ -774,20 +774,20 @@ function processValue(value: string | number): void {
   }
 }`;
 
-export const ts_10_2_2_1 = getOutput('https://www.typescriptlang.org/play?ts=5.1.6#code/GYVwdgxgLglg9mABDAzgORAWwEYFMBOAFAG4CGANiLgFyKlgCeAlLWZbsiomFnvogG8AsAChEifLigh8SKAwAOuOMERsqiALzbEAIh44CugNyiAvqNGhIsBIgX44EXChQA1ClRKeaiFFHwYMABzRAAfbl4CFjU4GAATQVFxGFVCVAxDInVcJiYksXEigHpixABJMBQEjigAC1REbHInAGsAGkQAFUVcAGUIQIUoRFawOAB3LnrSEYByHLnORBVEeSVEOYM+OeSi8QgEFDhyXAA6FuDvdkQAKkQAJiZTQrNEXHIUDmFC-dKKqo1NYNLjNNqdHpKAZDEZjSbTOqzTaLZardYcOb+QIhXa-IqHKonc6Xa5UM5QOAAVQUSnwAGFSF9CHkXuILCIzEA');
+export const ts_10_2_2_1 = getOutput('https://www.typescriptlang.org/play?ts=5.1.6#code/GYVwdgxgLglg9mABDAzgORAWwEYFMBOAFAG4CGANiLgFyKlgCeAlLWZbsiomFnvogG8AsAChEifLigh8SKAwAOuOMERsqiALzbEAch44CugNyiAvqMSjQkWAkQL8cCLhQoAahSokvNRCih8GDAAc0QAH25eAhY1OBgAE0FLZFVCVAxDInVcJiZksXEigHpixABJMBREjigAC1REbHJnAGsAGkQAFUVcAGUIIIUoRFawOAB3LnrSEd0c3U5EFUR5JT0DPl0UosQIBBQ4clwAOhaQn3ZEACpEACYmU0KzRFxyFA5hQt3Siqqa1YNLjNNqdHpKAZDEZjSbTOqzPQLJYrNYcXQBIKhbbfIr7KpHU7nS5UE5QOAAVQUSnwAGFSB9CHknuILCIzEA');
 
 export const ts_10_2_3 =
 `function hasNameProperty(obj: any): obj is { name: string } {
-  return "name" in obj;
+  return 'name' in obj;
 }
 
-let item: any = { name: "Book" };
+let item: any = { name: 'Book' };
 if (hasNameProperty(item)) {
   // Inside this block, TypeScript knows that 'item' has a 'name' property of type 'string'
   console.log(item.name.toUpperCase());
 }`;
 
-export const ts_10_2_3_1 = getOutput('https://www.typescriptlang.org/play?ts=5.1.6#code/GYVwdgxgLglg9mABACwIYGcByqC2BTABQCc4AHPIqATwAo4AjAKwC5FUwqBKVhxxGdIgDeiMLjyt0UIjDABzRAF9hAWABQiRETxQQRJACIx+A-yS8A3OsXr1AGx38oeHK3ZVEAXmGjxrAwBCcHAA1qaKVmowwIg0aFjixGQU1DQwzjicnKoaiAD0eYgAkmDoMAAmeIhQyAKI9HZwECEANIgAKlTkAMoQMqRQiCFgcADugjWogwDk6S7TKBhsiNPGeAukJOSUHnAx1OQrUjLy0+qaEAjocA4AdI1yaRm3a7dQcACqpNsAwhh4NCykUUQA');
+export const ts_10_2_3_1 = getOutput('https://www.typescriptlang.org/play?ts=5.1.6#code/GYVwdgxgLglg9mABACwIYGcByqC2BTABQCc4AHPIqATwAo4AjAKwC5FUwqBKVhxxGdIgDeiMLjyt0UIjDABzRAF9hAWABQiRETxQQRJAHIx+A-yS8A3OsXrE6gDY7+UPDlbsqiALzDR41gYAQnBwANamilZqMMCINGhY4sRkFNQ0MC44nJyqGogA9PmIAJJg6DAAJniIUMgCiPT2cBChADSIACpU5ADKEDKkUIihYHAA7oK1qEMGGa6mCWyIRuKmpCTklJ5wsdTky1Iy8ga2iBAI6HCOAHRNcumZ18Z411BwAKqkmwDCGHg02SiiiAA');
 
 export const ts_10_3_1 =
 `T extends U ? X : Y`;
@@ -796,12 +796,12 @@ export const ts_10_3_2 =
 `type Extract<T, U> = T extends U ? T : never;
 type Exclude<T, U> = T extends U ? never : T;
 
-type Result1 = Extract<"a" | "b" | "c", "a" | "c">; // "a" | "c"
-type Result2 = Exclude<"a" | "b" | "c", "a" | "c">; // "b"`;
+type Result1 = Extract<'a' | 'b' | 'c', 'a' | 'c'>; // 'a' | 'c'
+type Result2 = Exclude<'a' | 'b' | 'c', 'a' | 'c'>; // 'b'`;
 
 export const ts_10_3_3 =
 `type Filter<T> = T extends string ? T : never;
-type Result = Filter<"a" | 123 | "b">; // Result is "a" | "b"`;
+type Result = Filter<'a' | 123 | 'b'>; // Result is 'a' | 'b'`;
 
 export const ts_10_4_1 =
 `type Partial<T> = {
@@ -847,11 +847,11 @@ function setDefaults<T>(input: T): Required<T> {
   return defaults;
 }
 
-const defaultUser = setDefaults({ id: 0, name: "", email: "" });`;
+const defaultUser = setDefaults({ id: 0, name: '', email: '' });`;
 
 export const ts_11_1_1 =
 `function myClassDecorator(constructor: Function) {
-  console.log("Class decorator called");
+  console.log('Class decorator called');
 }
 
 @myClassDecorator
@@ -859,7 +859,7 @@ class MyClass {
   // Class implementation
 }`;
 
-export const ts_11_1_1_1 = getOutput('https://www.typescriptlang.org/play?experimentalDecorators=true&ts=5.1.6#code/GYVwdgxgLglg9mABAWwJ4GEA2BDAzrgEQFMI4AnbKcgClLFyjJGnIC5EAxcaeMASkQBvALAAoRIjq44mIgDpMcAObUARFjy5EAExLlK5SdkyztqvgG4xAXzFiAAmg35ipClTJiIOfIgCyGD5aIuKIAPRhiM5aMMgADrLIRGBQlLw2QA');
+export const ts_11_1_1_1 = getOutput('https://www.typescriptlang.org/play?experimentalDecorators=true&ts=5.1.6#code/GYVwdgxgLglg9mABAWwJ4GEA2BDAzrgEQFMI4AnbKcgClLFyjJGnIC5EAxcaeMASkQBvALAAoRIjq44mIgDpMcAObUA5Fjy5EAExLlK5SdkyztqvgG4xAXzGIxAATQb8xUhSpkxEHPkQBZDF8tEXFEAHpwxBctGGQAB1lkIjAoSl4bIA');
 
 export const ts_11_2_1 =
 `function prefix(prefixStr: string) {
@@ -868,22 +868,22 @@ export const ts_11_2_1 =
   };
 }
 
-@prefix("My")
+@prefix('My')
 class Example {
   // Class implementation
 }
 
 const example = new Example();
-console.log(example.prefix); // Output: "My"`;
+console.log(example.prefix); // Output: 'My'`;
 
-export const ts_11_2_1_1 = getOutput('https://www.typescriptlang.org/play?experimentalDecorators=true&ts=5.1.6#code/GYVwdgxgLglg9mABABwE4FNgwB4Ao2Y4DKUqAXIgM6kxgDmAlIgN4CwAUIohlCKkqEiwEuKAENUddFAoAxcNHhgmbTl0TjJ0gHRo4UfQE9k6XRizZEAXhTnipANwcuAXyfsXzjgAECF3ABEALKGAQwcEAA2YpSUiACi2GIAtsiR6CzOiAD02YgAwtGxiDCp6cnoYOLCYByenBEI1IjoSWUZNmDoAO4JbWnouAzuEE1w6dqRcHS4rSkDZoTYwzl5APIgUMibFMGhHEA');
+export const ts_11_2_1_1 = getOutput('https://www.typescriptlang.org/play?experimentalDecorators=true&ts=5.1.6#code/GYVwdgxgLglg9mABABwE4FNgwB4Ao2Y4DKUqAXIgM6kxgDmAlIgN4CwAUIohlCKkqEiwEuKAENUddFAoAxcNHhgmbTl0TjJ0gHRo4UfQE9k6XRizZEAXhTnipANwcuAXyfsXzjgAECF3ADkALKGAQwcEAA2YpSUiACi2GIAtsiR6CzOiAD02YgAwtGxiDCp6cnoYOLCYByenBEI1IjoSWUZNmDoAO4JbWnouAzuEE1w6dqRcHS4rSkDZoTYwzl5APIgUMibFMGhHEA');
 
 export const ts_11_2_2 =
-'function logMethod(target: any, key: string, descriptor: PropertyDescriptor) { \n\
+"function logMethod(target: any, key: string, descriptor: PropertyDescriptor) { \n\
   const originalMethod = descriptor.value; \n\
   \n\
   descriptor.value = function (...args: any[]) { \n\
-    console.log(`Calling ${key} with arguments: ${args.join(", ")}`); \n\
+    console.log(`Calling ${key} with arguments: ${args.join(', ')}`); \n\
     const result = originalMethod.apply(this, args); \n\
     console.log(`Method ${key} returned: ${result}`); \n\
     return result; \n\
@@ -900,12 +900,12 @@ class Calculator { \n\
 } \n\
 \n\
 const calculator = new Calculator(); \n\
-calculator.add(2, 3);';
+calculator.add(2, 3);";
 
-export const ts_11_2_2_1 = getOutput('https://www.typescriptlang.org/play?experimentalDecorators=true&ts=5.1.6#code/GYVwdgxgLglg9mABAGzgcwLIFMoAs4AmAFFAIYBOaOAXIqWAJ4A0iA1lg7QM5TkxhoWBLFwh8ADlDjlaABXJxxWclAYAREWJiTpASkQBvRAFgAUIkQQEPRNJhp+pZNjyFEAXkTDREqeQB0AG5OIFgA3CbmkRbeWjoBwcihHoigkLAIiET+ORRoXLT0DADaALr6RmYWFlZgXHDIWP6oaEQABgDCTsj8aIgAJAbsDAC+iADuMHh0lCAAtlhgUAUDBnlc-gBWcPxEAEQse7ojbboRVdW1NuQiIMhQKXYOYE4u+AT+pOLiyAwkuDAuCx1mdopdrA0mi12m83INhmMblAQOQwFgCLRBjcuHcoCdQRcLEiUUhsbjzlERhSLBdiaivJpfNIKWMqmYIMhSFwuIgusgIHdSH5DGCAAItWEEMGkAjEUi0MDzABGyhYSoVyuUug1cxV5BFhMQdKQpEQAGpEErqYhWaZbZErg8IE4BZzhZ40eNeS7BX4iATTM7+b7pJ9ZUQAEwsADMZyAA');
+export const ts_11_2_2_1 = getOutput('https://www.typescriptlang.org/play?experimentalDecorators=true&ts=5.1.6#code/GYVwdgxgLglg9mABAGzgcwLIFMoAs4AmAFFAIYBOaOAXIqWAJ4A0iA1lg7QM5TkxhoWBLFwh8ADlDjlaABXJxxWclAYAREWJiTpASkQBvRAFgAUIkQQEPRNJhp+pZNjyFEAXkTDREqeQB0AG5OIFgA3CbmkRbeWjoBwcihHoigkLAIiET+ORRoXLT0DADaALr6RmYWFlZgXHDIWP6oaEQABgDCTsj8aIgAJAbsDAC+iADuMHh0lCAAtlhgUAUDBnlc-gBWcPxEAOQse7ojbboRVdW1NuQiIMhQKXYOYE4u+AT+pOLiyAwkuDAuCx1mdopdrA0mi12m83INhmMblAQOQwFgCLRBjcuHcoCdQRcLEiUUhsbjzlERhSLBdiaivJpfNIKWMqmYIMhSFwuIgusgIHdSH5DGCAAItWEEMGkAjEUi0MDzABGyhYSoVyuUug1cxV5BFhMQdKQpEQAGpEErqYhWaZbZErg8IE4BZzhZ40eNeS7BX4iATTM7+b7pJ9ZUQAEwsADMZyAA');
 
 export const ts_11_2_3 =
-'function logProperty(target: any, key: string) { \n\
+"function logProperty(target: any, key: string) { \n\
   let value = target[key]; \n\
   \n\
   const getter = () => { \n\
@@ -928,17 +928,17 @@ export const ts_11_2_3 =
 \n\
 class Person { \n\
   @logProperty \n\
-  name: string = "Alice"; \n\
+  name: string = 'Alice'; \n\
 } \n\
 \n\
 const person = new Person(); \n\
 console.log(person.name); \n\
-person.name = "Bob";';
+person.name = 'Bob';";
 
-export const ts_11_2_3_1 = getOutput('https://www.typescriptlang.org/play?experimentalDecorators=true&ts=5.1.6#code/GYVwdgxgLglg9mABAGzgcwAoCc4AcCmWUAngBRQCGWa+UAXIhWMQDSIDW+xDAzlFjDBoAlIgDeiALAAoRClqIAbhWQh8iALyJK1WgG1OxALoBuKbPNyICPohpQohTYlKiNAPnGW5ia2B5wyPgAdKhopAAGAOK0sEJKKmqIcMCIuDgERMSIACRihgC+DHnKqvgFEcJmMj6IWLQgWEilatUWBW1yNb42UIg8sU5apGD4AO4Aaon4DEzEbp4S3VY2gSFhkQDKsYJoCWXJqel4hCS5+VxF56OT0xVV3nIt6lo3U2WdiB3e3QDyAEYAK3w0GCABN8MBBPhsCcsuQqPY2IY2EsLHJ7Ax7I4sGxlv1aLxBrjHoh8GAQABbQgUf5BBj8NR49E9MBQtCNWn07RYJneAoPGQFSwyCDICg8HiIDCEAJINFyAACYVhmTO3TAFGpvH4u2cACIAILIGAQfD6trCmqi3ppWUIZw3aX2sCuNp+AJBULoUiZOXBTXUwXSP0IANal6IfUAITg-wtQA');
+export const ts_11_2_3_1 = getOutput('https://www.typescriptlang.org/play?experimentalDecorators=true&ts=5.1.6#code/GYVwdgxgLglg9mABAGzgcwAoCc4AcCmWUAngBRQCGWa+UAXIhWMQDSIDW+xDAzlFjDBoAlIgDeiALAAoRClqIAbhWQh8iALyJK1WgG1OxALoBuKbPNyICPohpQohTYlKiNAPnGW5ia2B5wyPgAdKhopAAGAOK0sEJKKmqIcMCIuDgERMSIACRihgC+DHnKqvgFEcJmMj6IWLQgWEilatUWBW1yNb42UIg8sU5apGD4AO4Aaon4DEzEbp4S3VY2gSFhkQDKsYJoCWXJqel4hCS5+VxF56OT0xVV3nIt6lo3U2WdiB3e3QDyAEYAK3w0GCABN8MBBPhsCcsuQqPY2IY2EsLHJ7Ax7I4sGxlv1aLxBrjHoh8GAQABbQgUf5BBj8NR49E9MBQtCNWn07RYJneAoPGQFSwyCDICg8HiIDCEAJINFyAACYVhmTO3TAFGpvH4u2cAHIAILIGAQfD6trCmqi3ppWUIZw3aX2sCuNp+AJBULoUiZOXBTXUwXSP0IANal6IfUAITg-wtQA');
 
 export const ts_11_2_4 =
-'function parameterLogger(target: any, methodName: string, parameterIndex: number) { \n\
+"function parameterLogger(target: any, methodName: string, parameterIndex: number) { \n\
   console.log(`Parameter decorator called on ${methodName} at index ${parameterIndex}`); \n\
 } \n\
 \n\
@@ -949,9 +949,9 @@ class ExampleClass { \n\
 } \n\
 \n\
 const exampleInstance = new ExampleClass(); \n\
-exampleInstance.greet("World");';
+exampleInstance.greet('World');";
 
-export const ts_11_2_4_1 = getOutput('https://www.typescriptlang.org/play?experimentalDecorators=true&ts=5.1.6#code/GYVwdgxgLglg9mABABwIYCdUFsCmUfoAycA5iQQBRQblQBciqYAngDSK5QAWcAJgHLYcDAM5R0MMCXZpMnAgEkwvHAA8GYEFgBGBAJSIA3ogCwAKESIICEXAA2OAHR3SFAAYAFDEPzpEK60woOD8IVDsHXkQERAASQ04eASEAX0YoREkVVTjDWR9FZTUUtz0AblMzNPNKiDtUERFEAFFVbGQHAGF6xqNKyxJ0HDwKAAF8+SJScj9cRtRyUXFJEgNjGssrG3snFxJ3AAkcCLh2eLmRBZwUgEJSio3qqv7zazAxRDV2hyUxJggcIgALyIMA4ADuLTaWA6OG6DREFHKlS+MJ+72okCcg2GUAoACIAOohOy8fHlIA');
+export const ts_11_2_4_1 = getOutput('https://www.typescriptlang.org/play?experimentalDecorators=true&ts=5.1.6#code/GYVwdgxgLglg9mABABwIYCdUFsCmUfoAycA5iQQBRQblQBciqYAngDSK5QAWcAJgHLYcDAM5R0MMCXZpMnAgEkwvHAA8GYEFgBGBAJSIA3ogCwAKESIICEXAA2OAHR3SFAAYAFDEPzpEK60woOD8IVDsHXkQERAASQ04eASEAX0YoREkVVTjDWR9FZTUUtz0AblMzNPNKiDtUERFEAFFVbGQHAGF6xqNKyxJ0HDwKAAF8+SJScj9cRtRyUXFJEgNjGssrG3snFxJ3AAkcCLh2eLmRBZwUgEJSio3qqv7zazAxRDV2hyUxJggcIgALyIMA4ADuLTaWA6OG6DREFHKlS+MJ+72okCcg2GUAoAHIAOohOy8fHlIA');
 
 export const ts_12_1_1 =
 `// math.ts
@@ -977,33 +977,33 @@ export type Point = { x: number; y: number };`;
 
 export const ts_12_1_4 =
 `// operations.ts
-export * from "./math"; // Re-export all named exports from math.ts
-export { default as MyLogger } from "./logger"; // Re-export default export as MyLogger`;
+export * from './math'; // Re-export all named exports from math.ts
+export { default as MyLogger } from './logger'; // Re-export default export as MyLogger`;
 
 export const ts_12_1_5 =
 `// main.ts
-import { add, subtract } from "./math";
+import { add, subtract } from './math';
 
 const result1 = add(10, 20);
 const result2 = subtract(30, 5);`;
 
 export const ts_12_1_6 =
 `// app.ts
-import MyLogger from "./logger";
+import MyLogger from './logger';
 
 const logger = new MyLogger();
-logger.log("Hello!");`;
+logger.log('Hello!');`;
 
 export const ts_12_1_7 =
 `// main.ts
-import { add as addition, subtract as subtraction } from "./math";
+import { add as addition, subtract as subtraction } from './math';
 
 const result1 = addition(10, 20);
 const result2 = subtraction(30, 5);`;
 
 export const ts_12_1_8 =
 `// geometry.ts
-import type { Point } from "./types";
+import type { Point } from './types';
 
 function calculateDistance(pointA: Point, pointB: Point): number {
     // ...
@@ -1011,17 +1011,17 @@ function calculateDistance(pointA: Point, pointB: Point): number {
 
 export const ts_12_1_9 =
 `// main.ts
-import * as mathModule from "./math";
+import * as mathModule from './math';
 
 const result1 = mathModule.add(10, 20);
 const result2 = mathModule.subtract(30, 5);`;
 
 export const ts_12_1_10 =
 `// Using a library with named exports
-import { someFunction } from "library";
+import { someFunction } from 'library';
 
 // Using a library with default export
-import MyLibrary from "my-library";`;
+import MyLibrary from 'my-library';`;
 
 export const ts_12_2_1 =
 `namespace Shapes {

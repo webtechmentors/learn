@@ -2,7 +2,7 @@ export const js_2_2_1 =
 `let age = 35;`;
 
 export const js_2_2_2 =
-`let name = "John";`;
+`let name = 'John';`;
 
 export const js_2_2_3 =
 `let isActive = true;`;
@@ -17,21 +17,21 @@ export const js_2_2_6 =
 `let id = Symbol();`;
 
 export const js_2_2_7 =
-`let person = { name: "John", age: 25 };`;
+`let person = { name: 'John', age: 25 };`;
 
 export const js_2_2_8 =
 `let bigNumber = BigInt(123456789);`;
 
 export const js_2_2_9 =
 `let age = 25;
-let str = "John is " + 25 + " years old." // returns "John is 25 years old." `;
+let str = 'John is ' + 25 + ' years old.' // returns 'John is 25 years old.' `;
 
 export const js_2_2_10 =
 `let age = 25; 
-let typeOfAge = typeof age; // returns "number"`;
+let typeOfAge = typeof age; // returns 'number'`;
 
 export const js_2_2_11 =
-`let person = { name: "John", age: 25 };
+`let person = { name: 'John', age: 25 };
 let isInstance = person instanceof Object; // returns true`;
 
 export const js_2_3_1 =
@@ -389,7 +389,7 @@ export const js_2_3_11_1 =
   <script>
     let num = 10;
     let result = num % 2 === 0 ? 'Even' : 'Odd';
-    console.log(result); // Output: "Even"
+    console.log(result); // Output: 'Even'
   </script>
 </body>
 </html>`;
@@ -516,9 +516,9 @@ export const js_2_4_1_1 =
     let number = 10;
 
     if (number > 0) {
-      console.log("The number is positive.");
+      console.log('The number is positive.');
     } else {
-      console.log("The number is zero or negative.");
+      console.log('The number is zero or negative.');
     }
   </script>
 </head>
@@ -545,11 +545,11 @@ export const js_2_4_2_1 =
     let num = -10;
 
     if (num > 0) {
-      console.log("The number is positive.");
+      console.log('The number is positive.');
     } else if (num < 0) {
-      console.log("The number is negative.");
+      console.log('The number is negative.');
     } else {
-      console.log("The number is zero.");
+      console.log('The number is zero.');
     }
   </script>
 </head>
@@ -576,26 +576,26 @@ export const js_2_4_3_1 =
   <title>Conditional Statement Example</title>
   <script src="assets/js/utils.js"></script>
   <script>
-    let day = "Thursday";
+    let day = 'Thursday';
 
     switch (day) {
-      case "Monday":
-        console.log("It's Monday!");
+      case 'Monday':
+        console.log('It's Monday!');
         break;
-      case "Tuesday":
-        console.log("It's Tuesday!");
+      case 'Tuesday':
+        console.log('It's Tuesday!');
         break;
-      case "Wednesday":
-        console.log("It's Wednesday!");
+      case 'Wednesday':
+        console.log('It's Wednesday!');
         break;
-      case "Thursday":
-        console.log("It's Thursday!");
+      case 'Thursday':
+        console.log('It's Thursday!');
         break;
-      case "Friday":
-        console.log("It's Friday!");
+      case 'Friday':
+        console.log('It's Friday!');
         break;
       default:
-        console.log("It's the weekend!");
+        console.log('It's the weekend!');
     }
   </script>
 </head>
@@ -616,7 +616,7 @@ export const js_2_4_4_1 =
   <script src="assets/js/utils.js"></script>
   <script>
     for (let i = 1; i <= 5; i++) {
-      console.log("Iteration " + i);
+      console.log('Iteration ' + i);
     }
   </script>
 </head>
@@ -639,7 +639,7 @@ export const js_2_4_5_1 =
     let count = 1;
 
     while (count <= 5) {
-      console.log("Iteration " + count);
+      console.log('Iteration ' + count);
       count++;
     }
   </script>
@@ -663,7 +663,7 @@ export const js_2_4_6_1 =
     let count = 1;
 
     do {
-      console.log("Iteration " + count);
+      console.log('Iteration ' + count);
       count++;
     } while (count <= 5);
   </script>
@@ -685,13 +685,13 @@ export const js_2_4_7_1 =
   <script src="assets/js/utils.js"></script>
   <script>
     const person = {
-      name: "John",
+      name: 'John',
       age: 30,
-      city: "New York"
+      city: 'New York'
     };
     
     for (let key in person) {
-      console.log(key + ": " + person[key]);
+      console.log(key + ': ' + person[key]);
     }
   </script>
 </head>
@@ -711,7 +711,7 @@ export const js_2_4_8_1 =
   <title>Loop Structure Example</title>
   <script src="assets/js/utils.js"></script>
   <script>
-    const fruits = ["apple", "banana", "orange"];
+    const fruits = ['apple', 'banana', 'orange'];
 
     for (let fruit of fruits) {
       console.log(fruit);
@@ -818,7 +818,7 @@ export const js_3_1_1_1 =
   <script src="assets/js/utils.js"></script>
   <script>
     function greet(name) {
-      const message = "Hello, " + name + "!";
+      const message = 'Hello, ' + name + '!';
     
       return message;
     }
@@ -839,13 +839,13 @@ export const js_3_1_2_1 =
   <script src="assets/js/utils.js"></script>
   <script>
     function greet(name) {
-      const message = "Hello, " + name + "!";
+      const message = 'Hello, ' + name + '!';
     
       return message;
     }
 
     // Calling the function
-    const result = greet("John");
+    const result = greet('John');
     console.log(result); // Output: Hello, John!
   </script>
 </head>
@@ -855,11 +855,11 @@ export const js_3_1_2_1 =
 
 export const js_3_1_3 =
 `// Global variable
-let globalVariable = "I'm a global variable";
+let globalVariable = 'I\'m a global variable';
 
 function exampleFunction() {
   // Local variable
-  let localVariable = "I'm a local variable";
+  let localVariable = 'I\'m a local variable';
 }`;
 
 export const js_3_1_3_1 =
@@ -870,11 +870,11 @@ export const js_3_1_3_1 =
   <script src="assets/js/utils.js"></script>
   <script>
     // Global variable
-    let globalVariable = "I'm a global variable";
+    let globalVariable = 'I\'m a global variable';
     
     function exampleFunction() {
       // Local variable
-      let localVariable = "I'm a local variable";
+      let localVariable = 'I\'m a local variable';
     
       console.log(globalVariable); // Accessing the global variable
       console.log(localVariable); // Accessing the local variable
@@ -904,12 +904,12 @@ export const js_3_1_4_1 =
   <script>
     let anonymousFunction = function(parameter1, parameter2) {
       // code to be executed
-      console.log("Parameters:", parameter1, parameter2);
-      console.log("Executing the anonymous function");
+      console.log('Parameters:', parameter1, parameter2);
+      console.log('Executing the anonymous function');
     };
     
     // Calling the anonymous function
-    anonymousFunction("Hello", "World");
+    anonymousFunction('Hello', 'World');
   </script>
 </head>
 <body>
@@ -918,7 +918,7 @@ export const js_3_1_4_1 =
 
 export const js_3_1_5 =
 `function outerFunction() {
-  let outerVariable = "I'm an outer variable";
+  let outerVariable = 'I\'m an outer variable';
 
   function innerFunction() {
     console.log(outerVariable); // Accessing the outer variable from the inner function
@@ -941,7 +941,7 @@ export const js_3_1_5_1 =
   <script src="assets/js/utils.js"></script>
   <script>
     function outerFunction() {
-      let outerVariable = "I'm an outer variable";
+      let outerVariable = 'I\'m an outer variable';
     
       function innerFunction() {
         console.log(outerVariable); // Accessing the outer variable from the inner function
@@ -998,8 +998,8 @@ export const js_3_1_7_1 =
   <script src="assets/js/utils.js"></script>
   <script>
     (function(name) {
-      console.log("Hello, " + name + "!");
-    })("John");
+      console.log('Hello, ' + name + '!');
+    })('John');
   </script>
 </head>
 <body>
@@ -1007,11 +1007,11 @@ export const js_3_1_7_1 =
 </html>`;
 
 export const js_3_2_1 =
-`const firstName = "John";
-const lastName = "Doe";
+`const firstName = 'John';
+const lastName = 'Doe';
 
-const fullName = firstName + " " + lastName;
-console.log(fullName); // Output: "John Doe"`;
+const fullName = firstName + ' ' + lastName;
+console.log(fullName); // Output: 'John Doe'`;
 
 export const js_3_2_1_1 =
 `<!DOCTYPE html>
@@ -1020,11 +1020,11 @@ export const js_3_2_1_1 =
   <title>String Concatenation Example</title>
   <script src="assets/js/utils.js"></script>
   <script>
-    const firstName = "John";
-    const lastName = "Doe";
+    const firstName = 'John';
+    const lastName = 'Doe';
     
-    const fullName = firstName + " " + lastName;
-    console.log(fullName); // Output: "John Doe"
+    const fullName = firstName + ' ' + lastName;
+    console.log(fullName); // Output: 'John Doe'
   </script>
 </head>
 <body>
@@ -1032,7 +1032,7 @@ export const js_3_2_1_1 =
 </html>`;
 
 export const js_3_2_2 =
-`const message = "Hello, World!";
+`const message = 'Hello, World!';
 console.log(message.length); // Output: 13`;
 
 export const js_3_2_2_1 =
@@ -1042,7 +1042,7 @@ export const js_3_2_2_1 =
   <title>String Length Example</title>
   <script src="assets/js/utils.js"></script>
   <script>
-    const message = "Hello, World!";
+    const message = 'Hello, World!';
     console.log(message.length); // Output: 13
   </script>
 </head>
@@ -1051,9 +1051,9 @@ export const js_3_2_2_1 =
 </html>`;
 
 export const js_3_2_3 =
-`const greeting = "Hello";
-console.log(greeting[0]); // Output: "H"
-console.log(greeting.charAt(1)); // Output: "e"`;
+`const greeting = 'Hello';
+console.log(greeting[0]); // Output: 'H'
+console.log(greeting.charAt(1)); // Output: 'e'`;
 
 export const js_3_2_3_1 =
 `<!DOCTYPE html>
@@ -1062,9 +1062,9 @@ export const js_3_2_3_1 =
   <title>Accessing Characters in a String Example</title>
   <script src="assets/js/utils.js"></script>
   <script>
-    const greeting = "Hello";
-    console.log(greeting[0]); // Output: "H"
-    console.log(greeting.charAt(1)); // Output: "e"
+    const greeting = 'Hello';
+    console.log(greeting[0]); // Output: 'H'
+    console.log(greeting.charAt(1)); // Output: 'e'
   </script>
 </head>
 <body>
@@ -1073,45 +1073,45 @@ export const js_3_2_3_1 =
 
 export const js_3_2_4 =
 `// The toLowerCase() method converts the string to all lowercase characters
-const str1 = "Hello, World!";
+const str1 = 'Hello, World!';
 const lowerCaseStr = str1.toLowerCase();
-console.log(lowerCaseStr); // Output: "hello, world!"
+console.log(lowerCaseStr); // Output: 'hello, world!'
 
 // The toUpperCase() method converts the string to all uppercase characters
-const str2 = "hello, world!";
+const str2 = 'hello, world!';
 const upperCaseStr = str2.toUpperCase();
-console.log(upperCaseStr); // Output: "HELLO, WORLD!"
+console.log(upperCaseStr); // Output: 'HELLO, WORLD!'
 
 // The slice() method extracts a portion of the string from index 7 to 11 (12-1)
-const str3 = "Hello, World!";
+const str3 = 'Hello, World!';
 const slicedStr = str3.slice(7, 12);
-console.log(slicedStr); // Output: "World"
+console.log(slicedStr); // Output: 'World'
 
-// The indexOf() method finds the index of the substring "World" in the string.
-const str4 = "Hello, World!";
-const index = str4.indexOf("World");
+// The indexOf() method finds the index of the substring 'World' in the string.
+const str4 = 'Hello, World!';
+const index = str4.indexOf('World');
 console.log(index); // Output: 7
 
-// The replace() method replaces the substring "Hello" with "Hi" in the string
-const str5 = "Hello, World!";
-const replacedStr = str5.replace("Hello", "Hi");
-console.log(replacedStr); // Output: "Hi, World!"
+// The replace() method replaces the substring 'Hello' with 'Hi' in the string
+const str5 = 'Hello, World!';
+const replacedStr = str5.replace('Hello', 'Hi');
+console.log(replacedStr); // Output: 'Hi, World!'
 
 // The split() method splits the string into an array of substrings based on ',' as a separator
-const str6 = "apple,banana,orange";
+const str6 = 'apple,banana,orange';
 const fruitArray = str6.split(',');
-console.log(fruitArray); // Output: ["apple", "banana", "orange"]
+console.log(fruitArray); // Output: ['apple', 'banana', 'orange']
 
 // The join() method joins the elements of the array into a single string with ' | ' as a separator
-const fruitArray2 = ["apple", "banana", "orange"];
+const fruitArray2 = ['apple', 'banana', 'orange'];
 const joinedFruits = fruitArray2.join(' | ');
-console.log(joinedFruits); // Output: "apple | banana | orange"
+console.log(joinedFruits); // Output: 'apple | banana | orange'
 
 // The match() method searches the string using a regular expression and returns an array of matches
-const str7 = "The quick brown fox jumps over the lazy dog.";
+const str7 = 'The quick brown fox jumps over the lazy dog.';
 const pattern = /quick|lazy/g;
 const matches = str7.match(pattern);
-console.log(matches); // Output: ["quick", "lazy"]`;
+console.log(matches); // Output: ['quick', 'lazy']`;
 
 export const js_3_2_4_1 =
 `<!DOCTYPE html>
@@ -1121,45 +1121,45 @@ export const js_3_2_4_1 =
   <script src="assets/js/utils.js"></script>
   <script>
     // The toLowerCase() method converts the string to all lowercase characters
-    const str1 = "Hello, World!";
+    const str1 = 'Hello, World!';
     const lowerCaseStr = str1.toLowerCase();
-    console.log(lowerCaseStr); // Output: "hello, world!"
+    console.log(lowerCaseStr); // Output: 'hello, world!'
     
     // The toUpperCase() method converts the string to all uppercase characters
-    const str2 = "hello, world!";
+    const str2 = 'hello, world!';
     const upperCaseStr = str2.toUpperCase();
-    console.log(upperCaseStr); // Output: "HELLO, WORLD!"
+    console.log(upperCaseStr); // Output: 'HELLO, WORLD!'
     
     // The slice() method extracts a portion of the string from index 7 to 11 (12-1)
-    const str3 = "Hello, World!";
+    const str3 = 'Hello, World!';
     const slicedStr = str3.slice(7, 12);
-    console.log(slicedStr); // Output: "World"
+    console.log(slicedStr); // Output: 'World'
     
-    // The indexOf() method finds the index of the substring "World" in the string.
-    const str4 = "Hello, World!";
-    const index = str4.indexOf("World");
+    // The indexOf() method finds the index of the substring 'World' in the string.
+    const str4 = 'Hello, World!';
+    const index = str4.indexOf('World');
     console.log(index); // Output: 7
     
-    // The replace() method replaces the substring "Hello" with "Hi" in the string
-    const str5 = "Hello, World!";
-    const replacedStr = str5.replace("Hello", "Hi");
-    console.log(replacedStr); // Output: "Hi, World!"
+    // The replace() method replaces the substring 'Hello' with 'Hi' in the string
+    const str5 = 'Hello, World!';
+    const replacedStr = str5.replace('Hello', 'Hi');
+    console.log(replacedStr); // Output: 'Hi, World!'
     
     // The split() method splits the string into an array of substrings based on ',' as a separator
-    const str6 = "apple,banana,orange";
+    const str6 = 'apple,banana,orange';
     const fruitArray = str6.split(',');
-    console.log(fruitArray); // Output: ["apple", "banana", "orange"]
+    console.log(fruitArray); // Output: ['apple', 'banana', 'orange']
     
     // The join() method joins the elements of the array into a single string with ' | ' as a separator
-    const fruitArray2 = ["apple", "banana", "orange"];
+    const fruitArray2 = ['apple', 'banana', 'orange'];
     const joinedFruits = fruitArray2.join(' | ');
-    console.log(joinedFruits); // Output: "apple | banana | orange"
+    console.log(joinedFruits); // Output: 'apple | banana | orange'
     
     // The match() method searches the string using a regular expression and returns an array of matches
-    const str7 = "The quick brown fox jumps over the lazy dog.";
+    const str7 = 'The quick brown fox jumps over the lazy dog.';
     const pattern = /quick|lazy/g;
     const matches = str7.match(pattern);
-    console.log(matches); // Output: ["quick", "lazy"]
+    console.log(matches); // Output: ['quick', 'lazy']
   </script>
 </head>
 <body>
@@ -1167,18 +1167,18 @@ export const js_3_2_4_1 =
 </html>`;
 
 export const js_3_2_5 =
-'const name = "John"; \n\
+"const name = 'John'; \n\
 const age = 30; \n\
 \n\
 const message = `My name is ${name} and I am ${age} years old.`; \n\
-console.log(message); // Output: "My name is John and I am 30 years old."'
+console.log(message); // Output: 'My name is John and I am 30 years old.'"
 
 export const js_3_2_5a =
-'const name = "John"; \n    \
+"const name = 'John'; \n    \
 const age = 30; \n    \
 \n    \
 const message = `My name is ${name} and I am ${age} years old.`; \n    \
-console.log(message); // Output: "My name is John and I am 30 years old."'
+console.log(message); // Output: 'My name is John and I am 30 years old.'"
 
 export const js_3_2_5_1 =
 `<!DOCTYPE html>
@@ -1195,11 +1195,11 @@ export const js_3_2_5_1 =
 </html>`;
 
 export const js_3_2_6 =
-`const heart = "\\u2665";
-console.log(heart); // Output: "♥"
+`const heart = '\\u2665';
+console.log(heart); // Output: '♥'
 
-const smiley = "\\u{1F604}";
-console.log(smiley); // Output: "😄"`;
+const smiley = '\\u{1F604}';
+console.log(smiley); // Output: '😄'`;
 
 export const js_3_2_6_1 =
 `<!DOCTYPE html>
@@ -1208,11 +1208,11 @@ export const js_3_2_6_1 =
   <title>Unicode Character Example</title>
   <script src="assets/js/utils.js"></script>
   <script>
-    const heart = "\\u2665";
-    console.log(heart); // Output: "♥"
+    const heart = '\\u2665';
+    console.log(heart); // Output: '♥'
     
-    const smiley = "\\u{1F604}";
-    console.log(smiley); // Output: "😄"
+    const smiley = '\\u{1F604}';
+    console.log(smiley); // Output: '😄'
   </script>
 </head>
 <body>
@@ -1379,23 +1379,23 @@ export const js_3_3_7_1 =
 export const js_3_4_1 =
 `// Using object literal syntax
 let person = {
-  name: "John",
+  name: 'John',
   age: 30,
-  profession: "Developer"
+  profession: 'Developer'
 };`;
 
 export const js_3_4_2 =
 `// Using Object constructor
 let person = new Object();
-person.name = "John";
+person.name = 'John';
 person.age = 30;
-person.profession = "Developer";`;
+person.profession = 'Developer';`;
 
 export const js_3_4_3 =
 `let person = {
-  name: "John",
+  name: 'John',
   age: 30,
-  profession: "Developer"
+  profession: 'Developer'
 };
 
 console.log(person.name); // Output: John
@@ -1409,9 +1409,9 @@ export const js_3_4_3_1 =
   <script src="assets/js/utils.js"></script>
   <script>
     let person = {
-      name: "John",
+      name: 'John',
       age: 30,
-      profession: "Developer"
+      profession: 'Developer'
     };
     
     console.log(person.name); // Output: John
@@ -1424,13 +1424,13 @@ export const js_3_4_3_1 =
 
 export const js_3_4_4 =
 `let person = {
-  name: "John",
+  name: 'John',
   age: 30,
-  profession: "Developer"
+  profession: 'Developer'
 };
 
 person.age = 35;
-person['profession'] = "Engineer";`;
+person['profession'] = 'Engineer';`;
 
 export const js_3_4_4_1 =
 `<!DOCTYPE html>
@@ -1440,13 +1440,13 @@ export const js_3_4_4_1 =
   <script src="assets/js/utils.js"></script>
   <script>
     let person = {
-      name: "John",
+      name: 'John',
       age: 30,
-      profession: "Developer"
+      profession: 'Developer'
     };
     
     person.age = 35;
-    person['profession'] = "Engineer";
+    person['profession'] = 'Engineer';
     
     console.log(person.age); // Output: 35
     console.log(person['profession']); // Output: Engineer
@@ -1458,12 +1458,12 @@ export const js_3_4_4_1 =
 
 export const js_3_4_5 =
 `let person = {
-  name: "John",
+  name: 'John',
   age: 30,
-  profession: "Developer"
+  profession: 'Developer'
 };
 
-person.city = "New York";`;
+person.city = 'New York';`;
 
 export const js_3_4_5_1 =
 `<!DOCTYPE html>
@@ -1473,12 +1473,12 @@ export const js_3_4_5_1 =
   <script src="assets/js/utils.js"></script>
   <script>
     let person = {
-      name: "John",
+      name: 'John',
       age: 30,
-      profession: "Developer"
+      profession: 'Developer'
     };
     
-    person.city = "New York";
+    person.city = 'New York';
       
     console.log(person.name); // Output: John
     console.log(person.city); // Output: New York
@@ -1490,9 +1490,9 @@ export const js_3_4_5_1 =
 
 export const js_3_4_6 =
 `let person = {
-  name: "John",
+  name: 'John',
   age: 30,
-  profession: "Developer"
+  profession: 'Developer'
 };
 
 delete person.profession;`;
@@ -1505,9 +1505,9 @@ export const js_3_4_6_1 =
   <script src="assets/js/utils.js"></script>
   <script>
     let person = {
-      name: "John",
+      name: 'John',
       age: 30,
-      profession: "Developer"
+      profession: 'Developer'
     };
     
     delete person.profession;
@@ -1522,10 +1522,10 @@ export const js_3_4_6_1 =
 
 export const js_3_4_7 =
 `let person = {
-  name: "John",
+  name: 'John',
   age: 30,
   sayHello: function() {
-    console.log("Hello!");
+    console.log('Hello!');
   }
 };
 
@@ -1539,10 +1539,10 @@ export const js_3_4_7_1 =
   <script src="assets/js/utils.js"></script>
   <script>
     let person = {
-      name: "John",
+      name: 'John',
       age: 30,
       sayHello: function() {
-        console.log("Hello!");
+        console.log('Hello!');
       }
     };
     
@@ -1555,19 +1555,19 @@ export const js_3_4_7_1 =
 
 export const js_3_4_8 =
 `let person = {
-  name: "John",
+  name: 'John',
   age: 30,
-  profession: "Developer"
+  profession: 'Developer'
 };
 
 for (let key in person) {
-  console.log(key + ": " + person[key]);
+  console.log(key + ': ' + person[key]);
 }
 
 let keys = Object.keys(person);
 for (let i = 0; i < keys.length; i++) {
   let key = keys[i];
-  console.log(key + ": " + person[key]);
+  console.log(key + ': ' + person[key]);
 }`;
 
 export const js_3_4_8_1 =
@@ -1578,19 +1578,19 @@ export const js_3_4_8_1 =
   <script src="assets/js/utils.js"></script>
   <script>
     let person = {
-      name: "John",
+      name: 'John',
       age: 30,
-      profession: "Developer"
+      profession: 'Developer'
     };
     
     for (let key in person) {
-      console.log(key + ": " + person[key]);
+      console.log(key + ': ' + person[key]);
     }
     
     let keys = Object.keys(person);
     for (let i = 0; i < keys.length; i++) {
       let key = keys[i];
-      console.log(key + ": " + person[key]);
+      console.log(key + ': ' + person[key]);
     }
   </script>
 </head>
@@ -1603,11 +1603,11 @@ export const js_3_4_9 =
   this.name = name;
   this.age = age;
   this.sayHello = function() {
-    console.log("Hello, my name is " + this.name);
+    console.log('Hello, my name is ' + this.name);
   };
 }
 
-let john = new Person("John", 30);
+let john = new Person('John', 30);
 john.sayHello(); // Output: Hello, my name is John`;
 
 export const js_3_4_9_1 =
@@ -1621,11 +1621,11 @@ export const js_3_4_9_1 =
       this.name = name;
       this.age = age;
       this.sayHello = function() {
-        console.log("Hello, my name is " + this.name);
+        console.log('Hello, my name is ' + this.name);
       };
     }
     
-    let john = new Person("John", 30);
+    let john = new Person('John', 30);
     john.sayHello(); // Output: Hello, my name is John
   </script>
 </head>
@@ -2199,7 +2199,7 @@ export const js_5_2_1_1 =
   <script>
     // Define a function called 'greet' with parameters 'name' and 'callback'
     function greet(name, callback) {
-      const message = "Hello, " + name + "!";
+      const message = 'Hello, ' + name + '!';
     
       // Call the 'callback' function and pass the 'message' as an argument
       callback(message);
@@ -2264,13 +2264,13 @@ export const js_5_3_1 =
     // Simulating an asynchronous operation with setTimeout
     setTimeout(function() {
       // Simulating a successful response
-      const data = { message: "Data successfully fetched!" };
+      const data = { message: 'Data successfully fetched!' };
 
       // Resolve the promise with the data
       resolve(data);
       
       // Simulating an error scenario
-      // reject(new Error("Failed to fetch data!"));
+      // reject(new Error('Failed to fetch data!'));
     }, 2000); // Wait for 2 seconds
   });
 }`;
@@ -2289,13 +2289,13 @@ export const js_5_3_1_1 =
         // Simulating an asynchronous operation with setTimeout
         setTimeout(function() {
           // Simulating a successful response
-          const data = { message: "Data successfully fetched!" };
+          const data = { message: 'Data successfully fetched!' };
     
           // Resolve the promise with the data
           resolve(data);
     
           // Simulating an error scenario
-          // reject(new Error("Failed to fetch data!"));
+          // reject(new Error('Failed to fetch data!'));
         }, 2000); // Wait for 2 seconds
       });
     }
@@ -2358,7 +2358,7 @@ export const js_5_3_2_1 =
     
     // Function to further process the transformed result and log the final output
     function processTransformedData(transformedData) {
-      console.log("Final result:", transformedData.reduce((sum, item) => sum + item, 0));
+      console.log('Final result:', transformedData.reduce((sum, item) => sum + item, 0));
     }
     
     // Chain the Promises together
@@ -2373,7 +2373,7 @@ export const js_5_3_2_1 =
       })
       .catch((error) => {
         // Handle any errors along the chain
-        console.error("Error occurred:", error);
+        console.error('Error occurred:', error);
       });
   </script>
 </body>
@@ -2450,9 +2450,9 @@ export const js_5_4_2_1 =
 </html>`;
 
 export const js_5_5_1 =
-`// Adding an event listener to a DOM element for "click" event
-document.getElementById("myButton").addEventListener("click", function() {
-  alert("Button Clicked!");
+`// Adding an event listener to a DOM element for 'click' event
+document.getElementById('myButton').addEventListener('click', function() {
+  alert('Button Clicked!');
 });`;
 
 export const js_5_5_1_1 =
@@ -2464,9 +2464,9 @@ export const js_5_5_1_1 =
 <body>
   <button id="myButton">Click Me!</button>
   <script>
-    // Adding an event listener to the button element for "click" event
-    document.getElementById("myButton").addEventListener("click", function() {
-      alert("Button Clicked!");
+    // Adding an event listener to the button element for 'click' event
+    document.getElementById('myButton').addEventListener('click', function() {
+      alert('Button Clicked!');
     });
   </script>
 </body>
@@ -2544,28 +2544,28 @@ export const js_6_1_2_1 =
 </html>`;
 
 export const js_6_1_3 =
-`const copyButton = document.getElementById("copyButton");
-const textToCopy = "Hello, world!";
+`const copyButton = document.getElementById('copyButton');
+const textToCopy = 'Hello, world!';
 
-copyButton.addEventListener("click", async () => {
+copyButton.addEventListener('click', async () => {
   try {
     await navigator.clipboard.writeText(textToCopy);
-    console.log("Text copied to clipboard successfully!");
+    console.log('Text copied to clipboard successfully!');
   } catch (err) {
-    console.error("Failed to copy text:", err);
+    console.error('Failed to copy text:', err);
   }
 });`;
 
 export const js_6_1_4 =
-`const pasteButton = document.getElementById("pasteButton");
-const outputElement = document.getElementById("output");
+`const pasteButton = document.getElementById('pasteButton');
+const outputElement = document.getElementById('output');
 
-pasteButton.addEventListener("click", async () => {
+pasteButton.addEventListener('click', async () => {
   try {
     const textFromClipboard = await navigator.clipboard.readText();
-    outputElement.textContent = "Text from clipboard: " + textFromClipboard;
+    outputElement.textContent = 'Text from clipboard: ' + textFromClipboard;
   } catch (err) {
-    console.error("Failed to read text from clipboard:", err);
+    console.error('Failed to read text from clipboard:', err);
   }
 });`;
 
@@ -2582,27 +2582,27 @@ export const js_6_1_4_1 =
   <div id="output"></div>
 
   <script>
-    const inputText = document.getElementById("inputText");
-    const copyButton = document.getElementById("copyButton");
-    const pasteButton = document.getElementById("pasteButton");
-    const outputElement = document.getElementById("output");
+    const inputText = document.getElementById('inputText');
+    const copyButton = document.getElementById('copyButton');
+    const pasteButton = document.getElementById('pasteButton');
+    const outputElement = document.getElementById('output');
 
-    copyButton.addEventListener("click", async () => {
+    copyButton.addEventListener('click', async () => {
       const textToCopy = inputText.value;
       try {
         await navigator.clipboard.writeText(textToCopy);
-        console.log("Text copied to clipboard successfully!");
+        console.log('Text copied to clipboard successfully!');
       } catch (err) {
-        console.error("Failed to copy text:", err);
+        console.error('Failed to copy text:', err);
       }
     });
 
-    pasteButton.addEventListener("click", async () => {
+    pasteButton.addEventListener('click', async () => {
       try {
         const textFromClipboard = await navigator.clipboard.readText();
-        outputElement.textContent = "Text from clipboard: " + textFromClipboard;
+        outputElement.textContent = 'Text from clipboard: ' + textFromClipboard;
       } catch (err) {
-        console.error("Failed to read text from clipboard:", err);
+        console.error('Failed to read text from clipboard:', err);
       }
     });
   </script>
@@ -2679,7 +2679,7 @@ try {
   xhr = new XMLHttpRequest();
 } catch (error) {
   // Handle initialization error
-  console.error("XMLHttpRequest creation failed:", error);
+  console.error('XMLHttpRequest creation failed:', error);
 }`;
 
 export const js_6_2_7 =
@@ -2723,7 +2723,7 @@ export const js_6_2_10_1 =
       xhr = new XMLHttpRequest();
     } catch (error) {
       // Handle initialization error
-      console.error("XMLHttpRequest creation failed:", error);
+      console.error('XMLHttpRequest creation failed:', error);
     }
 
     // Set up the AJAX request
@@ -3410,7 +3410,7 @@ export const js_7_2_7_1 =
 </html>`;
 
 export const js_7_2_8 =
-`const text = "The quick brown fox jumps over the lazy dog.";
+`const text = 'The quick brown fox jumps over the lazy dog.';
 
 // Regular expression pattern to search for all words starting with 't' or 'T'
 const pattern = /[tT]\\w+/g;
@@ -3434,7 +3434,7 @@ export const js_7_2_8_1 =
 </head>
 <body>
   <script>
-    const text = "The quick brown fox jumps over the lazy dog.";
+    const text = 'The quick brown fox jumps over the lazy dog.';
 
     // Regular expression pattern to search for all words starting with 't' or 'T'
     const pattern = /[tT]\\w+/g;
@@ -3490,7 +3490,7 @@ export const js_7_3_1_1 =
       const product = multiply(12, 15);
     
       // Create a text containing the calculated values
-      const text = "sum = " + sum + ", " + "difference = " + difference + ", " + "product = " + product;
+      const text = 'sum = ' + sum + ', ' + 'difference = ' + difference + ', ' + 'product = ' + product;
     
       // Call the output function
       output(text);
@@ -3498,7 +3498,7 @@ export const js_7_3_1_1 =
     
     // Define the output function to display the text in a <p> element
     function output(text) {
-      let elem = document.querySelector("p");
+      let elem = document.querySelector('p');
       elem.innerText = text;
     }
     
@@ -3524,9 +3524,9 @@ export const js_7_3_2_1 =
 
   <!-- Indicate that the JavaScript code within the script tag is an ES6 module -->
   <script type="module">
-    // Define an asynchronous function called "main"
+    // Define an asynchronous function called 'main'
     async function main() {
-      // Dynamically import the math.module.js module using "import()" and extract "add", "subtract", and "multiply" functions
+      // Dynamically import the math.module.js module using 'import()' and extract 'add', 'subtract', and 'multiply' functions
       const { add, subtract, multiply } = await import('./assets/data/modules/math.module.js');
     
       // Calculate the sum, difference, and product using the imported functions
@@ -3535,19 +3535,19 @@ export const js_7_3_2_1 =
       const product = multiply(12, 15);
     
       // Return a string containing the calculated values
-      return "sum = " + sum + ", " + "difference = " + difference + ", " + "product = " + product;
+      return 'sum = ' + sum + ', ' + 'difference = ' + difference + ', ' + 'product = ' + product;
     };
     
-    // Define the "output" function to display the text in a <p> element
+    // Define the 'output' function to display the text in a <p> element
     function output(text) {
-      let elem = document.querySelector("p");
+      let elem = document.querySelector('p');
       elem.innerText = text;
     }
     
-    // Call the "main" function asynchronously
+    // Call the 'main' function asynchronously
     main()
       .then(output)
-      .catch(() => output("Your browser doesn't support this feature."));
+      .catch(() => output('Your browser doesn't support this feature.'));
   </script>
 </body>
 </html>`;
@@ -3574,12 +3574,12 @@ export const js_8_2_1_1 =
     function handleError() {
       try {
         // Simulating code that might throw an error
-        throw new Error("Custom error message");
+        throw new Error('Custom error message');
       } catch (error) {
         // Handle the error
         console.error('Error: ' + error.message);
       } finally {
-        console.log('"Finally" code is exexuted.')
+        console.log(''Finally' code is exexuted.')
       }
     }
 

@@ -59,7 +59,7 @@ $line-height: 1.5;
 $percentage: 100%;`;
 
 export const sass_2_1_2 =
-`$font-family-1: "Helvetica, Arial, sans-serif";
+`$font-family-1: 'Helvetica, Arial, sans-serif';
 $font-family-2: Helvetica, Arial, sans-serif;`;
 
 export const sass_2_1_3 =
@@ -130,7 +130,7 @@ export const sass_2_2_4 =
 .element {
   $variable: 20px;
 
-  width: $variable; // Output will be "width: 20px;"
+  width: $variable; // Output will be 'width: 20px;'
 }`;
 
 export const sass_2_2_4_1 =
@@ -143,11 +143,11 @@ export const sass_2_2_5 =
 
 .element {
   $variable: 20px !global;
-  width: $variable; // Output will be "width: 20px;"
+  width: $variable; // Output will be 'width: 20px;'
 }
 
 .another-element {
-  width: $variable; // Output will be "width: 20px;"
+  width: $variable; // Output will be 'width: 20px;'
 }`;
 
 export const sass_2_2_5_1 =
@@ -172,7 +172,7 @@ export const sass_2_3_1_1 =
 }`;
 
 export const sass_2_3_2 =
-`$border-direction: "bottom";
+`$border-direction: 'bottom';
 $size: 1px;
 
 .border-#{str-slice($border-direction, 0, 3)}-#{$size} {
@@ -197,8 +197,8 @@ export const sass_2_3_3_1 =
 }`;
 
 export const sass_2_3_4 =
-`$property: "transition";
-$prefix: "webkit";
+`$property: 'transition';
+$prefix: 'webkit';
 
 .-#{$prefix}-#{$property} {
   -#{$prefix}-#{$property}: all 0.3s ease;
@@ -210,16 +210,16 @@ export const sass_2_3_4_1 =
 }`;
 
 export const sass_2_3_5 =
-`$image-name: "icon";
-$url-path: "/images/";
+`$image-name: 'icon';
+$url-path: '/images/';
 
 .background {
-  background-image: url("#{$url-path}#{$image-name}.png");
+  background-image: url('#{$url-path}#{$image-name}.png');
 }`;
 
 export const sass_2_3_5_1 =
 `.background {
-  background-image: url("/images/icon.png");
+  background-image: url('/images/icon.png');
 }`;
 
 export const sass_2_4_1 =
@@ -243,8 +243,8 @@ export const sass_2_4_1_1 =
 }`;
 
 export const sass_2_4_2 =
-`$theme: "light";
-$class-name: "button" + "-" + $theme; // "button-light"`;
+`$theme: 'light';
+$class-name: 'button' + '-' + $theme; // 'button-light'`;
 
 export const sass_2_4_3 =
 `$is-large: $base-size >= 20px; // false`;
@@ -665,12 +665,12 @@ export const sass_3_5_1_1 =
 
 export const sass_3_5_2 =
 `.content {
-  content: str-insert("Hello", " world", 6); // Output: "Hello world"
+  content: str-insert('Hello', ' world', 6); // Output: 'Hello world'
 }`;
 
 export const sass_3_5_2_1 =
 `.content {
-  content: "Hello world";
+  content: 'Hello world';
 }`;
 
 export const sass_3_5_3 =
@@ -696,8 +696,8 @@ export const sass_3_5_4_1 =
 
 export const sass_3_5_5 =
 `.box {
-  $my-map: ( "width": 100px, "height": 200px );
-  height: map-get($my-map, "height"); // Output: height: 200px;
+  $my-map: ( 'width': 100px, 'height': 200px );
+  height: map-get($my-map, 'height'); // Output: height: 200px;
 }`;
 
 export const sass_3_5_5_1 =
@@ -767,7 +767,7 @@ export const sass_3_7_2 =
 
 export const sass_3_7_2_1 =
 `.button {
-  content: "CLICK ME";
+  content: 'CLICK ME';
 }`;
 
 export const sass_3_7_3 =
@@ -829,9 +829,9 @@ export const sass_3_7_6_1 =
 }`;
 
 export const sass_3_7_7 =
-`@use "sass:meta";
+`@use 'sass:meta';
 
-$type: meta.type-of(42);  // Output: "number"`;
+$type: meta.type-of(42);  // Output: 'number'`;
 
 export const sass_3_7_7_1 =
 ``;
@@ -858,5 +858,5 @@ export const sass_4_2_2 =
 `$my-variable: 42;
 
 @if unitless($my-variable) {
-  @warn "Expected $my-variable to have a unit."; // Output: "Expected $my-variable to have a unit."
+  @warn 'Expected $my-variable to have a unit.'; // Output: 'Expected $my-variable to have a unit.'
 }`;
