@@ -18,75 +18,159 @@
           },
           {
             "paraid": 1,
-            "text": "<ol><li><strong>Client-Side Scripting</strong></li></ol>"
+            "text": "<ol><li><strong>Core Features</strong></li></ol>"
           },
           {
             "paraid": 1,
-            "text": "<ul>JavaScript is mainly used as a client-side scripting language, meaning it runs on the user's web browser and enables interactivity with web pages. It can manipulate the Document Object Model (DOM) of a webpage, enabling dynamic content updates, event handling, and user interactions.</ul>"
+            "text": "<ul><ul><li><strong>Dynamic Typing</strong></li></ul></ul>"
           },
           {
             "paraid": 1,
-            "text": "<ol start=\"2\"><li><strong>Flexible Images and Media</strong></li></ol>"
+            "text": "<ul><ul>JavaScript is dynamically typed, which means you don't have to specify the data type of a variable when you declare it.</ul></ul>"
           },
           {
             "paraid": 1,
-            "text": "<ul>Ensuring that images and media content can scale and resize appropriately to fit different screen dimensions without losing clarity or breaking the layout.</ul>"
+            "text": "<ul><ul><li><strong>Object-Oriented and Functional</strong></li></ul></ul>"
           },
           {
             "paraid": 1,
-            "text": "<ol start=\"3\"><li><strong>Media Queries</strong></li></ol>"
+            "text": "<ul><ul>JavaScript supports both object-oriented and functional programming paradigms.</ul></ul>"
           },
           {
             "paraid": 1,
-            "text": "<ul>Employing CSS media queries to apply specific styles based on the characteristics of the device or viewport, such as screen width, height, and orientation. This allows for targeted customization for different screen sizes.</ul>"
+            "text": "<ul><ul><li><strong>Event-Driven</strong></li></ul></ul>"
           },
           {
             "paraid": 1,
-            "text": "<ol start=\"4\"><li><strong>Mobile-First Approach</strong></li></ol>"
+            "text": "<ul><ul>It can respond to events, such as user interactions like clicks, form input, and page navigation, making websites more interactive.</ul></ul>"
           },
           {
             "paraid": 1,
-            "text": "<ul>Designing and developing for mobile devices first and then progressively enhancing the layout for larger screens. This ensures a focus on essential content and a smooth experience on smaller devices.</ul>"
+            "text": "<ul><ul><li><strong>Client-Side and Server-Side</strong></li></ul></ul>"
           },
           {
             "paraid": 1,
-            "text": "<ol start=\"5\"><li><strong>Responsive Typography</strong></li></ol>"
+            "text": "<ul><ul>Although originally designed to run in the browser, JavaScript is now used server-side as well, most notably with Node.js.</ul></ul>"
           },
           {
             "paraid": 1,
-            "text": "<ul>Using fluid typography techniques to ensure that text content scales and adjusts based on the screen size, improving readability across devices.</ul>"
+            "text": "<ol start=\"2\"><li><strong>Key Components</strong></li></ol>"
           },
           {
             "paraid": 1,
-            "text": "<ol start=\"6\"><li><strong>CSS Flexbox</strong></li></ol>"
+            "text": "<ul><ul><li><strong>ECMAScript</strong></li></ul></ul>"
           },
           {
             "paraid": 1,
-            "text": "<ul>Utilize CSS Flexbox to create flexible and responsive layouts. Flexbox provides a powerful way to distribute and align elements within a container, making it easier to create responsive designs.</ul>"
+            "text": "<ul><ul>The standardized scripting language specification upon which JavaScript is based.</ul></ul>"
           },
           {
             "paraid": 1,
-            "text": "<ol start=\"7\"><li><strong>CSS Grid</strong></li></ol>"
+            "text": "<ul><ul><li><strong>Document Object Model (DOM)</strong></li></ul></ul>"
           },
           {
             "paraid": 1,
-            "text": "<ul>CSS Grid allows you to define complex grid-based layouts that adapt to different screen sizes. Use grid properties to specify how elements should be positioned and arranged within a grid container.</ul>"
+            "text": "<ul><ul>The structure representing a web page, which JavaScript can manipulate.</ul></ul>"
           },
           {
             "paraid": 1,
-            "text": "<ol start=\"8\"><li><strong>Responsive Navigation</strong></li></ol>"
+            "text": "<ul><ul><li><strong>Asynchronous JavaScript and XML (AJAX)</strong></li></ul></ul>"
           },
           {
             "paraid": 1,
-            "text": "<ul>Implement navigation menus that adapt to different screen sizes, such as hamburger menus or collapsible menus. Consider using media queries to change the layout or switch to a different navigation style on smaller screens.</ul>"
+            "text": "<ul><ul>A technique that allows JavaScript to communicate with a server in the background without refreshing the page.</ul></ul>"
           },
           {
             "paraid": 1,
-            "text": "<ol start=\"9\"><li><strong>Hide/Show Content</strong></li></ol>"
+            "text": "<ol start=\"3\"><li><strong>Areas of Application</strong></li></ol>"
           },
           {
             "paraid": 1,
-            "text": "<ul>Hide or show specific content based on screen size or device using CSS display properties or classes. This technique is useful for presenting different layouts or hiding non-essential content on smaller screens.</ul>"
+            "text": "<ul><ul><li><strong>Web Development</strong></li></ul></ul>"
+          },
+          {
+            "paraid": 1,
+            "text": "<ul><ul>JavaScript is crucial for client-side web scripting. Modern web frameworks like Angular, React, and Vue.js are JavaScript-based.</ul></ul>"
+          },
+          {
+            "paraid": 1,
+            "text": "<ul><ul><li><strong>Server-Side Development</strong></li></ul></ul>"
+          },
+          {
+            "paraid": 1,
+            "text": "<ul><ul>With Node.js, JavaScript can be used to build robust server-side applications.</ul></ul>"
+          },
+          {
+            "paraid": 1,
+            "text": "<ul><ul><li><strong>Mobile App Development</strong></li></ul></ul>"
+          },
+          {
+            "paraid": 1,
+            "text": "<ul><ul>Frameworks like React Native enable JavaScript-based mobile app development.</ul></ul>"
+          },
+          {
+            "paraid": 1,
+            "text": "<ul><ul><li><strong>Internet of Things (IoT)</strong></li></ul></ul>"
+          },
+          {
+            "paraid": 1,
+            "text": "<ul><ul>JavaScript can be used in IoT development, particularly through Node.js.</ul></ul>"
+          },
+          {
+            "paraid": 1,
+            "text": "<ol start=\"4\"><li><strong>Advantages</strong></li></ol>"
+          },
+          {
+            "paraid": 1,
+            "text": "<ul><ul><li><strong>Versatile</strong></li></ul></ul>"
+          },
+          {
+            "paraid": 1,
+            "text": "<ul><ul>Can be used for both front-end and back-end development.</ul></ul>"
+          },
+          {
+            "paraid": 1,
+            "text": "<ul><ul><li><strong>Large Ecosystem</strong></li></ul></ul>"
+          },
+          {
+            "paraid": 1,
+            "text": "<ul><ul>Extensive libraries, frameworks, and community support.</ul></ul>"
+          },
+          {
+            "paraid": 1,
+            "text": "<ul><ul><li><strong>Good Performance</strong></li></ul></ul>"
+          },
+          {
+            "paraid": 1,
+            "text": "<ul><ul>Just-in-time compilation and other optimizations make JavaScript very fast.</ul></ul>"
+          },
+          {
+            "paraid": 1,
+            "text": "<ul><ul><li><strong>Cross-Platform</strong></li></ul></ul>"
+          },
+          {
+            "paraid": 1,
+            "text": "<ul><ul>Runs on any device that has a web browser, and server-side via Node.js.</ul></ul>"
+          },
+          {
+            "paraid": 1,
+            "text": "<ol start=\"5\"><li><strong>Limitations</strong></li></ol>"
+          },
+          {
+            "paraid": 1,
+            "text": "<ul><ul><li><strong>Single-Threaded</strong></li></ul></ul>"
+          },
+          {
+            "paraid": 1,
+            "text": "<ul><ul>Although it can perform asynchronous operations, JavaScript is single-threaded, which can be a limitation for some types of applications.</ul></ul>"
+          },
+          {
+            "paraid": 1,
+            "text": "<ul><ul><li><strong>Client-Side Security</strong></li></ul></ul>"
+          },
+          {
+            "paraid": 1,
+            "text": "<ul><ul>Since JavaScript runs on the client side, it can be exploited for malicious purposes.</ul></ul>"
           },
           {
             "paraid": 4,
