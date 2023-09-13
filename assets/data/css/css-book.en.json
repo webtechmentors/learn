@@ -1675,6 +1675,10 @@
         "paragraphs": [
           {
             "paraid": 1,
+            "text": "In CSS, the concepts of \"Box Sizing\" and \"Content Overflow\" are essential for controlling the layout and appearance of HTML elements on a web page."
+          },
+          {
+            "paraid": 1,
             "text": "<ol><li><strong>Box Sizing</strong></li></ul>"
           },
           {
@@ -1708,11 +1712,11 @@
           },
           {
             "paraid": 5,
-            "text": "<ol>In this example, the `<code>box-sizing</code>` property is set to border-box, so the specified width of `<code>200px</code>` includes the padding and border. The content area will be adjusted to fit within the remaining space after accounting for padding and border.<ol>"
+            "text": "<ul>In this example, the `<code>box-sizing</code>` property is set to border-box, so the specified width of `<code>200px</code>` includes the padding and border. The content area will be adjusted to fit within the remaining space after accounting for padding and border.<ul>"
           },
           {
             "paraid": 1,
-            "text": "<ol><li><strong>Content Overflow</strong></li></ul>"
+            "text": "<ol start=\"2\"><li><strong>Content Overflow</strong></li></ul>"
           },
           {
             "paraid": 6,
@@ -1753,7 +1757,7 @@
           },
           {
             "paraid": 12,
-            "text": "By using the `<code>box-sizing</code>` property and controlling the content overflow, you can have more control over how elements are sized and handle overflowing content within your web page layouts."
+            "text": "Understanding `<code>box-sizing</code>` and `<code>overflow</code>` is essential for mastering CSS layout techniques. These properties help you control how elements behave in various situations, allowing for more responsive and adaptive designs."
           }
         ]
       },
