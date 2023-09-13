@@ -3360,7 +3360,38 @@
           },
           {
             "paraid": 1,
-            "text": "<ol start=\"4\"><li><strong>Key Points</strong></li></ol>"
+            "text": "<ol start=\"4\"><li><strong>Non-Null Assertion Operator</strong></li></ol>"
+          },
+          {
+            "paraid": 1,
+            "text": "<ul>The non-null assertion operator (`<code>!</code>`) is a post-fix expression that essentially removes the `<code>null</code>` or `<code>undefined</code> type from the type of a variable. In other words, it asserts that the expression to which it is applied is non-null or non-undefined, even if the type of that variable suggests otherwise. However, this does not perform any runtime checks; it's only a compile-time feature.</ul>"
+          },
+          {
+            "paraid": 4,
+            "text": "",
+            "codeConfig": {
+              "codeid": "ts_10_2_4",
+              "exampleid": "",
+              "codeOutput": false,
+              "exampleOutput": false,
+              "codeTitle": "TS",
+              "exampleTitle": "",
+              "codeLangs": "ts",
+              "exampleLangs": "",
+              "codeSource": "",
+              "exampleSource": "",
+              "hideExample": true,
+              "marginLeft": "2.5rem"
+            }
+          },
+          {
+            "paraid": 1,
+            "text": "<ul>This is a powerful but risky feature. You should use it only when you're certain that the expression will not be `<code>null</code>` or `<code>undefined</code>`.</ul>"
+          },
+
+          {
+            "paraid": 1,
+            "text": "<ol start=\"5\"><li><strong>Key Points</strong></li></ol>"
           },
           {
             "paraid": 1,
@@ -4599,7 +4630,7 @@
           },
           {
             "paraid": 1,
-            "text": "<ol start=\"4\"><li><strong>nterface and Type Declarations</strong></li></ol>"
+            "text": "<ol start=\"4\"><li><strong>Interface and Type Declarations</strong></li></ol>"
           },
           {
             "paraid": 1,

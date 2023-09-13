@@ -789,6 +789,13 @@ if (hasNameProperty(item)) {
 
 export const ts_10_2_3_1 = getOutput('https://www.typescriptlang.org/play?ts=5.1.6#code/GYVwdgxgLglg9mABACwIYGcByqC2BTABQCc4AHPIqATwAo4AjAKwC5FUwqBKVhxxGdIgDeiMLjyt0UIjDABzRAF9hAWABQiRETxQQRJAHIx+A-yS8A3OsXrE6gDY7+UPDlbsqiALzDR41gYAQnBwANamilZqMMCINGhY4sRkFNQ0MC44nJyqGogA9PmIAJJg6DAAJniIUMgCiPT2cBChADSIACpU5ADKEDKkUIihYHAA7oK1qEMGGa6mCWyIRuKmpCTklJ5wsdTky1Iy8ga2iBAI6HCOAHRNcumZ18Z411BwAKqkmwDCGHg02SiiiAA');
 
+export const ts_10_2_4 =
+`function getNameLength(name: string | null): number {
+  // return name.length; // Error: 'name' is possibly 'null'
+
+  return name!.length; // No Error
+}`;
+
 export const ts_10_3_1 =
 `T extends U ? X : Y`;
 
