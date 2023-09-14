@@ -572,6 +572,17 @@ export const css_3_4_5_1 =
 </body>
 </html>`;
 
+export const css_3_4_6 =
+`/* Combined with ID selector */
+#container a[target='_blank'] {
+  font-style: italic;
+}
+
+/* Combined with pseudo-class */
+a[href^='http']:hover {
+  text-decoration: underline;
+}`;
+
 export const css_3_5_1 =
 `a:hover {
   /* CSS styles for links when hovered */

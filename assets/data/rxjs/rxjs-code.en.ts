@@ -153,7 +153,7 @@ import { observeOn } from 'rxjs/operators'; \n\
 const source = interval(1000); \n\
 \n\
 // Use the scheduled operator to change the scheduler to queueScheduler \n\
-const scheduledSource = scheduled([source], queueScheduler); \n\
+const scheduledSource = scheduled(source, queueScheduler); \n\
 \n\
 // Subscribe to the scheduled Observable \n\
 const subscription = scheduledSource.subscribe(value => { \n\

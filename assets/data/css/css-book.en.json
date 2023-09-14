@@ -809,11 +809,15 @@
         "paragraphs": [
           {
             "paraid": 1,
-            "text": "Element selectors in CSS target specific HTML elements for styling. They allow you to apply styles to all instances of a particular element type. Here's an overview of how element selectors work."
+            "text": "Element selectors in CSS target specific HTML elements for styling. They allow you to apply styles to all instances of a particular element type. Here's an overview of how element selectors work:"
+          },
+          {
+            "paraid": 1,
+            "text": "<ol><li><strong>Syntax</strong></li></ol>"
           },
           {
             "paraid": 2,
-            "text": "The syntax for an element selector is simply the element name itself. For example, to select all `<code>&lt;p&gt;</code>` elements in an HTML document, you would use the following CSS rule set:"
+            "text": "<ul>The syntax for an element selector is simply the element name itself. For example, to select all `<code>&lt;p&gt;</code>` elements in an HTML document, you would use the following CSS rule set:</ul>"
           },
           {
             "paraid": 3,
@@ -829,40 +833,44 @@
               "exampleLangs": "xml",
               "codeSource": "",
               "exampleSource": "",
-              "marginLeft": "0"
+              "marginLeft": "2.5rem"
             }
           },
           {
             "paraid": 4,
-            "text": "In this example, the `<code>p</code>` selector targets all `<code>&lt;p&gt;</code>` elements and applies the specified styles within the curly braces."
+            "text": "<ul>In this example, the `<code>p</code>` selector targets all `<code>&lt;p&gt;</code>` elements and applies the specified styles within the curly braces.</ul>"
+          },
+          {
+            "paraid": 1,
+            "text": "<ol start=\"2\"><li><strong>Key Points</strong></li></ol>"
           },
           {
             "paraid": 5,
-            "text": "Here are a few key points to remember about element selectors:"
+            "text": "<ul>Here are a few key points to remember about element selectors:</ul>"
           },
           {
             "paraid": 1,
-            "text": "<ol><li><strong>Specificity</strong></li></ol>"
+            "text": "<ul><ul><li><strong>Specificity</strong></li></ul></ul>"
           },
           {
             "paraid": 1,
-            "text": "<ul>Element selectors have the lowest specificity among CSS selectors. This means that if there are more specific selectors targeting the same element, those styles will take precedence over the generic element selector styles.</ul>"
+            "text": "<ul><ul>Element selectors have the lowest specificity among CSS selectors. This means that if there are more specific selectors targeting the same element, those styles will take precedence over the generic element selector styles.</ul></ul>"
           },
           {
             "paraid": 1,
-            "text": "<ol start=\"2\"><li><strong>Global Application</strong></li></ol>"
+            "text": "<ul><ul><li><strong>Global Application</strong></li></ul></ul>"
           },
           {
             "paraid": 1,
-            "text": "<ul>Element selectors apply the specified styles to all instances of the selected element type throughout the HTML document unless overridden by more specific selectors.</ul>"
+            "text": "<ul><ul>Element selectors apply the specified styles to all instances of the selected element type throughout the HTML document unless overridden by more specific selectors.</ul></ul>"
           },
           {
             "paraid": 1,
-            "text": "<ol start=\"3\"><li><strong>Cascading</strong></li></ol>"
+            "text": "<ul><ul><li><strong>Cascading</strong></li></ul></ul>"
           },
           {
             "paraid": 1,
-            "text": "<ul>Element selectors can be combined with other selectors to create more specific rule sets. For example, you can combine an element selector with a class or ID selector to target specific elements of that type:</ul>"
+            "text": "<ul><ul>Element selectors can be combined with other selectors to create more specific rule sets. For example, you can combine an element selector with a class or ID selector to target specific elements of that type:</ul></ul>"
           },
           {
             "paraid": 7,
@@ -878,16 +886,16 @@
               "exampleLangs": "xml",
               "codeSource": "",
               "exampleSource": "",
-              "marginLeft": "2.5rem"
+              "marginLeft": "5rem"
             }
           },
           {
             "paraid": 8,
-            "text": "<ol start=\"4\"><li><strong>Inheritance</strong></li></ol>"
+            "text": "<ul><ul><li><strong>Inheritance</strong></li></ul></ul>"
           },
           {
             "paraid": 1,
-            "text": "<ul>Some CSS properties are inherited by default, meaning that the styles applied to a parent element can be inherited by its child elements. Element selectors can be used to target specific elements and override or modify inherited styles.</ul>"
+            "text": "<ul><ul>Some CSS properties are inherited by default, meaning that the styles applied to a parent element can be inherited by its child elements. Element selectors can be used to target specific elements and override or modify inherited styles.</ul></ul>"
           },
           {
             "paraid": 9,
@@ -901,11 +909,15 @@
         "paragraphs": [
           {
             "paraid": 1,
-            "text": "Class selectors in CSS allow you to target and apply styles to elements with a specific `<code>class</code>` attribute. Class selectors are versatile and widely used, as they provide a way to style multiple elements throughout an HTML document based on shared characteristics. Here's an overview of class selectors in CSS."
+            "text": "Class selectors in CSS allow you to target and apply styles to elements with a specific `<code>class</code>` attribute. Class selectors are versatile and widely used, as they provide a way to style multiple elements throughout an HTML document based on shared characteristics. Here's an overview of class selectors in CSS:"
+          },
+          {
+            "paraid": 1,
+            "text": "<ol><li><strong>Syntax</strong></li></ol>"
           },
           {
             "paraid": 2,
-            "text": "The syntax for a class selector is a period (.) followed by the class name. For example, to select elements with the class `<code>\"my-class\"</code>`, you would use the following CSS rule set:"
+            "text": "<ul>The syntax for a class selector is a period (.) followed by the class name. For example, to select elements with the class `<code>\"my-class\"</code>`, you would use the following CSS rule set:</ul>"
           },
           {
             "paraid": 3,
@@ -921,24 +933,28 @@
               "exampleLangs": "",
               "codeSource": "",
               "exampleSource": "",
-              "marginLeft": "0"
+              "marginLeft": "2.5rem"
             }
           },
           {
             "paraid": 4,
-            "text": "In this example, the `<code>.my-class</code>` selector targets all elements that have the class attribute set to `<code>\"my-class\"</code>` and applies the specified styles within the curly braces."
-          },
-          {
-            "paraid": 5,
-            "text": "Here are some key points to understand about class selectors:"
-          },
-          {
-            "paraid": 6,
-            "text": "<ol><li><strong>Class Attribute</strong></li></ol>"
+            "text": "<ul>In this example, the `<code>.my-class</code>` selector targets all elements that have the class attribute set to `<code>\"my-class\"</code>` and applies the specified styles within the curly braces.</ul>"
           },
           {
             "paraid": 1,
-            "text": "<ul>To use class selectors, you need to assign the desired class name to the `<code>class</code>` attribute of the HTML elements you want to style. Multiple elements can share the same class name, allowing you to apply consistent styles to them:</ul>"
+            "text": "<ol start=\"2\"><li><strong>Key Points</strong></li></ol>"
+          },
+          {
+            "paraid": 5,
+            "text": "<ul>Here are some key points to understand about class selectors:</ul>"
+          },
+          {
+            "paraid": 6,
+            "text": "<ul><ul><li><strong>Class Attribute</strong></li></ol>"
+          },
+          {
+            "paraid": 1,
+            "text": "<ul><ul>To use class selectors, you need to assign the desired class name to the `<code>class</code>` attribute of the HTML elements you want to style. Multiple elements can share the same class name, allowing you to apply consistent styles to them:</ul></ul>"
           },
           {
             "paraid": 7,
@@ -954,32 +970,32 @@
               "exampleLangs": "xml",
               "codeSource": "",
               "exampleSource": "",
-              "marginLeft": "2.5rem"
+              "marginLeft": "5rem"
             }
           },
           {
             "paraid": 1,
-            "text": "<ol start=\"2\"><li><strong>Reusability</strong></li></ol>"
+            "text": "<ul><ul><li><strong>Reusability</strong></li></ul></ul>"
           },
           {
             "paraid": 1,
-            "text": "<ul>Class selectors are highly reusable. You can apply the same class to multiple elements, which helps to maintain consistent styling throughout your HTML document and promotes code efficiency.</ul>"
+            "text": "<ul><ul>Class selectors are highly reusable. You can apply the same class to multiple elements, which helps to maintain consistent styling throughout your HTML document and promotes code efficiency.</ul></ul>"
           },
           {
             "paraid": 1,
-            "text": "<ol start=\"3\"><li><strong>Specificity</strong></li></ol>"
+            "text": "<ul><ul><li><strong>Specificity</strong></li></ul></ul>"
           },
           {
             "paraid": 1,
-            "text": "<ul>Class selectors have a higher specificity than element selectors. If there are conflicting styles targeting the same element, the styles applied via class selectors will take precedence over the styles applied via element selectors.</ul>"
+            "text": "<ul><ul>Class selectors have a higher specificity than element selectors. If there are conflicting styles targeting the same element, the styles applied via class selectors will take precedence over the styles applied via element selectors.</ul></ul>"
           },
           {
             "paraid": 1,
-            "text": "<ol start=\"4\"><li><strong>Combining Selectors</strong></li></ol>"
+            "text": "<ul><ul><li><strong>Combining Selectors</strong></li></ul></ul>"
           },
           {
             "paraid": 1,
-            "text": "<ul>Class selectors can be combined with other selectors to create more specific rule sets. This allows you to target elements with a specific class within a specific context:</ul>"
+            "text": "<ul><ul>Class selectors can be combined with other selectors to create more specific rule sets. This allows you to target elements with a specific class within a specific context:</ul></ul>"
           },
           {
             "paraid": 9,
@@ -995,16 +1011,16 @@
               "exampleLangs": "xml",
               "codeSource": "",
               "exampleSource": "",
-              "marginLeft": "2.5rem"
+              "marginLeft": "5rem"
             }
           },
           {
             "paraid": 10,
-            "text": "<ol start=\"5\"><li><strong>Multiple Classes</strong></li><ol>"
+            "text": "<ul><ul><li><strong>Multiple Classes</strong></li></ul></ul>"
           },
           {
             "paraid": 1,
-            "text": "<ul>An HTML element can have multiple class names, separated by spaces. This allows you to apply multiple class styles to a single element:</ul>"
+            "text": "<ul><ul>An HTML element can have multiple class names, separated by spaces. This allows you to apply multiple class styles to a single element:</ul></ul>"
           },
           {
             "paraid": 10,
@@ -1020,12 +1036,12 @@
               "exampleLangs": "xml",
               "codeSource": "",
               "exampleSource": "",
-              "marginLeft": "2.5rem"
+              "marginLeft": "5rem"
             }
           },
           {
             "paraid": 12,
-            "text": "<ol>With this structure, you can target elements based on specific combinations of classes.</ol>"
+            "text": "<ul><ul>With this structure, you can target elements based on specific combinations of classes.</ul></ul>"
           },
           {
             "paraid": 13,
@@ -1039,11 +1055,15 @@
         "paragraphs": [
           {
             "paraid": 1,
-            "text": "ID selectors in CSS allow you to target and apply styles to a specific HTML element based on its unique ID attribute. Unlike class selectors, ID selectors should be unique within an HTML document since they are meant to identify a single element. Here's an overview of ID selectors in CSS."
+            "text": "ID selectors in CSS allow you to target and apply styles to a specific HTML element based on its unique ID attribute. Unlike class selectors, ID selectors should be unique within an HTML document since they are meant to identify a single element. Here's an overview of ID selectors in CSS:"
+          },
+          {
+            "paraid": 1,
+            "text": "<ol><li><strong>Syntax</strong></li></ol>"
           },
           {
             "paraid": 2,
-            "text": "The syntax for an ID selector is a hash (#) followed by the ID name. For example, to select an element with the ID `<code>\"my-id\"</code>`, you would use the following CSS rule set:"
+            "text": "<ul>The syntax for an ID selector is a hash (#) followed by the ID name. For example, to select an element with the ID `<code>\"my-id\"</code>`, you would use the following CSS rule set:</ul>"
           },
           {
             "paraid": 3,
@@ -1059,24 +1079,28 @@
               "exampleLangs": "",
               "codeSource": "",
               "exampleSource": "",
-              "marginLeft": "0"
+              "marginLeft": "2.5rem"
             }
           },
           {
             "paraid": 4,
-            "text": "In this example, the `<code>#my-id</code>` selector targets the element that has the ID attribute set to `<code>\"my-id\"</code>` and applies the specified styles within the curly braces."
-          },
-          {
-            "paraid": 5,
-            "text": "Here are some key points to understand about ID selectors:"
-          },
-          {
-            "paraid": 6,
-            "text": "<ol><li><strong>ID Attribute</strong></li></ol>"
+            "text": "<ul>In this example, the `<code>#my-id</code>` selector targets the element that has the ID attribute set to `<code>\"my-id\"</code>` and applies the specified styles within the curly braces.</ul>"
           },
           {
             "paraid": 1,
-            "text": "<ul>To use ID selectors, you need to assign a unique ID name to the `<code>id</code>` attribute of the HTML element you want to style. Unlike class names, IDs should be unique within an HTML document:</ul>"
+            "text": "<ol start=\"2\"><li><strong>Key Points</strong></li></ol>"
+          },
+          {
+            "paraid": 5,
+            "text": "<ul>Here are some key points to understand about ID selectors:</ul></ul>"
+          },
+          {
+            "paraid": 6,
+            "text": "<ul><ul><li><strong>ID Attribute</strong></li></ul></ul>"
+          },
+          {
+            "paraid": 1,
+            "text": "<ul><ul>To use ID selectors, you need to assign a unique ID name to the `<code>id</code>` attribute of the HTML element you want to style. Unlike class names, IDs should be unique within an HTML document:</ul></ul>"
           },
           {
             "paraid": 7,
@@ -1092,40 +1116,40 @@
               "exampleLangs": "xml",
               "codeSource": "",
               "exampleSource": "",
-              "marginLeft": "2.5rem"
+              "marginLeft": "5rem"
             }
           },
           {
             "paraid": 1,
-            "text": "<ol start=\"2\"><li><strong>Uniqueness</strong></li></ol>"
+            "text": "<ul><ul><li><strong>Uniqueness</strong></li></ul></ul>"
           },
           {
             "paraid": 1,
-            "text": "<ul>IDs must be unique within an HTML document. Each ID should only be assigned to a single element. Using the same ID for multiple elements is invalid HTML and can lead to unexpected behavior.</ul>"
+            "text": "<ul><ul>IDs must be unique within an HTML document. Each ID should only be assigned to a single element. Using the same ID for multiple elements is invalid HTML and can lead to unexpected behavior.</ul></ul>"
           },
           {
             "paraid": 1,
-            "text": "<ol start=\"3\"><li><strong>Higher Specificity</strong></li></ol>"
+            "text": "<ul><ul><li><strong>Higher Specificity</strong></li></ul></ul>"
           },
           {
             "paraid": 1,
-            "text": "<ul>ID selectors have a higher specificity than both class selectors and element selectors. If there are conflicting styles targeting the same element, the styles applied via ID selectors will take precedence over the styles applied via class selectors or element selectors.</ul>"
+            "text": "<ul><ul>ID selectors have a higher specificity than both class selectors and element selectors. If there are conflicting styles targeting the same element, the styles applied via ID selectors will take precedence over the styles applied via class selectors or element selectors.</ul></ul>"
           },
           {
             "paraid": 1,
-            "text": "<ol start=\"4\"><li><strong>Unique Styles</strong></li></ol>"
+            "text": "<ul><ul><li><strong>Unique Styles</strong></li></ul></ul>"
           },
           {
             "paraid": 1,
-            "text": "<ul>ID selectors are often used to target specific elements that require unique styles. They are suitable for applying specific styles to individual elements rather than multiple elements.</ul>"
+            "text": "<ul><ul>ID selectors are often used to target specific elements that require unique styles. They are suitable for applying specific styles to individual elements rather than multiple elements.</ul></ul>"
           },
           {
             "paraid": 1,
-            "text": "<ol start=\"5\"><li><strong>Combining Selectors</strong></li></ol>"
+            "text": "<ul><ul><li><strong>Combining Selectors</strong></li></ol>"
           },
           {
             "paraid": 1,
-            "text": "<ul>ID selectors can also be combined with other selectors to create more specific rule sets. This allows you to target elements with a specific ID within a specific context:</ul>"
+            "text": "<ul><ul>ID selectors can also be combined with other selectors to create more specific rule sets. This allows you to target elements with a specific ID within a specific context:</ul></ul>"
           },
           {
             "paraid": 9,
@@ -1141,7 +1165,7 @@
               "exampleLangs": "xml",
               "codeSource": "",
               "exampleSource": "",
-              "marginLeft": "2.5rem"
+              "marginLeft": "5rem"
             }
           },
           {
@@ -1159,12 +1183,16 @@
             "text": "Attribute selectors in CSS allow you to target HTML elements based on specific attribute values or attribute presence. They provide a way to select elements based on the values of their attributes, such as the class, ID, or other custom attributes. Here's an overview of attribute selectors in CSS:"
           },
           {
+            "paraid": 1,
+            "text": "<ol><li><strong>Syntax</strong></li></ol>"
+          },
+          {
             "paraid": 2,
-            "text": "<ol><li><strong>Basic Attribute Selector</strong></li></ol>"
+            "text": "<ul><ul><li><strong>Basic Attribute Selector</strong></li></ol>"
           },
           {
             "paraid": 1,
-            "text": "<ul>The basic attribute selector targets elements that have a specific attribute present, regardless of its value. The syntax is `<code>[attribute]</code>`. For example, to select all elements with the attribute `<code>data-custom</code>`, you would use:</ul>"
+            "text": "<ul><ul>The basic attribute selector targets elements that have a specific attribute present, regardless of its value. The syntax is `<code>[attribute]</code>`. For example, to select all elements with the attribute `<code>data-custom</code>`, you would use:</ul></ul>"
           },
           {
             "paraid": 3,
@@ -1180,16 +1208,16 @@
               "exampleLangs": "",
               "codeSource": "",
               "exampleSource": "",
-              "marginLeft": "2.5rem"
+              "marginLeft": "5rem"
             }
           },
           {
             "paraid": 4,
-            "text": "<ol start=\"2\"><li><strong>Attribute Selector with Value</strong></li></ol>"
+            "text": "<ul><ul><li><strong>Attribute Selector with Value</strong></li></ul></ul>"
           },
           {
             "paraid": 1,
-            "text": "<ul>Attribute selectors can be used to target elements with a specific attribute value. The syntax is `<code>[attribute=value]</code>`. For example, to select all `<code>&lt;input&gt;</code>` elements with the attribute `<code>type</code>` set to `<code>\"text\"</code>`, you would use:</ul>"
+            "text": "<ul><ul>Attribute selectors can be used to target elements with a specific attribute value. The syntax is `<code>[attribute=value]</code>`. For example, to select all `<code>&lt;input&gt;</code>` elements with the attribute `<code>type</code>` set to `<code>\"text\"</code>`, you would use:</ul></ul>"
           },
           {
             "paraid": 5,
@@ -1205,20 +1233,20 @@
               "exampleLangs": "xml",
               "codeSource": "",
               "exampleSource": "",
-              "marginLeft": "2.5rem"
+              "marginLeft": "5rem"
             }
           },
           {
             "paraid": 6,
-            "text": "<ol>This selector will apply styles to all `<code>&lt;input&gt;</code>` elements with the attribute `<code>type</code>` set to `<code>\"text\"</code>`.</ol>"
+            "text": "<ul><ul>This selector will apply styles to all `<code>&lt;input&gt;</code>` elements with the attribute `<code>type</code>` set to `<code>\"text\"</code>`.</ul></ul>"
           },
           {
             "paraid": 7,
-            "text": "<ol start=\"3\"><li><strong>Attribute Selector with Partial Value</strong></li></ol>"
+            "text": "<ul><ul><li><strong>Attribute Selector with Partial Value</strong></li></ul></ul>"
           },
           {
             "paraid": 1,
-            "text": "<ul>Attribute selectors can also match elements whose attribute values contain a specific substring. This is useful when targeting elements with attributes that have dynamic or varying values. The syntax is `<code>[attribute*=value]</code>`. For example, to select all `<code>&lt;a&gt;</code>` elements with the `<code>href</code>` attribute containing the substring `<code>\"example.com\"</code>`, you would use:</ul>"
+            "text": "<ul><ul>Attribute selectors can also match elements whose attribute values contain a specific substring. This is useful when targeting elements with attributes that have dynamic or varying values. The syntax is `<code>[attribute*=value]</code>`. For example, to select all `<code>&lt;a&gt;</code>` elements with the `<code>href</code>` attribute containing the substring `<code>\"example.com\"</code>`, you would use:</ul></ul>"
           },
           {
             "paraid": 8,
@@ -1234,20 +1262,20 @@
               "exampleLangs": "xml",
               "codeSource": "",
               "exampleSource": "",
-              "marginLeft": "2.5rem"
+              "marginLeft": "5rem"
             }
           },
           {
             "paraid": 9,
-            "text": "<ol>This selector will match `<code>&lt;a&gt;</code>` elements whose `<code>href</code>` attribute contains the substring `<code>\"example.com\"</code>` anywhere within its value.</ol>"
+            "text": "<ul><ul>This selector will match `<code>&lt;a&gt;</code>` elements whose `<code>href</code>` attribute contains the substring `<code>\"example.com\"</code>` anywhere within its value.</ul></ul>"
           },
           {
             "paraid": 10,
-            "text": "<ol start=\"4\"><li><strong>Attribute Selector with Prefix Value</strong></li></ol>"
+            "text": "<ul><ul><li><strong>Attribute Selector with Prefix Value</strong></li></ul></ul>"
           },
           {
             "paraid": 1,
-            "text": "<ul>Attribute selectors can target elements whose attribute values start with a specific prefix. The syntax is `<code>[attribute^=value]</code>`. For example, to select all `<code>&lt;img&gt;</code>` elements with the `<code>src</code>` attribute starting with `<code>\"images/\"</code>`, you would use:</ul>"
+            "text": "<ul><ul>Attribute selectors can target elements whose attribute values start with a specific prefix. The syntax is `<code>[attribute^=value]</code>`. For example, to select all `<code>&lt;img&gt;</code>` elements with the `<code>src</code>` attribute starting with `<code>\"images/\"</code>`, you would use:</ul></ul>"
           },
           {
             "paraid": 11,
@@ -1263,20 +1291,20 @@
               "exampleLangs": "xml",
               "codeSource": "",
               "exampleSource": "",
-              "marginLeft": "2.5rem"
+              "marginLeft": "5rem"
             }
           },
           {
             "paraid": 12,
-            "text": "<ol>This selector will apply styles to `<code>&lt;img&gt;</code>` elements whose `<code>src</code>` attribute starts with the prefix `<code>\"images/\"</code>`.</ol>"
+            "text": "<ul><ul>This selector will apply styles to `<code>&lt;img&gt;</code>` elements whose `<code>src</code>` attribute starts with the prefix `<code>\"images/\"</code>`.</ul></ul>"
           },
           {
             "paraid": 13,
-            "text": "<ol start=\"5\"><li><strong>Attribute Selector with Suffix Value</strong></li></ol>"
+            "text": "<ul><ul><li><strong>Attribute Selector with Suffix Value</strong></li></ul></ul>"
           },
           {
             "paraid": 1,
-            "text": "<ul>Attribute selectors can target elements whose attribute values end with a specific suffix. The syntax is `<code>[attribute$=value]</code>`. For example, to select all `<code>&lt;a&gt;</code>` elements with the `<code>href</code>` attribute ending with `<code>\".pdf\"</code>`, you would use:</ul>"
+            "text": "<ul><ul>Attribute selectors can target elements whose attribute values end with a specific suffix. The syntax is `<code>[attribute$=value]</code>`. For example, to select all `<code>&lt;a&gt;</code>` elements with the `<code>href</code>` attribute ending with `<code>\".pdf\"</code>`, you would use:</ul></ul>"
           },
           {
             "paraid": 14,
@@ -1292,12 +1320,57 @@
               "exampleLangs": "xml",
               "codeSource": "",
               "exampleSource": "",
-              "marginLeft": "2.5rem"
+              "marginLeft": "5rem"
             }
           },
           {
             "paraid": 15,
-            "text": "<ol>This selector will match `<code>&lt;a&gt;</code>` elements whose href attribute ends with `<code>\".pdf\"</code>`.</ol>"
+            "text": "<ul><ul>This selector will match `<code>&lt;a&gt;</code>` elements whose href attribute ends with `<code>\".pdf\"</code>`.</ul></ul>"
+          },
+          {
+            "paraid": 1,
+            "text": "<ol start=\"2\"><li><strong>Key Points</strong></li></ol>"
+          },
+          {
+            "paraid": 1,
+            "text": "<ul><ul><li><strong>Specificity</strong></li></ul></ul>"
+          },
+          {
+            "paraid": 1,
+            "text": "<ul><ul>Attribute selectors have lower specificity compared to ID selectors but higher specificity compared to type selectors (e.g., `<code>div</code>`, `<code>p</code>`) and class selectors. Multiple attribute selectors can be combined for higher specificity.</ul></ul>"
+          },
+          {
+            "paraid": 1,
+            "text": "<ul><ul><li><strong>Case Sensitivity</strong></li></ul></ul>"
+          },
+          {
+            "paraid": 1,
+            "text": "<ul><ul>By default, attribute selectors are case-sensitive. However, you can use the `<code>i</code>` flag (e.g., `<code>[attr=value i]</code>`) for case-insensitive matching.</ul></ul>"
+          },
+          {
+            "paraid": 1,
+            "text": "<ul><ul><li><strong>Combining Selectors</strong></li></ul></ul>"
+          },
+          {
+            "paraid": 1,
+            "text": "<ul><ul>Attribute selectors can be combined with other types of selectors like ID, class, or pseudo-classes for more specific targeting.</ul></ul>"
+          },
+          {
+            "paraid": 14,
+            "text": "",
+            "codeConfig": {
+              "codeid": "css_3_4_6",
+              "exampleid": "",
+              "codeOutput": false,
+              "exampleOutput": false,
+              "codeTitle": "CSS",
+              "exampleTitle": "",
+              "codeLangs": "css",
+              "exampleLangs": "",
+              "codeSource": "",
+              "exampleSource": "",
+              "marginLeft": "5rem"
+            }
           },
           {
             "paraid": 16,
@@ -1564,7 +1637,7 @@
           },
           {
             "paraid": 3,
-            "text": "<ul>Here's a visual representation of the box model components:<br/><br/><img src=\"assets/images/box_model.png\" style=\"width:50%; height:50%; margin-left:2.5rem;\" alt=\"Box model\"></ul>"
+            "text": "<ul>Here's a visual representation of the box model components:<br/><br/><img src=\"assets/images/box_model.png\" style=\"width:50%; height:50%; margin-left:0;\" alt=\"Box model\"></ul>"
           },
           {
             "paraid": 5,
@@ -1763,7 +1836,7 @@
       },
       {
         "secid": 4,
-        "subtitle": "Working with the Box Model in Practice",
+        "subtitle": "Working with the Box Model",
         "paragraphs": [
           {
             "paraid": 1,

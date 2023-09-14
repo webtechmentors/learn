@@ -1560,7 +1560,7 @@
     "sections": [
       {
         "secid": 1,
-        "subtitle": "Tables",
+        "subtitle": "Creating Tables",
         "paragraphs": [
           {
             "paraid": 1,
@@ -2063,7 +2063,7 @@
     "sections": [
       {
         "secid": 1,
-        "subtitle": "Forms",
+        "subtitle": "Creating Forms",
         "paragraphs": [
           {
             "paraid": 1,
@@ -2521,7 +2521,7 @@
           },       
           {
             "paraid": 1,
-            "text": "<ul><ul><li>This will embed the audio file \"audio_file.mp3\" in the page and display standard audio `<code>controls</code>` (play, pause, volume, etc.). You can also add other attributes to the `<code>&lt;audio&gt;</code>` element, such as `<code>autoplay</code>`, `<code>loop</code>`, `<code>preload</code>`, and `<code>muted</code>`, to control the playback behavior.</li></ul></ul>"
+            "text": "<ul><ul>This will embed the audio file \"audio_file.mp3\" in the page and display standard audio `<code>controls</code>` (play, pause, volume, etc.). You can also add other attributes to the `<code>&lt;audio&gt;</code>` element, such as `<code>autoplay</code>`, `<code>loop</code>`, `<code>preload</code>`, and `<code>muted</code>`, to control the playback behavior.</ul></ul>"
           },
           {
             "paraid": 1,
@@ -2550,7 +2550,7 @@
           },
           {
             "paraid": 1,
-            "text": "<ul><ul><li>This will embed the video file \"video_file.mp4\" in the page and display standard video `<code>controls</code>` (play, pause, volume, etc.). Like with the `<code>&lt;audio&gt;</code>` element, you can also add other attributes to the `<code>&lt;video&gt;</code>` element to control the playback behavior.</li></ul></ul>"
+            "text": "<ul><ul>This will embed the video file \"video_file.mp4\" in the page and display standard video `<code>controls</code>` (play, pause, volume, etc.). Like with the `<code>&lt;audio&gt;</code>` element, you can also add other attributes to the `<code>&lt;video&gt;</code>` element to control the playback behavior.</ul></ul>"
           },
           {
             "paraid": 2,
@@ -2641,7 +2641,7 @@
           },
           {
             "paraid": 1,
-            "text": "<ul><ul><li>This code creates a red rectangle on the canvas, with a top-left corner at (50,50) and a size of 100x100 pixels.</li></ul></ul>"
+            "text": "<ul><ul>This code creates a red rectangle on the canvas, with a top-left corner at (50,50) and a size of 100x100 pixels.</ul></ul>"
           },
           {
             "paraid": 1,
@@ -2670,7 +2670,7 @@
           },
           {
             "paraid": 1,
-            "text": "<ul><ul><li>This code creates a red rectangle, a blue circle, and a green text label on the SVG canvas, with a size of 500x500 pixels.</li></ul></ul>"
+            "text": "<ul><ul>This code creates a red rectangle, a blue circle, and a green text label on the SVG canvas, with a size of 500x500 pixels.</ul></ul>"
           },
           {
             "paraid": 1,
