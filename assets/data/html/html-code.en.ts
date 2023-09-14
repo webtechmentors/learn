@@ -96,7 +96,7 @@ export const html_2_3_1 =
   <!-- Internal JavaScript -->
   <script>
     function greet() {
-      alert("Hello, world!");
+      alert('Hello, world!');
     }
   </script>
 </head>`;
@@ -138,7 +138,7 @@ export const html_2_5_2 =
 `<h1 id="heading"></h1>`;
 
 export const html_2_5_2_1 =
-`const elem = document.getElementById("heading");`;
+`const elem = document.getElementById('heading');`;
 
 export const html_2_5_3 =
 `<p style="color: red;">This is a paragraph.</p>`;
@@ -212,7 +212,7 @@ export const html_3_3_1 =
   It preserves whitespace and line breaks.
   <code>
     function greet() {
-      console.log("Hello, world!");
+      console.log('Hello, world!');
     }
   </code>
 </pre>`;
@@ -732,9 +732,9 @@ export const html_7_2_1 =
 `<canvas id="myCanvas" width="500" height="500"></canvas>`;
 
 export const html_7_2_2 =
-`var canvas = document.getElementById("myCanvas");
-var ctx = canvas.getContext("2d");
-ctx.fillStyle = "red";
+`var canvas = document.getElementById('myCanvas');
+var ctx = canvas.getContext('2d');
+ctx.fillStyle = 'red';
 ctx.fillRect(50, 50, 100, 100);`;
 
 export const html_7_2_3 =
@@ -746,9 +746,9 @@ export const html_7_2_3 =
 <body>
   <canvas id="myCanvas" width="500" height="500"></canvas>
   <script>
-    var canvas = document.getElementById("myCanvas");
-    var ctx = canvas.getContext("2d");
-    ctx.fillStyle = "red";
+    var canvas = document.getElementById('myCanvas');
+    var ctx = canvas.getContext('2d');
+    ctx.fillStyle = 'red';
     ctx.fillRect(50, 50, 100, 100);
   </script>
 </body>

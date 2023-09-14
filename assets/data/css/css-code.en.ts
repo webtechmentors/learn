@@ -211,7 +211,7 @@ export const css_2_3_7_1 =
 
 export const css_2_3_8 =
 `a::after {
-  content: " (" attr(href) ")";
+  content: ' (' attr(href) ')';
 }`;
 
 export const css_2_3_8_1 =
@@ -222,7 +222,7 @@ export const css_2_3_8_1 =
   <style>
     /* CSS rule set */
     a::after {
-      content: " (" attr(href) ")";
+      content: ' (' attr(href) ')';
     }
   </style>
 </head>
@@ -272,7 +272,7 @@ export const css_3_1_1_1 =
 </html>`;
 
 export const css_3_1_2 =
-`/* Selects only <p> elements with the class "highlight" */
+`/* Selects only <p> elements with the class 'highlight' */
 p.highlight {
   /* CSS styles */
 }`;
@@ -399,14 +399,14 @@ export const css_3_3_2_1 =
 <head>
   <title>CSS Example for HTML Elements</title>
   <style>
-    /* CSS styling for the element with ID "my-id" */
+    /* CSS styling for the element with ID 'my-id' */
     #my-id {
       color: blue;
       font-size: 24px;
       text-decoration: underline;
     }
 
-    /* CSS styling for the element with ID "another-id" */
+    /* CSS styling for the element with ID 'another-id' */
     #another-id {
       background-color: yellow;
       padding: 10px;
@@ -421,7 +421,7 @@ export const css_3_3_2_1 =
 </html>`;
 
 export const css_3_3_3 =
-`/* Selects only the <p> element with the ID "my-paragraph" inside a <div> with the class "container" */
+`/* Selects only the <p> element with the ID 'my-paragraph' inside a <div> with the class 'container' */
 .container #my-paragraph {
   /* CSS styles */
 }`;
@@ -613,7 +613,7 @@ export const css_3_5_1_1 =
 export const css_3_5_2 =
 `p::before {
   /* CSS styles for content inserted before <p> elements */
-  content: "Prefix: ";
+  content: 'Prefix: ';
 }
 
 h1::first-letter {
@@ -629,7 +629,7 @@ export const css_3_5_2_1 =
   <style>
     /* CSS selector for p::before */
     p::before {
-      content: "Prefix: ";
+      content: 'Prefix: ';
       font-weight: bold;
     }
 
@@ -1076,7 +1076,7 @@ export const css_4_4_3_1 =
     
     /* Clearfix for the container */
     .clearfix::after {
-      content: "";
+      content: '';
       display: table;
       clear: both;
     }
@@ -2250,7 +2250,7 @@ export const css_7_1_10_1 =
 
 export const css_7_2_1 =
 `div {
-  background-image: url("path/to/image.jpg");
+  background-image: url('path/to/image.jpg');
 }`;
 
 export const css_7_2_1_1 =
@@ -2260,7 +2260,7 @@ export const css_7_2_1_1 =
   <title>Background Image Example</title>
   <style>
     div {
-      background-image: url("assets/images/background.jpg");
+      background-image: url('assets/images/background.jpg');
       width: 300px;
       height: 200px;
     }
@@ -2283,7 +2283,7 @@ export const css_7_2_2_1 =
   <title>Background Image Example</title>
   <style>
     div {
-      background-image: url("assets/images/background.jpg");
+      background-image: url('assets/images/background.jpg');
       background-repeat: no-repeat;
       width: 300px;
       height: 200px;
@@ -2307,7 +2307,7 @@ export const css_7_2_3_1 =
   <title>Background Image Example</title>
   <style>
     div {
-      background-image: url("assets/images/background.jpg");
+      background-image: url('assets/images/background.jpg');
       background-size: cover;
       background-repeat: no-repeat;
       width: 300px;
@@ -2332,7 +2332,7 @@ export const css_7_2_4_1 =
   <title>Background Image Example</title>
   <style>
     div {
-      background-image: url("assets/images/background.jpg");
+      background-image: url('assets/images/background.jpg');
       background-size: auto;
       background-repeat: no-repeat;
       background-position: center;
