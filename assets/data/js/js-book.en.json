@@ -4268,7 +4268,15 @@
           },
           {
             "paraid": 3,
-            "text": "<ul><ul><li>Modules are self-contained units of code that encapsulate related functionality.</li><li>They allow developers to break down large codebases into smaller, manageable parts, promoting code reuse and maintainability.</li><li>Modules typically have a clear interface, exposing only the necessary functions, classes, or variables while keeping implementation details hidden.</li></ul></ul>"
+            "text": "<ul><ul><li>Modules are self-contained units of code that encapsulate related functionality.</li></ul></ul>"
+          },
+          {
+            "paraid": 3,
+            "text": "<ul><ul><li>They allow developers to break down large codebases into smaller, manageable parts, promoting code reuse and maintainability.</li></ul></ul>"
+          },
+          {
+            "paraid": 3,
+            "text": "<ul><ul><li>Modules typically have a clear interface, exposing only the necessary functions, classes, or variables while keeping implementation details hidden.</li></ul></ul>"
           },
           {
             "paraid": 4,
@@ -4276,7 +4284,15 @@
           },
           {
             "paraid": 5,
-            "text": "<ul><ul><li>There are different module formats used in JavaScript, such as CommonJS, AMD (Asynchronous Module Definition), and ES Modules (ESM).</li><li>CommonJS and AMD formats were prevalent in older JavaScript environments (e.g., Node.js or RequireJS).</li><li>ES Modules, introduced in ES6, are now the standard module format in modern JavaScript environments, both in the browser and Node.js.</li></ul></ul>"
+            "text": "<ul><ul><li>There are different module formats used in JavaScript, such as CommonJS, AMD (Asynchronous Module Definition), and ES Modules (ESM).</li></ul></ul>"
+          },
+          {
+            "paraid": 5,
+            "text": "<ul><ul><li>CommonJS and AMD formats were prevalent in older JavaScript environments (e.g., Node.js or RequireJS).</li></ul></ul>"
+          },
+          {
+            "paraid": 5,
+            "text": "<ul><ul><li>ES Modules, introduced in ES6, are now the standard module format in modern JavaScript environments, both in the browser and Node.js.</li></ul></ul>"
           },
           {
             "paraid": 6,
@@ -4284,7 +4300,15 @@
           },
           {
             "paraid": 7,
-            "text": "<ul><ul><li>ES Modules are the official module system in JavaScript, supported by most modern browsers and Node.js.</li><li>They use the `<code>import</code>` and `<code>export</code>` keywords to declare dependencies and export functionality between modules.</li><li>ES Modules support both named exports and default exports, allowing fine-grained control over exported members.<br/><br/>For example:</li></ul></ul>"
+            "text": "<ul><ul><li>ES Modules are the official module system in JavaScript, supported by most modern browsers and Node.js.</li></ul></ul>"
+          },
+          {
+            "paraid": 7,
+            "text": "<ul><ul><li>They use the `<code>import</code>` and `<code>export</code>` keywords to declare dependencies and export functionality between modules.</li></ul></ul>"
+          },
+          {
+            "paraid": 7,
+            "text": "<ul><ul><li>ES Modules support both named exports and default exports, allowing fine-grained control over exported members.<br/><br/>For example:</li></ul></ul>"
           },
           {
             "paraid": 8,
@@ -4309,7 +4333,11 @@
           },
           {
             "paraid": 10,
-            "text": "<ul><ul><li>Module loaders can handle asynchronous loading of modules, allowing modules to be loaded on-demand when needed.</li><li>Asynchronous module loading is beneficial for larger applications with complex dependency trees, improving initial page load times.<br/><br/>For example:</li></ul></ul>"
+            "text": "<ul><ul><li>Module loaders can handle asynchronous loading of modules, allowing modules to be loaded on-demand when needed.</li></ul></ul>"
+          },
+          {
+            "paraid": 10,
+            "text": "<ul><ul><li>Asynchronous module loading is beneficial for larger applications with complex dependency trees, improving initial page load times.<br/><br/>For example:</li></ul></ul>"
           },
           {
             "paraid": 11,
@@ -4355,7 +4383,15 @@
           },
           {
             "paraid": 3,
-            "text": "<ul><ul><li>Console logging is a basic but effective debugging technique.</li><li>Use `<code>console.log()</code>` to output values or messages to the browser's console.</li><li>You can log variables, function outputs, or any other relevant information to track the flow of your code and identify potential issues.</li></ul></ul>"
+            "text": "<ul><ul><li>Console logging is a basic but effective debugging technique.</li></ul></ul>"
+          },
+          {
+            "paraid": 3,
+            "text": "<ul><ul><li>Use `<code>console.log()</code>` to output values or messages to the browser's console.</li></ul></ul>"
+          },
+          {
+            "paraid": 3,
+            "text": "<ul><ul><li>You can log variables, function outputs, or any other relevant information to track the flow of your code and identify potential issues.</li></ul></ul>"
           },
           {
             "paraid": 4,
@@ -4363,7 +4399,15 @@
           },
           {
             "paraid": 5,
-            "text": "<ul><ul><li>Most modern web browsers come with built-in developer tools that include debugging capabilities.</li><li>You can set breakpoints directly in your code, which pauses the execution when reached, allowing you to inspect variables, step through code, and analyze the program state.</li><li>By using breakpoints, you can narrow down the problematic sections of your code and understand how it executes.</li></ul></ul>"
+            "text": "<ul><ul><li>Most modern web browsers come with built-in developer tools that include debugging capabilities.</li></ul></ul>"
+          },
+          {
+            "paraid": 5,
+            "text": "<ul><ul><li>You can set breakpoints directly in your code, which pauses the execution when reached, allowing you to inspect variables, step through code, and analyze the program state.</li></ul></ul>"
+          },
+          {
+            "paraid": 5,
+            "text": "<ul><ul><li>By using breakpoints, you can narrow down the problematic sections of your code and understand how it executes.</li></ul></ul>"
           },
           {
             "paraid": 6,
@@ -4371,7 +4415,15 @@
           },
           {
             "paraid": 7,
-            "text": "<ul><ul><li>Debugging tools provide options to step through your code line by line.</li><li>You can use features like \"step over\" to move to the next line of code, \"step into\" to enter a function call and debug its execution, and \"step out\" to complete the current function and return to its caller.</li><li>Stepping through the code can help you understand the flow and identify any unexpected behavior or errors.</li></ul></ul>"
+            "text": "<ul><ul><li>Debugging tools provide options to step through your code line by line.</li></ul></ul>"
+          },
+          {
+            "paraid": 7,
+            "text": "<ul><ul><li>You can use features like \"step over\" to move to the next line of code, \"step into\" to enter a function call and debug its execution, and \"step out\" to complete the current function and return to its caller.</li></ul></ul>"
+          },
+          {
+            "paraid": 7,
+            "text": "<ul><ul><li>Stepping through the code can help you understand the flow and identify any unexpected behavior or errors.</li></ul></ul>"
           },
           {
             "paraid": 8,
@@ -4379,7 +4431,15 @@
           },
           {
             "paraid": 9,
-            "text": "<ul><ul><li>Debugging tools allow you to inspect the values of variables and objects at any given point during program execution.</li><li>You can add variables to the watch list to track their values as you step through the code.</li><li>Inspecting variables can help you identify incorrect values, unexpected changes, or null/undefined values that might be causing issues.</li></ul></ul>"
+            "text": "<ul><ul><li>Debugging tools allow you to inspect the values of variables and objects at any given point during program execution.</li></ul></ul>"
+          },
+          {
+            "paraid": 9,
+            "text": "<ul><ul><li>You can add variables to the watch list to track their values as you step through the code.</li></ul></ul>"
+          },
+          {
+            "paraid": 9,
+            "text": "<ul><ul><li>Inspecting variables can help you identify incorrect values, unexpected changes, or null/undefined values that might be causing issues.</li></ul></ul>"
           },
           {
             "paraid": 10,
@@ -4387,7 +4447,15 @@
           },
           {
             "paraid": 11,
-            "text": "<ul><ul><li>When an error occurs, JavaScript throws an error object with a descriptive message and a stack trace.</li><li>Pay attention to error messages as they often provide valuable information about the cause of the problem.</li><li>The stack trace shows the sequence of function calls that led to the error, allowing you to trace back the issue to its origin.</li></ul></ul>"
+            "text": "<ul><ul><li>When an error occurs, JavaScript throws an error object with a descriptive message and a stack trace.</li></ul></ul>"
+          },
+          {
+            "paraid": 11,
+            "text": "<ul><ul><li>Pay attention to error messages as they often provide valuable information about the cause of the problem.</li></ul></ul>"
+          },
+          {
+            "paraid": 11,
+            "text": "<ul><ul><li>The stack trace shows the sequence of function calls that led to the error, allowing you to trace back the issue to its origin.</li></ul></ul>"
           },
           {
             "paraid": 12,
@@ -4395,7 +4463,19 @@
           },
           {
             "paraid": 13,
-            "text": "<ul><ul><li>Modern web browsers, such as Chrome, Firefox, and Safari, provide developer tools that include comprehensive debugging capabilities.</li><li>These tools offer a range of features, including breakpoints, step-by-step execution, console logging, network monitoring, and DOM inspection.</li><li>Familiarize yourself with the debugging features available in your preferred browser's developer tools.</li><li>You can also put the `<code>debugger</code>` statement before the code to be checked. It works as setting a breakpoint and triggers any available debugging functionality. The statement has no effect if debugging functionality is unavailable.</li></ul></ul>"
+            "text": "<ul><ul><li>Modern web browsers, such as Chrome, Firefox, and Safari, provide developer tools that include comprehensive debugging capabilities.</li></ul></ul>"
+          },
+          {
+            "paraid": 13,
+            "text": "<ul><ul><li>These tools offer a range of features, including breakpoints, step-by-step execution, console logging, network monitoring, and DOM inspection.</li></ul></ul>"
+          },
+          {
+            "paraid": 13,
+            "text": "<ul><ul><li>Familiarize yourself with the debugging features available in your preferred browser's developer tools.</li></ul></ul>"
+          },
+          {
+            "paraid": 13,
+            "text": "<ul><ul><li>You can also put the `<code>debugger</code>` statement before the code to be checked. It works as setting a breakpoint and triggers any available debugging functionality. The statement has no effect if debugging functionality is unavailable.</li></ul></ul>"
           },
           {
             "paraid": 14,
@@ -4403,7 +4483,11 @@
           },
           {
             "paraid": 15,
-            "text": "<ul><ul><li>Utilize linting tools and code analysis tools like ESLint, JSLint, or JSHint.</li><li>These tools can help identify potential issues in your code, such as syntax errors, unused variables, or code style violations, before even running the code.</li></ul></ul>"
+            "text": "<ul><ul><li>Utilize linting tools and code analysis tools like ESLint, JSLint, or JSHint.</li></ul></ul>"
+          },
+          {
+            "paraid": 15,
+            "text": "<ul><ul><li>These tools can help identify potential issues in your code, such as syntax errors, unused variables, or code style violations, before even running the code.</li></ul></ul>"
           },
           {
             "paraid": 16,
@@ -4411,7 +4495,15 @@
           },
           {
             "paraid": 17,
-            "text": "<ul><ul><li>Implement proper logging and error handling mechanisms in your code.</li><li>Use try-catch blocks to catch and handle errors gracefully.</li><li>Log errors and relevant information to aid in troubleshooting and debugging in production environments.</li></ul></ul>"
+            "text": "<ul><ul><li>Implement proper logging and error handling mechanisms in your code.</li></ul></ul>"
+          },
+          {
+            "paraid": 17,
+            "text": "<ul><ul><li>Use try-catch blocks to catch and handle errors gracefully.</li></ul></ul>"
+          },
+          {
+            "paraid": 17,
+            "text": "<ul><ul><li>Log errors and relevant information to aid in troubleshooting and debugging in production environments.</li></ul></ul>"
           },
           {
             "paraid": 18,
@@ -4433,7 +4525,15 @@
           },
           {
             "paraid": 3,
-            "text": "<ul><ul><li>Syntax errors occur when there is a mistake in the syntax of your code.</li><li>JavaScript engines will throw a syntax error and halt the execution of the code.</li><li>To handle syntax errors, carefully review your code for typos, missing brackets, semicolons, or incorrect function parameters.</li></ul></ul>"
+            "text": "<ul><ul><li>Syntax errors occur when there is a mistake in the syntax of your code.</li></ul></ul>"
+          },
+          {
+            "paraid": 3,
+            "text": "<ul><ul><li>JavaScript engines will throw a syntax error and halt the execution of the code.</li></ul></ul>"
+          },
+          {
+            "paraid": 3,
+            "text": "<ul><ul><li>To handle syntax errors, carefully review your code for typos, missing brackets, semicolons, or incorrect function parameters.</li></ul></ul>"
           },
           {
             "paraid": 4,
@@ -4441,7 +4541,15 @@
           },
           {
             "paraid": 5,
-            "text": "<ul><ul><li>Reference errors occur when you try to access a variable or function that is not defined.</li><li>To handle reference errors, ensure that all variables and functions are properly declared and in scope.</li><li>You can use conditional statements or try-catch blocks to handle cases where certain variables may be undefined or null.</li></ul></ul>"
+            "text": "<ul><ul><li>Reference errors occur when you try to access a variable or function that is not defined.</li></ul></ul>"
+          },
+          {
+            "paraid": 5,
+            "text": "<ul><ul><li>To handle reference errors, ensure that all variables and functions are properly declared and in scope.</li></ul></ul>"
+          },
+          {
+            "paraid": 5,
+            "text": "<ul><ul><li>You can use conditional statements or try-catch blocks to handle cases where certain variables may be undefined or null.</li></ul></ul>"
           },
           {
             "paraid": 6,
@@ -4449,7 +4557,15 @@
           },
           {
             "paraid": 7,
-            "text": "<ul><ul><li>Type errors occur when you perform an operation on a value of an incorrect type.</li><li>Common type errors include trying to call a non-function, accessing a property of an undefined or null value, or using an operator on incompatible types.</li><li>To handle type errors, check the types of values before performing operations and use conditional statements or try-catch blocks to handle exceptions.</li></ul></ul>"
+            "text": "<ul><ul><li>Type errors occur when you perform an operation on a value of an incorrect type.</li></ul></ul>"
+          },
+          {
+            "paraid": 7,
+            "text": "<ul><ul><li>Common type errors include trying to call a non-function, accessing a property of an undefined or null value, or using an operator on incompatible types.</li></ul></ul>"
+          },
+          {
+            "paraid": 7,
+            "text": "<ul><ul><li>To handle type errors, check the types of values before performing operations and use conditional statements or try-catch blocks to handle exceptions.</li></ul></ul>"
           },
           {
             "paraid": 8,
@@ -4457,7 +4573,15 @@
           },
           {
             "paraid": 9,
-            "text": "<ul><ul><li>Range errors occur when you use an invalid value within an acceptable range.</li><li>For example, using an invalid index to access an array element or providing an invalid argument to a function.</li><li>To handle range errors, validate input values and use conditional statements or try-catch blocks to handle out-of-range cases.</li></ul></ul>"
+            "text": "<ul><ul><li>Range errors occur when you use an invalid value within an acceptable range.</li></ul></ul>"
+          },
+          {
+            "paraid": 9,
+            "text": "<ul><ul><li>For example, using an invalid index to access an array element or providing an invalid argument to a function.</li></ul></ul>"
+          },
+          {
+            "paraid": 9,
+            "text": "<ul><ul><li>To handle range errors, validate input values and use conditional statements or try-catch blocks to handle out-of-range cases.</li></ul></ul>"
           },
           {
             "paraid": 10,
@@ -4465,7 +4589,15 @@
           },
           {
             "paraid": 11,
-            "text": "<ul><ul><li>Network errors occur when there is a problem with network connectivity or when making HTTP requests.</li><li>These errors can include failed requests, timeouts, or CORS (Cross-Origin Resource Sharing) issues.</li><li>To handle network errors, please refer to Sections \"Making HTTP requests with AJAX\" and \"Making HTTP requests with the Fetch API\" in Chapter 6.</li></ul></ul>"
+            "text": "<ul><ul><li>Network errors occur when there is a problem with network connectivity or when making HTTP requests.</li></ul></ul>"
+          },
+          {
+            "paraid": 11,
+            "text": "<ul><ul><li>These errors can include failed requests, timeouts, or CORS (Cross-Origin Resource Sharing) issues.</li></ul></ul>"
+          },
+          {
+            "paraid": 11,
+            "text": "<ul><ul><li>To handle network errors, please refer to Sections \"Making HTTP requests with AJAX\" and \"Making HTTP requests with the Fetch API\" in Chapter 6.</li></ul></ul>"
           },
           {
             "paraid": 12,
@@ -4473,7 +4605,19 @@
           },
           {
             "paraid": 13,
-            "text": "<ul><ul><li>JavaScript provides built-in error objects like `<code>Error</code>`, `<code>TypeError</code>`, `<code>ReferenceError</code>`, etc., that can be used to catch and handle specific types of errors.</li><li>You can use the `<code>try-catch-finally</code>` statement to catch errors and handle them gracefully.</li><li>The `<code>catch</code>` block can include code to handle the error, log error messages, or display user-friendly error messages.</li><li>The `<code>finally</code>` block is executed regardless whether an exception is thrown or caught. This block is optional.</li></ul></ul>"
+            "text": "<ul><ul><li>JavaScript provides built-in error objects like `<code>Error</code>`, `<code>TypeError</code>`, `<code>ReferenceError</code>`, etc., that can be used to catch and handle specific types of errors.</li></ul></ul>"
+          },
+          {
+            "paraid": 13,
+            "text": "<ul><ul><li>You can use the `<code>try-catch-finally</code>` statement to catch errors and handle them gracefully.</li></ul></ul>"
+          },
+          {
+            "paraid": 13,
+            "text": "<ul><ul><li>The `<code>catch</code>` block can include code to handle the error, log error messages, or display user-friendly error messages.</li></ul></ul>"
+          },
+          {
+            "paraid": 13,
+            "text": "<ul><ul><li>The `<code>finally</code>` block is executed regardless whether an exception is thrown or caught. This block is optional.</li></ul></ul>"
           },
           {
             "paraid": 14,
@@ -4523,7 +4667,15 @@
           },
           {
             "paraid": 3,
-            "text": "<ul><ul><li>Start by organizing your code into logical directories and files based on functionality or modules.</li><li>Separate different concerns, such as UI components, data models, utility functions, or API interactions, into separate files or directories.</li><li>Consider using a consistent naming convention, such as lowercase filenames or kebab-case, to make it easier to navigate and find files.</li></ul></ul>"
+            "text": "<ul><ul><li>Start by organizing your code into logical directories and files based on functionality or modules.</li></ul></ul>"
+          },
+          {
+            "paraid": 3,
+            "text": "<ul><ul><li>Separate different concerns, such as UI components, data models, utility functions, or API interactions, into separate files or directories.</li></ul></ul>"
+          },
+          {
+            "paraid": 3,
+            "text": "<ul><ul><li>Consider using a consistent naming convention, such as lowercase filenames or kebab-case, to make it easier to navigate and find files.</li></ul></ul>"
           },
           {
             "paraid": 4,
@@ -4531,7 +4683,19 @@
           },
           {
             "paraid": 5,
-            "text": "<ul><ul><li>Break your code into modules, which are self-contained units that encapsulate related functionality.</li><li>Each module should have a clear purpose and responsibility.</li><li>Encapsulate related variables, functions, and classes within a module and export only the necessary interface.</li><li>Use the module pattern (e.g., using functions or classes) to encapsulate code and prevent polluting the global namespace.</li></ul></ul>"
+            "text": "<ul><ul><li>Break your code into modules, which are self-contained units that encapsulate related functionality.</li></ul></ul>"
+          },
+          {
+            "paraid": 5,
+            "text": "<ul><ul><li>Each module should have a clear purpose and responsibility.</li></ul></ul>"
+          },
+          {
+            "paraid": 5,
+            "text": "<ul><ul><li>Encapsulate related variables, functions, and classes within a module and export only the necessary interface.</li></ul></ul>"
+          },
+          {
+            "paraid": 5,
+            "text": "<ul><ul><li>Use the module pattern (e.g., using functions or classes) to encapsulate code and prevent polluting the global namespace.</li></ul></ul>"
           },
           {
             "paraid": 6,
@@ -4539,7 +4703,15 @@
           },
           {
             "paraid": 7,
-            "text": "<ul><ul><li>Use a dependency management system or module bundler, such as npm (Node Package Manager) or webpack, to manage external dependencies and package your code.</li><li>Define dependencies in a separate file (e.g., `<code>package.json</code>`) and use tools to install and manage them automatically.</li><li>This allows you to easily add, update, and remove dependencies without manually managing files.</li></ul></ul>"
+            "text": "<ul><ul><li>Use a dependency management system or module bundler, such as npm (Node Package Manager) or webpack, to manage external dependencies and package your code.</li></ul></ul>"
+          },
+          {
+            "paraid": 7,
+            "text": "<ul><ul><li>Define dependencies in a separate file (e.g., `<code>package.json</code>`) and use tools to install and manage them automatically.</li></ul></ul>"
+          },
+          {
+            "paraid": 7,
+            "text": "<ul><ul><li>This allows you to easily add, update, and remove dependencies without manually managing files.</li></ul></ul>"
           },
           {
             "paraid": 8,
@@ -4547,7 +4719,15 @@
           },
           {
             "paraid": 9,
-            "text": "<ul><ul><li>Follow the principle of separation of concerns, which promotes dividing your code into distinct sections that handle different aspects of your application.</li><li>Keep your UI, business logic, and data management separate.</li><li>For example, separate HTML, CSS, and JavaScript code into their respective files or directories.</li></ul></ul>"
+            "text": "<ul><ul><li>Follow the principle of separation of concerns, which promotes dividing your code into distinct sections that handle different aspects of your application.</li></ul></ul>"
+          },
+          {
+            "paraid": 9,
+            "text": "<ul><ul><li>Keep your UI, business logic, and data management separate.</li></ul></ul>"
+          },
+          {
+            "paraid": 9,
+            "text": "<ul><ul><li>For example, separate HTML, CSS, and JavaScript code into their respective files or directories.</li></ul></ul>"
           },
           {
             "paraid": 10,
@@ -4555,7 +4735,15 @@
           },
           {
             "paraid": 11,
-            "text": "<ul><ul><li>Utilize JavaScript module systems like CommonJS or ES modules (import/export) to encapsulate and organize your code into reusable modules.</li><li>Modules allow you to declare dependencies and import/export specific parts of the code.</li><li>This promotes code reuse, maintainability, and testability.</li></ul></ul>"
+            "text": "<ul><ul><li>Utilize JavaScript module systems like CommonJS or ES modules (import/export) to encapsulate and organize your code into reusable modules.</li></ul></ul>"
+          },
+          {
+            "paraid": 11,
+            "text": "<ul><ul><li>Modules allow you to declare dependencies and import/export specific parts of the code.</li></ul></ul>"
+          },
+          {
+            "paraid": 11,
+            "text": "<ul><ul><li>This promotes code reuse, maintainability, and testability.</li></ul></ul>"
           },
           {
             "paraid": 12,
@@ -4563,7 +4751,11 @@
           },
           {
             "paraid": 13,
-            "text": "<ul><ul><li>Consider using modular development frameworks/libraries like React, Vue.js, or Angular, which provide built-in mechanisms for organizing and modularizing code.</li><li>These frameworks typically encourage component-based development, where UI components encapsulate their own logic and can be easily reused.</li></ul></ul>"
+            "text": "<ul><ul><li>Consider using modular development frameworks/libraries like React, Vue.js, or Angular, which provide built-in mechanisms for organizing and modularizing code.</li></ul></ul>"
+          },
+          {
+            "paraid": 13,
+            "text": "<ul><ul><li>These frameworks typically encourage component-based development, where UI components encapsulate their own logic and can be easily reused.</li></ul></ul>"
           },
           {
             "paraid": 14,
@@ -4571,7 +4763,15 @@
           },
           {
             "paraid": 15,
-            "text": "<ul><ul><li>Document your code to provide clear explanations of its purpose, usage, and any dependencies.</li><li>Use meaningful variable and function names to improve code readability.</li><li>Include comments where necessary to provide additional context or explanations for complex code sections.</li></ul></ul>"
+            "text": "<ul><ul><li>Document your code to provide clear explanations of its purpose, usage, and any dependencies.</li></ul></ul>"
+          },
+          {
+            "paraid": 15,
+            "text": "<ul><ul><li>Use meaningful variable and function names to improve code readability.</li></ul></ul>"
+          },
+          {
+            "paraid": 15,
+            "text": "<ul><ul><li>Include comments where necessary to provide additional context or explanations for complex code sections.</li></ul></ul>"
           },
           {
             "paraid": 16,
@@ -4579,7 +4779,11 @@
           },
           {
             "paraid": 17,
-            "text": "<ul><ul><li>Use a code linter like ESLint to enforce consistent code style and catch potential errors or anti-patterns.</li><li>Linting rules can help maintain a clean and standardized codebase, improving readability and reducing the chance of bugs.</li></ul></ul>"
+            "text": "<ul><ul><li>Use a code linter like ESLint to enforce consistent code style and catch potential errors or anti-patterns.</li></ul></ul>"
+          },
+          {
+            "paraid": 17,
+            "text": "<ul><ul><li>Linting rules can help maintain a clean and standardized codebase, improving readability and reducing the chance of bugs.</li></ul></ul>"
           },
           {
             "paraid": 18,
@@ -4601,7 +4805,19 @@
           },
           {
             "paraid": 3,
-            "text": "<ul><ul><li>Use descriptive and meaningful names that accurately represent the purpose or content of the variable or function.</li><li>Favor readability over brevity. Avoid overly abbreviated or cryptic names that can be confusing.</li><li>Use camelCase for variables and functions (e.g., `<code>myVariable</code>`, `<code>calculateSum</code>`).</li><li>Be consistent with naming conventions throughout your codebase.</li></ul></ul>"
+            "text": "<ul><ul><li>Use descriptive and meaningful names that accurately represent the purpose or content of the variable or function.</li></ul></ul>"
+          },
+          {
+            "paraid": 3,
+            "text": "<ul><ul><li>Favor readability over brevity. Avoid overly abbreviated or cryptic names that can be confusing.</li></ul></ul>"
+          },
+          {
+            "paraid": 3,
+            "text": "<ul><ul><li>Use camelCase for variables and functions (e.g., `<code>myVariable</code>`, `<code>calculateSum</code>`).</li></ul></ul>"
+          },
+          {
+            "paraid": 3,
+            "text": "<ul><ul><li>Be consistent with naming conventions throughout your codebase.</li></ul></ul>"
           },
           {
             "paraid": 4,
@@ -4609,7 +4825,11 @@
           },
           {
             "paraid": 5,
-            "text": "<ul><ul><li>Use uppercase letters and underscores for constants (e.g., `<code>MAX_COUNT</code>`, `<code>API_URL</code>`).</li><li>Constants should represent values that are not intended to be changed.</li></ul></ul>"
+            "text": "<ul><ul><li>Use uppercase letters and underscores for constants (e.g., `<code>MAX_COUNT</code>`, `<code>API_URL</code>`).</li></ul></ul>"
+          },
+          {
+            "paraid": 5,
+            "text": "<ul><ul><li>Constants should represent values that are not intended to be changed.</li></ul></ul>"
           },
           {
             "paraid": 6,
@@ -4617,7 +4837,11 @@
           },
           {
             "paraid": 7,
-            "text": "<ul><ul><li>Use PascalCase (also known as UpperCamelCase) for class names (e.g., `<code>Person</code>`, `<code>Car</code>`).</li><li>Use descriptive names that accurately represent the class's purpose or functionality.</li></ul></ul>"
+            "text": "<ul><ul><li>Use PascalCase (also known as UpperCamelCase) for class names (e.g., `<code>Person</code>`, `<code>Car</code>`).</li></ul></ul>"
+          },
+          {
+            "paraid": 7,
+            "text": "<ul><ul><li>Use descriptive names that accurately represent the class's purpose or functionality.</li></ul></ul>"
           },
           {
             "paraid": 8,
@@ -4625,7 +4849,11 @@
           },
           {
             "paraid": 9,
-            "text": "<ul><ul><li>Use camelCase for function and method names.</li><li>Choose verbs or verb phrases that describe the action performed by the function or method (e.g., `<code>getUser</code>`, `<code>calculateTotal</code>`).</li></ul></ul>"
+            "text": "<ul><ul><li>Use camelCase for function and method names.</li></ul></ul>"
+          },
+          {
+            "paraid": 9,
+            "text": "<ul><ul><li>Choose verbs or verb phrases that describe the action performed by the function or method (e.g., `<code>getUser</code>`, `<code>calculateTotal</code>`).</li></ul></ul>"
           },
           {
             "paraid": 10,
@@ -4633,7 +4861,15 @@
           },
           {
             "paraid": 11,
-            "text": "<ul><ul><li>Use comments to provide explanations, clarify complex code sections, or document the purpose and usage of functions or classes.</li><li>Write comments that add value and improve code understanding, avoiding redundant or obvious comments.</li><li>Use consistent formatting for comments across your codebase.</li></ul></ul>"
+            "text": "<ul><ul><li>Use comments to provide explanations, clarify complex code sections, or document the purpose and usage of functions or classes.</li></ul></ul>"
+          },
+          {
+            "paraid": 11,
+            "text": "<ul><ul><li>Write comments that add value and improve code understanding, avoiding redundant or obvious comments.</li></ul></ul>"
+          },
+          {
+            "paraid": 11,
+            "text": "<ul><ul><li>Use consistent formatting for comments across your codebase.</li></ul></ul>"
           },
           {
             "paraid": 12,
@@ -4641,7 +4877,15 @@
           },
           {
             "paraid": 13,
-            "text": "<ul><ul><li>Use consistent indentation (e.g., two spaces or four spaces) for blocks of code within functions, loops, conditionals, etc.</li><li>Choose a consistent code formatting style for elements like curly braces, line breaks, and spacing.</li><li>Consistent formatting helps improve code readability and maintainability.</li></ul></ul>"
+            "text": "<ul><ul><li>Use consistent indentation (e.g., two spaces or four spaces) for blocks of code within functions, loops, conditionals, etc.</li></ul></ul>"
+          },
+          {
+            "paraid": 13,
+            "text": "<ul><ul><li>Choose a consistent code formatting style for elements like curly braces, line breaks, and spacing.</li></ul></ul>"
+          },
+          {
+            "paraid": 13,
+            "text": "<ul><ul><li>Consistent formatting helps improve code readability and maintainability.</li></ul></ul>"
           },
           {
             "paraid": 14,
@@ -4649,7 +4893,15 @@
           },
           {
             "paraid": 15,
-            "text": "<ul><ul><li>Limit lines to a reasonable length (e.g., 80-120 characters) for improved readability.</li><li>Wrap long lines by breaking them into multiple lines.</li><li>Break lines at logical points (e.g., after a comma or operator) to maintain readability.</li></ul></ul>"
+            "text": "<ul><ul><li>Limit lines to a reasonable length (e.g., 80-120 characters) for improved readability.</li></ul></ul>"
+          },
+          {
+            "paraid": 15,
+            "text": "<ul><ul><li>Wrap long lines by breaking them into multiple lines.</li></ul></ul>"
+          },
+          {
+            "paraid": 15,
+            "text": "<ul><ul><li>Break lines at logical points (e.g., after a comma or operator) to maintain readability.</li></ul></ul>"
           },
           {
             "paraid": 16,
@@ -4657,7 +4909,11 @@
           },
           {
             "paraid": 17,
-            "text": "<ul><ul><li>Use parentheses and brackets consistently and place them in a readable manner.</li><li>Avoid unnecessary or redundant parentheses or brackets.</li></ul></ul>"
+            "text": "<ul><ul><li>Use parentheses and brackets consistently and place them in a readable manner.</li></ul></ul>"
+          },
+          {
+            "paraid": 17,
+            "text": "<ul><ul><li>Avoid unnecessary or redundant parentheses or brackets.</li></ul></ul>"
           },
           {
             "paraid": 18,
@@ -4665,7 +4921,11 @@
           },
           {
             "paraid": 19,
-            "text": "<ul><ul><li>Add spaces around operators to improve readability (e.g., `<code>x = 5 + 2;</code>`, `<code>if (condition) { ... }</code>`).</li><li>However, don't overuse spaces to the extent that it hampers readability.</li></ul></ul>"
+            "text": "<ul><ul><li>Add spaces around operators to improve readability (e.g., `<code>x = 5 + 2;</code>`, `<code>if (condition) { ... }</code>`).</li></ul></ul>"
+          },
+          {
+            "paraid": 19,
+            "text": "<ul><ul><li>However, don't overuse spaces to the extent that it hampers readability.</li></ul></ul>"
           },
           {
             "paraid": 20,
@@ -4673,7 +4933,11 @@
           },
           {
             "paraid": 21,
-            "text": "<ul><ul><li>Consistency is key. Follow the established coding conventions and style guidelines of your project or team.</li><li>If working with a team, agree on a set of coding style guidelines and adhere to them for consistent code across the project.</li></ul></ul>"
+            "text": "<ul><ul><li>Consistency is key. Follow the established coding conventions and style guidelines of your project or team.</li></ul></ul>"
+          },
+          {
+            "paraid": 21,
+            "text": "<ul><ul><li>If working with a team, agree on a set of coding style guidelines and adhere to them for consistent code across the project.</li></ul></ul>"
           },
           {
             "paraid": 22,
@@ -4695,7 +4959,15 @@
           },
           {
             "paraid": 3,
-            "text": "<ul><ul><li>Minify and bundle your JavaScript code using tools like UglifyJS or Webpack.</li><li>Minification removes unnecessary characters (whitespace, comments) to reduce file size.</li><li>Bundling combines multiple files into a single file, reducing the number of HTTP requests required.</li></ul></ul>"
+            "text": "<ul><ul><li>Minify and bundle your JavaScript code using tools like UglifyJS or Webpack.</li></ul></ul>"
+          },
+          {
+            "paraid": 3,
+            "text": "<ul><ul><li>Minification removes unnecessary characters (whitespace, comments) to reduce file size.</li></ul></ul>"
+          },
+          {
+            "paraid": 3,
+            "text": "<ul><ul><li>Bundling combines multiple files into a single file, reducing the number of HTTP requests required.</li></ul></ul>"
           },
           {
             "paraid": 4,
@@ -4703,7 +4975,11 @@
           },
           {
             "paraid": 5,
-            "text": "<ul><ul><li>Minimize the use of global variables as they can lead to naming conflicts and hinder performance.</li><li>Declare variables with appropriate scope (e.g., local to functions or modules) to reduce global namespace pollution.</li></ul></ul>"
+            "text": "<ul><ul><li>Minimize the use of global variables as they can lead to naming conflicts and hinder performance.</li></ul></ul>"
+          },
+          {
+            "paraid": 5,
+            "text": "<ul><ul><li>Declare variables with appropriate scope (e.g., local to functions or modules) to reduce global namespace pollution.</li></ul></ul>"
           },
           {
             "paraid": 6,
@@ -4711,7 +4987,11 @@
           },
           {
             "paraid": 7,
-            "text": "<ul><ul><li>Optimize loops by reducing the number of iterations and avoiding unnecessary operations within the loop.</li><li>Consider using techniques like loop unrolling or loop inversion to optimize specific scenarios.</li></ul></ul>"
+            "text": "<ul><ul><li>Optimize loops by reducing the number of iterations and avoiding unnecessary operations within the loop.</li></ul></ul>"
+          },
+          {
+            "paraid": 7,
+            "text": "<ul><ul><li>Consider using techniques like loop unrolling or loop inversion to optimize specific scenarios.</li></ul></ul>"
           },
           {
             "paraid": 8,
@@ -4719,7 +4999,15 @@
           },
           {
             "paraid": 9,
-            "text": "<ul><ul><li>Choose appropriate data structures and algorithms for your specific use case.</li><li>Use efficient data structures like arrays or maps for fast element access or lookup.</li><li>Employ algorithms with optimal time complexity to ensure efficient processing.</li></ul></ul>"
+            "text": "<ul><ul><li>Choose appropriate data structures and algorithms for your specific use case.</li></ul></ul>"
+          },
+          {
+            "paraid": 9,
+            "text": "<ul><ul><li>Use efficient data structures like arrays or maps for fast element access or lookup.</li></ul></ul>"
+          },
+          {
+            "paraid": 9,
+            "text": "<ul><ul><li>Employ algorithms with optimal time complexity to ensure efficient processing.</li></ul></ul>"
           },
           {
             "paraid": 10,
@@ -4727,7 +5015,15 @@
           },
           {
             "paraid": 11,
-            "text": "<ul><ul><li>Minimize the number of DOM queries, as they can be expensive operations.</li><li>Cache repeated DOM queries in variables to avoid redundant lookups.</li><li>Use techniques like event delegation to reduce the number of event listeners attached to individual elements.</li></ul></ul>"
+            "text": "<ul><ul><li>Minimize the number of DOM queries, as they can be expensive operations.</li></ul></ul>"
+          },
+          {
+            "paraid": 11,
+            "text": "<ul><ul><li>Cache repeated DOM queries in variables to avoid redundant lookups.</li></ul></ul>"
+          },
+          {
+            "paraid": 11,
+            "text": "<ul><ul><li>Use techniques like event delegation to reduce the number of event listeners attached to individual elements.</li></ul></ul>"
           },
           {
             "paraid": 12,
@@ -4735,7 +5031,15 @@
           },
           {
             "paraid": 13,
-            "text": "<ul><ul><li>Implement debouncing and throttling techniques to optimize event handling and reduce unnecessary function calls.</li><li>Debouncing limits the frequency of a function call to improve performance in scenarios like resizing or scrolling events.</li><li>Throttling limits the number of function invocations within a specific time frame, especially for events like mouse movement or keyboard input.</li></ul></ul>"
+            "text": "<ul><ul><li>Implement debouncing and throttling techniques to optimize event handling and reduce unnecessary function calls.</li></ul></ul>"
+          },
+          {
+            "paraid": 13,
+            "text": "<ul><ul><li>Debouncing limits the frequency of a function call to improve performance in scenarios like resizing or scrolling events.</li></ul></ul>"
+          },
+          {
+            "paraid": 13,
+            "text": "<ul><ul><li>Throttling limits the number of function invocations within a specific time frame, especially for events like mouse movement or keyboard input.</li></ul></ul>"
           },
           {
             "paraid": 14,
@@ -4743,7 +5047,11 @@
           },
           {
             "paraid": 15,
-            "text": "<ul><ul><li>When selecting elements using JavaScript libraries like jQuery, use efficient selectors to minimize the search time.</li><li>Prefer ID selectors (`<code>#id</code>`) or class selectors (`<code>.class</code>`) over complex CSS selectors.</li></ul></ul>"
+            "text": "<ul><ul><li>When selecting elements using JavaScript libraries like jQuery, use efficient selectors to minimize the search time.</li></ul></ul>"
+          },
+          {
+            "paraid": 15,
+            "text": "<ul><ul><li>Prefer ID selectors (`<code>#id</code>`) or class selectors (`<code>.class</code>`) over complex CSS selectors.</li></ul></ul>"
           },
           {
             "paraid": 16,
@@ -4751,7 +5059,11 @@
           },
           {
             "paraid": 17,
-            "text": "<ul><ul><li>Offload time-consuming tasks or operations to asynchronous functions or workers.</li><li>Use asynchronous techniques like Promises, async/await, or Web Workers to prevent blocking the main thread and improve responsiveness.</li></ul></ul>"
+            "text": "<ul><ul><li>Offload time-consuming tasks or operations to asynchronous functions or workers.</li></ul></ul>"
+          },
+          {
+            "paraid": 17,
+            "text": "<ul><ul><li>Use asynchronous techniques like Promises, async/await, or Web Workers to prevent blocking the main thread and improve responsiveness.</li></ul></ul>"
           },
           {
             "paraid": 18,
@@ -4759,7 +5071,11 @@
           },
           {
             "paraid": 19,
-            "text": "<ul><ul><li>Minimize the number of network requests by combining resources, using caching techniques, or lazy loading.</li><li>Optimize the size of transferred data by compressing files (e.g., using Gzip) and optimizing images.</li></ul></ul>"
+            "text": "<ul><ul><li>Minimize the number of network requests by combining resources, using caching techniques, or lazy loading.</li></ul></ul>"
+          },
+          {
+            "paraid": 19,
+            "text": "<ul><ul><li>Optimize the size of transferred data by compressing files (e.g., using Gzip) and optimizing images.</li></ul></ul>"
           },
           {
             "paraid": 20,
@@ -4767,7 +5083,11 @@
           },
           {
             "paraid": 21,
-            "text": "<ul><ul><li>Use profiling and benchmarking tools to identify performance bottlenecks in your code.</li><li>Tools like Chrome DevTools, Lighthouse, or performance profiling libraries can help pinpoint areas that require optimization.</li></ul></ul>"
+            "text": "<ul><ul><li>Use profiling and benchmarking tools to identify performance bottlenecks in your code.</li></ul></ul>"
+          },
+          {
+            "paraid": 21,
+            "text": "<ul><ul><li>Tools like Chrome DevTools, Lighthouse, or performance profiling libraries can help pinpoint areas that require optimization.</li></ul></ul>"
           },
           {
             "paraid": 22,
@@ -4775,7 +5095,15 @@
           },
           {
             "paraid": 23,
-            "text": "<ul><ul><li>Be mindful of memory usage and manage memory efficiently.</li><li>Avoid memory leaks by properly releasing resources, removing event listeners to deallocate memory when no longer needed.</li><li>Use techniques like object pooling or memory reuse for performance-critical scenarios.</li></ul></ul>"
+            "text": "<ul><ul><li>Be mindful of memory usage and manage memory efficiently.</li></ul></ul>"
+          },
+          {
+            "paraid": 23,
+            "text": "<ul><ul><li>Avoid memory leaks by properly releasing resources, removing event listeners to deallocate memory when no longer needed.</li></ul></ul>"
+          },
+          {
+            "paraid": 23,
+            "text": "<ul><ul><li>Use techniques like object pooling or memory reuse for performance-critical scenarios.</li></ul></ul>"
           },
           {
             "paraid": 24,
@@ -4805,7 +5133,11 @@
           },
           {
             "paraid": 3,
-            "text": "<ul><ul><li>Validate and sanitize all user input to prevent injection attacks and other security vulnerabilities.</li><li>Use server-side validation in addition to client-side validation to ensure data integrity.</li></ul></ul>"
+            "text": "<ul><ul><li>Validate and sanitize all user input to prevent injection attacks and other security vulnerabilities.</li></ul></ul>"
+          },
+          {
+            "paraid": 3,
+            "text": "<ul><ul><li>Use server-side validation in addition to client-side validation to ensure data integrity.</li></ul></ul>"
           },
           {
             "paraid": 4,
@@ -4813,7 +5145,11 @@
           },
           {
             "paraid": 5,
-            "text": "<ul><ul><li>Guard against XSS attacks by properly encoding and escaping user-generated content before rendering it in HTML templates or dynamically updating the DOM.</li><li>Avoid using innerHTML or similar methods when injecting user-generated content.</li></ul></ul>"
+            "text": "<ul><ul><li>Guard against XSS attacks by properly encoding and escaping user-generated content before rendering it in HTML templates or dynamically updating the DOM.</li></ul></ul>"
+          },
+          {
+            "paraid": 5,
+            "text": "<ul><ul><li>Avoid using innerHTML or similar methods when injecting user-generated content.</li></ul></ul>"
           },
           {
             "paraid": 6,
@@ -4821,7 +5157,11 @@
           },
           {
             "paraid": 7,
-            "text": "<ul><ul><li>Implement measures to prevent CSRF attacks by adding CSRF tokens to forms and validating them on the server-side.</li><li>Ensure that sensitive operations, such as modifying user data or performing financial transactions, require additional authentication and authorization.</li></ul></ul>"
+            "text": "<ul><ul><li>Implement measures to prevent CSRF attacks by adding CSRF tokens to forms and validating them on the server-side.</li></ul></ul>"
+          },
+          {
+            "paraid": 7,
+            "text": "<ul><ul><li>Ensure that sensitive operations, such as modifying user data or performing financial transactions, require additional authentication and authorization.</li></ul></ul>"
           },
           {
             "paraid": 8,
@@ -4829,7 +5169,11 @@
           },
           {
             "paraid": 9,
-            "text": "<ul><ul><li>Use secure communication protocols (HTTPS) to encrypt data transmitted between the client and server, preventing eavesdropping and tampering.</li><li>Avoid transmitting sensitive information, such as passwords or authentication tokens, over insecure channels.</li></ul></ul>"
+            "text": "<ul><ul><li>Use secure communication protocols (HTTPS) to encrypt data transmitted between the client and server, preventing eavesdropping and tampering.</li></ul></ul>"
+          },
+          {
+            "paraid": 9,
+            "text": "<ul><ul><li>Avoid transmitting sensitive information, such as passwords or authentication tokens, over insecure channels.</li></ul></ul>"
           },
           {
             "paraid": 10,
@@ -4837,7 +5181,15 @@
           },
           {
             "paraid": 11,
-            "text": "<ul><ul><li>Implement secure authentication mechanisms, such as using industry-standard hashing algorithms (e.g., bcrypt) to store and verify user passwords.</li><li>Use strong session management practices, including securely storing session tokens and implementing session expiration.</li><li>Apply appropriate authorization checks to ensure that users can access only the resources they are authorized to access.</li></ul></ul>"
+            "text": "<ul><ul><li>Implement secure authentication mechanisms, such as using industry-standard hashing algorithms (e.g., bcrypt) to store and verify user passwords.</li></ul></ul>"
+          },
+          {
+            "paraid": 11,
+            "text": "<ul><ul><li>Use strong session management practices, including securely storing session tokens and implementing session expiration.</li></ul></ul>"
+          },
+          {
+            "paraid": 11,
+            "text": "<ul><ul><li>Apply appropriate authorization checks to ensure that users can access only the resources they are authorized to access.</li></ul></ul>"
           },
           {
             "paraid": 12,
@@ -4845,7 +5197,15 @@
           },
           {
             "paraid": 13,
-            "text": "<ul><ul><li>Handle sensitive data carefully, using encryption and secure storage mechanisms to protect user information, such as passwords or personal data.</li><li>Avoid storing sensitive information in client-side storage mechanisms, such as cookies or local storage, unless necessary.</li><li>Follow best practices for data protection and adhere to relevant data protection regulations, such as GDPR.</li></ul></ul>"
+            "text": "<ul><ul><li>Handle sensitive data carefully, using encryption and secure storage mechanisms to protect user information, such as passwords or personal data.</li></ul></ul>"
+          },
+          {
+            "paraid": 13,
+            "text": "<ul><ul><li>Avoid storing sensitive information in client-side storage mechanisms, such as cookies or local storage, unless necessary.</li></ul></ul>"
+          },
+          {
+            "paraid": 13,
+            "text": "<ul><ul><li>Follow best practices for data protection and adhere to relevant data protection regulations, such as GDPR.</li></ul></ul>"
           },
           {
             "paraid": 14,
@@ -4853,7 +5213,11 @@
           },
           {
             "paraid": 15,
-            "text": "<ul><ul><li>Check and regularly update third-party libraries and APIs used in your application to address security vulnerabilities.</li><li>Only use trusted and well-maintained libraries from reputable sources.</li></ul></ul>"
+            "text": "<ul><ul><li>Check and regularly update third-party libraries and APIs used in your application to address security vulnerabilities.</li></ul></ul>"
+          },
+          {
+            "paraid": 15,
+            "text": "<ul><ul><li>Only use trusted and well-maintained libraries from reputable sources.</li></ul></ul>"
           },
           {
             "paraid": 16,
@@ -4861,7 +5225,11 @@
           },
           {
             "paraid": 17,
-            "text": "<ul><ul><li>Stay informed about security vulnerabilities and updates related to JavaScript libraries, frameworks, and tools used in your project.</li><li>Regularly update your dependencies and apply security patches to protect against known vulnerabilities.</li></ul></ul>"
+            "text": "<ul><ul><li>Stay informed about security vulnerabilities and updates related to JavaScript libraries, frameworks, and tools used in your project.</li></ul></ul>"
+          },
+          {
+            "paraid": 17,
+            "text": "<ul><ul><li>Regularly update your dependencies and apply security patches to protect against known vulnerabilities.</li></ul></ul>"
           },
           {
             "paraid": 18,
@@ -4869,7 +5237,11 @@
           },
           {
             "paraid": 19,
-            "text": "<ul><ul><li>Implement proper error handling and logging mechanisms to monitor and identify potential security issues.</li><li>Be cautious about exposing sensitive error information to prevent information leakage.</li></ul></ul>"
+            "text": "<ul><ul><li>Implement proper error handling and logging mechanisms to monitor and identify potential security issues.</li></ul></ul>"
+          },
+          {
+            "paraid": 19,
+            "text": "<ul><ul><li>Be cautious about exposing sensitive error information to prevent information leakage.</li></ul></ul>"
           },
           {
             "paraid": 20,
@@ -4877,7 +5249,11 @@
           },
           {
             "paraid": 21,
-            "text": "<ul><ul><li>Implement appropriate access controls and permissions to restrict user actions and prevent unauthorized access to resources.</li><li>Be mindful of privilege escalation vulnerabilities, where an attacker gains higher privileges than intended.</li></ul></ul>"
+            "text": "<ul><ul><li>Implement appropriate access controls and permissions to restrict user actions and prevent unauthorized access to resources.</li></ul></ul>"
+          },
+          {
+            "paraid": 21,
+            "text": "<ul><ul><li>Be mindful of privilege escalation vulnerabilities, where an attacker gains higher privileges than intended.</li></ul></ul>"
           },
           {
             "paraid": 22,
@@ -4885,7 +5261,11 @@
           },
           {
             "paraid": 23,
-            "text": "<ul><ul><li>Conduct security audits and penetration testing to identify vulnerabilities and weaknesses in your application.</li><li>Regularly review and assess the security of your codebase and infrastructure.</li></ul></ul>"
+            "text": "<ul><ul><li>Conduct security audits and penetration testing to identify vulnerabilities and weaknesses in your application.</li></ul></ul>"
+          },
+          {
+            "paraid": 23,
+            "text": "<ul><ul><li>Regularly review and assess the security of your codebase and infrastructure.</li></ul></ul>"
           },
           {
             "paraid": 24,
@@ -4893,7 +5273,11 @@
           },
           {
             "paraid": 25,
-            "text": "<ul><ul><li>Educate your users about security best practices, such as using strong passwords, avoiding sharing sensitive information, and being cautious of phishing attacks.</li><li>Implement security features like two-factor authentication (2FA) to enhance user account security.</li></ul></ul>"
+            "text": "<ul><ul><li>Educate your users about security best practices, such as using strong passwords, avoiding sharing sensitive information, and being cautious of phishing attacks.</li></ul></ul>"
+          },
+          {
+            "paraid": 25,
+            "text": "<ul><ul><li>Implement security features like two-factor authentication (2FA) to enhance user account security.</li></ul></ul>"
           },
           {
             "paraid": 26,

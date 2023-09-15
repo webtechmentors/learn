@@ -185,7 +185,19 @@
           },
           {
             "paraid": 3,
-            "text": "<ul><ul><li>Element selector: `<code>p { ... }</code>`</li><li>Class selector: `<code>.my-class { ... }</code>`</li><li>ID selector: `<code>#my-id { ... }</code>`</li><li>Attribute selector: `<code>input[type=\"text\"] { ... }</code>`</li></ul></ul>"
+            "text": "<ul><ul><li>Element selector: `<code>p { ... }</code>`</li></ul></ul>"
+          },
+          {
+            "paraid": 3,
+            "text": "<ul><ul><li>Class selector: `<code>.my-class { ... }</code>`</li></ul></ul>"
+          },
+          {
+            "paraid": 3,
+            "text": "<ul><ul><li>ID selector: `<code>#my-id { ... }</code>`</li></ul></ul>"
+          },
+          {
+            "paraid": 3,
+            "text": "<ul><ul><li>Attribute selector: `<code>input[type=\"text\"] { ... }</code>`</li></ul></ul>"
           },
           {
             "paraid": 4,
@@ -1396,7 +1408,31 @@
           },
           {
             "paraid": 3,
-            "text": "<ul><ul><li>`<code>:hover</code>`: Targets elements when the user hovers over them with the cursor.</li><li>`<code>:active</code>`: Targets elements when they are being clicked or activated.</li><li>`<code>:focus</code>`: Targets elements when they have focus (e.g., input fields).</li><li>`<code>:visited</code>`: Targets links that have been visited.</li><li>`<code>:first-child</code>`: Targets the first child element of its parent.</li><li>`<code>:last-child</code>`: Targets the last child element of its parent.</li><li>`<code>:nth-child(n)</code>`: Targets elements that are the nth child of their parent.</li></ul></ul>"
+            "text": "<ul><ul><li>`<code>:hover</code>`: Targets elements when the user hovers over them with the cursor.</li></ul></ul>"
+          },
+          {
+            "paraid": 3,
+            "text": "<ul><ul><li>`<code>:active</code>`: Targets elements when they are being clicked or activated.</li></ul></ul>"
+          },
+          {
+            "paraid": 3,
+            "text": "<ul><ul><li>`<code>:focus</code>`: Targets elements when they have focus (e.g., input fields).</li></ul></ul>"
+          },
+          {
+            "paraid": 3,
+            "text": "<ul><ul><li>`<code>:visited</code>`: Targets links that have been visited.</li></ul></ul>"
+          },
+          {
+            "paraid": 3,
+            "text": "<ul><ul><li>`<code>:first-child</code>`: Targets the first child element of its parent.</li></ul></ul>"
+          },
+          {
+            "paraid": 3,
+            "text": "<ul><ul><li>`<code>:last-child</code>`: Targets the last child element of its parent.</li></ul></ul>"
+          },
+          {
+            "paraid": 3,
+            "text": "<ul><ul><li>`<code>:nth-child(n)</code>`: Targets elements that are the nth child of their parent.</li></ul></ul>"
           },
           {
             "paraid": 4,
@@ -1429,7 +1465,19 @@
           },
           {
             "paraid": 7,
-            "text": "<ul><ul><li>`<code>::before</code>`: Inserts content before the element's content.</li><li>`<code>::after</code>`: Inserts content after the element's content.</li><li>`<code>::first-line</code>`: Targets the first line of text within an element.</li><li>`<code>::first-letter</code>`: Targets the first letter of text within an element.</li><li>`<code>::selection</code>`: Targets the portion of text selected by the user.</li></ul></ul>"
+            "text": "<ul><ul><li>`<code>::before</code>`: Inserts content before the element's content.</li></ul></ul>"
+          },
+          {
+            "paraid": 7,
+            "text": "<ul><ul><li>`<code>::after</code>`: Inserts content after the element's content.</li></ul></ul>"
+          },
+          {
+            "paraid": 7,
+            "text": "<ul><ul><li>`<code>::first-line</code>`: Targets the first line of text within an element.</li></ul></ul>"
+          },
+          {
+            "paraid": 7,
+            "text": "<ul><ul><li>`<code>::first-letter</code>`: Targets the first letter of text within an element.</li></ul></ul>"
           },
           {
             "paraid": 8,
@@ -1760,7 +1808,11 @@
           },
           {
             "paraid": 2,
-            "text": "<ul><ul><li>`<code>content-box</code>` (default): This value includes only the content within the specified width and height. The padding and border are added to the specified width and height, increasing the overall dimensions of the element.</li><li>`<code>border-box</code>`: This value includes the content, padding, and border within the specified width and height. The padding and border are subtracted from the specified width and height, so the overall dimensions of the element remain constant.</li></ul></ul>"
+            "text": "<ul><ul><li>`<code>content-box</code>` (default): This value includes only the content within the specified width and height. The padding and border are added to the specified width and height, increasing the overall dimensions of the element.</li></ul></ul>"
+          },
+          {
+            "paraid": 2,
+            "text": "<ul><ul><li>`<code>border-box</code>`: This value includes the content, padding, and border within the specified width and height. The padding and border are subtracted from the specified width and height, so the overall dimensions of the element remain constant.</li></ul></ul>"
           },
           {
             "paraid": 3,
@@ -1801,7 +1853,19 @@
           },
           {
             "paraid": 8,
-            "text": "<ul><ul><li>`<code>visible</code>` (default): The content overflows outside the element's boundaries, potentially overlapping other elements.</li><li>`<code>hidden</code>`: Any content that exceeds the element's dimensions is hidden and clipped.</li><li>`<code>scroll</code>`: The content overflows, and scrollbars are added to allow users to scroll and view the hidden content.</li><li>`<code>auto</code>`: Scrollbars are added only when necessary. If the content fits within the element's dimensions, no scrollbars are displayed.</li></ul></ul>"
+            "text": "<ul><ul><li>`<code>visible</code>` (default): The content overflows outside the element's boundaries, potentially overlapping other elements.</li></ul></ul>"
+          },
+          {
+            "paraid": 8,
+            "text": "<ul><ul><li>`<code>hidden</code>`: Any content that exceeds the element's dimensions is hidden and clipped.</li></ul></ul>"
+          },
+          {
+            "paraid": 8,
+            "text": "<ul><ul><li>`<code>scroll</code>`: The content overflows, and scrollbars are added to allow users to scroll and view the hidden content.</li></ul></ul>"
+          },
+          {
+            "paraid": 8,
+            "text": "<ul><ul><li>`<code>auto</code>`: Scrollbars are added only when necessary. If the content fits within the element's dimensions, no scrollbars are displayed.</li></ul></ul>"
           },
           {
             "paraid": 9,
@@ -1848,7 +1912,11 @@
           },
           {
             "paraid": 3,
-            "text": "<ul><ul><li>Set the `<code>width</code>` and `<code>height</code>` properties to control the size of an element's content area.</li><li>Use the `<code>box-sizing</code>` property with the value of `<code>border-box</code>` to include padding and border within the specified width and height.<br/><br/>For example:</li></ul></ul>"
+            "text": "<ul><ul><li>Set the `<code>width</code>` and `<code>height</code>` properties to control the size of an element's content area.</li></ul></ul>"
+          },
+          {
+            "paraid": 3,
+            "text": "<ul><ul><li>Use the `<code>box-sizing</code>` property with the value of `<code>border-box</code>` to include padding and border within the specified width and height.<br/><br/>For example:</li></ul></ul>"
           },
           {
             "paraid": 4,
@@ -1873,7 +1941,11 @@
           },
           {
             "paraid": 6,
-            "text": "<ul><ul><li>Use the `<code>margin</code>` property to create space outside the element's border and create gaps between elements.</li><li>Utilize the `<code>padding</code>` property to add space between the element's content and its border.<br/><br/>For example:</li></ul></ul>"
+            "text": "<ul><ul><li>Use the `<code>margin</code>` property to create space outside the element's border and create gaps between elements.</li></ul></ul>"
+          },
+          {
+            "paraid": 6,
+            "text": "<ul><ul><li>Utilize the `<code>padding</code>` property to add space between the element's content and its border.<br/><br/>For example:</li></ul></ul>"
           },
           {
             "paraid": 7,
@@ -1898,7 +1970,11 @@
           },
           {
             "paraid": 9,
-            "text": "<ul><ul><li>Apply a fixed width or a percentage width to elements within a container to create equal-sized columns.</li><li>Use `<code>box-sizing: border-box</code>` to include padding and border within the specified width.<br/><br/>For example:</li></ul></ul>"
+            "text": "<ul><ul><li>Apply a fixed width or a percentage width to elements within a container to create equal-sized columns.</li></ul></ul>"
+          },
+          {
+            "paraid": 9,
+            "text": "<ul><ul><li>Use `<code>box-sizing: border-box</code>` to include padding and border within the specified width.<br/><br/>For example:</li></ul></ul>"
           },
           {
             "paraid": 10,
@@ -1923,7 +1999,11 @@
           },
           {
             "paraid": 12,
-            "text": "<ul><ul><li>Use the `<code>overflow</code>` property to control how content that exceeds an element's dimensions is handled.</li><li>Choose values such as `<code>hidden</code>`, `<code>scroll</code>`, or `<code>auto</code>` to hide, add scrollbars, or automatically display scrollbars based on the content.<br/><br/>For example:</li></ul></ul>"
+            "text": "<ul><ul><li>Use the `<code>overflow</code>` property to control how content that exceeds an element's dimensions is handled.</li></ul></ul>"
+          },
+          {
+            "paraid": 12,
+            "text": "<ul><ul><li>Choose values such as `<code>hidden</code>`, `<code>scroll</code>`, or `<code>auto</code>` to hide, add scrollbars, or automatically display scrollbars based on the content.<br/><br/>For example:</li></ul></ul>"
           },
           {
             "paraid": 13,
@@ -1994,7 +2074,11 @@
           },
           {
             "paraid": 3,
-            "text": "<ul><ul><li>Elements are positioned according to the normal flow of the document.</li><li>The `<code>top</code>`, `<code>right</code>`, `<code>bottom</code>`, and `<code>left</code>` properties have no effect.</li></ul></ul>"
+            "text": "<ul><ul><li>Elements are positioned according to the normal flow of the document.</li></ul></ul>"
+          },
+          {
+            "paraid": 3,
+            "text": "<ul><ul><li>The `<code>top</code>`, `<code>right</code>`, `<code>bottom</code>`, and `<code>left</code>` properties have no effect.</li></ul></ul>"
           },
           {
             "paraid": 4,
@@ -2002,7 +2086,15 @@
           },
           {
             "paraid": 5,
-            "text": "<ul><ul><li>Elements are positioned relative to their normal position in the document flow.</li><li>The `<code>top</code>`, `<code>right</code>`, `<code>bottom</code>`, and `<code>left</code>` properties can be used to adjust the element's position.</li><li>Other elements are not affected by the relative position of the element.</li><br/>For example:</ul></ul>"
+            "text": "<ul><ul><li>Elements are positioned relative to their normal position in the document flow.</li></ul></ul>"
+          },
+          {
+            "paraid": 5,
+            "text": "<ul><ul><li>The `<code>top</code>`, `<code>right</code>`, `<code>bottom</code>`, and `<code>left</code>` properties can be used to adjust the element's position.</li></ul></ul>"
+          },
+          {
+            "paraid": 5,
+            "text": "<ul><ul><li>Other elements are not affected by the relative position of the element.</li><br/>For example:</ul></ul>"
           },
           {
             "paraid": 6,
@@ -2027,7 +2119,15 @@
           },
           {
             "paraid": 8,
-            "text": "<ul><ul><li>Elements are positioned relative to their nearest positioned ancestor (an ancestor with a position value other than static) or the initial containing block.</li><li>The `<code>top</code>`, `<code>right</code>`, `<code>bottom</code>`, and `<code>left</code>` properties are used to specify the element's position.</li><li>Absolutely positioned elements will overlap other content.</li><br/>For example:</ul></ul>"
+            "text": "<ul><ul><li>Elements are positioned relative to their nearest positioned ancestor (an ancestor with a position value other than static) or the initial containing block.</li></ul></ul>"
+          },
+          {
+            "paraid": 8,
+            "text": "<ul><ul><li>The `<code>top</code>`, `<code>right</code>`, `<code>bottom</code>`, and `<code>left</code>` properties are used to specify the element's position.</li></ul></ul>"
+          },
+          {
+            "paraid": 8,
+            "text": "<ul><ul><li>Absolutely positioned elements will overlap other content.</li><br/>For example:</ul></ul>"
           },
           {
             "paraid": 9,
@@ -2052,7 +2152,15 @@
           },
           {
             "paraid": 11,
-            "text": "<ul><ul><li>Elements are positioned relative to the browser window or the viewport, regardless of scrolling.</li><li>The `<code>top</code>`, `<code>right</code>`, `<code>bottom</code>`, and `<code>left</code>` properties are used to specify the element's position.</li><li>Fixed positioned elements remain fixed even when the page is scrolled.</li><br/>For example:</ul></ul>"
+            "text": "<ul><ul><li>Elements are positioned relative to the browser window or the viewport, regardless of scrolling.</li></ul></ul>"
+          },
+          {
+            "paraid": 11,
+            "text": "<ul><ul><li>The `<code>top</code>`, `<code>right</code>`, `<code>bottom</code>`, and `<code>left</code>` properties are used to specify the element's position.</li></ul></ul>"
+          },
+          {
+            "paraid": 11,
+            "text": "<ul><ul><li>Fixed positioned elements remain fixed even when the page is scrolled.</li><br/>For example:</ul></ul>"
           },
           {
             "paraid": 12,
@@ -2077,7 +2185,15 @@
           },
           {
             "paraid": 14,
-            "text": "<ul><ul><li>Elements are positioned based on the user's scroll position. They act as relatively positioned elements until they reach a specified threshold, after which they become fixed positioned elements.</li><li>The `<code>top</code>`, `<code>right</code>`, `<code>bottom</code>`, and `<code>left</code>` properties are used to specify the element's position.</li><li>Sticky positioned elements \"stick\" to a particular position as the user scrolls.</li><br/>For example:</ul><ul/>"
+            "text": "<ul><ul><li>Elements are positioned based on the user's scroll position. They act as relatively positioned elements until they reach a specified threshold, after which they become fixed positioned elements.</li></ul><ul/>"
+          },
+          {
+            "paraid": 14,
+            "text": "<ul><ul><li>The `<code>top</code>`, `<code>right</code>`, `<code>bottom</code>`, and `<code>left</code>` properties are used to specify the element's position.</li></ul><ul/>"
+          },
+          {
+            "paraid": 14,
+            "text": "<ul><ul><li>Sticky positioned elements \"stick\" to a particular position as the user scrolls.</li><br/>For example:</ul><ul/>"
           },
           {
             "paraid": 15,
