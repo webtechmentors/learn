@@ -42,6 +42,7 @@ export const js_2_3_1_1 =
 <html>
 <head>
   <title>Assignment Operator Example</title>
+  <style>:root {font-size: 16px;}</style>
   <script src="assets/js/utils.js"></script>
 </head>
 <body>
@@ -61,6 +62,7 @@ export const js_2_3_2_1 =
 <html>
 <head>
   <title>Assignment Operator Examples</title>
+  <style>:root {font-size: 16px;}</style>
   <script src="assets/js/utils.js"></script>
 </head>
 <body>
@@ -107,6 +109,7 @@ export const js_2_3_3_1 =
 <html>
 <head>
   <title>Arithmetic Operator Examples</title>
+  <style>:root {font-size: 16px;}</style>
   <script src="assets/js/utils.js"></script>
 </head>
 <body>
@@ -145,6 +148,7 @@ export const js_2_3_4_1 =
 <html>
 <head>
   <title>Arithmetic Operator Example</title>
+  <style>:root {font-size: 16px;}</style>
   <script src="assets/js/utils.js"></script>
 </head>
 <body>
@@ -173,6 +177,7 @@ export const js_2_3_5_1 =
 <html>
 <head>
   <title>Arithmetic Operator Examples</title>
+  <style>:root {font-size: 16px;}</style>
   <script src="assets/js/utils.js"></script>
 </head>
 <body>
@@ -216,6 +221,7 @@ export const js_2_3_6_1 =
 <html>
 <head>
   <title>Comparison Operator Examples</title>
+  <style>:root {font-size: 16px;}</style>
   <script src="assets/js/utils.js"></script>
 </head>
 <body>
@@ -273,6 +279,7 @@ export const js_2_3_7_1 =
 <html>
 <head>
   <title>Comparison Operator Examples</title>
+  <style>:root {font-size: 16px;}</style>
   <script src="assets/js/utils.js"></script>
 </head>
 <body>
@@ -315,6 +322,7 @@ export const js_2_3_8_1 =
 <html>
 <head>
   <title>Logical Operator Example</title>
+  <style>:root {font-size: 16px;}</style>
   <script src="assets/js/utils.js"></script>
 </head>
 <body>
@@ -339,6 +347,7 @@ export const js_2_3_9_1 =
 <html>
 <head>
   <title>Logical Operator Example</title>
+  <style>:root {font-size: 16px;}</style>
   <script src="assets/js/utils.js"></script>
 </head>
 <body>
@@ -362,6 +371,7 @@ export const js_2_3_10_1 =
 <html>
 <head>
   <title>Logical Operator Example</title>
+  <style>:root {font-size: 16px;}</style>
   <script src="assets/js/utils.js"></script>
 </head>
 <body>
@@ -383,6 +393,7 @@ export const js_2_3_11_1 =
 <html>
 <head>
   <title>Conditional Operator Example</title>
+  <style>:root {font-size: 16px;}</style>
   <script src="assets/js/utils.js"></script>
 </head>
 <body>
@@ -402,6 +413,7 @@ export const js_2_3_12_1 =
 <html>
 <head>
   <title>Grouping Operator Example</title>
+  <style>:root {font-size: 16px;}</style>
   <script src="assets/js/utils.js"></script>
 </head>
 <body>
@@ -454,6 +466,7 @@ export const js_2_3_13_1 =
 <html>
 <head>
   <title>Bitwise Operator Examples</title>
+  <style>:root {font-size: 16px;}</style>
   <script src="assets/js/utils.js"></script>
 </head>
 <body>
@@ -511,6 +524,7 @@ export const js_2_4_1_1 =
 <html>
 <head>
   <title>Conditional Statement Example</title>
+  <style>:root {font-size: 16px;}</style>
   <script src="assets/js/utils.js"></script>
   <script>
     let number = 10;
@@ -540,6 +554,7 @@ export const js_2_4_2_1 =
 <html>
 <head>
   <title>Conditional Statement Example</title>
+  <style>:root {font-size: 16px;}</style>
   <script src="assets/js/utils.js"></script>
   <script>
     let num = -10;
@@ -574,6 +589,7 @@ export const js_2_4_3_1 =
 <html>
 <head>
   <title>Conditional Statement Example</title>
+  <style>:root {font-size: 16px;}</style>
   <script src="assets/js/utils.js"></script>
   <script>
     let day = 'Thursday';
@@ -613,6 +629,7 @@ export const js_2_4_4_1 =
 <html>
 <head>
   <title>Loop Structure Example</title>
+  <style>:root {font-size: 16px;}</style>
   <script src="assets/js/utils.js"></script>
   <script>
     for (let i = 1; i <= 5; i++) {
@@ -634,6 +651,7 @@ export const js_2_4_5_1 =
 <html>
 <head>
   <title>Loop Structure Example</title>
+  <style>:root {font-size: 16px;}</style>
   <script src="assets/js/utils.js"></script>
   <script>
     let count = 1;
@@ -658,6 +676,7 @@ export const js_2_4_6_1 =
 <html>
 <head>
   <title>Loop Structure Example</title>
+  <style>:root {font-size: 16px;}</style>
   <script src="assets/js/utils.js"></script>
   <script>
     let count = 1;
@@ -682,6 +701,7 @@ export const js_2_4_7_1 =
 <html>
 <head>
   <title>Loop Structure Example</title>
+  <style>:root {font-size: 16px;}</style>
   <script src="assets/js/utils.js"></script>
   <script>
     const person = {
@@ -709,6 +729,7 @@ export const js_2_4_8_1 =
 <html>
 <head>
   <title>Loop Structure Example</title>
+  <style>:root {font-size: 16px;}</style>
   <script src="assets/js/utils.js"></script>
   <script>
     const fruits = ['apple', 'banana', 'orange'];
@@ -734,6 +755,7 @@ export const js_2_4_9_1 =
 <html>
 <head>
   <title>Loop Control Statement Example</title>
+  <style>:root {font-size: 16px;}</style>
   <script src="assets/js/utils.js"></script>
   <script>
     for (let i = 0; i < 10; i++) {
@@ -760,6 +782,7 @@ export const js_2_4_10_1 =
 <html>
 <head>
   <title>Loop Control Statement Example</title>
+  <style>:root {font-size: 16px;}</style>
   <script src="assets/js/utils.js"></script>
   <script>
     for (let i = 0; i < 10; i++) {
@@ -786,6 +809,7 @@ export const js_2_4_11_1 =
 <html>
 <head>
   <title>Loop Control Statement Example</title>
+  <style>:root {font-size: 16px;}</style>
   <script src="assets/js/utils.js"></script>
   <script>
     function findNumber(array, target) {
@@ -815,6 +839,7 @@ export const js_3_1_1_1 =
 <html>
 <head>
   <title>Function Definition Example</title>
+  <style>:root {font-size: 16px;}</style>
   <script src="assets/js/utils.js"></script>
   <script>
     function greet(name) {
@@ -836,6 +861,7 @@ export const js_3_1_2_1 =
 <html>
 <head>
   <title>Function Call Example</title>
+  <style>:root {font-size: 16px;}</style>
   <script src="assets/js/utils.js"></script>
   <script>
     function greet(name) {
@@ -867,6 +893,7 @@ export const js_3_1_3_1 =
 <html>
 <head>
   <title>Function Scope Example</title>
+  <style>:root {font-size: 16px;}</style>
   <script src="assets/js/utils.js"></script>
   <script>
     // Global variable
@@ -900,6 +927,7 @@ export const js_3_1_4_1 =
 <html>
 <head>
   <title>Anonymous Function Example</title>
+  <style>:root {font-size: 16px;}</style>
   <script src="assets/js/utils.js"></script>
   <script>
     let anonymousFunction = function(parameter1, parameter2) {
@@ -938,6 +966,7 @@ export const js_3_1_5_1 =
 <html>
 <head>
   <title>Function Closure Example</title>
+  <style>:root {font-size: 16px;}</style>
   <script src="assets/js/utils.js"></script>
   <script>
     function outerFunction() {
@@ -972,6 +1001,7 @@ export const js_3_1_6_1 =
 <html>
 <head>
   <title>Arrow Function Example</title>
+  <style>:root {font-size: 16px;}</style>
   <script src="assets/js/utils.js"></script>
   <script>
     const sum = (num1, num2) => {
@@ -995,6 +1025,7 @@ export const js_3_1_7_1 =
 <html>
 <head>
   <title>IIFE Example</title>
+  <style>:root {font-size: 16px;}</style>
   <script src="assets/js/utils.js"></script>
   <script>
     (function(name) {
@@ -1018,6 +1049,7 @@ export const js_3_2_1_1 =
 <html>
 <head>
   <title>String Concatenation Example</title>
+  <style>:root {font-size: 16px;}</style>
   <script src="assets/js/utils.js"></script>
   <script>
     const firstName = 'John';
@@ -1040,6 +1072,7 @@ export const js_3_2_2_1 =
 <html>
 <head>
   <title>String Length Example</title>
+  <style>:root {font-size: 16px;}</style>
   <script src="assets/js/utils.js"></script>
   <script>
     const message = 'Hello, World!';
@@ -1060,6 +1093,7 @@ export const js_3_2_3_1 =
 <html>
 <head>
   <title>Accessing Characters in a String Example</title>
+  <style>:root {font-size: 16px;}</style>
   <script src="assets/js/utils.js"></script>
   <script>
     const greeting = 'Hello';
@@ -1118,6 +1152,7 @@ export const js_3_2_4_1 =
 <html>
 <head>
   <title>String Method Examples</title>
+  <style>:root {font-size: 16px;}</style>
   <script src="assets/js/utils.js"></script>
   <script>
     // The toLowerCase() method converts the string to all lowercase characters
@@ -1185,6 +1220,7 @@ export const js_3_2_5_1 =
 <html>
 <head>
   <title>String Template Literal Example</title>
+  <style>:root {font-size: 16px;}</style>
   <script src="assets/js/utils.js"></script>
   <script>
     ${js_3_2_5a}
@@ -1206,6 +1242,7 @@ export const js_3_2_6_1 =
 <html>
 <head>
   <title>Unicode Character Example</title>
+  <style>:root {font-size: 16px;}</style>
   <script src="assets/js/utils.js"></script>
   <script>
     const heart = '\\u2665';
@@ -1238,6 +1275,7 @@ export const js_3_3_3_1 =
 <html>
 <head>
   <title>Array Operation Example</title>
+  <style>:root {font-size: 16px;}</style>
   <script src="assets/js/utils.js"></script>
   <script>
     let myArray = [1, 2, 3, 4, 5];
@@ -1261,6 +1299,7 @@ export const js_3_3_4_1 =
 <html>
 <head>
   <title>Array Operation Example</title>
+  <style>:root {font-size: 16px;}</style>
   <script src="assets/js/utils.js"></script>
   <script>
     let myArray = [1, 2, 3, 4, 5];
@@ -1285,6 +1324,7 @@ export const js_3_3_5_1 =
 <html>
 <head>
   <title>Array Operation Example</title>
+  <style>:root {font-size: 16px;}</style>
   <script src="assets/js/utils.js"></script>
   <script>
     let myArray = [1, 2, 3, 4, 5];
@@ -1320,6 +1360,7 @@ export const js_3_3_6_1 =
 <html>
 <head>
   <title>Array Operation Example</title>
+  <style>:root {font-size: 16px;}</style>
   <script src="assets/js/utils.js"></script>
   <script>
     let myArray = [1, 2, 3];
@@ -1359,6 +1400,7 @@ export const js_3_3_7_1 =
 <html>
 <head>
   <title>Array Operation Example</title>
+  <style>:root {font-size: 16px;}</style>
   <script src="assets/js/utils.js"></script>
   <script>
     let myArray = [1, 2, 3, 4, 5];
@@ -1406,6 +1448,7 @@ export const js_3_4_3_1 =
 <html>
 <head>
   <title>Object Operation Example</title>
+  <style>:root {font-size: 16px;}</style>
   <script src="assets/js/utils.js"></script>
   <script>
     let person = {
@@ -1437,6 +1480,7 @@ export const js_3_4_4_1 =
 <html>
 <head>
   <title>Object Operation Example</title>
+  <style>:root {font-size: 16px;}</style>
   <script src="assets/js/utils.js"></script>
   <script>
     let person = {
@@ -1470,6 +1514,7 @@ export const js_3_4_5_1 =
 <html>
 <head>
   <title>Object Operation Example</title>
+  <style>:root {font-size: 16px;}</style>
   <script src="assets/js/utils.js"></script>
   <script>
     let person = {
@@ -1502,6 +1547,7 @@ export const js_3_4_6_1 =
 <html>
 <head>
   <title>Object Operation Example</title>
+  <style>:root {font-size: 16px;}</style>
   <script src="assets/js/utils.js"></script>
   <script>
     let person = {
@@ -1536,6 +1582,7 @@ export const js_3_4_7_1 =
 <html>
 <head>
   <title>Object Operation Example</title>
+  <style>:root {font-size: 16px;}</style>
   <script src="assets/js/utils.js"></script>
   <script>
     let person = {
@@ -1575,6 +1622,7 @@ export const js_3_4_8_1 =
 <html>
 <head>
   <title>Object Operation Example</title>
+  <style>:root {font-size: 16px;}</style>
   <script src="assets/js/utils.js"></script>
   <script>
     let person = {
@@ -1615,6 +1663,7 @@ export const js_3_4_9_1 =
 <html>
 <head>
   <title>Object Operation Example</title>
+  <style>:root {font-size: 16px;}</style>
   <script src="assets/js/utils.js"></script>
   <script>
     function Person(name, age) {
@@ -1641,6 +1690,7 @@ export const js_4_2_1_1 =
 <html>
 <head>
   <title>Get Elements by ID Example</title>
+  <style>:root {font-size: 16px;}</style>
   <script src="assets/js/utils.js"></script>
 </head>
 <body>
@@ -1664,6 +1714,7 @@ export const js_4_2_2_1 =
 <html>
 <head>
   <title>Get Elements by Class Name Example</title>
+  <style>:root {font-size: 16px;}</style>
   <script src="assets/js/utils.js"></script>
 </head>
 <body>
@@ -1691,6 +1742,7 @@ export const js_4_2_3_1 =
 <html>
 <head>
   <title>Get Elements by Tag Name Example</title>
+  <style>:root {font-size: 16px;}</style>
   <script src="assets/js/utils.js"></script>
 </head>
 <body>
@@ -1719,6 +1771,7 @@ export const js_4_2_4_1 =
 <html>
 <head>
   <title>Query Selector Examples</title>
+  <style>:root {font-size: 16px;}</style>
   <script src="assets/js/utils.js"></script>
 </head>
 <body>
@@ -1752,6 +1805,7 @@ export const js_4_2_5_1 =
 <html>
 <head>
   <title>Modify Element Content Example</title>
+  <style>:root {font-size: 16px;}</style>
 </head>
 <body>
   <h1 id="elementId">Initial Content</h1>
@@ -1776,6 +1830,7 @@ export const js_4_2_6_1 =
 <html>
 <head>
   <title>Get and Set Attribute Example</title>
+  <style>:root {font-size: 16px;}</style>
   <script src="assets/js/utils.js"></script>
 </head>
 <body>
@@ -1804,6 +1859,7 @@ export const js_4_2_7_1 =
 <html>
 <head>
   <title>Set CSS Property Example</title>
+  <style>:root {font-size: 16px;}</style>
 </head>
 <body>
   <div id="myElement">Hello, World!</div>
@@ -1829,6 +1885,7 @@ export const js_4_2_8_1 =
 <html>
 <head>
   <title>Class Manipulation on Hover Example</title>
+  <style>:root {font-size: 16px;}</style>
   <style>
     .highlight {
       background-color: yellow;
@@ -1864,6 +1921,7 @@ export const js_4_2_9_1 =
 <html>
 <head>
   <title>Create Element and Create Text Node Example</title>
+  <style>:root {font-size: 16px;}</style>
 </head>
 <body>
   <div id="container"></div>
@@ -1895,6 +1953,7 @@ export const js_4_2_10_1 =
 <html>
 <head>
   <title>Append and Remove Child Example</title>
+  <style>:root {font-size: 16px;}</style>
 </head>
 <body>
   <div id="parent">
@@ -1932,6 +1991,7 @@ export const js_4_3_2_1 =
 <html>
 <head>
   <title>Event Handler Example</title>
+  <style>:root {font-size: 16px;}</style>
   <script src="assets/js/utils.js"></script>
 </head>
 <body>
@@ -1965,6 +2025,10 @@ export const js_4_3_3_1 =
 <head>
   <title>Event Bubbling and Capturing Example</title>
   <style>
+    :root {
+      font-size: 16px;
+    }
+
     div {
       padding: 20px;
       border: 1px solid black;
@@ -2034,6 +2098,10 @@ export const js_4_3_4_1 =
 <head>
   <title>Event Delegation Example</title>
   <style>
+    :root {
+      font-size: 16px;
+    }
+
     ul {
       list-style: none;
       padding: 0;
@@ -2089,6 +2157,7 @@ export const js_4_3_5_1 =
 <html>
 <head>
   <title>Remove Event Listener Example</title>
+  <style>:root {font-size: 16px;}</style>
 </head>
 <body>
   <button id="myButton">Click Me</button>
@@ -2120,6 +2189,7 @@ export const js_4_3_6_1 =
 <html>
 <head>
   <title>Inline Event Handling Example</title>
+  <style>:root {font-size: 16px;}</style>
 </head>
 <body>
   <button onclick="eventHandler()">Click me</button>
@@ -2156,6 +2226,7 @@ export const js_4_4_1_1 =
 <html>
 <head>
   <title>Fetch API Example</title>
+  <style>:root {font-size: 16px;}</style>
 </head>
 <body>
   <ul id="data-container"></ul>
@@ -2193,6 +2264,7 @@ export const js_5_2_1_1 =
 <html>
 <head>
   <title>Javascript Callback Function Example</title>
+  <style>:root {font-size: 16px;}</style>
   <script src="assets/js/utils.js"></script>
 </head>
 <body>
@@ -2235,6 +2307,7 @@ export const js_5_2_2_1 =
 <html>
 <head>
   <title>Asynchronous Callback Example</title>
+  <style>:root {font-size: 16px;}</style>
   <script src="assets/js/utils.js"></script>
 </head>
 <body>
@@ -2280,6 +2353,7 @@ export const js_5_3_1_1 =
 <html>
 <head>
   <title>Creating Promise Example</title>
+  <style>:root {font-size: 16px;}</style>
   <script src="assets/js/utils.js"></script>
 </head>
 <body>
@@ -2330,6 +2404,7 @@ export const js_5_3_2_1 =
 <html>
 <head>
   <title>Promise Chaining Example</title>
+  <style>:root {font-size: 16px;}</style>
   <script src="assets/js/utils.js"></script>
 </head>
 <body>
@@ -2391,6 +2466,7 @@ export const js_5_4_1_1 =
 <html>
 <head>
   <title>Async/Await Example</title>
+  <style>:root {font-size: 16px;}</style>
   <script src="assets/js/utils.js"></script>
 </head>
 <body>
@@ -2428,6 +2504,7 @@ export const js_5_4_2_1 =
 <html>
 <head>
   <title>Async/Await Error Handling Example</title>
+  <style>:root {font-size: 16px;}</style>
   <script src="assets/js/utils.js"></script>
 </head>
 <body>
@@ -2460,6 +2537,7 @@ export const js_5_5_1_1 =
 <html>
 <head>
   <title>Event-Driven Programming</title>
+  <style>:root {font-size: 16px;}</style>
 </head>
 <body>
   <button id="myButton">Click Me!</button>
@@ -2489,6 +2567,7 @@ export const js_6_1_1_1 =
 <html>
 <head>
   <title>Browser Geolocation API Example</title>
+  <style>:root {font-size: 16px;}</style>
   <script src="assets/js/utils.js"></script>
 </head>
 <body>
@@ -2526,6 +2605,7 @@ export const js_6_1_2_1 =
 <html>
 <head>
   <title>Browser Storage API Example</title>
+  <style>:root {font-size: 16px;}</style>
   <script src="assets/js/utils.js"></script>
 </head>
 <body>
@@ -2574,6 +2654,7 @@ export const js_6_1_4_1 =
 <html>
 <head>
   <title>Browser Clipboard API Example</title>
+  <style>:root {font-size: 16px;}</style>
 </head>
 <body>
   <input type="text" id="inputText" placeholder="Enter text to copy">
@@ -2640,6 +2721,7 @@ export const js_6_2_5_1 =
 <html>
 <head>
   <title>Ajax Example</title>
+  <style>:root {font-size: 16px;}</style>
   <script src="assets/js/utils.js"></script>
 </head>
 <body>
@@ -2713,6 +2795,7 @@ export const js_6_2_10_1 =
 <html>
 <head>
   <title>Ajax Error Handling Example</title>
+  <style>:root {font-size: 16px;}</style>
   <script src="assets/js/utils.js"></script>
 </head>
 <body>
@@ -2801,6 +2884,7 @@ export const js_6_2_11_1 =
 <html>
 <head>
   <title>AJAX Updating Web Page Content Example</title>
+  <style>:root {font-size: 16px;}</style>
 </head>
 <body>
   <div>
@@ -2870,6 +2954,7 @@ export const js_6_3_1_1 =
 <html>
 <head>
   <title>Fetch Example</title>
+  <style>:root {font-size: 16px;}</style>
   <script src="assets/js/utils.js"></script>
 </head>
 <body>
@@ -2932,6 +3017,7 @@ export const js_6_3_3_1 =
 <html>
 <head>
   <title>Fetch Example</title>
+  <style>:root {font-size: 16px;}</style>
   <script src="assets/js/utils.js"></script>
 </head>
 <body>
@@ -2981,6 +3067,7 @@ export const js_7_1_1_1 =
 <html>
 <head>
   <title>Prototype and Inheritance Example</title>
+  <style>:root {font-size: 16px;}</style>
   <script src="assets/js/utils.js"></script>
 </head>
 <body>
@@ -3060,6 +3147,7 @@ export const js_7_1_2_1 =
 <html>
 <head>
   <title>Prototype and Inheritance Example</title>
+  <style>:root {font-size: 16px;}</style>
   <script src="assets/js/utils.js"></script>
 </head>
 <body>
@@ -3122,6 +3210,7 @@ export const js_7_1_3_1 =
 <html>
 <head>
   <title>Prototype and Inheritance Example</title>
+  <style>:root {font-size: 16px;}</style>
   <script src="assets/js/utils.js"></script>
 </head>
 <body>
@@ -3146,6 +3235,7 @@ export const js_7_2_1_1 =
 <html>
 <head>
   <title>Pure Function Example</title>
+  <style>:root {font-size: 16px;}</style>
   <script src="assets/js/utils.js"></script>
 </head>
 <body>
@@ -3178,6 +3268,7 @@ export const js_7_2_2_1 =
 <html>
 <head>
   <title>Immutable Data Example</title>
+  <style>:root {font-size: 16px;}</style>
   <script src="assets/js/utils.js"></script>
 </head>
 <body>
@@ -3220,6 +3311,7 @@ export const js_7_2_3_1 =
 <html>
 <head>
   <title>Higher-order Function Example</title>
+  <style>:root {font-size: 16px;}</style>
   <script src="assets/js/utils.js"></script>
 </head>
 <body>
@@ -3264,6 +3356,7 @@ export const js_7_2_4_1 =
 <html>
 <head>
   <title>Function Composition Example</title>
+  <style>:root {font-size: 16px;}</style>
   <script src="assets/js/utils.js"></script>
 </head>
 <body>
@@ -3318,6 +3411,7 @@ export const js_7_2_5_1 =
 <html>
 <head>
   <title>Recursion Example</title>
+  <style>:root {font-size: 16px;}</style>
   <script src="assets/js/utils.js"></script>
 </head>
 <body>
@@ -3340,6 +3434,7 @@ export const js_7_2_6_1 =
 <html>
 <head>
   <title>Declarative Programming Example</title>
+  <style>:root {font-size: 16px;}</style>
   <script src="assets/js/utils.js"></script>
 </head>
 <body>
@@ -3381,6 +3476,7 @@ export const js_7_2_7_1 =
 <html>
 <head>
   <title>Lazy Evaluation Example</title>
+  <style>:root {font-size: 16px;}</style>
   <script src="assets/js/utils.js"></script>
 </head>
 <body>
@@ -3430,6 +3526,7 @@ export const js_7_2_8_1 =
 <html>
 <head>
   <title>Pattern Matching Example</title>
+  <style>:root {font-size: 16px;}</style>
   <script src="assets/js/utils.js"></script>
 </head>
 <body>
@@ -3473,6 +3570,7 @@ export const js_7_3_1_1 =
 <html>
 <head>
   <title>ES Module Example</title>
+  <style>:root {font-size: 16px;}</style>
 </head>
 <body>
   <p></p>
@@ -3518,6 +3616,7 @@ export const js_7_3_2_1 =
 <html>
 <head>
   <title>ES Module Asynchronous Loading Example</title>
+  <style>:root {font-size: 16px;}</style>
 </head>
 <body>
   <p></p>
@@ -3567,6 +3666,7 @@ export const js_8_2_1_1 =
 <html>
 <head>
   <title>Try-Catch Example</title>
+  <style>:root {font-size: 16px;}</style>
   <script src="assets/js/utils.js"></script>
 </head>
 <body>
