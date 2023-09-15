@@ -2589,7 +2589,7 @@
           },
           {
             "paraid": 6,
-            "text": "<ul><ul><li>The `<code>font-size</code>` property sets the size of the text.</li><li>You can use absolute units like pixels (`<code>px</code>`) or relative units like percentages (`<code>%</code>`) or `<code>em</code>`.<br/><br/>For example:</li></ul></ul>"
+            "text": "<ul><ul><li>The `<code>font-size</code>` property sets the size of the text.</li><li>You can use absolute units like pixels (`<code>px</code>`) or relative units like percentages (`<code>%</code>`), `<code>em</code>` or `<code>rem</code>`.<br/><br/>For example:</li></ul></ul>"
           },
           {
             "paraid": 7,
@@ -4122,7 +4122,7 @@
           },
           {
             "paraid": 18,
-            "text": "<ul><ul><li><dtrong>Animation Delay</strong></li></ul></ul>"
+            "text": "<ul><ul><li><strong>Animation Delay</strong></li></ul></ul>"
           },
           {
             "paraid": 19,
@@ -4495,8 +4495,17 @@
         "paragraphs": [
           {
             "paraid": 1,
-            "text": "Media queries in CSS allow you to apply specific styles based on the characteristics of the user's device or viewport. The syntax for media queries is as follows:"
+            "text": "Media queries in CSS allow you to apply styles based on certain conditions, such as the device's screen size, orientation, or resolution. They are a cornerstone of responsive web design, enabling developers to create layouts that adapt to different viewing environments."
           },
+          {
+            "paraid": 1,
+            "text": "<ol><li><strong>General Syntax</li></ol>"
+          },
+          {
+            "paraid": 1,
+            "text": "<ul>The general syntax for a media query is:</ul>"
+          },
+
           {
             "paraid": 2,
             "text": "",
@@ -4515,20 +4524,144 @@
             }
           },
           {
-            "paraid": 3,
-            "text": "Here's a breakdown of the different parts of the media query syntax:"
+            "paraid": 1,
+            "text": "<ol start=\"2\"><li><strong>Media Types</strong></li></ol>"
           },
           {
-            "paraid": 4,
-            "text": "<ul><li>`<code>@media</code>`: The `<code>@media</code>` rule is used to define a media query.</li><li>`<code>mediaType</code>`: The media type specifies the type of media the styles will apply to. Common media types include `<code>all</code>` (default for all devices), `<code>screen</code>` (for computer screens), `<code>print</code>` (for printers), `<code>speech</code>` (for screen readers), and more.</li><li>`<code>and</code>`: The `<code>and</code>` keyword is used to combine multiple media features within a media query.<li>`<code>mediaFeature</code>`: Media features target specific characteristics of the user's device or viewport, such as `<code>width</code>`, `<code>height</code>`, `<code>orientation</code>`, `<code>device-width</code>`, `<code>device-height</code>`, `<code>max-width</code>`, `<code>min-width</code>`, `<code>max-device-width</code>`, `<code>min-device-width</code>`, and many more.</li><li>value: The value is used to set the range or specific condition for the media feature. For example, `<code>max-width: 768px</code>`, `<code>orientation: landscape</code>`, or `<code>min-device-width: 320px</code>`.</li></ul>"
+            "paraid": 1,
+            "text": "<ul>Here are some of the standard media types you might encounter:</ul>"
+          },
+          {
+            "paraid": 1,
+            "text": "<ul><ul><li><strong>`<code>all</code>`</strong></li></ul></ul>"
+          },
+          {
+            "paraid": 1,
+            "text": "<ul><ul>Suitable for all devices. This is the default if no media type is specified.</ul></ul>"
+          },
+          {
+            "paraid": 1,
+            "text": "<ul><ul><li><strong>`<code>screen</code>`</strong></li></ul></ul>"
+          },
+          {
+            "paraid": 1,
+            "text": "<ul><ul>Intended for screens, like computer displays or smartphones.</ul></ul>"
+          },
+          {
+            "paraid": 1,
+            "text": "<ul><ul><li><strong>`<code>print</code>`</strong></li></ul></ul>"
+          },
+          {
+            "paraid": 1,
+            "text": "<ul><ul>Intended for paged material or documents viewed in print preview mode.</ul></ul>"
+          },
+          {
+            "paraid": 1,
+            "text": "<ul><ul><li><strong>`<code>speech</code>`</strong></li></ul></ul>"
+          },
+          {
+            "paraid": 1,
+            "text": "<ul><ul>Intended for screen readers and other \"speech\" synthesizers.</ul></ul>"
+          },
+          {
+            "paraid": 1,
+            "text": "<ol start=\"3\"><li><strong>Logical Operators</strong></li></ol>"
+          },
+          {
+            "paraid": 1,
+            "text": "<ul>Logical operators can be used for more complex queries:</ul>"
+          },
+          {
+            "paraid": 1,
+            "text": "<ul><ul><li><strong>`<code>and</code>`</strong></li></ul></ul>"
+          },
+          {
+            "paraid": 1,
+            "text": "<ul><ul>Allows you to add more conditions to a query.</ul></ul>"
+          },
+          {
+            "paraid": 1,
+            "text": "<ul><ul><li><strong>`<code>not</code>`</strong></li></ul></ul>"
+          },
+          {
+            "paraid": 1,
+            "text": "<ul><ul>Negates a query.</ul></ul>"
+          },
+          {
+            "paraid": 1,
+            "text": "<ul><ul><li><strong>`<code>only</code>`</strong></li></ul></ul>"
+          },
+          {
+            "paraid": 1,
+            "text": "<ul><ul>Restricts the styles to newer browsers that support media queries.</ul></ul>"
+          },
+          {
+            "paraid": 1,
+            "text": "<ol start=\"4\"><li><strong>Media Features</strong></li></ol>"
+          },
+          {
+            "paraid": 1,
+            "text": "<ul>Here are some frequently used media features:</ul>"
+          },
+          {
+            "paraid": 1,
+            "text": "<ul><ul><li><strong>`<code>width</code>` and `<code>height</code>`</strong></li></ul></ul>"
+          },
+          {
+            "paraid": 1,
+            "text": "<ul><ul>Width and height of the viewport.</ul></ul>"
+          },
+          {
+            "paraid": 1,
+            "text": "<ul><ul><li><strong>`<code>min-width</code>` and `<code>max-width</code>`</strong></li></ul></ul>"
+          },
+          {
+            "paraid": 1,
+            "text": "<ul><ul>Minimum and maximum width of the viewport.</ul></ul>"
+          },
+          {
+            "paraid": 1,
+            "text": "<ul><ul><li><strong>`<code>min-height</code>` and `<code>max-height</code>`</strong></li></ul></ul>"
+          },
+          {
+            "paraid": 1,
+            "text": "<ul><ul>Minimum and maximum height of the viewport.</ul></ul>"
+          },
+          {
+            "paraid": 1,
+            "text": "<ul><ul><li><strong>`<code>orientation</code>`</strong></li></ul></ul>"
+          },
+          {
+            "paraid": 1,
+            "text": "<ul><ul>Whether the viewport is in `<code>landscape</code>` or `<code>portrait</code>` mode.</ul></ul>"
+          },
+          {
+            "paraid": 1,
+            "text": "<ul><ul><li><strong>`<code>aspect-ratio</code>`</strong></li></ul></ul>"
+          },
+          {
+            "paraid": 1,
+            "text": "<ul><ul>Width-to-height aspect ratio of the viewport.</ul></ul>"
+          },
+          {
+            "paraid": 1,
+            "text": "<ul><ul><li><strong>`<code>resolution</code>`</strong></li></ul></ul>"
+          },
+          {
+            "paraid": 1,
+            "text": "<ul><ul> Pixel density of the output device, typically specified in dpi (dots per inch) or dppx (dots per pixel).</ul></ul>"
+          },
+          {
+            "paraid": 1,
+            "text": "<ol start=\"5\"><li><strong>Usage</strong></li></ol>"
           },
           {
             "paraid": 5,
-            "text": "Here are a few examples of media queries and their usage:"
+            "text": "<ul>Here are a few examples of media queries and their usage:</ul>"
           },
           {
             "paraid": 6,
-            "text": "<ol><li>Here are a few examples of media queries and their usage:</li></ol>"
+            "text": "<ul><ul><li>Targeting specific device widths:</li></ul></ul>"
           },
           {
             "paraid": 7,
@@ -4544,12 +4677,12 @@
               "exampleLangs": "xml",
               "codeSource": "",
               "exampleSource": "",
-              "marginLeft": "2.5rem"
+              "marginLeft": "5rem"
             }
           },
           {
             "paraid": 8,
-            "text": "<ol start=\"2\"><li>Targeting different screen orientations:</li></ol>"
+            "text": "<ul><ul><li>Targeting different screen orientations:</li></ul></ul>"
           },
           {
             "paraid": 9,
@@ -4565,12 +4698,12 @@
               "exampleLangs": "xml",
               "codeSource": "",
               "exampleSource": "",
-              "marginLeft": "2.5rem"
+              "marginLeft": "5rem"
             }
           },
           {
             "paraid": 10,
-            "text": "<ol start=\"3\"><li>Combining multiple media features:</li></ol>"
+            "text": "<ul><ul><li>Combining multiple media features:</li></ul></ul>"
           },
           {
             "paraid": 11,
@@ -4586,12 +4719,12 @@
               "exampleLangs": "xml",
               "codeSource": "",
               "exampleSource": "",
-              "marginLeft": "2.5rem"
+              "marginLeft": "5rem"
             }
           },
           {
             "paraid": 12,
-            "text": "<ol start=\"4\"><li>Targeting high-resolution displays (e.g., Retina displays):</li></ol>"
+            "text": "<ul><ul><li>Targeting high-resolution displays (e.g., Retina displays):</li></ul></ul>"
           },
           {
             "paraid": 13,
@@ -4607,7 +4740,7 @@
               "exampleLangs": "xml",
               "codeSource": "",
               "exampleSource": "",
-              "marginLeft": "2.5rem"
+              "marginLeft": "5rem"
             }
           },
           {
