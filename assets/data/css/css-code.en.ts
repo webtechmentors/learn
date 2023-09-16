@@ -90,6 +90,7 @@ export const css_2_3_3_1 =
       border: none;
     }
   </style>
+  <link rel="stylesheet" href="assets/styles/styles.css"> 
 </head>
 <body>
   <h1>Hello, world!</h1>
@@ -125,6 +126,7 @@ export const css_2_3_4_1 =
       box-sizing: border-box;
     }
   </style>
+  <link rel="stylesheet" href="assets/styles/styles.css"> 
 </head>
 <body>
   <div class="container">
@@ -164,6 +166,7 @@ export const css_2_3_6_1 =
       margin: 10px;
     }
   </style>
+  <link rel="stylesheet" href="assets/styles/styles.css"> 
 </head>
 <body>
   <div class="container">
@@ -197,6 +200,7 @@ export const css_2_3_7_1 =
       background-repeat: no-repeat; /* no repeat */
     }
   </style>
+  <link rel="stylesheet" href="assets/styles/styles.css"> 
 </head>
 <body>
   <div>
@@ -225,6 +229,7 @@ export const css_2_3_8_1 =
       content: ' (' attr(href) ')';
     }
   </style>
+  <link rel="stylesheet" href="assets/styles/styles.css"> 
 </head>
 <body>
   <p>Visit <a href="https://www.google.com">Google</a> for searching the web.</p>
@@ -289,6 +294,7 @@ export const css_3_1_2_1 =
       font-weight: bold;
     }
   </style>
+  <link rel="stylesheet" href="assets/styles/styles.css"> 
 </head>
 <body>
   <p>This is a regular paragraph.</p>
@@ -317,6 +323,7 @@ export const css_3_2_2_1 =
       font-weight: bold;
     }
   </style>
+  <link rel="stylesheet" href="assets/styles/styles.css"> 
 </head>
 <body>
   <p>This is a regular paragraph.</p>
@@ -343,6 +350,7 @@ export const css_3_2_3_1 =
       font-weight: bold;
     }
   </style>
+  <link rel="stylesheet" href="assets/styles/styles.css"> 
 </head>
 <body>
   <div class="container">
@@ -376,6 +384,7 @@ export const css_3_2_4_1 =
       font-weight: bold;
     }
   </style>
+  <link rel="stylesheet" href="assets/styles/styles.css"> 
 </head>
 <body>
   <div class="class1 class2">
@@ -413,6 +422,7 @@ export const css_3_3_2_1 =
       border: 1px solid black;
     }
   </style>
+  <link rel="stylesheet" href="assets/styles/styles.css"> 
 </head>
 <body>
   <h1 id="my-id">This heading has the ID "my-id".</h1>
@@ -438,6 +448,7 @@ export const css_3_3_3_1 =
       font-weight: bold;
     }
   </style>
+  <link rel="stylesheet" href="assets/styles/styles.css"> 
 </head>
 <body>
   <div class="container">
@@ -471,6 +482,7 @@ export const css_3_4_2_1 =
       border-radius: 5px;
     }
   </style>
+  <link rel="stylesheet" href="assets/styles/styles.css"> 
 </head>
 <body>
   <form>
@@ -503,6 +515,7 @@ export const css_3_4_3_1 =
       text-decoration: none;
     }
   </style>
+  <link rel="stylesheet" href="assets/styles/styles.css"> 
 </head>
 <body>
   <h2>Links:</h2>
@@ -533,6 +546,7 @@ export const css_3_4_4_1 =
       height: 200px;
     }
   </style>
+  <link rel="stylesheet" href="assets/styles/styles.css"> 
 </head>
 <body>
   <h2>Images:</h2>
@@ -560,6 +574,7 @@ export const css_3_4_5_1 =
       font-weight: bold;
     }
   </style>
+  <link rel="stylesheet" href="assets/styles/styles.css"> 
 </head>
 <body>
   <h2>Links:</h2>
@@ -609,6 +624,7 @@ export const css_3_5_1_1 =
       font-weight: bold;
     }
   </style>
+  <link rel="stylesheet" href="assets/styles/styles.css"> 
 </head>
 <body>
   <h2>Links:</h2>
@@ -650,6 +666,7 @@ export const css_3_5_2_1 =
       color: red;
     }
   </style>
+  <link rel="stylesheet" href="assets/styles/styles.css"> 
 </head>
 <body>
   <h1>Heading 1</h1>
@@ -673,6 +690,7 @@ export const css_3_6_1_1 =
       color: red;
     }
   </style>
+  <link rel="stylesheet" href="assets/styles/styles.css"> 
 </head>
 <body>
   <div>
@@ -705,6 +723,7 @@ export const css_3_6_2_1 =
       color: red;
     }
   </style>
+  <link rel="stylesheet" href="assets/styles/styles.css"> 
 </head>
 <body>
   <div>
@@ -741,6 +760,7 @@ export const css_3_6_3_1 =
       font-weight: bold;
     }
   </style>
+  <link rel="stylesheet" href="assets/styles/styles.css"> 
 </head>
 <body>
   <h2>Header 1</h2>
@@ -773,6 +793,7 @@ export const css_3_6_4_1 =
       font-weight: bold;
     }
   </style>
+  <link rel="stylesheet" href="assets/styles/styles.css"> 
 </head>
 <body>
   <h2>Header 1</h2>
@@ -820,6 +841,7 @@ export const css_4_2_1_1 =
       padding: 20px;
     }
   </style>
+  <link rel="stylesheet" href="assets/styles/styles.css"> 
 </head>
 <body>
   <div class="class1">
@@ -867,6 +889,7 @@ export const css_4_2_2_1 =
       margin: 20px;
     }
   </style>
+  <link rel="stylesheet" href="assets/styles/styles.css"> 
 </head>
 <body>
   <div class="class1">
@@ -917,6 +940,7 @@ export const css_4_2_3_1 =
       padding: 20px;
     }
   </style>
+  <link rel="stylesheet" href="assets/styles/styles.css"> 
 </head>
 <body>
   <div class="class1">
@@ -960,6 +984,7 @@ export const css_4_3_1_1 =
       background-color: lightblue;
     }
   </style>
+  <link rel="stylesheet" href="assets/styles/styles.css"> 
 </head>
 <body>
   <div class="box">
@@ -990,6 +1015,7 @@ export const css_4_3_2_1 =
       padding: 20px;
     }
   </style>
+  <link rel="stylesheet" href="assets/styles/styles.css"> 
 </head>
 <body>
   <div class="box">
@@ -1027,6 +1053,7 @@ export const css_4_4_1_1 =
       background-color: lightblue;
     }
   </style>
+  <link rel="stylesheet" href="assets/styles/styles.css"> 
 </head>
 <body>
   <div class="box">
@@ -1054,6 +1081,7 @@ export const css_4_4_2_1 =
       background-color: lightblue;
     }
   </style>
+  <link rel="stylesheet" href="assets/styles/styles.css">
 </head>
 <body>
   <div class="box">
@@ -1092,6 +1120,7 @@ export const css_4_4_3_1 =
       clear: both;
     }
   </style>
+  <link rel="stylesheet" href="assets/styles/styles.css">
 </head>
 <body>
   <div class="clearfix">
@@ -1132,6 +1161,7 @@ export const css_4_4_4_1 =
       padding: 20px;
     }
   </style>
+  <link rel="stylesheet" href="assets/styles/styles.css"> 
 </head>
 <body>
   <div class="container">
@@ -1166,6 +1196,7 @@ export const css_4_4_5_1 =
       padding: 20px;
     }
   </style>
+  <link rel="stylesheet" href="assets/styles/styles.css"> 
 </head>
 <body>
   <div class="block-element">
@@ -1196,6 +1227,7 @@ export const css_5_1_1_1 =
       padding: 10px;
     }
   </style>
+  <link rel="stylesheet" href="assets/styles/styles.css"> 
 </head>
 <body>
   <div class="box">
@@ -1226,6 +1258,7 @@ export const css_5_1_2_1 =
       padding: 10px;
     }
   </style>
+  <link rel="stylesheet" href="assets/styles/styles.css"> 
 </head>
 <body>
   <div class="box">
@@ -1256,6 +1289,7 @@ export const css_5_1_3_1 =
       padding: 10px;
     }
   </style>
+  <link rel="stylesheet" href="assets/styles/styles.css"> 
 </head>
 <body>
   <div class="box">
@@ -1290,6 +1324,7 @@ export const css_5_1_4_1 =
       padding: 20px;
     }
   </style>
+  <link rel="stylesheet" href="assets/styles/styles.css"> 
 </head>
 <body>
   <div class="box">
@@ -1322,6 +1357,7 @@ export const css_5_3_1_1 =
       margin: 10px;
     }
   </style>
+  <link rel="stylesheet" href="assets/styles/styles.css"> 
 </head>
 <body>
   <img src="assets/images/cute_cat.jpg" alt="Example Image">
@@ -1345,6 +1381,7 @@ export const css_5_3_2_1 =
       background-color: lightblue;
     }
   </style>
+  <link rel="stylesheet" href="assets/styles/styles.css"> 
 </head>
 <body>
   <div style="float: left; width: 200px; height: 100px; background-color: lightgreen; margin: 10px;"></div>
@@ -1390,6 +1427,7 @@ export const css_5_4_2_1 =
       text-align: center;
     }
   </style>
+  <link rel="stylesheet" href="assets/styles/styles.css"> 
 </head>
 <body>
   <div class="container">
@@ -1436,6 +1474,7 @@ export const css_5_4_3_1 =
       grid-column: 1 / 3;
     }
   </style>
+  <link rel="stylesheet" href="assets/styles/styles.css"> 
 </head>
 <body>
   <div class="container">
@@ -1482,6 +1521,7 @@ export const css_5_4_4_1 =
       grid-column: col1-start / col2-end;
     }
   </style>
+  <link rel="stylesheet" href="assets/styles/styles.css"> 
 </head>
 <body>
   <div class="container">
@@ -1519,6 +1559,7 @@ export const css_5_4_5_1 =
       text-align: center;
     }
   </style>
+  <link rel="stylesheet" href="assets/styles/styles.css"> 
 </head>
 <body>
   <div class="container">
@@ -1570,6 +1611,7 @@ export const css_5_5_2_1 =
       text-align: center;
     }
   </style>
+  <link rel="stylesheet" href="assets/styles/styles.css"> 
 </head>
 <body>
   <div class="container">
@@ -1610,6 +1652,7 @@ export const css_5_5_3_1 =
       text-align: center;
     }
   </style>
+  <link rel="stylesheet" href="assets/styles/styles.css"> 
 </head>
 <body>
   <div class="container">
@@ -1647,6 +1690,7 @@ export const css_5_5_4_1 =
       text-align: center;
     }
   </style>
+  <link rel="stylesheet" href="assets/styles/styles.css"> 
 </head>
 <body>
   <div class="container">
@@ -1684,6 +1728,7 @@ export const css_5_5_5_1 =
       text-align: center;
     }
   </style>
+  <link rel="stylesheet" href="assets/styles/styles.css"> 
 </head>
 <body>
   <div class="container">
@@ -1723,6 +1768,7 @@ export const css_5_5_6_1 =
       text-align: center;
     }
   </style>
+  <link rel="stylesheet" href="assets/styles/styles.css"> 
 </head>
 <body>
   <div class="container">
@@ -1751,6 +1797,7 @@ export const css_6_1_1_1 =
       font-family: Arial, sans-serif;
     }
   </style>
+  <link rel="stylesheet" href="assets/styles/styles.css"> 
 </head>
 <body>
   <h1>Welcome to my Website</h1>
@@ -1773,6 +1820,7 @@ export const css_6_1_2_1 =
       font-size: 32px;
     }
   </style>
+  <link rel="stylesheet" href="assets/styles/styles.css"> 
 </head>
 <body>
   <h1>Welcome to my Website</h1>
@@ -1795,6 +1843,7 @@ export const css_6_1_3_1 =
       font-weight: bold;
     }
   </style>
+  <link rel="stylesheet" href="assets/styles/styles.css"> 
 </head>
 <body>
   <h1>Welcome to my Website</h1>
@@ -1819,6 +1868,7 @@ export const css_6_1_4_1 =
       font-style: italic;
     }
   </style>
+  <link rel="stylesheet" href="assets/styles/styles.css"> 
 </head>
 <body>
   <h1>Welcome to my Website</h1>
@@ -1842,6 +1892,7 @@ export const css_6_1_5_1 =
       text-decoration: underline;
     }
   </style>
+  <link rel="stylesheet" href="assets/styles/styles.css"> 
 </head>
 <body>
   <h1>Welcome to my Website</h1>
@@ -1865,6 +1916,7 @@ export const css_6_1_6_1 =
       text-transform: uppercase;
     }
   </style>
+  <link rel="stylesheet" href="assets/styles/styles.css"> 
 </head>
 <body>
   <h1>Welcome to my Website</h1>
@@ -1888,6 +1940,7 @@ export const css_6_1_7_1 =
       text-align: center;
     }
   </style>
+  <link rel="stylesheet" href="assets/styles/styles.css"> 
 </head>
 <body>
   <div class="container">
@@ -1945,6 +1998,7 @@ export const css_6_3_1_1 =
       font-size: 1.2rem;
     }
   </style>
+  <link rel="stylesheet" href="assets/styles/styles.css"> 
 </head>
 <body>
   <h1>Welcome to my Website</h1>
@@ -1992,6 +2046,7 @@ export const css_6_3_2_1 =
       }
     }
   </style>
+  <link rel="stylesheet" href="assets/styles/styles.css"> 
 </head>
 <body>
   <h1>Welcome to my Website</h1>
@@ -2013,6 +2068,7 @@ export const css_6_3_3_1 =
       font-size: calc(2rem + 2vw);
     }
   </style>
+  <link rel="stylesheet" href="assets/styles/styles.css"> 
 </head>
 <body>
   <h1>Welcome to my Website</h1>
@@ -2039,6 +2095,7 @@ export const css_6_3_4_1 =
       letter-spacing: 0.02em;
     }
   </style>
+  <link rel="stylesheet" href="assets/styles/styles.css"> 
 </head>
 <body>
   <h1>Welcome to my Website</h1>
@@ -2074,6 +2131,7 @@ export const css_6_3_5_1 =
       }
     }
   </style>
+  <link rel="stylesheet" href="assets/styles/styles.css"> 
 </head>
 <body>
   <h1>Welcome to my Website</h1>
@@ -2097,6 +2155,7 @@ export const css_7_1_1_1 =
       background-color: skyblue;
     }
   </style>
+  <link rel="stylesheet" href="assets/styles/styles.css"> 
 </head>
 <body>
   <h1>Welcome to my Website</h1>
@@ -2119,6 +2178,7 @@ export const css_7_1_2_1 =
       background-color: #00FF00;
     }
   </style>
+  <link rel="stylesheet" href="assets/styles/styles.css"> 
 </head>
 <body>
   <h1>Welcome to my Website</h1>
@@ -2139,6 +2199,7 @@ export const css_7_1_3_1 =
       color: rgb(255, 0, 0);
     }
   </style>
+  <link rel="stylesheet" href="assets/styles/styles.css"> 
 </head>
 <body>
   <h1>Welcome to my Website</h1>
@@ -2159,6 +2220,7 @@ export const css_7_1_4_1 =
       color: rgba(255, 0, 0, 0.5);
     }
   </style>
+  <link rel="stylesheet" href="assets/styles/styles.css"> 
 </head>
 <body>
   <h1>Welcome to my Website</h1>
@@ -2181,6 +2243,7 @@ export const css_7_1_5_1 =
       background-color: hsla(120, 100%, 50%, 0.7);
     }
   </style>
+  <link rel="stylesheet" href="assets/styles/styles.css"> 
 </head>
 <body>
   <h1>Welcome to my Website</h1>
@@ -2209,6 +2272,7 @@ export const css_7_1_8_1 =
       border: 2px solid red;
     }
   </style>
+  <link rel="stylesheet" href="assets/styles/styles.css"> 
 </head>
 <body>
   <div class="box"></div>
@@ -2231,6 +2295,7 @@ export const css_7_1_9_1 =
       outline: 2px solid hsl(240, 100%, 50%);
     }
   </style>
+  <link rel="stylesheet" href="assets/styles/styles.css"> 
 </head>
 <body>
   <div class="box"></div>
@@ -2253,6 +2318,7 @@ export const css_7_1_10_1 =
       box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
     }
   </style>
+  <link rel="stylesheet" href="assets/styles/styles.css"> 
 </head>
 <body>
   <div class="box"></div>
@@ -2276,6 +2342,7 @@ export const css_7_2_1_1 =
       height: 200px;
     }
   </style>
+  <link rel="stylesheet" href="assets/styles/styles.css"> 
 </head>
 <body>
   <div></div>
@@ -2300,6 +2367,7 @@ export const css_7_2_2_1 =
       height: 200px;
     }
   </style>
+  <link rel="stylesheet" href="assets/styles/styles.css"> 
 </head>
 <body>
   <div></div>
@@ -2325,6 +2393,7 @@ export const css_7_2_3_1 =
       height: 200px;
     }
   </style>
+  <link rel="stylesheet" href="assets/styles/styles.css"> 
 </head>
 <body>
   <div></div>
@@ -2351,6 +2420,7 @@ export const css_7_2_4_1 =
       height: 200px;
     }
   </style>
+  <link rel="stylesheet" href="assets/styles/styles.css"> 
 </head>
 <body>
   <div></div>
@@ -2374,6 +2444,7 @@ export const css_7_2_5_1 =
       height: 200px;
     }
   </style>
+  <link rel="stylesheet" href="assets/styles/styles.css"> 
 </head>
 <body>
   <div></div>
@@ -2397,6 +2468,7 @@ export const css_7_2_6_1 =
       height: 200px;
     }
   </style>
+  <link rel="stylesheet" href="assets/styles/styles.css"> 
 </head>
 <body>
   <div></div>
@@ -2420,6 +2492,7 @@ export const css_7_2_7_1 =
       height: 200px;
     }
   </style>
+  <link rel="stylesheet" href="assets/styles/styles.css"> 
 </head>
 <body>
   <div></div>
@@ -2443,6 +2516,7 @@ export const css_7_3_1_1 =
       background-color: rgba(255, 0, 0, 0.5);
     }
   </style>
+  <link rel="stylesheet" href="assets/styles/styles.css"> 
 </head>
 <body>
   <div></div>
@@ -2466,6 +2540,7 @@ export const css_7_3_2_1 =
       background-color: hsla(0, 100%, 50%, 0.5);
     }
   </style>
+  <link rel="stylesheet" href="assets/styles/styles.css"> 
 </head>
 <body>
   <div></div>
@@ -2490,6 +2565,7 @@ export const css_7_3_3_1 =
       opacity: 0.5;
     }
   </style>
+  <link rel="stylesheet" href="assets/styles/styles.css"> 
 </head>
 <body>
   <div>Opacity Example</div>
@@ -2524,6 +2600,7 @@ export const css_7_3_4_1 =
       opacity: 1;
     }
   </style>
+  <link rel="stylesheet" href="assets/styles/styles.css"> 
 </head>
 <body>
   <div></div>
@@ -2600,6 +2677,7 @@ export const css_8_1_7_1 =
       opacity: 0.5;
     }
   </style>
+  <link rel="stylesheet" href="assets/styles/styles.css"> 
 </head>
 <body>
   <div></div>
@@ -2698,6 +2776,7 @@ export const css_8_2_9_1 =
       }
     }
   </style>
+  <link rel="stylesheet" href="assets/styles/styles.css"> 
 </head>
 <body>
   <div></div>
@@ -2730,6 +2809,7 @@ export const css_8_3_1_1 =
       transform: scale(1.2);
     }
   </style>
+  <link rel="stylesheet" href="assets/styles/styles.css"> 
 </head>
 <body>
   <div></div>
@@ -2778,6 +2858,7 @@ export const css_8_3_2_1 =
       animation: bounce 1s infinite;
     }
   </style>
+  <link rel="stylesheet" href="assets/styles/styles.css"> 
 </head>
 <body>
   <div></div>
@@ -2810,6 +2891,7 @@ export const css_8_3_3_1 =
       transform: rotate(45deg) scale(1.2);
     }
   </style>
+  <link rel="stylesheet" href="assets/styles/styles.css"> 
 </head>
 <body>
   <div></div>
@@ -2850,6 +2932,7 @@ export const css_8_3_4_1 =
       }
     }
   </style>
+  <link rel="stylesheet" href="assets/styles/styles.css"> 
 </head>
 <body>
   <div class="my-element"></div>
@@ -2895,6 +2978,7 @@ export const css_9_2_2_1 =
       }
     }
   </style>
+  <link rel="stylesheet" href="assets/styles/styles.css"> 
 </head>
 <body>
   <div class="container"></div>
@@ -2928,6 +3012,7 @@ export const css_9_2_3_1 =
       }
     }
   </style>
+  <link rel="stylesheet" href="assets/styles/styles.css"> 
 </head>
 <body>
   <div class="container"></div>
@@ -2961,6 +3046,7 @@ export const css_9_2_4_1 =
       }
     }
   </style>
+  <link rel="stylesheet" href="assets/styles/styles.css"> 
 </head>
 <body>
   <div class="container"></div>
@@ -2994,6 +3080,7 @@ export const css_9_2_5_1 =
       }
     }
   </style>
+  <link rel="stylesheet" href="assets/styles/styles.css"> 
 </head>
 <body>
   <div class="container"></div>
@@ -3029,6 +3116,7 @@ export const css_9_3_1_1 =
     border: 1px solid black;
   }
   </style>
+  <link rel="stylesheet" href="assets/styles/styles.css"> 
 </head>
 <body>
   <div class="container">
@@ -3069,6 +3157,7 @@ export const css_9_3_2_1 =
       }
     }
   </style>
+  <link rel="stylesheet" href="assets/styles/styles.css"> 
 </head>
 <body>
   <div class="container">
@@ -3106,6 +3195,7 @@ export const css_9_3_3_1 =
       background-color: skyblue;
     }
   </style>
+  <link rel="stylesheet" href="assets/styles/styles.css"> 
 </head>
 <body>
   <div class="container">
@@ -3142,6 +3232,7 @@ export const css_9_3_4_1 =
       box-sizing: border-box;
     }
   </style>
+  <link rel="stylesheet" href="assets/styles/styles.css"> 
 </head>
 <body>
   <div class="container">
@@ -3171,6 +3262,7 @@ export const css_9_3_5_1 =
       height: auto;
     }
   </style>
+  <link rel="stylesheet" href="assets/styles/styles.css"> 
 </head>
 <body>
   <picture>
@@ -3193,7 +3285,8 @@ export const css_9_3_6 =
 }`;
 
 export const css_9_3_6_1 =
-`<html>
+`<!DOCTYPE html>
+<html>
 <head>
   <title>Responsive Typography Example</title>
   <style>
@@ -3207,6 +3300,7 @@ export const css_9_3_6_1 =
       }
     }
   </style>
+  <link rel="stylesheet" href="assets/styles/styles.css"> 
 </head>
 <body>
   <p>This is a sample paragraph.</p>

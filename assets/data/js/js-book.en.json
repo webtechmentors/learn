@@ -372,7 +372,15 @@
           },
           {
             "paraid": 5,
-            "text": "<ul><ul><li>Node.js allows you to run JavaScript code on the server-side and provides a package manager called npm (Node Package Manager) for managing JavaScript libraries and tools.</li><li>Visit the official Node.js website (<a href=\"https://nodejs.org\">https://nodejs.org</a>) and download the recommended version for your operating system.</li><li>Run the installer and follow the instructions to complete the installation.</li></ul></ul>"
+            "text": "<ul><ul><li>Node.js allows you to run JavaScript code on the server-side and provides a package manager called npm (Node Package Manager) for managing JavaScript libraries and tools.</li></ul></ul>"
+          },
+          {
+            "paraid": 5,
+            "text": "<ul><ul><li>Visit the official Node.js website (<a href=\"https://nodejs.org\">https://nodejs.org</a>) and download the recommended version for your operating system.</li></ul></ul>"
+          },
+          {
+            "paraid": 5,
+            "text": "<ul><ul><li>Run the installer and follow the instructions to complete the installation.</li></ul></ul>"
           },
           {
             "paraid": 6,
@@ -380,7 +388,15 @@
           },
           {
             "paraid": 7,
-            "text": "<ul><ul><li>Open a command prompt or terminal in your project's directory.</li><li>Run the command `<code>npm init</code>` and follow the prompts to initialize a new package.json file.</li><li>The package.json file keeps track of your project's dependencies and other important configuration details.</li></ul></ul>"
+            "text": "<ul><ul><li>Open a command prompt or terminal in your project's directory.</li></ul></ul>"
+          },
+          {
+            "paraid": 7,
+            "text": "<ul><ul><li>Run the command `<code>npm init</code>` and follow the prompts to initialize a new package.json file.</li></ul></ul>"
+          },
+          {
+            "paraid": 7,
+            "text": "<ul><ul><li>The package.json file keeps track of your project's dependencies and other important configuration details.</li></ul></ul>"
           },
           {
             "paraid": 8,
@@ -388,7 +404,11 @@
           },
           {
             "paraid": 9,
-            "text": "<ul><ul><li>Use npm to install any required JavaScript libraries or tools. For example, if you need a library like React, run the command npm `<code>install react</code>`.</li><li>Add the necessary libraries and tools as dependencies in your package.json file.</li></ul></ul>"
+            "text": "<ul><ul><li>Use npm to install any required JavaScript libraries or tools. For example, if you need a library like React, run the command npm `<code>install react</code>`.</li></ul></ul>"
+          },
+          {
+            "paraid": 9,
+            "text": "<ul><ul><li>Add the necessary libraries and tools as dependencies in your package.json file.</li></ul></ul>"
           },
           {
             "paraid": 10,
@@ -396,7 +416,15 @@
           },
           {
             "paraid": 11,
-            "text": "<ul><ul><li>If you plan to use advanced JavaScript features or want to bundle your code for production, consider using a module bundler like Webpack or Parcel.</li><li>Install the desired module bundler globally or locally as per their respective installation instructions.</li><li>Configure the bundler to handle JavaScript files and any other necessary assets (CSS, images, etc.) in your project.</li></ul></ul>"
+            "text": "<ul><ul><li>If you plan to use advanced JavaScript features or want to bundle your code for production, consider using a module bundler like Webpack or Parcel.</li></ul></ul>"
+          },
+          {
+            "paraid": 11,
+            "text": "<ul><ul><li>Install the desired module bundler globally or locally as per their respective installation instructions.</li></ul></ul>"
+          },
+          {
+            "paraid": 11,
+            "text": "<ul><ul><li>Configure the bundler to handle JavaScript files and any other necessary assets (CSS, images, etc.) in your project.</li></ul></ul>"
           },
           {
             "paraid": 12,
@@ -404,7 +432,11 @@
           },
           {
             "paraid": 13,
-            "text": "<ul><ul><li>Set up a testing framework like Jest, Mocha, or Jasmine to write and run tests for your JavaScript code.</li><li>Use browser developer tools (built into modern browsers) or additional tools like Chrome DevTools or Firefox Developer Tools for debugging JavaScript code.</li></ul></ul>"
+            "text": "<ul><ul><li>Set up a testing framework like Jest, Mocha, or Jasmine to write and run tests for your JavaScript code.</li></ul></ul>"
+          },
+          {
+            "paraid": 13,
+            "text": "<ul><ul><li>Use browser developer tools (built into modern browsers) or additional tools like Chrome DevTools or Firefox Developer Tools for debugging JavaScript code.</li></ul></ul>"
           },
           {
             "paraid": 14,

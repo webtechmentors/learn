@@ -2232,7 +2232,15 @@
           },
           {
             "paraid": 3,
-            "text": "<ul><ul><li>Elements with a display value of `<code>block</code>` generate a block-level box.</li><li>They take up the full width of their parent container by default and start on a new line.</li><li>Examples of block-level elements include `<code>&lt;div&gt;</code>`, `<code>&lt;p&gt;</code>`, `<code>&lt;h1&gt;</code>` to `<code>&lt;h6&gt;</code>`, and `<code>&lt;ul&gt;</code>`.</li></ul><ul>"
+            "text": "<ul><ul><li>Elements with a display value of `<code>block</code>` generate a block-level box.</li></ul><ul>"
+          },
+          {
+            "paraid": 3,
+            "text": "<ul><ul><li>They take up the full width of their parent container by default and start on a new line.</li></ul><ul>"
+          },
+          {
+            "paraid": 3,
+            "text": "<ul><ul><li>Examples of block-level elements include `<code>&lt;div&gt;</code>`, `<code>&lt;p&gt;</code>`, `<code>&lt;h1&gt;</code>` to `<code>&lt;h6&gt;</code>`, and `<code>&lt;ul&gt;</code>`.</li></ul><ul>"
           },
           {
             "paraid": 4,
@@ -2240,7 +2248,15 @@
           },
           {
             "paraid": 5,
-            "text": "<ul><ul><li>Elements with a display value of `<code>inline</code>` generate an inline-level box.</li><li>They do not start on a new line and flow within the content of block-level elements.</li><li>Examples of inline elements include `<code>&lt;span&gt;</code>`, `<code>&lt;a&gt;</code>`, `<code>&lt;strong&gt;</code>`, and `<code>&lt;img&gt;</code>`.</li></ul></ul>"
+            "text": "<ul><ul><li>Elements with a display value of `<code>inline</code>` generate an inline-level box.</li></ul></ul>"
+          },
+          {
+            "paraid": 5,
+            "text": "<ul><ul><li>They do not start on a new line and flow within the content of block-level elements.</li></ul></ul>"
+          },
+          {
+            "paraid": 5,
+            "text": "<ul><ul><li>Examples of inline elements include `<code>&lt;span&gt;</code>`, `<code>&lt;a&gt;</code>`, `<code>&lt;strong&gt;</code>`, and `<code>&lt;img&gt;</code>`.</li></ul></ul>"
           },
           {
             "paraid": 6,
@@ -2248,7 +2264,15 @@
           },
           {
             "paraid": 7,
-            "text": "<ul><ul><li>Elements with a display value of `<code>inline-block</code>` generate an inline-level box but behave like a block-level element in terms of allowing width, height, padding, and margins.</li><li>They do not start on a new line and can have a width and height specified.</li><li>Examples of elements commonly set to \"inline-block\" are `<code>&lt;button&gt;</code>`, and `<code>&lt;input&gt;</code>`.</li></ul></ul>"
+            "text": "<ul><ul><li>Elements with a display value of `<code>inline-block</code>` generate an inline-level box but behave like a block-level element in terms of allowing width, height, padding, and margins.</li></ul></ul>"
+          },
+          {
+            "paraid": 7,
+            "text": "<ul><ul><li>They do not start on a new line and can have a width and height specified.</li></ul></ul>"
+          },
+          {
+            "paraid": 7,
+            "text": "<ul><ul><li>Examples of elements commonly set to \"inline-block\" are `<code>&lt;button&gt;</code>`, and `<code>&lt;input&gt;</code>`.</li></ul></ul>"
           },
           {
             "paraid": 8,
@@ -2256,7 +2280,15 @@
           },
           {
             "paraid": 9,
-            "text": "<ul><ul><li>Elements with a display value of `<code>none</code>` are not displayed on the page.</li><li>They are completely removed from the document flow and take up no space.</li><li>This can be useful for hiding elements dynamically using JavaScript or CSS.</li></ul></ul>"
+            "text": "<ul><ul><li>Elements with a display value of `<code>none</code>` are not displayed on the page.</li></ul></ul>"
+          },
+          {
+            "paraid": 9,
+            "text": "<ul><ul><li>They are completely removed from the document flow and take up no space.</li></ul></ul>"
+          },
+          {
+            "paraid": 9,
+            "text": "<ul><ul><li>This can be useful for hiding elements dynamically using JavaScript or CSS.</li></ul></ul>"
           },
           {
             "paraid": 10,
@@ -2264,7 +2296,15 @@
           },
           {
             "paraid": 11,
-            "text": "<ul><ul><li>The `<code>flex</code>` display value enables a flexible box layout model for its direct children.</li><li>It allows you to create flexible and responsive layouts, controlling the alignment, spacing, and order of the child elements.</li><li>This is often used in conjunction with additional flex-related properties such as `<code>flex-direction</code>`, `<code>flex-wrap</code>`, `<code>justify-content</code>`, and `<code>align-items</code>`.</li></ul></ul>"
+            "text": "<ul><ul><li>The `<code>flex</code>` display value enables a flexible box layout model for its direct children.</li></ul></ul>"
+          },
+          {
+            "paraid": 11,
+            "text": "<ul><ul><li>It allows you to create flexible and responsive layouts, controlling the alignment, spacing, and order of the child elements.</li></ul></ul>"
+          },
+          {
+            "paraid": 11,
+            "text": "<ul><ul><li>This is often used in conjunction with additional flex-related properties such as `<code>flex-direction</code>`, `<code>flex-wrap</code>`, `<code>justify-content</code>`, and `<code>align-items</code>`.</li></ul></ul>"
           },
           {
             "paraid": 12,
@@ -2272,7 +2312,15 @@
           },
           {
             "paraid": 13,
-            "text": "<ul><ul><li>The `<code>grid</code>` display value enables a grid layout model for its direct children.</li><li>It allows you to create complex grid-based layouts, specifying rows, columns, and their sizes.</li><li>This is often used in conjunction with additional grid-related properties such as `<code>grid-template-rows</code>`, `<code>grid-template-columns</code>`, `<code>grid-gap</code>`, and more.</li></ul></ul>"
+            "text": "<ul><ul><li>The `<code>grid</code>` display value enables a grid layout model for its direct children.</li></ul></ul>"
+          },
+          {
+            "paraid": 13,
+            "text": "<ul><ul><li>It allows you to create complex grid-based layouts, specifying rows, columns, and their sizes.</li></ul></ul>"
+          },
+          {
+            "paraid": 13,
+            "text": "<ul><ul><li>This is often used in conjunction with additional grid-related properties such as `<code>grid-template-rows</code>`, `<code>grid-template-columns</code>`, `<code>grid-gap</code>`, and more.</li></ul></ul>"
           },
           {
             "paraid": 14,
@@ -2294,7 +2342,15 @@
           },
           {
             "paraid": 3,
-            "text": "<ul><ul><li>The `<code>float</code>` property is used to specify that an element should be floated to the left or right of its containing element, allowing text and other elements to wrap around it.</li><li>Floated elements are taken out of the normal flow of the document and are positioned as far to the left or right as possible.</li><li>The float property can have two values: `<code>left</code>` and `<code>right</code>`.</li><br/>For example:</ul></ul>"
+            "text": "<ul><ul><li>The `<code>float</code>` property is used to specify that an element should be floated to the left or right of its containing element, allowing text and other elements to wrap around it.</li></ul></ul>"
+          },
+          {
+            "paraid": 3,
+            "text": "<ul><ul><li>Floated elements are taken out of the normal flow of the document and are positioned as far to the left or right as possible.</li></ul></ul>"
+          },
+          {
+            "paraid": 3,
+            "text": "<ul><ul><li>The float property can have two values: `<code>left</code>` and `<code>right</code>`.</li><br/>For example:</ul></ul>"
           },
           {
             "paraid": 4,
@@ -2323,7 +2379,15 @@
           },
           {
             "paraid": 7,
-            "text": "<ul><ul><li>The `<code>clear</code>` property is used to specify which sides of an element should not be adjacent to floated elements.</li><li>It ensures that the element is moved below any preceding floated elements, maintaining the normal flow of the document.</li><li>The clear property can have four values: `<code>none</code>` (default), `<code>left</code>`, `<code>right</code>`, and `<code>both</code>`.</li><br/>For example:</ul></ul>"
+            "text": "<ul><ul><li>The `<code>clear</code>` property is used to specify which sides of an element should not be adjacent to floated elements.</li></ul></ul>"
+          },
+          {
+            "paraid": 7,
+            "text": "<ul><ul><li>It ensures that the element is moved below any preceding floated elements, maintaining the normal flow of the document.</li></ul></ul>"
+          },
+          {
+            "paraid": 7,
+            "text": "<ul><ul><li>The clear property can have four values: `<code>none</code>` (default), `<code>left</code>`, `<code>right</code>`, and `<code>both</code>`.</li><br/>For example:</ul></ul>"
           },
           {
             "paraid": 8,
@@ -2370,7 +2434,11 @@
           },
           {
             "paraid": 3,
-            "text": "<ul><ul><li>To create a grid layout, you define a grid container by applying the `<code>display: grid;</code>` property to an element.</li><li>The grid container serves as the parent element for all the grid items within it.</li><br/>For example:</ul></ul>"
+            "text": "<ul><ul><li>To create a grid layout, you define a grid container by applying the `<code>display: grid;</code>` property to an element.</li></ul></ul>"
+          },
+          {
+            "paraid": 3,
+            "text": "<ul><ul><li>The grid container serves as the parent element for all the grid items within it.</li><br/>For example:</ul></ul>"
           },
           {
             "paraid": 4,
@@ -2395,7 +2463,11 @@
           },
           {
             "paraid": 6,
-            "text": "<ul><ul><li>Grid tracks are the rows and columns that make up the grid.</li><li>You can define the number and size of tracks using properties like `<code>grid-template-rows</code>` and `<code>grid-template-columns</code>`.</li><br/>For example:</ul></ul>"
+            "text": "<ul><ul><li>Grid tracks are the rows and columns that make up the grid.</li></ul></ul>"
+          },
+          {
+            "paraid": 6,
+            "text": "<ul><ul><li>You can define the number and size of tracks using properties like `<code>grid-template-rows</code>` and `<code>grid-template-columns</code>`.</li><br/>For example:</ul></ul>"
           },
           {
             "paraid": 7,
@@ -2420,7 +2492,11 @@
           },
           {
             "paraid": 9,
-            "text": "<ul><ul><li>Grid items are the individual elements placed within the grid.</li><li>You position grid items within the grid using properties like `<code>grid-row</code>` and `<code>grid-column</code>`.</li><br/>For example:</ul></ul>"
+            "text": "<ul><ul><li>Grid items are the individual elements placed within the grid.</li></ul></ul>"
+          },
+          {
+            "paraid": 9,
+            "text": "<ul><ul><li>You position grid items within the grid using properties like `<code>grid-row</code>` and `<code>grid-column</code>`.</li><br/>For example:</ul></ul>"
           },
           {
             "paraid": 10,
@@ -2445,7 +2521,11 @@
           },
           {
             "paraid": 12,
-            "text": "<ul><ul><li>Grid lines are the horizontal and vertical lines that define the edges of grid cells and separate tracks.</li><li>You can reference grid lines using line numbers or names when positioning grid items.</li><br/>For example:</ul></ul>"
+            "text": "<ul><ul><li>Grid lines are the horizontal and vertical lines that define the edges of grid cells and separate tracks.</li></ul></ul>"
+          },
+          {
+            "paraid": 12,
+            "text": "<ul><ul><li>You can reference grid lines using line numbers or names when positioning grid items.</li><br/>For example:</ul></ul>"
           },
           {
             "paraid": 13,
@@ -2470,7 +2550,11 @@
           },
           {
             "paraid": 15,
-            "text": "<ul><ul><li>Grid gap is the space between grid tracks and grid items.</li><li>You can set the gap size using the `<code>grid-row-gap</code>` and `<code>grid-column-gap</code>` properties or the shorthand `<code>grid-gap</code>` property.</li><br/>For example:</ul></ul>"
+            "text": "<ul><ul><li>Grid gap is the space between grid tracks and grid items.</li></ul></ul>"
+          },
+          {
+            "paraid": 15,
+            "text": "<ul><ul><li>You can set the gap size using the `<code>grid-row-gap</code>` and `<code>grid-column-gap</code>` properties or the shorthand `<code>grid-gap</code>` property.</li><br/>For example:</ul></ul>"
           },
           {
             "paraid": 16,
@@ -2509,7 +2593,11 @@
           },
           {
             "paraid": 3,
-            "text": "<ul><ul><li>To create a flex layout, you define a flex container by applying the `<code>display: flex;</code>` or `<code>display: inline-flex;</code>` property to an element.</li><li>The flex container serves as the parent element for the flex items within it.</li><br/>For example:</ul></ul>"
+            "text": "<ul><ul><li>To create a flex layout, you define a flex container by applying the `<code>display: flex;</code>` or `<code>display: inline-flex;</code>` property to an element.</li></ul></ul>"
+          },
+          {
+            "paraid": 3,
+            "text": "<ul><ul><li>The flex container serves as the parent element for the flex items within it.</li><br/>For example:</ul></ul>"
           },
           {
             "paraid": 4,
@@ -2534,7 +2622,15 @@
           },
           {
             "paraid": 6,
-            "text": "<ul><ul><li>Flex items are the individual elements placed within the flex container.</li><li>By default, flex items are laid out in a row, and they can wrap to a new line if the container width is insufficient.</li><li>You can control the behavior of flex items using properties such as `<code>flex-grow</code>`, `<code>flex-shrink</code>`, and `<code>flex-basis</code>`.</li><br/>For example:</ul></ul>"
+            "text": "<ul><ul><li>Flex items are the individual elements placed within the flex container.</li></ul></ul>"
+          },
+          {
+            "paraid": 6,
+            "text": "<ul><ul><li>By default, flex items are laid out in a row, and they can wrap to a new line if the container width is insufficient.</li></ul></ul>"
+          },
+          {
+            "paraid": 6,
+            "text": "<ul><ul><li>You can control the behavior of flex items using properties such as `<code>flex-grow</code>`, `<code>flex-shrink</code>`, and `<code>flex-basis</code>`.</li><br/>For example:</ul></ul>"
           },
           {
             "paraid": 7,
@@ -2559,7 +2655,11 @@
           },
           {
             "paraid": 9,
-            "text": "<ul><ul><li>The `<code>flex-direction</code>` property controls the direction of the main axis, which determines how flex items are laid out within the flex container.</li><li>It can have values such as `<code>row</code>` (default), `<code>row-reverse</code>`, `<code>column</code>`, or `<code>column-reverse</code>`.</li><br/>For example:</ul></ul>"
+            "text": "<ul><ul><li>The `<code>flex-direction</code>` property controls the direction of the main axis, which determines how flex items are laid out within the flex container.</li></ul></ul>"
+          },
+          {
+            "paraid": 9,
+            "text": "<ul><ul><li>It can have values such as `<code>row</code>` (default), `<code>row-reverse</code>`, `<code>column</code>`, or `<code>column-reverse</code>`.</li><br/>For example:</ul></ul>"
           },
           {
             "paraid": 10,
@@ -2584,7 +2684,11 @@
           },
           {
             "paraid": 12,
-            "text": "<ul><ul><li>The `<code>justify-content</code>` property determines how flex items are aligned along the main axis of the flex container.</li><li>It can have values like `<code>flex-start</code>` (default), `<code>flex-end</code>`, `<code>center</code>`, `<code>space-between</code>`, `<code>space-around</code>`, or `<code>space-evenly</code>`.</li><br/>For example:</ul></ul>"
+            "text": "<ul><ul><li>The `<code>justify-content</code>` property determines how flex items are aligned along the main axis of the flex container.</li></ul></ul>"
+          },
+          {
+            "paraid": 12,
+            "text": "<ul><ul><li>It can have values like `<code>flex-start</code>` (default), `<code>flex-end</code>`, `<code>center</code>`, `<code>space-between</code>`, `<code>space-around</code>`, or `<code>space-evenly</code>`.</li><br/>For example:</ul></ul>"
           },
           {
             "paraid": 13,
@@ -2609,7 +2713,11 @@
           },
           {
             "paraid": 15,
-            "text": "<ul><ul><li>The `<code>align-items</code>` property controls how flex items are aligned along the cross axis (perpendicular to the main axis) of the flex container.</li><li>It can have values like `<code>stretch</code>` (default), `<code>flex-start</code>`, `<code>flex-end</code>`, `<code>center</code>`, or `<code>baseline</code>`.</li><br/>For example:</ul></ul>"
+            "text": "<ul><ul><li>The `<code>align-items</code>` property controls how flex items are aligned along the cross axis (perpendicular to the main axis) of the flex container.</li></ul></ul>"
+          },
+          {
+            "paraid": 15,
+            "text": "<ul><ul><li>It can have values like `<code>stretch</code>` (default), `<code>flex-start</code>`, `<code>flex-end</code>`, `<code>center</code>`, or `<code>baseline</code>`.</li><br/>For example:</ul></ul>"
           },
           {
             "paraid": 16,
@@ -2634,7 +2742,11 @@
           },
           {
             "paraid": 18,
-            "text": "<ul><ul><li>By default, flex items are laid out in a single line. However, the `<code>flex-wrap</code>` property allows flex items to wrap onto multiple lines if needed.</li><li>It can have values like `<code>nowrap</code>` (default), `<code>wrap</code>`, or `<code>wrap-reverse</code>`.</li><br/>For example:</ul></ul>"
+            "text": "<ul><ul><li>By default, flex items are laid out in a single line. However, the `<code>flex-wrap</code>` property allows flex items to wrap onto multiple lines if needed.</li></ul></ul>"
+          },
+          {
+            "paraid": 18,
+            "text": "<ul><ul><li>It can have values like `<code>nowrap</code>` (default), `<code>wrap</code>`, or `<code>wrap-reverse</code>`.</li><br/>For example:</ul></ul>"
           },
           {
             "paraid": 19,
@@ -2680,7 +2792,11 @@
           },
           {
             "paraid": 3,
-            "text": "<ul><ul><li>The `<code>font-family</code>` property sets the font or typeface for text.</li><li>You can specify multiple font families as fallback options separated by commas.<br/><br/>For example:</li></ul></ul>"
+            "text": "<ul><ul><li>The `<code>font-family</code>` property sets the font or typeface for text.</li></ul></ul>"
+          },
+          {
+            "paraid": 3,
+            "text": "<ul><ul><li>You can specify multiple font families as fallback options separated by commas.<br/><br/>For example:</li></ul></ul>"
           },
           {
             "paraid": 4,
@@ -2705,7 +2821,11 @@
           },
           {
             "paraid": 6,
-            "text": "<ul><ul><li>The `<code>font-size</code>` property sets the size of the text.</li><li>You can use absolute units like pixels (`<code>px</code>`) or relative units like percentages (`<code>%</code>`), `<code>em</code>` or `<code>rem</code>`.<br/><br/>For example:</li></ul></ul>"
+            "text": "<ul><ul><li>The `<code>font-size</code>` property sets the size of the text.</li></ul></ul>"
+          },
+          {
+            "paraid": 6,
+            "text": "<ul><ul><li>You can use absolute units like pixels (`<code>px</code>`) or relative units like percentages (`<code>%</code>`), `<code>em</code>` or `<code>rem</code>`.<br/><br/>For example:</li></ul></ul>"
           },
           {
             "paraid": 7,
@@ -2730,7 +2850,11 @@
           },
           {
             "paraid": 9,
-            "text": "<ul><ul><li>The `<code>font-weight</code>` property sets the boldness of the text.</li><li>It can have values like `<code>normal</code>`, `<code>bold</code>`, `<code>bolder</code>`, `<code>lighter</code>`, or numeric values (`<code>100</code>` to `<code>900</code>`).<br/><br/>For example:</li></ul></ul>"
+            "text": "<ul><ul><li>The `<code>font-weight</code>` property sets the boldness of the text.</li></ul></ul>"
+          },
+          {
+            "paraid": 9,
+            "text": "<ul><ul><li>It can have values like `<code>normal</code>`, `<code>bold</code>`, `<code>bolder</code>`, `<code>lighter</code>`, or numeric values (`<code>100</code>` to `<code>900</code>`).<br/><br/>For example:</li></ul></ul>"
           },
           {
             "paraid": 10,
@@ -2755,7 +2879,11 @@
           },
           {
             "paraid": 12,
-            "text": "<ul><ul><li>The `<code>font-style</code>` property sets the style of the text, such as italic or normal.</li><li>It can have values like `<code>normal</code>`, `<code>italic</code>`, or `<code>oblique</code>`.<br/><br/>For example:</li></ul></ul>"
+            "text": "<ul><ul><li>The `<code>font-style</code>` property sets the style of the text, such as italic or normal.</li></ul></ul>"
+          },
+          {
+            "paraid": 12,
+            "text": "<ul><ul><li>It can have values like `<code>normal</code>`, `<code>italic</code>`, or `<code>oblique</code>`.<br/><br/>For example:</li></ul></ul>"
           },
           {
             "paraid": 13,
@@ -2780,7 +2908,11 @@
           },
           {
             "paraid": 15,
-            "text": "<ul><ul><li>The `<code>text-decoration</code>` property adds decoration to the text, such as underlines or line-through.</li><li>It can have values like `<code>none</code>`, `<code>underline</code>`, `<code>overline</code>`, `<code>line-through</code>`, or a combination of them.<br/><br/>For example:</li></ul></ul>"
+            "text": "<ul><ul><li>The `<code>text-decoration</code>` property adds decoration to the text, such as underlines or line-through.</li></ul></ul>"
+          },
+          {
+            "paraid": 15,
+            "text": "<ul><ul><li>It can have values like `<code>none</code>`, `<code>underline</code>`, `<code>overline</code>`, `<code>line-through</code>`, or a combination of them.<br/><br/>For example:</li></ul></ul>"
           },
           {
             "paraid": 16,
@@ -2805,7 +2937,11 @@
           },
           {
             "paraid": 18,
-            "text": "<ul><ul><li>The `<code>text-transform</code>` property changes the case of the text.</li><li>It can have values like `<code>none</code>`, `<code>uppercase</code>`, `<code>lowercase</code>`, or `<code>capitalize</code>`.<br/><br/>For example:</li></ul></ul>"
+            "text": "<ul><ul><li>The `<code>text-transform</code>` property changes the case of the text.</li></ul></ul>"
+          },
+          {
+            "paraid": 18,
+            "text": "<ul><ul><li>It can have values like `<code>none</code>`, `<code>uppercase</code>`, `<code>lowercase</code>`, or `<code>capitalize</code>`.<br/><br/>For example:</li></ul></ul>"
           },
           {
             "paraid": 19,
@@ -2869,7 +3005,11 @@
           },
           {
             "paraid": 3,
-            "text": "<ul><ul><li>Web fonts come in various formats such as TrueType (.ttf), OpenType (.otf), WOFF (.woff), and WOFF2 (.woff2).</li><li>It's recommended to include multiple font formats to ensure compatibility across different browsers and devices.</li></ul></ul>"
+            "text": "<ul><ul><li>Web fonts come in various formats such as TrueType (.ttf), OpenType (.otf), WOFF (.woff), and WOFF2 (.woff2).</li></ul></ul>"
+          },
+          {
+            "paraid": 3,
+            "text": "<ul><ul><li>It's recommended to include multiple font formats to ensure compatibility across different browsers and devices.</li></ul></ul>"
           },
           {
             "paraid": 4,
@@ -2877,7 +3017,11 @@
           },
           {
             "paraid": 5,
-            "text": "<ul><ul><li>You can host web fonts yourself or use third-party font hosting services like Google Fonts, or Adobe Fonts.</li><li>Hosting services provide easy integration and take care of font delivery, optimization, etc.</li></ul></ul>"
+            "text": "<ul><ul><li>You can host web fonts yourself or use third-party font hosting services like Google Fonts, or Adobe Fonts.</li></ul></ul>"
+          },
+          {
+            "paraid": 5,
+            "text": "<ul><ul><li>Hosting services provide easy integration and take care of font delivery, optimization, etc.</li></ul></ul>"
           },
           {
             "paraid": 6,
@@ -2885,7 +3029,11 @@
           },
           {
             "paraid": 7,
-            "text": "<ul><ul><li>The `<code>@font-face</code>` rule is used to declare custom web fonts and specify their source and properties.</li><li>You define a font name, font source, and font properties within the `<code>@font-face</code>` rule.<br/><br/>For example:</li></ul></ul>"
+            "text": "<ul><ul><li>The `<code>@font-face</code>` rule is used to declare custom web fonts and specify their source and properties.</li></ul></ul>"
+          },
+          {
+            "paraid": 7,
+            "text": "<ul><ul><li>You define a font name, font source, and font properties within the `<code>@font-face</code>` rule.<br/><br/>For example:</li></ul></ul>"
           },
           {
             "paraid": 8,
@@ -2910,7 +3058,11 @@
           },
           {
             "paraid": 10,
-            "text": "<ul><ul><li>Once you have declared the `<code>@font-face</code>` rule, you can use the custom font in your CSS.</li><li>Specify the `<code>font-family</code>` property with the same name you defined in the `<code>@font-face</code>` rule.<br/><br/>For example:</li></ul></ul>"
+            "text": "<ul><ul><li>Once you have declared the `<code>@font-face</code>` rule, you can use the custom font in your CSS.</li></ul></ul>"
+          },
+          {
+            "paraid": 10,
+            "text": "<ul><ul><li>Specify the `<code>font-family</code>` property with the same name you defined in the `<code>@font-face</code>` rule.<br/><br/>For example:</li></ul></ul>"
           },
           {
             "paraid": 11,
@@ -2935,7 +3087,11 @@
           },
           {
             "paraid": 13,
-            "text": "<ul><ul><li>To optimize font loading and rendering, you can use font-display options to control the behavior of fallback fonts while the web font is loading.</li><li>The `<code>font-display</code>` property allows you to specify values like `<code>auto</code>`, `<code>swap</code>`, `<code>block</code>`, `<code>fallback</code>`, or `<code>optional</code>` to define font behavior.<br/><br/>For example:</li></ul></ul>"
+            "text": "<ul><ul><li>To optimize font loading and rendering, you can use font-display options to control the behavior of fallback fonts while the web font is loading.</li></ul></ul>"
+          },
+          {
+            "paraid": 13,
+            "text": "<ul><ul><li>The `<code>font-display</code>` property allows you to specify values like `<code>auto</code>`, `<code>swap</code>`, `<code>block</code>`, `<code>fallback</code>`, or `<code>optional</code>` to define font behavior.<br/><br/>For example:</li></ul></ul>"
           },
           {
             "paraid": 14,
@@ -2986,7 +3142,11 @@
           },
           {
             "paraid": 3,
-            "text": "<ul><ul><li>Use relative units like percentages (`<code>%</code>`), ems (`<code>em</code>`), or rems (`<code>rem</code>`) instead of fixed units like pixels (`<code>px</code>`) for font sizes.</li><li>Relative units scale with the parent element or the root font size, allowing for responsive adjustments.<br/><br/>For example:</li></ul></ul>"
+            "text": "<ul><ul><li>Use relative units like percentages (`<code>%</code>`), ems (`<code>em</code>`), or rems (`<code>rem</code>`) instead of fixed units like pixels (`<code>px</code>`) for font sizes.</li></ul></ul>"
+          },
+          {
+            "paraid": 3,
+            "text": "<ul><ul><li>Relative units scale with the parent element or the root font size, allowing for responsive adjustments.<br/><br/>For example:</li></ul></ul>"
           },
           {
             "paraid": 4,
@@ -3011,7 +3171,11 @@
           },
           {
             "paraid": 6,
-            "text": "<ul><ul><li>Utilize CSS media queries to define different font sizes for specific screen sizes.</li><li>Adjust font sizes based on the available screen width to maintain readability.<br/><br/>For example:</li></ul></ul>"
+            "text": "<ul><ul><li>Utilize CSS media queries to define different font sizes for specific screen sizes.</li></ul></ul>"
+          },
+          {
+            "paraid": 6,
+            "text": "<ul><ul><li>Adjust font sizes based on the available screen width to maintain readability.<br/><br/>For example:</li></ul></ul>"
           },
           {
             "paraid": 7,
@@ -3036,7 +3200,11 @@
           },
           {
             "paraid": 9,
-            "text": "<ul><ul><li>Implement fluid typography by using CSS `<code>calc()</code>` function and viewport units (`<code>vw</code>`, `<code>vh</code>`) to make font sizes responsive to the viewport width or height.</li><li>This approach allows font sizes to scale proportionally as the viewport changes.<br/><br/>For example:</li></ul></ul>"
+            "text": "<ul><ul><li>Implement fluid typography by using CSS `<code>calc()</code>` function and viewport units (`<code>vw</code>`, `<code>vh</code>`) to make font sizes responsive to the viewport width or height.</li></ul></ul>"
+          },
+          {
+            "paraid": 9,
+            "text": "<ul><ul><li>This approach allows font sizes to scale proportionally as the viewport changes.<br/><br/>For example:</li></ul></ul>"
           },
           {
             "paraid": 10,
@@ -3061,7 +3229,11 @@
           },
           {
             "paraid": 12,
-            "text": "<ul><ul><li>Adjust line height (`<code>line-height</code>`) and letter spacing (`<code>letter-spacing</code>`) to ensure comfortable reading and legibility on different devices.</li><li>Relative or unitless values are commonly used to maintain consistent proportions relative to the font size.<br/><br/>For example:</li></ul></ul>"
+            "text": "<ul><ul><li>Adjust line height (`<code>line-height</code>`) and letter spacing (`<code>letter-spacing</code>`) to ensure comfortable reading and legibility on different devices.</li></ul></ul>"
+          },
+          {
+            "paraid": 12,
+            "text": "<ul><ul><li>Relative or unitless values are commonly used to maintain consistent proportions relative to the font size.<br/><br/>For example:</li></ul></ul>"
           },
           {
             "paraid": 13,
@@ -3086,7 +3258,11 @@
           },
           {
             "paraid": 15,
-            "text": "<ul><ul><li>Consider using different font families or font stacks for different screen sizes to optimize readability and maintain visual consistency.</li><li>Choose font families that provide similar aesthetics and proportions across different devices.<br/><br/>For example:</li></ul></ul>"
+            "text": "<ul><ul><li>Consider using different font families or font stacks for different screen sizes to optimize readability and maintain visual consistency.</li></ul></ul>"
+          },
+          {
+            "paraid": 15,
+            "text": "<ul><ul><li>Choose font families that provide similar aesthetics and proportions across different devices.<br/><br/>For example:</li></ul></ul>"
           },
           {
             "paraid": 16,
@@ -3831,7 +4007,15 @@
           },
           {
             "paraid": 3,
-            "text": "<ul><ul><li>Start by choosing a base color that will set the tone for your color scheme.</li><li>Consider the mood, branding, or theme of your website when selecting the base color.</li><li>It can be a primary color from your logo or a color that reflects the desired aesthetic.</li></ul></ul>"
+            "text": "<ul><ul><li>Start by choosing a base color that will set the tone for your color scheme.</li></ul></ul>"
+          },
+          {
+            "paraid": 3,
+            "text": "<ul><ul><li>Consider the mood, branding, or theme of your website when selecting the base color.</li></ul></ul>"
+          },
+          {
+            "paraid": 3,
+            "text": "<ul><ul><li>It can be a primary color from your logo or a color that reflects the desired aesthetic.</li></ul></ul>"
           },
           {
             "paraid": 4,
@@ -3839,7 +4023,19 @@
           },
           {
             "paraid": 5,
-            "text": "<ul><ul><li>Select variations of the base color to create a range of shades, tints, and tones.</li><li>Shades: Darker versions of the base color by adding black or a darker hue.</li><li>Tints: Lighter versions of the base color by adding white or a lighter hue.</li><li>Tones: Desaturated versions of the base color by adding gray.</li></ul></ul>"
+            "text": "<ul><ul><li>Select variations of the base color to create a range of shades, tints, and tones.</li></ul></ul>"
+          },
+          {
+            "paraid": 5,
+            "text": "<ul><ul><li>Shades: Darker versions of the base color by adding black or a darker hue.</li></ul></ul>"
+          },
+          {
+            "paraid": 5,
+            "text": "<ul><ul><li>Tints: Lighter versions of the base color by adding white or a lighter hue.</li></ul></ul>"
+          },
+          {
+            "paraid": 5,
+            "text": "<ul><ul><li>Tones: Desaturated versions of the base color by adding gray.</li></ul></ul>"
           },
           {
             "paraid": 6,
@@ -3847,7 +4043,11 @@
           },
           {
             "paraid": 7,
-            "text": "<ul><ul><li>Utilize online color tools, such as Adobe Color, Coolors, or Color Hunt, to explore and generate color schemes.</li><li>These tools provide predefined color palettes or allow you to create custom schemes based on color harmony principles like complementary, analogous, triadic, or monochromatic.</li></ul></ul>"
+            "text": "<ul><ul><li>Utilize online color tools, such as Adobe Color, Coolors, or Color Hunt, to explore and generate color schemes.</li></ul></ul>"
+          },
+          {
+            "paraid": 7,
+            "text": "<ul><ul><li>These tools provide predefined color palettes or allow you to create custom schemes based on color harmony principles like complementary, analogous, triadic, or monochromatic.</li></ul></ul>"
           },
           {
             "paraid": 8,
@@ -3855,7 +4055,15 @@
           },
           {
             "paraid": 9,
-            "text": "<ul><ul><li>Ensure that the colors in your scheme have enough contrast for readability and accessibility.</li><li>High contrast between text and background is crucial for legibility.</li><li>Use tools like the Web Content Accessibility Guidelines (WCAG) color contrast checker to ensure compliance.</li></ul></ul>"
+            "text": "<ul><ul><li>Ensure that the colors in your scheme have enough contrast for readability and accessibility.</li></ul></ul>"
+          },
+          {
+            "paraid": 9,
+            "text": "<ul><ul><li>High contrast between text and background is crucial for legibility.</li></ul></ul>"
+          },
+          {
+            "paraid": 9,
+            "text": "<ul><ul><li>Use tools like the Web Content Accessibility Guidelines (WCAG) color contrast checker to ensure compliance.</li></ul></ul>"
           },
           {
             "paraid": 10,
@@ -3863,7 +4071,15 @@
           },
           {
             "paraid": 11,
-            "text": "<ul><ul><li>Aim for balance and proportion in your color scheme by distributing colors across various elements.</li><li>Decide which colors will be dominant, secondary, or accent colors.</li><li>Use the 60-30-10 rule: The dominant color should cover 60% of the design, the secondary color 30%, and the accent color 10%.</li></ul></ul>"
+            "text": "<ul><ul><li>Aim for balance and proportion in your color scheme by distributing colors across various elements.</li></ul></ul>"
+          },
+          {
+            "paraid": 11,
+            "text": "<ul><ul><li>Decide which colors will be dominant, secondary, or accent colors.</li></ul></ul>"
+          },
+          {
+            "paraid": 11,
+            "text": "<ul><ul><li>Use the 60-30-10 rule: The dominant color should cover 60% of the design, the secondary color 30%, and the accent color 10%.</li></ul></ul>"
           },
           {
             "paraid": 12,
@@ -3871,7 +4087,15 @@
           },
           {
             "paraid": 13,
-            "text": "<ul><ul><li>Apply your color scheme to a sample webpage or design mockup to see how the colors work together in practice.</li><li>Make adjustments as needed to achieve the desired visual impact and harmony.</li><li>Test the color scheme on different devices and screen sizes to ensure consistency and readability.</li></ul></ul>"
+            "text": "<ul><ul><li>Apply your color scheme to a sample webpage or design mockup to see how the colors work together in practice.</li></ul></ul>"
+          },
+          {
+            "paraid": 13,
+            "text": "<ul><ul><li>Make adjustments as needed to achieve the desired visual impact and harmony.</li></ul></ul>"
+          },
+          {
+            "paraid": 13,
+            "text": "<ul><ul><li>Test the color scheme on different devices and screen sizes to ensure consistency and readability.</li></ul></ul>"
           },
           {
             "paraid": 14,
@@ -3900,7 +4124,11 @@
           },
           {
             "paraid": 4,
-            "text": "<ul><ul><li>The `<code>transition-property</code>` property specifies which CSS properties should be animated or transitioned.</li><li>You can target specific properties like `<code>color</code>`, `<code>background-color</code>`, `<code>opacity</code>`, `<code>width</code>`, etc.<br/><br/>For example:</li></ul></ul>"
+            "text": "<ul><ul><li>The `<code>transition-property</code>` property specifies which CSS properties should be animated or transitioned.</li></ul></ul>"
+          },
+          {
+            "paraid": 4,
+            "text": "<ul><ul><li>You can target specific properties like `<code>color</code>`, `<code>background-color</code>`, `<code>opacity</code>`, `<code>width</code>`, etc.<br/><br/>For example:</li></ul></ul>"
           },
           {
             "paraid": 5,
@@ -3925,7 +4153,11 @@
           },
           {
             "paraid": 7,
-            "text": "<ul><ul><li>The `<code>transition-duration</code>` property sets the duration of the transition in seconds (s) or milliseconds (ms).</li><li>It defines how long the transition effect should take to complete.<br/><br/>For example:</li></ul></ul>"
+            "text": "<ul><ul><li>The `<code>transition-duration</code>` property sets the duration of the transition in seconds (s) or milliseconds (ms).</li></ul></ul>"
+          },
+          {
+            "paraid": 7,
+            "text": "<ul><ul><li>It defines how long the transition effect should take to complete.<br/><br/>For example:</li></ul></ul>"
           },
           {
             "paraid": 8,
@@ -3950,7 +4182,35 @@
           },
           {
             "paraid": 10,
-            "text": "<ul><ul><li>The `<code>transition-timing-function</code>` property determines the speed curve or pace of the transition.</li><li>It controls the acceleration and deceleration of the transition effect.</li><li>Various timing functions are available.</li><li>`<code>ease</code>`: Starts slow, accelerates, and then slows down at the end (default).</li><li>`<code>linear</code>`: Progresses at a constant speed throughout the transition.</li><li>`<code>ease-in</code>`: Starts slow and accelerates.</li><li>`<code>ease-out</code>`: Starts fast and decelerates.</li><li>`<code>ease-in-out</code>`: Starts slow, accelerates, and then decelerates.<br/><br/>For example:</li></ul></ul>"
+            "text": "<ul><ul><li>The `<code>transition-timing-function</code>` property determines the speed curve or pace of the transition.</li></ul></ul>"
+          },
+          {
+            "paraid": 10,
+            "text": "<ul><ul><li>It controls the acceleration and deceleration of the transition effect.</li></ul></ul>"
+          },
+          {
+            "paraid": 10,
+            "text": "<ul><ul><li>Various timing functions are available.</li></ul></ul>"
+          },
+          {
+            "paraid": 10,
+            "text": "<ul><ul><li>`<code>ease</code>`: Starts slow, accelerates, and then slows down at the end (default).</li></ul></ul>"
+          },
+          {
+            "paraid": 10,
+            "text": "<ul><ul><li>`<code>linear</code>`: Progresses at a constant speed throughout the transition.</li></ul></ul>"
+          },
+          {
+            "paraid": 10,
+            "text": "<ul><ul><li>`<code>ease-in</code>`: Starts slow and accelerates.</li></ul></ul>"
+          },
+          {
+            "paraid": 10,
+            "text": "<ul><ul><li>`<code>ease-out</code>`: Starts fast and decelerates.</li></ul></ul>"
+          },
+          {
+            "paraid": 10,
+            "text": "<ul><ul><li>`<code>ease-in-out</code>`: Starts slow, accelerates, and then decelerates.<br/><br/>For example:</li></ul></ul>"
           },
           {
             "paraid": 11,
@@ -3975,7 +4235,11 @@
           },
           {
             "paraid": 13,
-            "text": "<ul><ul><li>The `<code>transition-delay</code>` property specifies a delay before the transition effect starts.</li><li>It allows you to control when the transition begins after an event, such as a hover or click.<br/><br/>For example:</li></ul></ul>"
+            "text": "<ul><ul><li>The `<code>transition-delay</code>` property specifies a delay before the transition effect starts.</li></ul></ul>"
+          },
+          {
+            "paraid": 13,
+            "text": "<ul><ul><li>It allows you to control when the transition begins after an event, such as a hover or click.<br/><br/>For example:</li></ul></ul>"
           },
           {
             "paraid": 14,
@@ -4364,7 +4628,11 @@
           },
           {
             "paraid": 3,
-            "text": "<ul><ul><li>Use CSS transitions to smoothly animate property changes based on user interactions like hover or focus.</li><li>Apply transition effects to elements by specifying the properties to animate and the duration.<br/><br/>For example:</li></ul></ul>"
+            "text": "<ul><ul><li>Use CSS transitions to smoothly animate property changes based on user interactions like hover or focus.</li></ul></ul>"
+          },
+          {
+            "paraid": 3,
+            "text": "<ul><ul><li>Apply transition effects to elements by specifying the properties to animate and the duration.<br/><br/>For example:</li></ul></ul>"
           },
           {
             "paraid": 4,
@@ -4389,7 +4657,11 @@
           },
           {
             "paraid": 6,
-            "text": "<ul><ul><li>CSS animations provide more control and flexibility for complex and interactive animations.</li><li>Define keyframes using `<code>@keyframes</code>` rule and animate elements using the `<code>animation</code>` property.<br/><br/>For example:</li></ul></ul>"
+            "text": "<ul><ul><li>CSS animations provide more control and flexibility for complex and interactive animations.</li></ul></ul>"
+          },
+          {
+            "paraid": 6,
+            "text": "<ul><ul><li>Define keyframes using `<code>@keyframes</code>` rule and animate elements using the `<code>animation</code>` property.<br/><br/>For example:</li></ul></ul>"
           },
           {
             "paraid": 7,
@@ -4414,7 +4686,11 @@
           },
           {
             "paraid": 9,
-            "text": "<ul><ul><li>Use CSS transforms to apply interactive transformations like scaling, rotating, and skewing.</li><li>Combine transforms with transitions or animations to create interactive effects.<br/><br/>For example:</li></ul></ul>"
+            "text": "<ul><ul><li>Use CSS transforms to apply interactive transformations like scaling, rotating, and skewing.</li></ul></ul>"
+          },
+          {
+            "paraid": 9,
+            "text": "<ul><ul><li>Combine transforms with transitions or animations to create interactive effects.<br/><br/>For example:</li></ul></ul>"
           },
           {
             "paraid": 10,
@@ -4439,7 +4715,11 @@
           },
           {
             "paraid": 15,
-            "text": "<ul><ul><li>Use JavaScript to control CSS animations dynamically based on user interactions or events.</li><li>Change animation properties, trigger animations, or toggle classes to create interactive animations.<br/><br/>For example:</li></ul></ul>"
+            "text": "<ul><ul><li>Use JavaScript to control CSS animations dynamically based on user interactions or events.</li></ul></ul>"
+          },
+          {
+            "paraid": 15,
+            "text": "<ul><ul><li>Change animation properties, trigger animations, or toggle classes to create interactive animations.<br/><br/>For example:</li></ul></ul>"
           },
           {
             "paraid": 16,
@@ -4883,7 +5163,11 @@
           },
           {
             "paraid": 3,
-            "text": "<ul><ul><li>Fluid layout uses relative units like percentages for widths and heights instead of fixed pixel values.</li><li>This allows the content to resize proportionally based on the available screen space.<br/><br/>For example:</li></ul></ul>"
+            "text": "<ul><ul><li>Fluid layout uses relative units like percentages for widths and heights instead of fixed pixel values.</li></ul></ul>"
+          },
+          {
+            "paraid": 3,
+            "text": "<ul><ul><li>This allows the content to resize proportionally based on the available screen space.<br/><br/>For example:</li></ul></ul>"
           },
           {
             "paraid": 4,
@@ -4912,7 +5196,15 @@
           },
           {
             "paraid": 7,
-            "text": "<ul><ul><li>The mobile-first approach involves designing and developing for smaller screens first and then progressively enhancing the layout for larger screens.</li><li>This approach prioritizes the mobile experience and ensures that the layout and content are optimized for smaller devices.</li><li>Media queries can be used to apply additional styles as the screen size increases.<br/><br/>For example:</li></ul></ul>"
+            "text": "<ul><ul><li>The mobile-first approach involves designing and developing for smaller screens first and then progressively enhancing the layout for larger screens.</li></ul></ul>"
+          },
+          {
+            "paraid": 7,
+            "text": "<ul><ul><li>This approach prioritizes the mobile experience and ensures that the layout and content are optimized for smaller devices.</li></ul></ul>"
+          },
+          {
+            "paraid": 7,
+            "text": "<ul><ul><li>Media queries can be used to apply additional styles as the screen size increases.<br/><br/>For example:</li></ul></ul>"
           },
           {
             "paraid": 8,
@@ -4941,7 +5233,11 @@
           },
           {
             "paraid": 11,
-            "text": "<ul><ul><li>Flexbox is a powerful CSS layout module that provides flexible options for arranging and aligning elements within a container.</li><li>It simplifies the creation of responsive layouts by offering control over spacing, order, and alignment of elements.<br/><br/>For example:</li></ul></ul>"
+            "text": "<ul><ul><li>Flexbox is a powerful CSS layout module that provides flexible options for arranging and aligning elements within a container.</li></ul></ul>"
+          },
+          {
+            "paraid": 11,
+            "text": "<ul><ul><li>It simplifies the creation of responsive layouts by offering control over spacing, order, and alignment of elements.<br/><br/>For example:</li></ul></ul>"
           },
           {
             "paraid": 12,
@@ -4970,7 +5266,15 @@
           },
           {
             "paraid": 15,
-            "text": "<ul><ul><li>CSS Grid Layout is another layout module that allows for more complex grid-based designs.</li><li>It provides precise control over the positioning and alignment of elements within a grid.</li><li>By defining grid templates and areas, you can create responsive designs that adapt to different screen sizes.<br/><br/>For example:</li></ul></ul>"
+            "text": "<ul><ul><li>CSS Grid Layout is another layout module that allows for more complex grid-based designs.</li></ul></ul>"
+          },
+          {
+            "paraid": 15,
+            "text": "<ul><ul><li>It provides precise control over the positioning and alignment of elements within a grid.</li></ul></ul>"
+          },
+          {
+            "paraid": 15,
+            "text": "<ul><ul><li>By defining grid templates and areas, you can create responsive designs that adapt to different screen sizes.<br/><br/>For example:</li></ul></ul>"
           },
           {
             "paraid": 16,
@@ -4999,7 +5303,15 @@
           },
           {
             "paraid": 19,
-            "text": "<ul><ul><li>Optimizing images for different screen sizes is crucial for responsive layouts.</li><li>The `<code>srcset</code>` attribute and the `<code>sizes</code>` attribute in the `<code>&lt;img&gt;</code>` element enable the browser to select and load the appropriate image based on the screen size and resolution.</li><li>Additionally, CSS techniques like `<code>max-width: 100%;</code>` and `<code>height: auto;</code>` can be applied to ensure images scale proportionally.<br/><br/>For example:</li></ul></ul>"
+            "text": "<ul><ul><li>Optimizing images for different screen sizes is crucial for responsive layouts.</li></ul></ul>"
+          },
+          {
+            "paraid": 19,
+            "text": "<ul><ul><li>The `<code>srcset</code>` attribute and the `<code>sizes</code>` attribute in the `<code>&lt;img&gt;</code>` element enable the browser to select and load the appropriate image based on the screen size and resolution.</li></ul></ul>"
+          },
+          {
+            "paraid": 19,
+            "text": "<ul><ul><li>Additionally, CSS techniques like `<code>max-width: 100%;</code>` and `<code>height: auto;</code>` can be applied to ensure images scale proportionally.<br/><br/>For example:</li></ul></ul>"
           },
           {
             "paraid": 20,
@@ -5028,7 +5340,11 @@
           },
           {
             "paraid": 23,
-            "text": "<ul><ul><li>Making text elements that adapt and adjust their size, line height, and other properties based on the viewport size or device characteristics.</li><li>The goal is to ensure readability and legibility of text across different screen sizes and devices.<br/><br/>For example:</li></ul></ul>"
+            "text": "<ul><ul><li>Making text elements that adapt and adjust their size, line height, and other properties based on the viewport size or device characteristics.</li></ul></ul>"
+          },
+          {
+            "paraid": 23,
+            "text": "<ul><ul><li>The goal is to ensure readability and legibility of text across different screen sizes and devices.<br/><br/>For example:</li></ul></ul>"
           },
           {
             "paraid": 24,
@@ -5078,7 +5394,11 @@
           },
           {
             "paraid": 3,
-            "text": "<ul><ul><li>Consider using a CSS preprocessor like Sass or Less, which provide advanced features like variables, mixins, and nested rules.</li><li>Preprocessors can help you write cleaner and more organized code, making it easier to maintain and update.</li></ul></ul>"
+            "text": "<ul><ul><li>Consider using a CSS preprocessor like Sass or Less, which provide advanced features like variables, mixins, and nested rules.</li></ul></ul>"
+          },
+          {
+            "paraid": 3,
+            "text": "<ul><ul><li>Preprocessors can help you write cleaner and more organized code, making it easier to maintain and update.</li></ul></ul>"
           },
           {
             "paraid": 4,
@@ -5086,7 +5406,11 @@
           },
           {
             "paraid": 5,
-            "text": "<ul><ul><li>Use specific selectors to target elements rather than relying heavily on descendant or child selectors.</li><li>Avoid using overly complex and specific selectors, as they can lead to performance issues and make the code harder to maintain.</li></ul></ul>"
+            "text": "<ul><ul><li>Use specific selectors to target elements rather than relying heavily on descendant or child selectors.</li></ul></ul>"
+          },
+          {
+            "paraid": 5,
+            "text": "<ul><ul><li>Avoid using overly complex and specific selectors, as they can lead to performance issues and make the code harder to maintain.</li></ul></ul>"
           },
           {
             "paraid": 6,
@@ -5094,7 +5418,11 @@
           },
           {
             "paraid": 7,
-            "text": "<ul><ul><li>Be mindful of CSS specificity and avoid overusing or relying solely on inline styles or `<code>!important</code>` declarations.</li><li>Instead, use proper cascading and selector specificity to control the order and priority of styles.</li></ul></ul>"
+            "text": "<ul><ul><li>Be mindful of CSS specificity and avoid overusing or relying solely on inline styles or `<code>!important</code>` declarations.</li></ul></ul>"
+          },
+          {
+            "paraid": 7,
+            "text": "<ul><ul><li>Instead, use proper cascading and selector specificity to control the order and priority of styles.</li></ul></ul>"
           },
           {
             "paraid": 8,
@@ -5102,7 +5430,11 @@
           },
           {
             "paraid": 9,
-            "text": "<ul><ul><li>Organize your CSS into modules or components, making it easier to understand, update, and reuse code.</li><li>Use naming conventions or methodologies like BEM (Block Element Modifier) or SMACSS (Scalable and Modular Architecture for CSS) to structure your CSS code.</li></ul></ul>"
+            "text": "<ul><ul><li>Organize your CSS into modules or components, making it easier to understand, update, and reuse code.</li></ul></ul>"
+          },
+          {
+            "paraid": 9,
+            "text": "<ul><ul><li>Use naming conventions or methodologies like BEM (Block Element Modifier) or SMACSS (Scalable and Modular Architecture for CSS) to structure your CSS code.</li></ul></ul>"
           },
           {
             "paraid": 10,
@@ -5110,7 +5442,11 @@
           },
           {
             "paraid": 11,
-            "text": "<ul><ul><li>Identify common styles and create reusable classes or mixins to reduce code duplication.</li><li>Using utility classes or creating a set of helper classes can make it easier to apply consistent styles throughout your project.</li></ul></ul>"
+            "text": "<ul><ul><li>Identify common styles and create reusable classes or mixins to reduce code duplication.</li></ul></ul>"
+          },
+          {
+            "paraid": 11,
+            "text": "<ul><ul><li>Using utility classes or creating a set of helper classes can make it easier to apply consistent styles throughout your project.</li></ul></ul>"
           },
           {
             "paraid": 12,
@@ -5118,7 +5454,15 @@
           },
           {
             "paraid": 13,
-            "text": "<ul><ul><li>Minimize the use of CSS hacks and unnecessary browser-specific styles, as they can lead to code bloat and compatibility issues.</li><li>Consolidate and concatenate CSS files to reduce HTTP requests and improve loading speed.</li><li>Use tools like CSS minifiers or preprocessors' built-in features to minimize the file size of your stylesheets.</li></ul></ul>"
+            "text": "<ul><ul><li>Minimize the use of CSS hacks and unnecessary browser-specific styles, as they can lead to code bloat and compatibility issues.</li></ul></ul>"
+          },
+          {
+            "paraid": 13,
+            "text": "<ul><ul><li>Consolidate and concatenate CSS files to reduce HTTP requests and improve loading speed.</li></ul></ul>"
+          },
+          {
+            "paraid": 13,
+            "text": "<ul><ul><li>Use tools like CSS minifiers or preprocessors' built-in features to minimize the file size of your stylesheets.</li></ul></ul>"
           },
           {
             "paraid": 14,
@@ -5126,7 +5470,11 @@
           },
           {
             "paraid": 15,
-            "text": "<ul><ul><li>Use comments to provide explanations, document code sections, and provide context for future maintainers.</li><li>Document any complex or non-obvious CSS techniques, hacks, or workarounds to help others understand your code.</li></ul></ul>"
+            "text": "<ul><ul><li>Use comments to provide explanations, document code sections, and provide context for future maintainers.</li></ul></ul>"
+          },
+          {
+            "paraid": 15,
+            "text": "<ul><ul><li>Document any complex or non-obvious CSS techniques, hacks, or workarounds to help others understand your code.</li></ul></ul>"
           },
           {
             "paraid": 16,
@@ -5134,7 +5482,11 @@
           },
           {
             "paraid": 17,
-            "text": "<ul><ul><li>Set aside time to review and refactor your CSS code regularly.</li><li>Look for opportunities to simplify and optimize the codebase, remove unused styles, and improve overall maintainability.</li></ul></ul>"
+            "text": "<ul><ul><li>Set aside time to review and refactor your CSS code regularly.</li></ul></ul>"
+          },
+          {
+            "paraid": 17,
+            "text": "<ul><ul><li>Look for opportunities to simplify and optimize the codebase, remove unused styles, and improve overall maintainability.</li></ul></ul>"
           },
           {
             "paraid": 18,
@@ -5142,7 +5494,11 @@
           },
           {
             "paraid": 19,
-            "text": "<ul><ul><li>Utilize CSS frameworks like Bootstrap or Foundation to speed up development and leverage their pre-built components and responsive grids.</li><li>However, be mindful of the specific needs of your project and avoid including unnecessary styles or components.</li></ul></ul>"
+            "text": "<ul><ul><li>Utilize CSS frameworks like Bootstrap or Foundation to speed up development and leverage their pre-built components and responsive grids.</li></ul></ul>"
+          },
+          {
+            "paraid": 19,
+            "text": "<ul><ul><li>However, be mindful of the specific needs of your project and avoid including unnecessary styles or components.</li></ul></ul>"
           },
           {
             "paraid": 20,
@@ -5150,7 +5506,11 @@
           },
           {
             "paraid": 21,
-            "text": "<ul><ul><li>Perform cross-browser and cross-device testing to ensure your CSS styles work consistently across various platforms and screen sizes.</li><li>Use browser developer tools and testing tools to identify and fix any compatibility issues.</li></ul></ul>"
+            "text": "<ul><ul><li>Perform cross-browser and cross-device testing to ensure your CSS styles work consistently across various platforms and screen sizes.</li></ul></ul>"
+          },
+          {
+            "paraid": 21,
+            "text": "<ul><ul><li>Use browser developer tools and testing tools to identify and fix any compatibility issues.</li></ul></ul>"
           },
           {
             "paraid": 22,
@@ -5172,7 +5532,11 @@
           },
           {
             "paraid": 3,
-            "text": "<ul><ul><li>BEM is a popular naming convention that promotes a modular and descriptive approach to CSS naming.</li><li>Blocks represent standalone components, Elements are parts of blocks, and Modifiers modify the style or behavior of blocks or elements.<br/><br/>For example: `<code>.block</code>`, `<code>.block__element</code>`, `<code>.block--modifier`<code></li></ul></ul>"
+            "text": "<ul><ul><li>BEM is a popular naming convention that promotes a modular and descriptive approach to CSS naming.</li></ul></ul>"
+          },
+          {
+            "paraid": 3,
+            "text": "<ul><ul><li>Blocks represent standalone components, Elements are parts of blocks, and Modifiers modify the style or behavior of blocks or elements.<br/><br/>For example: `<code>.block</code>`, `<code>.block__element</code>`, `<code>.block--modifier`<code></li></ul></ul>"
           },
           {
             "paraid": 4,
@@ -5180,7 +5544,11 @@
           },
           {
             "paraid": 5,
-            "text": "<ul><ul><li>SMACSS is a CSS architecture methodology that provides guidelines for organizing and naming CSS styles.</li><li>It emphasizes separating styles into base, layout, module, state, and theme categories.<br/><br/>For example: `<code>.base-class</code>`, `<code>.layout-class</code>`, `<code>.module-class</code>`, `<code>.is-state</code>`, `<code>.theme-class</code>`</li></ul></ul>"
+            "text": "<ul><ul><li>SMACSS is a CSS architecture methodology that provides guidelines for organizing and naming CSS styles.</li></ul></ul>"
+          },
+          {
+            "paraid": 5,
+            "text": "<ul><ul><li>It emphasizes separating styles into base, layout, module, state, and theme categories.<br/><br/>For example: `<code>.base-class</code>`, `<code>.layout-class</code>`, `<code>.module-class</code>`, `<code>.is-state</code>`, `<code>.theme-class</code>`</li></ul></ul>"
           },
           {
             "paraid": 6,
@@ -5188,7 +5556,11 @@
           },
           {
             "paraid": 7,
-            "text": "<ul><ul><li>OOCSS focuses on separating structure and skin by creating reusable object-oriented CSS classes.</li><li>It encourages the use of utility classes and keeping styles separate from content-specific classes.<br/><br/>For example: `<code>.button</code>`, `<code>.button-primary</code>`, `<code>.button-large</code>`</li></ul></ul>"
+            "text": "<ul><ul><li>OOCSS focuses on separating structure and skin by creating reusable object-oriented CSS classes.</li></ul></ul>"
+          },
+          {
+            "paraid": 7,
+            "text": "<ul><ul><li>It encourages the use of utility classes and keeping styles separate from content-specific classes.<br/><br/>For example: `<code>.button</code>`, `<code>.button-primary</code>`, `<code>.button-large</code>`</li></ul></ul>"
           },
           {
             "paraid": 8,
@@ -5196,7 +5568,11 @@
           },
           {
             "paraid": 9,
-            "text": "<ul><ul><li>Atomic CSS is a naming convention that aims to create small, single-purpose utility classes.</li><li>It focuses on composing styles from smaller, atomic classes to build complex components.<br/><br/>For example: `<code>.m-2</code>` (margin), `<code>.p-4</code>` (padding), `<code>.text-center</code>` (text alignment)</li></ul></ul>"
+            "text": "<ul><ul><li>Atomic CSS is a naming convention that aims to create small, single-purpose utility classes.</li></ul></ul>"
+          },
+          {
+            "paraid": 9,
+            "text": "<ul><ul><li>It focuses on composing styles from smaller, atomic classes to build complex components.<br/><br/>For example: `<code>.m-2</code>` (margin), `<code>.p-4</code>` (padding), `<code>.text-center</code>` (text alignment)</li></ul></ul>"
           },
           {
             "paraid": 10,
@@ -5204,7 +5580,11 @@
           },
           {
             "paraid": 11,
-            "text": "<ul><ul><li>Functional CSS, also known as utility-first CSS, emphasizes using small utility classes for specific styles.</li><li>It focuses on reusable and composable classes that provide specific styling utilities.<br/><br/>For example: `<code>.text-center</code>`, `<code>.bg-blue</code>`, `<code>.border-radius</code>`</li></ul></ul>"
+            "text": "<ul><ul><li>Functional CSS, also known as utility-first CSS, emphasizes using small utility classes for specific styles.</li></ul></ul>"
+          },
+          {
+            "paraid": 11,
+            "text": "<ul><ul><li>It focuses on reusable and composable classes that provide specific styling utilities.<br/><br/>For example: `<code>.text-center</code>`, `<code>.bg-blue</code>`, `<code>.border-radius</code>`</li></ul></ul>"
           },
           {
             "paraid": 12,
@@ -5234,7 +5614,11 @@
           },
           {
             "paraid": 3,
-            "text": "<ul><ul><li>Minify your CSS, JavaScript, and HTML files by removing unnecessary white spaces, comments, and reducing code redundancy.</li><li>Concatenate multiple files into a single file to minimize the number of HTTP requests and reduce load times.</li></ul></ul>"
+            "text": "<ul><ul><li>Minify your CSS, JavaScript, and HTML files by removing unnecessary white spaces, comments, and reducing code redundancy.</li></ul></ul>"
+          },
+          {
+            "paraid": 3,
+            "text": "<ul><ul><li>Concatenate multiple files into a single file to minimize the number of HTTP requests and reduce load times.</li></ul></ul>"
           },
           {
             "paraid": 4,
@@ -5242,7 +5626,15 @@
           },
           {
             "paraid": 5,
-            "text": "<ul><ul><li>Use image compression techniques to reduce file sizes without significant loss of quality.</li><li>Choose the appropriate image format (JPEG, PNG, SVG) based on the image type and requirements.</li><li>Specify image dimensions in your HTML or CSS to prevent layout shifting and improve rendering speed.</li></ul></ul>"
+            "text": "<ul><ul><li>Use image compression techniques to reduce file sizes without significant loss of quality.</li></ul></ul>"
+          },
+          {
+            "paraid": 5,
+            "text": "<ul><ul><li>Choose the appropriate image format (JPEG, PNG, SVG) based on the image type and requirements.</li></ul></ul>"
+          },
+          {
+            "paraid": 5,
+            "text": "<ul><ul><li>Specify image dimensions in your HTML or CSS to prevent layout shifting and improve rendering speed.</li></ul></ul>"
           },
           {
             "paraid": 6,
@@ -5250,7 +5642,11 @@
           },
           {
             "paraid": 7,
-            "text": "<ul><ul><li>Implement browser caching by setting appropriate cache-control headers on your server.</li><li>Utilize HTTP caching mechanisms to cache static resources like CSS, JavaScript, and images, reducing server requests.</li></ul></ul>"
+            "text": "<ul><ul><li>Implement browser caching by setting appropriate cache-control headers on your server.</li></ul></ul>"
+          },
+          {
+            "paraid": 7,
+            "text": "<ul><ul><li>Utilize HTTP caching mechanisms to cache static resources like CSS, JavaScript, and images, reducing server requests.</li></ul></ul>"
           },
           {
             "paraid": 8,
@@ -5258,7 +5654,11 @@
           },
           {
             "paraid": 9,
-            "text": "<ul><ul><li>Implement lazy loading for images, videos, and other non-critical resources that are below the fold or outside the initial viewport.</li><li>Lazy loading delays the loading of these resources until the user scrolls or interacts with them, reducing the initial page load time.</li></ul></ul>"
+            "text": "<ul><ul><li>Implement lazy loading for images, videos, and other non-critical resources that are below the fold or outside the initial viewport.</li></ul></ul>"
+          },
+          {
+            "paraid": 9,
+            "text": "<ul><ul><li>Lazy loading delays the loading of these resources until the user scrolls or interacts with them, reducing the initial page load time.</li></ul></ul>"
           },
           {
             "paraid": 10,
@@ -5266,7 +5666,11 @@
           },
           {
             "paraid": 11,
-            "text": "<ul><ul><li>Utilize CDNs to distribute your static assets across multiple servers located geographically closer to your website visitors.</li><li>CDNs help deliver content faster by serving files from servers that are physically closer to the user.</li></ul></ul>"
+            "text": "<ul><ul><li>Utilize CDNs to distribute your static assets across multiple servers located geographically closer to your website visitors.</li></ul></ul>"
+          },
+          {
+            "paraid": 11,
+            "text": "<ul><ul><li>CDNs help deliver content faster by serving files from servers that are physically closer to the user.</li></ul></ul>"
           },
           {
             "paraid": 12,
@@ -5274,7 +5678,11 @@
           },
           {
             "paraid": 13,
-            "text": "<ul><ul><li>Minimize render-blocking CSS by reducing the number of external stylesheets and placing critical CSS inline.</li><li>Use techniques like asynchronous loading or deferred loading for non-critical CSS to allow the HTML content to render first.</li></ul></ul>"
+            "text": "<ul><ul><li>Minimize render-blocking CSS by reducing the number of external stylesheets and placing critical CSS inline.</li></ul></ul>"
+          },
+          {
+            "paraid": 13,
+            "text": "<ul><ul><li>Use techniques like asynchronous loading or deferred loading for non-critical CSS to allow the HTML content to render first.</li></ul></ul>"
           },
           {
             "paraid": 14,
@@ -5282,7 +5690,11 @@
           },
           {
             "paraid": 15,
-            "text": "<ul><ul><li>Minimize and bundle your JavaScript files to reduce the number of requests and file sizes.</li><li>Place JavaScript at the bottom of your HTML document or use the async or defer attributes to prevent blocking the rendering of the page.</li></ul></ul>"
+            "text": "<ul><ul><li>Minimize and bundle your JavaScript files to reduce the number of requests and file sizes.</li></ul></ul>"
+          },
+          {
+            "paraid": 15,
+            "text": "<ul><ul><li>Place JavaScript at the bottom of your HTML document or use the async or defer attributes to prevent blocking the rendering of the page.</li></ul></ul>"
           },
           {
             "paraid": 16,
@@ -5290,7 +5702,11 @@
           },
           {
             "paraid": 17,
-            "text": "<ul><ul><li>Combine and minimize CSS and JavaScript files to reduce the number of HTTP requests.</li><li>Use CSS sprites for combining small images into a single image file to minimize image requests.</li></ul></ul>"
+            "text": "<ul><ul><li>Combine and minimize CSS and JavaScript files to reduce the number of HTTP requests.</li></ul></ul>"
+          },
+          {
+            "paraid": 17,
+            "text": "<ul><ul><li>Use CSS sprites for combining small images into a single image file to minimize image requests.</li></ul></ul>"
           },
           {
             "paraid": 18,
@@ -5298,7 +5714,11 @@
           },
           {
             "paraid": 19,
-            "text": "<ul><ul><li>Optimize your server configuration and database queries to improve server response times.</li><li>Implement caching mechanisms on the server-side, such as page caching or database query caching.</li></ul></ul>"
+            "text": "<ul><ul><li>Optimize your server configuration and database queries to improve server response times.</li></ul></ul>"
+          },
+          {
+            "paraid": 19,
+            "text": "<ul><ul><li>Implement caching mechanisms on the server-side, such as page caching or database query caching.</li></ul></ul>"
           },
           {
             "paraid": 20,
@@ -5306,7 +5726,11 @@
           },
           {
             "paraid": 21,
-            "text": "<ul><ul><li>Regularly test and analyze your website's performance using tools like Google PageSpeed Insights, GTmetrix, or WebPageTest.</li><li>Identify and address performance bottlenecks, such as large file sizes, slow server response times, or excessive HTTP requests.</li></ul></ul>"
+            "text": "<ul><ul><li>Regularly test and analyze your website's performance using tools like Google PageSpeed Insights, GTmetrix, or WebPageTest.</li></ul></ul>"
+          },
+          {
+            "paraid": 21,
+            "text": "<ul><ul><li>Identify and address performance bottlenecks, such as large file sizes, slow server response times, or excessive HTTP requests.</li></ul></ul>"
           },
           {
             "paraid": 22,
@@ -5328,7 +5752,11 @@
           },
           {
             "paraid": 3,
-            "text": "<ul><ul><li>Test your website on popular web browsers such as Google Chrome, Mozilla Firefox, Microsoft Edge, Safari, and Opera.</li><li>Consider testing on different versions of each browser, as older versions may have varying levels of support for CSS, JavaScript, and HTML features.</li></ul></ul>"
+            "text": "<ul><ul><li>Test your website on popular web browsers such as Google Chrome, Mozilla Firefox, Microsoft Edge, Safari, and Opera.</li></ul></ul>"
+          },
+          {
+            "paraid": 3,
+            "text": "<ul><ul><li>Consider testing on different versions of each browser, as older versions may have varying levels of support for CSS, JavaScript, and HTML features.</li></ul></ul>"
           },
           {
             "paraid": 4,
@@ -5336,7 +5764,11 @@
           },
           {
             "paraid": 5,
-            "text": "<ul><ul><li>Follow web standards and adhere to the official specifications for HTML, CSS, and JavaScript.</li><li>Avoid using browser-specific features or proprietary technologies that may not be supported across all browsers.</li></ul></ul>"
+            "text": "<ul><ul><li>Follow web standards and adhere to the official specifications for HTML, CSS, and JavaScript.</li></ul></ul>"
+          },
+          {
+            "paraid": 5,
+            "text": "<ul><ul><li>Avoid using browser-specific features or proprietary technologies that may not be supported across all browsers.</li></ul></ul>"
           },
           {
             "paraid": 6,
@@ -5344,7 +5776,11 @@
           },
           {
             "paraid": 7,
-            "text": "<ul><ul><li>Implement progressive enhancement, which involves building a solid foundation of functionality that works on all browsers and then adding enhanced features for browsers that support them.</li><li>This ensures that your website remains functional and accessible even on browsers with limited capabilities.</li></ul></ul>"
+            "text": "<ul><ul><li>Implement progressive enhancement, which involves building a solid foundation of functionality that works on all browsers and then adding enhanced features for browsers that support them.</li></ul></ul>"
+          },
+          {
+            "paraid": 7,
+            "text": "<ul><ul><li>This ensures that your website remains functional and accessible even on browsers with limited capabilities.</li></ul></ul>"
           },
           {
             "paraid": 8,
@@ -5352,7 +5788,11 @@
           },
           {
             "paraid": 9,
-            "text": "<ul><ul><li>Employ graceful degradation by starting with a fully-featured design and then selectively removing or simplifying features for browsers that have limited support.</li><li>This ensures that users on older or less capable browsers can still access and navigate your website.</li></ul></ul>"
+            "text": "<ul><ul><li>Employ graceful degradation by starting with a fully-featured design and then selectively removing or simplifying features for browsers that have limited support.</li></ul></ul>"
+          },
+          {
+            "paraid": 9,
+            "text": "<ul><ul><li>This ensures that users on older or less capable browsers can still access and navigate your website.</li></ul></ul>"
           },
           {
             "paraid": 10,
@@ -5360,7 +5800,11 @@
           },
           {
             "paraid": 11,
-            "text": "<ul><ul><li>Use cross-browser testing tools and services that allow you to test your website on multiple browsers and platforms simultaneously.</li><li>These tools help identify and fix any compatibility issues by providing visual comparisons, debugging tools, and insights into browser-specific rendering discrepancies.</li></ul></ul>"
+            "text": "<ul><ul><li>Use cross-browser testing tools and services that allow you to test your website on multiple browsers and platforms simultaneously.</li></ul></ul>"
+          },
+          {
+            "paraid": 11,
+            "text": "<ul><ul><li>These tools help identify and fix any compatibility issues by providing visual comparisons, debugging tools, and insights into browser-specific rendering discrepancies.</li></ul></ul>"
           },
           {
             "paraid": 12,
@@ -5368,7 +5812,11 @@
           },
           {
             "paraid": 13,
-            "text": "<ul><ul><li>Use vendor prefixes (-webkit-, -moz-, -ms-, -o-) when implementing experimental or cutting-edge CSS features that are not fully supported by all browsers.</li><li>However, be aware that vendor prefixes should be used sparingly and should be gradually phased out as browser support improves.</li></ul></ul>"
+            "text": "<ul><ul><li>Use vendor prefixes (-webkit-, -moz-, -ms-, -o-) when implementing experimental or cutting-edge CSS features that are not fully supported by all browsers.</li></ul></ul>"
+          },
+          {
+            "paraid": 13,
+            "text": "<ul><ul><li>However, be aware that vendor prefixes should be used sparingly and should be gradually phased out as browser support improves.</li></ul></ul>"
           },
           {
             "paraid": 14,
@@ -5376,7 +5824,11 @@
           },
           {
             "paraid": 15,
-            "text": "<ul><ul><li>Utilize polyfills or shims to fill in the gaps for missing or unsupported features in older browsers.</li><li>Polyfills are JavaScript libraries that provide support for newer features in older browsers, allowing you to use modern code while maintaining compatibility.</li></ul></ul>"
+            "text": "<ul><ul><li>Utilize polyfills or shims to fill in the gaps for missing or unsupported features in older browsers.</li></ul></ul>"
+          },
+          {
+            "paraid": 15,
+            "text": "<ul><ul><li>Polyfills are JavaScript libraries that provide support for newer features in older browsers, allowing you to use modern code while maintaining compatibility.</li></ul></ul>"
           },
           {
             "paraid": 16,
@@ -5384,7 +5836,11 @@
           },
           {
             "paraid": 17,
-            "text": "<ul><ul><li>Use feature detection techniques instead of browser detection to determine if a specific feature or functionality is supported by the user's browser.</li><li>Libraries like Modernizr can help you detect and adapt to different browser capabilities.</li></ul></ul>"
+            "text": "<ul><ul><li>Use feature detection techniques instead of browser detection to determine if a specific feature or functionality is supported by the user's browser.</li></ul></ul>"
+          },
+          {
+            "paraid": 17,
+            "text": "<ul><ul><li>Libraries like Modernizr can help you detect and adapt to different browser capabilities.</li></ul></ul>"
           },
           {
             "paraid": 18,
@@ -5392,7 +5848,11 @@
           },
           {
             "paraid": 19,
-            "text": "<ul><ul><li>Stay updated with the latest versions of web browsers and their release notes to understand any changes or updates that may affect your website's compatibility.</li><li>Regularly check for known browser bugs, issues, or workarounds, and apply appropriate fixes as needed.</li></ul></ul>"
+            "text": "<ul><ul><li>Stay updated with the latest versions of web browsers and their release notes to understand any changes or updates that may affect your website's compatibility.</li></ul></ul>"
+          },
+          {
+            "paraid": 19,
+            "text": "<ul><ul><li>Regularly check for known browser bugs, issues, or workarounds, and apply appropriate fixes as needed.</li></ul></ul>"
           },
           {
             "paraid": 20,
@@ -5400,7 +5860,11 @@
           },
           {
             "paraid": 21,
-            "text": "<ul><ul><li>Conduct user testing on different browsers and devices to gather feedback and identify any cross-browser compatibility issues that may have been missed during development.</li><li>Pay attention to user-reported issues and address them promptly to ensure a positive user experience.</li></ul></ul>"
+            "text": "<ul><ul><li>Conduct user testing on different browsers and devices to gather feedback and identify any cross-browser compatibility issues that may have been missed during development.</li></ul></ul>"
+          },
+          {
+            "paraid": 21,
+            "text": "<ul><ul><li>Pay attention to user-reported issues and address them promptly to ensure a positive user experience.</li></ul></ul>"
           },
           {
             "paraid": 22,

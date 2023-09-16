@@ -496,7 +496,27 @@
           },
           {
             "paraid": 4,
-            "text": "<ul><ul><li>`<code>&lt;title&gt;</code>`: The `<code>&lt;title&gt;</code>` tag is used to define the title of the web page. The title is displayed in the browser's title bar or tab.</li><li>`<code>&lt;meta&gt;</code>`: The `<code>&lt;meta&gt;</code>` tag is used to specify metadata about the web page, such as the character encoding, description, and keywords.</li><li>`<code>&lt;link&gt;</code>`: The `<code>&lt;link&gt;</code>` tag is used to link to external resources, such as CSS stylesheets and JavaScript files.</li><li>`<code>&lt;style&gt;</code>`: The `<code>&lt;style&gt;</code>` tag is used to define CSS styles for the web page.</li><li>`<code>&lt;script&gt;</code>`: The `<code>&lt;script&gt;</code>` tag is used to include JavaScript code in the web page.</li></ul></ul>"
+            "text": "<ul><ul><li>`<code>&lt;title&gt;</code>`: The `<code>&lt;title&gt;</code>` tag is used to define the title of the web page. The title is displayed in the browser's title bar or tab.</li></ul></ul>"
+          },
+          {
+            "paraid": 4,
+            "text": "<ul><ul><li>`<code>&lt;meta&gt;</code>`: The `<code>&lt;meta&gt;</code>` tag is used to specify metadata about the web page, such as the character encoding, description, and keywords.</li></ul></ul>"
+          },
+          {
+            "paraid": 4,
+            "text": "<ul><ul><li>`<code>&lt;link&gt;</code>`: The `<code>&lt;link&gt;</code>` tag is used to link to external resources, such as CSS stylesheets and JavaScript files.</li></ul></ul>"
+          },
+          {
+            "paraid": 4,
+            "text": "<ul><ul><li>`<code>&lt;style&gt;</code>`: The `<code>&lt;style&gt;</code>` tag is used to define CSS styles for the web page.</li></ul></ul>"
+          },
+          {
+            "paraid": 4,
+            "text": "<ul><ul><li>`<code>&lt;script&gt;</code>`: The `<code>&lt;script&gt;</code>` tag is used to include JavaScript code in the web page.</li></ul></ul>"
+          },
+          {
+            "paraid": 4,
+            "text": "<ul><ul><li>`<code>&lt;script&gt;</code>`: The `<code>&lt;script&gt;</code>` tag is used to include JavaScript code in the web page.</li></ul></ul>"
           },
           {
             "paraid": 5,
@@ -533,7 +553,23 @@
           },
           {
             "paraid": 9,
-            "text": "<ul><ul><li>Headings (`<code>&lt;h1&gt;</code>`-`<code>&lt;h6&gt;</code>`): Headings are used to indicate the importance and hierarchy of headings on a web page.</li><li>Paragraphs (`<code>&lt;p&gt;</code>`): Paragraphs are used to enclose blocks of text.</li><li>Links (`<code>&lt;a&gt;</code>`): Links are used to create hyperlinks to other web pages or resources.</li><li>Images (`<code>&lt;img&gt;</code>`): Images are used to display graphics on a web page.</li><li>Lists (`<code>&lt;ul&gt;</code>`, `<code>&lt;ol&gt;</code>`, `<code>&lt;li&gt;</code>`): Lists are used to create ordered or unordered lists of items.</li></ul></ul>"
+            "text": "<ul><ul><li>Headings (`<code>&lt;h1&gt;</code>`-`<code>&lt;h6&gt;</code>`): Headings are used to indicate the importance and hierarchy of headings on a web page.</li></ul></ul>"
+          },
+          {
+            "paraid": 9,
+            "text": "<ul><ul><li>Paragraphs (`<code>&lt;p&gt;</code>`): Paragraphs are used to enclose blocks of text.</li></ul></ul>"
+          },
+          {
+            "paraid": 9,
+            "text": "<ul><ul><li>Links (`<code>&lt;a&gt;</code>`): Links are used to create hyperlinks to other web pages or resources.</li></ul></ul>"
+          },
+          {
+            "paraid": 9,
+            "text": "<ul><ul><li>Images (`<code>&lt;img&gt;</code>`): Images are used to display graphics on a web page.</li></ul></ul>"
+          },
+          {
+            "paraid": 9,
+            "text": "<ul><ul><li>Lists (`<code>&lt;ul&gt;</code>`, `<code>&lt;ol&gt;</code>`, `<code>&lt;li&gt;</code>`): Lists are used to create ordered or unordered lists of items.</li></ul></ul>"
           },
           {
             "paraid": 10,
