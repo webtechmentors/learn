@@ -881,11 +881,11 @@ export const js_3_1_2_1 =
 
 export const js_3_1_3 =
 `// Global variable
-let globalVariable = 'I\'m a global variable';
+let globalVariable = 'I am a global variable';
 
 function exampleFunction() {
   // Local variable
-  let localVariable = 'I\'m a local variable';
+  let localVariable = 'I am a local variable';
 }`;
 
 export const js_3_1_3_1 =
@@ -897,11 +897,11 @@ export const js_3_1_3_1 =
   <script src="assets/js/utils.js"></script>
   <script>
     // Global variable
-    let globalVariable = 'I\'m a global variable';
+    let globalVariable = 'I am a global variable';
     
     function exampleFunction() {
       // Local variable
-      let localVariable = 'I\'m a local variable';
+      let localVariable = 'I am a local variable';
     
       console.log(globalVariable); // Accessing the global variable
       console.log(localVariable); // Accessing the local variable
@@ -946,7 +946,7 @@ export const js_3_1_4_1 =
 
 export const js_3_1_5 =
 `function outerFunction() {
-  let outerVariable = 'I\'m an outer variable';
+  let outerVariable = 'I am an outer variable';
 
   function innerFunction() {
     console.log(outerVariable); // Accessing the outer variable from the inner function
@@ -959,7 +959,7 @@ export const js_3_1_5 =
 let closure = outerFunction();
 
 // Calling the inner function, which still has access to the outer variable
-closure(); // Output: I'm an outer variable`;
+closure(); // Output: I am an outer variable`;
 
 export const js_3_1_5_1 =
 `<!DOCTYPE html>
@@ -970,7 +970,7 @@ export const js_3_1_5_1 =
   <script src="assets/js/utils.js"></script>
   <script>
     function outerFunction() {
-      let outerVariable = 'I\'m an outer variable';
+      let outerVariable = 'I am an outer variable';
     
       function innerFunction() {
         console.log(outerVariable); // Accessing the outer variable from the inner function
@@ -983,7 +983,7 @@ export const js_3_1_5_1 =
     let closure = outerFunction();
     
     // Calling the inner function, which still has access to the outer variable
-    closure(); // Output: I'm an outer variable
+    closure(); // Output: I am an outer variable
   </script>
 </head>
 <body>
