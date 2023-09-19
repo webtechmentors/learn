@@ -48,6 +48,6 @@ console.error = function (...objects) {
 function write(segment) {
   let body = document.body;
   let div = document.createElement('div');
-  div.textContent = segment;
+  div.innerHTML = segment;
   body.appendChild(div);
 }
