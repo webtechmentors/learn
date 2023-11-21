@@ -204,3 +204,5 @@ https://www.webtechmentors.com/en/npm/chapter/6/section/2
 https://www.webtechmentors.com/en/npm/chapter/6/section/3
 https://www.webtechmentors.com/en/npm/chapter/7/section/1
 https://www.webtechmentors.com/en/npm/chapter/7/section/2
+https://www.webtechmentors.com/en/npm/chapter/8/section/1
+https://www.webtechmentors.com/en/npm/chapter/8/section/2
