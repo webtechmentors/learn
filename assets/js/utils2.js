@@ -35,15 +35,15 @@ function log(...args) {
     for (let i = 0; i <= keys.length - 1; i++ ) {
       if (typeof obj[keys[i]] === 'object' && obj[keys[i]] !== null) {
         if (i < keys.length - 1) {
-          result += `${log(obj[keys[i]])}, `;
+          result += `${keys[i]}: ${log(obj[keys[i]])}, `;
         } else {
-          result += `${log(obj[keys[i]])}`;
+          result += `${keys[i]}: ${log(obj[keys[i]])}`;
         }
       } else if (Array.isArray(obj[keys[i]])) {
         if (i < keys.length - 1) {
-          result += `${log(obj[keys[i]])}, `;
+          result += `${keys[i]}: ${log(obj[keys[i]])}, `;
         } else {
-          result += `${log(obj[keys[i]])}`;
+          result += `${keys[i]}: ${log(obj[keys[i]])}`;
         }
       } else if (typeof obj[keys[i]] === 'function') {
         if (i < keys.length - 1) {
@@ -66,7 +66,7 @@ function log(...args) {
       }
     }
 
-    return `{${result}}`;
+    return `{ ${result} }`;
   }
 
   if (args?.length === 1 && Array.isArray(args[0])) {

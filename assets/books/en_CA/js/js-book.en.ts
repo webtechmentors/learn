@@ -640,7 +640,7 @@ export const jsBook =
             },
             {
               "paraid": 1,
-              "text": "<ul><ul>These include numbers, strings, booleans (true or false), undefined (a variable not yet defined), and null (a deliberate non-value).</ul></ul>"
+              "text": "<ul><ul>These include numbers, strings, booleans (`<code>true</code>` or `<code>false</code>`), `<code>undefined</code>` (a variable not yet defined), and `<code>null</code>` (a deliberate non-value).</ul></ul>"
             },
             {
               "paraid": 1,
@@ -2920,7 +2920,7 @@ export const jsBook =
             },
             {
               "paraid": 1,
-              "text": "<ul><ul>Using `<code>call</code>`, `<code>apply</code>`, or `<code>bind</code>` methods, you can set the value of this explicitly.</ul></ul>"
+              "text": "<ul><ul>Using `<code>call</code>`, `<code>apply</code>`, or `<code>bind</code>` methods, you can set the value of `<code>this</code>` explicitly.</ul></ul>"
             },
             {
               "paraid": 1,
@@ -3002,7 +3002,7 @@ export const jsBook =
             },
             {
               "paraid": 1,
-              "text": "<ul><ul><li><strong>Non-Arrow Functions</strong></li></ul></ul>"
+              "text": "<ul><ul><li><strong>Non-Arrow Functions Only</strong></li></ul></ul>"
             },
             {
               "paraid": 1,
@@ -5600,7 +5600,7 @@ export const jsBook =
             },
             {
               "paraid": 1,
-              "text": "<ul><ul><ul>You can easily get the size of the map using the .size property.</ul></ul></ul>"
+              "text": "<ul><ul><ul>You can easily get the size of the map using the `<code>size</code>` property.</ul></ul></ul>"
             },
             {
               "paraid": 1,

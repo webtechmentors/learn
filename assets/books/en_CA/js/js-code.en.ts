@@ -923,7 +923,7 @@ export const js_5_1_18 =
 `let text = 'Hello';
 
 for (const char of text) {
-    console.log(char);
+  console.log(char);
 }
 `;
 
@@ -1069,8 +1069,9 @@ export const js_5_2_12_1 = getOutput(js_5_2_12);
 
 export const js_5_2_13 =
 `let fruits = ['apple', 'banana'];
-fruits.push('orange'); // fruits is now ['apple', 'banana', 'orange']
+let newLength = fruits.push('orange');
 
+console.log(newLength); // Outputs: 3
 console.log(fruits); // Outputs: ['apple', 'banana', 'orange']`;
 
 export const js_5_2_13_1 = getOutput(js_5_2_13);
@@ -1085,10 +1086,11 @@ console.log(fruits); // Outputs: ['apple', 'banana']`;
 export const js_5_2_14_1 = getOutput(js_5_2_14);
 
 export const js_5_2_15 =
-`let fruits = ['apple', 'banana', 'cherry'];
-fruits.unshift('strawberry'); // fruits is now ['strawberry', 'apple', 'banana', 'orange']
+`let fruits = ['apple', 'banana'];
+let newLength = fruits.unshift('strawberry');
 
-console.log(fruits); // Outputs: ['strawberry', 'apple', 'banana', 'orange']`;
+console.log(newLength); // Outputs: 3
+console.log(fruits); // Outputs: ['strawberry', 'apple', 'banana']`;
 
 export const js_5_2_15_1 = getOutput(js_5_2_15);
 
@@ -1188,9 +1190,9 @@ export const js_5_2_26_1 = getOutput(js_5_2_26);
 
 export const js_5_2_27 =
 `let fruits = ['apple', 'banana', 'cherry'];
-let fruitsString = fruits.join(', '); // 'apple, banana, orange'
+let fruitsString = fruits.join(', '); // 'apple, banana, cherry'
 
-console.log(fruitsString); // Outputs: 'apple, banana, orange'`;
+console.log(fruitsString); // Outputs: apple, banana, cherry`;
 
 export const js_5_2_27_1 = getOutput(js_5_2_27);
 
@@ -1259,9 +1261,8 @@ export const js_5_3_3 =
 }; \n\
 \n\
 console.log(person.fullName); // Outputs: Alice Smith \n\
-\n\
 person.fullName = 'John Doe'; // Resets fullName \n\
-console.log(person.fullName); // Outputs: John Smith";
+console.log(person.fullName); // Outputs: John Doe";
 
 export const js_5_3_3_1 = getOutput(js_5_3_3);
 
@@ -1399,8 +1400,7 @@ export const js_5_3_14 =
 };
 
 console.log(person['name']); // Outputs: John Doe
-// When the property name is stored in a variable
-let key = 'age';
+let key = 'age'; // When the property name is stored in a variable
 console.log(person[key]); // Outputs: 30`;
 
 export const js_5_3_14_1 = getOutput(js_5_3_14);
@@ -1487,16 +1487,22 @@ console.log(person.age); // Outputs: 25`;
 export const js_5_3_20_1 = getOutput(js_5_3_20);
 
 export const js_5_3_21 =
-`Object.defineProperties(person, {
+`let person = {};
+
+Object.defineProperties(person, {
   'firstName': {
     value: 'Alice',
-    writable: true
+    writable: true,
+    enumerable: true
   },
   'lastName': {
     value: 'Johnson',
-    writable: false
+    writable: false,
+    enumerable: true
   }
-});`;
+});
+
+console.log(person); // Outputs: { firstName: 'Alice', lastName: 'Johnson' }`;
 
 export const js_5_3_21_1 = getOutput(js_5_3_21);
 
@@ -1511,7 +1517,7 @@ Object.defineProperty(person, 'age', {
 });
 
 let descriptor = Object.getOwnPropertyDescriptor(person, 'age');
-console.log(descriptor); // Outputs: {value: 25, writable: false, enumerable: true, configurable: false}`;
+console.log(descriptor); // Outputs: { value: 25, writable: false, enumerable: true, configurable: false }`;
 
 export const js_5_3_22_1 = getOutput(js_5_3_22);
 
