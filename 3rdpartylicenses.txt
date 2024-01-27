@@ -66,6 +66,9 @@ MIT
 @angular/router
 MIT
 
+@ngx-translate/core
+MIT
+
 highlight.js
 BSD-3-Clause
 BSD 3-Clause License
