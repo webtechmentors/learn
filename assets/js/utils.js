@@ -19,6 +19,10 @@ function log(...args) {
     return args[0];
   }
 
+  if (args?.length === 1 && typeof args[0] === 'symbol') {
+    return args[0].toString();
+  }
+
   if (args?.length === 1 && typeof args[0] === 'object' && args[0] instanceof Date) {
     return args[0].toString();
   }
@@ -59,9 +63,9 @@ function log(...args) {
         }
       } else {
         if (i < keys.length - 1) {
-          result += `${keys[i]}: ${obj[keys[i]]}, `;
+          result += `${keys[i]}: ${obj[keys[i]].toString()}, `;
         } else {
-          result += `${keys[i]}: ${obj[keys[i]]}`;
+          result += `${keys[i]}: ${obj[keys[i]].toString()}`;
         }
       }
     }
@@ -100,9 +104,9 @@ function log(...args) {
         }
       } else {
         if (i < array.length - 1) {
-          result += `${array[i]}, `;
+          result += `${array[i].toString()}, `;
         } else {
-          result += `${array[i]}`;
+          result += `${array[i].toString()}`;
         }
       }
     }
